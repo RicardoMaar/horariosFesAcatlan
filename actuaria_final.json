@@ -1,0 +1,36 @@
+{
+  "carreras": {
+    "20321": {
+      "codigo": "20321",
+      "nombre": "Actuaría",
+      "materias": {
+        "2049": {
+          "nombre": "EVALUACION DE PROYECTOS",
+          "semestre": "40",
+          "grupos": [
+            {
+              "grupo": "2855",
+              "profesor": "VENEGAS DEL ANGEL ALEJANDRO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "INF.EN JEFA"
+            }
+          ]
+        }
+      },
+      "ultima_actualizacion": "2025-06-08T03:12:03.098965"
+    }
+  }
+}

@@ -1,0 +1,784 @@
+{
+  "carreras": {
+    "20321": {
+      "codigo": "20321",
+      "nombre": "Actuaría",
+      "materias": {
+        "2118": {
+          "nombre": "ALGEBRA SUPERIOR I",
+          "semestre": "01",
+          "grupos": [
+            {
+              "grupo": "21012111",
+              "profesor": "CARDENAS",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "MARTINEZ NELLI                     A-113,A-113"
+            }
+          ]
+        },
+        "2218": {
+          "nombre": "BASES DE D",
+          "semestre": "02",
+          "grupos": [
+            {
+              "grupo": "22012211",
+              "profesor": "CAUICH",
+              "horarios": [],
+              "salon": "GARCIA RICARDO ALEXIS                INF.EN JEFA"
+            },
+            {
+              "grupo": "22032211",
+              "profesor": "VILLEGAS",
+              "horarios": [],
+              "salon": "JUAREZ VIRGINIA                    A-111,A-114"
+            },
+            {
+              "grupo": "22522211",
+              "profesor": "FLORES",
+              "horarios": [],
+              "salon": "VELASCO JANEHT                       A-111"
+            }
+          ]
+        },
+        "2220": {
+          "nombre": "INGLES I",
+          "semestre": "02",
+          "grupos": [
+            {
+              "grupo": "22012211",
+              "profesor": "ALVARADO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "RODRIGUEZ MOISES ULISES            A-205,A-205"
+            },
+            {
+              "grupo": "22022211",
+              "profesor": "CAMPOS",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "13:00",
+                  "fin": "15:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "13:00",
+                  "fin": "15:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "13:00",
+                  "fin": "15:00"
+                }
+              ],
+              "salon": "RODRIGUEZ LUZ MARIA                  A103"
+            },
+            {
+              "grupo": "22032211",
+              "profesor": "ALVARADO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "RODRIGUEZ MOISES ULISES            A-102,A-103"
+            },
+            {
+              "grupo": "22512211",
+              "profesor": "HERNANDEZ",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "SANCHEZ SILVIA                    INF.EN JEFA"
+            }
+          ]
+        },
+        "2217": {
+          "nombre": "A",
+          "semestre": "02",
+          "grupos": [
+            {
+              "grupo": "22032211",
+              "profesor": "LOPEZ",
+              "horarios": [],
+              "salon": "GONZALEZ EDUARDO                      INF.EN JEFA"
+            }
+          ]
+        },
+        "2221": {
+          "nombre": "PROBLEMAS SOCIOECON.MEXICO A",
+          "semestre": "02",
+          "grupos": [
+            {
+              "grupo": "22042217",
+              "profesor": "LUNA",
+              "horarios": [
+                {
+                  "dia": "SA",
+                  "dia_nombre": "Sábado",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "DIAZ JUAN CARLOS                       A-115"
+            }
+          ]
+        },
+        "2219": {
+          "nombre": "GEOMETRIA A",
+          "semestre": "02",
+          "grupos": [
+            {
+              "grupo": "22522211",
+              "profesor": "MARTINEZ",
+              "horarios": [],
+              "salon": "IRENEO ALEJANDRO                   A-"
+            }
+          ]
+        },
+        "2313": {
+          "nombre": "PROBABILIDAD I",
+          "semestre": "03",
+          "grupos": [
+            {
+              "grupo": "23512215",
+              "profesor": "TAPIA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "MARTINEZ OMAR ALEJANDRO               A-115"
+            }
+          ]
+        },
+        "2315": {
+          "nombre": "ALGEBRA LINEAL I",
+          "semestre": "03",
+          "grupos": [
+            {
+              "grupo": "23512215",
+              "profesor": "RODRIGUEZ",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "CASTRO ERICK IVAN                 INF.EN JEFA"
+            }
+          ]
+        },
+        "2412": {
+          "nombre": "ESTADISTICA I",
+          "semestre": "04",
+          "grupos": [
+            {
+              "grupo": "24012312",
+              "profesor": "HERRERA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "13:00",
+                  "fin": "15:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "13:00",
+                  "fin": "15:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "13:00",
+                  "fin": "15:00"
+                }
+              ],
+              "salon": "MALDONADO MAHIL                     INF.EN JEFA"
+            },
+            {
+              "grupo": "24022312",
+              "profesor": "ERDELY",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "RUIZ ARTURO                          INF.EN JEFA"
+            },
+            {
+              "grupo": "24512312",
+              "profesor": "PALMA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "COCA OSWALDO                          A102"
+            }
+          ]
+        },
+        "2511": {
+          "nombre": "INVESTIGACION DE OPERACIONES I",
+          "semestre": "04",
+          "grupos": [
+            {
+              "grupo": "24012312",
+              "profesor": "SUAREZ",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "MADARIAGA JORGE LUIS                 INF.EN JEFA"
+            },
+            {
+              "grupo": "24022312",
+              "profesor": "ESQUIVEL",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "13:00",
+                  "fin": "16:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "13:00",
+                  "fin": "16:00"
+                }
+              ],
+              "salon": "PICHARDO MARCO ANTONIO             INF.EN JEFA"
+            },
+            {
+              "grupo": "24522312",
+              "profesor": "LOPEZ",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "BLANCO AIDA                           A-104"
+            },
+            {
+              "grupo": "24532312",
+              "profesor": "GALINDO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "CUEVAS JESUS GIL                    A-116,A-114"
+            }
+          ]
+        },
+        "2416": {
+          "nombre": "INGLES I",
+          "semestre": "04",
+          "grupos": [
+            {
+              "grupo": "24512312",
+              "profesor": "ALVARADO",
+              "horarios": [],
+              "salon": "RODRIGUEZ MOISES ULISES            A116"
+            }
+          ]
+        },
+        "2415": {
+          "nombre": "A",
+          "semestre": "04",
+          "grupos": [
+            {
+              "grupo": "24532312",
+              "profesor": "BAUTISTA",
+              "horarios": [],
+              "salon": "MENDOZA GAMALIEL                   INF.EN JEFA"
+            }
+          ]
+        },
+        "2612": {
+          "nombre": "E",
+          "semestre": "05",
+          "grupos": [
+            {
+              "grupo": "25012413",
+              "profesor": "TORRES",
+              "horarios": [],
+              "salon": "RAMOS INGRID CHANTAL                 A102"
+            }
+          ]
+        },
+        "2617": {
+          "nombre": "APLICACION A LAS MATEMATIC.F",
+          "semestre": "06",
+          "grupos": [
+            {
+              "grupo": "26022512",
+              "profesor": "MARTINEZ",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "13:00",
+                  "fin": "15:00"
+                }
+              ],
+              "salon": "TOLENTINO ESPARTACO                A-"
+            },
+            {
+              "grupo": "26032616",
+              "profesor": "VARGAS",
+              "horarios": [
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "CARRANZA ALDO MAURICIO               A-103,A-103"
+            },
+            {
+              "grupo": "26512512",
+              "profesor": "CASTELAN",
+              "horarios": [
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "VITE JESUS NOEL                    INF.EN JEFA"
+            },
+            {
+              "grupo": "26532616",
+              "profesor": "HERNANDEZ",
+              "horarios": [
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "MARTINEZ ROBERT                   A-"
+            }
+          ]
+        },
+        "2618": {
+          "nombre": "ECONOMIA MATEMATICA I",
+          "semestre": "06",
+          "grupos": [
+            {
+              "grupo": "26032616",
+              "profesor": "VERA",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "MORENO ARTURO                          INF.EN JEFA"
+            },
+            {
+              "grupo": "26522616",
+              "profesor": "DELGADO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "JUAREZ GABRIEL                      INF.EN JEFA"
+            }
+          ]
+        },
+        "2619": {
+          "nombre": "ESTADISTICA I",
+          "semestre": "06",
+          "grupos": [
+            {
+              "grupo": "26512512",
+              "profesor": "TORRES",
+              "horarios": [],
+              "salon": "RAMOS INGRID CHANTAL                 INF.EN JEFA"
+            }
+          ]
+        },
+        "2620": {
+          "nombre": "INGLES V",
+          "semestre": "06",
+          "grupos": [
+            {
+              "grupo": "26522616",
+              "profesor": "HERNANDEZ",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "SANCHEZ SILVIA                    INF.EN JEFA"
+            },
+            {
+              "grupo": "26532616",
+              "profesor": "HERNANDEZ",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "SANCHEZ SILVIA                    A102"
+            }
+          ]
+        },
+        "2814": {
+          "nombre": "MATEMATICAS A",
+          "semestre": "08",
+          "grupos": [
+            {
+              "grupo": "28512813",
+              "profesor": "PERALTA",
+              "horarios": [],
+              "salon": "BETANCOURT JAVIER                   INF.EN JEFA"
+            },
+            {
+              "grupo": "28522813",
+              "profesor": "MORENO",
+              "horarios": [],
+              "salon": "SANCHEZ FRANCISCO                    INF.EN JEFA"
+            },
+            {
+              "grupo": "28532813",
+              "profesor": "ROSAS",
+              "horarios": [],
+              "salon": "GARCIA ERNESTO                        INF.EN JEFA"
+            }
+          ]
+        },
+        "2815": {
+          "nombre": "SEMINARIO DE I",
+          "semestre": "08",
+          "grupos": [
+            {
+              "grupo": "28512813",
+              "profesor": "GONZALEZ",
+              "horarios": [],
+              "salon": "VIDEGARAY MA. DEL CARMEN           INF.EN JEFA"
+            },
+            {
+              "grupo": "28522813",
+              "profesor": "JUAREZ",
+              "horarios": [],
+              "salon": "CHAVEZ AARON                         INF.EN JEFA"
+            },
+            {
+              "grupo": "28532813",
+              "profesor": "ROMERO",
+              "horarios": [],
+              "salon": "RUIZ ANTONIO                         INF.EN JEFA"
+            }
+          ]
+        },
+        "2032": {
+          "nombre": "ANALISIS DE R",
+          "semestre": "40",
+          "grupos": [
+            {
+              "grupo": "28512031",
+              "profesor": "MARTINEZ",
+              "horarios": [],
+              "salon": "ELIZALDE ALEJANDRO LEONEL          INF.EN JEFA"
+            }
+          ]
+        },
+        "2068": {
+          "nombre": "R",
+          "semestre": "40",
+          "grupos": [
+            {
+              "grupo": "28522036",
+              "profesor": "VIDAL",
+              "horarios": [],
+              "salon": "GUTIERREZ MIRAVI REBECA               INF.EN JEFA"
+            }
+          ]
+        },
+        "2040": {
+          "nombre": "MATEMATICAS A",
+          "semestre": "40",
+          "grupos": [
+            {
+              "grupo": "28532033",
+              "profesor": "GARCIA",
+              "horarios": [],
+              "salon": "CID KEVIN ERIC                       INF.EN JEFA"
+            }
+          ]
+        },
+        "2051": {
+          "nombre": "FINANZAS I",
+          "semestre": "40",
+          "grupos": [
+            {
+              "grupo": "28532033",
+              "profesor": "GARCIA",
+              "horarios": [],
+              "salon": "FLORES LUIS EDGAR                    INF.EN JEFA"
+            }
+          ]
+        },
+        "2071": {
+          "nombre": "TEMAS SELECTOS DE C",
+          "semestre": "40",
+          "grupos": [
+            {
+              "grupo": "28532033",
+              "profesor": "ANAYA",
+              "horarios": [],
+              "salon": "SANCHEZ VICTOR ALFONSO                INF.EN JEFA"
+            }
+          ]
+        },
+        "2072": {
+          "nombre": "T",
+          "semestre": "40",
+          "grupos": [
+            {
+              "grupo": "28532033",
+              "profesor": "VARGAS",
+              "horarios": [],
+              "salon": "CARRANZA ALDO MAURICIO               INF.EN JEFA"
+            }
+          ]
+        },
+        "2063": {
+          "nombre": "ESTADISTICA B",
+          "semestre": "40",
+          "grupos": [
+            {
+              "grupo": "28542055",
+              "profesor": "ERDELY",
+              "horarios": [],
+              "salon": "RUIZ ARTURO                          INF.EN JEFA"
+            }
+          ]
+        }
+      },
+      "ultima_actualizacion": "2025-06-08T02:58:31.365490"
+    }
+  }
+}
