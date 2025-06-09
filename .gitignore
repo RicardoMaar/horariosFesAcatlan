@@ -106,3 +106,13 @@ Thumbs.db
 
 # Project specific
 scraper/materias/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+backend/env/
+*.pyc
