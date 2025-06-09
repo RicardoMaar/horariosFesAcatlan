@@ -217,7 +217,7 @@ class FESAcatlanScraper {
         };
         
         // Guardar archivo JSON individual de la carrera
-        const materiasDir = path.join(process.cwd(), 'materias');
+        const materiasDir = path.join(process.cwd(), 'scraper/materias');
         const fileName = path.join(materiasDir, `horarios_${nombre.toLowerCase().replace(/\s+/g, '_')}.json`);
         fs.writeFileSync(fileName, JSON.stringify(resultado, null, 2), 'utf8');
         
@@ -439,7 +439,7 @@ async function main() {
             console.log(`📊 Total carreras procesadas: ${resultado.total_carreras}`);
             
             // Crear directorio de salida si no existe
-            const materiasDir = path.join(process.cwd(), 'materias');
+            const materiasDir = path.join(process.cwd(), 'scraper/materias');
             if (!fs.existsSync(materiasDir)) {
                 fs.mkdirSync(materiasDir, { recursive: true });
             }

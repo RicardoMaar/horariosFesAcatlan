@@ -105,4 +105,4 @@ ehthumbs.db
 Thumbs.db
 
 # Project specific
-materias/*
+scraper/materias/*
