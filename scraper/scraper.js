@@ -217,16 +217,16 @@ class FESAcatlanScraper {
         };
         
         // Guardar archivo JSON individual de la carrera
-        const materiasDir = path.join(process.cwd(), 'scraper/materias');
-        const fileName = path.join(materiasDir, `horarios_${nombre.toLowerCase().replace(/\s+/g, '_')}.json`);
-        fs.writeFileSync(fileName, JSON.stringify(resultado, null, 2), 'utf8');
+        // const materiasDir = path.join(process.cwd(), 'scraper/materias');
+        // const fileName = path.join(materiasDir, `horarios_${nombre.toLowerCase().replace(/\s+/g, '_')}.json`);
+        // fs.writeFileSync(fileName, JSON.stringify(resultado, null, 2), 'utf8');
         
         const totalMaterias = Object.keys(materiasData).length;
         const totalGrupos = Object.values(materiasData).reduce((sum, m) => sum + m.grupos.length, 0);
         
         console.log(`\n✅ EXTRACCIÓN EXITOSA`);
         console.log(`📊 ${nombre}: ${totalMaterias} materias, ${totalGrupos} grupos`);
-        console.log(`📄 Guardado en: ${fileName}`);
+        // console.log(`📄 Guardado en: ${fileName}`);
         
         return resultado;
     }
