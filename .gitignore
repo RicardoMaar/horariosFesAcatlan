@@ -107,5 +107,12 @@ Thumbs.db
 # Project specific
 scraper/materias/*
 
-# Ignore venv for api in fastapi
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
 backend/venv/
+backend/env/
+*.pyc
