@@ -106,3 +106,6 @@ Thumbs.db
 
 # Project specific
 scraper/materias/*
+
+# Ignore venv for api in fastapi
+backend/venv/
