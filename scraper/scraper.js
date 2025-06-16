@@ -439,7 +439,7 @@ async function main() {
             console.log(`📊 Total carreras procesadas: ${resultado.total_carreras}`);
             
             // Crear directorio de salida si no existe
-            const materiasDir = path.join(process.cwd(), 'scraper/materias');
+            const materiasDir = path.join(process.cwd(), 'materias');
             if (!fs.existsSync(materiasDir)) {
                 fs.mkdirSync(materiasDir, { recursive: true });
             }
