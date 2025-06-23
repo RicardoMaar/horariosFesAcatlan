@@ -180,9 +180,9 @@ async def get_horarios_carrera(carrera_codigo: str):
             "fecha_consulta": response_data.get("fecha_consulta", None)
         }
         
-        # Headers de cache sugeridos (1 hora)
+        # Headers de cache sugeridos (1 dia)
         headers = {
-            "Cache-Control": "public, max-age=3600",
+            "Cache-Control": "public, max-age=86400",
             "ETag": f'"{carrera_codigo}-{last_update}"'
         }
         
