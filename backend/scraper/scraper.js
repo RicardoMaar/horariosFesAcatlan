@@ -16,23 +16,23 @@ class FESAcatlanScraper {
     constructor() {
         // Mapeo de códigos de carrera con nombres amigables
         this.carreras = {
-            "20321,Actuaría": "Actuaría",
-            "20121,Arquitectura": "Arquitectura",
-            "20422,Ciencias Políticas y Admon. Pública": "Ciencias Políticas",
-            "20425,Comunicación": "Comunicación",
-            "20721,Derecho": "Derecho",
-            "20226,Diseño Gráfico": "Diseño Gráfico",
-            "20821,Economía": "Economía",
-            "24121,Enseñanza de Inglés": "Enseñanza de Inglés",
+            // "20321,Actuaría": "Actuaría",
+            // "20121,Arquitectura": "Arquitectura",
+            // "20422,Ciencias Políticas y Admon. Pública": "Ciencias Políticas",
+            // "20425,Comunicación": "Comunicación",
+            // "20721,Derecho": "Derecho",
+            // "20226,Diseño Gráfico": "Diseño Gráfico",
+            // "20821,Economía": "Economía",
+            // "24121,Enseñanza de Inglés": "Enseñanza de Inglés",
             "21011,Filosofía": "Filosofía",
-            "21021,Historia": "Historia",
-            "21121,Ingeniería Civil": "Ingeniería Civil",
-            "21013,Lengua y Literatura Hispánicas": "Lengua y Literatura",
-            "24022,Matemáticas. Apl. y Comp.": "Matemáticas Aplicadas",
-            "21025,Pedagogía": "Pedagogía",
-            "20424,Periodismo y Comunicación Colectiva": "Periodismo",
-            "20421,Relaciones Internacionales": "Relaciones Internacionales",
-            "20423,Sociología": "Sociología"
+            // "21021,Historia": "Historia",
+            // "21121,Ingeniería Civil": "Ingeniería Civil",
+            // "21013,Lengua y Literatura Hispánicas": "Lengua y Literatura",
+            // "24022,Matemáticas. Apl. y Comp.": "Matemáticas Aplicadas",
+            // "21025,Pedagogía": "Pedagogía",
+            // "20424,Periodismo y Comunicación Colectiva": "Periodismo",
+            // "20421,Relaciones Internacionales": "Relaciones Internacionales",
+            // "20423,Sociología": "Sociología"
         };
         
         // Mapeo de abreviaciones de días a nombres completos
@@ -207,19 +207,19 @@ class FESAcatlanScraper {
         });
         
         const [codigo, nombre] = carreraKey.split(',', 2);
-        
+    
         // Crear estructura final de datos
         const resultado = {
             codigo,
             nombre,
             fecha_consulta: new Date().toISOString(),
             materias: materiasData
-        };
+        }; 
         
         // Guardar archivo JSON individual de la carrera
-        // const materiasDir = path.join(process.cwd(), 'scraper/materias');
-        // const fileName = path.join(materiasDir, `horarios_${nombre.toLowerCase().replace(/\s+/g, '_')}.json`);
-        // fs.writeFileSync(fileName, JSON.stringify(resultado, null, 2), 'utf8');
+        const materiasDir = path.join(process.cwd(), 'materias');
+        const fileName = path.join(materiasDir, `horarios_${nombre.toLowerCase().replace(/\s+/g, '_')}.json`);
+        fs.writeFileSync(fileName, JSON.stringify(resultado, null, 2), 'utf8');
         
         const totalMaterias = Object.keys(materiasData).length;
         const totalGrupos = Object.values(materiasData).reduce((sum, m) => sum + m.grupos.length, 0);
@@ -439,7 +439,7 @@ async function main() {
             console.log(`📊 Total carreras procesadas: ${resultado.total_carreras}`);
             
             // Crear directorio de salida si no existe
-            const materiasDir = path.join(process.cwd(), 'scraper/materias');
+            const materiasDir = path.join(process.cwd(), 'materias');
             if (!fs.existsSync(materiasDir)) {
                 fs.mkdirSync(materiasDir, { recursive: true });
             }
