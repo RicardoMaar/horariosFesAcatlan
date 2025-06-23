@@ -1,17 +1,37 @@
 import { useMemo } from 'react';
 import useHorariosStore from '../store/useHorariosStore';
 
-const DIAS = ['LU', 'MA', 'MI', 'JU', 'VI'];
-const DIAS_NOMBRES = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes'];
+const DIAS = ['LU', 'MA', 'MI', 'JU', 'VI', 'SA'];
+const DIAS_NOMBRES = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sabado'];
 const HORA_INICIO = 7;
 const HORA_FIN = 22;
-const SLOT_HEIGHT = 40; // px por cada 30 minutos
+const SLOT_HEIGHT = 20; // px por cada 30 minutos
 
 function CalendarioSemanal() {
   const materiasSeleccionadas = useHorariosStore(state => state.materiasSeleccionadas);
   const coloresAsignados = useHorariosStore(state => state.coloresAsignados);
-  const traslapes = useHorariosStore(state => state.getMateriasConTraslape());
   const abrirModal = useHorariosStore(state => state.abrirModal);
+
+  console.log('CalendarioSemanal render:', { 
+    materiasSeleccionadas: materiasSeleccionadas.length,
+    colores: Object.keys(coloresAsignados).length 
+  });
+
+  // Detectar traslapes
+  const traslapes = useMemo(() => {
+    const traslapesSet = new Set();
+    
+    for (let i = 0; i < materiasSeleccionadas.length; i++) {
+      for (let j = i + 1; j < materiasSeleccionadas.length; j++) {
+        if (hayTraslape(materiasSeleccionadas[i], materiasSeleccionadas[j])) {
+          traslapesSet.add(materiasSeleccionadas[i].id);
+          traslapesSet.add(materiasSeleccionadas[j].id);
+        }
+      }
+    }
+    
+    return traslapesSet;
+  }, [materiasSeleccionadas]);
 
   // Generar array de horas
   const horas = useMemo(() => {
@@ -99,11 +119,29 @@ function CalendarioSemanal() {
     return hours * 60 + minutes;
   }
 
+  function hayTraslape(materia1, materia2) {
+    for (const h1 of materia1.horarios) {
+      for (const h2 of materia2.horarios) {
+        if (h1.dia === h2.dia) {
+          const inicio1 = timeToMinutes(h1.inicio);
+          const fin1 = timeToMinutes(h1.fin);
+          const inicio2 = timeToMinutes(h2.inicio);
+          const fin2 = timeToMinutes(h2.fin);
+          
+          if (inicio1 < fin2 && inicio2 < fin1) {
+            return true;
+          }
+        }
+      }
+    }
+    return false;
+  }
+
   return (
     <div className="overflow-x-auto">
       <div className="min-w-[600px]">
         {/* Header con días */}
-        <div className="grid grid-cols-[80px,repeat(5,1fr)] gap-px bg-gray-200 mb-px">
+        <div className="grid grid-cols-[80px,repeat(6,1fr)] gap-px bg-gray-200 mb-px">
           <div className="bg-gray-50 p-2"></div>
           {DIAS_NOMBRES.map((dia, index) => (
             <div key={dia} className="bg-gray-50 p-2 text-center">
@@ -115,7 +153,7 @@ function CalendarioSemanal() {
 
         {/* Grid del calendario */}
         <div className="relative">
-          <div className="grid grid-cols-[80px,repeat(5,1fr)] gap-px bg-gray-200">
+          <div className="grid grid-cols-[80px,repeat(6,1fr)] gap-px bg-gray-200">
             {/* Columna de horas */}
             <div>
               {horas.map((hora, index) => (

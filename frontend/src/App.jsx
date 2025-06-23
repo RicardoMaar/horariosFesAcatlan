@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Toaster } from 'react-hot-toast';
 import CarreraSelector from './components/CarreraSelector';
 import BuscadorMaterias from './components/BuscadorMaterias';
@@ -10,6 +11,10 @@ import useHorariosStore from './store/useHorariosStore';
 function App() {
   const carreraSeleccionada = useHorariosStore(state => state.carreraSeleccionada);
   const materiasData = useHorariosStore(state => state.materiasData);
+
+  useEffect(() => {
+    console.log('App render:', { carreraSeleccionada, materiasData: !!materiasData });
+  }, [carreraSeleccionada, materiasData]);
 
   return (
     <div className="min-h-screen bg-gray-50">

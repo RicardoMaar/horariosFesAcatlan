@@ -72,43 +72,7 @@ const useHorariosStore = create(
         materiaEnModal: null 
       }),
       
-      // Getters computados
-      getMateriasConTraslape: () => {
-        const { materiasSeleccionadas } = get();
-        const traslapes = new Set();
-        
-        for (let i = 0; i < materiasSeleccionadas.length; i++) {
-          for (let j = i + 1; j < materiasSeleccionadas.length; j++) {
-            if (hayTraslape(materiasSeleccionadas[i], materiasSeleccionadas[j])) {
-              traslapes.add(materiasSeleccionadas[i].id);
-              traslapes.add(materiasSeleccionadas[j].id);
-            }
-          }
-        }
-        
-        return traslapes;
-      },
-      
-      getMateriasFiltradas: () => {
-        const { materiasData, busqueda } = get();
-        if (!materiasData || !busqueda) return materiasData;
-        
-        const busquedaNorm = normalizar(busqueda);
-        const filtradas = {};
-        
-        Object.entries(materiasData).forEach(([clave, materia]) => {
-          const coincideNombre = normalizar(materia.nombre).includes(busquedaNorm);
-          const coincideProfesor = materia.grupos.some(g => 
-            normalizar(g.profesor).includes(busquedaNorm)
-          );
-          
-          if (coincideNombre || coincideProfesor) {
-            filtradas[clave] = materia;
-          }
-        });
-        
-        return filtradas;
-      }
+      // Computed values - removed from actions to avoid loops
     }),
     {
       name: 'horarios-storage',

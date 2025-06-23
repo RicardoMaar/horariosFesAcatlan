@@ -3,17 +3,93 @@ import useHorariosStore from '../store/useHorariosStore';
 
 function ListaMaterias() {
   const materiasData = useHorariosStore(state => state.materiasData);
-  const materiasFiltradas = useHorariosStore(state => state.getMateriasFiltradas());
+  const busqueda = useHorariosStore(state => state.busqueda);
   const materiasSeleccionadas = useHorariosStore(state => state.materiasSeleccionadas);
   const toggleMateria = useHorariosStore(state => state.toggleMateria);
   const abrirModal = useHorariosStore(state => state.abrirModal);
   const coloresAsignados = useHorariosStore(state => state.coloresAsignados);
-  const traslapes = useHorariosStore(state => state.getMateriasConTraslape());
+
+  console.log('ListaMaterias render:', { materiasData: !!materiasData, busqueda });
+
+  // Filtrar materias
+  const materiasFiltradas = useMemo(() => {
+    if (!materiasData) return null;
+    if (!busqueda) return materiasData;
+    
+    const busquedaNorm = busqueda.toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "");
+    
+    const filtradas = {};
+    
+    Object.entries(materiasData).forEach(([clave, materia]) => {
+      const nombreNorm = materia.nombre.toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
+      
+      const coincideNombre = nombreNorm.includes(busquedaNorm);
+      const coincideProfesor = materia.grupos.some(g => {
+        const profNorm = g.profesor.toLowerCase()
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "");
+        return profNorm.includes(busquedaNorm);
+      });
+      
+      if (coincideNombre || coincideProfesor) {
+        filtradas[clave] = materia;
+      }
+    });
+    
+    console.log('Materias filtradas:', Object.keys(filtradas).length);
+    return filtradas;
+  }, [materiasData, busqueda]);
+
+  // Detectar traslapes
+  const traslapes = useMemo(() => {
+    const traslapesSet = new Set();
+    
+    for (let i = 0; i < materiasSeleccionadas.length; i++) {
+      for (let j = i + 1; j < materiasSeleccionadas.length; j++) {
+        const materia1 = materiasSeleccionadas[i];
+        const materia2 = materiasSeleccionadas[j];
+        
+        // Verificar traslape
+        let hayTraslape = false;
+        for (const h1 of materia1.horarios) {
+          for (const h2 of materia2.horarios) {
+            if (h1.dia === h2.dia) {
+              const inicio1 = timeToMinutes(h1.inicio);
+              const fin1 = timeToMinutes(h1.fin);
+              const inicio2 = timeToMinutes(h2.inicio);
+              const fin2 = timeToMinutes(h2.fin);
+              
+              if (inicio1 < fin2 && inicio2 < fin1) {
+                hayTraslape = true;
+                break;
+              }
+            }
+          }
+          if (hayTraslape) break;
+        }
+        
+        if (hayTraslape) {
+          traslapesSet.add(materia1.id);
+          traslapesSet.add(materia2.id);
+        }
+      }
+    }
+    
+    console.log('Traslapes detectados:', traslapesSet.size);
+    return traslapesSet;
+  }, [materiasSeleccionadas]);
 
   // Agrupar materias por semestre
   const materiasPorSemestre = useMemo(() => {
     const materias = materiasFiltradas || materiasData;
-    if (!materias) return {};
+    if (!materias) {
+      console.log('No hay materias para agrupar');
+      return {};
+    }
 
     const agrupadas = {};
     Object.entries(materias).forEach(([clave, materia]) => {
@@ -25,7 +101,7 @@ function ListaMaterias() {
     });
 
     // Ordenar semestres
-    return Object.keys(agrupadas)
+    const resultado = Object.keys(agrupadas)
       .sort((a, b) => {
         if (a === '40') return 1; // Optativas al final
         if (b === '40') return -1;
@@ -35,6 +111,9 @@ function ListaMaterias() {
         acc[key] = agrupadas[key].sort((a, b) => a.nombre.localeCompare(b.nombre));
         return acc;
       }, {});
+    
+    console.log('Materias agrupadas por semestre:', Object.keys(resultado));
+    return resultado;
   }, [materiasData, materiasFiltradas]);
 
   const getSemestreLabel = (semestre) => {
@@ -42,6 +121,11 @@ function ListaMaterias() {
     if (semestre === '00') return 'Sin semestre';
     return `${semestre}° Semestre`;
   };
+
+  function timeToMinutes(time) {
+    const [hours, minutes] = time.split(':').map(Number);
+    return hours * 60 + minutes;
+  }
 
   return (
     <div className="space-y-4">
