@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-gray-900 bg-gray-50;
+  }
+  
+  /* Estilos manuscritos para elementos específicos */
+  .handwritten {
+    @apply font-handwritten;
+  }
+  
+  /* Scrollbar personalizada */
+  ::-webkit-scrollbar {
+    @apply w-2 h-2;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100 rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-400 rounded-full hover:bg-gray-500;
+  }
+  
+  /* Animación de hover para cards */
+  .card-hover {
+    @apply transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5;
+  }
+  
+  /* Grid del calendario */
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: 80px repeat(5, 1fr);
+    grid-template-rows: 40px repeat(30, 40px);
+    gap: 1px;
+    @apply bg-gray-200;
+  }
+  
+  /* Slots de tiempo */
+  .time-slot {
+    @apply bg-white p-1 text-xs relative overflow-hidden;
+  }
+  
+  /* Clases de materia en el calendario */
+  .materia-block {
+    @apply absolute inset-0 p-2 rounded-md shadow-sm overflow-hidden;
+    @apply flex flex-col justify-center text-white text-xs font-medium;
+    @apply transition-all duration-200 hover:shadow-md hover:scale-105;
+    @apply cursor-pointer;
+  }
+  
+  /* Modo mobile */
+  @media (max-width: 768px) {
+    .calendar-grid {
+      grid-template-columns: 60px repeat(5, 1fr);
+      grid-template-rows: 35px repeat(30, 35px);
+    }
+  }
+}
