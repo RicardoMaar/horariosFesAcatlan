@@ -12,12 +12,13 @@ function ModalDetalles() {
   if (!materiaEnModal) return null;
 
   const esMateria = !materiaEnModal.grupo; // Si no tiene grupo, es la materia completa
+  const estaSeleccionada = materiasSeleccionadas.some(m => m.id === materiaEnModal.id);
 
   return (
     <Dialog.Root open={modalAbierto} onOpenChange={cerrarModal}>
       <Dialog.Portal>
-        <Dialog.Overlay className="fixed inset-0 bg-black/50 backdrop-blur-sm animate-fade-in" />
-        <Dialog.Content className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-xl w-full max-w-md max-h-[90vh] overflow-hidden animate-slide-up">
+        <Dialog.Overlay className="fixed inset-0 bg-black/50 backdrop-blur-sm data-[state=open]:animate-fade-in" />
+        <Dialog.Content className="fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-white rounded-lg shadow-xl w-full max-w-md max-h-[90vh] overflow-hidden data-[state=open]:animate-slide-up">
           <div className="p-6">
             {/* Header */}
             <Dialog.Title className="text-xl font-semibold mb-4">
@@ -81,14 +82,10 @@ function ModalDetalles() {
                       
                       <div className="space-y-1 text-sm text-gray-600">
                         <div>{grupo.profesor}</div>
-                        <div className="flex items-center gap-2">
-                          <span>{grupo.salon}</span>
-                          <span>•</span>
-                          <span>
-                            {grupo.horarios.map(h => 
-                              `${h.dia_nombre} ${h.inicio}-${h.fin}`
-                            ).join(', ')}
-                          </span>
+                        <div>
+                          {grupo.horarios.map(h => 
+                            `${h.dia_nombre || h.dia} ${h.inicio}-${h.fin}`
+                          ).join(', ')}
                         </div>
                       </div>
                     </div>
@@ -99,20 +96,34 @@ function ModalDetalles() {
               // Si es un grupo específico desde el calendario
               <div className="space-y-3">
                 <div className="border border-gray-200 rounded-md p-3">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="font-medium">Grupo {materiaEnModal.grupo}</span>
-                    <div 
-                      className="w-3 h-3 rounded-full"
-                      style={{ backgroundColor: coloresAsignados[materiaEnModal.id] }}
-                    />
+                  <div className="flex items-center justify-between mb-2">
+                    <div className="flex items-center gap-2">
+                      <span className="font-medium">Grupo {materiaEnModal.grupo}</span>
+                      <div 
+                        className="w-3 h-3 rounded-full"
+                        style={{ backgroundColor: coloresAsignados[materiaEnModal.id] }}
+                      />
+                    </div>
+                    {estaSeleccionada && (
+                      <button
+                        onClick={() => {
+                          const materia = materiasSeleccionadas.find(m => m.id === materiaEnModal.id);
+                          if (materia) {
+                            toggleMateria(materia.clave, { grupo: materia.grupo });
+                          }
+                        }}
+                        className="px-3 py-1 rounded text-sm font-medium transition-colors bg-red-100 text-red-700 hover:bg-red-200"
+                      >
+                        Quitar
+                      </button>
+                    )}
                   </div>
                   
                   <div className="space-y-1 text-sm text-gray-600">
                     <div>{materiaEnModal.profesor}</div>
-                    <div>{materiaEnModal.salon}</div>
                     <div>
                       {materiaEnModal.horarios.map(h => 
-                        `${h.dia_nombre} ${h.inicio}-${h.fin}`
+                        `${h.dia_nombre || h.dia} ${h.inicio}-${h.fin}`
                       ).join(', ')}
                     </div>
                   </div>
