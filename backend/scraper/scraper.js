@@ -71,10 +71,12 @@ class FESAcatlanScraper {
             
             // Extraer cookies de la respuesta
             const setCookieHeaders = menuResponse.headers.raw()['set-cookie'];
+            
             if (setCookieHeaders) {
                 cookies = setCookieHeaders.map(cookie => cookie.split(';')[0]).join('; ');
             }
             console.log('2. Cookies extraídas:', cookies.substring(0, 100) + '...');
+            
             
             await new Promise(resolve => setTimeout(resolve, 1000));
             
@@ -146,11 +148,6 @@ class FESAcatlanScraper {
                 console.log('❌ No se encontró contenido de horarios');
                 return null;
             }
-            
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(html, 'text/html');
-            
-            return this.extraerHorarios(doc, carreraKey);
             
         } catch (error) {
             console.error('Error en scraping:', error);
@@ -262,7 +259,7 @@ class FESAcatlanScraper {
         
         // Localizar índice de celda con clave de materia
         let claveIndex = -1;
-        for (let i = 0; i < Math.min(celdas.length, 8); i++) {
+        for (let i = 0; i < Math.min(celdas.length, 9); i++) {
             const texto = celdas[i].textContent.trim();
             if (/^\d{4}$/.test(texto)) {
                 claveIndex = i;

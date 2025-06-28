@@ -1,8 +1,7 @@
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.responses import JSONResponse
-from typing import Optional, List, Dict
 import json
 import os
 import uvicorn
@@ -39,12 +38,15 @@ def load_data():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     
     possible_paths = [
+        # Para producción - archivo en carpeta materias al mismo nivel que main.py
+        os.path.join(script_dir, "materias", "todas_carreras.json"),
+        # Para desarrollo - mantener rutas existentes como fallback
         os.path.join(script_dir, "..", "scraper", "materias", "todas_carreras.json"),
         os.path.join(script_dir, "scraper", "materias", "todas_carreras.json"),
         os.path.join(os.getcwd(), "scraper", "materias", "todas_carreras.json"),
         # Para desarrollo local
         os.path.join(script_dir, "todas_carreras.json")
-    ]
+]
     
     json_path = None
     for path in possible_paths:
@@ -66,10 +68,6 @@ def load_data():
     
     return data_cache
 
-def normalize_text(text: str) -> str:
-    """Normaliza texto para búsquedas (quita acentos y convierte a minúsculas)"""
-    return unidecode(text.lower().strip())
-
 @app.get("/")
 async def root():
     """Endpoint raíz con información de la API"""
@@ -89,6 +87,7 @@ async def get_status():
     """Obtiene el estado del servicio y estadísticas de datos"""
     try:
         data = load_data()
+        
         carreras_data = data.get("carreras", {})
         
         total_materias = 0
@@ -131,6 +130,7 @@ async def get_carreras():
         data = load_data()
         carreras = {}
         
+        
         for codigo, carrera_data in data.get("carreras", {}).items():
             # Contar semestres únicos
             semestres = set()
@@ -159,13 +159,19 @@ async def get_carreras():
         raise HTTPException(500, f"Error cargando carreras: {str(e)}")
 
 @app.get("/api/horarios/{carrera_codigo}")
-async def get_horarios_carrera(carrera_codigo: str):
+async def get_horarios_carrera(carrera_codigo: str, request: Request):
     """
     Obtiene todos los horarios de una carrera específica.
     Incluye headers de cache para optimizar cliente.
     """
     try:
         data = load_data()
+        current_etag = f'"{carrera_codigo}-{last_update}"'
+        # Verificar If-None-Match header
+        if_none_match = request.headers.get("if-none-match")
+        if if_none_match == current_etag:
+            return JSONResponse(content="", status_code=304)
+
         carreras = data.get("carreras", {})
         
         if carrera_codigo not in carreras:
@@ -180,7 +186,6 @@ async def get_horarios_carrera(carrera_codigo: str):
             "fecha_consulta": response_data.get("fecha_consulta", None)
         }
         
-        # Headers de cache sugeridos (1 dia)
         headers = {
             "Cache-Control": "public, max-age=86400",
             "ETag": f'"{carrera_codigo}-{last_update}"'
