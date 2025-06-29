@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+@layer base {  
   body {
     @apply font-sans text-gray-900 bg-gray-50;
   }
@@ -114,4 +114,29 @@
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background: #d1d5db;
+}
+
+@layer components {
+  .stable-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  @media (min-width: 1024px) {
+    .stable-grid {
+      grid-template-columns: repeat(12, 1fr);
+    }
+  }
+  
+  .stable-grid-item {
+    min-width: 0;
+    width: 100%;
+  }
+}
+
+.scrollbar-gutter-stable {
+  scrollbar-gutter: stable;
 }

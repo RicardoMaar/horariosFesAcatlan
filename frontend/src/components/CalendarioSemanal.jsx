@@ -172,7 +172,7 @@ function CalendarioSemanal() {
   }
 
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-hidden">
       <div className="min-w-[600px]">
         {/* Header con días */}
         <div className="grid grid-cols-[80px,repeat(6,1fr)] gap-px bg-gray-200 mb-px">

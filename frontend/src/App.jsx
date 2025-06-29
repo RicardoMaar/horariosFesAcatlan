@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+
 import { Toaster } from 'react-hot-toast';
 import CarreraSelector from './components/CarreraSelector';
 import BuscadorMaterias from './components/BuscadorMaterias';
@@ -11,10 +11,6 @@ import useHorariosStore from './store/useHorariosStore';
 function App() {
   const carreraSeleccionada = useHorariosStore(state => state.carreraSeleccionada);
   const materiasData = useHorariosStore(state => state.materiasData);
-
-  useEffect(() => {
-    console.log('App render:', { carreraSeleccionada, materiasData: !!materiasData });
-  }, [carreraSeleccionada, materiasData]);
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -48,27 +44,29 @@ function App() {
         </div>
 
         {carreraSeleccionada && materiasData && (
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+          <div className="flex flex-col lg:flex-row gap-6">
             {/* Panel izquierdo - Lista de materias */}
-            <div className="lg:col-span-4 xl:col-span-3">
+            <div className="lg:w-1/3 xl:w-1/4 flex-shrink-0">
               <div className="bg-white rounded-lg shadow-sm p-4 sticky top-20">
                 <h2 className="text-lg font-semibold mb-4 font-handwritten">
                   Materias disponibles
                 </h2>
                 <BuscadorMaterias />
-                <div className="mt-4 max-h-[calc(100vh-250px)] overflow-y-auto">
+                <div className="mt-4 max-h-[calc(100vh-250px)] overflow-y-auto custom-scrollbar scrollbar-gutter-stable">
                   <ListaMaterias />
                 </div>
               </div>
             </div>
 
             {/* Panel derecho - Calendario */}
-            <div className="lg:col-span-8 xl:col-span-9">
-              <div className="bg-white rounded-lg shadow-sm p-4">
+            <div className="lg:flex-1">
+              <div className="bg-white rounded-lg shadow-sm p-4 h-[calc(85vh-100px)] flex flex-col">
                 <h2 className="text-lg font-semibold mb-4 font-handwritten">
                   Horario semanal
                 </h2>
-                <CalendarioSemanal />
+                <div className="flex-1 overflow-hidden">
+                  <CalendarioSemanal />
+                </div>
               </div>
             </div>
           </div>
