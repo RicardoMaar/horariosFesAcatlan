@@ -41,7 +41,7 @@ const useHorariosStore = create(
         } else {
           // Agregar materia con color
           const materia = get().materiasData[claveMateria];
-          const nuevoColor = generarColorUnico(Object.values(coloresAsignados));
+          const nuevoColor = generarColorDeterminista(id, Object.values(coloresAsignados));
           
           set({
             materiasSeleccionadas: [...materiasSeleccionadas, {
@@ -71,8 +71,6 @@ const useHorariosStore = create(
         modalAbierto: false, 
         materiaEnModal: null 
       }),
-      
-      // Computed values - removed from actions to avoid loops
     }),
     {
       name: 'horarios-storage',
@@ -85,13 +83,45 @@ const useHorariosStore = create(
   )
 );
 
-// Utilidades
-function normalizar(texto) {
-  return texto.toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "");
+// Función para generar color determinista basado en el ID
+function generarColorDeterminista(id, coloresUsados) {
+  const coloresBase = [
+    '#8B5CF6', '#10B981', '#F59E0B', '#EF4444', '#3B82F6',
+    '#EC4899', '#14B8A6', '#F97316', '#6366F1', '#84CC16'
+  ];
+  
+  // Generar un índice basado en el hash del ID
+  let hash = 0;
+  for (let i = 0; i < id.length; i++) {
+    const char = id.charCodeAt(i);
+    hash = ((hash << 5) - hash) + char;
+    hash = hash & hash; // Convert to 32bit integer
+  }
+  
+  // Usar el hash para seleccionar un color base
+  const indiceBase = Math.abs(hash) % coloresBase.length;
+  
+  // Intentar usar el color del índice hash
+  let colorSeleccionado = coloresBase[indiceBase];
+  
+  // Si ya está usado, buscar el siguiente disponible
+  if (coloresUsados.includes(colorSeleccionado)) {
+    // Buscar el primer color no usado
+    const colorDisponible = coloresBase.find(c => !coloresUsados.includes(c));
+    
+    if (colorDisponible) {
+      colorSeleccionado = colorDisponible;
+    } else {
+      // Si todos están usados, generar uno basado en el hash
+      const hue = (Math.abs(hash) % 360);
+      colorSeleccionado = `hsl(${hue}, 70%, 60%)`;
+    }
+  }
+  
+  return colorSeleccionado;
 }
 
+// Función de utilidad para detectar traslapes
 function hayTraslape(materia1, materia2) {
   for (const h1 of materia1.horarios) {
     for (const h2 of materia2.horarios) {
@@ -113,23 +143,6 @@ function hayTraslape(materia1, materia2) {
 function timeToMinutes(time) {
   const [hours, minutes] = time.split(':').map(Number);
   return hours * 60 + minutes;
-}
-
-function generarColorUnico(coloresUsados) {
-  const coloresBase = [
-    '#8B5CF6', '#10B981', '#F59E0B', '#EF4444', '#3B82F6',
-    '#EC4899', '#14B8A6', '#F97316', '#6366F1', '#84CC16'
-  ];
-  
-  const disponibles = coloresBase.filter(c => !coloresUsados.includes(c));
-  
-  if (disponibles.length > 0) {
-    return disponibles[0];
-  }
-  
-  // Si se acabaron los colores predefinidos, generar uno aleatorio
-  const hue = Math.floor(Math.random() * 360);
-  return `hsl(${hue}, 70%, 60%)`;
 }
 
 export default useHorariosStore;

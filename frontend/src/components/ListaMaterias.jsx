@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import useHorariosStore from '../store/useHorariosStore';
 
 function ListaMaterias() {
@@ -6,15 +6,12 @@ function ListaMaterias() {
   const busqueda = useHorariosStore(state => state.busqueda);
   const materiasSeleccionadas = useHorariosStore(state => state.materiasSeleccionadas);
   const toggleMateria = useHorariosStore(state => state.toggleMateria);
-  // const abrirModal = useHorariosStore(state => state.abrirModal);
   const coloresAsignados = useHorariosStore(state => state.coloresAsignados);
   
   // Estado para controlar qué semestres están expandidos
   const [semestresExpandidos, setSemestresExpandidos] = useState({});
   // Estado para controlar qué materias están expandidas
   const [materiasExpandidas, setMateriasExpandidas] = useState({});
-
-  console.log('ListaMaterias render:', { materiasData: !!materiasData, busqueda });
 
   // Filtrar materias y grupos según búsqueda
   const materiasFiltradas = useMemo(() => {
@@ -54,9 +51,30 @@ function ListaMaterias() {
       }
     });
     
-    console.log('Materias filtradas:', Object.keys(filtradas).length);
     return filtradas;
   }, [materiasData, busqueda]);
+
+  // Auto-expandir semestres y materias cuando hay búsqueda
+  useEffect(() => {
+    if (busqueda && materiasFiltradas) {
+      const nuevosSemestres = {};
+      const nuevasMaterias = {};
+      
+      // Expandir todos los semestres y materias que tienen resultados
+      Object.entries(materiasFiltradas).forEach(([clave, materia]) => {
+        const semestre = materia.semestre || '00';
+        nuevosSemestres[semestre] = true;
+        nuevasMaterias[clave] = true;
+      });
+      
+      setSemestresExpandidos(nuevosSemestres);
+      setMateriasExpandidas(nuevasMaterias);
+    } else if (!busqueda) {
+      // Cuando no hay búsqueda, cerrar todo
+      setSemestresExpandidos({});
+      setMateriasExpandidas({});
+    }
+  }, [busqueda, materiasFiltradas]);
 
   // Detectar traslapes
   const traslapes = useMemo(() => {
@@ -93,7 +111,6 @@ function ListaMaterias() {
       }
     }
     
-    console.log('Traslapes detectados:', traslapesSet.size);
     return traslapesSet;
   }, [materiasSeleccionadas]);
 
@@ -101,7 +118,6 @@ function ListaMaterias() {
   const materiasPorSemestre = useMemo(() => {
     const materias = materiasFiltradas || materiasData;
     if (!materias) {
-      console.log('No hay materias para agrupar');
       return {};
     }
 
@@ -126,7 +142,6 @@ function ListaMaterias() {
         return acc;
       }, {});
     
-    console.log('Materias agrupadas por semestre:', Object.keys(resultado));
     return resultado;
   }, [materiasData, materiasFiltradas]);
 
@@ -156,7 +171,7 @@ function ListaMaterias() {
   };
 
   return (
-    <div className="space-y-2">
+    <div className="space-y-2 pr-2" style={{ scrollbarGutter: 'stable' }}>
       {Object.entries(materiasPorSemestre).map(([semestre, materias]) => (
         <div key={semestre} className="border border-gray-200 rounded-md">
           {/* Header del semestre */}

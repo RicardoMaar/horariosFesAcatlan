@@ -17,8 +17,8 @@ function ModalDetalles() {
   return (
     <Dialog.Root open={modalAbierto} onOpenChange={cerrarModal}>
       <Dialog.Portal>
-        <Dialog.Overlay className="fixed inset-0 bg-black/50 backdrop-blur-sm data-[state=open]:animate-fade-in" />
-        <Dialog.Content className="fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-white rounded-lg shadow-xl w-full max-w-md max-h-[90vh] overflow-hidden data-[state=open]:animate-slide-up">
+        <Dialog.Overlay className="fixed inset-0 bg-black/50 backdrop-blur-sm animate-fade-in" />
+        <Dialog.Content className="fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-white rounded-lg shadow-xl w-full max-w-md max-h-[90vh] overflow-hidden animate-modal-enter">
           <div className="p-6">
             {/* Header */}
             <Dialog.Title className="text-xl font-semibold mb-4">

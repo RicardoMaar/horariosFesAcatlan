@@ -4,18 +4,13 @@ import useHorariosStore from '../store/useHorariosStore';
 const DIAS = ['LU', 'MA', 'MI', 'JU', 'VI', 'SA'];
 const DIAS_NOMBRES = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sabado'];
 const HORA_INICIO = 7;
-const HORA_FIN = 22;
-const SLOT_HEIGHT = 20; // px por cada 30 minutos
+const HORA_FIN = 23;
+const SLOT_HEIGHT = 18.2; // px por cada 30 minutos
 
 function CalendarioSemanal() {
   const materiasSeleccionadas = useHorariosStore(state => state.materiasSeleccionadas);
   const coloresAsignados = useHorariosStore(state => state.coloresAsignados);
   const abrirModal = useHorariosStore(state => state.abrirModal);
-
-  console.log('CalendarioSemanal render:', { 
-    materiasSeleccionadas: materiasSeleccionadas.length,
-    colores: Object.keys(coloresAsignados).length 
-  });
 
   // Detectar traslapes
   const traslapes = useMemo(() => {
@@ -86,28 +81,67 @@ function CalendarioSemanal() {
         return aInicio - bInicio;
       });
 
-      // Asignar columnas para evitar sobreposición visual
-      bloquesDelDia.forEach((bloque, index) => {
-        let columna = 0;
+      // Crear grupos de bloques que se traslapan entre sí
+      const grupos = [];
+      bloquesDelDia.forEach(bloque => {
         const bloqueInicio = timeToMinutes(bloque.horario.inicio);
         const bloqueFin = timeToMinutes(bloque.horario.fin);
-
-        // Verificar contra bloques anteriores
-        for (let i = 0; i < index; i++) {
-          const otroBloque = bloquesDelDia[i];
-          const otroInicio = timeToMinutes(otroBloque.horario.inicio);
-          const otroFin = timeToMinutes(otroBloque.horario.fin);
-
-          // Si hay sobreposición temporal
-          if (bloqueInicio < otroFin && otroInicio < bloqueFin) {
-            if (otroBloque.columna === columna) {
-              columna++;
-            }
+        
+        // Buscar un grupo existente donde este bloque traslape
+        let grupoEncontrado = false;
+        for (const grupo of grupos) {
+          // Verificar si traslapa con algún bloque del grupo
+          const traslapaConGrupo = grupo.some(b => {
+            const bInicio = timeToMinutes(b.horario.inicio);
+            const bFin = timeToMinutes(b.horario.fin);
+            return bloqueInicio < bFin && bInicio < bloqueFin;
+          });
+          
+          if (traslapaConGrupo) {
+            grupo.push(bloque);
+            grupoEncontrado = true;
+            break;
           }
         }
+        
+        // Si no encontró grupo, crear uno nuevo
+        if (!grupoEncontrado) {
+          grupos.push([bloque]);
+        }
+      });
 
-        bloque.columna = columna;
-        bloque.totalColumnas = Math.max(...bloquesDelDia.map(b => b.columna || 0)) + 1;
+      // Asignar columnas dentro de cada grupo
+      grupos.forEach(grupo => {
+        // Ordenar grupo por hora de inicio
+        grupo.sort((a, b) => {
+          const aInicio = timeToMinutes(a.horario.inicio);
+          const bInicio = timeToMinutes(b.horario.inicio);
+          return aInicio - bInicio;
+        });
+
+        // Asignar columnas solo dentro del grupo
+        grupo.forEach((bloque, index) => {
+          let columna = 0;
+          const bloqueInicio = timeToMinutes(bloque.horario.inicio);
+          const bloqueFin = timeToMinutes(bloque.horario.fin);
+
+          // Verificar contra bloques anteriores del mismo grupo
+          for (let i = 0; i < index; i++) {
+            const otroBloque = grupo[i];
+            const otroInicio = timeToMinutes(otroBloque.horario.inicio);
+            const otroFin = timeToMinutes(otroBloque.horario.fin);
+
+            // Si hay sobreposición temporal y misma columna
+            if (bloqueInicio < otroFin && otroInicio < bloqueFin) {
+              if (otroBloque.columna === columna) {
+                columna++;
+              }
+            }
+          }
+
+          bloque.columna = columna;
+          bloque.totalColumnas = Math.max(...grupo.map(b => b.columna || 0)) + 1;
+        });
       });
     });
 

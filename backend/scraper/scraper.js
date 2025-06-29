@@ -258,8 +258,8 @@ class FESAcatlanScraper {
         const celdas = Array.from(fila.querySelectorAll('td, th'));
         
         // Localizar índice de celda con clave de materia
-        let claveIndex = -1;
-        for (let i = 0; i < Math.min(celdas.length, 9); i++) {
+        let claveIndex = -1; 
+        for (let i = 0; i < Math.min(celdas.length, 8); i++) { 
             const texto = celdas[i].textContent.trim();
             if (/^\d{4}$/.test(texto)) {
                 claveIndex = i;

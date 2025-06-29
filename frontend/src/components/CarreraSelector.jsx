@@ -1,13 +1,21 @@
-
 import * as Select from '@radix-ui/react-select';
 import { useCarreras, useHorarios } from '../hooks/useCarreras';
 import useHorariosStore from '../store/useHorariosStore';
+import { useMemo } from 'react';
 
 function CarreraSelector() {
   const { carreras, loading: loadingCarreras } = useCarreras();
   const carreraSeleccionada = useHorariosStore(state => state.carreraSeleccionada);
   const setCarrera = useHorariosStore(state => state.setCarrera);
   const { loading: loadingHorarios } = useHorarios(carreraSeleccionada);
+
+  // Ordenar carreras alfabéticamente
+  const carrerasOrdenadas = useMemo(() => {
+    if (!carreras) return [];
+    return Object.entries(carreras).sort((a, b) => 
+      a[1].nombre.localeCompare(b[1].nombre, 'es')
+    );
+  }, [carreras]);
 
   const handleSelectCarrera = (codigo) => {
     setCarrera(codigo);
@@ -34,19 +42,29 @@ function CarreraSelector() {
         </Select.Trigger>
 
         <Select.Portal>
-          <Select.Content className="overflow-hidden bg-white rounded-md shadow-lg border border-gray-200">
+          <Select.Content 
+            className="overflow-hidden bg-white rounded-md shadow-lg border border-gray-200"
+            position="popper"
+            sideOffset={5}
+            align="start"
+          >
             <Select.ScrollUpButton className="flex items-center justify-center h-6 bg-white cursor-default">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
               </svg>
             </Select.ScrollUpButton>
 
-            <Select.Viewport className="p-2">
-              {carreras && Object.entries(carreras).map(([codigo, carrera]) => (
+            <Select.Viewport className="p-2 max-h-60">
+              {carrerasOrdenadas.map(([codigo, carrera]) => (
                 <Select.Item
                   key={codigo}
                   value={codigo}
-                  className="relative flex items-center px-8 py-2 text-sm rounded cursor-pointer hover:bg-primary-50 focus:bg-primary-100 focus:outline-none data-[highlighted]:bg-primary-50"
+                  className={`
+                    relative flex items-center px-8 py-2 text-sm rounded cursor-pointer 
+                    hover:bg-primary-50 focus:bg-primary-100 focus:outline-none 
+                    data-[highlighted]:bg-primary-50
+                    ${carreraSeleccionada === codigo ? 'bg-primary-50 text-primary-900' : ''}
+                  `}
                 >
                   <Select.ItemText>
                     <div>
