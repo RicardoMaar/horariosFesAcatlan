@@ -61,15 +61,23 @@ function ModalDetalles() {
                         ${seleccionada ? 'border-primary-400 bg-primary-50' : 'border-gray-200'}
                       `}
                     >
-                      <div className="flex items-start justify-between mb-2">
+                      <div className="flex items-center justify-between mb-2">
                         <div className="flex items-center gap-2">
                           <span className="font-medium">Grupo {grupo.grupo}</span>
                           {seleccionada && (
-                            <button
-                              onClick={() => setMostrandoSelectorColor(mostrandoSelectorColor === id ? null : id)}
-                              className="w-3 h-3 rounded-full cursor-pointer hover:scale-110 transition-transform"
-                              style={{ backgroundColor: color }}
-                            />
+                            <>
+                              <button
+                                onClick={() => setMostrandoSelectorColor(mostrandoSelectorColor === id ? null : id)}
+                                className="w-3 h-3 rounded-full cursor-pointer hover:scale-110 transition-transform"
+                                style={{ backgroundColor: color }}
+                              />
+                              <button
+                                onClick={() => setMostrandoSelectorColor(mostrandoSelectorColor === id ? null : id)}
+                                className="text-sm text-blue-600 hover:text-blue-800 underline"
+                              >
+                                Cambiar color
+                              </button>
+                            </>
                           )}
                         </div>
                         <button
@@ -122,24 +130,30 @@ function ModalDetalles() {
                     <div className="flex items-center gap-2">
                       <span className="font-medium">Grupo {materiaEnModal.grupo}</span>
                       {estaSeleccionada && (
-                        <button
-                          onClick={() => setMostrandoSelectorColor(mostrandoSelectorColor === materiaEnModal.id ? null : materiaEnModal.id)}
-                          className="w-3 h-3 rounded-full cursor-pointer hover:scale-110 transition-transform"
-                          style={{ backgroundColor: coloresAsignados[materiaEnModal.id] }}
-                        />
+                        <>
+                          <button
+                            onClick={() => setMostrandoSelectorColor(mostrandoSelectorColor === materiaEnModal.id ? null : materiaEnModal.id)}
+                            className="w-3 h-3 rounded-full cursor-pointer hover:scale-110 transition-transform"
+                            style={{ backgroundColor: coloresAsignados[materiaEnModal.id] }}
+                          />
+                          <button
+                            onClick={() => setMostrandoSelectorColor(mostrandoSelectorColor === materiaEnModal.id ? null : materiaEnModal.id)}
+                            className="text-sm text-blue-600 hover:text-blue-800 underline"
+                          >
+                            Cambiar color
+                          </button>
+                        </>
                       )}
                     </div>
                     <button
                       onClick={() => {
                         if (estaSeleccionada) {
-                          // Si está seleccionada, quitar
                           const materia = materiasSeleccionadas.find(m => m.id === materiaEnModal.id);
                           if (materia) {
                             toggleMateria(materia.clave, { grupo: materia.grupo });
                             cerrarModal();
                           }
                         } else {
-                          // Si no está seleccionada, agregar
                           const grupoData = {
                             grupo: materiaEnModal.grupo,
                             profesor: materiaEnModal.profesor,

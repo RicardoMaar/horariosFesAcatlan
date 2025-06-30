@@ -24,54 +24,51 @@ function SelectorColor({ colorActual, onCambiarColor, onCerrar }) {
               style={{ backgroundColor: color }}
             />
           ))}
+          <button
+            onClick={() => setMostrandoPersonalizado(!mostrandoPersonalizado)}
+            className="w-8 h-8 rounded-md border-2 border-dashed border-gray-400 hover:border-gray-600 transition-all hover:scale-110 flex items-center justify-center text-gray-600 hover:text-gray-800"
+          >
+            +
+          </button>
         </div>
       </div>
 
-      <div>
-        <button
-          onClick={() => setMostrandoPersonalizado(!mostrandoPersonalizado)}
-          className="text-sm text-blue-600 hover:text-blue-800 underline"
-        >
-          {mostrandoPersonalizado ? 'Ocultar' : 'Seleccionar'} color personalizado
-        </button>
-        
-        {mostrandoPersonalizado && (
-          <div className="mt-2 space-y-3">
-            <div className="flex items-center gap-3">
-              <input
-                type="color"
-                value={colorPersonalizado}
-                onChange={(e) => setColorPersonalizado(e.target.value)}
-                className="w-12 h-8 rounded border border-gray-300 cursor-pointer"
-              />
-              <input
-                type="text"
-                value={colorPersonalizado}
-                onChange={(e) => setColorPersonalizado(e.target.value)}
-                placeholder="#000000"
-                className="px-2 py-1 border border-gray-300 rounded text-sm flex-1"
-              />
-            </div>
-            <div className="flex gap-2">
-              <button
-                onClick={() => {
-                  onCambiarColor(colorPersonalizado);
-                  onCerrar();
-                }}
-                className="px-3 py-1 bg-blue-600 text-white text-sm rounded hover:bg-blue-700"
-              >
-                Aplicar
-              </button>
-              <button
-                onClick={() => setMostrandoPersonalizado(false)}
-                className="px-3 py-1 bg-gray-200 text-gray-700 text-sm rounded hover:bg-gray-300"
-              >
-                Cancelar
-              </button>
-            </div>
+      {mostrandoPersonalizado && (
+        <div className="space-y-3">
+          <div className="flex items-center gap-3">
+            <input
+              type="color"
+              value={colorPersonalizado}
+              onChange={(e) => setColorPersonalizado(e.target.value)}
+              className="w-12 h-8 rounded border border-gray-300 cursor-pointer"
+            />
+            <input
+              type="text"
+              value={colorPersonalizado}
+              onChange={(e) => setColorPersonalizado(e.target.value)}
+              placeholder="#000000"
+              className="px-2 py-1 border border-gray-300 rounded text-sm flex-1"
+            />
           </div>
-        )}
-      </div>
+          <div className="flex gap-2">
+            <button
+              onClick={() => {
+                onCambiarColor(colorPersonalizado);
+                onCerrar();
+              }}
+              className="px-3 py-1 bg-blue-600 text-white text-sm rounded hover:bg-blue-700"
+            >
+              Aplicar
+            </button>
+            <button
+              onClick={() => setMostrandoPersonalizado(false)}
+              className="px-3 py-1 bg-gray-200 text-gray-700 text-sm rounded hover:bg-gray-300"
+            >
+              Cancelar
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
