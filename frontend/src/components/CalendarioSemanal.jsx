@@ -12,6 +12,9 @@ function CalendarioSemanal() {
   const coloresAsignados = useHorariosStore(state => state.coloresAsignados);
   const abrirModal = useHorariosStore(state => state.abrirModal);
 
+  const modalAbierto = useHorariosStore(state => state.modalAbierto);
+  const bloqueModalActivo = useHorariosStore(state => state.bloqueModalActivo);
+
   // Detectar traslapes
   // Esta seccion es para agregar bordes rojos en el grid (creo)
   const traslapes = useMemo(() => {
@@ -233,10 +236,10 @@ function CalendarioSemanal() {
         {/* Header con días */}
         <div className="grid grid-cols-[5rem,repeat(6,1fr)] gap-px bg-gray-200 mb-px"> {/* 80px / 16 = 5rem */}
           <div className="bg-gray-50 p-2"></div>
-          {DIAS_NOMBRES.map((dia, index) => (
+          {DIAS_NOMBRES.map((dia) => (
             <div key={dia} className="bg-gray-50 p-2 text-center">
               <div className="font-medium text-sm">{dia}</div>
-              <div className="text-xs text-gray-500 font-handwritten">{DIAS[index]}</div>
+             
             </div>
           ))}
         </div>
@@ -278,12 +281,20 @@ function CalendarioSemanal() {
                     ? `${(100 / bloque.totalColumnas) * bloque.columna}%` 
                     : '0';
 
+                  // Verificar si es el bloque del modal activo
+                  const esBloqueDelModal = modalAbierto && 
+                    bloqueModalActivo?.id === bloque.id && 
+                    bloqueModalActivo?.horario?.dia === bloque.horario.dia &&
+                    bloqueModalActivo?.horario?.inicio === bloque.horario.inicio;
+                  
+                  const opacidadFinal = esBloqueDelModal ? 0.3 : (bloque.tieneTraslape ? 0.9 : 1);
+
                   return (
                     <div
                       key={`${bloque.id}-${index}`}
                       className={`
                         absolute p-1 rounded cursor-pointer transition-all duration-200
-                        hover:shadow-lg hover:z-10 hover:scale-105
+                        ${!esBloqueDelModal ? 'hover:shadow-lg hover:z-10 hover:scale-105' : 'z-0'}
                         ${bloque.tieneTraslape ? 'ring-2 ring-red-500 ring-opacity-50' : ''}
                       `}
                       style={{
@@ -292,9 +303,12 @@ function CalendarioSemanal() {
                         backgroundColor: bloque.color,
                         left,
                         width,
-                        opacity: bloque.tieneTraslape ? 0.9 : 1
+                        opacity: opacidadFinal,
+                        zIndex: esBloqueDelModal ? .5 : 'auto' // para que se muestre detras del modal pero encima del grid
                       }}
-                      onClick={() => abrirModal(bloque)}
+                      onClick={() => !esBloqueDelModal && abrirModal(bloque)}
+                      // onClick={() => abrirModal(bloque)}
+                      // onClick={() => abrirModal(bloque)}
                     >
                       <div className="text-white h-full flex flex-col justify-center px-1 overflow-hidden">
                         <div className="text-xs font-semibold truncate">

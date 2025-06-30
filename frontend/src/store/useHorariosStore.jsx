@@ -64,12 +64,14 @@ const useHorariosStore = create(
       
       abrirModal: (materiaConGrupo) => set({ 
         modalAbierto: true, 
-        materiaEnModal: materiaConGrupo 
+        materiaEnModal: materiaConGrupo,
+        bloqueModalActivo: materiaConGrupo
       }),
       
       cerrarModal: () => set({ 
         modalAbierto: false, 
-        materiaEnModal: null 
+        materiaEnModal: null,
+        bloqueModalActivo: null
       }),
     }),
     {
@@ -102,29 +104,4 @@ function generarColorDeterminista(id) {
   const colorIndex = Math.abs(hash) % coloresBase.length;
   return coloresBase[colorIndex];
 }
-
-// Función de utilidad para detectar traslapes
-function hayTraslape(materia1, materia2) {
-  for (const h1 of materia1.horarios) {
-    for (const h2 of materia2.horarios) {
-      if (h1.dia === h2.dia) {
-        const inicio1 = timeToMinutes(h1.inicio);
-        const fin1 = timeToMinutes(h1.fin);
-        const inicio2 = timeToMinutes(h2.inicio);
-        const fin2 = timeToMinutes(h2.fin);
-        
-        if (inicio1 < fin2 && inicio2 < fin1) {
-          return true;
-        }
-      }
-    }
-  }
-  return false;
-}
-
-function timeToMinutes(time) {
-  const [hours, minutes] = time.split(':').map(Number);
-  return hours * 60 + minutes;
-}
-
 export default useHorariosStore;
