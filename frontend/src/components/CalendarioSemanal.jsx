@@ -287,7 +287,7 @@ function CalendarioSemanal() {
                     bloqueModalActivo?.horario?.dia === bloque.horario.dia &&
                     bloqueModalActivo?.horario?.inicio === bloque.horario.inicio;
                   
-                  const opacidadFinal = esBloqueDelModal ? 0.3 : (bloque.tieneTraslape ? 0.9 : 1);
+                  const opacidadFinal = esBloqueDelModal ? 0.3 : (bloque.tieneTraslape ? 0.5 : 1);
 
                   return (
                     <div
@@ -295,7 +295,7 @@ function CalendarioSemanal() {
                       className={`
                         absolute p-1 rounded cursor-pointer transition-all duration-200
                         ${!esBloqueDelModal ? 'hover:shadow-lg hover:z-10 hover:scale-105' : 'z-0'}
-                        ${bloque.tieneTraslape ? 'ring-2 ring-red-500 ring-opacity-50' : ''}
+                        ${bloque.tieneTraslape ? 'ring-2 ring-red-500 ring-opacity-10' : ''}
                       `}
                       style={{
                         top: `${bloque.top / 16}rem`, // Convertir px a rem

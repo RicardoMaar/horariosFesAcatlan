@@ -96,31 +96,50 @@ function ModalDetalles() {
                 })}
               </div>
             ) : (
-              // Si es un grupo específico desde el calendario
+              // Si es un grupo específico desde el calendario O desde la lista
               <div className="space-y-3">
                 <div className="border border-gray-200 rounded-md p-3">
                   <div className="flex items-center justify-between mb-2">
                     <div className="flex items-center gap-2">
                       <span className="font-medium">Grupo {materiaEnModal.grupo}</span>
-                      <div 
-                        className="w-3 h-3 rounded-full"
-                        style={{ backgroundColor: coloresAsignados[materiaEnModal.id] }}
-                      />
+                      {estaSeleccionada && (
+                        <div 
+                          className="w-3 h-3 rounded-full"
+                          style={{ backgroundColor: coloresAsignados[materiaEnModal.id] }}
+                        />
+                      )}
                     </div>
-                    {estaSeleccionada && (
-                      <button
-                        onClick={() => {
+                    <button
+                      onClick={() => {
+                        if (estaSeleccionada) {
+                          // Si está seleccionada, quitar
                           const materia = materiasSeleccionadas.find(m => m.id === materiaEnModal.id);
                           if (materia) {
                             toggleMateria(materia.clave, { grupo: materia.grupo });
                             cerrarModal();
                           }
-                        }}
-                        className="px-3 py-1 rounded text-sm font-medium transition-colors bg-red-100 text-red-700 hover:bg-red-200"
-                      >
-                        Quitar
-                      </button>
-                    )}
+                        } else {
+                          // Si no está seleccionada, agregar
+                          const grupoData = {
+                            grupo: materiaEnModal.grupo,
+                            profesor: materiaEnModal.profesor,
+                            salon: materiaEnModal.salon,
+                            horarios: materiaEnModal.horarios
+                          };
+                          toggleMateria(materiaEnModal.clave, grupoData);
+                          cerrarModal();
+                        }
+                      }}
+                      className={`
+                        px-3 py-1 rounded text-sm font-medium transition-colors
+                        ${estaSeleccionada 
+                          ? 'bg-red-100 text-red-700 hover:bg-red-200' 
+                          : 'bg-primary-100 text-primary-700 hover:bg-primary-200'
+                        }
+                      `}
+                    >
+                      {estaSeleccionada ? 'Quitar' : 'Agregar'}
+                    </button>
                   </div>
                   
                   <div className="space-y-1 text-sm text-gray-600">
