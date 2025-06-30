@@ -7,6 +7,7 @@ function ListaMaterias() {
   const materiasSeleccionadas = useHorariosStore(state => state.materiasSeleccionadas);
   const toggleMateria = useHorariosStore(state => state.toggleMateria);
   const coloresAsignados = useHorariosStore(state => state.coloresAsignados);
+  const abrirModal = useHorariosStore(state => state.abrirModal);
   
   // Estado para controlar qué semestres están expandidos
   const [semestresExpandidos, setSemestresExpandidos] = useState({});
@@ -238,15 +239,34 @@ function ListaMaterias() {
                           <div
                             key={grupo.grupo}
                             className={`
-                              px-3 py-2 text-xs border-t border-gray-100 transition-colors
+                              px-3 py-2 text-xs border-t border-gray-100 transition-colors cursor-pointer
                               ${seleccionada ? 'bg-primary-50' : 'hover:bg-white'}
                               ${tieneTraslape ? 'bg-red-50' : ''}
                             `}
+                            onClick={(e) => {
+                              // Solo abrir modal si no se hizo click en el checkbox
+                              if (!e.target.closest('input[type="checkbox"]')) {
+                                const materiaConGrupo = {
+                                  id,
+                                  clave: materia.clave,
+                                  nombre: materia.nombre,
+                                  grupo: grupo.grupo,
+                                  profesor: grupo.profesor,
+                                  salon: grupo.salon,
+                                  horarios: grupo.horarios,
+                                  semestre: materia.semestre
+                                };
+                                abrirModal(materiaConGrupo);
+                              }
+                            }}
                           >
                             <div className="flex items-center justify-between">
                               <div className="flex-1">
                                 <div className="flex items-center gap-2">
-                                  <label className="flex items-center cursor-pointer">
+                                  <label 
+                                    className="flex items-center cursor-pointer"
+                                    onClick={(e) => e.stopPropagation()} // Prevenir que el click del label abra el modal
+                                  >
                                     <input
                                       type="checkbox"
                                       checked={seleccionada}
