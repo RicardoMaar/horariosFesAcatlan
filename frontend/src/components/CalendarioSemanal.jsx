@@ -5,7 +5,7 @@ const DIAS = ['LU', 'MA', 'MI', 'JU', 'VI', 'SA'];
 const DIAS_NOMBRES = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sabado'];
 const HORA_INICIO = 7;
 const HORA_FIN = 23;
-const SLOT_HEIGHT = 18.2; // px por cada 30 minutos
+const SLOT_HEIGHT = 1.1375; // rem por cada 30 minutos (18.2px / 16 = 1.1375rem)
 
 function CalendarioSemanal() {
   const materiasSeleccionadas = useHorariosStore(state => state.materiasSeleccionadas);
@@ -13,6 +13,7 @@ function CalendarioSemanal() {
   const abrirModal = useHorariosStore(state => state.abrirModal);
 
   // Detectar traslapes
+  // Esta seccion es para agregar bordes rojos en el grid (creo)
   const traslapes = useMemo(() => {
     const traslapesSet = new Set();
     
@@ -45,7 +46,7 @@ function CalendarioSemanal() {
     DIAS.forEach(dia => {
       bloques[dia] = [];
     });
-
+    
     materiasSeleccionadas.forEach(materia => {
       materia.horarios.forEach(horario => {
         if (DIAS.includes(horario.dia)) {
@@ -55,8 +56,8 @@ function CalendarioSemanal() {
           const minutosInicio = (horaInicio - HORA_INICIO) * 60 + minInicio;
           const minutosFin = (horaFin - HORA_INICIO) * 60 + minFin;
           
-          const top = (minutosInicio / 30) * SLOT_HEIGHT;
-          const height = ((minutosFin - minutosInicio) / 30) * SLOT_HEIGHT;
+          const top = (minutosInicio / 30) * SLOT_HEIGHT * 16; // Convertir rem a px
+          const height = ((minutosFin - minutosInicio) / 30) * SLOT_HEIGHT * 16; // Convertir rem a px
           
           bloques[horario.dia].push({
             ...materia,
@@ -72,7 +73,62 @@ function CalendarioSemanal() {
 
     // Detectar y ajustar bloques que se sobrelapan en el mismo día
     Object.keys(bloques).forEach(dia => {
+
       const bloquesDelDia = bloques[dia];
+/*
+        // Ejemplo: bloquesDelDia para el día "LU" (Lunes)
+            bloquesDelDia = [
+              {
+                id: "mat1",
+                nombre: "Cálculo",
+                grupo: "1251",
+                profesor: "Dr. García",
+                salon: "A-201",
+                horario: {
+                  dia: "LU",
+                  inicio: "08:00",
+                  fin: "10:00"
+                },
+                top: 36.4,
+                height: 72.8,
+                color: "#3B82F6",
+                tieneTraslape: false
+              },
+              {
+                id: "mat2", 
+                nombre: "Programación",
+                grupo: "1252",
+                profesor: "Ing. López",
+                salon: "B-105",
+                horario: {
+                  dia: "LU", 
+                  inicio: "09:30",
+                  fin: "11:00"
+                },
+                top: 91.0,
+                height: 54.6,
+                color: "#EF4444",
+                tieneTraslape: true
+              },
+              {
+                id: "mat3",
+                nombre: "Física", 
+                grupo: "1253",
+                profesor: "Dr. Martínez",
+                salon: "C-301",
+                horario: {
+                  dia: "LU",
+                  inicio: "12:00", 
+                  fin: "14:00"
+                },
+                top: 182.0,
+                height: 72.8,
+                color: "#10B981",
+                tieneTraslape: false
+              }
+            ]
+      */
+
       
       // Ordenar por hora de inicio
       bloquesDelDia.sort((a, b) => {
@@ -96,7 +152,7 @@ function CalendarioSemanal() {
             const bFin = timeToMinutes(b.horario.fin);
             return bloqueInicio < bFin && bInicio < bloqueFin;
           });
-          
+          // si traslapa con el grupo, agregarlo al grupo
           if (traslapaConGrupo) {
             grupo.push(bloque);
             grupoEncontrado = true;
@@ -173,9 +229,9 @@ function CalendarioSemanal() {
 
   return (
     <div className="overflow-x-hidden">
-      <div className="min-w-[600px]">
+      <div className="min-w-[37.5rem]"> {/* 600px / 16 = 37.5rem */}
         {/* Header con días */}
-        <div className="grid grid-cols-[80px,repeat(6,1fr)] gap-px bg-gray-200 mb-px">
+        <div className="grid grid-cols-[5rem,repeat(6,1fr)] gap-px bg-gray-200 mb-px"> {/* 80px / 16 = 5rem */}
           <div className="bg-gray-50 p-2"></div>
           {DIAS_NOMBRES.map((dia, index) => (
             <div key={dia} className="bg-gray-50 p-2 text-center">
@@ -187,14 +243,14 @@ function CalendarioSemanal() {
 
         {/* Grid del calendario */}
         <div className="relative">
-          <div className="grid grid-cols-[80px,repeat(6,1fr)] gap-px bg-gray-200">
+          <div className="grid grid-cols-[5rem,repeat(6,1fr)] gap-px bg-gray-200"> {/* 80px / 16 = 5rem */}
             {/* Columna de horas */}
             <div>
               {horas.map((hora, index) => (
                 <div 
                   key={hora} 
                   className="bg-gray-50 h-10 flex items-center justify-center text-xs text-gray-600"
-                  style={{ height: `${SLOT_HEIGHT}px` }}
+                  style={{ height: `${SLOT_HEIGHT}rem` }}
                 >
                   {index % 2 === 0 && hora}
                 </div>
@@ -209,7 +265,7 @@ function CalendarioSemanal() {
                   <div 
                     key={index}
                     className={`border-t ${index % 2 === 0 ? 'border-gray-200' : 'border-gray-100'}`}
-                    style={{ height: `${SLOT_HEIGHT}px` }}
+                    style={{ height: `${SLOT_HEIGHT}rem` }}
                   />
                 ))}
 
@@ -231,8 +287,8 @@ function CalendarioSemanal() {
                         ${bloque.tieneTraslape ? 'ring-2 ring-red-500 ring-opacity-50' : ''}
                       `}
                       style={{
-                        top: `${bloque.top}px`,
-                        height: `${bloque.height - 2}px`,
+                        top: `${bloque.top / 16}rem`, // Convertir px a rem
+                        height: `${(bloque.height - 2) / 16}rem`, // Convertir px a rem
                         backgroundColor: bloque.color,
                         left,
                         width,

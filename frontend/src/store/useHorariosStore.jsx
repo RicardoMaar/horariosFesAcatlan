@@ -41,7 +41,7 @@ const useHorariosStore = create(
         } else {
           // Agregar materia con color
           const materia = get().materiasData[claveMateria];
-          const nuevoColor = generarColorDeterminista(id, Object.values(coloresAsignados));
+          const nuevoColor = generarColorDeterminista(id);
           
           set({
             materiasSeleccionadas: [...materiasSeleccionadas, {
@@ -83,42 +83,24 @@ const useHorariosStore = create(
   )
 );
 
-// Función para generar color determinista basado en el ID
-function generarColorDeterminista(id, coloresUsados) {
+// Función para generar color determinista basado SOLO en el ID
+function generarColorDeterminista(id) {
   const coloresBase = [
-    '#8B5CF6', '#10B981', '#F59E0B', '#EF4444', '#3B82F6',
-    '#EC4899', '#14B8A6', '#F97316', '#6366F1', '#84CC16'
+    '#3B82F6', '#EF4444', '#10B981', '#F59E0B', '#8B5CF6',
+    '#EC4899', '#06B6D4', '#84CC16', '#F97316', '#6366F1'
   ];
   
-  // Generar un índice basado en el hash del ID
+  // Crear un hash simple del ID
   let hash = 0;
   for (let i = 0; i < id.length; i++) {
     const char = id.charCodeAt(i);
     hash = ((hash << 5) - hash) + char;
-    hash = hash & hash; // Convert to 32bit integer
+    hash = hash & hash; // Convertir a 32-bit integer
   }
   
-  // Usar el hash para seleccionar un color base
-  const indiceBase = Math.abs(hash) % coloresBase.length;
-  
-  // Intentar usar el color del índice hash
-  let colorSeleccionado = coloresBase[indiceBase];
-  
-  // Si ya está usado, buscar el siguiente disponible
-  if (coloresUsados.includes(colorSeleccionado)) {
-    // Buscar el primer color no usado
-    const colorDisponible = coloresBase.find(c => !coloresUsados.includes(c));
-    
-    if (colorDisponible) {
-      colorSeleccionado = colorDisponible;
-    } else {
-      // Si todos están usados, generar uno basado en el hash
-      const hue = (Math.abs(hash) % 360);
-      colorSeleccionado = `hsl(${hue}, 70%, 60%)`;
-    }
-  }
-  
-  return colorSeleccionado;
+  // Usar el hash para seleccionar un color
+  const colorIndex = Math.abs(hash) % coloresBase.length;
+  return coloresBase[colorIndex];
 }
 
 // Función de utilidad para detectar traslapes
