@@ -67,7 +67,10 @@ function ModalDetalles() {
                           )}
                         </div>
                         <button
-                          onClick={() => toggleMateria(materiaEnModal.clave, grupo)}
+                          onClick={() => {
+                            toggleMateria(materiaEnModal.clave, grupo);
+                            cerrarModal();
+                          }}
                           className={`
                             px-3 py-1 rounded text-sm font-medium transition-colors
                             ${seleccionada 
@@ -110,6 +113,7 @@ function ModalDetalles() {
                           const materia = materiasSeleccionadas.find(m => m.id === materiaEnModal.id);
                           if (materia) {
                             toggleMateria(materia.clave, { grupo: materia.grupo });
+                            cerrarModal();
                           }
                         }}
                         className="px-3 py-1 rounded text-sm font-medium transition-colors bg-red-100 text-red-700 hover:bg-red-200"

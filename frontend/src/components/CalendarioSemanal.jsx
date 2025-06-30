@@ -278,7 +278,7 @@ function CalendarioSemanal() {
                     ? `${100 / bloque.totalColumnas}%` 
                     : '100%';
                   const left = bloque.totalColumnas > 1 
-                    ? `${(100 / bloque.totalColumnas) * bloque.columna}%` 
+                    ? `${(100 / (bloque.totalColumnas)) * bloque.columna}%` 
                     : '0';
 
                   // Verificar si es el bloque del modal activo
@@ -322,9 +322,9 @@ function CalendarioSemanal() {
                             <div className="text-xs opacity-80 truncate mt-0.5">
                               {bloque.profesor}
                             </div>
-                            <div className="text-xs opacity-80">
+                            {/* <div className="text-xs opacity-80">
                               {bloque.salon}
-                            </div>
+                            </div> */}
                           </>
                         )}
                       </div>
