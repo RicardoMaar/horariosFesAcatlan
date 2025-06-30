@@ -1,5 +1,7 @@
+import { useState } from 'react';
 import * as Dialog from '@radix-ui/react-dialog';
 import useHorariosStore from '../store/useHorariosStore';
+import SelectorColor from './SelectorColor';
 
 function ModalDetalles() {
   const modalAbierto = useHorariosStore(state => state.modalAbierto);
@@ -8,6 +10,9 @@ function ModalDetalles() {
   const toggleMateria = useHorariosStore(state => state.toggleMateria);
   const materiasSeleccionadas = useHorariosStore(state => state.materiasSeleccionadas);
   const coloresAsignados = useHorariosStore(state => state.coloresAsignados);
+  const cambiarColorMateria = useHorariosStore(state => state.cambiarColorMateria);
+
+  const [mostrandoSelectorColor, setMostrandoSelectorColor] = useState(null);
 
   if (!materiaEnModal) return null;
 
@@ -60,8 +65,9 @@ function ModalDetalles() {
                         <div className="flex items-center gap-2">
                           <span className="font-medium">Grupo {grupo.grupo}</span>
                           {seleccionada && (
-                            <div 
-                              className="w-3 h-3 rounded-full"
+                            <button
+                              onClick={() => setMostrandoSelectorColor(mostrandoSelectorColor === id ? null : id)}
+                              className="w-3 h-3 rounded-full cursor-pointer hover:scale-110 transition-transform"
                               style={{ backgroundColor: color }}
                             />
                           )}
@@ -83,6 +89,19 @@ function ModalDetalles() {
                         </button>
                       </div>
                       
+                      {mostrandoSelectorColor === id && (
+                        <div className="mt-3 p-3 bg-gray-50 rounded-md border">
+                          <SelectorColor
+                            colorActual={color}
+                            onCambiarColor={(nuevoColor) => {
+                              cambiarColorMateria(id, nuevoColor);
+                              setMostrandoSelectorColor(null);
+                            }}
+                            onCerrar={() => setMostrandoSelectorColor(null)}
+                          />
+                        </div>
+                      )}
+
                       <div className="space-y-1 text-sm text-gray-600">
                         <div>{grupo.profesor}</div>
                         <div>
@@ -103,8 +122,9 @@ function ModalDetalles() {
                     <div className="flex items-center gap-2">
                       <span className="font-medium">Grupo {materiaEnModal.grupo}</span>
                       {estaSeleccionada && (
-                        <div 
-                          className="w-3 h-3 rounded-full"
+                        <button
+                          onClick={() => setMostrandoSelectorColor(mostrandoSelectorColor === materiaEnModal.id ? null : materiaEnModal.id)}
+                          className="w-3 h-3 rounded-full cursor-pointer hover:scale-110 transition-transform"
                           style={{ backgroundColor: coloresAsignados[materiaEnModal.id] }}
                         />
                       )}
@@ -142,6 +162,19 @@ function ModalDetalles() {
                     </button>
                   </div>
                   
+                  {mostrandoSelectorColor === materiaEnModal.id && (
+                    <div className="mt-3 p-3 bg-gray-50 rounded-md border">
+                      <SelectorColor
+                        colorActual={coloresAsignados[materiaEnModal.id]}
+                        onCambiarColor={(nuevoColor) => {
+                          cambiarColorMateria(materiaEnModal.id, nuevoColor);
+                          setMostrandoSelectorColor(null);
+                        }}
+                        onCerrar={() => setMostrandoSelectorColor(null)}
+                      />
+                    </div>
+                  )}
+
                   <div className="space-y-1 text-sm text-gray-600">
                     <div>{materiaEnModal.profesor}</div>
                     <div>
