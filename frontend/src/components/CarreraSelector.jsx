@@ -92,12 +92,6 @@ function CarreraSelector() {
           Cargando horarios...
         </div>
       )}
-
-      {carreraSeleccionada && carreras && (
-        <div className="text-sm text-gray-600">
-          <span className="font-handwritten text-lg">{carreras[carreraSeleccionada]?.nombre}</span>
-        </div>
-      )}
     </div>
   );
 }

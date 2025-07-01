@@ -184,9 +184,6 @@ function ListaMaterias() {
               {getSemestreLabel(semestre)}
             </span>
             <div className="flex items-center gap-2">
-              <span className="text-xs text-gray-500">
-                {materias.length} materias
-              </span>
               <svg 
                 className={`w-4 h-4 transition-transform ${semestresExpandidos[semestre] ? 'rotate-180' : ''}`}
                 fill="none" 
