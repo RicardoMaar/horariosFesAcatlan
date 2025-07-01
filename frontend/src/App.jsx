@@ -44,7 +44,7 @@ function App() {
         </div>
 
         {carreraSeleccionada && materiasData && (
-          <div className="flex flex-col lg:flex-row gap-6">
+          <div className="flex flex-col lg:flex-row gap-6 max-h-[calc(86vh-100px)]">
             {/* Panel izquierdo - Lista de materias */}
             <div className="lg:w-1/3 xl:w-1/4 flex-shrink-0">
               <div className="bg-white rounded-lg shadow-sm p-4 sticky top-20">
@@ -52,7 +52,7 @@ function App() {
                   Materias disponibles
                 </h2>
                 <BuscadorMaterias />
-                <div className="mt-4 max-h-[calc(100vh-250px)] overflow-y-auto custom-scrollbar scrollbar-gutter-stable">
+                <div className="mt-4 max-h-[calc(85vh-200px)] overflow-y-auto custom-scrollbar scrollbar-gutter-stable">
                   <ListaMaterias />
                 </div>
               </div>
@@ -60,11 +60,11 @@ function App() {
 
             {/* Panel derecho - Calendario */}
             <div className="lg:flex-1">
-              <div className="bg-white rounded-lg shadow-sm p-4 h-[calc(85vh-100px)] flex flex-col">
+              <div className="bg-white rounded-lg shadow-sm p-4 max-h-[calc(86vh-100px)] flex flex-col">
                 <h2 className="text-lg font-semibold mb-4 font-handwritten">
                   Horario semanal
                 </h2>
-                <div className="flex-1 overflow-hidden">
+                <div className="flex-1 overflow-scroll custom-scrollbar scrollbar-gutter-stable">
                   <CalendarioSemanal />
                 </div>
               </div>

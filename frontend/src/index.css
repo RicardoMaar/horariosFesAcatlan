@@ -31,10 +31,10 @@
     @apply transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5;
   }
   
-  /* Grid del calendario */
+  /* Grid del calendario - Desktop por defecto */
   .calendar-grid {
     display: grid;
-    grid-template-columns: 80px repeat(5, 1fr);
+    grid-template-columns: 80px repeat(6, 1fr);
     grid-template-rows: 40px repeat(30, 40px);
     gap: 1px;
     @apply bg-gray-200;
@@ -53,11 +53,95 @@
     @apply cursor-pointer;
   }
   
-  /* Modo mobile */
-  @media (max-width: 768px) {
+  /* Contenedor para swipe en mobile */
+  .calendar-swipe-container {
+    @apply relative overflow-hidden;
+  }
+  
+  /* Wrapper para las vistas del calendario */
+  .calendar-views-wrapper {
+    @apply flex transition-transform duration-300 ease-in-out;
+  }
+  
+  /* Vista individual del calendario */
+  .calendar-view {
+    @apply w-full flex-shrink-0;
+  }
+  
+  /* Indicadores de página */
+  .calendar-dots {
+    @apply flex justify-center gap-2 mt-4;
+  }
+  
+  .calendar-dot {
+    @apply w-2 h-2 rounded-full bg-gray-300 transition-colors duration-300;
+  }
+  
+  .calendar-dot.active {
+    @apply bg-blue-500;
+  }
+  
+  /* Modo tablet */
+  @media (min-width: 769px) and (max-width: 1023px) {
     .calendar-grid {
-      grid-template-columns: 60px repeat(5, 1fr);
+      grid-template-columns: 70px repeat(5, 1fr);
+      grid-template-rows: 38px repeat(30, 38px);
+    }
+  }
+  
+  /* Modo mobile - SOLO 3 días visibles */
+  @media (max-width: 768px) {
+    /* Ocultar el grid normal en mobile */
+    .calendar-grid.desktop-only {
+      display: none;
+    }
+    
+    /* Grid mobile con 3 columnas */
+    .calendar-grid-mobile {
+      display: grid;
+      grid-template-columns: 50px repeat(3, 1fr);
       grid-template-rows: 35px repeat(30, 35px);
+      gap: 1px;
+      @apply bg-gray-200;
+    }
+    
+    /* Ajustes para elementos en mobile */
+    .time-slot {
+      @apply p-0.5 text-xs;
+    }
+    
+    .materia-block {
+      @apply p-1 text-xs;
+      @apply hover:scale-100; /* Desactivar scale en móvil */
+    }
+    
+    /* Navegación táctil */
+    .swipe-hint {
+      @apply absolute right-2 top-1/2 transform -translate-y-1/2;
+      @apply text-gray-400 animate-pulse;
+    }
+  }
+  
+  /* Mobile muy pequeño */
+  @media (max-width: 480px) {
+    .calendar-grid-mobile {
+      grid-template-columns: 45px repeat(3, 1fr);
+      grid-template-rows: 32px repeat(30, 32px);
+    }
+    
+    .time-slot {
+      @apply text-xs p-0;
+    }
+    
+    .materia-block {
+      @apply text-xs p-0.5;
+    }
+  }
+  
+  /* Landscape mobile */
+  @media (max-width: 768px) and (orientation: landscape) {
+    .calendar-grid-mobile {
+      grid-template-rows: 30px repeat(30, 30px);
     }
   }
 }
@@ -139,4 +223,18 @@
 
 .scrollbar-gutter-stable {
   scrollbar-gutter: stable;
+}
+
+/* Animación de deslizamiento */
+@keyframes swipe-hint {
+  0%, 100% {
+    transform: translateX(0) translateY(-50%);
+  }
+  50% {
+    transform: translateX(-5px) translateY(-50%);
+  }
+}
+
+.swipe-hint {
+  animation: swipe-hint 2s ease-in-out infinite;
 }

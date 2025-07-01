@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import useHorariosStore from '../store/useHorariosStore';
 
 const DIAS = ['LU', 'MA', 'MI', 'JU', 'VI', 'SA'];
@@ -14,6 +14,22 @@ function CalendarioSemanal() {
 
   const modalAbierto = useHorariosStore(state => state.modalAbierto);
   const bloqueModalActivo = useHorariosStore(state => state.bloqueModalActivo);
+
+  // Estados para móvil
+  const [currentView, setCurrentView] = useState(0); // 0 = Lun-Mie, 1 = Jue-Sáb
+  const [isMobile, setIsMobile] = useState(false);
+  const [touchStartX, setTouchStartX] = useState(0);
+
+  // Detectar si es móvil
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   // Detectar traslapes
   // Esta seccion es para agregar bordes rojos en el grid (creo)
@@ -78,60 +94,6 @@ function CalendarioSemanal() {
     Object.keys(bloques).forEach(dia => {
 
       const bloquesDelDia = bloques[dia];
-/*
-        // Ejemplo: bloquesDelDia para el día "LU" (Lunes)
-            bloquesDelDia = [
-              {
-                id: "mat1",
-                nombre: "Cálculo",
-                grupo: "1251",
-                profesor: "Dr. García",
-                salon: "A-201",
-                horario: {
-                  dia: "LU",
-                  inicio: "08:00",
-                  fin: "10:00"
-                },
-                top: 36.4,
-                height: 72.8,
-                color: "#3B82F6",
-                tieneTraslape: false
-              },
-              {
-                id: "mat2", 
-                nombre: "Programación",
-                grupo: "1252",
-                profesor: "Ing. López",
-                salon: "B-105",
-                horario: {
-                  dia: "LU", 
-                  inicio: "09:30",
-                  fin: "11:00"
-                },
-                top: 91.0,
-                height: 54.6,
-                color: "#EF4444",
-                tieneTraslape: true
-              },
-              {
-                id: "mat3",
-                nombre: "Física", 
-                grupo: "1253",
-                profesor: "Dr. Martínez",
-                salon: "C-301",
-                horario: {
-                  dia: "LU",
-                  inicio: "12:00", 
-                  fin: "14:00"
-                },
-                top: 182.0,
-                height: 72.8,
-                color: "#10B981",
-                tieneTraslape: false
-              }
-            ]
-      */
-
       
       // Ordenar por hora de inicio
       bloquesDelDia.sort((a, b) => {
@@ -230,23 +192,212 @@ function CalendarioSemanal() {
     return false;
   }
 
+  // Funciones para manejar swipe
+  const handleTouchStart = (e) => {
+    setTouchStartX(e.touches[0].clientX);
+  };
+
+  const handleTouchEnd = (e) => {
+    const touchEndX = e.changedTouches[0].clientX;
+    const diff = touchStartX - touchEndX;
+    
+    if (Math.abs(diff) > 50) { // Umbral de 50px
+      if (diff > 0 && currentView === 0) {
+        setCurrentView(1); // Swipe izquierda - mostrar Jue-Sáb
+      } else if (diff < 0 && currentView === 1) {
+        setCurrentView(0); // Swipe derecha - mostrar Lun-Mie
+      }
+    }
+  };
+
+  // Función para renderizar el grid de días (reutilizable)
+  const renderDiasGrid = (diasParaMostrar) => {
+    return (
+      <>
+        {/* Columnas de días */}
+        {diasParaMostrar.map(dia => (
+          <div key={dia} className="relative bg-white">
+            {/* Líneas de fondo para las horas */}
+            {horas.map((_, index) => (
+              <div 
+                key={index}
+                className={`border-t ${index % 2 === 0 ? 'border-gray-200' : 'border-gray-100'}`}
+                style={{ height: isMobile ? `${SLOT_HEIGHT * 0.875}rem` : `${SLOT_HEIGHT}rem` }}
+              />
+            ))}
+
+            {/* Bloques de materias */}
+            {bloquesPorDia[dia].map((bloque, index) => {
+              const width = bloque.totalColumnas > 1 
+                ? `${100 / bloque.totalColumnas}%` 
+                : '100%';
+              const left = bloque.totalColumnas > 1 
+                ? `${(100 / (bloque.totalColumnas)) * bloque.columna}%` 
+                : '0';
+
+              // Verificar si es el bloque del modal activo
+              const esBloqueDelModal = modalAbierto && 
+                bloqueModalActivo?.id === bloque.id && 
+                bloqueModalActivo?.horario?.dia === bloque.horario.dia &&
+                bloqueModalActivo?.horario?.inicio === bloque.horario.inicio;
+              
+              const opacidadFinal = esBloqueDelModal ? 0.3 : (bloque.tieneTraslape ? 0.5 : 1);
+
+              const scaleFactor = isMobile ? 0.875 : 1;
+
+              return (
+                <div
+                  key={`${bloque.id}-${index}`}
+                  className={`
+                    absolute ${isMobile ? 'p-0.5' : 'p-1'} rounded cursor-pointer transition-all duration-200
+                    ${!esBloqueDelModal ? (isMobile ? 'hover:shadow-md hover:z-10' : 'hover:shadow-lg hover:z-10 hover:scale-105') : 'z-0'}
+                    ${bloque.tieneTraslape ? 'ring-2 ring-red-500 ring-opacity-10' : ''}
+                  `}
+                  style={{
+                    top: `${(bloque.top * scaleFactor) / 16}rem`,
+                    height: `${((bloque.height - 2) * scaleFactor) / 16}rem`,
+                    backgroundColor: bloque.color,
+                    left,
+                    width,
+                    opacity: opacidadFinal,
+                    zIndex: esBloqueDelModal ? .5 : 'auto'
+                  }}
+                  onClick={() => !esBloqueDelModal && abrirModal(bloque)}
+                >
+                  <div className="text-white h-full flex flex-col justify-center px-1 overflow-hidden"> 
+                    <div className={`${isMobile ? 'text-xs' : 'text-xs'} font-semibold truncate`}>
+                      {bloque.nombre}
+                    </div>
+                    <div className={`${isMobile ? 'text-xs' : 'text-xs'} opacity-90 truncate`}>
+                      {bloque.grupo}
+                    </div>
+                    {bloque.height > 60 && !isMobile && (
+                      <>
+                        <div className="text-xs opacity-80 truncate mt-0.5">
+                          {bloque.profesor}
+                        </div>
+                      </>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        ))}
+      </>
+    );
+  };
+
+  // Vista móvil
+  if (isMobile) {
+    const diasView1 = DIAS.slice(0, 3); // LU, MA, MI
+    const diasView2 = DIAS.slice(3, 6); // JU, VI, SA
+    const nombresView1 = DIAS_NOMBRES.slice(0, 3);
+    const nombresView2 = DIAS_NOMBRES.slice(3, 6);
+
+    return (
+      <div className="w-full">
+        <div 
+          className="calendar-swipe-container"
+          onTouchStart={handleTouchStart}
+          onTouchEnd={handleTouchEnd}
+        >
+          <div 
+            className="calendar-views-wrapper"
+            style={{ transform: `translateX(-${currentView * 100}%)` }}
+          >
+            {/* Vista 1: Lun-Mie */}
+            <div className="calendar-view">
+              {/* Header con días */}
+              <div className="grid grid-cols-[3.125rem,repeat(3,1fr)] gap-px bg-gray-200 mb-px">
+                <div className="bg-gray-50 p-1"></div>
+                {nombresView1.map((dia) => (
+                  <div key={dia} className="bg-gray-50 p-1 text-center">
+                    <div className="font-medium text-xs">{dia}</div>
+                  </div>
+                ))}
+              </div>
+              
+              {/* Grid del calendario */}
+              <div className="relative">
+                <div className="grid grid-cols-[3.125rem,repeat(3,1fr)] gap-px bg-gray-200">
+                  {/* Columna de horas */}
+                  <div>
+                    {horas.map((hora, index) => (
+                      <div 
+                        key={hora} 
+                        className="bg-gray-50 flex items-center justify-center text-xs text-gray-600"
+                        style={{ height: `${SLOT_HEIGHT * 0.875}rem` }}
+                      >
+                        {index % 2 === 0 && hora}
+                      </div>
+                    ))}
+                  </div>
+                  {renderDiasGrid(diasView1, nombresView1)}
+                </div>
+              </div>
+            </div>
+
+            {/* Vista 2: Jue-Sáb */}
+            <div className="calendar-view">
+              {/* Header con días */}
+              <div className="grid grid-cols-[3.125rem,repeat(3,1fr)] gap-px bg-gray-200 mb-px">
+                <div className="bg-gray-50 p-1"></div>
+                {nombresView2.map((dia) => (
+                  <div key={dia} className="bg-gray-50 p-1 text-center">
+                    <div className="font-medium text-xs">{dia}</div>
+                  </div>
+                ))}
+              </div>
+              
+              {/* Grid del calendario */}
+              <div className="relative">
+                <div className="grid grid-cols-[3.125rem,repeat(3,1fr)] gap-px bg-gray-200">
+                  {/* Columna de horas */}
+                  <div>
+                    {horas.map((hora, index) => (
+                      <div 
+                        key={hora} 
+                        className="bg-gray-50 flex items-center justify-center text-xs text-gray-600"
+                        style={{ height: `${SLOT_HEIGHT * 0.875}rem` }}
+                      >
+                        {index % 2 === 0 && hora}
+                      </div>
+                    ))}
+                  </div>
+                  {renderDiasGrid(diasView2, nombresView2)}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        {/* Indicadores de página */}
+        <div className="calendar-dots">
+          <div className={`calendar-dot ${currentView === 0 ? 'active' : ''}`}></div>
+          <div className={`calendar-dot ${currentView === 1 ? 'active' : ''}`}></div>
+        </div>
+      </div>
+    );
+  }
+
+  // Vista desktop (tu código original)
   return (
-    <div className="overflow-x-hidden">
-      <div className="min-w-[37.5rem]"> {/* 600px / 16 = 37.5rem */}
+    <div>
+      <div className="min-w-[37.5rem]">
         {/* Header con días */}
-        <div className="grid grid-cols-[5rem,repeat(6,1fr)] gap-px bg-gray-200 mb-px"> {/* 80px / 16 = 5rem */}
+        <div className="grid grid-cols-[5rem,repeat(6,1fr)] gap-px bg-gray-200 mb-px">
           <div className="bg-gray-50 p-2"></div>
           {DIAS_NOMBRES.map((dia) => (
             <div key={dia} className="bg-gray-50 p-2 text-center">
               <div className="font-medium text-sm">{dia}</div>
-             
             </div>
           ))}
         </div>
 
         {/* Grid del calendario */}
         <div className="relative">
-          <div className="grid grid-cols-[5rem,repeat(6,1fr)] gap-px bg-gray-200"> {/* 80px / 16 = 5rem */}
+          <div className="grid grid-cols-[5rem,repeat(6,1fr)] gap-px bg-gray-200">
             {/* Columna de horas */}
             <div>
               {horas.map((hora, index) => (
@@ -259,80 +410,7 @@ function CalendarioSemanal() {
                 </div>
               ))}
             </div>
-
-            {/* Columnas de días */}
-            {DIAS.map(dia => (
-              <div key={dia} className="relative bg-white">
-                {/* Líneas de fondo para las horas */}
-                {horas.map((_, index) => (
-                  <div 
-                    key={index}
-                    className={`border-t ${index % 2 === 0 ? 'border-gray-200' : 'border-gray-100'}`}
-                    style={{ height: `${SLOT_HEIGHT}rem` }}
-                  />
-                ))}
-
-                {/* Bloques de materias */}
-                {bloquesPorDia[dia].map((bloque, index) => {
-                  const width = bloque.totalColumnas > 1 
-                    ? `${100 / bloque.totalColumnas}%` 
-                    : '100%';
-                  const left = bloque.totalColumnas > 1 
-                    ? `${(100 / (bloque.totalColumnas)) * bloque.columna}%` 
-                    : '0';
-
-                  // Verificar si es el bloque del modal activo
-                  const esBloqueDelModal = modalAbierto && 
-                    bloqueModalActivo?.id === bloque.id && 
-                    bloqueModalActivo?.horario?.dia === bloque.horario.dia &&
-                    bloqueModalActivo?.horario?.inicio === bloque.horario.inicio;
-                  
-                  const opacidadFinal = esBloqueDelModal ? 0.3 : (bloque.tieneTraslape ? 0.5 : 1);
-
-                  return (
-                    <div
-                      key={`${bloque.id}-${index}`}
-                      className={`
-                        absolute p-1 rounded cursor-pointer transition-all duration-200
-                        ${!esBloqueDelModal ? 'hover:shadow-lg hover:z-10 hover:scale-105' : 'z-0'}
-                        ${bloque.tieneTraslape ? 'ring-2 ring-red-500 ring-opacity-10' : ''}
-                      `}
-                      style={{
-                        top: `${bloque.top / 16}rem`, // Convertir px a rem
-                        height: `${(bloque.height - 2) / 16}rem`, // Convertir px a rem
-                        backgroundColor: bloque.color,
-                        left,
-                        width,
-                        opacity: opacidadFinal,
-                        zIndex: esBloqueDelModal ? .5 : 'auto' // para que se muestre detras del modal pero encima del grid
-                      }}
-                      onClick={() => !esBloqueDelModal && abrirModal(bloque)}
-                      // onClick={() => abrirModal(bloque)}
-                      // onClick={() => abrirModal(bloque)}
-                    >
-                      <div className="text-white h-full flex flex-col justify-center px-1 overflow-hidden">
-                        <div className="text-xs font-semibold truncate">
-                          {bloque.nombre}
-                        </div>
-                        <div className="text-xs opacity-90 truncate">
-                          {bloque.grupo}
-                        </div>
-                        {bloque.height > 60 && (
-                          <>
-                            <div className="text-xs opacity-80 truncate mt-0.5">
-                              {bloque.profesor}
-                            </div>
-                            {/* <div className="text-xs opacity-80">
-                              {bloque.salon}
-                            </div> */}
-                          </>
-                        )}
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            ))}
+            {renderDiasGrid(DIAS, DIAS_NOMBRES)}
           </div>
         </div>
       </div>
