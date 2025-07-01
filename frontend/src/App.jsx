@@ -28,7 +28,7 @@ function App() {
       <header className="bg-white border-b border-gray-200 sticky top-0 z-40">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-handwritten text-primary-700">
+            <h1 className="text-3xl font-handwritten text-primary-700">
               Horarios FES Acatlán
             </h1>
             {carreraSeleccionada && <ExportMenu />}
@@ -38,31 +38,32 @@ function App() {
 
       {/* Contenido principal */}
       <main className="max-w-7xl mx-auto px-4 py-6">
-        {/* Selector de carrera */}
-        <div className="mb-6">
+      <div className="mb-6 flex">
+        <div className="w-full lg:w-1/3 xl:w-1/4">
           <CarreraSelector />
         </div>
+      </div>
 
         {carreraSeleccionada && materiasData && (
-          <div className="flex flex-col lg:flex-row gap-6 max-h-[calc(86vh-100px)]">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
             {/* Panel izquierdo - Lista de materias */}
-            <div className="lg:w-1/3 xl:w-1/4 flex-shrink-0">
-              <div className="bg-white rounded-lg shadow-sm p-4 sticky top-20">
-                <h2 className="text-lg font-semibold mb-4 font-handwritten">
+            <div className="lg:col-span-4 xl:col-span-3">
+              <div className="bg-white rounded-lg shadow-sm p-4 h-full lg:h-[calc(100vh-180px)] flex flex-col">
+                <h2 className="text-2xl mb-4 font-handwritten">
                   Materias disponibles
                 </h2>
                 <BuscadorMaterias />
-                <div className="mt-4 max-h-[calc(85vh-200px)] overflow-y-auto custom-scrollbar scrollbar-gutter-stable">
+                <div className="mt-4 flex-1 overflow-y-auto custom-scrollbar scrollbar-gutter-stable">
                   <ListaMaterias />
                 </div>
               </div>
             </div>
 
             {/* Panel derecho - Calendario */}
-            <div className="lg:flex-1">
-              <div className="bg-white rounded-lg shadow-sm p-4 max-h-[calc(86vh-100px)] flex flex-col">
-                <h2 className="text-lg font-semibold mb-4 font-handwritten">
-                  Horario semanal
+            <div className="lg:col-span-8 xl:col-span-9">
+              <div className="bg-white rounded-lg shadow-sm p-4 h-full">
+                <h2 className="text-2xl mb-4 font-handwritten">
+                  Horario
                 </h2>
                 <div className="flex-1 overflow-scroll custom-scrollbar scrollbar-gutter-stable">
                   <CalendarioSemanal />

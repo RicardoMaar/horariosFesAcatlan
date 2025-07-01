@@ -172,7 +172,7 @@ function ListaMaterias() {
   };
 
   return (
-    <div className="space-y-2 pr-2">
+    <div className="space-y-2">
       {Object.entries(materiasPorSemestre).map(([semestre, materias]) => (
         <div key={semestre} className="border border-gray-200 rounded-md">
           {/* Header del semestre */}

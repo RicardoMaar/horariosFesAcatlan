@@ -5,7 +5,7 @@ function BuscadorMaterias() {
   const setBusqueda = useHorariosStore(state => state.setBusqueda);
 
   return (
-    <div className="relative">
+    <div className="relative w-full">
       <input
         type="text"
         value={busqueda}

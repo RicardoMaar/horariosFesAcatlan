@@ -384,7 +384,7 @@ function CalendarioSemanal() {
   // Vista desktop (tu código original)
   return (
     <div>
-      <div className="min-w-[37.5rem]">
+      <div className="w-full lg:min-w-[37.5rem]">
         {/* Header con días */}
         <div className="grid grid-cols-[5rem,repeat(6,1fr)] gap-px bg-gray-200 mb-px">
           <div className="bg-gray-50 p-2"></div>

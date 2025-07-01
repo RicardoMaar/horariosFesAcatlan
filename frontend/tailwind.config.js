@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'handwritten': ['Caveat', 'cursive'],
-        'sans': ['Inter', 'system-ui', 'sans-serif'],
+        'handwritten': ['Caveat', 'cursive'], 
+        'sans': ['Poppins', 'system-ui', 'sans-serif'], 
       },
       colors: {
         // Paleta inspirada en Notion Calendar
