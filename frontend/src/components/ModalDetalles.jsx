@@ -2,6 +2,7 @@ import { useState } from 'react';
 import * as Dialog from '@radix-ui/react-dialog';
 import useHorariosStore from '../store/useHorariosStore';
 import SelectorColor from './SelectorColor';
+import '../styles/animations.css'; // 👈 Importar las animaciones
 
 function ModalDetalles() {
   const modalAbierto = useHorariosStore(state => state.modalAbierto);
@@ -22,16 +23,16 @@ function ModalDetalles() {
   return (
     <Dialog.Root open={modalAbierto} onOpenChange={cerrarModal}>
       <Dialog.Portal>
-        <Dialog.Overlay className="fixed inset-0 bg-black/50 backdrop-blur-sm animate-fade-in" />
-        <Dialog.Content className="fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-white rounded-lg shadow-xl w-full max-w-md max-h-[90vh] overflow-hidden animate-modal-enter">
+        <Dialog.Overlay className="fixed inset-0 bg-black/50 backdrop-blur-sm modal-overlay" />
+        <Dialog.Content className="fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-white rounded-lg shadow-xl w-full max-w-md max-h-[90vh] overflow-hidden modal-content">
           <div className="p-6">
             {/* Header */}
-            <Dialog.Title className="text-xl font-semibold mb-4">
+            <Dialog.Title className="text-xl font-semibold mb-4 modal-item">
               {materiaEnModal.nombre}
             </Dialog.Title>
             
             {/* Info básica */}
-            <div className="space-y-2 mb-4 text-sm">
+            <div className="space-y-2 mb-4 text-sm modal-item">
               <div className="flex items-center gap-2">
                 <span className="text-gray-500">Clave:</span>
                 <span className="font-medium">{materiaEnModal.clave}</span>
@@ -46,9 +47,9 @@ function ModalDetalles() {
 
             {/* Si es materia completa, mostrar todos los grupos */}
             {esMateria ? (
-              <div className="space-y-3">
+              <div className="space-y-3 modal-item">
                 <h3 className="font-medium text-sm text-gray-700">Grupos disponibles:</h3>
-                {materiaEnModal.grupos.map(grupo => {
+                {materiaEnModal.grupos.map((grupo) => {
                   const id = `${materiaEnModal.clave}-${grupo.grupo}`;
                   const seleccionada = materiasSeleccionadas.some(m => m.id === id);
                   const color = coloresAsignados[id];
@@ -57,7 +58,7 @@ function ModalDetalles() {
                     <div 
                       key={grupo.grupo}
                       className={`
-                        border rounded-md p-3 transition-colors
+                        modal-grupo border rounded-md p-3 transition-colors
                         ${seleccionada ? 'border-primary-400 bg-primary-50' : 'border-gray-200'}
                       `}
                     >
@@ -68,12 +69,12 @@ function ModalDetalles() {
                             <>
                               <button
                                 onClick={() => setMostrandoSelectorColor(mostrandoSelectorColor === id ? null : id)}
-                                className="w-3 h-3 rounded-full cursor-pointer hover:scale-110 transition-transform"
+                                className="w-3 h-3 rounded-full cursor-pointer color-circle-modal"
                                 style={{ backgroundColor: color }}
                               />
                               <button
                                 onClick={() => setMostrandoSelectorColor(mostrandoSelectorColor === id ? null : id)}
-                                className="text-sm text-blue-600 hover:text-blue-800 underline"
+                                className="text-sm text-blue-600 hover:text-blue-800 underline modal-button"
                               >
                                 Cambiar color
                               </button>
@@ -86,7 +87,7 @@ function ModalDetalles() {
                             cerrarModal();
                           }}
                           className={`
-                            px-3 py-1 rounded text-sm font-medium transition-colors
+                            modal-button px-3 py-1 rounded text-sm font-medium transition-colors
                             ${seleccionada 
                               ? 'bg-red-100 text-red-700 hover:bg-red-200' 
                               : 'bg-primary-100 text-primary-700 hover:bg-primary-200'
@@ -97,18 +98,20 @@ function ModalDetalles() {
                         </button>
                       </div>
                       
-                      {mostrandoSelectorColor === id && (
-                        <div className="mt-3 p-3 bg-gray-50 rounded-md border">
-                          <SelectorColor
-                            colorActual={color}
-                            onCambiarColor={(nuevoColor) => {
-                              cambiarColorMateria(id, nuevoColor);
-                              setMostrandoSelectorColor(null);
-                            }}
-                            onCerrar={() => setMostrandoSelectorColor(null)}
-                          />
-                        </div>
-                      )}
+                      <div className={`color-selector ${mostrandoSelectorColor === id ? 'show' : ''}`}>
+                        {mostrandoSelectorColor === id && (
+                          <div className="mt-3 p-3 bg-gray-50 rounded-md border">
+                            <SelectorColor
+                              colorActual={color}
+                              onCambiarColor={(nuevoColor) => {
+                                cambiarColorMateria(id, nuevoColor);
+                                setMostrandoSelectorColor(null);
+                              }}
+                              onCerrar={() => setMostrandoSelectorColor(null)}
+                            />
+                          </div>
+                        )}
+                      </div>
 
                       <div className="space-y-1 text-sm text-gray-600">
                         <div>{grupo.profesor}</div>
@@ -124,8 +127,8 @@ function ModalDetalles() {
               </div>
             ) : (
               // Si es un grupo específico desde el calendario O desde la lista
-              <div className="space-y-3">
-                <div className="border border-gray-200 rounded-md p-3">
+              <div className="space-y-3 modal-item">
+                <div className="border border-gray-200 rounded-md p-3 modal-grupo">
                   <div className="flex items-center justify-between mb-2">
                     <div className="flex items-center gap-2">
                       <span className="font-medium">Grupo {materiaEnModal.grupo}</span>
@@ -133,12 +136,12 @@ function ModalDetalles() {
                         <>
                           <button
                             onClick={() => setMostrandoSelectorColor(mostrandoSelectorColor === materiaEnModal.id ? null : materiaEnModal.id)}
-                            className="w-3 h-3 rounded-full cursor-pointer hover:scale-110 transition-transform"
+                            className="w-3 h-3 rounded-full cursor-pointer color-circle-modal"
                             style={{ backgroundColor: coloresAsignados[materiaEnModal.id] }}
                           />
                           <button
                             onClick={() => setMostrandoSelectorColor(mostrandoSelectorColor === materiaEnModal.id ? null : materiaEnModal.id)}
-                            className="text-sm text-blue-600 hover:text-blue-800 underline"
+                            className="text-sm text-blue-600 hover:text-blue-800 underline modal-button"
                           >
                             Cambiar color
                           </button>
@@ -165,7 +168,7 @@ function ModalDetalles() {
                         }
                       }}
                       className={`
-                        px-3 py-1 rounded text-sm font-medium transition-colors
+                        modal-button px-3 py-1 rounded text-sm font-medium transition-colors
                         ${estaSeleccionada 
                           ? 'bg-red-100 text-red-700 hover:bg-red-200' 
                           : 'bg-primary-100 text-primary-700 hover:bg-primary-200'
@@ -176,18 +179,20 @@ function ModalDetalles() {
                     </button>
                   </div>
                   
-                  {mostrandoSelectorColor === materiaEnModal.id && (
-                    <div className="mt-3 p-3 bg-gray-50 rounded-md border">
-                      <SelectorColor
-                        colorActual={coloresAsignados[materiaEnModal.id]}
-                        onCambiarColor={(nuevoColor) => {
-                          cambiarColorMateria(materiaEnModal.id, nuevoColor);
-                          setMostrandoSelectorColor(null);
-                        }}
-                        onCerrar={() => setMostrandoSelectorColor(null)}
-                      />
-                    </div>
-                  )}
+                  <div className={`color-selector ${mostrandoSelectorColor === materiaEnModal.id ? 'show' : ''}`}>
+                    {mostrandoSelectorColor === materiaEnModal.id && (
+                      <div className="mt-3 p-3 bg-gray-50 rounded-md border">
+                        <SelectorColor
+                          colorActual={coloresAsignados[materiaEnModal.id]}
+                          onCambiarColor={(nuevoColor) => {
+                            cambiarColorMateria(materiaEnModal.id, nuevoColor);
+                            setMostrandoSelectorColor(null);
+                          }}
+                          onCerrar={() => setMostrandoSelectorColor(null)}
+                        />
+                      </div>
+                    )}
+                  </div>
 
                   <div className="space-y-1 text-sm text-gray-600">
                     <div>{materiaEnModal.profesor}</div>
@@ -203,9 +208,9 @@ function ModalDetalles() {
           </div>
 
           {/* Footer */}
-          <div className="border-t border-gray-200 px-6 py-3 flex justify-end">
+          <div className="border-t border-gray-200 px-6 py-3 flex justify-end modal-item">
             <Dialog.Close asChild>
-              <button className="px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md transition-colors">
+              <button className="modal-button px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md transition-colors">
                 Cerrar
               </button>
             </Dialog.Close>
