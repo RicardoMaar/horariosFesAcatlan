@@ -1,5 +1,6 @@
 import { useMemo, useState, useEffect } from 'react';
 import useHorariosStore from '../store/useHorariosStore';
+import '../styles/animations.css'; // 👈 Agregar esta línea
 
 function ListaMaterias() {
   const materiasData = useHorariosStore(state => state.materiasData);
@@ -9,12 +10,9 @@ function ListaMaterias() {
   const coloresAsignados = useHorariosStore(state => state.coloresAsignados);
   const abrirModal = useHorariosStore(state => state.abrirModal);
   
-  // Estado para controlar qué semestres están expandidos
   const [semestresExpandidos, setSemestresExpandidos] = useState({});
-  // Estado para controlar qué materias están expandidas
   const [materiasExpandidas, setMateriasExpandidas] = useState({});
 
-  // Filtrar materias y grupos según búsqueda
   const materiasFiltradas = useMemo(() => {
     if (!materiasData) return null;
     if (!busqueda) return materiasData;
@@ -32,7 +30,6 @@ function ListaMaterias() {
       
       const coincideNombre = nombreNorm.includes(busquedaNorm);
       
-      // Filtrar grupos que coincidan con el profesor
       const gruposFiltrados = materia.grupos.filter(g => {
         const profNorm = g.profesor.toLowerCase()
           .normalize("NFD")
@@ -40,11 +37,9 @@ function ListaMaterias() {
         return profNorm.includes(busquedaNorm);
       });
       
-      // Incluir materia si coincide el nombre o si tiene grupos que coinciden
       if (coincideNombre) {
-        filtradas[clave] = materia; // Incluir todos los grupos si coincide el nombre
+        filtradas[clave] = materia;
       } else if (gruposFiltrados.length > 0) {
-        // Solo incluir los grupos que coinciden con el profesor
         filtradas[clave] = {
           ...materia,
           grupos: gruposFiltrados
@@ -55,13 +50,11 @@ function ListaMaterias() {
     return filtradas;
   }, [materiasData, busqueda]);
 
-  // Auto-expandir semestres y materias cuando hay búsqueda
   useEffect(() => {
     if (busqueda && materiasFiltradas) {
       const nuevosSemestres = {};
       const nuevasMaterias = {};
       
-      // Expandir todos los semestres y materias que tienen resultados
       Object.entries(materiasFiltradas).forEach(([clave, materia]) => {
         const semestre = materia.semestre || '00';
         nuevosSemestres[semestre] = true;
@@ -71,13 +64,11 @@ function ListaMaterias() {
       setSemestresExpandidos(nuevosSemestres);
       setMateriasExpandidas(nuevasMaterias);
     } else if (!busqueda) {
-      // Cuando no hay búsqueda, cerrar todo
       setSemestresExpandidos({});
       setMateriasExpandidas({});
     }
   }, [busqueda, materiasFiltradas]);
 
-  // Detectar traslapes
   const traslapes = useMemo(() => {
     const traslapesSet = new Set();
     
@@ -86,7 +77,6 @@ function ListaMaterias() {
         const materia1 = materiasSeleccionadas[i];
         const materia2 = materiasSeleccionadas[j];
         
-        // Verificar traslape
         let hayTraslape = false;
         for (const h1 of materia1.horarios) {
           for (const h2 of materia2.horarios) {
@@ -115,7 +105,6 @@ function ListaMaterias() {
     return traslapesSet;
   }, [materiasSeleccionadas]);
 
-  // Agrupar materias por semestre
   const materiasPorSemestre = useMemo(() => {
     const materias = materiasFiltradas || materiasData;
     if (!materias) {
@@ -131,10 +120,9 @@ function ListaMaterias() {
       agrupadas[semestre].push({ clave, ...materia });
     });
 
-    // Ordenar semestres
     const resultado = Object.keys(agrupadas)
       .sort((a, b) => {
-        if (a === '40') return 1; // Optativas al final
+        if (a === '40') return 1;
         if (b === '40') return -1;
         return parseInt(a) - parseInt(b);
       })
@@ -162,15 +150,12 @@ function ListaMaterias() {
       const estaAbierto = prev[semestre];
       
       if (estaAbierto) {
-        // Si está abierto, cerrarlo
         return {};
       } else {
-        // Si está cerrado, cerrar todos los demás y abrir solo este
         return { [semestre]: true };
       }
     });
     
-    // También cerrar todas las materias cuando se cambie de semestre
     setMateriasExpandidas({});
   };
 
@@ -179,10 +164,8 @@ function ListaMaterias() {
       const estaAbierto = prev[clave];
       
       if (estaAbierto) {
-        // Si está abierto, cerrarlo
         return {};
       } else {
-        // Si está cerrado, cerrar todas las demás y abrir solo esta
         return { [clave]: true };
       }
     });
@@ -191,18 +174,17 @@ function ListaMaterias() {
   return (
     <div className="space-y-2">
       {Object.entries(materiasPorSemestre).map(([semestre, materias]) => (
-        <div key={semestre} className="border border-gray-200 rounded-md">
-          {/* Header del semestre */}
+        <div key={semestre} className="border border-gray-200 rounded-md overflow-hidden">
           <button
             onClick={() => toggleSemestre(semestre)}
-            className="w-full px-3 py-2 flex items-center justify-between hover:bg-gray-50 transition-colors"
+            className="w-full px-3 py-2 flex items-center justify-between hover:bg-gray-50 transition-colors duration-200"
           >
             <span className="font-semibold text-sm text-gray-700">
               {getSemestreLabel(semestre)}
             </span>
             <div className="flex items-center gap-2">
               <svg 
-                className={`w-4 h-4 transition-transform ${semestresExpandidos[semestre] ? 'rotate-180' : ''}`}
+                className={`w-4 h-4 arrow-icon ${semestresExpandidos[semestre] ? 'rotated' : ''} transition-transform duration-300 ease-in-out`}
                 fill="none" 
                 stroke="currentColor" 
                 viewBox="0 0 24 24"
@@ -212,15 +194,23 @@ function ListaMaterias() {
             </div>
           </button>
 
-          {/* Materias del semestre */}
-          {semestresExpandidos[semestre] && (
+          <div className={`semestre-expand ${semestresExpandidos[semestre] ? 'semestre-expanded' : 'semestre-collapsed'} transition-all duration-300 ease-in-out overflow-hidden`}>
             <div className="border-t border-gray-100">
-              {materias.map((materia) => (
-                <div key={materia.clave} className="border-t border-gray-50 first:border-t-0">
-                  {/* Header de materia */}
+              {materias.map((materia, index) => (
+                <div 
+                  key={materia.clave} 
+                  className={`materia-item border-t border-gray-50 first:border-t-0 transition-all duration-200 ${
+                    semestresExpandidos[semestre] 
+                      ? 'translate-y-0 opacity-100' 
+                      : 'translate-y-2 opacity-0'
+                  }`}
+                  style={{ 
+                    transitionDelay: semestresExpandidos[semestre] ? `${index * 50}ms` : '0ms' 
+                  }}
+                >
                   <button
                     onClick={() => toggleMateriaClave(materia.clave)}
-                    className="w-full px-3 py-2 flex items-center justify-between hover:bg-gray-50 transition-colors text-left"
+                    className="w-full px-3 py-2 flex items-center justify-between hover:bg-gray-50 transition-colors duration-200 text-left"
                   >
                     <div className="flex-1">
                       <h4 className="font-medium text-sm text-gray-900">
@@ -231,7 +221,7 @@ function ListaMaterias() {
                       </p>
                     </div>
                     <svg 
-                      className={`w-4 h-4 transition-transform ${materiasExpandidas[materia.clave] ? 'rotate-180' : ''}`}
+                      className={`w-4 h-4 arrow-icon ${materiasExpandidas[materia.clave] ? 'rotated' : ''} transition-transform duration-300 ease-in-out`}
                       fill="none" 
                       stroke="currentColor" 
                       viewBox="0 0 24 24"
@@ -240,86 +230,89 @@ function ListaMaterias() {
                     </svg>
                   </button>
 
-                  {/* Grupos */}
-                  {materiasExpandidas[materia.clave] && (
-                    <div className="bg-gray-50">
-                      {materia.grupos.map((grupo) => {
-                        const id = `${materia.clave}-${grupo.grupo}`;
-                        const seleccionada = materiasSeleccionadas.some(m => m.id === id);
-                        const tieneTraslape = seleccionada && traslapes.has(id);
-                        const color = coloresAsignados[id];
+                  <div className={`semestre-expand ${materiasExpandidas[materia.clave] ? 'semestre-expanded' : 'semestre-collapsed'} transition-all duration-300 ease-in-out overflow-hidden bg-gray-50`}>
+                    {materia.grupos.map((grupo, grupoIndex) => {
+                      const id = `${materia.clave}-${grupo.grupo}`;
+                      const seleccionada = materiasSeleccionadas.some(m => m.id === id);
+                      const tieneTraslape = seleccionada && traslapes.has(id);
+                      const color = coloresAsignados[id];
 
-                        return (
-                          <div
-                            key={grupo.grupo}
-                            className={`
-                              px-3 py-2 text-xs border-t border-gray-100 transition-colors cursor-pointer
-                              ${seleccionada ? 'bg-primary-50' : 'hover:bg-white'}
-                              ${tieneTraslape ? 'bg-red-50' : ''}
-                            `}
-                            onClick={(e) => {
-                              // Solo abrir modal si no se hizo click en el checkbox
-                              if (!e.target.closest('input[type="checkbox"]')) {
-                                const materiaConGrupo = {
-                                  id,
-                                  clave: materia.clave,
-                                  nombre: materia.nombre,
-                                  grupo: grupo.grupo,
-                                  profesor: grupo.profesor,
-                                  salon: grupo.salon,
-                                  horarios: grupo.horarios,
-                                  semestre: materia.semestre
-                                };
-                                abrirModal(materiaConGrupo);
-                              }
-                            }}
-                          >
-                            <div className="flex items-center justify-between">
-                              <div className="flex-1">
-                                <div className="flex items-center gap-2">
-                                  <label 
-                                    className="flex items-center cursor-pointer"
-                                    onClick={(e) => e.stopPropagation()} // Prevenir que el click del label abra el modal
-                                  >
-                                    <input
-                                      type="checkbox"
-                                      checked={seleccionada}
-                                      onChange={() => toggleMateria(materia.clave, grupo)}
-                                      className="mr-2 rounded border-gray-300 text-primary-600 focus:ring-primary-500"
-                                    />
-                                    <span className="font-medium">
-                                      Grupo {grupo.grupo}
-                                    </span>
-                                  </label>
-                                  {seleccionada && (
-                                    <div 
-                                      className="w-3 h-3 rounded-full"
-                                      style={{ backgroundColor: color }}
-                                    />
-                                  )}
-                                  {tieneTraslape && (
-                                    <span className="text-red-600 text-xs">
-                                      ⚠️ Traslape
-                                    </span>
-                                  )}
-                                </div>
-                                <div className="mt-1 text-gray-600 ml-6">
-                                  {grupo.profesor}
-                                </div>
-                                <div className="mt-1 text-gray-500 ml-6">
-                                  {grupo.horarios.map(h => `${h.dia} ${h.inicio}-${h.fin}`).join(', ')}
-                                </div>
+                      return (
+                        <div
+                          key={grupo.grupo}
+                          className={`
+                            grupo-item px-3 py-2 text-xs border-t border-gray-100 transition-all duration-200 cursor-pointer
+                            ${seleccionada ? 'bg-primary-50' : 'hover:bg-white'}
+                            ${tieneTraslape ? 'bg-red-50' : ''}
+                            ${materiasExpandidas[materia.clave] 
+                              ? 'translate-y-0 opacity-100' 
+                              : 'translate-y-1 opacity-0'
+                            }
+                          `}
+                          style={{ 
+                            transitionDelay: materiasExpandidas[materia.clave] ? `${grupoIndex * 30}ms` : '0ms' 
+                          }}
+                          onClick={(e) => {
+                            if (!e.target.closest('input[type="checkbox"]')) {
+                              const materiaConGrupo = {
+                                id,
+                                clave: materia.clave,
+                                nombre: materia.nombre,
+                                grupo: grupo.grupo,
+                                profesor: grupo.profesor,
+                                salon: grupo.salon,
+                                horarios: grupo.horarios,
+                                semestre: materia.semestre
+                              };
+                              abrirModal(materiaConGrupo);
+                            }
+                          }}
+                        >
+                          <div className="flex items-center justify-between">
+                            <div className="flex-1">
+                              <div className="flex items-center gap-2">
+                                <label 
+                                  className="flex items-center cursor-pointer"
+                                  onClick={(e) => e.stopPropagation()}
+                                >
+                                  <input
+                                    type="checkbox"
+                                    checked={seleccionada}
+                                    onChange={() => toggleMateria(materia.clave, grupo)}
+                                    className="mr-2 rounded border-gray-300 text-primary-600 focus:ring-primary-500 transition-colors duration-200"
+                                  />
+                                  <span className="font-medium">
+                                    Grupo {grupo.grupo}
+                                  </span>
+                                </label>
+                                {seleccionada && (
+                                  <div 
+                                    className="w-3 h-3 rounded-full color-circle transition-all duration-200 hover:scale-110"
+                                    style={{ backgroundColor: color }}
+                                  />
+                                )}
+                                {tieneTraslape && (
+                                  <span className="text-red-600 text-xs animate-pulse">
+                                    ⚠️ Traslape
+                                  </span>
+                                )}
+                              </div>
+                              <div className="mt-1 text-gray-600 ml-6">
+                                {grupo.profesor}
+                              </div>
+                              <div className="mt-1 text-gray-500 ml-6">
+                                {grupo.horarios.map(h => `${h.dia} ${h.inicio}-${h.fin}`).join(', ')}
                               </div>
                             </div>
                           </div>
-                        );
-                      })}
-                    </div>
-                  )}
+                        </div>
+                      );
+                    })}
+                  </div>
                 </div>
               ))}
             </div>
-          )}
+          </div>
         </div>
       ))}
 
