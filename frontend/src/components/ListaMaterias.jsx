@@ -158,17 +158,34 @@ function ListaMaterias() {
   }
 
   const toggleSemestre = (semestre) => {
-    setSemestresExpandidos(prev => ({
-      ...prev,
-      [semestre]: !prev[semestre]
-    }));
+    setSemestresExpandidos(prev => {
+      const estaAbierto = prev[semestre];
+      
+      if (estaAbierto) {
+        // Si está abierto, cerrarlo
+        return {};
+      } else {
+        // Si está cerrado, cerrar todos los demás y abrir solo este
+        return { [semestre]: true };
+      }
+    });
+    
+    // También cerrar todas las materias cuando se cambie de semestre
+    setMateriasExpandidas({});
   };
 
   const toggleMateriaClave = (clave) => {
-    setMateriasExpandidas(prev => ({
-      ...prev,
-      [clave]: !prev[clave]
-    }));
+    setMateriasExpandidas(prev => {
+      const estaAbierto = prev[clave];
+      
+      if (estaAbierto) {
+        // Si está abierto, cerrarlo
+        return {};
+      } else {
+        // Si está cerrado, cerrar todas las demás y abrir solo esta
+        return { [clave]: true };
+      }
+    });
   };
 
   return (
