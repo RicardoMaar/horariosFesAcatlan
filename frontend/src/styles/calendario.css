@@ -1,0 +1,125 @@
+/* Estilos para calendario mobile */
+.calendar-swipe-container {
+    overflow: hidden;
+    width: 100%;
+    touch-action: pan-y pinch-zoom;
+  }
+  
+  .calendar-views-wrapper {
+    display: flex;
+    transition: transform 0.3s ease-out;
+    width: 200%;
+  }
+  
+  .calendar-view {
+    width: 50%;
+    flex-shrink: 0;
+  }
+  
+  /* Indicadores de página */
+  .calendar-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+  }
+  
+  .calendar-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #d1d5db;
+    transition: background-color 0.3s ease;
+  }
+  
+  .calendar-dot.active {
+    background-color: #3b82f6;
+  }
+  
+  /* Animaciones para bloques */
+  .calendario-bloque {
+    animation: calendario-bloque-enter 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    opacity: 0;
+    transform: scale(0.8) translateY(20px);
+    z-index: 10;
+  }
+  
+  @keyframes calendario-bloque-enter {
+    0% {
+      opacity: 0;
+      transform: scale(0.8) translateY(20px);
+    }
+    60% {
+      opacity: 1;
+      transform: scale(1.05) translateY(-5px);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
+  }
+  
+  .calendario-bloque-exit {
+    animation: calendario-bloque-exit 0.3s ease-in forwards;
+  }
+  
+  @keyframes calendario-bloque-exit {
+    0% {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.8) translateY(-20px);
+    }
+  }
+  
+  /* Stagger animations */
+  .calendario-stagger-1 { animation-delay: 0s; }
+  .calendario-stagger-2 { animation-delay: 0.1s; }
+  .calendario-stagger-3 { animation-delay: 0.2s; }
+  .calendario-stagger-4 { animation-delay: 0.3s; }
+  .calendario-stagger-5 { animation-delay: 0.4s; }
+  
+  /* Hover effects */
+  .calendario-bloque-hover {
+    transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+    z-index: 15;
+  }
+  
+  .calendario-bloque-hover:hover {
+    transform: scale(1.02);
+    filter: brightness(1.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    z-index: 20;
+  }
+  
+  /* Traslape warning */
+  .calendario-bloque-traslape {
+    animation: calendario-traslape-warning 0.6s ease-in-out;
+  }
+  
+  @keyframes calendario-traslape-warning {
+    0%, 100% {
+      box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+    }
+    50% {
+      box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.3);
+    }
+  }
+  
+  /* Modal active state */
+  .calendario-bloque-modal-activo {
+    animation: calendario-pulso-modal 1s ease-in-out infinite;
+  }
+  
+  @keyframes calendario-pulso-modal {
+    0%, 100% {
+      opacity: 0.3;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.5;
+      transform: scale(1.02);
+    }
+  }
