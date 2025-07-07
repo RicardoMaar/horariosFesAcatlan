@@ -331,8 +331,6 @@ export function useExport() {
         'Grupo': materia.grupo,
         'Semestre': materia.semestre,
         'Profesor': materia.profesor,
-        'Horario': materia.horarios?.map(h => `${h.dia} ${h.inicio}-${h.fin}`).join(', ') || 'No especificado',
-        'Créditos': materia.creditos || 'N/A'
       }));
 
       // Crear workbook

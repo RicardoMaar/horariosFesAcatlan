@@ -341,14 +341,20 @@ function CalendarioSemanal() {
                   onClick={() => !esBloqueDelModal && !seEstaQuitando && abrirModal(bloque)}
                 >
                   <div className="text-white h-full flex flex-col justify-center px-1 overflow-hidden"> 
-                    <div className={`${isMobile ? 'text-xs' : 'text-xs'} font-semibold truncate`}>
+                    <div 
+                      className={`${isMobile ? 'text-xs' : 'text-xs'} font-semibold leading-tight`}
+                      style={{
+                        display: '-webkit-box',
+                        WebkitLineClamp: 2,
+                        WebkitBoxOrient: 'vertical',
+                        overflow: 'hidden',
+                        textOverflow: 'ellipsis'
+                      }}
+                    >
                       {bloque.nombre}
                     </div>
-                    <div className={`${isMobile ? 'text-xs' : 'text-xs'} opacity-90 truncate`}>
-                      {bloque.grupo}
-                    </div>
                     {bloque.height > 60 && !isMobile && (
-                      <div className="text-xs opacity-80 truncate mt-0.5">
+                      <div className="text-[10px] opacity-80 truncate mt-1">
                         {bloque.profesor}
                       </div>
                     )}
