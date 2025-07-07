@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import * as Dialog from '@radix-ui/react-dialog';
 import useHorariosStore from '../store/useHorariosStore';
 import SelectorColor from './SelectorColor';
-import '../styles/animations.css'; // 👈 Importar las animaciones
+import '../styles/animations.css';
 
 function ModalDetalles() {
   const modalAbierto = useHorariosStore(state => state.modalAbierto);
@@ -13,18 +13,40 @@ function ModalDetalles() {
   const coloresAsignados = useHorariosStore(state => state.coloresAsignados);
   const cambiarColorMateria = useHorariosStore(state => state.cambiarColorMateria);
 
+  // 👈 MOVER TODOS LOS HOOKS AL INICIO (antes del return early)
   const [mostrandoSelectorColor, setMostrandoSelectorColor] = useState(null);
+  const [cerrandoModal, setCerrandoModal] = useState(false);
 
+  // 👈 MOVER useEffect AL INICIO
+  useEffect(() => {
+    if (modalAbierto) {
+      setCerrandoModal(false);
+    }
+  }, [modalAbierto]);
+
+  // 👈 AHORA SÍ el return early
   if (!materiaEnModal) return null;
 
-  const esMateria = !materiaEnModal.grupo; // Si no tiene grupo, es la materia completa
+  const esMateria = !materiaEnModal.grupo;
   const estaSeleccionada = materiasSeleccionadas.some(m => m.id === materiaEnModal.id);
 
+  // Función para manejar cierre con animación
+  const handleCerrar = () => {
+    setCerrandoModal(true);
+    setTimeout(() => {
+      cerrarModal();
+      setCerrandoModal(false);
+    }, 200);
+  };
+
   return (
-    <Dialog.Root open={modalAbierto} onOpenChange={cerrarModal}>
+    <Dialog.Root open={modalAbierto} onOpenChange={handleCerrar}>
       <Dialog.Portal>
-        <Dialog.Overlay className="fixed inset-0 bg-black/50 backdrop-blur-sm modal-overlay" />
-        <Dialog.Content className="fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-white rounded-lg shadow-xl w-full max-w-md max-h-[90vh] overflow-hidden modal-content">
+        {/* 👈 AUMENTAR z-index del overlay */}
+        <Dialog.Overlay className={`fixed inset-0 bg-black/50 backdrop-blur-sm z-[100] ${cerrandoModal ? 'modal-overlay-exit' : 'modal-overlay'}`} />
+        
+        {/* 👈 AUMENTAR z-index del contenido del modal */}
+        <Dialog.Content className={`fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-white rounded-lg shadow-xl w-full max-w-md max-h-[90vh] overflow-hidden z-[101] ${cerrandoModal ? 'modal-content-exit' : 'modal-content'}`}>
           <div className="p-6">
             {/* Header */}
             <Dialog.Title className="text-xl font-semibold mb-4 modal-item">
@@ -84,7 +106,7 @@ function ModalDetalles() {
                         <button
                           onClick={() => {
                             toggleMateria(materiaEnModal.clave, grupo);
-                            cerrarModal();
+                            // 👈 NO CERRAR automáticamente el modal aquí
                           }}
                           className={`
                             modal-button px-3 py-1 rounded text-sm font-medium transition-colors
@@ -126,7 +148,6 @@ function ModalDetalles() {
                 })}
               </div>
             ) : (
-              // Si es un grupo específico desde el calendario O desde la lista
               <div className="space-y-3 modal-item">
                 <div className="border border-gray-200 rounded-md p-3 modal-grupo">
                   <div className="flex items-center justify-between mb-2">
@@ -154,7 +175,6 @@ function ModalDetalles() {
                           const materia = materiasSeleccionadas.find(m => m.id === materiaEnModal.id);
                           if (materia) {
                             toggleMateria(materia.clave, { grupo: materia.grupo });
-                            cerrarModal();
                           }
                         } else {
                           const grupoData = {
@@ -164,8 +184,8 @@ function ModalDetalles() {
                             horarios: materiaEnModal.horarios
                           };
                           toggleMateria(materiaEnModal.clave, grupoData);
-                          cerrarModal();
                         }
+                        handleCerrar();
                       }}
                       className={`
                         modal-button px-3 py-1 rounded text-sm font-medium transition-colors
@@ -210,7 +230,10 @@ function ModalDetalles() {
           {/* Footer */}
           <div className="border-t border-gray-200 px-6 py-3 flex justify-end modal-item">
             <Dialog.Close asChild>
-              <button className="modal-button px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md transition-colors">
+              <button 
+                onClick={handleCerrar}
+                className="modal-button px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 rounded-md transition-colors"
+              >
                 Cerrar
               </button>
             </Dialog.Close>

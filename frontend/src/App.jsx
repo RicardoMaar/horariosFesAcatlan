@@ -1,4 +1,3 @@
-
 import { Toaster } from 'react-hot-toast';
 import CarreraSelector from './components/CarreraSelector';
 import BuscadorMaterias from './components/BuscadorMaterias';
@@ -6,6 +5,7 @@ import ListaMaterias from './components/ListaMaterias';
 import CalendarioSemanal from './components/CalendarioSemanal';
 import ModalDetalles from './components/ModalDetalles';
 import ExportMenu from './components/ExportMenu';
+import LimpiarHorarioButton from './components/LimpiarHorarioButton'; // 👈 NUEVO IMPORT
 import useHorariosStore from './store/useHorariosStore';
 
 function App() {
@@ -31,7 +31,13 @@ function App() {
             <h1 className="text-3xl font-handwritten text-primary-700">
               Horarios FES Acatlán
             </h1>
-            {carreraSeleccionada && <ExportMenu />}
+            {/* 👈 MODIFICAR: Agregar botón de limpiar junto con ExportMenu */}
+            {carreraSeleccionada && (
+              <div className="flex items-center gap-3">
+                <LimpiarHorarioButton />
+                <ExportMenu />
+              </div>
+            )}
           </div>
         </div>
       </header>

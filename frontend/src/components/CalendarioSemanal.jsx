@@ -21,9 +21,10 @@ function CalendarioSemanal() {
   const [isMobile, setIsMobile] = useState(false);
   const [touchStartX, setTouchStartX] = useState(0);
 
-  // 👈 NUEVO: Estados para animaciones
+  // 👈 MODIFICAR: Estados para animaciones
   const [bloquesAnimando, setBloquesAnimando] = useState(new Set());
   const [bloquesParaQuitar, setBloquesParaQuitar] = useState(new Set());
+  const [bloquesFantasma, setBloquesFantasma] = useState([]); // 👈 NUEVO: Para mantener bloques durante animación
   const prevMateriasRef = useRef([]);
 
   // Detectar si es móvil
@@ -37,7 +38,7 @@ function CalendarioSemanal() {
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
-  // 👈 NUEVO: Detectar cambios en materias para animar
+  // 👈 MODIFICAR: Detectar cambios en materias para animar
   useEffect(() => {
     const materiasActuales = materiasSeleccionadas;
     const materiasAnteriores = prevMateriasRef.current;
@@ -70,6 +71,9 @@ function CalendarioSemanal() {
     }
 
     if (materiasQuitadas.length > 0) {
+      // 👈 MODIFICAR: Guardar materias quitadas como fantasma
+      setBloquesFantasma(materiasQuitadas);
+      
       // Marcar bloques para quitar
       const quitadosIds = new Set();
       materiasQuitadas.forEach(materia => {
@@ -80,10 +84,11 @@ function CalendarioSemanal() {
       
       setBloquesParaQuitar(quitadosIds);
       
-      // Limpiar después de la animación
+      // 👈 MODIFICAR: Limpiar después de la animación
       setTimeout(() => {
         setBloquesParaQuitar(new Set());
-      }, 300);
+        setBloquesFantasma([]); // Quitar bloques fantasma
+      }, 400); // Aumentar tiempo para que complete la animación
     }
 
     prevMateriasRef.current = materiasActuales;
@@ -115,7 +120,7 @@ function CalendarioSemanal() {
     return result;
   }, []);
 
-  // Calcular posición y altura de cada bloque
+  // 👈 MODIFICAR: Calcular posición y altura de cada bloque (incluir fantasmas)
   const bloquesPorDia = useMemo(() => {
     const bloques = {};
     
@@ -123,7 +128,10 @@ function CalendarioSemanal() {
       bloques[dia] = [];
     });
     
-    materiasSeleccionadas.forEach(materia => {
+    // 👈 AGREGAR: Combinar materias actuales con fantasmas
+    const todasLasMaterias = [...materiasSeleccionadas, ...bloquesFantasma];
+    
+    todasLasMaterias.forEach(materia => {
       materia.horarios.forEach(horario => {
         if (DIAS.includes(horario.dia)) {
           const [horaInicio, minInicio] = horario.inicio.split(':').map(Number);
@@ -132,8 +140,8 @@ function CalendarioSemanal() {
           const minutosInicio = (horaInicio - HORA_INICIO) * 60 + minInicio;
           const minutosFin = (horaFin - HORA_INICIO) * 60 + minFin;
           
-          const top = (minutosInicio / 30) * SLOT_HEIGHT * 16; // Convertir rem a px
-          const height = ((minutosFin - minutosInicio) / 30) * SLOT_HEIGHT * 16; // Convertir rem a px
+          const top = (minutosInicio / 30) * SLOT_HEIGHT * 16;
+          const height = ((minutosFin - minutosInicio) / 30) * SLOT_HEIGHT * 16;
           
           bloques[horario.dia].push({
             ...materia,
@@ -141,7 +149,8 @@ function CalendarioSemanal() {
             top,
             height,
             color: coloresAsignados[materia.id],
-            tieneTraslape: traslapes.has(materia.id)
+            tieneTraslape: traslapes.has(materia.id),
+            esFantasma: bloquesFantasma.some(f => f.id === materia.id) // 👈 NUEVO: Marcar fantasmas
           });
         }
       });
@@ -224,7 +233,7 @@ function CalendarioSemanal() {
     });
 
     return bloques;
-  }, [materiasSeleccionadas, coloresAsignados, traslapes]);
+  }, [materiasSeleccionadas, coloresAsignados, traslapes, bloquesFantasma]); // 👈 AGREGAR: bloquesFantasma como dependencia
 
   function timeToMinutes(time) {
     const [hours, minutes] = time.split(':').map(Number);
@@ -267,7 +276,7 @@ function CalendarioSemanal() {
     }
   };
 
-  // Función para renderizar el grid de días (modificada)
+  // 👈 MODIFICAR: Función para renderizar el grid de días
   const renderDiasGrid = (diasParaMostrar) => {
     return (
       <>
@@ -298,13 +307,24 @@ function CalendarioSemanal() {
                 bloqueModalActivo?.horario?.dia === bloque.horario.dia &&
                 bloqueModalActivo?.horario?.inicio === bloque.horario.inicio;
               
-              const opacidadFinal = esBloqueDelModal ? 0.3 : (bloque.tieneTraslape ? 0.5 : 1);
               const scaleFactor = isMobile ? 0.875 : 1;
 
-              // 👈 NUEVO: Lógica de animación
+              // 👈 MODIFICAR: Lógica de animación
               const bloqueKey = `${bloque.id}-${index}`;
               const esNuevo = bloquesAnimando.has(bloqueKey);
-              const seEstaQuitando = bloquesParaQuitar.has(bloqueKey);
+              const seEstaQuitando = bloquesParaQuitar.has(bloqueKey) || bloque.esFantasma; // 👈 MODIFICAR
+              
+              // 👈 MODIFICAR: Opacidad basada en estado
+              let opacidadFinal;
+              if (seEstaQuitando) {
+                opacidadFinal = 0; // Se está quitando
+              } else if (esBloqueDelModal) {
+                opacidadFinal = 0.3; // Modal activo
+              } else if (bloque.tieneTraslape) {
+                opacidadFinal = 0.5; // Traslape
+              } else {
+                opacidadFinal = 1; // Normal
+              }
 
               // Clases de animación
               let claseAnimacion = 'calendario-bloque-hover';
@@ -314,10 +334,10 @@ function CalendarioSemanal() {
               if (seEstaQuitando) {
                 claseAnimacion += ' calendario-bloque-exit';
               }
-              if (esBloqueDelModal) {
+              if (esBloqueDelModal && !seEstaQuitando) {
                 claseAnimacion += ' calendario-bloque-modal-activo';
               }
-              if (bloque.tieneTraslape && !esBloqueDelModal) {
+              if (bloque.tieneTraslape && !esBloqueDelModal && !seEstaQuitando) {
                 claseAnimacion += ' calendario-bloque-traslape';
               }
 
@@ -327,7 +347,7 @@ function CalendarioSemanal() {
                   className={`
                     absolute ${isMobile ? 'p-0.5' : 'p-1'} rounded cursor-pointer
                     ${claseAnimacion}
-                    ${bloque.tieneTraslape ? 'ring-2 ring-red-500 ring-opacity-10' : ''}
+                    ${bloque.tieneTraslape && !seEstaQuitando ? 'ring-2 ring-red-500 ring-opacity-10' : ''}
                   `}
                   style={{
                     top: `${(bloque.top * scaleFactor) / 16}rem`,
@@ -335,13 +355,9 @@ function CalendarioSemanal() {
                     backgroundColor: bloque.color,
                     left,
                     width,
-                    opacity: seEstaQuitando ? 0 : opacidadFinal,
-                    zIndex: esBloqueDelModal ? 0.5 : (esNuevo ? 15 : 'auto'),
-                    // 👈 Aplicar transform inicial solo para bloques nuevos
-                    ...(esNuevo && {
-                      transform: 'scale(0.8) translateY(20px)',
-                      opacity: 0
-                    })
+                    opacity: opacidadFinal,
+                    zIndex: esBloqueDelModal ? 5 : (esNuevo ? 15 : 'auto'),
+                    pointerEvents: seEstaQuitando ? 'none' : 'auto' // 👈 NUEVO: Deshabilitar clicks en fantasmas
                   }}
                   onClick={() => !esBloqueDelModal && !seEstaQuitando && abrirModal(bloque)}
                 >

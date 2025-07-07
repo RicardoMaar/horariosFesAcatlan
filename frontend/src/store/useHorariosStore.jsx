@@ -14,6 +14,9 @@ const useHorariosStore = create(
       
       // Colores asignados a materias
       coloresAsignados: {},
+
+      // Estado para animación de limpieza
+      limpiandoHorario: false,
       
       // Acciones
       setCarrera: (carrera) => set({ 
@@ -83,6 +86,28 @@ const useHorariosStore = create(
         materiaEnModal: null,
         bloqueModalActivo: null
       }),
+
+      limpiarTodasLasMaterias: () => {
+        const state = get();
+        if (state.materiasSeleccionadas.length === 0) return;
+        
+        // Marcar que estamos limpiando
+        set({ limpiandoHorario: true });
+        
+        // Hacer una transición suave: primero vaciar, luego limpiar colores
+        set({ materiasSeleccionadas: [] });
+        
+        // Después de que las animaciones terminen, limpiar el resto
+        setTimeout(() => {
+          set({
+            coloresAsignados: {},
+            modalAbierto: false,
+            materiaEnModal: null,
+            bloqueModalActivo: null,
+            limpiandoHorario: false
+          });
+        }, 600); // Tiempo suficiente para las animaciones
+      },
     }),
     {
       name: 'horarios-storage',

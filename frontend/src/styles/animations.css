@@ -65,10 +65,12 @@
 /* Animación para el overlay del modal */
 .modal-overlay {
   animation: modal-overlay-enter 0.3s ease-out forwards;
+  z-index: 100; /* 👈 AGREGAR z-index base */
 }
 
 .modal-overlay-exit {
   animation: modal-overlay-exit 0.2s ease-in forwards;
+  z-index: 100; /* 👈 AGREGAR z-index base */
 }
 
 @keyframes modal-overlay-enter {
@@ -92,10 +94,12 @@
 /* Animación para el contenido del modal */
 .modal-content {
   animation: modal-content-enter 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  z-index: 101; /* 👈 AGREGAR z-index base */
 }
 
 .modal-content-exit {
   animation: modal-content-exit 0.2s ease-in forwards;
+  z-index: 101; /* 👈 AGREGAR z-index base */
 }
 
 @keyframes modal-content-enter {
@@ -214,6 +218,32 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Animación para modal de confirmación */
+@keyframes modal-confirmation-enter {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-modal-enter {
+  animation: modal-confirmation-enter 0.2s ease-out forwards;
+}
+
+/* Animación para botón de limpiar con hover */
+.btn-limpiar {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-limpiar:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.15);
+}
+
 /* NUEVAS ANIMACIONES PARA EL CALENDARIO */
 
 /* Animación para bloques que aparecen en el grid */
@@ -221,6 +251,7 @@
   animation: calendario-bloque-enter 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
   opacity: 0;
   transform: scale(0.8) translateY(20px);
+  z-index: 10; /* 👈 ASEGURAR que sea menor que el modal */
 }
 
 @keyframes calendario-bloque-enter {
@@ -263,13 +294,14 @@
 /* Hover mejorado para bloques del calendario */
 .calendario-bloque-hover {
   transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  z-index: 15; /* 👈 AUMENTAR ligeramente en hover pero menor que modal */
 }
 
 .calendario-bloque-hover:hover {
   transform: scale(1.02);
   filter: brightness(1.1);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-  z-index: 10;
+  z-index: 20; /* 👈 MÁXIMO z-index para bloques, pero menor que modal */
 }
 
 /* Animación para cuando hay traslape */
