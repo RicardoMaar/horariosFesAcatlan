@@ -8,10 +8,12 @@ function ExportMenu() {
   const { exportToPNG, exportToPDF, exportToExcel, exportToGoogleCalendar } = useExport();
 
   const handleExport = async (format) => {
+    let loadingToast;
+    
     try {
       setOpen(false);
       
-      const loadingToast = toast.loading(`Exportando a ${format}...`);
+      loadingToast = toast.loading(`Exportando a ${format}...`);
       
       switch (format) {
         case 'PNG':
@@ -31,6 +33,10 @@ function ExportMenu() {
       toast.dismiss(loadingToast);
       toast.success(`Horario exportado como ${format}`);
     } catch (error) {
+      // Asegurar que el loading toast se elimine siempre
+      if (loadingToast) {
+        toast.dismiss(loadingToast);
+      }
       toast.error(`Error al exportar: ${error.message}`);
     }
   };

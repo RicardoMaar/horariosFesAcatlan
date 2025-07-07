@@ -7,6 +7,76 @@ export function useExport() {
   const materiasSeleccionadas = useHorariosStore(state => state.materiasSeleccionadas);
   const carreraSeleccionada = useHorariosStore(state => state.carreraSeleccionada);
 
+  // Función para detectar traslapes entre materias
+  const detectarTraslapes = () => {
+    const traslapes = [];
+    
+    for (let i = 0; i < materiasSeleccionadas.length; i++) {
+      for (let j = i + 1; j < materiasSeleccionadas.length; j++) {
+        const materia1 = materiasSeleccionadas[i];
+        const materia2 = materiasSeleccionadas[j];
+        
+        // Verificar si hay traslape entre los horarios de estas dos materias
+        if (hayTraslapeEntreHorarios(materia1.horarios, materia2.horarios)) {
+          traslapes.push({
+            materia1: materia1.nombre,
+            materia2: materia2.nombre,
+            grupo1: materia1.grupo,
+            grupo2: materia2.grupo
+          });
+        }
+      }
+    }
+    
+    return traslapes;
+  };
+
+  // Función auxiliar para verificar traslape entre horarios
+  const hayTraslapeEntreHorarios = (horarios1, horarios2) => {
+    if (!horarios1 || !horarios2) return false;
+    
+    for (const h1 of horarios1) {
+      for (const h2 of horarios2) {
+        if (h1.dia === h2.dia) {
+          // Convertir horas a minutos para comparar
+          const inicio1 = horaAMinutos(h1.inicio);
+          const fin1 = horaAMinutos(h1.fin);
+          const inicio2 = horaAMinutos(h2.inicio);
+          const fin2 = horaAMinutos(h2.fin);
+          
+          // Verificar traslape: dos intervalos se traslapan si uno empieza antes de que termine el otro
+          if (inicio1 < fin2 && inicio2 < fin1) {
+            return true;
+          }
+        }
+      }
+    }
+    
+    return false;
+  };
+
+  // Función auxiliar para convertir hora a minutos
+  const horaAMinutos = (hora) => {
+    const [horas, minutos] = hora.split(':').map(Number);
+    return horas * 60 + minutos;
+  };
+
+  // Función para validar antes de exportar
+  const validarAntesDeExportar = () => {
+    if (!materiasSeleccionadas || materiasSeleccionadas.length === 0) {
+      throw new Error('No hay materias seleccionadas para exportar');
+    }
+
+    const traslapes = detectarTraslapes();
+    if (traslapes.length > 0) {
+      const mensajeTraslapes = traslapes.map(t => 
+        `• ${t.materia1} (${t.grupo1}) con ${t.materia2} (${t.grupo2})`
+      ).join('\n');
+      
+      throw new Error(`No se puede exportar debido a traslapes de horarios:\n\n${mensajeTraslapes}\n\nPor favor, ajusta tu selección de materias antes de exportar.`);
+    }
+  };
+
   const createDesktopClone = () => {
     // Calcular altura total necesaria
     const hoursCount = (23 - 7) * 2; // 16 horas * 2 slots por hora = 32 slots
@@ -187,9 +257,7 @@ export function useExport() {
     try {
       console.log('Iniciando exportación PNG...');
       
-      if (!materiasSeleccionadas || materiasSeleccionadas.length === 0) {
-        throw new Error('No hay materias seleccionadas para exportar');
-      }
+      validarAntesDeExportar();
 
       // Crear clon optimizado para captura
       const clonedElement = createDesktopClone();
@@ -243,9 +311,7 @@ export function useExport() {
     try {
       console.log('Iniciando exportación PDF...');
       
-      if (!materiasSeleccionadas || materiasSeleccionadas.length === 0) {
-        throw new Error('No hay materias seleccionadas para exportar');
-      }
+      validarAntesDeExportar();
 
       // Crear clon optimizado para captura
       const clonedElement = createDesktopClone();
@@ -308,48 +374,49 @@ export function useExport() {
   };
 
   const exportToExcel = async () => {
-    if (!materiasSeleccionadas || materiasSeleccionadas.length === 0) {
-      throw new Error('No hay materias seleccionadas para exportar');
+    try {
+      validarAntesDeExportar();
+
+      // Crear datos para Excel
+      const excelData = materiasSeleccionadas.map(materia => ({
+        'Nombre de la Materia': materia.nombre,
+        'Clave': materia.clave,
+        'Grupo': materia.grupo,
+        'Semestre': materia.semestre,
+        'Profesor': materia.profesor,
+        'Horario': materia.horarios?.map(h => `${h.dia} ${h.inicio}-${h.fin}`).join(', ') || 'No especificado',
+        'Créditos': materia.creditos || 'N/A'
+      }));
+
+      // Crear workbook
+      const wb = XLSX.utils.book_new();
+      const ws = XLSX.utils.json_to_sheet(excelData);
+
+      // Ajustar ancho de columnas
+      const colWidths = [
+        { wch: 30 }, // Nombre de la Materia
+        { wch: 15 }, // Clave
+        { wch: 10 }, // Grupo
+        { wch: 10 }, // Semestre
+        { wch: 25 }, // Profesor
+        { wch: 30 }, // Horario
+        { wch: 10 }  // Créditos
+      ];
+      ws['!cols'] = colWidths;
+
+      XLSX.utils.book_append_sheet(wb, ws, 'Horario');
+      XLSX.writeFile(wb, `horario_${carreraSeleccionada || 'schedule'}_${new Date().toISOString().split('T')[0]}.xlsx`);
+    } catch (error) {
+      console.error('Error en exportToExcel:', error);
+      throw error;
     }
-
-    // Crear datos para Excel
-    const excelData = materiasSeleccionadas.map(materia => ({
-      'Nombre de la Materia': materia.nombre,
-      'Clave': materia.clave,
-      'Grupo': materia.grupo,
-      'Semestre': materia.semestre,
-      'Profesor': materia.profesor,
-      'Horario': materia.horarios?.map(h => `${h.dia} ${h.inicio}-${h.fin}`).join(', ') || 'No especificado',
-      'Créditos': materia.creditos || 'N/A'
-    }));
-
-    // Crear workbook
-    const wb = XLSX.utils.book_new();
-    const ws = XLSX.utils.json_to_sheet(excelData);
-
-    // Ajustar ancho de columnas
-    const colWidths = [
-      { wch: 30 }, // Nombre de la Materia
-      { wch: 15 }, // Clave
-      { wch: 10 }, // Grupo
-      { wch: 10 }, // Semestre
-      { wch: 25 }, // Profesor
-      { wch: 30 }, // Horario
-      { wch: 10 }  // Créditos
-    ];
-    ws['!cols'] = colWidths;
-
-    XLSX.utils.book_append_sheet(wb, ws, 'Horario');
-    XLSX.writeFile(wb, `horario_${carreraSeleccionada || 'schedule'}_${new Date().toISOString().split('T')[0]}.xlsx`);
   };
 
   const exportToGoogleCalendar = () => {
     try {
       console.log('Iniciando exportación a Calendar...');
 
-      if (!materiasSeleccionadas || materiasSeleccionadas.length === 0) {
-        throw new Error('No hay materias seleccionadas para exportar');
-      }
+      validarAntesDeExportar();
 
       // Crear eventos ICS para Google Calendar
       let icsContent = [
