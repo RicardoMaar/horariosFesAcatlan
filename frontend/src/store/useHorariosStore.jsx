@@ -94,7 +94,7 @@ const useHorariosStore = create(
         // Marcar que estamos limpiando
         set({ limpiandoHorario: true });
         
-        // Hacer una transición suave: primero vaciar, luego limpiar colores
+        // Hacer transición: primero vaciar materias (esto activa las animaciones de salida)
         set({ materiasSeleccionadas: [] });
         
         // Después de que las animaciones terminen, limpiar el resto
@@ -106,7 +106,7 @@ const useHorariosStore = create(
             bloqueModalActivo: null,
             limpiandoHorario: false
           });
-        }, 600); // Tiempo suficiente para las animaciones
+        }, 600); // Tiempo suficiente para las animaciones (400ms + margen)
       },
     }),
     {

@@ -94,6 +94,18 @@ function CalendarioSemanal() {
     prevMateriasRef.current = materiasActuales;
   }, [materiasSeleccionadas]);
 
+  // Código temporal para debugging - agregar en tu componente del calendario
+  useEffect(() => {
+    console.log('Elementos del DOM:', {
+      overflowAuto: document.querySelector('.overflow-x-auto'),
+      tables: document.querySelectorAll('table'),
+      grids: document.querySelectorAll('.grid'),
+      calendars: document.querySelectorAll('[class*="calendar"]'),
+      schedules: document.querySelectorAll('[class*="schedule"]'),
+      horarios: document.querySelectorAll('[class*="horario"]')
+    });
+  }, []);
+
   // Detectar traslapes
   const traslapes = useMemo(() => {
     const traslapesSet = new Set();

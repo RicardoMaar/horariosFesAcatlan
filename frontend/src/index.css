@@ -145,36 +145,6 @@
   }
 }
 
-/* Agregar estas animaciones a tu archivo index.css o estilos globales */
-
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes modal-enter {
-  from {
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(0.95);
-  }
-  to {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
-  }
-}
-
-.animate-fade-in {
-  animation: fade-in 0.2s ease-out;
-}
-
-.animate-modal-enter {
-  animation: modal-enter 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
 /* Personalización de scrollbar para Lista de Materias */
 .custom-scrollbar {
   scrollbar-width: thin;
@@ -265,6 +235,7 @@
     font-size: 0.75rem; /* Reducir tamaño de fuente */
   }
 }
+
 /* Asegurar que flex funcione correctamente en todos los navegadores */
 @layer utilities {
   .min-h-0 {
