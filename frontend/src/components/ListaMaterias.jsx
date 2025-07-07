@@ -1,6 +1,7 @@
 import { useMemo, useState, useEffect } from 'react';
 import useHorariosStore from '../store/useHorariosStore';
-import '../styles/animations.css'; // 👈 Agregar esta línea
+import { getMateriasConTraslapes } from '../utils/traslapes';
+import '../styles/animations.css';
 
 function ListaMaterias() {
   const materiasData = useHorariosStore(state => state.materiasData);
@@ -70,39 +71,7 @@ function ListaMaterias() {
   }, [busqueda, materiasFiltradas]);
 
   const traslapes = useMemo(() => {
-    const traslapesSet = new Set();
-    
-    for (let i = 0; i < materiasSeleccionadas.length; i++) {
-      for (let j = i + 1; j < materiasSeleccionadas.length; j++) {
-        const materia1 = materiasSeleccionadas[i];
-        const materia2 = materiasSeleccionadas[j];
-        
-        let hayTraslape = false;
-        for (const h1 of materia1.horarios) {
-          for (const h2 of materia2.horarios) {
-            if (h1.dia === h2.dia) {
-              const inicio1 = timeToMinutes(h1.inicio);
-              const fin1 = timeToMinutes(h1.fin);
-              const inicio2 = timeToMinutes(h2.inicio);
-              const fin2 = timeToMinutes(h2.fin);
-              
-              if (inicio1 < fin2 && inicio2 < fin1) {
-                hayTraslape = true;
-                break;
-              }
-            }
-          }
-          if (hayTraslape) break;
-        }
-        
-        if (hayTraslape) {
-          traslapesSet.add(materia1.id);
-          traslapesSet.add(materia2.id);
-        }
-      }
-    }
-    
-    return traslapesSet;
+    return getMateriasConTraslapes(materiasSeleccionadas);
   }, [materiasSeleccionadas]);
 
   const materiasPorSemestre = useMemo(() => {
@@ -140,10 +109,6 @@ function ListaMaterias() {
     return `${semestre}° Semestre`;
   };
 
-  function timeToMinutes(time) {
-    const [hours, minutes] = time.split(':').map(Number);
-    return hours * 60 + minutes;
-  }
 
   const toggleSemestre = (semestre) => {
     setSemestresExpandidos(prev => {

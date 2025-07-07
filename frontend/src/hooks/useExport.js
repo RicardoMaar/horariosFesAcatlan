@@ -2,64 +2,11 @@ import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 import * as XLSX from 'xlsx';
 import useHorariosStore from '../store/useHorariosStore';
+import { detectarTraslapes } from '../utils/traslapes';
 
 export function useExport() {
   const materiasSeleccionadas = useHorariosStore(state => state.materiasSeleccionadas);
   const carreraSeleccionada = useHorariosStore(state => state.carreraSeleccionada);
-
-  // Función para detectar traslapes entre materias
-  const detectarTraslapes = () => {
-    const traslapes = [];
-    
-    for (let i = 0; i < materiasSeleccionadas.length; i++) {
-      for (let j = i + 1; j < materiasSeleccionadas.length; j++) {
-        const materia1 = materiasSeleccionadas[i];
-        const materia2 = materiasSeleccionadas[j];
-        
-        // Verificar si hay traslape entre los horarios de estas dos materias
-        if (hayTraslapeEntreHorarios(materia1.horarios, materia2.horarios)) {
-          traslapes.push({
-            materia1: materia1.nombre,
-            materia2: materia2.nombre,
-            grupo1: materia1.grupo,
-            grupo2: materia2.grupo
-          });
-        }
-      }
-    }
-    
-    return traslapes;
-  };
-
-  // Función auxiliar para verificar traslape entre horarios
-  const hayTraslapeEntreHorarios = (horarios1, horarios2) => {
-    if (!horarios1 || !horarios2) return false;
-    
-    for (const h1 of horarios1) {
-      for (const h2 of horarios2) {
-        if (h1.dia === h2.dia) {
-          // Convertir horas a minutos para comparar
-          const inicio1 = horaAMinutos(h1.inicio);
-          const fin1 = horaAMinutos(h1.fin);
-          const inicio2 = horaAMinutos(h2.inicio);
-          const fin2 = horaAMinutos(h2.fin);
-          
-          // Verificar traslape: dos intervalos se traslapan si uno empieza antes de que termine el otro
-          if (inicio1 < fin2 && inicio2 < fin1) {
-            return true;
-          }
-        }
-      }
-    }
-    
-    return false;
-  };
-
-  // Función auxiliar para convertir hora a minutos
-  const horaAMinutos = (hora) => {
-    const [horas, minutos] = hora.split(':').map(Number);
-    return horas * 60 + minutos;
-  };
 
   // Función para validar antes de exportar
   const validarAntesDeExportar = () => {
@@ -67,7 +14,7 @@ export function useExport() {
       throw new Error('No hay materias seleccionadas para exportar');
     }
 
-    const traslapes = detectarTraslapes();
+    const traslapes = detectarTraslapes(materiasSeleccionadas);
     if (traslapes.length > 0) {
       const mensajeTraslapes = traslapes.map(t => 
         `• ${t.materia1} (${t.grupo1}) con ${t.materia2} (${t.grupo2})`
@@ -191,7 +138,7 @@ export function useExport() {
         "></div>
       `).join('');
 
-      const materiasHTML = materiasDelDia.map((materia, materiaIndex) => {
+      const materiasHTML = materiasDelDia.map((materia) => {
         const horarioDelDia = materia.horarios.find(h => h.dia === dia);
         if (!horarioDelDia) return '';
 

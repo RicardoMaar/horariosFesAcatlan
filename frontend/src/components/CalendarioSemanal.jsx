@@ -1,6 +1,7 @@
 import { useMemo, useState, useEffect, useRef } from 'react';
 import useHorariosStore from '../store/useHorariosStore';
-import '../styles/animations.css'; // 👈 Importar animaciones
+import { getMateriasConTraslapes, horaAMinutos } from '../utils/traslapes';
+import '../styles/animations.css';
 
 const DIAS = ['LU', 'MA', 'MI', 'JU', 'VI', 'SA'];
 const DIAS_NOMBRES = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sabado'];
@@ -108,18 +109,7 @@ function CalendarioSemanal() {
 
   // Detectar traslapes
   const traslapes = useMemo(() => {
-    const traslapesSet = new Set();
-    
-    for (let i = 0; i < materiasSeleccionadas.length; i++) {
-      for (let j = i + 1; j < materiasSeleccionadas.length; j++) {
-        if (hayTraslape(materiasSeleccionadas[i], materiasSeleccionadas[j])) {
-          traslapesSet.add(materiasSeleccionadas[i].id);
-          traslapesSet.add(materiasSeleccionadas[j].id);
-        }
-      }
-    }
-    
-    return traslapesSet;
+    return getMateriasConTraslapes(materiasSeleccionadas);
   }, [materiasSeleccionadas]);
 
   // Generar array de horas
@@ -175,24 +165,24 @@ function CalendarioSemanal() {
       
       // Ordenar por hora de inicio
       bloquesDelDia.sort((a, b) => {
-        const aInicio = timeToMinutes(a.horario.inicio);
-        const bInicio = timeToMinutes(b.horario.inicio);
+        const aInicio = horaAMinutos(a.horario.inicio);
+        const bInicio = horaAMinutos(b.horario.inicio);
         return aInicio - bInicio;
       });
 
       // Crear grupos de bloques que se traslapan entre sí
       const grupos = [];
       bloquesDelDia.forEach(bloque => {
-        const bloqueInicio = timeToMinutes(bloque.horario.inicio);
-        const bloqueFin = timeToMinutes(bloque.horario.fin);
+        const bloqueInicio = horaAMinutos(bloque.horario.inicio);
+        const bloqueFin = horaAMinutos(bloque.horario.fin);
         
         // Buscar un grupo existente donde este bloque traslape
         let grupoEncontrado = false;
         for (const grupo of grupos) {
           // Verificar si traslapa con algún bloque del grupo
           const traslapaConGrupo = grupo.some(b => {
-            const bInicio = timeToMinutes(b.horario.inicio);
-            const bFin = timeToMinutes(b.horario.fin);
+            const bInicio = horaAMinutos(b.horario.inicio);
+            const bFin = horaAMinutos(b.horario.fin);
             return bloqueInicio < bFin && bInicio < bloqueFin;
           });
           // si traslapa con el grupo, agregarlo al grupo
@@ -213,22 +203,22 @@ function CalendarioSemanal() {
       grupos.forEach(grupo => {
         // Ordenar grupo por hora de inicio
         grupo.sort((a, b) => {
-          const aInicio = timeToMinutes(a.horario.inicio);
-          const bInicio = timeToMinutes(b.horario.inicio);
+          const aInicio = horaAMinutos(a.horario.inicio);
+          const bInicio = horaAMinutos(b.horario.inicio);
           return aInicio - bInicio;
         });
 
         // Asignar columnas solo dentro del grupo
         grupo.forEach((bloque, index) => {
           let columna = 0;
-          const bloqueInicio = timeToMinutes(bloque.horario.inicio);
-          const bloqueFin = timeToMinutes(bloque.horario.fin);
+          const bloqueInicio = horaAMinutos(bloque.horario.inicio);
+          const bloqueFin = horaAMinutos(bloque.horario.fin);
 
           // Verificar contra bloques anteriores del mismo grupo
           for (let i = 0; i < index; i++) {
             const otroBloque = grupo[i];
-            const otroInicio = timeToMinutes(otroBloque.horario.inicio);
-            const otroFin = timeToMinutes(otroBloque.horario.fin);
+            const otroInicio = horaAMinutos(otroBloque.horario.inicio);
+            const otroFin = horaAMinutos(otroBloque.horario.fin);
 
             // Si hay sobreposición temporal y misma columna
             if (bloqueInicio < otroFin && otroInicio < bloqueFin) {
@@ -246,29 +236,6 @@ function CalendarioSemanal() {
 
     return bloques;
   }, [materiasSeleccionadas, coloresAsignados, traslapes, bloquesFantasma]); // 👈 AGREGAR: bloquesFantasma como dependencia
-
-  function timeToMinutes(time) {
-    const [hours, minutes] = time.split(':').map(Number);
-    return hours * 60 + minutes;
-  }
-
-  function hayTraslape(materia1, materia2) {
-    for (const h1 of materia1.horarios) {
-      for (const h2 of materia2.horarios) {
-        if (h1.dia === h2.dia) {
-          const inicio1 = timeToMinutes(h1.inicio);
-          const fin1 = timeToMinutes(h1.fin);
-          const inicio2 = timeToMinutes(h2.inicio);
-          const fin2 = timeToMinutes(h2.fin);
-          
-          if (inicio1 < fin2 && inicio2 < fin1) {
-            return true;
-          }
-        }
-      }
-    }
-    return false;
-  }
 
   // Funciones para manejar swipe
   const handleTouchStart = (e) => {
