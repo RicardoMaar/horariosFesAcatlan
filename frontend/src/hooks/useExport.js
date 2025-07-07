@@ -7,40 +7,28 @@ export function useExport() {
   const materiasSeleccionadas = useHorariosStore(state => state.materiasSeleccionadas);
   const carreraSeleccionada = useHorariosStore(state => state.carreraSeleccionada);
 
-  // Función para encontrar el elemento del calendario
-  const findCalendarElement = () => {
-    // Buscar específicamente el grid del calendario de escritorio
-    const calendarGrid = document.querySelector('.grid.grid-cols-\\[5rem\\,repeat\\(6\\,1fr\\)\\]');
-    if (calendarGrid) {
-      console.log('Calendario encontrado - grid desktop');
-      return calendarGrid.parentElement; // Obtener el contenedor completo
-    }
+  const createDesktopClone = () => {
+    // Calcular altura total necesaria
+    const hoursCount = (23 - 7) * 2; // 16 horas * 2 slots por hora = 32 slots
+    const totalCalendarHeight = hoursCount * 18.2; // 32 * 18.2px = 582.4px
+    const headerHeight = 100; // header + días
+    const totalHeight = headerHeight + totalCalendarHeight + 40; // +40 para padding
 
-    // Fallback: buscar cualquier grid
-    const anyGrid = document.querySelector('.grid');
-    if (anyGrid && anyGrid.textContent.includes('Lunes')) {
-      console.log('Calendario encontrado - fallback grid');
-      return anyGrid.parentElement;
-    }
-
-    return null;
-  };
-
-  const createDesktopClone = (originalElement) => {
     // Crear un contenedor temporal para la captura
     const container = document.createElement('div');
     container.style.position = 'fixed';
     container.style.top = '-9999px';
     container.style.left = '-9999px';
     container.style.width = '1200px';
-    container.style.height = 'auto';
+    container.style.height = `${totalHeight}px`;
     container.style.backgroundColor = '#ffffff';
     container.style.padding = '20px';
     container.style.fontFamily = 'system-ui, -apple-system, sans-serif';
+    container.style.boxSizing = 'border-box';
 
     // Crear estructura del calendario para escritorio
     const calendarHTML = `
-      <div style="width: 100%; min-width: 600px;">
+      <div style="width: 100%; min-width: 600px; height: auto;">
         <!-- Header con título -->
         <div style="text-align: center; margin-bottom: 20px;">
           <h1 style="font-size: 24px; font-weight: bold; color: #1f2937; margin: 0;">
@@ -52,7 +40,7 @@ export function useExport() {
         </div>
 
         <!-- Header con días -->
-        <div style="display: grid; grid-template-columns: 80px repeat(6, 1fr); gap: 1px; background-color: #e5e7eb; margin-bottom: 1px;">
+        <div style="display: grid; grid-template-columns: 120px repeat(6, 1fr); gap: 1px; background-color: #e5e7eb; margin-bottom: 1px;">
           <div style="background-color: #f9fafb; padding: 8px;"></div>
           <div style="background-color: #f9fafb; padding: 8px; text-align: center; font-weight: 500; font-size: 14px;">Lunes</div>
           <div style="background-color: #f9fafb; padding: 8px; text-align: center; font-weight: 500; font-size: 14px;">Martes</div>
@@ -64,7 +52,7 @@ export function useExport() {
 
         <!-- Grid del calendario -->
         <div style="position: relative;">
-          <div style="display: grid; grid-template-columns: 80px repeat(6, 1fr); gap: 1px; background-color: #e5e7eb;">
+          <div style="display: grid; grid-template-columns: 120px repeat(6, 1fr); gap: 1px; background-color: #e5e7eb;">
             <!-- Columna de horas -->
             <div>
               ${generateHoursColumn()}
@@ -82,76 +70,74 @@ export function useExport() {
 
   const generateHoursColumn = () => {
     const hours = [];
-    for (let h = 7; h < 23; h++) {
+    // Generar horas de 7:00 a 22:30 (cada hora completa)
+    for (let h = 7; h <= 22; h++) {
       hours.push(`${h.toString().padStart(2, '0')}:00`);
-      hours.push(`${h.toString().padStart(2, '0')}:30`);
     }
 
     return hours.map((hora, index) => `
       <div style="
         background-color: #f9fafb; 
-        height: 18.2px; 
+        height: 36.4px; 
         display: flex; 
         align-items: center; 
         justify-content: center; 
         font-size: 12px; 
         color: #6b7280;
-        border-top: 1px solid ${index % 2 === 0 ? '#e5e7eb' : '#f3f4f6'};
+        border-top: 1px solid #e5e7eb;
+        border-right: 1px solid #e5e7eb;
+        padding: 0 8px;
+        min-width: 120px;
+        box-sizing: border-box;
       ">
-        ${index % 2 === 0 ? hora : ''}
+        ${hora}
       </div>
     `).join('');
   };
 
   const generateDaysColumns = () => {
     const DIAS = ['LU', 'MA', 'MI', 'JU', 'VI', 'SA'];
-    const diasMapeados = {
-      'LU': 'Lunes',
-      'MA': 'Martes', 
-      'MI': 'Miércoles',
-      'JU': 'Jueves',
-      'VI': 'Viernes',
-      'SA': 'Sábado'
-    };
+    const coloresAsignados = useHorariosStore.getState().coloresAsignados;
 
     return DIAS.map(dia => {
-      const nombreDia = diasMapeados[dia];
       const hoursSlots = [];
       
-      // Generar slots de horas
-      for (let h = 7; h < 23; h++) {
+      // Generar slots de horas (cada hora completa)
+      for (let h = 7; h <= 22; h++) {
         hoursSlots.push(`${h.toString().padStart(2, '0')}:00`);
-        hoursSlots.push(`${h.toString().padStart(2, '0')}:30`);
       }
 
       // Obtener materias para este día
       const materiasDelDia = materiasSeleccionadas.filter(materia =>
-        materia.horarios.some(horario => horario.dia === dia)
+        materia.horarios && materia.horarios.some(horario => horario.dia === dia)
       );
 
       const slotsHTML = hoursSlots.map((_, index) => `
         <div style="
-          border-top: 1px solid ${index % 2 === 0 ? '#e5e7eb' : '#f3f4f6'};
+          border-top: 1px solid #e5e7eb;
+          border-right: 1px solid #e5e7eb;
           background-color: #ffffff;
-          height: 18.2px;
+          height: 36.4px;
         "></div>
       `).join('');
 
-      const materiasHTML = materiasDelDia.map(materia => {
+      const materiasHTML = materiasDelDia.map((materia, materiaIndex) => {
         const horarioDelDia = materia.horarios.find(h => h.dia === dia);
         if (!horarioDelDia) return '';
 
+        // Parsear horas
         const [horaInicio, minInicio] = horarioDelDia.inicio.split(':').map(Number);
         const [horaFin, minFin] = horarioDelDia.fin.split(':').map(Number);
         
+        // Calcular posición en minutos desde las 7:00
         const minutosInicio = (horaInicio - 7) * 60 + minInicio;
         const minutosFin = (horaFin - 7) * 60 + minFin;
         
-        const top = (minutosInicio / 30) * 18.2;
-        const height = ((minutosFin - minutosInicio) / 30) * 18.2 - 2;
+        // Convertir a posición en pixels (cada hora = 36.4px)
+        const top = (minutosInicio / 60) * 36.4;
+        const height = ((minutosFin - minutosInicio) / 60) * 36.4 - 2; // -2px para separación
 
         // Obtener color de la materia
-        const coloresAsignados = useHorariosStore.getState().coloresAsignados;
         const color = coloresAsignados[materia.id] || '#3b82f6';
 
         return `
@@ -163,20 +149,24 @@ export function useExport() {
             right: 2px;
             background-color: ${color};
             border-radius: 4px;
-            padding: 4px;
+            padding: 6px;
             color: white;
             font-size: 11px;
             overflow: hidden;
             z-index: 10;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
           ">
-            <div style="font-weight: 600; line-height: 1.2; margin-bottom: 1px;">
+            <div style="font-weight: 600; line-height: 1.2; margin-bottom: 2px; text-align: center;">
               ${materia.nombre}
             </div>
-            <div style="opacity: 0.9; line-height: 1.2;">
+            <div style="opacity: 0.9; line-height: 1.2; text-align: center; font-size: 10px;">
               ${materia.grupo}
             </div>
-            ${height > 50 ? `
-              <div style="opacity: 0.8; font-size: 10px; line-height: 1.2; margin-top: 1px;">
+            ${height > 60 ? `
+              <div style="opacity: 0.8; font-size: 9px; line-height: 1.2; margin-top: 2px; text-align: center;">
                 ${materia.profesor || ''}
               </div>
             ` : ''}
@@ -206,6 +196,9 @@ export function useExport() {
       document.body.appendChild(clonedElement);
 
       try {
+        // Esperar un momento para que el DOM se renderice
+        await new Promise(resolve => setTimeout(resolve, 200));
+
         const canvas = await html2canvas(clonedElement, {
           backgroundColor: '#ffffff',
           scale: 2,
@@ -259,6 +252,9 @@ export function useExport() {
       document.body.appendChild(clonedElement);
 
       try {
+        // Esperar un momento para que el DOM se renderice
+        await new Promise(resolve => setTimeout(resolve, 200));
+
         const canvas = await html2canvas(clonedElement, {
           backgroundColor: '#ffffff',
           scale: 2,
