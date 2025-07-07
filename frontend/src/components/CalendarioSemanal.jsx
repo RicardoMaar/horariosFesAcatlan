@@ -1,5 +1,6 @@
-import { useMemo, useState, useEffect } from 'react';
+import { useMemo, useState, useEffect, useRef } from 'react';
 import useHorariosStore from '../store/useHorariosStore';
+import '../styles/animations.css'; // 👈 Importar animaciones
 
 const DIAS = ['LU', 'MA', 'MI', 'JU', 'VI', 'SA'];
 const DIAS_NOMBRES = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sabado'];
@@ -20,6 +21,11 @@ function CalendarioSemanal() {
   const [isMobile, setIsMobile] = useState(false);
   const [touchStartX, setTouchStartX] = useState(0);
 
+  // 👈 NUEVO: Estados para animaciones
+  const [bloquesAnimando, setBloquesAnimando] = useState(new Set());
+  const [bloquesParaQuitar, setBloquesParaQuitar] = useState(new Set());
+  const prevMateriasRef = useRef([]);
+
   // Detectar si es móvil
   useEffect(() => {
     const checkMobile = () => {
@@ -31,8 +37,59 @@ function CalendarioSemanal() {
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
+  // 👈 NUEVO: Detectar cambios en materias para animar
+  useEffect(() => {
+    const materiasActuales = materiasSeleccionadas;
+    const materiasAnteriores = prevMateriasRef.current;
+
+    // Detectar materias nuevas (para animar entrada)
+    const materiasNuevas = materiasActuales.filter(
+      materia => !materiasAnteriores.some(prev => prev.id === materia.id)
+    );
+
+    // Detectar materias quitadas (para animar salida)
+    const materiasQuitadas = materiasAnteriores.filter(
+      materia => !materiasActuales.some(actual => actual.id === materia.id)
+    );
+
+    if (materiasNuevas.length > 0) {
+      // Marcar bloques nuevos para animación
+      const nuevosIds = new Set();
+      materiasNuevas.forEach(materia => {
+        materia.horarios.forEach((_, index) => {
+          nuevosIds.add(`${materia.id}-${index}`);
+        });
+      });
+      
+      setBloquesAnimando(nuevosIds);
+      
+      // Quitar la marca después de la animación
+      setTimeout(() => {
+        setBloquesAnimando(new Set());
+      }, 500);
+    }
+
+    if (materiasQuitadas.length > 0) {
+      // Marcar bloques para quitar
+      const quitadosIds = new Set();
+      materiasQuitadas.forEach(materia => {
+        materia.horarios.forEach((_, index) => {
+          quitadosIds.add(`${materia.id}-${index}`);
+        });
+      });
+      
+      setBloquesParaQuitar(quitadosIds);
+      
+      // Limpiar después de la animación
+      setTimeout(() => {
+        setBloquesParaQuitar(new Set());
+      }, 300);
+    }
+
+    prevMateriasRef.current = materiasActuales;
+  }, [materiasSeleccionadas]);
+
   // Detectar traslapes
-  // Esta seccion es para agregar bordes rojos en el grid (creo)
   const traslapes = useMemo(() => {
     const traslapesSet = new Set();
     
@@ -210,7 +267,7 @@ function CalendarioSemanal() {
     }
   };
 
-  // Función para renderizar el grid de días (reutilizable)
+  // Función para renderizar el grid de días (modificada)
   const renderDiasGrid = (diasParaMostrar) => {
     return (
       <>
@@ -242,15 +299,34 @@ function CalendarioSemanal() {
                 bloqueModalActivo?.horario?.inicio === bloque.horario.inicio;
               
               const opacidadFinal = esBloqueDelModal ? 0.3 : (bloque.tieneTraslape ? 0.5 : 1);
-
               const scaleFactor = isMobile ? 0.875 : 1;
+
+              // 👈 NUEVO: Lógica de animación
+              const bloqueKey = `${bloque.id}-${index}`;
+              const esNuevo = bloquesAnimando.has(bloqueKey);
+              const seEstaQuitando = bloquesParaQuitar.has(bloqueKey);
+
+              // Clases de animación
+              let claseAnimacion = 'calendario-bloque-hover';
+              if (esNuevo) {
+                claseAnimacion += ` calendario-bloque calendario-stagger-${(index % 5) + 1}`;
+              }
+              if (seEstaQuitando) {
+                claseAnimacion += ' calendario-bloque-exit';
+              }
+              if (esBloqueDelModal) {
+                claseAnimacion += ' calendario-bloque-modal-activo';
+              }
+              if (bloque.tieneTraslape && !esBloqueDelModal) {
+                claseAnimacion += ' calendario-bloque-traslape';
+              }
 
               return (
                 <div
-                  key={`${bloque.id}-${index}`}
+                  key={bloqueKey}
                   className={`
-                    absolute ${isMobile ? 'p-0.5' : 'p-1'} rounded cursor-pointer transition-all duration-200
-                    ${!esBloqueDelModal ? (isMobile ? 'hover:shadow-md hover:z-10' : 'hover:shadow-lg hover:z-10 hover:scale-105') : 'z-0'}
+                    absolute ${isMobile ? 'p-0.5' : 'p-1'} rounded cursor-pointer
+                    ${claseAnimacion}
                     ${bloque.tieneTraslape ? 'ring-2 ring-red-500 ring-opacity-10' : ''}
                   `}
                   style={{
@@ -259,10 +335,15 @@ function CalendarioSemanal() {
                     backgroundColor: bloque.color,
                     left,
                     width,
-                    opacity: opacidadFinal,
-                    zIndex: esBloqueDelModal ? .5 : 'auto'
+                    opacity: seEstaQuitando ? 0 : opacidadFinal,
+                    zIndex: esBloqueDelModal ? 0.5 : (esNuevo ? 15 : 'auto'),
+                    // 👈 Aplicar transform inicial solo para bloques nuevos
+                    ...(esNuevo && {
+                      transform: 'scale(0.8) translateY(20px)',
+                      opacity: 0
+                    })
                   }}
-                  onClick={() => !esBloqueDelModal && abrirModal(bloque)}
+                  onClick={() => !esBloqueDelModal && !seEstaQuitando && abrirModal(bloque)}
                 >
                   <div className="text-white h-full flex flex-col justify-center px-1 overflow-hidden"> 
                     <div className={`${isMobile ? 'text-xs' : 'text-xs'} font-semibold truncate`}>
@@ -272,11 +353,9 @@ function CalendarioSemanal() {
                       {bloque.grupo}
                     </div>
                     {bloque.height > 60 && !isMobile && (
-                      <>
-                        <div className="text-xs opacity-80 truncate mt-0.5">
-                          {bloque.profesor}
-                        </div>
-                      </>
+                      <div className="text-xs opacity-80 truncate mt-0.5">
+                        {bloque.profesor}
+                      </div>
                     )}
                   </div>
                 </div>
