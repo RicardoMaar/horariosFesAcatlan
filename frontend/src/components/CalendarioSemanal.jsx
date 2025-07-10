@@ -13,16 +13,16 @@ function CalendarioSemanal() {
   const { bloquesAnimando, bloquesParaQuitar } = useAnimacionesBloque(materiasSeleccionadas);
 
   // Debug temporal
-  useEffect(() => {
-    console.log('Elementos del DOM:', {
-      overflowAuto: document.querySelector('.overflow-x-auto'),
-      tables: document.querySelectorAll('table'),
-      grids: document.querySelectorAll('.grid'),
-      calendars: document.querySelectorAll('[class*="calendar"]'),
-      schedules: document.querySelectorAll('[class*="schedule"]'),
-      horarios: document.querySelectorAll('[class*="horario"]')
-    });
-  }, []);
+  // useEffect(() => {
+  //   console.log('Elementos del DOM:', {
+  //     overflowAuto: document.querySelector('.overflow-x-auto'),
+  //     tables: document.querySelectorAll('table'),
+  //     grids: document.querySelectorAll('.grid'),
+  //     calendars: document.querySelectorAll('[class*="calendar"]'),
+  //     schedules: document.querySelectorAll('[class*="schedule"]'),
+  //     horarios: document.querySelectorAll('[class*="horario"]')
+  //   });
+  // }, []);
 
   if (isMobile) {
     return (

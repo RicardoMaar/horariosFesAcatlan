@@ -1,16 +1,22 @@
 import { Toaster } from 'react-hot-toast';
+import { useRef } from 'react';
 import CarreraSelector from './components/CarreraSelector';
 import BuscadorMaterias from './components/BuscadorMaterias';
 import ListaMaterias from './components/ListaMaterias';
 import CalendarioSemanal from './components/CalendarioSemanal';
 import ModalDetalles from './components/ModalDetalles';
 import ExportMenu from './components/ExportMenu';
-import LimpiarHorarioButton from './components/LimpiarHorarioButton'; // 👈 NUEVO IMPORT
+import LimpiarHorarioButton from './components/LimpiarHorarioButton';
 import useHorariosStore from './store/useHorariosStore';
+import ExportableCalendar from './components/ExportableCalendar';
 
 function App() {
   const carreraSeleccionada = useHorariosStore(state => state.carreraSeleccionada);
   const materiasData = useHorariosStore(state => state.materiasData);
+
+  const materiasSeleccionadas = useHorariosStore(state => state.materiasSeleccionadas);
+  const coloresAsignados = useHorariosStore(state => state.coloresAsignados);
+  const exportableCalendarRef = useRef(null);
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -31,11 +37,11 @@ function App() {
             <h1 className="text-3xl font-handwritten text-primary-700">
               Horarios FES Acatlán
             </h1>
-            {/* 👈 MODIFICAR: Agregar botón de limpiar junto con ExportMenu */}
+            {/* Agregar botón de limpiar junto con ExportMenu */}
             {carreraSeleccionada && (
               <div className="flex items-center gap-3">
                 <LimpiarHorarioButton />
-                <ExportMenu />
+                <ExportMenu exportableRef={exportableCalendarRef} />
               </div>
             )}
           </div>
@@ -81,6 +87,12 @@ function App() {
 
 
       </main>
+      <ExportableCalendar
+        ref={exportableCalendarRef}
+        materias={materiasSeleccionadas}
+        coloresAsignados={coloresAsignados}
+        carrera={carreraSeleccionada}
+      />
 
       {/* Modal de detalles */}
       <ModalDetalles />

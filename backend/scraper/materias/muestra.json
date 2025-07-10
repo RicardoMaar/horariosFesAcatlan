@@ -1,0 +1,214 @@
+{
+  "carreras": {
+    "21011": {
+      "codigo": "21011",
+      "nombre": "Filosofía",
+      "fecha_consulta": "2025-06-21T06:52:41.587Z",
+      "materias": {
+        "1270": {
+          "nombre": "ANTROPOLOGIA FILOSOFICA II",
+          "semestre": "02",
+          "grupos": [
+            {
+              "grupo": "Q201",
+              "profesor": "MARTINEZ MADRID LUIS FERNANDO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes", 
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "12:00", 
+                  "fin": "14:00"
+                }
+              ],
+              "salon": "A-8101"
+            },
+            {
+              "grupo": "Q251",
+              "profesor": "GARCIA SALAS ANTONIO VICTOR",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "14:00",
+                  "fin": "16:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "14:00",
+                  "fin": "16:00"
+                }
+              ],
+              "salon": "A-8101"
+            }
+          ]
+        },
+        "1271": {
+          "nombre": "ETICA II",
+          "semestre": "02",
+          "grupos": [
+            {
+              "grupo": "Q201",
+              "profesor": "VALERO CANO JOSE GERARDO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                }
+              ],
+              "salon": "A-8101"
+            },
+            {
+              "grupo": "Q251",
+              "profesor": "CARRERA TESTA BERENICE",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI", 
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-8101"
+            }
+          ]
+        }
+      }
+    },
+    "24121": {
+      "codigo": "24121", 
+      "nombre": "Enseñanza de Inglés",
+      "fecha_consulta": "2025-06-21T06:52:35.402Z",
+      "materias": {
+        "1212": {
+          "nombre": "CULTURA Y CIVILIZACIÓN II",
+          "semestre": "02",
+          "grupos": [
+            {
+              "grupo": "2201",
+              "profesor": "GAYTAN HERRERA GRACIELA", 
+              "horarios": [
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "07:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1009"
+            },
+            {
+              "grupo": "2251",
+              "profesor": "SILVA SANCHEZ JEOHVAN JEDIDIAN",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "19:00",
+                  "fin": "21:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "19:00",
+                  "fin": "21:00"
+                }
+              ],
+              "salon": "A-716"
+            }
+          ]
+        },
+        "1214": {
+          "nombre": "INGLES II",
+          "semestre": "02", 
+          "grupos": [
+            {
+              "grupo": "2201",
+              "profesor": "CENTENO LEOS ISMAEL",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes", 
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1009"
+            },
+            {
+              "grupo": "2251",
+              "profesor": "HERNANDEZ VENEGAS ITZEL VIRIDIANA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "15:00",
+                  "fin": "17:00"
+                },
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes", 
+                  "inicio": "15:00",
+                  "fin": "17:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "15:00",
+                  "fin": "17:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "15:00",
+                  "fin": "17:00"
+                }
+              ],
+              "salon": "A-716"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "fecha_actualizacion": "2025-06-21T06:52:32.197Z",
+  "total_carreras": 2
+}

@@ -1,4 +1,8 @@
-from fastapi import FastAPI, HTTPException, Query, Request
+from fastapi import FastAPI, HTTPException, Request, Depends
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.util import get_remote_address
+from slowapi.errors import RateLimitExceeded
+
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.responses import JSONResponse
@@ -8,16 +12,23 @@ import uvicorn
 from datetime import datetime
 from unidecode import unidecode
 
+limiter = Limiter(key_func=get_remote_address)
 app = FastAPI(
     title="FES Acatlán Horarios API",
     description="API para consultar horarios académicos de la FES Acatlán",
     version="2.0.0"
 )
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
+
+
+
 
 # Middleware para CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # Permitir todos los orígenes para desarrollo
+    # allow_origins=["https://checatuhorario.com"],
     allow_credentials=True,
     allow_methods=["GET"],
     allow_headers=["*"],
@@ -68,8 +79,9 @@ def load_data():
     
     return data_cache
 
+@limiter.limit("100/minute")
 @app.get("/")
-async def root():
+async def root(request: Request):
     """Endpoint raíz con información de la API"""
     return {
         "message": "FES Acatlán Horarios API",
@@ -81,9 +93,9 @@ async def root():
             "/api/buscar": "Búsqueda de materias o profesores"
         }
     }
-
+@limiter.limit("100/minute")
 @app.get("/api/status")
-async def get_status():
+async def get_status(request: Request):
     """Obtiene el estado del servicio y estadísticas de datos"""
     try:
         data = load_data()
@@ -116,9 +128,10 @@ async def get_status():
             status_code=500,
             content={"status": "error", "message": str(e)}
         )
-
+    
+@limiter.limit("100/minute")
 @app.get("/api/carreras")
-async def get_carreras():
+async def get_carreras(request: Request):
     """Lista todas las carreras disponibles con metadatos básicos"""
     global carreras_cache
     
@@ -158,6 +171,7 @@ async def get_carreras():
     except Exception as e:
         raise HTTPException(500, f"Error cargando carreras: {str(e)}")
 
+@limiter.limit("100/minute")
 @app.get("/api/horarios/{carrera_codigo}")
 async def get_horarios_carrera(carrera_codigo: str, request: Request):
     """
@@ -198,8 +212,10 @@ async def get_horarios_carrera(carrera_codigo: str, request: Request):
     except Exception as e:
         raise HTTPException(500, f"Error cargando horarios: {str(e)}")
 
+
+@limiter.limit("100/minute")
 @app.get("/api/health")
-async def health_check():
+async def health_check(request: Request):
     """Endpoint para verificar que el servicio está activo"""
     return {"status": "healthy", "timestamp": datetime.utcnow().isoformat()}
 

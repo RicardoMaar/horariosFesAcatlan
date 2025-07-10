@@ -3,43 +3,50 @@ import * as Popover from '@radix-ui/react-popover';
 import { useExport } from '../hooks/useExport';
 import toast from 'react-hot-toast';
 
-function ExportMenu() {
+function ExportMenu({ exportableRef }) {
   const [open, setOpen] = useState(false);
+
   const { exportToPNG, exportToPDF, exportToExcel, exportToGoogleCalendar } = useExport();
 
   const handleExport = async (format) => {
+
+    if ((format === 'PNG' || format === 'PDF') && !exportableRef.current) {
+      toast.error("El componente del calendario aún no está listo. Inténtalo de nuevo.");
+      return;
+    }
+
     let loadingToast;
-    
+
     try {
       setOpen(false);
-      
+
       loadingToast = toast.loading(`Exportando a ${format}...`);
-      
+
       switch (format) {
         case 'PNG':
-          await exportToPNG();
+          await exportToPNG(exportableRef.current);
           break;
         case 'PDF':
-          await exportToPDF();
+          await exportToPDF(exportableRef.current);
           break;
         case 'Excel':
-          await exportToExcel();
+          await exportToExcel(); 
           break;
         case 'Calendar':
-          await exportToGoogleCalendar();
+          await exportToGoogleCalendar(); 
           break;
       }
-      
+
       toast.dismiss(loadingToast);
       toast.success(`Horario exportado como ${format}`);
     } catch (error) {
-      // Asegurar que el loading toast se elimine siempre
       if (loadingToast) {
         toast.dismiss(loadingToast);
       }
       toast.error(`Error al exportar: ${error.message}`);
     }
   };
+
 
   return (
     <Popover.Root open={open} onOpenChange={setOpen}>
@@ -92,7 +99,7 @@ function ExportMenu() {
               <svg className="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
-              Google Calendar
+              Calendar
             </button>
           </div>
           

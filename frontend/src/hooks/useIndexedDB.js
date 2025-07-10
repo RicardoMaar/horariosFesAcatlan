@@ -25,7 +25,7 @@ export function useIndexedDB() {
         data,
         timestamp: Date.now(),
       });
-      console.log(`✅ Carrera ${codigo} guardada en IndexedDB`);
+      // console.log(`✅ Carrera ${codigo} guardada en IndexedDB`);
     } catch (error) {
       console.error('Error guardando en IndexedDB:', error);
     }
@@ -43,12 +43,12 @@ export function useIndexedDB() {
       
       const age = Date.now() - cached.timestamp;
       if (age > CACHE_DURATION) {
-        console.log(`⏰ Cache expirado para carrera ${codigo}`);
+        // console.log(`⏰ Cache expirado para carrera ${codigo}`);
         await db.delete(STORE_NAME, codigo);
         return null;
       }
       
-      console.log(`✅ Carrera ${codigo} cargada desde cache`);
+      // console.log(`✅ Carrera ${codigo} cargada desde cache`);
       return cached.data;
     } catch (error) {
       console.error('Error leyendo de IndexedDB:', error);

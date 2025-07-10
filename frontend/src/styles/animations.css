@@ -251,7 +251,7 @@
   animation: calendario-bloque-enter 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
   opacity: 0;
   transform: scale(0.8) translateY(20px);
-  z-index: 10; /* 👈 ASEGURAR que sea menor que el modal */
+  z-index: 10;
 }
 
 @keyframes calendario-bloque-enter {
@@ -286,22 +286,23 @@
 }
 
 /* Animación con retraso para múltiples bloques */
-.calendario-bloque.delay-1 { animation-delay: 0.1s; }
-.calendario-bloque.delay-2 { animation-delay: 0.2s; }
-.calendario-bloque.delay-3 { animation-delay: 0.3s; }
-.calendario-bloque.delay-4 { animation-delay: 0.4s; }
+.calendario-stagger-1 { animation-delay: 0s; }
+.calendario-stagger-2 { animation-delay: 0.1s; }
+.calendario-stagger-3 { animation-delay: 0.2s; }
+.calendario-stagger-4 { animation-delay: 0.3s; }
+.calendario-stagger-5 { animation-delay: 0.4s; }
 
 /* Hover mejorado para bloques del calendario */
 .calendario-bloque-hover {
   transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
-  z-index: 15; /* 👈 AUMENTAR ligeramente en hover pero menor que modal */
+  z-index: 15; 
 }
 
 .calendario-bloque-hover:hover {
   transform: scale(1.02);
   filter: brightness(1.1);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-  z-index: 20; /* 👈 MÁXIMO z-index para bloques, pero menor que modal */
+  z-index: 20; 
 }
 
 /* Animación para cuando hay traslape */

@@ -25,7 +25,7 @@ function LimpiarHorarioButton() {
       limpiarTodasLasMaterias();
       setMostrandoConfirmacion(false);
       setCerrandoModal(false);
-      toast.success('Limpiando horario...'); // 👈 CAMBIAR mensaje
+      // toast.success('Limpiando horario...'); // 👈 CAMBIAR mensaje
     }, 200);
   };
 
@@ -50,7 +50,7 @@ function LimpiarHorarioButton() {
       // Solo mostrar si realmente se limpiaron materias
       const timer = setTimeout(() => {
         if (materiasSeleccionadas.length === 0) {
-          toast.success('Horario limpiado correctamente');
+          // toast.success('Horario limpiado correctamente');
         }
       }, 100);
       

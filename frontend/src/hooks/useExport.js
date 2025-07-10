@@ -202,7 +202,7 @@ export function useExport() {
 
   const exportToPNG = async () => {
     try {
-      console.log('Iniciando exportación PNG...');
+      // console.log('Iniciando exportación PNG...');
       
       validarAntesDeExportar();
 
