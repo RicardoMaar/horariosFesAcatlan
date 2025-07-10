@@ -67,11 +67,11 @@ function App() {
 
             {/* Panel derecho - Calendario */}
             <div className="lg:col-span-8 xl:col-span-9">
-              <div className="bg-white rounded-lg shadow-sm p-4 h-full">
+              <div className="lg:col-span-8 xl:col-span-9 bg-white rounded-lg shadow-sm p-4 flex flex-col h-full">
                 <h2 className="text-2xl mb-4 font-handwritten">
                   Horario
                 </h2>
-                <div className="flex-1 overflow-scroll custom-scrollbar scrollbar-gutter-stable">
+                <div className="flex-1 min-h-0">
                   <CalendarioSemanal />
                 </div>
               </div>
@@ -79,22 +79,7 @@ function App() {
           </div>
         )}
 
-        {/* Estado inicial */}
-        {!carreraSeleccionada && (
-          <div className="text-center py-20">
-            <div className="inline-flex items-center justify-center w-20 h-20 bg-primary-100 rounded-full mb-4">
-              <svg className="w-10 h-10 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
-              </svg>
-            </div>
-            <h2 className="text-2xl font-handwritten text-gray-700 mb-2">
-              ¡Comienza seleccionando tu carrera!
-            </h2>
-            <p className="text-gray-500">
-              Elige tu carrera para ver las materias disponibles
-            </p>
-          </div>
-        )}
+
       </main>
 
       {/* Modal de detalles */}

@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
+import toast from 'react-hot-toast';
 
 const useHorariosStore = create(
   persist(
@@ -43,6 +44,10 @@ const useHorariosStore = create(
           });
         } else {
           // Agregar materia con color
+          if (materiasSeleccionadas.length >= 12) {
+            toast.error('No puedes seleccionar más de 12 materias.');
+            return; // Detiene la ejecución si se alcanza el límite
+          }
           const materia = get().materiasData[claveMateria];
           const nuevoColor = generarColorDeterminista(id);
           

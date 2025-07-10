@@ -360,14 +360,15 @@ export function useExport() {
   const exportToGoogleCalendar = () => {
     try {
       console.log('Iniciando exportación a Calendar...');
-
       validarAntesDeExportar();
 
-      // Crear eventos ICS para Google Calendar
+      const SEMESTER_START_DATE = new Date('2025-08-08T00:00:00');
+      const SEMESTER_END_DATE_ICS = '20251130T235959Z'; // Formato UTC para la regla RRULE
+
       let icsContent = [
         'BEGIN:VCALENDAR',
         'VERSION:2.0',
-        'PRODID:-//FES Acatlán//Horarios//ES',
+        'PRODID:-//FES Acatlan//Horarios//ES',
         'CALSCALE:GREGORIAN',
         'METHOD:PUBLISH'
       ];
@@ -377,18 +378,16 @@ export function useExport() {
           materia.horarios.forEach(horario => {
             const eventId = `${materia.clave}-${horario.dia}-${Date.now()}`;
             
-            // Fecha de inicio del semestre
-            const now = new Date();
-            const startDate = new Date(now.getFullYear(), 1, 1); // 1 de febrero
-            
+            const { icsStartDate, icsEndDate } = formatDateForICS(SEMESTER_START_DATE, horario.inicio, horario.fin, horario.dia);
+
             icsContent.push(
               'BEGIN:VEVENT',
               `UID:${eventId}@fesacatlan.horarios`,
-              `DTSTART:${formatDateForICS(startDate, horario.inicio, horario.dia)}`,
-              `DTEND:${formatDateForICS(startDate, horario.fin, horario.dia)}`,
+              `DTSTART:${icsStartDate}`,
+              `DTEND:${icsEndDate}`,
               `SUMMARY:${materia.nombre} - Grupo ${materia.grupo}`,
               `DESCRIPTION:Profesor: ${materia.profesor || 'No especificado'}\\nClave: ${materia.clave}\\nSemestre: ${materia.semestre || 'N/A'}`,
-              `RRULE:FREQ=WEEKLY;BYDAY=${getDayCode(horario.dia)};COUNT=16`,
+              `RRULE:FREQ=WEEKLY;BYDAY=${getDayCode(horario.dia)};UNTIL=${SEMESTER_END_DATE_ICS}`,
               'END:VEVENT'
             );
           });
@@ -397,13 +396,11 @@ export function useExport() {
 
       icsContent.push('END:VCALENDAR');
 
-      // Crear y descargar archivo ICS
-      const blob = new Blob([icsContent.join('\r\n')], { 
-        type: 'text/calendar;charset=utf-8' 
-      });
+      // Crear y descargar archivo ICS (lógica sin cambios)
+      const blob = new Blob([icsContent.join('\r\n')], { type: 'text/calendar;charset=utf-8' });
       const url = URL.createObjectURL(blob);
       const link = document.createElement('a');
-      link.download = `horario_${carreraSeleccionada || 'schedule'}_${new Date().toISOString().split('T')[0]}.ics`;
+      link.download = `horario_${carreraSeleccionada || 'schedule'}.ics`;
       link.href = url;
       document.body.appendChild(link);
       link.click();
@@ -416,40 +413,42 @@ export function useExport() {
     }
   };
 
-  // Funciones auxiliares
-  const formatDateForICS = (startDate, time, dayName) => {
-    const [hours, minutes] = time.split(':').map(Number);
-    const targetDate = getNextWeekday(startDate, dayName);
-    targetDate.setHours(hours, minutes, 0, 0);
-    
-    const year = targetDate.getFullYear();
-    const month = String(targetDate.getMonth() + 1).padStart(2, '0');
-    const day = String(targetDate.getDate()).padStart(2, '0');
-    const hour = String(targetDate.getHours()).padStart(2, '0');
-    const minute = String(targetDate.getMinutes()).padStart(2, '0');
-    
-    return `${year}${month}${day}T${hour}${minute}00`;
+  const getDayCode = (dia) => {
+    const dias = { 'LU': 'MO', 'MA': 'TU', 'MI': 'WE', 'JU': 'TH', 'VI': 'FR', 'SA': 'SA' };
+    return dias[dia] || 'MO';
   };
 
   const getNextWeekday = (startDate, dayName) => {
-    const days = {
-      'LU': 1, 'MA': 2, 'MI': 3, 'JU': 4, 'VI': 5, 'SA': 6
-    };
-    
+    const days = { 'LU': 1, 'MA': 2, 'MI': 3, 'JU': 4, 'VI': 5, 'SA': 6 };
     const targetDay = days[dayName];
-    const currentDay = startDate.getDay();
-    const daysToAdd = ((targetDay - currentDay) + 7) % 7;
+    const currentDay = startDate.getDay() === 0 ? 7 : startDate.getDay(); // Lunes=1, Domingo=7
+    const daysToAdd = (targetDay - currentDay + 7) % 7;
     
     const result = new Date(startDate);
     result.setDate(startDate.getDate() + daysToAdd);
     return result;
   };
 
-  const getDayCode = (dia) => {
-    const dias = {
-      'LU': 'MO', 'MA': 'TU', 'MI': 'WE', 'JU': 'TH', 'VI': 'FR', 'SA': 'SA'
+  const formatDateForICS = (semesterStartDate, startTime, endTime, dayName) => {
+    const firstEventDate = getNextWeekday(semesterStartDate, dayName);
+    
+    const [startHours, startMinutes] = startTime.split(':').map(Number);
+    const [endHours, endMinutes] = endTime.split(':').map(Number);
+
+    firstEventDate.setHours(startHours, startMinutes, 0, 0);
+    const startDate = new Date(firstEventDate);
+    
+    firstEventDate.setHours(endHours, endMinutes, 0, 0);
+    const endDate = new Date(firstEventDate);
+
+    const toICSString = (date) => {
+      return date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
     };
-    return dias[dia] || 'MO';
+
+    return {
+      icsStartDate: toICSString(startDate),
+      icsEndDate: toICSString(endDate),
+    };
   };
 
   return {

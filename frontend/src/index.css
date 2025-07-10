@@ -53,19 +53,19 @@
   }
   
   /* Contenedor para swipe en mobile */
-  .calendar-swipe-container {
+  /* .calendar-swipe-container {
     @apply relative overflow-hidden;
   }
   
-  /* Wrapper para las vistas del calendario */
+
   .calendar-views-wrapper {
     @apply flex transition-transform duration-300 ease-in-out;
   }
   
-  /* Vista individual del calendario */
+ 
   .calendar-view {
     @apply w-full flex-shrink-0;
-  }
+  } */
   
   /* Indicadores de página */
   .calendar-dots {
