@@ -256,7 +256,7 @@ export function useExport() {
 
   const exportToPDF = async () => {
     try {
-      console.log('Iniciando exportación PDF...');
+      // console.log('Iniciando exportación PDF...');
       
       validarAntesDeExportar();
 
@@ -280,7 +280,7 @@ export function useExport() {
           windowHeight: 800
         });
 
-        console.log('Canvas creado para PDF:', canvas.width, 'x', canvas.height);
+        // console.log('Canvas creado para PDF:', canvas.width, 'x', canvas.height);
 
         // Crear PDF
         const imgData = canvas.toDataURL('image/png');
@@ -359,7 +359,7 @@ export function useExport() {
 
   const exportToGoogleCalendar = () => {
     try {
-      console.log('Iniciando exportación a Calendar...');
+      // console.log('Iniciando exportación a Calendar...');
       validarAntesDeExportar();
 
       const SEMESTER_START_DATE = new Date('2025-08-08T00:00:00');
