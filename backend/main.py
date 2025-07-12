@@ -27,8 +27,8 @@ app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 # Middleware para CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Permitir todos los orígenes para desarrollo
-    # allow_origins=["https://checatuhorario.com"],
+    # allow_origins=["*"],  # Permitir todos los orígenes para desarrollo
+    allow_origins=["https://checatuhorario.com"],
     allow_credentials=True,
     allow_methods=["GET"],
     allow_headers=["*"],
