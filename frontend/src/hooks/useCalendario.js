@@ -23,21 +23,55 @@ export function useResponsive() {
 export function useSwipeNavigation(initialView = 0) {
   const [currentView, setCurrentView] = useState(initialView);
   const [touchStartX, setTouchStartX] = useState(0);
+  const [touchStartY, setTouchStartY] = useState(0);
+  const [isProcessing, setIsProcessing] = useState(false);
 
   const handleTouchStart = (e) => {
-    setTouchStartX(e.touches[0].clientX);
+    const touch = e.touches[0];
+    setTouchStartX(touch.clientX);
+    setTouchStartY(touch.clientY);
+    setIsProcessing(false);
   };
 
   const handleTouchEnd = (e) => {
-    const touchEndX = e.changedTouches[0].clientX;
-    const diff = touchStartX - touchEndX;
+    // Evitar procesamiento si ya está en proceso
+    if (isProcessing) {
+      return;
+    }
+
+    const touch = e.changedTouches[0];
+    const touchEndX = touch.clientX;
+    const touchEndY = touch.clientY;
+
+    const deltaX = touchStartX - touchEndX;
+    const deltaY = touchStartY - touchEndY;
+
+    // Definir umbral mínimo para swipe
+    const minSwipeDistance = CALENDARIO_CONFIG.SWIPE_THRESHOLD || 50;
     
-    if (Math.abs(diff) > CALENDARIO_CONFIG.SWIPE_THRESHOLD) {
-      if (diff > 0 && currentView === 0) {
-        setCurrentView(1); // Swipe izquierda
-      } else if (diff < 0 && currentView === 1) {
-        setCurrentView(0); // Swipe derecha
+    // Solo procesar si:
+    // 1. El movimiento horizontal es mayor que el vertical
+    // 2. La distancia es suficiente
+    const isHorizontalSwipe = Math.abs(deltaX) > Math.abs(deltaY);
+    const isSufficientDistance = Math.abs(deltaX) > minSwipeDistance;
+    
+    if (isHorizontalSwipe && isSufficientDistance) {
+      setIsProcessing(true);
+      
+      if (deltaX > 0 && currentView === 0) {
+        // Swipe hacia la izquierda desde vista 0 (ir a vista 1)
+        // console.log('Swipe válido: LU-MA-MI → JU-VI-SA');
+        setCurrentView(1);
+      } else if (deltaX < 0 && currentView === 1) {
+        // Swipe hacia la derecha desde vista 1 (ir a vista 0)
+        // console.log('Swipe válido: JU-VI-SA → LU-MA-MI');
+        setCurrentView(0);
       }
+
+      // Resetear el estado de procesamiento después de la animación
+      setTimeout(() => {
+        setIsProcessing(false);
+      }, 400); // Un poco más que la duración de la transición CSS (300ms)
     }
   };
 

@@ -46,7 +46,7 @@ const CalendarioMobile = React.memo(({ bloquesPorDia, bloquesAnimando, bloquesPa
       >
         <div 
           className="calendar-views-wrapper"
-          style={{ transform: `translateX(-${currentView * 100}%)` }}
+          style={{ transform: `translateX(-${currentView * 50}%)` }}
         >
           {renderView(diasView1, nombresView1)}
           {renderView(diasView2, nombresView2)}
