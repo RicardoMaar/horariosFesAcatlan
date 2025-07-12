@@ -1,32 +1,19 @@
 {
-  "dependencies": {
-    "jsdom": "^26.1.0",
-    "node-fetch": "^2.7.0"
-  },
-  "name": "horariosfesacatlan",
+  "name": "horarios-scraper",
   "version": "1.0.0",
-  "description": "Este es un repositorio para generar horarios",
-  "main": "index.js",
+  "description": "Scraper para los horarios de la FES Acatlán",
+  "main": "scraper.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon scraper.js",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint": "eslint ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RicardoMaar/horariosFesAcatlan.git"
+  "dependencies": {
+    "jsdom": "24.1.0",
+    "node-fetch": "3.3.2"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RicardoMaar/horariosFesAcatlan/issues"
-  },
-  "homepage": "https://github.com/RicardoMaar/horariosFesAcatlan#readme",
   "devDependencies": {
-    "@eslint/js": "9.29.0",
-    "eslint-plugin-react": "7.37.5",
-    "globals": "16.2.0",
+    "eslint": "9.25.0",
     "nodemon": "3.1.10"
   }
 }
