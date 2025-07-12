@@ -12,8 +12,6 @@ import ExportableCalendar from './components/ExportableCalendar';
 
 function App() {
   const carreraSeleccionada = useHorariosStore(state => state.carreraSeleccionada);
-  const materiasData = useHorariosStore(state => state.materiasData);
-
   const materiasSeleccionadas = useHorariosStore(state => state.materiasSeleccionadas);
   const coloresAsignados = useHorariosStore(state => state.coloresAsignados);
   const exportableCalendarRef = useRef(null);
