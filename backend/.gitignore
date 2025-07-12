@@ -104,8 +104,7 @@ logs
 ehthumbs.db
 Thumbs.db
 
-# Project specific
-scraper/materias/*
+
 
 # Python
 __pycache__/

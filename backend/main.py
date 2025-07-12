@@ -1,24 +1,34 @@
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Request, Depends
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.util import get_remote_address
+from slowapi.errors import RateLimitExceeded
+
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.responses import JSONResponse
-from typing import Optional, List, Dict
 import json
 import os
 import uvicorn
 from datetime import datetime
 from unidecode import unidecode
 
+limiter = Limiter(key_func=get_remote_address)
 app = FastAPI(
     title="FES Acatlán Horarios API",
     description="API para consultar horarios académicos de la FES Acatlán",
     version="2.0.0"
 )
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
+
+
+
 
 # Middleware para CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # Permitir todos los orígenes para desarrollo
+    # allow_origins=["https://checatuhorario.com"],
     allow_credentials=True,
     allow_methods=["GET"],
     allow_headers=["*"],
@@ -39,12 +49,15 @@ def load_data():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     
     possible_paths = [
+        # Para producción - archivo en carpeta materias al mismo nivel que main.py
+        os.path.join(script_dir, "materias", "todas_carreras.json"),
+        # Para desarrollo - mantener rutas existentes como fallback
         os.path.join(script_dir, "..", "scraper", "materias", "todas_carreras.json"),
         os.path.join(script_dir, "scraper", "materias", "todas_carreras.json"),
         os.path.join(os.getcwd(), "scraper", "materias", "todas_carreras.json"),
         # Para desarrollo local
         os.path.join(script_dir, "todas_carreras.json")
-    ]
+]
     
     json_path = None
     for path in possible_paths:
@@ -66,12 +79,9 @@ def load_data():
     
     return data_cache
 
-def normalize_text(text: str) -> str:
-    """Normaliza texto para búsquedas (quita acentos y convierte a minúsculas)"""
-    return unidecode(text.lower().strip())
-
+@limiter.limit("100/minute")
 @app.get("/")
-async def root():
+async def root(request: Request):
     """Endpoint raíz con información de la API"""
     return {
         "message": "FES Acatlán Horarios API",
@@ -83,12 +93,13 @@ async def root():
             "/api/buscar": "Búsqueda de materias o profesores"
         }
     }
-
+@limiter.limit("100/minute")
 @app.get("/api/status")
-async def get_status():
+async def get_status(request: Request):
     """Obtiene el estado del servicio y estadísticas de datos"""
     try:
         data = load_data()
+        
         carreras_data = data.get("carreras", {})
         
         total_materias = 0
@@ -117,9 +128,10 @@ async def get_status():
             status_code=500,
             content={"status": "error", "message": str(e)}
         )
-
+    
+@limiter.limit("100/minute")
 @app.get("/api/carreras")
-async def get_carreras():
+async def get_carreras(request: Request):
     """Lista todas las carreras disponibles con metadatos básicos"""
     global carreras_cache
     
@@ -130,6 +142,7 @@ async def get_carreras():
         
         data = load_data()
         carreras = {}
+        
         
         for codigo, carrera_data in data.get("carreras", {}).items():
             # Contar semestres únicos
@@ -158,14 +171,21 @@ async def get_carreras():
     except Exception as e:
         raise HTTPException(500, f"Error cargando carreras: {str(e)}")
 
+@limiter.limit("100/minute")
 @app.get("/api/horarios/{carrera_codigo}")
-async def get_horarios_carrera(carrera_codigo: str):
+async def get_horarios_carrera(carrera_codigo: str, request: Request):
     """
     Obtiene todos los horarios de una carrera específica.
     Incluye headers de cache para optimizar cliente.
     """
     try:
         data = load_data()
+        current_etag = f'"{carrera_codigo}-{last_update}"'
+        # Verificar If-None-Match header
+        if_none_match = request.headers.get("if-none-match")
+        if if_none_match == current_etag:
+            return JSONResponse(content="", status_code=304)
+
         carreras = data.get("carreras", {})
         
         if carrera_codigo not in carreras:
@@ -180,7 +200,6 @@ async def get_horarios_carrera(carrera_codigo: str):
             "fecha_consulta": response_data.get("fecha_consulta", None)
         }
         
-        # Headers de cache sugeridos (1 dia)
         headers = {
             "Cache-Control": "public, max-age=86400",
             "ETag": f'"{carrera_codigo}-{last_update}"'
@@ -193,8 +212,10 @@ async def get_horarios_carrera(carrera_codigo: str):
     except Exception as e:
         raise HTTPException(500, f"Error cargando horarios: {str(e)}")
 
+
+@limiter.limit("100/minute")
 @app.get("/api/health")
-async def health_check():
+async def health_check(request: Request):
     """Endpoint para verificar que el servicio está activo"""
     return {"status": "healthy", "timestamp": datetime.utcnow().isoformat()}
 
