@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import CalendarioDesktop from './calendario/CalendarioDesktop';
 import CalendarioMobile from './calendario/CalendarioMobile';
 import { useResponsive, useAnimacionesBloque, useBloquesPorDia } from '../hooks/useCalendario';
@@ -12,18 +12,7 @@ function CalendarioSemanal() {
   const materiasSeleccionadas = useHorariosStore(state => state.materiasSeleccionadas);
   const { bloquesAnimando, bloquesParaQuitar } = useAnimacionesBloque(materiasSeleccionadas);
 
-  // Debug temporal
-  // useEffect(() => {
-  //   console.log('Elementos del DOM:', {
-  //     overflowAuto: document.querySelector('.overflow-x-auto'),
-  //     tables: document.querySelectorAll('table'),
-  //     grids: document.querySelectorAll('.grid'),
-  //     calendars: document.querySelectorAll('[class*="calendar"]'),
-  //     schedules: document.querySelectorAll('[class*="schedule"]'),
-  //     horarios: document.querySelectorAll('[class*="horario"]')
-  //   });
-  // }, []);
-
+  // Siempre mostrar el calendario, sin importar el estado
   if (isMobile) {
     return (
       <CalendarioMobile 
