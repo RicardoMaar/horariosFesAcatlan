@@ -1,36 +1,36 @@
-name: Scrape Horarios FES Acatlán
+name: Scrape and Upload Horarios
 
 on:
   schedule:
-    # Ejecuta a las 09:00 UTC, que son las 3:00 AM CST (horario estándar de México)
-    - cron: '0 9 * * *'
-  workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña de Actions en GitHub
+    - cron: '0 9 * * 5'
+  workflow_dispatch:
 
 jobs:
-  scrape:
+  scrape-and-upload:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18' # Usa una versión de Node.js
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: ./backend/scraper/package-lock.json
 
       - name: Install dependencies
         working-directory: ./backend/scraper
-        run: npm install --omit=dev
+        run: npm install
 
       - name: Run scraper script
-        # Usamos node directamente en lugar de nodemon, que es para desarrollo
         working-directory: ./backend/scraper
         run: node scraper.js
-
-      - name: Commit and push if changed
-        run: |
-          git config --global user.name "GitHub Actions Scraper"
-          git config --global user.email "actions@github.com"
-          git add -A
-          git diff --staged --quiet || (git commit -m "📊 chore: Actualizar horarios [skip ci]" && git push)
+      
+      - name: Upload JSON to Supabase Storage
+        working-directory: ./backend/scraper
+        env:
+          SUPABASE_PROJECT_URL: ${{ secrets.SUPABASE_PROJECT_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: node upload.js
