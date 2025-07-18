@@ -20,7 +20,7 @@ async function uploadFile() {
   const supabase = createClient(supabaseUrl, supabaseKey);
   
   const filePath = path.join(__dirname, 'materias', 'todas_carreras.json');
-  const bucketName = 'tu-bucket-publico'; // <-- CAMBIA ESTO por el nombre de tu bucket
+  const bucketName = 'materias'; // <-- CAMBIA ESTO por el nombre de tu bucket
   const fileNameInBucket = 'todas_carreras.json';
 
   try {
