@@ -2,9 +2,8 @@ name: Scrape and Upload Horarios
 
 on:
   schedule:
-    # Ejecuta cada viernes a las 09:00 UTC (3:00 AM CST en horario estándar)
     - cron: '0 9 * * 5'
-  workflow_dispatch: # Permite ejecutarlo manualmente
+  workflow_dispatch:
 
 jobs:
   scrape-and-upload:
@@ -23,43 +22,15 @@ jobs:
 
       - name: Install dependencies
         working-directory: ./backend/scraper
-        run: npm install --omit=dev
+        run: npm install
 
-      - name: Run scraper script to generate JSON
+      - name: Run scraper script
         working-directory: ./backend/scraper
         run: node scraper.js
       
-      - name: Setup Supabase CLI
-        uses: supabase/setup-cli@v1
-        with:
-          version: latest
-
       - name: Upload JSON to Supabase Storage
+        working-directory: ./backend/scraper
         env:
-          # Carga los secretos que configuraste en GitHub
-          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_SERVICE_KEY }}
-          PROJECT_ID: ${{ secrets.SUPABASE_PROJECT_ID }}
-        run: |
-          # 1. Vinculamos la CLI al proyecto correcto de Supabase usando el PROJECT_ID.
-          #    La autenticación ocurre automáticamente con SUPABASE_ACCESS_TOKEN.
-          supabase link --project-ref $PROJECT_ID
-
-          # 2. Ahora que está vinculado, copiamos el archivo.
-          #    Usamos el alias 'ss://' y el flag --content-type para asegurar que se sirva como JSON.
-          supabase storage cp ./backend/scraper/materias/todas_carreras.json \
-            "ss://materias/todas_carreras.json" \
-            --content-type "application/json" \
-            --experimental
-        
-
-
-         # 1. Vinculamos la CLI al proyecto correcto de Supabase usando el PROJECT_ID.
-          #    La autenticación ocurre automáticamente con SUPABASE_ACCESS_TOKEN.
-          # supabase link --project-ref $PROJECT_ID
-
-          # 2. Ahora que está vinculado, copiamos el archivo.
-          #    Usamos el alias 'ss://' y el flag --content-type para asegurar que se sirva como JSON.
-          # supabase storage cp ./backend/scraper/materias/todas_carreras.json \
-          #   "ss://materias/todas_carreras.json" \
-          #   --content-type "application/json"
-
+          SUPABASE_PROJECT_URL: ${{ secrets.SUPABASE_PROJECT_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: node upload.js
