@@ -1,7 +1,12 @@
 // ./backend/scraper/upload.js
-const { createClient } = require('@supabase/supabase-js');
-const fs = require('fs');
-const path = require('path');
+import { createClient } from '@supabase/supabase-js';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// En Módulos de ES, __dirname no existe. Esta es la forma moderna de obtenerlo.
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 async function uploadFile() {
   const supabaseUrl = process.env.SUPABASE_PROJECT_URL;
@@ -15,7 +20,7 @@ async function uploadFile() {
   const supabase = createClient(supabaseUrl, supabaseKey);
   
   const filePath = path.join(__dirname, 'materias', 'todas_carreras.json');
-  const bucketName = 'materias'; // <-- CAMBIA ESTO por el nombre de tu bucket
+  const bucketName = 'tu-bucket-publico'; // <-- CAMBIA ESTO por el nombre de tu bucket
   const fileNameInBucket = 'todas_carreras.json';
 
   try {
