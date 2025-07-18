@@ -48,7 +48,8 @@ jobs:
           #    Usamos el alias 'ss://' y el flag --content-type para asegurar que se sirva como JSON.
           supabase storage cp ./backend/scraper/materias/todas_carreras.json \
             "ss://materias/todas_carreras.json" \
-            --content-type "application/json"
+            --content-type "application/json" \
+            --experimental
         
 
 
