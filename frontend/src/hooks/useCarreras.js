@@ -39,52 +39,30 @@ export function useCarreras() {
 export function useHorarios(carreraCodigo) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const { saveCarrera, loadCarrera } = useIndexedDB();
   const setMateriasData = useHorariosStore(state => state.setMateriasData);
 
   const fetchHorarios = useCallback(async () => {
     if (!carreraCodigo) {
-      // console.log('useHorarios: no hay carrera seleccionada');
       return;
     }
-
+  
     try {
       setLoading(true);
       setError(null);
-      // console.log('Fetching horarios para carrera:', carreraCodigo);
-
-      // Intentar cargar desde cache
-      const cached = await loadCarrera(carreraCodigo);
-      if (cached) {
-        // console.log('Horarios cargados desde cache');
-        setMateriasData(cached.materias);
-        // toast.success('Horarios cargados desde cache', { duration: 2000 });
-        return;
-      }
-
-      // Si no hay cache, hacer petición
-      console.log('No hay cache, fetching desde API');
+  
+      // ✅ SIEMPRE hacer petición al servidor
+      console.log('Fetching desde API');
       const response = await axios.get(`${API_BASE}/horarios/${carreraCodigo}`);
       const data = response.data;
-      // console.log('Horarios recibidos:', { 
-      //   carrera: data.nombre, 
-      //   materias: Object.keys(data.materias || {}).length 
-      // });
       
       setMateriasData(data.materias);
       
-      // Guardar en cache
-      await saveCarrera(carreraCodigo, data);
-      
-      // toast.success('Horarios cargados correctamente');
     } catch (err) {
-      // console.error('Error cargando horarios:', err);
       setError(err.message);
-      // toast.error('Error cargando horarios');
     } finally {
       setLoading(false);
     }
-  }, [carreraCodigo, setMateriasData, saveCarrera, loadCarrera]);
+  }, [carreraCodigo, setMateriasData]); // ← También quitar saveCarrera, loadCarrera de dependencies
 
   useEffect(() => {
     if (carreraCodigo) {

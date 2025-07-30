@@ -170,7 +170,7 @@ async def get_horarios_carrera(carrera_codigo: str, request: Request):
         response_data = carreras[carrera_codigo]
         
         headers = {
-            "Cache-Control": "public, max-age=86400", # Cache en navegador por 1 día
+            "Cache-Control": "public, max-age=10", # Cache en navegador por 1 día
             "ETag": current_etag
         }
         
