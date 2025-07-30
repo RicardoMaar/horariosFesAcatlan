@@ -57,12 +57,7 @@ export function useHorarios(carreraCodigo) {
   
       // ✅ SIEMPRE hacer petición al servidor
       console.log('Fetching desde API');
-      const response = await axios.get(`${API_BASE}/horarios/${carreraCodigo}`, {
-        headers: {
-          'Cache-Control': 'no-cache',
-          'Pragma': 'no-cache'
-        }
-      });
+      const response = await axios.get(`${API_BASE}/horarios/${carreraCodigo}?t=${timestamp}`);
       
       const data = response.data;
       
