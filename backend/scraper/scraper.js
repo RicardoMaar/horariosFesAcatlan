@@ -321,25 +321,29 @@ class FESAcatlanScraper {
     }
 
     /**
-     * Parsea string de horario y lo convierte en array de objetos estructurados
-     * @param {string} horarioStr - String con formato "LU,MA 08:00 a 10:00" o "LU: 18:00 a 20:00 MA: 14:00 a 16:00"
-     * @returns {Array} Array de objetos con día, hora inicio y hora fin
-     */
-    parsearHorario(horarioStr) {
-        if (!horarioStr.trim()) return [];
+ * Parsea string de horario y lo convierte en array de objetos estructurados
+ * @param {string} horarioStr - String con formato "LU,MA 08:00 a 10:00" o "LU: 18:00 a 20:00 MA: 14:00 a 16:00"
+ * @returns {Array} Array de objetos con día, hora inicio y hora fin
+ */
+parsearHorario(horarioStr) {
+    if (!horarioStr.trim()) return [];
+    
+    const horarios = [];
+    
+    // NUEVO: Detectar formato "LU: 18:00 a 20:00 MA: 14:00 a 16:00" y "MA,JU: 18:00 a 20:00"
+    if (/[A-Z,]+:\s*\d{2}:\d{2}/.test(horarioStr)) {
+        const regex = /([A-Z,]+):\s*(\d{2}:\d{2})\s+a\s+(\d{2}:\d{2})/g;
+        let match;
         
-        const horarios = [];
-        
-        // NUEVO: Detectar formato "LU: 18:00 a 20:00 MA: 14:00 a 16:00"
-        if (/[A-Z]{2}:\s*\d{2}:\d{2}/.test(horarioStr)) {
-            const regex = /([A-Z]{2}):\s*(\d{2}:\d{2})\s+a\s+(\d{2}:\d{2})/g;
-            let match;
+        while ((match = regex.exec(horarioStr)) !== null) {
+            const diasStr = match[1];
+            const horaInicio = match[2];
+            const horaFin = match[3];
             
-            while ((match = regex.exec(horarioStr)) !== null) {
-                const dia = match[1];
-                const horaInicio = match[2];
-                const horaFin = match[3];
-                
+            // Separar días por coma si hay múltiples
+            const dias = diasStr.split(',');
+            dias.forEach(dia => {
+                dia = dia.trim();
                 if (this.diasMap[dia]) {
                     horarios.push({
                         dia,
@@ -348,40 +352,41 @@ class FESAcatlanScraper {
                         fin: horaFin
                     });
                 }
-            }
-            
-            return horarios;
+            });
         }
-        
-        // ORIGINAL: Lógica exactamente como estaba antes (mantiene LU,MI 20:00 a 22:00)
-        const segmentos = horarioStr.split(' y ');
-        
-        segmentos.forEach(segmento => {
-            segmento = segmento.trim();
-            const match = segmento.match(/([A-Z,]+)\s+(\d{2}:\d{2})\s+a\s+(\d{2}:\d{2})/);
-            
-            if (match) {
-                const diasStr = match[1];
-                const horaInicio = match[2];
-                const horaFin = match[3];
-                
-                const dias = diasStr.split(',');
-                dias.forEach(dia => {
-                    dia = dia.trim();
-                    if (this.diasMap[dia]) {
-                        horarios.push({
-                            dia,
-                            dia_nombre: this.diasMap[dia],
-                            inicio: horaInicio,
-                            fin: horaFin
-                        });
-                    }
-                });
-            }
-        });
         
         return horarios;
     }
+    
+    // ORIGINAL: Lógica exactamente como estaba antes (mantiene LU,MI 20:00 a 22:00)
+    const segmentos = horarioStr.split(' y ');
+    
+    segmentos.forEach(segmento => {
+        segmento = segmento.trim();
+        const match = segmento.match(/([A-Z,]+)\s+(\d{2}:\d{2})\s+a\s+(\d{2}:\d{2})/);
+        
+        if (match) {
+            const diasStr = match[1];
+            const horaInicio = match[2];
+            const horaFin = match[3];
+            
+            const dias = diasStr.split(',');
+            dias.forEach(dia => {
+                dia = dia.trim();
+                if (this.diasMap[dia]) {
+                    horarios.push({
+                        dia,
+                        dia_nombre: this.diasMap[dia],
+                        inicio: horaInicio,
+                        fin: horaFin
+                    });
+                }
+            });
+        }
+    });
+    
+    return horarios;
+}
 
     /**
      * Agrega datos de materia a la estructura principal organizándolos por clave

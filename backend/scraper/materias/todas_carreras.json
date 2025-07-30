@@ -3,7 +3,7 @@
     "20121": {
       "codigo": "20121",
       "nombre": "Arquitectura",
-      "fecha_consulta": "2025-07-30T05:49:35.301Z",
+      "fecha_consulta": "2025-07-30T07:36:27.959Z",
       "materias": {
         "1100": {
           "nombre": "ARTE Y ARQUITECTURA",
@@ -7413,7 +7413,7 @@
     "20226": {
       "codigo": "20226",
       "nombre": "Diseño Gráfico",
-      "fecha_consulta": "2025-07-30T05:50:00.081Z",
+      "fecha_consulta": "2025-07-30T07:36:52.753Z",
       "materias": {
         "2000": {
           "nombre": "HABILIDADES INTERPERSONALES",
@@ -11865,7 +11865,7 @@
     "20321": {
       "codigo": "20321",
       "nombre": "Actuaría",
-      "fecha_consulta": "2025-07-30T05:49:29.074Z",
+      "fecha_consulta": "2025-07-30T07:36:21.732Z",
       "materias": {
         "2031": {
           "nombre": "ANALISIS MULTIVARIADO",
@@ -15485,7 +15485,7 @@
     "20421": {
       "codigo": "20421",
       "nombre": "Relaciones Internacionales",
-      "fecha_consulta": "2025-07-30T05:51:01.318Z",
+      "fecha_consulta": "2025-07-30T07:37:53.937Z",
       "materias": {
         "1089": {
           "nombre": "ACCION EXTERIOR DE GOBIERNOS LOC",
@@ -20352,7 +20352,7 @@
     "20422": {
       "codigo": "20422",
       "nombre": "Ciencias Políticas y Admon. Pública",
-      "fecha_consulta": "2025-07-30T05:49:41.441Z",
+      "fecha_consulta": "2025-07-30T07:36:34.101Z",
       "materias": {
         "1059": {
           "nombre": "ADMINISTRACION AMBIENTAL MUNICIP",
@@ -21539,6 +21539,12 @@
               "grupo": "1303",
               "profesor": "Profesor No Asignado",
               "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
                 {
                   "dia": "MI",
                   "dia_nombre": "Miércoles",
@@ -22732,6 +22738,12 @@
               "profesor": "TOVAR GORIS ARTURO",
               "horarios": [
                 {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
                   "dia": "MI",
                   "dia_nombre": "Miércoles",
                   "inicio": "09:00",
@@ -23801,7 +23813,7 @@
     "20423": {
       "codigo": "20423",
       "nombre": "Sociología",
-      "fecha_consulta": "2025-07-30T05:51:07.459Z",
+      "fecha_consulta": "2025-07-30T07:38:00.083Z",
       "materias": {
         "1117": {
           "nombre": "ECONOMIA I",
@@ -28201,13 +28213,13 @@
     "20424": {
       "codigo": "20424",
       "nombre": "Periodismo y Comunicación Colectiva",
-      "fecha_consulta": "2025-07-30T05:50:55.142Z",
+      "fecha_consulta": "2025-07-30T07:37:47.782Z",
       "materias": {}
     },
     "20425": {
       "codigo": "20425",
       "nombre": "Comunicación",
-      "fecha_consulta": "2025-07-30T05:49:47.677Z",
+      "fecha_consulta": "2025-07-30T07:36:40.352Z",
       "materias": {
         "1111": {
           "nombre": "BASES TEO. DE LA COMUNICACIÓN",
@@ -34448,7 +34460,7 @@
     "20721": {
       "codigo": "20721",
       "nombre": "Derecho",
-      "fecha_consulta": "2025-07-30T05:49:53.896Z",
+      "fecha_consulta": "2025-07-30T07:36:46.567Z",
       "materias": {
         "1105": {
           "nombre": "DERECHO ROMANO I",
@@ -42547,7 +42559,7 @@
     "20821": {
       "codigo": "20821",
       "nombre": "Economía",
-      "fecha_consulta": "2025-07-30T05:50:06.218Z",
+      "fecha_consulta": "2025-07-30T07:36:58.913Z",
       "materias": {
         "2113": {
           "nombre": "CONTABILIDAD GENERAL Y DE COSTOS",
@@ -45959,7 +45971,7 @@
     "21011": {
       "codigo": "21011",
       "nombre": "Filosofía",
-      "fecha_consulta": "2025-07-30T05:50:18.444Z",
+      "fecha_consulta": "2025-07-30T07:37:11.126Z",
       "materias": {
         "1170": {
           "nombre": "ANTROPOLOGIA FILOSOFICA I",
@@ -48001,7 +48013,7 @@
     "21013": {
       "codigo": "21013",
       "nombre": "Lengua y Literatura Hispánicas",
-      "fecha_consulta": "2025-07-30T05:50:36.820Z",
+      "fecha_consulta": "2025-07-30T07:37:29.498Z",
       "materias": {
         "1155": {
           "nombre": "ETIMOLOGIAS-GRECOLATINAS",
@@ -49619,7 +49631,7 @@
     "21021": {
       "codigo": "21021",
       "nombre": "Historia",
-      "fecha_consulta": "2025-07-30T05:50:24.551Z",
+      "fecha_consulta": "2025-07-30T07:37:17.238Z",
       "materias": {
         "1161": {
           "nombre": "GRECIA",
@@ -52147,7 +52159,7 @@
     "21025": {
       "codigo": "21025",
       "nombre": "Pedagogía",
-      "fecha_consulta": "2025-07-30T05:50:49.086Z",
+      "fecha_consulta": "2025-07-30T07:37:41.731Z",
       "materias": {
         "1129": {
           "nombre": "DESARROLLO HUMANO Y PROFESIONAL",
@@ -55274,7 +55286,7 @@
     "21121": {
       "codigo": "21121",
       "nombre": "Ingeniería Civil",
-      "fecha_consulta": "2025-07-30T05:50:30.728Z",
+      "fecha_consulta": "2025-07-30T07:37:23.411Z",
       "materias": {
         "1115": {
           "nombre": "INGENIERIA CIVIL Y SOCIEDAD",
@@ -56158,6 +56170,12 @@
                   "fin": "16:00"
                 },
                 {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
                   "dia": "JU",
                   "dia_nombre": "Jueves",
                   "inicio": "18:00",
@@ -56622,6 +56640,12 @@
               "profesor": "NIETO SILVA FRANCISCO JAVIER",
               "horarios": [
                 {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "13:00",
+                  "fin": "16:00"
+                },
+                {
                   "dia": "VI",
                   "dia_nombre": "Viernes",
                   "inicio": "13:00",
@@ -57024,6 +57048,12 @@
               "grupo": "1451",
               "profesor": "CONTRERAS HERRERA LAURA GABRIELA",
               "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
                 {
                   "dia": "JU",
                   "dia_nombre": "Jueves",
@@ -58890,6 +58920,12 @@
               "profesor": "CONTRERAS HERRERA LAURA GABRIELA",
               "horarios": [
                 {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "14:00",
+                  "fin": "15:30"
+                },
+                {
                   "dia": "VI",
                   "dia_nombre": "Viernes",
                   "inicio": "14:00",
@@ -59324,7 +59360,7 @@
     "24022": {
       "codigo": "24022",
       "nombre": "Matemáticas. Apl. y Comp.",
-      "fecha_consulta": "2025-07-30T05:50:42.957Z",
+      "fecha_consulta": "2025-07-30T07:37:35.619Z",
       "materias": {
         "1042": {
           "nombre": "METODOS VARIACIONALES",
@@ -63328,7 +63364,7 @@
     "24121": {
       "codigo": "24121",
       "nombre": "Enseñanza de Inglés",
-      "fecha_consulta": "2025-07-30T05:50:12.341Z",
+      "fecha_consulta": "2025-07-30T07:37:05.015Z",
       "materias": {
         "1039": {
           "nombre": "EXPRE. ARTIS. PAISES ANGLOSAJ.",
@@ -64709,6 +64745,6 @@
       }
     }
   },
-  "fecha_actualizacion": "2025-07-30T05:49:25.879Z",
+  "fecha_actualizacion": "2025-07-30T07:36:18.513Z",
   "total_carreras": 17
 }
