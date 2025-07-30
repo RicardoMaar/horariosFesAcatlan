@@ -20,7 +20,12 @@ export function useCarreras() {
     try {
       setLoading(true);
       // console.log('Fetching carreras from:', `${API_BASE}/carreras`);
-      const response = await axios.get(`${API_BASE}/carreras`);
+      const response = await axios.get(`${API_BASE}/carreras`, {
+        headers: {
+          'Cache-Control': 'no-cache',
+          'Pragma': 'no-cache'
+        }
+      });
       // console.log('Carreras recibidas:', response.data);
       setCarreras(response.data);
       setError(null);
@@ -52,7 +57,13 @@ export function useHorarios(carreraCodigo) {
   
       // ✅ SIEMPRE hacer petición al servidor
       console.log('Fetching desde API');
-      const response = await axios.get(`${API_BASE}/horarios/${carreraCodigo}`);
+      const response = await axios.get(`${API_BASE}/horarios/${carreraCodigo}`, {
+        headers: {
+          'Cache-Control': 'no-cache',
+          'Pragma': 'no-cache'
+        }
+      });
+      
       const data = response.data;
       
       setMateriasData(data.materias);
