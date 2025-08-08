@@ -3,7 +3,7 @@
     "20121": {
       "codigo": "20121",
       "nombre": "Arquitectura",
-      "fecha_consulta": "2025-07-30T07:36:27.959Z",
+      "fecha_consulta": "2025-08-08T15:32:04.378Z",
       "materias": {
         "1100": {
           "nombre": "ARTE Y ARQUITECTURA",
@@ -642,6 +642,25 @@
               "salon": "A-414,A-414"
             },
             {
+              "grupo": "1154",
+              "profesor": "Profesor No Asignado",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "15:00",
+                  "fin": "17:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "15:00",
+                  "fin": "17:00"
+                }
+              ],
+              "salon": "A-413"
+            },
+            {
               "grupo": "1161",
               "profesor": "RODRIGUEZ WRRESTI RODOLFO",
               "horarios": [
@@ -709,6 +728,25 @@
                 }
               ],
               "salon": "A-414,A-414"
+            },
+            {
+              "grupo": "1164",
+              "profesor": "Profesor No Asignado",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "15:00",
+                  "fin": "17:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "15:00",
+                  "fin": "17:00"
+                }
+              ],
+              "salon": "A-413"
             }
           ]
         },
@@ -1034,6 +1072,25 @@
               "salon": "A-413,A-413"
             },
             {
+              "grupo": "1105",
+              "profesor": "Profesor No Asignado",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "13:00",
+                  "fin": "16:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "13:00",
+                  "fin": "16:00"
+                }
+              ],
+              "salon": "A-415"
+            },
+            {
               "grupo": "1111",
               "profesor": "MORENO RIVERA MARIA GABRIELA",
               "horarios": [
@@ -1126,6 +1183,25 @@
                 }
               ],
               "salon": "A-413,A-413"
+            },
+            {
+              "grupo": "1115",
+              "profesor": "Profesor No Asignado",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "13:00",
+                  "fin": "16:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "13:00",
+                  "fin": "16:00"
+                }
+              ],
+              "salon": "A-415"
             },
             {
               "grupo": "1151",
@@ -1360,6 +1436,31 @@
               "salon": "A-413,A-413"
             },
             {
+              "grupo": "1105",
+              "profesor": "Profesor No Asignado",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "13:00",
+                  "fin": "15:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "13:00",
+                  "fin": "15:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "13:00",
+                  "fin": "15:00"
+                }
+              ],
+              "salon": "A-301"
+            },
+            {
               "grupo": "1111",
               "profesor": "DIAZ NAJAR MARIA LA O. PALOMA",
               "horarios": [
@@ -1446,6 +1547,31 @@
                 }
               ],
               "salon": "A-413,A-413"
+            },
+            {
+              "grupo": "1115",
+              "profesor": "Profesor No Asignado",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "13:00",
+                  "fin": "15:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "13:00",
+                  "fin": "15:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "13:00",
+                  "fin": "15:00"
+                }
+              ],
+              "salon": "A-301"
             },
             {
               "grupo": "1121",
@@ -7413,7 +7539,7 @@
     "20226": {
       "codigo": "20226",
       "nombre": "Diseño Gráfico",
-      "fecha_consulta": "2025-07-30T07:36:52.753Z",
+      "fecha_consulta": "2025-08-08T15:32:29.232Z",
       "materias": {
         "2000": {
           "nombre": "HABILIDADES INTERPERSONALES",
@@ -11865,7 +11991,7 @@
     "20321": {
       "codigo": "20321",
       "nombre": "Actuaría",
-      "fecha_consulta": "2025-07-30T07:36:21.732Z",
+      "fecha_consulta": "2025-08-08T15:31:58.140Z",
       "materias": {
         "2031": {
           "nombre": "ANALISIS MULTIVARIADO",
@@ -14671,7 +14797,7 @@
                   "dia": "VI",
                   "dia_nombre": "Viernes",
                   "inicio": "09:00",
-                  "fin": "13:00"
+                  "fin": "11:00"
                 },
                 {
                   "dia": "LU",
@@ -15485,7 +15611,7 @@
     "20421": {
       "codigo": "20421",
       "nombre": "Relaciones Internacionales",
-      "fecha_consulta": "2025-07-30T07:37:53.937Z",
+      "fecha_consulta": "2025-08-08T15:33:30.590Z",
       "materias": {
         "1089": {
           "nombre": "ACCION EXTERIOR DE GOBIERNOS LOC",
@@ -19637,50 +19763,6 @@
             }
           ]
         },
-        "2201": {
-          "nombre": "DERECHO CONSTITUCIONAL",
-          "semestre": "02",
-          "grupos": [
-            {
-              "grupo": "Q101",
-              "profesor": "MENA PANTOJA MARIA CECILIA",
-              "horarios": [
-                {
-                  "dia": "MA",
-                  "dia_nombre": "Martes",
-                  "inicio": "11:00",
-                  "fin": "13:00"
-                },
-                {
-                  "dia": "JU",
-                  "dia_nombre": "Jueves",
-                  "inicio": "11:00",
-                  "fin": "13:00"
-                }
-              ],
-              "salon": "A-621"
-            },
-            {
-              "grupo": "Q152",
-              "profesor": "CARBALLO HERNANDEZ MARIA TERESA",
-              "horarios": [
-                {
-                  "dia": "MA",
-                  "dia_nombre": "Martes",
-                  "inicio": "15:00",
-                  "fin": "17:00"
-                },
-                {
-                  "dia": "JU",
-                  "dia_nombre": "Jueves",
-                  "inicio": "15:00",
-                  "fin": "17:00"
-                }
-              ],
-              "salon": "A-622"
-            }
-          ]
-        },
         "2303": {
           "nombre": "MACROECONOMIA",
           "semestre": "03",
@@ -20352,7 +20434,7 @@
     "20422": {
       "codigo": "20422",
       "nombre": "Ciencias Políticas y Admon. Pública",
-      "fecha_consulta": "2025-07-30T07:36:34.101Z",
+      "fecha_consulta": "2025-08-08T15:32:10.540Z",
       "materias": {
         "1059": {
           "nombre": "ADMINISTRACION AMBIENTAL MUNICIP",
@@ -23813,7 +23895,7 @@
     "20423": {
       "codigo": "20423",
       "nombre": "Sociología",
-      "fecha_consulta": "2025-07-30T07:38:00.083Z",
+      "fecha_consulta": "2025-08-08T15:33:36.747Z",
       "materias": {
         "1117": {
           "nombre": "ECONOMIA I",
@@ -28213,13 +28295,13 @@
     "20424": {
       "codigo": "20424",
       "nombre": "Periodismo y Comunicación Colectiva",
-      "fecha_consulta": "2025-07-30T07:37:47.782Z",
+      "fecha_consulta": "2025-08-08T15:33:24.389Z",
       "materias": {}
     },
     "20425": {
       "codigo": "20425",
       "nombre": "Comunicación",
-      "fecha_consulta": "2025-07-30T07:36:40.352Z",
+      "fecha_consulta": "2025-08-08T15:32:16.769Z",
       "materias": {
         "1111": {
           "nombre": "BASES TEO. DE LA COMUNICACIÓN",
@@ -34460,8 +34542,356 @@
     "20721": {
       "codigo": "20721",
       "nombre": "Derecho",
-      "fecha_consulta": "2025-07-30T07:36:46.567Z",
+      "fecha_consulta": "2025-08-08T15:32:23.053Z",
       "materias": {
+        "1102": {
+          "nombre": "HIST.D.LAS IDEAS POL.Y ECO.",
+          "semestre": "01",
+          "grupos": [
+            {
+              "grupo": "Q101",
+              "profesor": "GODOY COSS JORGE",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "1004"
+            },
+            {
+              "grupo": "Q102",
+              "profesor": "RIVADENEYRA FARRERA EDUARDO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1012"
+            },
+            {
+              "grupo": "Q103",
+              "profesor": "RIVADENEYRA FARRERA EDUARDO",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1013"
+            },
+            {
+              "grupo": "Q104",
+              "profesor": "RIVADENEYRA FARRERA EDUARDO",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1014"
+            },
+            {
+              "grupo": "Q105",
+              "profesor": "Profesor No Asignado",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1015"
+            },
+            {
+              "grupo": "Q106",
+              "profesor": "ROSALES BETANCOURT MARIO ERNESTO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1006"
+            },
+            {
+              "grupo": "Q107",
+              "profesor": "AGUILAR ROSALES EDMUNDO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "A-1017"
+            },
+            {
+              "grupo": "Q108",
+              "profesor": "GODOY COSS JORGE",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1018"
+            },
+            {
+              "grupo": "Q109",
+              "profesor": "CASTAÑEDA RIOU MANUEL",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1019"
+            },
+            {
+              "grupo": "Q151",
+              "profesor": "RIVERA AREVALO MARIA GUADALUPE",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1011"
+            },
+            {
+              "grupo": "Q152",
+              "profesor": "AVILA PEREZ CLAUDIA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1012"
+            },
+            {
+              "grupo": "Q153",
+              "profesor": "VELAZQUEZ AMADOR CARLOS CUAUHTEMOC",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1013"
+            },
+            {
+              "grupo": "Q154",
+              "profesor": "DANIS VEGA ANGEL MARTIN",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1014"
+            },
+            {
+              "grupo": "Q155",
+              "profesor": "CARDENAS CUEVAS BERNARDO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1015"
+            },
+            {
+              "grupo": "Q156",
+              "profesor": "RIVERA AREVALO MARIA GUADALUPE",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1016"
+            },
+            {
+              "grupo": "Q157",
+              "profesor": "DANIS VEGA ANGEL MARTIN",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1017"
+            },
+            {
+              "grupo": "Q158",
+              "profesor": "DE LA FUENTE RETA SERGIO ERICK",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1018"
+            },
+            {
+              "grupo": "Q159",
+              "profesor": "AVILA PEREZ CLAUDIA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1019"
+            }
+          ]
+        },
         "1105": {
           "nombre": "DERECHO ROMANO I",
           "semestre": "01",
@@ -34503,6 +34933,2790 @@
                 }
               ],
               "salon": "ADI"
+            }
+          ]
+        },
+        "1106": {
+          "nombre": "INTRODUCC.AL ESTUDIO DEL DERECHO",
+          "semestre": "01",
+          "grupos": [
+            {
+              "grupo": "Q101",
+              "profesor": "RIVAS ROMERO ERNESTO ANIBAL",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "1016"
+            },
+            {
+              "grupo": "Q102",
+              "profesor": "VALENZUELA OSUNA ERNESTO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1012"
+            },
+            {
+              "grupo": "Q103",
+              "profesor": "SANTILLAN MONTOYA SONIA MARICELA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1013"
+            },
+            {
+              "grupo": "Q104",
+              "profesor": "CHAVEZ FONSECA LIDIA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1011"
+            },
+            {
+              "grupo": "Q105",
+              "profesor": "ALVAREZ GONZALEZ JOSE MANUEL",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "A-1015"
+            },
+            {
+              "grupo": "Q106",
+              "profesor": "CHAVEZ FONSECA LIDIA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "A-1018"
+            },
+            {
+              "grupo": "Q107",
+              "profesor": "AGUAS VILLALPANDO MARIA DEL ROSARIO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1017"
+            },
+            {
+              "grupo": "Q108",
+              "profesor": "VALENZUELA OSUNA ERNESTO",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1018"
+            },
+            {
+              "grupo": "Q109",
+              "profesor": "TORRES TREJO GERARDO",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1019"
+            },
+            {
+              "grupo": "Q151",
+              "profesor": "GARCIA MARTINEZ MARTIN",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1011"
+            },
+            {
+              "grupo": "Q152",
+              "profesor": "MARTINEZ ROMO GUILLERMO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1012"
+            },
+            {
+              "grupo": "Q153",
+              "profesor": "ROMERO LOYA MARIA ELENA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1013"
+            },
+            {
+              "grupo": "Q154",
+              "profesor": "PERERA RUIZ ELIZABETH",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1014"
+            },
+            {
+              "grupo": "Q155",
+              "profesor": "MEDINA LERMA SANDRA IVONNE",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1015"
+            },
+            {
+              "grupo": "Q156",
+              "profesor": "ARTEAGA MACIAS DIANA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1016"
+            },
+            {
+              "grupo": "Q157",
+              "profesor": "SARO AVALOS MARIA DEL ROCIO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1017"
+            },
+            {
+              "grupo": "Q158",
+              "profesor": "GARCIA MARTINEZ MARTIN",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1018"
+            },
+            {
+              "grupo": "Q159",
+              "profesor": "MARTINEZ ROMO GUILLERMO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1019"
+            }
+          ]
+        },
+        "1107": {
+          "nombre": "SOCIOLOGIA Y DERECHO",
+          "semestre": "01",
+          "grupos": [
+            {
+              "grupo": "Q101",
+              "profesor": "GONZALEZ AGUILAR JOSE ALBERTO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1007"
+            },
+            {
+              "grupo": "Q102",
+              "profesor": "FERIA PULIDO FERMIN",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1012"
+            },
+            {
+              "grupo": "Q103",
+              "profesor": "AGUILAR ROSALES EDMUNDO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1013"
+            },
+            {
+              "grupo": "Q104",
+              "profesor": "ALVARADO MARTINEZ DANIEL OSWALDO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1014"
+            },
+            {
+              "grupo": "Q105",
+              "profesor": "ALVAREZ LEON JOSE ANTONIO",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1015"
+            },
+            {
+              "grupo": "Q106",
+              "profesor": "CRISTOBAL GUTIERREZ YESICA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1011"
+            },
+            {
+              "grupo": "Q107",
+              "profesor": "FERIA PULIDO FERMIN",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1017"
+            },
+            {
+              "grupo": "Q108",
+              "profesor": "AGUILAR ROSALES EDMUNDO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1018"
+            },
+            {
+              "grupo": "Q109",
+              "profesor": "CALATAYUD YEPES JUAN CARLOS",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "A-1019"
+            },
+            {
+              "grupo": "Q151",
+              "profesor": "PIZARRO RESANO TAOLENY ALEXANDRA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1011"
+            },
+            {
+              "grupo": "Q152",
+              "profesor": "SARO AVALOS MARIA DEL ROCIO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1012"
+            },
+            {
+              "grupo": "Q153",
+              "profesor": "BARRON GUTIERREZ ESTEBAN",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1013"
+            },
+            {
+              "grupo": "Q154",
+              "profesor": "BACA CONTRERAS ARTURO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1014"
+            },
+            {
+              "grupo": "Q155",
+              "profesor": "DANIS VEGA ANGEL MARTIN",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1015"
+            },
+            {
+              "grupo": "Q156",
+              "profesor": "TERAN ROJAS MONSERRAT JAZMIN",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1016"
+            },
+            {
+              "grupo": "Q157",
+              "profesor": "LOZANO SANABRIA PATRICIA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1017"
+            },
+            {
+              "grupo": "Q158",
+              "profesor": "RIVERA CRESPO JUAN JOSE",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1018"
+            },
+            {
+              "grupo": "Q159",
+              "profesor": "ALVAREZ LEON JOSE ANTONIO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1019"
+            }
+          ]
+        },
+        "1108": {
+          "nombre": "TIC APLICABLES AL DERECHO",
+          "semestre": "01",
+          "grupos": [
+            {
+              "grupo": "Q101",
+              "profesor": "GODOY COSS JORGE",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "1028"
+            },
+            {
+              "grupo": "Q102",
+              "profesor": "LOZADA HERNANDEZ NANCY LAURA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1012"
+            },
+            {
+              "grupo": "Q103",
+              "profesor": "RANGEL CORTES VICTOR MANUEL",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "A-1013"
+            },
+            {
+              "grupo": "Q104",
+              "profesor": "RANGEL CORTES VICTOR MANUEL",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1014"
+            },
+            {
+              "grupo": "Q105",
+              "profesor": "CASTAÑEDA HERNANDEZ SILVIA",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "A-1015"
+            },
+            {
+              "grupo": "Q106",
+              "profesor": "CORTES ALGARA MARIA TERESA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "A-1016"
+            },
+            {
+              "grupo": "Q107",
+              "profesor": "GODOY COSS JORGE",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1006"
+            },
+            {
+              "grupo": "Q108",
+              "profesor": "CERVANTES RAZO STEPHANIE",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "A-1017"
+            },
+            {
+              "grupo": "Q109",
+              "profesor": "MORALES CORTEZ LUIS ANGEL",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1019"
+            },
+            {
+              "grupo": "Q151",
+              "profesor": "LEMUS LARA ALEJANDRO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1016"
+            },
+            {
+              "grupo": "Q152",
+              "profesor": "CARBAJAL SANCHEZ CONSUELO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1012"
+            },
+            {
+              "grupo": "Q153",
+              "profesor": "LEMUS LARA ALEJANDRO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1013"
+            },
+            {
+              "grupo": "Q154",
+              "profesor": "CHAVARRIA CASTORENA ISABEL ANDREA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1014"
+            },
+            {
+              "grupo": "Q155",
+              "profesor": "CASTILLO DE SANTIAGO MARIA DE LOS ANGELES",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1015"
+            },
+            {
+              "grupo": "Q156",
+              "profesor": "CERVANTES RAZO STEPHANIE",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1221"
+            },
+            {
+              "grupo": "Q157",
+              "profesor": "LEMUS LARA ALEJANDRO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1021"
+            },
+            {
+              "grupo": "Q158",
+              "profesor": "MORALES CORTEZ LUIS ANGEL",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1018"
+            },
+            {
+              "grupo": "Q159",
+              "profesor": "ENRIQUEZ LIMON LILIANA LORENA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1019"
+            }
+          ]
+        },
+        "1109": {
+          "nombre": "DERECHO DE LAS TECNOLOGIAS",
+          "semestre": "01",
+          "grupos": [
+            {
+              "grupo": "1101",
+              "profesor": "GODOY COSS JORGE",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "1028"
+            },
+            {
+              "grupo": "1102",
+              "profesor": "LOZADA HERNANDEZ NANCY LAURA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1012"
+            },
+            {
+              "grupo": "1103",
+              "profesor": "RANGEL CORTES VICTOR MANUEL",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "A-1013"
+            },
+            {
+              "grupo": "1104",
+              "profesor": "RANGEL CORTES VICTOR MANUEL",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1014"
+            },
+            {
+              "grupo": "1105",
+              "profesor": "CASTAÑEDA HERNANDEZ SILVIA",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "A-1015"
+            },
+            {
+              "grupo": "1106",
+              "profesor": "CORTES ALGARA MARIA TERESA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "A-1016"
+            },
+            {
+              "grupo": "1107",
+              "profesor": "GODOY COSS JORGE",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1006"
+            },
+            {
+              "grupo": "1108",
+              "profesor": "CERVANTES RAZO STEPHANIE",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "A-1017"
+            },
+            {
+              "grupo": "1109",
+              "profesor": "MORALES CORTEZ LUIS ANGEL",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1019"
+            },
+            {
+              "grupo": "1151",
+              "profesor": "LEMUS LARA ALEJANDRO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1016"
+            },
+            {
+              "grupo": "1152",
+              "profesor": "CARBAJAL SANCHEZ CONSUELO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1012"
+            },
+            {
+              "grupo": "1153",
+              "profesor": "LEMUS LARA ALEJANDRO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1013"
+            },
+            {
+              "grupo": "1154",
+              "profesor": "CHAVARRIA CASTORENA ISABEL ANDREA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1014"
+            },
+            {
+              "grupo": "1155",
+              "profesor": "CASTILLO DE SANTIAGO MARIA DE LOS ANGELES",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1015"
+            },
+            {
+              "grupo": "1156",
+              "profesor": "CERVANTES RAZO STEPHANIE",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1221"
+            },
+            {
+              "grupo": "1157",
+              "profesor": "LEMUS LARA ALEJANDRO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1021"
+            },
+            {
+              "grupo": "1158",
+              "profesor": "MORALES CORTEZ LUIS ANGEL",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1018"
+            },
+            {
+              "grupo": "1159",
+              "profesor": "ENRIQUEZ LIMON LILIANA LORENA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1019"
+            }
+          ]
+        },
+        "1110": {
+          "nombre": "HISTORIA DE LAS IDEAS POLITIC-EC",
+          "semestre": "01",
+          "grupos": [
+            {
+              "grupo": "1101",
+              "profesor": "GODOY COSS JORGE",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "1004"
+            },
+            {
+              "grupo": "1102",
+              "profesor": "RIVADENEYRA FARRERA EDUARDO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1012"
+            },
+            {
+              "grupo": "1103",
+              "profesor": "RIVADENEYRA FARRERA EDUARDO",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1013"
+            },
+            {
+              "grupo": "1104",
+              "profesor": "RIVADENEYRA FARRERA EDUARDO",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1014"
+            },
+            {
+              "grupo": "1105",
+              "profesor": "Profesor No Asignado",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1015"
+            },
+            {
+              "grupo": "1106",
+              "profesor": "ROSALES BETANCOURT MARIO ERNESTO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1006"
+            },
+            {
+              "grupo": "1107",
+              "profesor": "AGUILAR ROSALES EDMUNDO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "A-1017"
+            },
+            {
+              "grupo": "1108",
+              "profesor": "GODOY COSS JORGE",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1018"
+            },
+            {
+              "grupo": "1109",
+              "profesor": "CASTAÑEDA RIOU MANUEL",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1019"
+            },
+            {
+              "grupo": "1151",
+              "profesor": "RIVERA AREVALO MARIA GUADALUPE",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1011"
+            },
+            {
+              "grupo": "1152",
+              "profesor": "AVILA PEREZ CLAUDIA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1012"
+            },
+            {
+              "grupo": "1153",
+              "profesor": "VELAZQUEZ AMADOR CARLOS CUAUHTEMOC",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1013"
+            },
+            {
+              "grupo": "1154",
+              "profesor": "DANIS VEGA ANGEL MARTIN",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1014"
+            },
+            {
+              "grupo": "1155",
+              "profesor": "CARDENAS CUEVAS BERNARDO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1015"
+            },
+            {
+              "grupo": "1156",
+              "profesor": "RIVERA AREVALO MARIA GUADALUPE",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1016"
+            },
+            {
+              "grupo": "1157",
+              "profesor": "DANIS VEGA ANGEL MARTIN",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1017"
+            },
+            {
+              "grupo": "1158",
+              "profesor": "DE LA FUENTE RETA SERGIO ERICK",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1018"
+            },
+            {
+              "grupo": "1159",
+              "profesor": "AVILA PEREZ CLAUDIA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1019"
+            }
+          ]
+        },
+        "1111": {
+          "nombre": "INTRODUCCION AL ESTUDIO DEL DERE",
+          "semestre": "01",
+          "grupos": [
+            {
+              "grupo": "1101",
+              "profesor": "RIVAS ROMERO ERNESTO ANIBAL",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "1016"
+            },
+            {
+              "grupo": "1102",
+              "profesor": "VALENZUELA OSUNA ERNESTO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1012"
+            },
+            {
+              "grupo": "1103",
+              "profesor": "SANTILLAN MONTOYA SONIA MARICELA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1013"
+            },
+            {
+              "grupo": "1104",
+              "profesor": "CHAVEZ FONSECA LIDIA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1011"
+            },
+            {
+              "grupo": "1105",
+              "profesor": "ALVAREZ GONZALEZ JOSE MANUEL",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "A-1015"
+            },
+            {
+              "grupo": "1106",
+              "profesor": "CHAVEZ FONSECA LIDIA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "A-1018"
+            },
+            {
+              "grupo": "1107",
+              "profesor": "AGUAS VILLALPANDO MARIA DEL ROSARIO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1017"
+            },
+            {
+              "grupo": "1108",
+              "profesor": "VALENZUELA OSUNA ERNESTO",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1018"
+            },
+            {
+              "grupo": "1109",
+              "profesor": "TORRES TREJO GERARDO",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1019"
+            },
+            {
+              "grupo": "1151",
+              "profesor": "GARCIA MARTINEZ MARTIN",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1011"
+            },
+            {
+              "grupo": "1152",
+              "profesor": "MARTINEZ ROMO GUILLERMO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1012"
+            },
+            {
+              "grupo": "1153",
+              "profesor": "ROMERO LOYA MARIA ELENA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1013"
+            },
+            {
+              "grupo": "1154",
+              "profesor": "PERERA RUIZ ELIZABETH",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1014"
+            },
+            {
+              "grupo": "1155",
+              "profesor": "MEDINA LERMA SANDRA IVONNE",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1015"
+            },
+            {
+              "grupo": "1156",
+              "profesor": "ARTEAGA MACIAS DIANA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1016"
+            },
+            {
+              "grupo": "1157",
+              "profesor": "SARO AVALOS MARIA DEL ROCIO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1017"
+            },
+            {
+              "grupo": "1158",
+              "profesor": "GARCIA MARTINEZ MARTIN",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1018"
+            },
+            {
+              "grupo": "1159",
+              "profesor": "MARTINEZ ROMO GUILLERMO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1019"
+            }
+          ]
+        },
+        "1112": {
+          "nombre": "PERSPECTIVA DE GENERO",
+          "semestre": "01",
+          "grupos": [
+            {
+              "grupo": "1101",
+              "profesor": "VALENZUELA RUBIO MARIA DEL CARMEN",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "A-1028-1004"
+            },
+            {
+              "grupo": "1102",
+              "profesor": "PERERA RUIZ ELIZABETH",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "A-1014"
+            },
+            {
+              "grupo": "1103",
+              "profesor": "CORTES SERRATO ERIKA DAYANET",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "A-1013"
+            },
+            {
+              "grupo": "1104",
+              "profesor": "CERVANTES RAZO STEPHANIE",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1014"
+            },
+            {
+              "grupo": "1105",
+              "profesor": "GOVEA MARTINEZ JUANA IGNACIA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1015"
+            },
+            {
+              "grupo": "1106",
+              "profesor": "ROMERO RAMIREZ ISRAEL",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1016"
+            },
+            {
+              "grupo": "1107",
+              "profesor": "BALDERAS ARELLANO SHARON JOSELYN",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1017"
+            },
+            {
+              "grupo": "1108",
+              "profesor": "RODRIGUEZ SEGURA KARLA ANGELIKA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1018"
+            },
+            {
+              "grupo": "1109",
+              "profesor": "ESPINOSA BENITEZ ALONSO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1019"
+            },
+            {
+              "grupo": "1151",
+              "profesor": "CASTREJON DIAZ ANA BEATRIZ",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1011"
+            },
+            {
+              "grupo": "1152",
+              "profesor": "OSORIO VALLE BLANCA OLGA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1012"
+            },
+            {
+              "grupo": "1153",
+              "profesor": "CASTILLO DE SANTIAGO MARIA DE LOS ANGELES",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1013"
+            },
+            {
+              "grupo": "1154",
+              "profesor": "CASTILLO DE SANTIAGO MARIA DE LOS ANGELES",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1014"
+            },
+            {
+              "grupo": "1155",
+              "profesor": "PERERA RUIZ ELIZABETH",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1015"
+            },
+            {
+              "grupo": "1156",
+              "profesor": "MARTINEZ ROMO GUILLERMO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1016"
+            },
+            {
+              "grupo": "1157",
+              "profesor": "CERVANTES RAZO STEPHANIE",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1017"
+            },
+            {
+              "grupo": "1158",
+              "profesor": "MARTINEZ ROMO GUILLERMO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1018"
+            },
+            {
+              "grupo": "1159",
+              "profesor": "HUITRON NIETO GUILLERMO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1019"
+            }
+          ]
+        },
+        "1113": {
+          "nombre": "SOCIOLOGIA Y DERECHO",
+          "semestre": "01",
+          "grupos": [
+            {
+              "grupo": "1101",
+              "profesor": "GONZALEZ AGUILAR JOSE ALBERTO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1007"
+            },
+            {
+              "grupo": "1102",
+              "profesor": "FERIA PULIDO FERMIN",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1012"
+            },
+            {
+              "grupo": "1103",
+              "profesor": "AGUILAR ROSALES EDMUNDO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1013"
+            },
+            {
+              "grupo": "1104",
+              "profesor": "ALVARADO MARTINEZ DANIEL OSWALDO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1014"
+            },
+            {
+              "grupo": "1105",
+              "profesor": "ALVAREZ LEON JOSE ANTONIO",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1015"
+            },
+            {
+              "grupo": "1106",
+              "profesor": "CRISTOBAL GUTIERREZ YESICA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1011"
+            },
+            {
+              "grupo": "1107",
+              "profesor": "FERIA PULIDO FERMIN",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-1017"
+            },
+            {
+              "grupo": "1108",
+              "profesor": "AGUILAR ROSALES EDMUNDO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1018"
+            },
+            {
+              "grupo": "1109",
+              "profesor": "CALATAYUD YEPES JUAN CARLOS",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "11:00",
+                  "fin": "13:00"
+                }
+              ],
+              "salon": "A-1019"
+            },
+            {
+              "grupo": "1151",
+              "profesor": "PIZARRO RESANO TAOLENY ALEXANDRA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1011"
+            },
+            {
+              "grupo": "1152",
+              "profesor": "SARO AVALOS MARIA DEL ROCIO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1012"
+            },
+            {
+              "grupo": "1153",
+              "profesor": "BARRON GUTIERREZ ESTEBAN",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1013"
+            },
+            {
+              "grupo": "1154",
+              "profesor": "BACA CONTRERAS ARTURO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1014"
+            },
+            {
+              "grupo": "1155",
+              "profesor": "DANIS VEGA ANGEL MARTIN",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1015"
+            },
+            {
+              "grupo": "1156",
+              "profesor": "TERAN ROJAS MONSERRAT JAZMIN",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1016"
+            },
+            {
+              "grupo": "1157",
+              "profesor": "LOZANO SANABRIA PATRICIA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1017"
+            },
+            {
+              "grupo": "1158",
+              "profesor": "RIVERA CRESPO JUAN JOSE",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1018"
+            },
+            {
+              "grupo": "1159",
+              "profesor": "ALVAREZ LEON JOSE ANTONIO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "A-1019"
             }
           ]
         },
@@ -34856,7 +38070,7 @@
             },
             {
               "grupo": "1354",
-              "profesor": "MELLADO JIMENEZ JAVIER",
+              "profesor": "FERNANDEZ BUCIO IMELDA",
               "horarios": [
                 {
                   "dia": "LU",
@@ -35764,7 +38978,7 @@
                   "fin": "20:00"
                 }
               ],
-              "salon": "A-1025,A-10"
+              "salon": "A-1011-1025"
             },
             {
               "grupo": "1356",
@@ -36271,6 +39485,31 @@
                 }
               ],
               "salon": "A-1029"
+            },
+            {
+              "grupo": "1359",
+              "profesor": "Profesor No Asignado",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "A-1004"
             }
           ]
         },
@@ -36702,6 +39941,31 @@
                 }
               ],
               "salon": "A1208,A1208"
+            },
+            {
+              "grupo": "1559",
+              "profesor": "Profesor No Asignado",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "A-1019"
             }
           ]
         },
@@ -37107,7 +40371,7 @@
                   "fin": "22:00"
                 }
               ],
-              "salon": "A-1125,A-11"
+              "salon": "A1126-1125"
             },
             {
               "grupo": "1558",
@@ -37873,7 +41137,7 @@
                   "fin": "20:00"
                 }
               ],
-              "salon": "A-1126,A-11"
+              "salon": "A-1125-1126"
             },
             {
               "grupo": "1558",
@@ -38511,7 +41775,7 @@
             },
             {
               "grupo": "1756",
-              "profesor": "SILVA ARELLANO KAREN PAULINA",
+              "profesor": "TIENDA LEZAMA MARIA MAGDALENA",
               "horarios": [
                 {
                   "dia": "MA",
@@ -39540,7 +42804,7 @@
             },
             {
               "grupo": "1754",
-              "profesor": "LUNA PEREZ ANTONIO AGUSTIN",
+              "profesor": "Profesor No Asignado",
               "horarios": [
                 {
                   "dia": "MA",
@@ -39561,7 +42825,7 @@
                   "fin": "20:00"
                 }
               ],
-              "salon": "A-1007,A-12"
+              "salon": "A-1211-1007"
             },
             {
               "grupo": "1755",
@@ -40351,6 +43615,31 @@
               "salon": "A-1026"
             },
             {
+              "grupo": "1310",
+              "profesor": "CHAVEZ FONSECA LIDIA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "09:00",
+                  "fin": "11:00"
+                }
+              ],
+              "salon": "A-1211"
+            },
+            {
               "grupo": "1351",
               "profesor": "PERALTA SANCHEZ JORGE",
               "horarios": [
@@ -40577,7 +43866,7 @@
             },
             {
               "grupo": "1902",
-              "profesor": "HERNANDEZ MEDINA JESUS",
+              "profesor": "GARCIA SILVA GERARDO",
               "horarios": [
                 {
                   "dia": "MA",
@@ -40672,7 +43961,7 @@
             },
             {
               "grupo": "1951",
-              "profesor": "TINAJERO BARRERA ROBERTO",
+              "profesor": "Profesor No Asignado",
               "horarios": [
                 {
                   "dia": "LU",
@@ -40748,7 +44037,7 @@
             },
             {
               "grupo": "1955",
-              "profesor": "ZAPATA CUEVAS RAUL",
+              "profesor": "Profesor No Asignado",
               "horarios": [
                 {
                   "dia": "LU",
@@ -41153,7 +44442,7 @@
             },
             {
               "grupo": "1959",
-              "profesor": "TIENDA LEZAMA MARIA MAGDALENA",
+              "profesor": "Profesor No Asignado",
               "horarios": [
                 {
                   "dia": "MA",
@@ -41345,7 +44634,7 @@
                   "fin": "18:00"
                 }
               ],
-              "salon": "A-1005,A-10"
+              "salon": "A-1008-1005"
             },
             {
               "grupo": "1952",
@@ -41402,7 +44691,7 @@
                   "fin": "20:00"
                 }
               ],
-              "salon": "A-1215,A-12"
+              "salon": "A-1211-1215"
             },
             {
               "grupo": "1955",
@@ -42510,7 +45799,7 @@
           "grupos": [
             {
               "grupo": "1957",
-              "profesor": "ELIZONDO CEDANO XOCHITL",
+              "profesor": "PILAR BAHENA RAUL JAIME",
               "horarios": [
                 {
                   "dia": "LU",
@@ -42559,7 +45848,7 @@
     "20821": {
       "codigo": "20821",
       "nombre": "Economía",
-      "fecha_consulta": "2025-07-30T07:36:58.913Z",
+      "fecha_consulta": "2025-08-08T15:32:35.401Z",
       "materias": {
         "2113": {
           "nombre": "CONTABILIDAD GENERAL Y DE COSTOS",
@@ -43831,7 +47120,7 @@
             },
             {
               "grupo": "1302",
-              "profesor": "JUAREZ GARCIA JULIA",
+              "profesor": "Profesor No Asignado",
               "horarios": [
                 {
                   "dia": "LU",
@@ -44418,7 +47707,7 @@
             },
             {
               "grupo": "1552",
-              "profesor": "GOMEZ OCHOA JOSE GABRIEL",
+              "profesor": "Profesor No Asignado",
               "horarios": [
                 {
                   "dia": "LU",
@@ -45971,7 +49260,7 @@
     "21011": {
       "codigo": "21011",
       "nombre": "Filosofía",
-      "fecha_consulta": "2025-07-30T07:37:11.126Z",
+      "fecha_consulta": "2025-08-08T15:32:47.638Z",
       "materias": {
         "1170": {
           "nombre": "ANTROPOLOGIA FILOSOFICA I",
@@ -48013,7 +51302,7 @@
     "21013": {
       "codigo": "21013",
       "nombre": "Lengua y Literatura Hispánicas",
-      "fecha_consulta": "2025-07-30T07:37:29.498Z",
+      "fecha_consulta": "2025-08-08T15:33:06.006Z",
       "materias": {
         "1155": {
           "nombre": "ETIMOLOGIAS-GRECOLATINAS",
@@ -49631,7 +52920,7 @@
     "21021": {
       "codigo": "21021",
       "nombre": "Historia",
-      "fecha_consulta": "2025-07-30T07:37:17.238Z",
+      "fecha_consulta": "2025-08-08T15:32:53.755Z",
       "materias": {
         "1161": {
           "nombre": "GRECIA",
@@ -52159,14 +55448,14 @@
     "21025": {
       "codigo": "21025",
       "nombre": "Pedagogía",
-      "fecha_consulta": "2025-07-30T07:37:41.731Z",
+      "fecha_consulta": "2025-08-08T15:33:18.308Z",
       "materias": {
         "1129": {
           "nombre": "DESARROLLO HUMANO Y PROFESIONAL",
           "semestre": "01",
           "grupos": [
             {
-              "grupo": "1101",
+              "grupo": "Q101",
               "profesor": "GARCIA ABAN MARIA GUADALUPE",
               "horarios": [
                 {
@@ -52176,10 +55465,10 @@
                   "fin": "14:00"
                 }
               ],
-              "salon": "A-911"
+              "salon": "911"
             },
             {
-              "grupo": "1102",
+              "grupo": "Q102",
               "profesor": "CHAVEZ TOVAR LAURA ANGELICA",
               "horarios": [
                 {
@@ -52189,10 +55478,10 @@
                   "fin": "12:00"
                 }
               ],
-              "salon": "A-912"
+              "salon": "912"
             },
             {
-              "grupo": "1103",
+              "grupo": "Q103",
               "profesor": "GONZALEZ JARAMILLO MA. DE LUZ GRACIELA",
               "horarios": [
                 {
@@ -52202,10 +55491,10 @@
                   "fin": "12:00"
                 }
               ],
-              "salon": "A-918"
+              "salon": "918"
             },
             {
-              "grupo": "1104",
+              "grupo": "Q104",
               "profesor": "FRONTANA HORTA MONTSERRAT MERCEDES",
               "horarios": [
                 {
@@ -52215,10 +55504,10 @@
                   "fin": "12:00"
                 }
               ],
-              "salon": "A-914"
+              "salon": "914"
             },
             {
-              "grupo": "1151",
+              "grupo": "Q151",
               "profesor": "FRONTANA HORTA MONTSERRAT MERCEDES",
               "horarios": [
                 {
@@ -52228,10 +55517,10 @@
                   "fin": "18:00"
                 }
               ],
-              "salon": "A-911"
+              "salon": "911"
             },
             {
-              "grupo": "1152",
+              "grupo": "Q152",
               "profesor": "GARCES ZEPEDA LORENA BEATRIZ",
               "horarios": [
                 {
@@ -52241,7 +55530,7 @@
                   "fin": "20:00"
                 }
               ],
-              "salon": "A-912"
+              "salon": "912"
             }
           ]
         },
@@ -52250,7 +55539,7 @@
           "semestre": "01",
           "grupos": [
             {
-              "grupo": "1101",
+              "grupo": "Q101",
               "profesor": "GONZALEZ JARAMILLO MA. DE LUZ GRACIELA",
               "horarios": [
                 {
@@ -52266,10 +55555,10 @@
                   "fin": "12:00"
                 }
               ],
-              "salon": "A-911,A-911"
+              "salon": "911"
             },
             {
-              "grupo": "1102",
+              "grupo": "Q102",
               "profesor": "AVILA GUZMAN FRANCISCO JAVIER",
               "horarios": [
                 {
@@ -52285,10 +55574,10 @@
                   "fin": "14:00"
                 }
               ],
-              "salon": "A-912,A-912"
+              "salon": "912"
             },
             {
-              "grupo": "1103",
+              "grupo": "Q103",
               "profesor": "DE LA ROSA REYES MARIA DE LOS ANGELES",
               "horarios": [
                 {
@@ -52304,10 +55593,10 @@
                   "fin": "14:00"
                 }
               ],
-              "salon": "A-913"
+              "salon": "913"
             },
             {
-              "grupo": "1104",
+              "grupo": "Q104",
               "profesor": "GONZALEZ JARAMILLO MA. DE LUZ GRACIELA",
               "horarios": [
                 {
@@ -52323,10 +55612,10 @@
                   "fin": "14:00"
                 }
               ],
-              "salon": "A-914,A-914"
+              "salon": "914"
             },
             {
-              "grupo": "1151",
+              "grupo": "Q151",
               "profesor": "HERNANDEZ BRUNO RAUL",
               "horarios": [
                 {
@@ -52342,10 +55631,10 @@
                   "fin": "20:00"
                 }
               ],
-              "salon": "A-911,A-911"
+              "salon": "911"
             },
             {
-              "grupo": "1152",
+              "grupo": "Q152",
               "profesor": "SOLIS MENDOZA FRANCISCO JAVIER",
               "horarios": [
                 {
@@ -52361,11 +55650,599 @@
                   "fin": "20:00"
                 }
               ],
-              "salon": "A-912,A-912"
+              "salon": "912"
             }
           ]
         },
         "1131": {
+          "nombre": "HISTORIA DE LA EDUCACION",
+          "semestre": "01",
+          "grupos": [
+            {
+              "grupo": "Q101",
+              "profesor": "GARCES ZEPEDA LORENA BEATRIZ",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "08:00",
+                  "fin": "10:00"
+                }
+              ],
+              "salon": "911"
+            },
+            {
+              "grupo": "Q102",
+              "profesor": "AVALOS ARCE LUIS ANGEL",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "08:00",
+                  "fin": "10:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "08:00",
+                  "fin": "10:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "08:00",
+                  "fin": "10:00"
+                }
+              ],
+              "salon": "912"
+            },
+            {
+              "grupo": "Q103",
+              "profesor": "LEMUS MENDEZ LAURA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                }
+              ],
+              "salon": "913"
+            },
+            {
+              "grupo": "Q104",
+              "profesor": "AVILA GUZMAN FRANCISCO JAVIER",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "08:00",
+                  "fin": "10:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "08:00",
+                  "fin": "10:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                }
+              ],
+              "salon": "914"
+            },
+            {
+              "grupo": "Q151",
+              "profesor": "UGALDE RAMIREZ AIDE",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "911"
+            },
+            {
+              "grupo": "Q152",
+              "profesor": "MAGALLON PEREZ FERNANDO MELESIO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "912"
+            }
+          ]
+        },
+        "1132": {
+          "nombre": "INVESTIGACION DOCUMENTAL",
+          "semestre": "01",
+          "grupos": [
+            {
+              "grupo": "Q101",
+              "profesor": "CHAVEZ TOVAR LAURA ANGELICA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                }
+              ],
+              "salon": "COMPUTO 911"
+            },
+            {
+              "grupo": "Q102",
+              "profesor": "SANTA CRUZ GOMEZ GEORGINA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                }
+              ],
+              "salon": "912"
+            },
+            {
+              "grupo": "Q103",
+              "profesor": "RUEDA RAMOS ERIKA",
+              "horarios": [
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "08:00",
+                  "fin": "12:00"
+                }
+              ],
+              "salon": "913 COMPUTO"
+            },
+            {
+              "grupo": "Q104",
+              "profesor": "CHAVEZ TOVAR LAURA ANGELICA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "08:00",
+                  "fin": "10:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "08:00",
+                  "fin": "10:00"
+                }
+              ],
+              "salon": "COMPUTO 914"
+            },
+            {
+              "grupo": "Q151",
+              "profesor": "PADRO TORRES SANDRA LORENA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "18:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "APOYODOCE-P"
+            },
+            {
+              "grupo": "Q152",
+              "profesor": "GARCIA GALVAN TANIA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "912"
+            }
+          ]
+        },
+        "1133": {
+          "nombre": "PARADIGMAS PSICOLOGICOS Y EDUC",
+          "semestre": "01",
+          "grupos": [
+            {
+              "grupo": "Q101",
+              "profesor": "ZARAGOZA RODRIGUEZ EDUARDO RAFAEL",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                }
+              ],
+              "salon": "911"
+            },
+            {
+              "grupo": "Q102",
+              "profesor": "FARCUG MONROY LAILA JULIETA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                }
+              ],
+              "salon": "912"
+            },
+            {
+              "grupo": "Q103",
+              "profesor": "PEREZ ORDAZ NIDIA BELEN",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "08:00",
+                  "fin": "10:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "08:00",
+                  "fin": "10:00"
+                }
+              ],
+              "salon": "913"
+            },
+            {
+              "grupo": "Q104",
+              "profesor": "ZARAGOZA RODRIGUEZ EDUARDO RAFAEL",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                }
+              ],
+              "salon": "914"
+            },
+            {
+              "grupo": "Q151",
+              "profesor": "SUAREZ VIAÑA JAIME ARTURO",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "911"
+            },
+            {
+              "grupo": "Q152",
+              "profesor": "PADRO TORRES SANDRA LORENA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "DIDÁCTICA"
+            }
+          ]
+        },
+        "1134": {
+          "nombre": "PENSAM POLIT Y ECONOM ANALIS EDU",
+          "semestre": "01",
+          "grupos": [
+            {
+              "grupo": "Q101",
+              "profesor": "BRAVO ZAMUDIO JUAN",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "08:00",
+                  "fin": "10:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "08:00",
+                  "fin": "10:00"
+                }
+              ],
+              "salon": "911"
+            },
+            {
+              "grupo": "Q102",
+              "profesor": "MORALES SILVA FRANCISCO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                }
+              ],
+              "salon": "912"
+            },
+            {
+              "grupo": "Q103",
+              "profesor": "JUAREZ HERNANDEZ ANA FRANCISCA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "08:00",
+                  "fin": "10:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                }
+              ],
+              "salon": "916/1516"
+            },
+            {
+              "grupo": "Q104",
+              "profesor": "MORALES SILVA FRANCISCO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                }
+              ],
+              "salon": "914"
+            },
+            {
+              "grupo": "Q151",
+              "profesor": "ALMAZAN VELAZQUEZ RICARDO",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "911"
+            },
+            {
+              "grupo": "Q152",
+              "profesor": "JUAREZ HERNANDEZ ANA FRANCISCA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "912"
+            }
+          ]
+        },
+        "1135": {
+          "nombre": "DESARROLLO HUM Y PROF",
+          "semestre": "01",
+          "grupos": [
+            {
+              "grupo": "1101",
+              "profesor": "GARCIA ABAN MARIA GUADALUPE",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                }
+              ],
+              "salon": "911"
+            },
+            {
+              "grupo": "1102",
+              "profesor": "CHAVEZ TOVAR LAURA ANGELICA",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                }
+              ],
+              "salon": "912"
+            },
+            {
+              "grupo": "1103",
+              "profesor": "GONZALEZ JARAMILLO MA. DE LUZ GRACIELA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                }
+              ],
+              "salon": "918"
+            },
+            {
+              "grupo": "1104",
+              "profesor": "FRONTANA HORTA MONTSERRAT MERCEDES",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                }
+              ],
+              "salon": "914"
+            },
+            {
+              "grupo": "1151",
+              "profesor": "FRONTANA HORTA MONTSERRAT MERCEDES",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "911"
+            },
+            {
+              "grupo": "1152",
+              "profesor": "GARCES ZEPEDA LORENA BEATRIZ",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "912"
+            }
+          ]
+        },
+        "1136": {
           "nombre": "HISTORIA DE LA EDUCACION",
           "semestre": "01",
           "grupos": [
@@ -52380,23 +56257,23 @@
                   "fin": "12:00"
                 },
                 {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                },
+                {
                   "dia": "MI",
                   "dia_nombre": "Miércoles",
                   "inicio": "08:00",
                   "fin": "10:00"
-                },
-                {
-                  "dia": "VI",
-                  "dia_nombre": "Viernes",
-                  "inicio": "08:00",
-                  "fin": "10:00"
                 }
               ],
-              "salon": "A-911,A-911"
+              "salon": "911"
             },
             {
               "grupo": "1102",
-              "profesor": "MAGALLON PEREZ FERNANDO MELESIO",
+              "profesor": "AVALOS ARCE LUIS ANGEL",
               "horarios": [
                 {
                   "dia": "LU",
@@ -52417,7 +56294,7 @@
                   "fin": "10:00"
                 }
               ],
-              "salon": "A-912"
+              "salon": "912"
             },
             {
               "grupo": "1103",
@@ -52442,7 +56319,7 @@
                   "fin": "12:00"
                 }
               ],
-              "salon": "A-913"
+              "salon": "913"
             },
             {
               "grupo": "1104",
@@ -52467,18 +56344,12 @@
                   "fin": "12:00"
                 }
               ],
-              "salon": "A-914,A-914"
+              "salon": "914"
             },
             {
               "grupo": "1151",
               "profesor": "UGALDE RAMIREZ AIDE",
               "horarios": [
-                {
-                  "dia": "JU",
-                  "dia_nombre": "Jueves",
-                  "inicio": "18:00",
-                  "fin": "20:00"
-                },
                 {
                   "dia": "LU",
                   "dia_nombre": "Lunes",
@@ -52490,9 +56361,15 @@
                   "dia_nombre": "Viernes",
                   "inicio": "16:00",
                   "fin": "18:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
                 }
               ],
-              "salon": "A-911,A-911"
+              "salon": "911"
             },
             {
               "grupo": "1152",
@@ -52511,17 +56388,137 @@
                   "fin": "22:00"
                 },
                 {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                }
+              ],
+              "salon": "912"
+            }
+          ]
+        },
+        "1137": {
+          "nombre": "INTR PENSA Y TEO PEDAG",
+          "semestre": "01",
+          "grupos": [
+            {
+              "grupo": "1101",
+              "profesor": "GONZALEZ JARAMILLO MA. DE LUZ GRACIELA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "08:00",
+                  "fin": "10:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                }
+              ],
+              "salon": "911"
+            },
+            {
+              "grupo": "1102",
+              "profesor": "AVILA GUZMAN FRANCISCO JAVIER",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "08:00",
+                  "fin": "10:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                }
+              ],
+              "salon": "912"
+            },
+            {
+              "grupo": "1103",
+              "profesor": "DE LA ROSA REYES MARIA DE LOS ANGELES",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                }
+              ],
+              "salon": "913"
+            },
+            {
+              "grupo": "1104",
+              "profesor": "GONZALEZ JARAMILLO MA. DE LUZ GRACIELA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "10:00",
+                  "fin": "12:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                }
+              ],
+              "salon": "914"
+            },
+            {
+              "grupo": "1151",
+              "profesor": "HERNANDEZ BRUNO RAUL",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
                   "dia": "VI",
                   "dia_nombre": "Viernes",
                   "inicio": "18:00",
                   "fin": "20:00"
                 }
               ],
-              "salon": "A-912,A-912"
+              "salon": "911"
+            },
+            {
+              "grupo": "1152",
+              "profesor": "SOLIS MENDOZA FRANCISCO JAVIER",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "912"
             }
           ]
         },
-        "1132": {
+        "1138": {
           "nombre": "INVESTIGACION DOCUMENTAL",
           "semestre": "01",
           "grupos": [
@@ -52542,17 +56539,17 @@
                   "fin": "14:00"
                 }
               ],
-              "salon": "A911"
+              "salon": "COMPUTO 911"
             },
             {
               "grupo": "1102",
               "profesor": "SANTA CRUZ GOMEZ GEORGINA",
               "horarios": [
                 {
-                  "dia": "MI",
-                  "dia_nombre": "Miércoles",
-                  "inicio": "12:00",
-                  "fin": "14:00"
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "10:00",
+                  "fin": "12:00"
                 },
                 {
                   "dia": "JU",
@@ -52561,7 +56558,7 @@
                   "fin": "12:00"
                 }
               ],
-              "salon": "A-912,A-912"
+              "salon": "912"
             },
             {
               "grupo": "1103",
@@ -52571,16 +56568,10 @@
                   "dia": "JU",
                   "dia_nombre": "Jueves",
                   "inicio": "08:00",
-                  "fin": "10:00"
-                },
-                {
-                  "dia": "JU",
-                  "dia_nombre": "Jueves",
-                  "inicio": "10:00",
                   "fin": "12:00"
                 }
               ],
-              "salon": "A-913"
+              "salon": "913 COMPUTO"
             },
             {
               "grupo": "1104",
@@ -52599,7 +56590,7 @@
                   "fin": "10:00"
                 }
               ],
-              "salon": "Lab Com Hum"
+              "salon": "COMPUTO 914"
             },
             {
               "grupo": "1151",
@@ -52612,7 +56603,7 @@
                   "fin": "22:00"
                 }
               ],
-              "salon": "Pedagogía"
+              "salon": "APOYODOCE-P"
             },
             {
               "grupo": "1152",
@@ -52631,12 +56622,12 @@
                   "fin": "18:00"
                 }
               ],
-              "salon": "A-912,A-912"
+              "salon": "912"
             }
           ]
         },
-        "1133": {
-          "nombre": "PARADIGMAS PSICOLOGICOS Y EDUC",
+        "1139": {
+          "nombre": "PARAD PSICO EDUCACION",
           "semestre": "01",
           "grupos": [
             {
@@ -52656,7 +56647,7 @@
                   "fin": "12:00"
                 }
               ],
-              "salon": "A-911"
+              "salon": "911"
             },
             {
               "grupo": "1102",
@@ -52675,7 +56666,7 @@
                   "fin": "12:00"
                 }
               ],
-              "salon": "A-912"
+              "salon": "912"
             },
             {
               "grupo": "1103",
@@ -52694,26 +56685,26 @@
                   "fin": "10:00"
                 }
               ],
-              "salon": "A-913"
+              "salon": "913"
             },
             {
               "grupo": "1104",
               "profesor": "ZARAGOZA RODRIGUEZ EDUARDO RAFAEL",
               "horarios": [
                 {
-                  "dia": "LU",
-                  "dia_nombre": "Lunes",
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
                   "inicio": "12:00",
                   "fin": "14:00"
                 },
                 {
-                  "dia": "JU",
-                  "dia_nombre": "Jueves",
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
                   "inicio": "12:00",
                   "fin": "14:00"
                 }
               ],
-              "salon": "A-914"
+              "salon": "914"
             },
             {
               "grupo": "1151",
@@ -52732,31 +56723,31 @@
                   "fin": "20:00"
                 }
               ],
-              "salon": "A-911"
+              "salon": "911"
             },
             {
               "grupo": "1152",
               "profesor": "PADRO TORRES SANDRA LORENA",
               "horarios": [
                 {
-                  "dia": "LU",
-                  "dia_nombre": "Lunes",
-                  "inicio": "16:00",
-                  "fin": "18:00"
-                },
-                {
                   "dia": "MA",
                   "dia_nombre": "Martes",
                   "inicio": "16:00",
                   "fin": "18:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "16:00",
+                  "fin": "18:00"
                 }
               ],
-              "salon": "Didáctica"
+              "salon": "DIDÁCTICA"
             }
           ]
         },
-        "1134": {
-          "nombre": "PENSAM POLIT Y ECONOM ANALIS EDU",
+        "1140": {
+          "nombre": "PEN POL ECON ANALIS EDUCA",
           "semestre": "01",
           "grupos": [
             {
@@ -52776,7 +56767,7 @@
                   "fin": "10:00"
                 }
               ],
-              "salon": "A-911"
+              "salon": "911"
             },
             {
               "grupo": "1102",
@@ -52795,7 +56786,7 @@
                   "fin": "14:00"
                 }
               ],
-              "salon": "A-912"
+              "salon": "912"
             },
             {
               "grupo": "1103",
@@ -52814,7 +56805,7 @@
                   "fin": "14:00"
                 }
               ],
-              "salon": "A-916 -1516"
+              "salon": "916/1516"
             },
             {
               "grupo": "1104",
@@ -52833,7 +56824,7 @@
                   "fin": "12:00"
                 }
               ],
-              "salon": "A-914"
+              "salon": "914"
             },
             {
               "grupo": "1151",
@@ -52852,7 +56843,7 @@
                   "fin": "18:00"
                 }
               ],
-              "salon": "A-911"
+              "salon": "911"
             },
             {
               "grupo": "1152",
@@ -52865,13 +56856,133 @@
                   "fin": "22:00"
                 },
                 {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "18:00",
+                  "fin": "20:00"
+                }
+              ],
+              "salon": "912"
+            }
+          ]
+        },
+        "1141": {
+          "nombre": "PSICOPEDAGOGIA DE LA INFANCIA",
+          "semestre": "01",
+          "grupos": [
+            {
+              "grupo": "1101",
+              "profesor": "BURGOS TORRES PATRICIA",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                }
+              ],
+              "salon": "911"
+            },
+            {
+              "grupo": "1102",
+              "profesor": "GONZALEZ JARAMILLO MA. DE LUZ GRACIELA",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "08:00",
+                  "fin": "10:00"
+                }
+              ],
+              "salon": "912"
+            },
+            {
+              "grupo": "1103",
+              "profesor": "PEREZ ORDAZ NIDIA BELEN",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                }
+              ],
+              "salon": "913"
+            },
+            {
+              "grupo": "1104",
+              "profesor": "GERBER WEISENBERG DANIEL",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "12:00",
+                  "fin": "14:00"
+                }
+              ],
+              "salon": "914"
+            },
+            {
+              "grupo": "1151",
+              "profesor": "GARCIA ABAN MARIA GUADALUPE",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "20:00",
+                  "fin": "22:00"
+                },
+                {
                   "dia": "JU",
                   "dia_nombre": "Jueves",
                   "inicio": "20:00",
                   "fin": "22:00"
                 }
               ],
-              "salon": "A-912"
+              "salon": "911"
+            },
+            {
+              "grupo": "1152",
+              "profesor": "ZARAGOZA RODRIGUEZ EDUARDO RAFAEL",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "16:00",
+                  "fin": "18:00"
+                }
+              ],
+              "salon": "912"
             }
           ]
         },
@@ -55286,7 +59397,7 @@
     "21121": {
       "codigo": "21121",
       "nombre": "Ingeniería Civil",
-      "fecha_consulta": "2025-07-30T07:37:23.411Z",
+      "fecha_consulta": "2025-08-08T15:32:59.885Z",
       "materias": {
         "1115": {
           "nombre": "INGENIERIA CIVIL Y SOCIEDAD",
@@ -59205,31 +63316,6 @@
             }
           ]
         },
-        "0013": {
-          "nombre": "FERROCARRILES",
-          "semestre": "09",
-          "grupos": [
-            {
-              "grupo": "1951",
-              "profesor": "Profesor No Asignado",
-              "horarios": [
-                {
-                  "dia": "LU",
-                  "dia_nombre": "Lunes",
-                  "inicio": "20:00",
-                  "fin": "22:00"
-                },
-                {
-                  "dia": "MI",
-                  "dia_nombre": "Miércoles",
-                  "inicio": "20:00",
-                  "fin": "22:00"
-                }
-              ],
-              "salon": "A-123"
-            }
-          ]
-        },
         "0016": {
           "nombre": "INGENIERIA DE RIOS Y COSTAS",
           "semestre": "09",
@@ -59360,7 +63446,7 @@
     "24022": {
       "codigo": "24022",
       "nombre": "Matemáticas. Apl. y Comp.",
-      "fecha_consulta": "2025-07-30T07:37:35.619Z",
+      "fecha_consulta": "2025-08-08T15:33:12.144Z",
       "materias": {
         "1042": {
           "nombre": "METODOS VARIACIONALES",
@@ -63364,7 +67450,7 @@
     "24121": {
       "codigo": "24121",
       "nombre": "Enseñanza de Inglés",
-      "fecha_consulta": "2025-07-30T07:37:05.015Z",
+      "fecha_consulta": "2025-08-08T15:32:41.539Z",
       "materias": {
         "1039": {
           "nombre": "EXPRE. ARTIS. PAISES ANGLOSAJ.",
@@ -63436,7 +67522,7 @@
           "grupos": [
             {
               "grupo": "1701",
-              "profesor": "Profesor No Asignado",
+              "profesor": "CRISTOBAL VALENZUELA JORGE ANTONIO",
               "horarios": [
                 {
                   "dia": "MA",
@@ -64070,7 +68156,7 @@
           "grupos": [
             {
               "grupo": "1501",
-              "profesor": "Profesor No Asignado",
+              "profesor": "GUZMAN TALAVERA IRVIN",
               "horarios": [
                 {
                   "dia": "LU",
@@ -64508,7 +68594,7 @@
           "grupos": [
             {
               "grupo": "1701",
-              "profesor": "Profesor No Asignado",
+              "profesor": "MARTINEZ HERNANDEZ SERAPIO",
               "horarios": [
                 {
                   "dia": "MA",
@@ -64745,6 +68831,6 @@
       }
     }
   },
-  "fecha_actualizacion": "2025-07-30T07:36:18.513Z",
+  "fecha_actualizacion": "2025-08-08T15:31:54.894Z",
   "total_carreras": 17
 }
