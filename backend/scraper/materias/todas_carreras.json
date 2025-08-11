@@ -3,7 +3,7 @@
     "20121": {
       "codigo": "20121",
       "nombre": "Arquitectura",
-      "fecha_consulta": "2025-08-08T15:32:04.378Z",
+      "fecha_consulta": "2025-08-11T16:50:07.824Z",
       "materias": {
         "1100": {
           "nombre": "ARTE Y ARQUITECTURA",
@@ -7539,7 +7539,7 @@
     "20226": {
       "codigo": "20226",
       "nombre": "Diseño Gráfico",
-      "fecha_consulta": "2025-08-08T15:32:29.232Z",
+      "fecha_consulta": "2025-08-11T16:50:32.812Z",
       "materias": {
         "2000": {
           "nombre": "HABILIDADES INTERPERSONALES",
@@ -11991,7 +11991,7 @@
     "20321": {
       "codigo": "20321",
       "nombre": "Actuaría",
-      "fecha_consulta": "2025-08-08T15:31:58.140Z",
+      "fecha_consulta": "2025-08-11T16:50:01.597Z",
       "materias": {
         "2031": {
           "nombre": "ANALISIS MULTIVARIADO",
@@ -15611,7 +15611,7 @@
     "20421": {
       "codigo": "20421",
       "nombre": "Relaciones Internacionales",
-      "fecha_consulta": "2025-08-08T15:33:30.590Z",
+      "fecha_consulta": "2025-08-11T16:51:34.075Z",
       "materias": {
         "1089": {
           "nombre": "ACCION EXTERIOR DE GOBIERNOS LOC",
@@ -20434,7 +20434,7 @@
     "20422": {
       "codigo": "20422",
       "nombre": "Ciencias Políticas y Admon. Pública",
-      "fecha_consulta": "2025-08-08T15:32:10.540Z",
+      "fecha_consulta": "2025-08-11T16:50:14.094Z",
       "materias": {
         "1059": {
           "nombre": "ADMINISTRACION AMBIENTAL MUNICIP",
@@ -23895,7 +23895,7 @@
     "20423": {
       "codigo": "20423",
       "nombre": "Sociología",
-      "fecha_consulta": "2025-08-08T15:33:36.747Z",
+      "fecha_consulta": "2025-08-11T16:51:40.227Z",
       "materias": {
         "1117": {
           "nombre": "ECONOMIA I",
@@ -28295,13 +28295,13 @@
     "20424": {
       "codigo": "20424",
       "nombre": "Periodismo y Comunicación Colectiva",
-      "fecha_consulta": "2025-08-08T15:33:24.389Z",
+      "fecha_consulta": "2025-08-11T16:51:27.890Z",
       "materias": {}
     },
     "20425": {
       "codigo": "20425",
       "nombre": "Comunicación",
-      "fecha_consulta": "2025-08-08T15:32:16.769Z",
+      "fecha_consulta": "2025-08-11T16:50:20.302Z",
       "materias": {
         "1111": {
           "nombre": "BASES TEO. DE LA COMUNICACIÓN",
@@ -34542,7 +34542,7 @@
     "20721": {
       "codigo": "20721",
       "nombre": "Derecho",
-      "fecha_consulta": "2025-08-08T15:32:23.053Z",
+      "fecha_consulta": "2025-08-11T16:50:26.583Z",
       "materias": {
         "1102": {
           "nombre": "HIST.D.LAS IDEAS POL.Y ECO.",
@@ -45848,7 +45848,7 @@
     "20821": {
       "codigo": "20821",
       "nombre": "Economía",
-      "fecha_consulta": "2025-08-08T15:32:35.401Z",
+      "fecha_consulta": "2025-08-11T16:50:38.950Z",
       "materias": {
         "2113": {
           "nombre": "CONTABILIDAD GENERAL Y DE COSTOS",
@@ -49260,7 +49260,7 @@
     "21011": {
       "codigo": "21011",
       "nombre": "Filosofía",
-      "fecha_consulta": "2025-08-08T15:32:47.638Z",
+      "fecha_consulta": "2025-08-11T16:50:51.186Z",
       "materias": {
         "1170": {
           "nombre": "ANTROPOLOGIA FILOSOFICA I",
@@ -51302,7 +51302,7 @@
     "21013": {
       "codigo": "21013",
       "nombre": "Lengua y Literatura Hispánicas",
-      "fecha_consulta": "2025-08-08T15:33:06.006Z",
+      "fecha_consulta": "2025-08-11T16:51:09.553Z",
       "materias": {
         "1155": {
           "nombre": "ETIMOLOGIAS-GRECOLATINAS",
@@ -52920,7 +52920,7 @@
     "21021": {
       "codigo": "21021",
       "nombre": "Historia",
-      "fecha_consulta": "2025-08-08T15:32:53.755Z",
+      "fecha_consulta": "2025-08-11T16:50:57.305Z",
       "materias": {
         "1161": {
           "nombre": "GRECIA",
@@ -55448,7 +55448,7 @@
     "21025": {
       "codigo": "21025",
       "nombre": "Pedagogía",
-      "fecha_consulta": "2025-08-08T15:33:18.308Z",
+      "fecha_consulta": "2025-08-11T16:51:21.838Z",
       "materias": {
         "1129": {
           "nombre": "DESARROLLO HUMANO Y PROFESIONAL",
@@ -59397,7 +59397,7 @@
     "21121": {
       "codigo": "21121",
       "nombre": "Ingeniería Civil",
-      "fecha_consulta": "2025-08-08T15:32:59.885Z",
+      "fecha_consulta": "2025-08-11T16:51:03.440Z",
       "materias": {
         "1115": {
           "nombre": "INGENIERIA CIVIL Y SOCIEDAD",
@@ -60577,6 +60577,25 @@
               "salon": "A-124"
             },
             {
+              "grupo": "1303",
+              "profesor": "BAUTISTA MENDOZA GAMALIEL",
+              "horarios": [
+                {
+                  "dia": "LU",
+                  "dia_nombre": "Lunes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-223"
+            },
+            {
               "grupo": "1351",
               "profesor": "SALINAS MUÑOZ RODOLFO",
               "horarios": [
@@ -60846,6 +60865,25 @@
                 }
               ],
               "salon": "A-126"
+            },
+            {
+              "grupo": "1303",
+              "profesor": "Profesor No Asignado",
+              "horarios": [
+                {
+                  "dia": "MA",
+                  "dia_nombre": "Martes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "JU",
+                  "dia_nombre": "Jueves",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-226"
             },
             {
               "grupo": "1351",
@@ -61155,6 +61193,25 @@
           "nombre": "METODOS DETERMINISTICOS OPTIMIZA",
           "semestre": "04",
           "grupos": [
+            {
+              "grupo": "1401",
+              "profesor": "GONZALEZ LEYVA ROSA MARIA",
+              "horarios": [
+                {
+                  "dia": "MI",
+                  "dia_nombre": "Miércoles",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                },
+                {
+                  "dia": "VI",
+                  "dia_nombre": "Viernes",
+                  "inicio": "07:00",
+                  "fin": "09:00"
+                }
+              ],
+              "salon": "A-229"
+            },
             {
               "grupo": "1451",
               "profesor": "CONTRERAS HERRERA LAURA GABRIELA",
@@ -63446,7 +63503,7 @@
     "24022": {
       "codigo": "24022",
       "nombre": "Matemáticas. Apl. y Comp.",
-      "fecha_consulta": "2025-08-08T15:33:12.144Z",
+      "fecha_consulta": "2025-08-11T16:51:15.691Z",
       "materias": {
         "1042": {
           "nombre": "METODOS VARIACIONALES",
@@ -67450,7 +67507,7 @@
     "24121": {
       "codigo": "24121",
       "nombre": "Enseñanza de Inglés",
-      "fecha_consulta": "2025-08-08T15:32:41.539Z",
+      "fecha_consulta": "2025-08-11T16:50:45.064Z",
       "materias": {
         "1039": {
           "nombre": "EXPRE. ARTIS. PAISES ANGLOSAJ.",
@@ -68831,6 +68888,6 @@
       }
     }
   },
-  "fecha_actualizacion": "2025-08-08T15:31:54.894Z",
+  "fecha_actualizacion": "2025-08-11T16:49:58.328Z",
   "total_carreras": 17
 }
