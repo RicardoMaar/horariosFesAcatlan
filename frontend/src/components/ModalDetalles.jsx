@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, startTransition } from 'react';
 import * as Dialog from '@radix-ui/react-dialog';
 import useHorariosStore from '../store/useHorariosStore';
 import SelectorColor from './SelectorColor';
@@ -30,6 +30,12 @@ function ModalDetalles() {
   const esMateria = !materiaEnModal.grupo;
   const estaSeleccionada = materiasSeleccionadas.some(m => m.id === materiaEnModal.id);
 
+  const handleToggleMateria = (clave, grupoData) => {
+    startTransition(() => {
+      toggleMateria(clave, grupoData);
+    });
+  };
+
   // Función para manejar cierre con animación
   const handleCerrar = () => {
     setCerrandoModal(true);
@@ -46,7 +52,7 @@ function ModalDetalles() {
         <Dialog.Overlay className={`fixed inset-0 bg-black/50 backdrop-blur-sm z-[100] ${cerrandoModal ? 'modal-overlay-exit' : 'modal-overlay'}`} />
         
         {/* 👈 AUMENTAR z-index del contenido del modal */}
-        <Dialog.Content className={`fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-white rounded-lg shadow-xl w-full max-w-md max-h-[90vh] overflow-hidden z-[101] ${cerrandoModal ? 'modal-content-exit' : 'modal-content'}`}>
+        <Dialog.Content className={`fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-white rounded-lg shadow-xl w-full max-w-md max-h-[90vh] overflow-y-auto overflow-x-hidden z-[101] ${cerrandoModal ? 'modal-content-exit' : 'modal-content'}`}>
           <div className="p-6">
             {/* Header */}
             <Dialog.Title className="text-xl font-semibold mb-4 modal-item">
@@ -105,7 +111,7 @@ function ModalDetalles() {
                         </div>
                         <button
                           onClick={() => {
-                            toggleMateria(materiaEnModal.clave, grupo);
+                            handleToggleMateria(materiaEnModal.clave, grupo);
                             // 👈 NO CERRAR automáticamente el modal aquí
                           }}
                           className={`
@@ -174,7 +180,7 @@ function ModalDetalles() {
                         if (estaSeleccionada) {
                           const materia = materiasSeleccionadas.find(m => m.id === materiaEnModal.id);
                           if (materia) {
-                            toggleMateria(materia.clave, { grupo: materia.grupo });
+                            handleToggleMateria(materia.clave, { grupo: materia.grupo });
                           }
                         } else {
                           const grupoData = {
@@ -183,7 +189,7 @@ function ModalDetalles() {
                             salon: materiaEnModal.salon,
                             horarios: materiaEnModal.horarios
                           };
-                          toggleMateria(materiaEnModal.clave, grupoData);
+                          handleToggleMateria(materiaEnModal.clave, grupoData);
                         }
                         handleCerrar();
                       }}

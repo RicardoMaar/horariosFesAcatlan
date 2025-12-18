@@ -1,9 +1,18 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { coloresBase } from '../store/useHorariosStore';
 
 function SelectorColor({ colorActual, onCambiarColor, onCerrar }) {
-  const [colorPersonalizado, setColorPersonalizado] = useState(colorActual);
+  const colorSeguro = colorActual || coloresBase[0];
+  const [colorPersonalizado, setColorPersonalizado] = useState(colorSeguro);
   const [mostrandoPersonalizado, setMostrandoPersonalizado] = useState(false);
+  const colorPersonalizadoValido = /^#([0-9a-fA-F]{6})$/.test(colorPersonalizado)
+    ? colorPersonalizado
+    : colorSeguro;
+
+  useEffect(() => {
+    setColorPersonalizado(colorSeguro);
+    setMostrandoPersonalizado(false);
+  }, [colorSeguro]);
 
   return (
     <div className="space-y-4">
@@ -19,7 +28,7 @@ function SelectorColor({ colorActual, onCambiarColor, onCerrar }) {
               }}
               className={`
                 w-8 h-8 rounded-md border-2 transition-all hover:scale-110
-                ${colorActual === color ? 'border-gray-600 ring-2 ring-gray-300' : 'border-gray-200'}
+                ${colorSeguro === color ? 'border-gray-600 ring-2 ring-gray-300' : 'border-gray-200'}
               `}
               style={{ backgroundColor: color }}
             />
@@ -38,7 +47,7 @@ function SelectorColor({ colorActual, onCambiarColor, onCerrar }) {
           <div className="flex items-center gap-3">
             <input
               type="color"
-              value={colorPersonalizado}
+              value={colorPersonalizadoValido}
               onChange={(e) => setColorPersonalizado(e.target.value)}
               className="w-12 h-8 rounded border border-gray-300 cursor-pointer"
             />
@@ -53,7 +62,7 @@ function SelectorColor({ colorActual, onCambiarColor, onCerrar }) {
           <div className="flex gap-2">
             <button
               onClick={() => {
-                onCambiarColor(colorPersonalizado);
+                onCambiarColor(colorPersonalizadoValido);
                 onCerrar();
               }}
               className="px-3 py-1 bg-blue-600 text-white text-sm rounded hover:bg-blue-700"

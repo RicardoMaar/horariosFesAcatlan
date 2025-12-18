@@ -60,7 +60,12 @@ function ExportMenu({ exportableRef }) {
       </Popover.Trigger>
 
       <Popover.Portal>
-        <Popover.Content className="bg-white rounded-lg shadow-lg border border-gray-200 p-1 w-48 animate-slide-up">
+        <Popover.Content
+          sideOffset={8}
+          align="end"
+          collisionPadding={12}
+          className="z-[60] bg-white rounded-lg shadow-lg border border-gray-200 p-1 w-48"
+        >
           <div className="py-1">
             <button
               onClick={() => handleExport('PNG')}
