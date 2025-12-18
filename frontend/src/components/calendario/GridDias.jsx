@@ -20,6 +20,11 @@ const GridDias = React.memo(({
   const modalAbierto = useHorariosStore(state => state.modalAbierto);
   const bloqueModalActivo = useHorariosStore(state => state.bloqueModalActivo);
   const abrirModal = useHorariosStore(state => state.abrirModal);
+  const toggleMateria = useHorariosStore(state => state.toggleMateria);
+
+  const handleRemove = (bloque) => {
+    toggleMateria(bloque.clave, { grupo: bloque.grupo });
+  };
 
   return (
     <>
@@ -55,6 +60,7 @@ const GridDias = React.memo(({
                 seEstaQuitando={seEstaQuitando}
                 esBloqueDelModal={esBloqueDelModal}
                 onBloqueClick={abrirModal}
+                onRemove={handleRemove}
               />
             );
           })}

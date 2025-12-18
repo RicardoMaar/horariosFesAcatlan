@@ -10,6 +10,7 @@ import LimpiarHorarioButton from './components/LimpiarHorarioButton';
 import useHorariosStore from './store/useHorariosStore';
 import ExportableCalendar from './components/ExportableCalendar';
 import { useStatus } from './hooks/useStatus';
+import ScheduleSheets from './components/ScheduleSheets';
 
 function App() {
   const carreraSeleccionada = useHorariosStore(state => state.carreraSeleccionada);
@@ -74,9 +75,12 @@ function App() {
 
       {/* Contenido principal */}
       <main className="max-w-7xl mx-auto px-4 py-6">
-        <div className="mb-6 flex">
-          <div className="w-full lg:w-1/3 xl:w-1/4">
-            <CarreraSelector />
+        <div className="mb-6 space-y-4">
+          <ScheduleSheets />
+          <div className="flex">
+            <div className="w-full lg:w-1/3 xl:w-1/4">
+              <CarreraSelector />
+            </div>
           </div>
         </div>
 

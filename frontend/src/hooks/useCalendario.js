@@ -88,8 +88,22 @@ export function useAnimacionesBloque(materiasSeleccionadas) {
   const [bloquesParaQuitar, setBloquesParaQuitar] = useState(new Set());
   const [bloquesFantasma, setBloquesFantasma] = useState([]);
   const prevMateriasRef = useRef([]);
+  const prevOpcionRef = useRef(null);
+  const opcionActivaId = useHorariosStore(state => state.opcionActivaId);
 
   useEffect(() => {
+    if (prevOpcionRef.current === null) {
+      prevOpcionRef.current = opcionActivaId;
+    }
+    if (prevOpcionRef.current !== opcionActivaId) {
+      prevOpcionRef.current = opcionActivaId;
+      prevMateriasRef.current = materiasSeleccionadas;
+      setBloquesAnimando(new Set());
+      setBloquesParaQuitar(new Set());
+      setBloquesFantasma([]);
+      return;
+    }
+
     const materiasActuales = materiasSeleccionadas;
     const materiasAnteriores = prevMateriasRef.current;
 
@@ -137,7 +151,7 @@ export function useAnimacionesBloque(materiasSeleccionadas) {
     }
 
     prevMateriasRef.current = materiasActuales;
-  }, [materiasSeleccionadas]);
+  }, [materiasSeleccionadas, opcionActivaId]);
 
   return {
     bloquesAnimando,

@@ -8,7 +8,8 @@ const BloqueMateria = React.memo(({
   esNuevo,
   seEstaQuitando,
   esBloqueDelModal,
-  onBloqueClick
+  onBloqueClick,
+  onRemove
 }) => {
   const width = bloque.totalColumnas > 1 
     ? `${100 / bloque.totalColumnas}%` 
@@ -17,6 +18,11 @@ const BloqueMateria = React.memo(({
   const left = bloque.totalColumnas > 1 
     ? `${(100 / bloque.totalColumnas) * bloque.columna}%` 
     : '0';
+
+  const handleRemove = (event) => {
+    event.stopPropagation();
+    onRemove(bloque);
+  };
 
   // Calcular opacidad
   let opacidadFinal;
@@ -54,7 +60,7 @@ const BloqueMateria = React.memo(({
   return (
     <div
       className={`
-        absolute ${isMobile ? 'p-0.5' : 'p-1'} rounded cursor-pointer
+        group absolute ${isMobile ? 'p-0.5' : 'p-1'} rounded cursor-pointer
         ${claseAnimacion}
         ${bloque.tieneTraslape && !seEstaQuitando ? 'ring-2 ring-red-500 ring-opacity-10' : ''}
       `}
@@ -70,6 +76,16 @@ const BloqueMateria = React.memo(({
       }}
       onClick={handleClick}
     >
+      {!seEstaQuitando && !esBloqueDelModal && (
+        <button
+          type="button"
+          onClick={handleRemove}
+          className="absolute top-1 right-1 h-4 w-4 rounded-full bg-white/90 text-gray-600 text-xs opacity-0 group-hover:opacity-100 transition-opacity"
+          aria-label={`Quitar ${bloque.nombre}`}
+        >
+          ×
+        </button>
+      )}
       <div className="text-white h-full flex flex-col justify-center px-1 overflow-hidden"> 
         <div 
           className={`${isMobile ? 'text-xs' : 'text-xs'} font-semibold leading-tight`}
