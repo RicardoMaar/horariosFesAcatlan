@@ -1,17 +1,25 @@
-name: Scrape and Upload Horarios
+name: Scrape and Update Horarios
 
 on:
   schedule:
     - cron: '0 9 * * 5'
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   scrape-and-upload:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -22,15 +30,20 @@ jobs:
 
       - name: Install dependencies
         working-directory: ./backend/scraper
-        run: npm install
+        run: npm ci
 
       - name: Run scraper script
         working-directory: ./backend/scraper
         run: node scraper.js
-      
-      - name: Upload JSON to Supabase Storage
-        working-directory: ./backend/scraper
-        env:
-          SUPABASE_PROJECT_URL: ${{ secrets.SUPABASE_PROJECT_URL }}
-          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-        run: node upload.js
+
+      - name: Commit data changes
+        run: |
+          if [[ -z "$(git status --porcelain data)" ]]; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "chore(data): update horarios"
+          git push
