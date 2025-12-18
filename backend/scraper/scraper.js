@@ -3,7 +3,12 @@ import fetch from 'node-fetch';
 import path from 'path';
 import { JSDOM } from 'jsdom';
 import fs from 'fs';
+import crypto from 'crypto';
+import { fileURLToPath } from 'url';
 const { DOMParser } = new JSDOM().window;
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 /**
  * Scraper para extraer horarios académicos del sistema FES Acatlán UNAM
@@ -181,7 +186,7 @@ class FESAcatlanScraper {
         console.log(`Procesando ${filas.length} filas`);
         
         // Procesar cada fila de la tabla
-        filas.forEach((fila, index) => {
+        filas.forEach((fila) => {
             const textoFila = fila.textContent.trim();
             
             // Detectar fila de encabezado de grupo/semestre
@@ -424,7 +429,8 @@ parsearHorario(horarioStr) {
         const resultado = {
             carreras: {},
             fecha_actualizacion: new Date().toISOString(),
-            total_carreras: Object.keys(this.carreras).length
+            total_carreras: Object.keys(this.carreras).length,
+            carreras_faltantes: []
         };
         
         // Procesar cada carrera secuencialmente
@@ -440,6 +446,9 @@ parsearHorario(horarioStr) {
                     .reduce((sum, m) => sum + m.grupos.length, 0);
                     
                 console.log(`${carreraNombre}: ${totalMaterias} materias, ${totalGrupos} grupos`);
+            } else {
+                const [codigo, nombre] = carreraKey.split(',', 2);
+                resultado.carreras_faltantes.push({ codigo, nombre });
             }
             
             // Delay entre carreras para evitar sobrecarga del servidor
@@ -449,6 +458,34 @@ parsearHorario(horarioStr) {
         return resultado;
     }
 }
+
+const repoRoot = path.resolve(__dirname, '..', '..');
+const dataDir = path.join(repoRoot, 'data');
+const carrerasDir = path.join(dataDir, 'carreras');
+
+const readJsonFile = (filePath) => {
+    try {
+        if (!fs.existsSync(filePath)) {
+            return null;
+        }
+        const raw = fs.readFileSync(filePath, 'utf8');
+        return JSON.parse(raw);
+    } catch (error) {
+        console.error(`Error leyendo JSON: ${filePath}`, error);
+        return null;
+    }
+};
+
+const writeJsonFile = (filePath, data) => {
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    const json = JSON.stringify(data, null, 2);
+    fs.writeFileSync(filePath, json, 'utf8');
+    return json;
+};
+
+const hashContent = (content) => {
+    return crypto.createHash('sha256').update(content).digest('hex');
+};
 
 /**
  * Función principal que ejecuta el scraping completo
@@ -464,17 +501,70 @@ async function main() {
         if (resultado) {
             console.log('✅ Extracción exitosa de todas las carreras');
             console.log(`📊 Total carreras procesadas: ${resultado.total_carreras}`);
-            
-            // Crear directorio de salida si no existe
-            const materiasDir = path.join(process.cwd(), 'materias');
-            if (!fs.existsSync(materiasDir)) {
-                fs.mkdirSync(materiasDir, { recursive: true });
+
+            const metadataPath = path.join(dataDir, 'metadata.json');
+            const previousMetadata = readJsonFile(metadataPath) || { carreras: {} };
+
+            fs.mkdirSync(carrerasDir, { recursive: true });
+
+            const indexData = {
+                fecha_actualizacion: resultado.fecha_actualizacion,
+                total_carreras: resultado.total_carreras,
+                carreras: {},
+                carreras_faltantes: resultado.carreras_faltantes
+            };
+
+            const metadata = {
+                fecha_actualizacion: resultado.fecha_actualizacion,
+                total_carreras: resultado.total_carreras,
+                carreras: {},
+                carreras_faltantes: resultado.carreras_faltantes
+            };
+
+            const changes = {
+                fecha_actualizacion: resultado.fecha_actualizacion,
+                total_carreras: resultado.total_carreras,
+                total_cambios: 0,
+                carreras: []
+            };
+
+            for (const [codigo, carreraData] of Object.entries(resultado.carreras)) {
+                const carreraPath = path.join(carrerasDir, `${codigo}.json`);
+                const carreraJson = writeJsonFile(carreraPath, carreraData);
+                const hash = hashContent(carreraJson);
+
+                const prevMeta = previousMetadata.carreras?.[codigo];
+                const lastChanged = prevMeta && prevMeta.hash === hash
+                    ? prevMeta.last_changed
+                    : resultado.fecha_actualizacion;
+
+                metadata.carreras[codigo] = {
+                    codigo,
+                    nombre: carreraData.nombre,
+                    hash,
+                    last_changed: lastChanged
+                };
+
+                indexData.carreras[codigo] = {
+                    codigo,
+                    nombre: carreraData.nombre
+                };
+
+                if (!prevMeta || prevMeta.hash !== hash) {
+                    changes.carreras.push({
+                        codigo,
+                        nombre: carreraData.nombre
+                    });
+                }
             }
-            
-            // Guardar archivo consolidado con todas las carreras
-            const fileName = path.join(materiasDir, 'todas_carreras.json');
-            fs.writeFileSync(fileName, JSON.stringify(resultado, null, 2), 'utf8');
-            console.log(`📄 Guardado en: ${fileName}`);
+
+            changes.total_cambios = changes.carreras.length;
+
+            writeJsonFile(path.join(dataDir, 'index.json'), indexData);
+            writeJsonFile(metadataPath, metadata);
+            writeJsonFile(path.join(dataDir, 'changes.json'), changes);
+
+            console.log(`📄 Datos guardados en: ${dataDir}`);
         }
         
     } catch (error) {
