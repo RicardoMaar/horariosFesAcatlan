@@ -10,7 +10,7 @@
   ],
   "functions": {
     "api/*.js": {
-      "includedFiles": "data/**"
+      "includeFiles": "data/**"
     }
   },
   "routes": [
