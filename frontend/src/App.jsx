@@ -1,5 +1,5 @@
 import { Toaster } from 'react-hot-toast';
-import { useRef } from 'react';
+import { useMemo, useRef } from 'react';
 import CarreraSelector from './components/CarreraSelector';
 import BuscadorMaterias from './components/BuscadorMaterias';
 import ListaMaterias from './components/ListaMaterias';
@@ -9,12 +9,35 @@ import ExportMenu from './components/ExportMenu';
 import LimpiarHorarioButton from './components/LimpiarHorarioButton';
 import useHorariosStore from './store/useHorariosStore';
 import ExportableCalendar from './components/ExportableCalendar';
+import { useStatus } from './hooks/useStatus';
 
 function App() {
   const carreraSeleccionada = useHorariosStore(state => state.carreraSeleccionada);
   const materiasSeleccionadas = useHorariosStore(state => state.materiasSeleccionadas);
   const coloresAsignados = useHorariosStore(state => state.coloresAsignados);
   const exportableCalendarRef = useRef(null);
+  const { fechaActualizacion, loading: statusLoading } = useStatus();
+
+  const fechaActualizacionTexto = useMemo(() => {
+    if (!fechaActualizacion) {
+      return null;
+    }
+    const date = new Date(fechaActualizacion);
+    if (Number.isNaN(date.getTime())) {
+      return null;
+    }
+    return new Intl.DateTimeFormat('es-MX', {
+      dateStyle: 'medium',
+      timeStyle: 'short',
+      timeZone: 'America/Mexico_City'
+    }).format(date);
+  }, [fechaActualizacion]);
+
+  const statusLabel = fechaActualizacionTexto
+    ? `Actualizado: ${fechaActualizacionTexto} (CDMX)`
+    : statusLoading
+      ? 'Actualizando...'
+      : 'Actualizacion no disponible';
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -32,9 +55,14 @@ function App() {
       <header className="bg-white border-b border-gray-200 sticky top-0 z-40">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-3xl font-handwritten text-primary-700">
-              Horarios FES Acatlán
-            </h1>
+            <div>
+              <h1 className="text-3xl font-handwritten text-primary-700">
+                Horarios FES Acatlán
+              </h1>
+              <p className="text-xs text-gray-500 mt-1">
+                {statusLabel}
+              </p>
+            </div>
             {/* Mostrar botones siempre, pero condicionar funcionalidad */}
             <div className="flex items-center gap-3">
               <LimpiarHorarioButton />

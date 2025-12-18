@@ -3,7 +3,6 @@ import { CLASES_ANIMACION } from '../../constants/calendario';
 
 const BloqueMateria = React.memo(({
   bloque,
-  index,
   scaleFactor = 1,
   isMobile = false,
   esNuevo,
@@ -34,15 +33,15 @@ const BloqueMateria = React.memo(({
   // Construir clases de animación
   let claseAnimacion = CLASES_ANIMACION.BASE;
   if (esNuevo) {
-    claseAnimacion += ` ${CLASES_ANIMACION.ENTRADA} ${CLASES_ANIMACION.STAGGER(index)}`;
+    claseAnimacion += ` ${CLASES_ANIMACION.ENTRADA}`;
   }
   if (seEstaQuitando) {
     claseAnimacion += ` ${CLASES_ANIMACION.SALIDA}`;
   }
-  if (esBloqueDelModal && !seEstaQuitando) {
+  if (esBloqueDelModal && !seEstaQuitando && !esNuevo) {
     claseAnimacion += ` ${CLASES_ANIMACION.MODAL_ACTIVO}`;
   }
-  if (bloque.tieneTraslape && !esBloqueDelModal && !seEstaQuitando) {
+  if (bloque.tieneTraslape && !esBloqueDelModal && !seEstaQuitando && !esNuevo) {
     claseAnimacion += ` ${CLASES_ANIMACION.TRASLAPE}`;
   }
 

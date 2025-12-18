@@ -49,7 +49,6 @@ const GridDias = React.memo(({
               <BloqueMateria
                 key={bloqueKey}
                 bloque={bloque}
-                index={index}
                 scaleFactor={scaleFactor}
                 isMobile={isMobile}
                 esNuevo={esNuevo}
