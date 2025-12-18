@@ -1,7 +1,7 @@
 {
   "codigo": "20321",
   "nombre": "Actuaría",
-  "fecha_consulta": "2025-08-20T01:54:57.192Z",
+  "fecha_consulta": "2025-12-18T07:34:30.346Z",
   "materias": {
     "2031": {
       "nombre": "ANALISIS MULTIVARIADO",
@@ -109,7 +109,7 @@
       "grupos": [
         {
           "grupo": "1751",
-          "profesor": "MONTIEL MENDIZABAL ADRIANA",
+          "profesor": "CAMACHO LOPEZ MARIA OSMARA",
           "horarios": [
             {
               "dia": "VI",
@@ -777,7 +777,7 @@
         },
         {
           "grupo": "1152",
-          "profesor": "DELGADO DIAZ CESAR ADRIAN",
+          "profesor": "OLIVARES AGUAYO HECTOR ALONSO",
           "horarios": [
             {
               "dia": "MI",
@@ -1877,7 +1877,7 @@
         },
         {
           "grupo": "1304",
-          "profesor": "Profesor No Asignado",
+          "profesor": "SANCHEZ LOPEZ FERNANDO",
           "horarios": [
             {
               "dia": "LU",
@@ -1990,7 +1990,7 @@
         },
         {
           "grupo": "1303",
-          "profesor": "CAMPOS RODRIGUEZ LUZ MARIA",
+          "profesor": "VICTORIA AGUILA KARINA",
           "horarios": [
             {
               "dia": "MI",
@@ -2139,7 +2139,7 @@
       "grupos": [
         {
           "grupo": "1401",
-          "profesor": "Profesor No Asignado",
+          "profesor": "VERA MORENO ARTURO",
           "horarios": [
             {
               "dia": "MA",
@@ -2404,6 +2404,31 @@
             }
           ],
           "salon": "A111,A205"
+        },
+        {
+          "grupo": "1653",
+          "profesor": "CARMONA MENDOZA JORGE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "INF. JEFA."
         }
       ]
     },
@@ -2413,7 +2438,7 @@
       "grupos": [
         {
           "grupo": "1501",
-          "profesor": "TORRES RAMOS INGRID CHANTAL",
+          "profesor": "LECUONA SIERRA ENRIQUE",
           "horarios": [
             {
               "dia": "MA",
@@ -2795,7 +2820,7 @@
         },
         {
           "grupo": "1502",
-          "profesor": "CAMPOS RODRIGUEZ LUZ MARIA",
+          "profesor": "VEGA RUIZ DIANA",
           "horarios": [
             {
               "dia": "LU",
@@ -2820,7 +2845,7 @@
         },
         {
           "grupo": "1503",
-          "profesor": "CAMPOS RODRIGUEZ LUZ MARIA",
+          "profesor": "CHAVEZ JUAREZ DULCE ANGELICA",
           "horarios": [
             {
               "dia": "MI",
@@ -2901,7 +2926,7 @@
       "grupos": [
         {
           "grupo": "1501",
-          "profesor": "DEL ANGEL MARTINEZ MELINA NOHEMI",
+          "profesor": "SANCHEZ GONZALEZ ALBERTO GERTZAIN",
           "horarios": [
             {
               "dia": "MA",
@@ -2988,7 +3013,7 @@
       "grupos": [
         {
           "grupo": "1601",
-          "profesor": "TORRES RAMOS INGRID CHANTAL",
+          "profesor": "LEON SANCHEZ EDWIN JOSE",
           "horarios": [
             {
               "dia": "LU",
@@ -3007,7 +3032,7 @@
         },
         {
           "grupo": "1651",
-          "profesor": "Profesor No Asignado",
+          "profesor": "SILVA URRUTIA JOSE ELIUD",
           "horarios": [
             {
               "dia": "JU",
@@ -3076,7 +3101,7 @@
         },
         {
           "grupo": "1652",
-          "profesor": "Profesor No Asignado",
+          "profesor": "LEON SANCHEZ EDWIN JOSE",
           "horarios": [
             {
               "dia": "MA",
@@ -3404,7 +3429,7 @@
         },
         {
           "grupo": "1757",
-          "profesor": "Profesor No Asignado",
+          "profesor": "SANCHEZ LOPEZ FERNANDO",
           "horarios": [
             {
               "dia": "MI",

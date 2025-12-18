@@ -1,7 +1,7 @@
 {
   "codigo": "21121",
   "nombre": "Ingeniería Civil",
-  "fecha_consulta": "2025-08-20T01:56:01.971Z",
+  "fecha_consulta": "2025-12-18T07:35:38.392Z",
   "materias": {
     "1115": {
       "nombre": "INGENIERIA CIVIL Y SOCIEDAD",
@@ -1409,7 +1409,7 @@
         },
         {
           "grupo": "1352",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MALDONADO ORDUÑA IVONNE",
           "horarios": [
             {
               "dia": "MA",
@@ -1963,7 +1963,7 @@
         },
         {
           "grupo": "1553",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ARIAS LARA DAMARIS SARAHI",
           "horarios": [
             {
               "dia": "LU",
@@ -2668,7 +2668,7 @@
         },
         {
           "grupo": "1602",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ARIAS LARA DAMARIS SARAHI",
           "horarios": [
             {
               "dia": "MA",
@@ -2769,7 +2769,7 @@
         },
         {
           "grupo": "1752",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ARIAS LARA DAMARIS SARAHI",
           "horarios": [
             {
               "dia": "MA",
@@ -3449,7 +3449,7 @@
         },
         {
           "grupo": "1951",
-          "profesor": "GUTIERREZ CABRERA FERNANDO",
+          "profesor": "MOLINA PADILLA JULIAN",
           "horarios": [
             {
               "dia": "MA",

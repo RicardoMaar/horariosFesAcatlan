@@ -1,7 +1,7 @@
 {
   "codigo": "20721",
   "nombre": "Derecho",
-  "fecha_consulta": "2025-08-20T01:55:23.624Z",
+  "fecha_consulta": "2025-12-18T07:34:58.380Z",
   "materias": {
     "1102": {
       "nombre": "HIST.D.LAS IDEAS POL.Y ECO.",
@@ -85,7 +85,7 @@
         },
         {
           "grupo": "Q105",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ORTIZ BALDERAS OSCAR ARTURO",
           "horarios": [
             {
               "dia": "MA",
@@ -420,7 +420,7 @@
         },
         {
           "grupo": "Q102",
-          "profesor": "VALENZUELA OSUNA ERNESTO",
+          "profesor": "VALENZUELA OSUNA RAUL ERNESTO",
           "horarios": [
             {
               "dia": "MA",
@@ -534,7 +534,7 @@
         },
         {
           "grupo": "Q108",
-          "profesor": "VALENZUELA OSUNA ERNESTO",
+          "profesor": "VALENZUELA OSUNA RAUL ERNESTO",
           "horarios": [
             {
               "dia": "MI",
@@ -825,7 +825,7 @@
         },
         {
           "grupo": "Q105",
-          "profesor": "ALVAREZ LEON JOSE ANTONIO",
+          "profesor": "CRUZ GARDUÑO MARTHA",
           "horarios": [
             {
               "dia": "MI",
@@ -901,7 +901,7 @@
         },
         {
           "grupo": "Q109",
-          "profesor": "CALATAYUD YEPES JUAN CARLOS",
+          "profesor": "VALENCIA GUZMAN BEATRIZ LIDIA",
           "horarios": [
             {
               "dia": "MI",
@@ -1869,7 +1869,7 @@
         },
         {
           "grupo": "1105",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ORTIZ BALDERAS OSCAR ARTURO",
           "horarios": [
             {
               "dia": "MA",
@@ -2160,7 +2160,7 @@
         },
         {
           "grupo": "1102",
-          "profesor": "VALENZUELA OSUNA ERNESTO",
+          "profesor": "VALENZUELA OSUNA RAUL ERNESTO",
           "horarios": [
             {
               "dia": "MA",
@@ -2274,7 +2274,7 @@
         },
         {
           "grupo": "1108",
-          "profesor": "VALENZUELA OSUNA ERNESTO",
+          "profesor": "VALENZUELA OSUNA RAUL ERNESTO",
           "horarios": [
             {
               "dia": "MI",
@@ -2913,7 +2913,7 @@
         },
         {
           "grupo": "1105",
-          "profesor": "ALVAREZ LEON JOSE ANTONIO",
+          "profesor": "CRUZ GARDUÑO MARTHA",
           "horarios": [
             {
               "dia": "MI",
@@ -2989,7 +2989,7 @@
         },
         {
           "grupo": "1109",
-          "profesor": "CALATAYUD YEPES JUAN CARLOS",
+          "profesor": "VALENCIA GUZMAN BEATRIZ LIDIA",
           "horarios": [
             {
               "dia": "MI",
@@ -3185,7 +3185,7 @@
       "grupos": [
         {
           "grupo": "1110",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ANGELES ROLDAN ALEJANDRA",
           "horarios": [
             {
               "dia": "MI",
@@ -4035,7 +4035,7 @@
         },
         {
           "grupo": "1357",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MENESES SANCHEZ ALEJANDRO",
           "horarios": [
             {
               "dia": "MA",
@@ -4947,7 +4947,7 @@
         },
         {
           "grupo": "1359",
-          "profesor": "Profesor No Asignado",
+          "profesor": "HERNANDEZ GOMEZ CESAR",
           "horarios": [
             {
               "dia": "MA",
@@ -5403,7 +5403,7 @@
         },
         {
           "grupo": "1559",
-          "profesor": "Profesor No Asignado",
+          "profesor": "HERNANDEZ GOMEZ CESAR",
           "horarios": [
             {
               "dia": "MA",
@@ -7063,7 +7063,7 @@
         },
         {
           "grupo": "1704",
-          "profesor": "GOMEZ HERNANDEZ MANUEL MARIANO",
+          "profesor": "GARCIA VEGA ESTEFANIA",
           "horarios": [
             {
               "dia": "MA",
@@ -8263,7 +8263,7 @@
         },
         {
           "grupo": "1754",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ONTIVEROS VAZQUEZ OAOLA JAQUELINE",
           "horarios": [
             {
               "dia": "MA",
@@ -9420,7 +9420,7 @@
         },
         {
           "grupo": "1951",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ONTIVEROS VAZQUEZ OAOLA JAQUELINE",
           "horarios": [
             {
               "dia": "LU",
@@ -9496,7 +9496,7 @@
         },
         {
           "grupo": "1955",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ONTIVEROS VAZQUEZ OAOLA JAQUELINE",
           "horarios": [
             {
               "dia": "LU",
@@ -9901,7 +9901,7 @@
         },
         {
           "grupo": "1959",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ONTIVEROS VAZQUEZ OAOLA JAQUELINE",
           "horarios": [
             {
               "dia": "MA",
@@ -11258,7 +11258,7 @@
       "grupos": [
         {
           "grupo": "1957",
-          "profesor": "PILAR BAHENA RAUL JAIME",
+          "profesor": "ELIZONDO CEDANO XOCHITL",
           "horarios": [
             {
               "dia": "LU",
