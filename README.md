@@ -10,7 +10,7 @@ Sistema integral para consultar y gestionar horarios académicos de la Facultad 
 - **Persistencia**: Los horarios se guardan automáticamente en el navegador
 - **Búsqueda inteligente**: Filtrado por nombre de materia, profesor o código
 - **Colores personalizables**: Sistema de colores determinístico para cada materia
-- **Optimización**: Caché inteligente y rate limiting para mejor rendimiento
+- **Actualización automatizada**: Scraper + GitHub Actions para regenerar datos
 
 ## 🏗️ Arquitectura
 
@@ -21,25 +21,23 @@ Sistema integral para consultar y gestionar horarios académicos de la Facultad 
 - **Animaciones**: Framer Motion para transiciones fluidas
 - **Exportación**: html2canvas, jsPDF y xlsx para múltiples formatos
 
-### Backend (FastAPI)
-- **API REST**: FastAPI con documentación automática OpenAPI
-- **Caché**: Sistema de caché en memoria con validación ETags
-- **Optimización**: Rate limiting (100 req/min) y compresión GZip
-- **CORS**: Configurado para producción y desarrollo local
-- **Salud**: Endpoints de health check y status
+### API (Vercel Functions)
+- **Endpoints**: `/api/status`, `/api/carreras`, `/api/horarios/{codigo}`
+- **Caching**: ETag + Last-Modified para respuestas por carrera
+- **Datos**: Lee JSONs por carrera desde `data/`
 
 ### Scraper (Node.js)
 - **Automatización**: Extrae datos del sistema académico oficial
 - **Procesamiento**: JSDOM para parsing HTML y estructuración de datos
-- **Almacenamiento**: Guarda datos en JSON y opcionalmente en Supabase
-- **Scheduling**: Nodemon para desarrollo con auto-reload
+- **Salida**: `data/carreras/*.json`, `data/index.json`, `data/metadata.json`, `data/changes.json`
+- **Detección de cambios**: Hash SHA-256 por carrera + `last_changed`
 
 ## 📦 Instalación
 
 ### Prerrequisitos
 - Node.js 18+
-- Python 3.8+
 - npm o yarn
+- (Opcional) Vercel CLI para correr la API localmente
 
 ### 1. Clonar el repositorio
 ```bash
@@ -47,21 +45,13 @@ git clone https://github.com/tu-usuario/horariosFesAcatlan.git
 cd horariosFesAcatlan
 ```
 
-### 2. Configurar Backend
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # En Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-### 3. Configurar Frontend
+### 2. Configurar Frontend
 ```bash
 cd frontend
 npm install
 ```
 
-### 4. Configurar Scraper
+### 3. Configurar Scraper
 ```bash
 cd backend/scraper
 npm install
@@ -70,57 +60,34 @@ npm install
 ## 🔧 Configuración
 
 ### Variables de entorno
-
-#### Backend
-Crear archivo `.env` en `/backend/`:
-```env
-HORARIOS_JSON_URL=https://tu-url-de-datos.com/horarios.json
-PORT=8000
-```
-
-#### Scraper (opcional)
-Crear archivo `.env` en `/backend/scraper/`:
-```env
-SUPABASE_URL=tu_supabase_url
-SUPABASE_ANON_KEY=tu_supabase_key
-```
+- `VITE_API_URL` (opcional): URL base de la API en desarrollo. Por defecto usa `/api`.
 
 ## 🚀 Uso
 
 ### Desarrollo
 
-1. **Ejecutar Backend**:
+1. **API local (Vercel)**:
 ```bash
-cd backend
-source venv/bin/activate
-python main.py
+npx vercel dev --listen 3001
 ```
 
-2. **Ejecutar Frontend**:
+2. **Frontend**:
 ```bash
 cd frontend
 npm run dev
 ```
 
-3. **Ejecutar Scraper** (opcional):
+3. **Scraper (manual)**:
 ```bash
 cd backend/scraper
-npm run dev
+node scraper.js
 ```
+Esto regenera los archivos en `data/`.
 
 ### Producción
 
-1. **Build Frontend**:
-```bash
-cd frontend
-npm run build
-```
-
-2. **Deploy Backend**:
-```bash
-cd backend
-gunicorn main:app -w 4 -k uvicorn.workers.UvicornWorker
-```
+- Deploy único en Vercel (frontend + API).
+- El workflow `.github/workflows/scrape.yml` actualiza `data/` automáticamente.
 
 ## 📚 API Endpoints
 
@@ -129,97 +96,60 @@ gunicorn main:app -w 4 -k uvicorn.workers.UvicornWorker
 - `GET /status` - Estado del servicio y fecha de actualización
 - `GET /carreras` - Lista de todas las carreras disponibles
 - `GET /horarios/{carrera_codigo}` - Horarios de una carrera específica
-- `GET /health` - Health check del servicio
 
 ### Ejemplo de respuesta:
 ```json
 {
-  "carreras": {
-    "20121": {
-      "codigo": "20121",
-      "nombre": "Arquitectura"
-    }
+  "20121": {
+    "codigo": "20121",
+    "nombre": "Arquitectura"
   }
 }
 ```
 
-## 🛠️ Scripts Disponibles
+## 🧪 Tests
 
-### Frontend
-- `npm run dev` - Servidor de desarrollo (puerto 3000)
-- `npm run build` - Build para producción
-- `npm run preview` - Preview del build
-- `npm run lint` - Análisis de código con ESLint
+Ejecuta los tests de integridad de datos:
+```bash
+node --test
+```
 
-### Backend
-- `python main.py` - Ejecutar servidor FastAPI
-- `uvicorn main:app --reload` - Servidor con auto-reload
+Validaciones incluidas:
+- Los JSONs en `data/` existen y son consistentes
+- Hashes por carrera correctos
+- Días y horarios válidos
+- Detecta carreras faltantes (`carreras_faltantes`)
 
-### Scraper
-- `npm run dev` - Ejecutar scraper con auto-reload
-- `npm run lint` - Análisis de código
+## 🤖 CI/CD
+
+- **Scraper**: `.github/workflows/scrape.yml` (schedule + push a main)
+- **Tests**: `.github/workflows/ci.yml` (PRs y pushes)
 
 ## 🗂️ Estructura del Proyecto
 
 ```
 horariosFesAcatlan/
+├── api/                      # Vercel Functions
+├── data/                     # JSONs generados por carrera
+│   ├── carreras/
+│   ├── index.json
+│   ├── metadata.json
+│   └── changes.json
 ├── frontend/                 # Aplicación React
 │   ├── src/
-│   │   ├── components/       # Componentes React
-│   │   │   ├── calendario/   # Componentes del calendario
-│   │   │   └── listaMaterias/ # Componentes de lista
-│   │   ├── hooks/           # Custom hooks
-│   │   ├── store/           # Gestión de estado (Zustand)
-│   │   ├── utils/           # Utilidades y helpers
-│   │   └── constants/       # Constantes de la aplicación
-│   ├── public/              # Archivos estáticos
+│   ├── public/
 │   └── package.json
-├── backend/                 # API FastAPI
-│   ├── main.py             # Punto de entrada de la API
-│   ├── requirements.txt    # Dependencias Python
-│   └── scraper/            # Scraper Node.js
-│       ├── scraper.js      # Lógica principal del scraper
-│       ├── upload.js       # Upload a Supabase
-│       ├── materias/       # Datos extraídos
-│       └── package.json
+├── backend/
+│   └── scraper/              # Scraper Node.js
+├── tests/                    # Tests de integridad de datos
 └── README.md
 ```
 
-## 🎨 Características Técnicas
-
-### Frontend
-- **Responsive Design**: Optimizado para desktop y móvil
-- **PWA Ready**: Configurado para Progressive Web App
-- **IndexedDB**: Almacenamiento local para mejor rendimiento
-- **Lazy Loading**: Carga optimizada de componentes
-- **Error Boundaries**: Manejo robusto de errores
-
-### Backend
-- **Async/Await**: Operaciones asíncronas para mejor rendimiento
-- **Middleware**: CORS, compresión GZip y rate limiting
-- **Caché Inteligente**: ETags y Last-Modified headers
-- **Documentación**: OpenAPI/Swagger automática en `/docs`
-
-### Scraper
-- **DOM Parsing**: Extracción robusta de datos HTML
-- **Error Handling**: Manejo de fallos de red y parsing
-- **Data Validation**: Validación de estructura de datos
-- **Flexible Output**: JSON local y cloud storage
-
-## 🔒 Seguridad
-
-- Rate limiting para prevenir abuso de la API
-- Validación de entrada en todos los endpoints
-- CORS configurado específicamente para dominios autorizados
-- Sanitización de datos del scraper
-
 ## 📈 Rendimiento
 
-- Caché en memoria con invalidación inteligente
-- Compresión GZip para reducir transferencia de datos
+- Cache por carrera con ETag y Last-Modified
+- JSONs separados por carrera para respuestas más rápidas
 - Persistencia local para reducir llamadas a la API
-- Lazy loading de componentes React
-- Bundle optimization con Vite
 
 ## 🤝 Contribuir
 
@@ -228,12 +158,6 @@ horariosFesAcatlan/
 3. Commit tus cambios (`git commit -m 'Agregar nueva característica'`)
 4. Push a la rama (`git push origin feature/nueva-caracteristica`)
 5. Abre un Pull Request
-
-### Guidelines de desarrollo
-- Usar ESLint para mantener consistencia de código
-- Escribir tests para nuevas funcionalidades
-- Documentar cambios en la API
-- Seguir convenciones de commit semántico
 
 ## 📝 Licencia
 
@@ -246,25 +170,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 ## 🙏 Agradecimientos
 
 - UNAM FES Acatlán por los datos académicos
-- Comunidad de React y FastAPI
-- Contribuidores del proyecto
-
-## 🐛 Reportar Issues
-
-Si encuentras algún problema o tienes sugerencias:
-1. Revisa los [issues existentes](https://github.com/tu-usuario/horariosFesAcatlan/issues)
-2. Crea un nuevo issue con etiquetas apropiadas
-3. Incluye pasos para reproducir el problema
-
-## 📊 Estado del Proyecto
-
-- ✅ Frontend completo y funcional
-- ✅ Backend API REST con caché
-- ✅ Scraper automatizado
-- ✅ Exportación múltiple formato
-- 🔄 PWA en desarrollo
-- 🔄 Tests unitarios en desarrollo
-- 🔄 CI/CD pipeline en desarrollo
+- Comunidad de React y Vercel
 
 ---
 
