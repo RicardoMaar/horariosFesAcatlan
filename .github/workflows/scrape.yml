@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: '0 9 * * 5'
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   scrape-and-upload:
@@ -36,6 +33,9 @@ jobs:
       - name: Run scraper script
         working-directory: ./backend/scraper
         run: node scraper.js
+
+      - name: Run data integrity tests
+        run: node --test
 
       - name: Create pull request for data update
         uses: peter-evans/create-pull-request@v6
