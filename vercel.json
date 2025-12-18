@@ -1,21 +1,16 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "api/*.js", "use": "@vercel/node" },
-    {
-      "src": "frontend/package.json",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "dist" }
-    }
-  ],
+  "buildCommand": "npm run build --prefix frontend",
+  "installCommand": "npm install --prefix frontend",
+  "outputDirectory": "frontend/dist",
   "functions": {
     "api/*.js": {
       "includeFiles": "data/**"
     }
   },
-  "routes": [
-    { "src": "/api/horarios/([^/]+)", "dest": "/api/horarios.js?codigo=$1" },
-    { "src": "/api/(.*)", "dest": "/api/$1.js" },
-    { "src": "/(.*)", "dest": "/frontend/$1" }
+  "rewrites": [
+    { "source": "/api/horarios/:codigo", "destination": "/api/horarios.js?codigo=:codigo" },
+    { "source": "/api/:path*", "destination": "/api/:path*" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
