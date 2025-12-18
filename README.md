@@ -122,8 +122,16 @@ Validaciones incluidas:
 
 ## 🤖 CI/CD
 
-- **Scraper**: `.github/workflows/scrape.yml` (schedule + push a main)
+- **Scraper**: `.github/workflows/scrape.yml` (schedule + manual)
 - **Tests**: `.github/workflows/ci.yml` (PRs y pushes)
+- **Deploy**: `.github/workflows/deploy.yml` (push a `main` + manual). Corre scraper, tests y despliega a Vercel.
+
+### Secrets requeridos para Deploy (GitHub Actions)
+- `VERCEL_TOKEN`
+- `VERCEL_ORG_ID`
+- `VERCEL_PROJECT_ID`
+
+> Nota: Para evitar despliegues duplicados, desactiva los deployments automáticos de GitHub en Vercel si usas el workflow de deploy.
 
 ## 🗂️ Estructura del Proyecto
 
