@@ -1,7 +1,7 @@
 {
   "codigo": "21021",
   "nombre": "Historia",
-  "fecha_consulta": "2025-08-20T01:55:55.565Z",
+  "fecha_consulta": "2025-12-18T07:35:31.696Z",
   "materias": {
     "1161": {
       "nombre": "GRECIA",
@@ -2016,7 +2016,7 @@
         },
         {
           "grupo": "1351",
-          "profesor": "Profesor No Asignado",
+          "profesor": "TORRES MORENO CLAUDIA IVONE",
           "horarios": [
             {
               "dia": "LU",

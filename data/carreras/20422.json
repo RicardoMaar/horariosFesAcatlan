@@ -1,7 +1,7 @@
 {
   "codigo": "20422",
   "nombre": "Ciencias Políticas y Admon. Pública",
-  "fecha_consulta": "2025-08-20T01:55:10.252Z",
+  "fecha_consulta": "2025-12-18T07:34:44.422Z",
   "materias": {
     "1059": {
       "nombre": "ADMINISTRACION AMBIENTAL MUNICIP",
@@ -78,7 +78,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ALVAREZ DOMINGUEZ MARCO POLO",
           "horarios": [
             {
               "dia": "MA",
@@ -142,7 +142,7 @@
       ]
     },
     "1067": {
-      "nombre": "HDA.PUB. FED., ESTATAL, MUNIC.ME",
+      "nombre": "HDA.PUB.FED. ESTATAL.MUNIC.MEXIC",
       "semestre": "07",
       "grupos": [
         {
@@ -329,7 +329,7 @@
         },
         {
           "grupo": "1102",
-          "profesor": "GORIS MAYANS NORA DEL CONSUELO",
+          "profesor": "RODRIGUEZ HARRIS MIGUEL",
           "horarios": [
             {
               "dia": "MA",
@@ -632,7 +632,7 @@
         },
         {
           "grupo": "1102",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ANDRADE CORDEIRO PAOLA",
           "horarios": [
             {
               "dia": "MA",
@@ -651,7 +651,7 @@
         },
         {
           "grupo": "1103",
-          "profesor": "ALEXANDER RABAGO RUBEN  MAXIMILIANO",
+          "profesor": "PEÑA LLANES JOSE JOEL",
           "horarios": [
             {
               "dia": "LU",
@@ -1104,7 +1104,7 @@
         },
         {
           "grupo": "1351",
-          "profesor": "BUSTAMANTE TORRES JORGE ALONSO",
+          "profesor": "ORTIZ CANSECO LIZETH ARELY",
           "horarios": [
             {
               "dia": "LU",
@@ -1186,7 +1186,7 @@
         },
         {
           "grupo": "1303",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RODRIGUEZ HARRIS MIGUEL",
           "horarios": [
             {
               "dia": "LU",
@@ -1325,7 +1325,7 @@
         },
         {
           "grupo": "1352",
-          "profesor": "Profesor No Asignado",
+          "profesor": "STEZANO PEREZ FEDERICO ANDRES",
           "horarios": [
             {
               "dia": "LU",
@@ -2189,7 +2189,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GARDUÑO CALDERON GABRIEL",
           "horarios": [
             {
               "dia": "LU",
@@ -2365,7 +2365,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CASTILLO CAMPORRO ANA SAGRARIO",
           "horarios": [
             {
               "dia": "LU",
@@ -2403,7 +2403,7 @@
         },
         {
           "grupo": "1703",
-          "profesor": "Profesor No Asignado",
+          "profesor": "TOVAR GORIS ARTURO",
           "horarios": [
             {
               "dia": "LU",
@@ -2980,7 +2980,7 @@
         },
         {
           "grupo": "Q351",
-          "profesor": "BUSTAMANTE TORRES JORGE ALONSO",
+          "profesor": "ORTIZ CANSECO LIZETH ARELY",
           "horarios": [
             {
               "dia": "LU",

@@ -1,7 +1,7 @@
 {
   "codigo": "20425",
   "nombre": "Comunicación",
-  "fecha_consulta": "2025-08-20T01:55:16.844Z",
+  "fecha_consulta": "2025-12-18T07:34:51.342Z",
   "materias": {
     "1111": {
       "nombre": "BASES TEO. DE LA COMUNICACIÓN",
@@ -477,7 +477,7 @@
       "grupos": [
         {
           "grupo": "1101",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CAZAÑAS PALACIOS ROSALINDA",
           "horarios": [
             {
               "dia": "LU",
@@ -534,7 +534,7 @@
         },
         {
           "grupo": "1104",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GONZALEZ RUIZ SANDRA IVETTE",
           "horarios": [
             {
               "dia": "LU",
@@ -1078,7 +1078,7 @@
         },
         {
           "grupo": "1114",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GUTIERREZ PEREZ MELISSA ITZEL",
           "horarios": [
             {
               "dia": "LU",
@@ -1331,7 +1331,7 @@
         },
         {
           "grupo": "1151",
-          "profesor": "MATA SALAZAR MIGUEL ANGEL",
+          "profesor": "ORDOÑEZ AGUILAR MANUEL",
           "horarios": [
             {
               "dia": "LU",
@@ -3538,7 +3538,7 @@
         },
         {
           "grupo": "1505",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ESCUDERO MONTUFAR ALENKAR",
           "horarios": [
             {
               "dia": "LU",
@@ -4766,7 +4766,7 @@
         },
         {
           "grupo": "1753",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ROMERO HURTADO DONOVAN",
           "horarios": [
             {
               "dia": "VI",
@@ -4885,7 +4885,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "MATA SALAZAR MIGUEL ANGEL",
+          "profesor": "MONTELONGO DIAZ BARRIGA  LUZ MARIA",
           "horarios": [
             {
               "dia": "LU",
@@ -5168,7 +5168,7 @@
         },
         {
           "grupo": "1702",
-          "profesor": "Profesor No Asignado",
+          "profesor": "SALCEDO GARCIA VICTORIA EUGENIA",
           "horarios": [
             {
               "dia": "MI",
@@ -5752,7 +5752,7 @@
         },
         {
           "grupo": "1904",
-          "profesor": "TOXTEGA GUEVARA PAOLA",
+          "profesor": "MEDRANO RAMIREZ ERICK EMMANUEL",
           "horarios": [
             {
               "dia": "LU",
@@ -5771,7 +5771,7 @@
         },
         {
           "grupo": "1951",
-          "profesor": "Profesor No Asignado",
+          "profesor": "DAVALOS LUQUE CLAUDIA EVELIA",
           "horarios": [
             {
               "dia": "LU",
@@ -5809,7 +5809,7 @@
         },
         {
           "grupo": "1953",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ESQUIVEL GARCIA CRISTELA BERENICE",
           "horarios": [
             {
               "dia": "LU",

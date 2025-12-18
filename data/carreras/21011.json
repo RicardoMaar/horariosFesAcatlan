@@ -1,7 +1,7 @@
 {
   "codigo": "21011",
   "nombre": "Filosofía",
-  "fecha_consulta": "2025-08-20T01:55:49.257Z",
+  "fecha_consulta": "2025-12-18T07:35:25.070Z",
   "materias": {
     "1170": {
       "nombre": "ANTROPOLOGIA FILOSOFICA I",
@@ -1739,7 +1739,7 @@
       ]
     },
     "1900": {
-      "nombre": "",
+      "nombre": "SEM.INVESTIGACION I (TEOR.FILOSO",
       "semestre": "05",
       "grupos": [
         {
@@ -1764,7 +1764,7 @@
       ]
     },
     "1901": {
-      "nombre": "",
+      "nombre": "SEM.INVESTIGACION I (FILOS.CULTU",
       "semestre": "05",
       "grupos": [
         {
@@ -1789,7 +1789,7 @@
       ]
     },
     "1902": {
-      "nombre": "",
+      "nombre": "SEM.INVESTIGACION I (FILOS.POLIT",
       "semestre": "05",
       "grupos": [
         {
@@ -1814,7 +1814,7 @@
       ]
     },
     "1903": {
-      "nombre": "",
+      "nombre": "SEM.INVESTIGACION I (FILOS.CIENC",
       "semestre": "05",
       "grupos": [
         {

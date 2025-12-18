@@ -1,7 +1,7 @@
 {
   "codigo": "20423",
   "nombre": "Sociología",
-  "fecha_consulta": "2025-08-20T01:56:40.149Z",
+  "fecha_consulta": "2025-12-18T07:36:18.430Z",
   "materias": {
     "1117": {
       "nombre": "ECONOMIA I",
@@ -280,7 +280,7 @@
         },
         {
           "grupo": "1102",
-          "profesor": "Profesor No Asignado",
+          "profesor": "STEZANO PEREZ FEDERICO ANDRES",
           "horarios": [
             {
               "dia": "LU",
@@ -833,7 +833,7 @@
         },
         {
           "grupo": "1351",
-          "profesor": "VEGA NAVARRO WENDY NICOLASA",
+          "profesor": "RECINAS LOPEZ SAUL",
           "horarios": [
             {
               "dia": "LU",
@@ -872,7 +872,7 @@
       ]
     },
     "1327": {
-      "nombre": "SOCIEDAD,ECONOMIA-POLIT. MEX. I",
+      "nombre": "SOCIEDAD ECONOMIA-POLIT. MEXICO",
       "semestre": "03",
       "grupos": [
         {
@@ -959,7 +959,7 @@
       "grupos": [
         {
           "grupo": "1301",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CASTELLO REBOLLAR CLAUDIA",
           "horarios": [
             {
               "dia": "LU",
@@ -978,7 +978,7 @@
         },
         {
           "grupo": "1302",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CERVANTES QUINTANAR SERGIO ALEJANDRO",
           "horarios": [
             {
               "dia": "MA",
@@ -997,7 +997,7 @@
         },
         {
           "grupo": "1351",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RUIZ NUÑEZ ALFONSO",
           "horarios": [
             {
               "dia": "LU",
@@ -1205,7 +1205,7 @@
       "grupos": [
         {
           "grupo": "1501",
-          "profesor": "Profesor No Asignado",
+          "profesor": "DOMINGUEZ LOERA VICTOR HUGO",
           "horarios": [
             {
               "dia": "MA",
@@ -1306,7 +1306,7 @@
         },
         {
           "grupo": "1502",
-          "profesor": "GOMEZ RAMIREZ DENISSE REBECA",
+          "profesor": "MENDOZA LORENZO MONICA",
           "horarios": [
             {
               "dia": "MA",
@@ -1503,7 +1503,7 @@
         },
         {
           "grupo": "1705",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MORENO TREJO ERIKA ALEJANDRA",
           "horarios": [
             {
               "dia": "VI",
@@ -1529,7 +1529,7 @@
         },
         {
           "grupo": "1752",
-          "profesor": "Profesor No Asignado",
+          "profesor": "STEZANO PEREZ FEDERICO ANDRES",
           "horarios": [
             {
               "dia": "MI",
@@ -1631,7 +1631,7 @@
         },
         {
           "grupo": "1752",
-          "profesor": "Profesor No Asignado",
+          "profesor": "OCHOA ALVARADO RUTH STEPHANI",
           "horarios": [
             {
               "dia": "MA",
@@ -1651,7 +1651,7 @@
       ]
     },
     "1775": {
-      "nombre": "SOCIEDAD, VIOLENCIA-FENOM. DELIC",
+      "nombre": "SOCIEDAD VIOLENCIA-FENOM.",
       "semestre": "07",
       "grupos": [
         {
@@ -1700,7 +1700,7 @@
       "grupos": [
         {
           "grupo": "1703",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ARRIOLA HERNANDEZ RENE OMAR",
           "horarios": [
             {
               "dia": "MA",
@@ -1719,7 +1719,7 @@
         },
         {
           "grupo": "1753",
-          "profesor": "VEGA NAVARRO WENDY NICOLASA",
+          "profesor": "ROJAS PAZ LUISA FERNANDA",
           "horarios": [
             {
               "dia": "MA",
@@ -1888,7 +1888,7 @@
       "grupos": [
         {
           "grupo": "1706",
-          "profesor": "Profesor No Asignado",
+          "profesor": "TOLENTINO SANJUAN ALICIA VALENTINA",
           "horarios": [
             {
               "dia": "MA",
@@ -1932,7 +1932,7 @@
       "grupos": [
         {
           "grupo": "1706",
-          "profesor": "Profesor No Asignado",
+          "profesor": "SANCHEZ MARTINEZ NAHUM ABRAM",
           "horarios": [
             {
               "dia": "MA",
@@ -1951,7 +1951,7 @@
         },
         {
           "grupo": "1756",
-          "profesor": "Profesor No Asignado",
+          "profesor": "OLVERA ANTONIO MOISES ALBERTO",
           "horarios": [
             {
               "dia": "MA",
@@ -2034,7 +2034,7 @@
         },
         {
           "grupo": "1905",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MARQUEZ RODRIGUEZ MARTHA ALICIA",
           "horarios": [
             {
               "dia": "VI",
@@ -2123,7 +2123,7 @@
         },
         {
           "grupo": "1952",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ALDABA GUZMAN ANA GEORGINA",
           "horarios": [
             {
               "dia": "LU",
@@ -2148,7 +2148,7 @@
       "grupos": [
         {
           "grupo": "1903",
-          "profesor": "Profesor No Asignado",
+          "profesor": "HERNANDEZ HERNANDEZ MONICA LIZBETH",
           "horarios": [
             {
               "dia": "MA",
@@ -2192,7 +2192,7 @@
       "grupos": [
         {
           "grupo": "1903",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ARRIOLA HERNANDEZ RENE OMAR",
           "horarios": [
             {
               "dia": "MA",
@@ -2587,7 +2587,7 @@
       "grupos": [
         {
           "grupo": "Q753",
-          "profesor": "VEGA NAVARRO WENDY NICOLASA",
+          "profesor": "ROJAS PAZ LUISA FERNANDA",
           "horarios": [
             {
               "dia": "MA",
@@ -2788,6 +2788,50 @@
         }
       ]
     },
+    "2062": {
+      "nombre": "PSICOANALISIS Y SOCIEDAD",
+      "semestre": "08",
+      "grupos": [
+        {
+          "grupo": "Q706",
+          "profesor": "SANCHEZ MARTINEZ NAHUM ABRAM",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-905"
+        },
+        {
+          "grupo": "Q756",
+          "profesor": "OLVERA ANTONIO MOISES ALBERTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "17:00",
+              "fin": "19:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "17:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-902"
+        }
+      ]
+    },
     "2063": {
       "nombre": "REGIONES DE MEXICO",
       "semestre": "08",
@@ -2835,6 +2879,88 @@
             }
           ],
           "salon": "INF.EN JEFA"
+        }
+      ]
+    },
+    "2134": {
+      "nombre": "ECONOMIA I",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "Q101",
+          "profesor": "GAMA CARDENAS JORGE IVAN",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "A-511-A"
+        },
+        {
+          "grupo": "Q102",
+          "profesor": "CASTELLANOS RAMIREZ EDITH",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "A-512"
+        },
+        {
+          "grupo": "Q151",
+          "profesor": "URIBE MATEOS LUIS RODRIGO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "19:00",
+              "fin": "21:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "19:00",
+              "fin": "21:00"
+            }
+          ],
+          "salon": "A-511-A"
+        },
+        {
+          "grupo": "Q152",
+          "profesor": "NEGRETE TORRES ISRAEL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "17:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "17:00"
+            }
+          ],
+          "salon": "A-512"
         }
       ]
     },
@@ -3479,7 +3605,7 @@
         },
         {
           "grupo": "Q351",
-          "profesor": "VEGA NAVARRO WENDY NICOLASA",
+          "profesor": "RECINAS LOPEZ SAUL",
           "horarios": [
             {
               "dia": "LU",
@@ -3895,7 +4021,7 @@
         },
         {
           "grupo": "Q502",
-          "profesor": "GOMEZ RAMIREZ DENISSE REBECA",
+          "profesor": "MENDOZA LORENZO MONICA",
           "horarios": [
             {
               "dia": "MA",
@@ -4157,7 +4283,7 @@
         },
         {
           "grupo": "Q905",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MARQUEZ RODRIGUEZ MARTHA ALICIA",
           "horarios": [
             {
               "dia": "VI",
@@ -4208,7 +4334,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ARRIOLA HERNANDEZ RENE OMAR",
           "horarios": [
             {
               "dia": "MA",
@@ -4258,7 +4384,7 @@
       "grupos": [
         {
           "grupo": "1751",
-          "profesor": "Profesor No Asignado",
+          "profesor": "STEZANO PEREZ FEDERICO ANDRES",
           "horarios": [
             {
               "dia": "MA",
@@ -4358,7 +4484,7 @@
       "grupos": [
         {
           "grupo": "1951",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ESPINO ORTIZ MARIA ESTEFANIA",
           "horarios": [
             {
               "dia": "MA",
@@ -4383,7 +4509,7 @@
       "grupos": [
         {
           "grupo": "1951",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ORTIZ CANSECO LIZETH ARELY",
           "horarios": [
             {
               "dia": "VI",

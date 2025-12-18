@@ -1,7 +1,7 @@
 {
   "codigo": "20421",
   "nombre": "Relaciones Internacionales",
-  "fecha_consulta": "2025-08-20T01:56:33.757Z",
+  "fecha_consulta": "2025-12-18T07:36:11.726Z",
   "materias": {
     "1089": {
       "nombre": "ACCION EXTERIOR DE GOBIERNOS LOC",
@@ -712,7 +712,7 @@
       "grupos": [
         {
           "grupo": "1101",
-          "profesor": "DEL CASTILLO FRAGOSO ENRIQUE",
+          "profesor": "GONZALEZ VIVEROS LILIANA DEYANIRA",
           "horarios": [
             {
               "dia": "LU",
@@ -1942,7 +1942,7 @@
         },
         {
           "grupo": "1351",
-          "profesor": "GUTIERREZ CABRERA FERNANDO",
+          "profesor": "SILVA OROZCO JORGE ALBERTO",
           "horarios": [
             {
               "dia": "MA",
@@ -3567,7 +3567,7 @@
         },
         {
           "grupo": "1753",
-          "profesor": "Profesor No Asignado",
+          "profesor": "NAVA GALINDO ERICK",
           "horarios": [
             {
               "dia": "MA",
@@ -3649,7 +3649,7 @@
         },
         {
           "grupo": "1751",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MUCIÑO MARTINEZ LETICIA",
           "horarios": [
             {
               "dia": "MA",
@@ -4718,7 +4718,7 @@
         },
         {
           "grupo": "Q753",
-          "profesor": "Profesor No Asignado",
+          "profesor": "NAVA GALINDO ERICK",
           "horarios": [
             {
               "dia": "MA",

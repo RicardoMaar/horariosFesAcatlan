@@ -1,7 +1,7 @@
 {
   "codigo": "20821",
   "nombre": "Economía",
-  "fecha_consulta": "2025-08-20T01:55:36.652Z",
+  "fecha_consulta": "2025-12-18T07:35:11.828Z",
   "materias": {
     "2113": {
       "nombre": "CONTABILIDAD GENERAL Y DE COSTOS",
@@ -615,6 +615,25 @@
           "salon": "A-523"
         },
         {
+          "grupo": "1104",
+          "profesor": "OCHOA ALVARADO RUTH STEPHANI",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "12:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "12:30"
+            }
+          ],
+          "salon": "INF. JEFA."
+        },
+        {
           "grupo": "1151",
           "profesor": "MARIN ALVAREZ RAUL",
           "horarios": [
@@ -635,7 +654,7 @@
         },
         {
           "grupo": "1152",
-          "profesor": "Profesor No Asignado",
+          "profesor": "WERNLI SABANERO VALTER YESUA",
           "horarios": [
             {
               "dia": "LU",
@@ -1254,7 +1273,7 @@
       "grupos": [
         {
           "grupo": "1301",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MARTINEZ ZAPATA LUIS FERNANDO",
           "horarios": [
             {
               "dia": "LU",
@@ -1273,7 +1292,7 @@
         },
         {
           "grupo": "1302",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GOMEZ OCHOA JOSE GABRIEL",
           "horarios": [
             {
               "dia": "LU",
@@ -1292,7 +1311,7 @@
         },
         {
           "grupo": "1303",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ROSAS CERVANTES MIRIAM AURORA",
           "horarios": [
             {
               "dia": "LU",
@@ -1456,7 +1475,7 @@
       "grupos": [
         {
           "grupo": "Q301",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MARTINEZ ZAPATA LUIS FERNANDO",
           "horarios": [
             {
               "dia": "LU",
@@ -1860,7 +1879,7 @@
         },
         {
           "grupo": "1552",
-          "profesor": "Profesor No Asignado",
+          "profesor": "LUNA RIVERA ISRAEL",
           "horarios": [
             {
               "dia": "LU",
@@ -2262,7 +2281,7 @@
         },
         {
           "grupo": "1554",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ARELLANO AGUILAR ANDRES",
           "horarios": [
             {
               "dia": "LU",

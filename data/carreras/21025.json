@@ -1,7 +1,7 @@
 {
   "codigo": "21025",
   "nombre": "Pedagogía",
-  "fecha_consulta": "2025-08-20T01:56:21.187Z",
+  "fecha_consulta": "2025-12-18T07:35:58.494Z",
   "materias": {
     "1129": {
       "nombre": "DESARROLLO HUMANO Y PROFESIONAL",
@@ -712,7 +712,7 @@
       ]
     },
     "1135": {
-      "nombre": "DESARROLLO HUM Y PROF",
+      "nombre": "DESARROLLO HUMANO Y PROFESIONAL",
       "semestre": "01",
       "grupos": [
         {
@@ -952,7 +952,7 @@
       ]
     },
     "1137": {
-      "nombre": "INTR PENSA Y TEO PEDAG",
+      "nombre": "INTROD.PENSAM.Y TEORIA PEDAGOGIC",
       "semestre": "01",
       "grupos": [
         {
@@ -1180,7 +1180,7 @@
       ]
     },
     "1139": {
-      "nombre": "PARAD PSICO EDUCACION",
+      "nombre": "PARADIGMAS PSICOLOGICOS EN EDUCA",
       "semestre": "01",
       "grupos": [
         {
@@ -1300,7 +1300,7 @@
       ]
     },
     "1140": {
-      "nombre": "PEN POL ECON ANALIS EDUCA",
+      "nombre": "PENSAM.POLIT.ECON.ANALIS.DE LA E",
       "semestre": "01",
       "grupos": [
         {
@@ -1564,7 +1564,7 @@
         },
         {
           "grupo": "1302",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ORTEGA OJEDA LINA ZYTHELLA",
           "horarios": [
             {
               "dia": "MA",
@@ -1621,7 +1621,7 @@
         },
         {
           "grupo": "1351",
-          "profesor": "GUTIERREZ GARCIA ALMA BEATRIZ",
+          "profesor": "SOLIS MENDOZA FRANCISCO JAVIER",
           "horarios": [
             {
               "dia": "LU",
@@ -2777,7 +2777,7 @@
         },
         {
           "grupo": "1502",
-          "profesor": "GERBER WEISENBERG DANIEL",
+          "profesor": "SALAZAR GARCIA DANIELA",
           "horarios": [
             {
               "dia": "LU",
@@ -2878,7 +2878,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "TREJO GONZALEZ MA. DE LOS ANGELES",
+          "profesor": "PICAZO VILLASEÑOR NANCY",
           "horarios": [
             {
               "dia": "LU",
@@ -3134,7 +3134,7 @@
         },
         {
           "grupo": "1704",
-          "profesor": "GUTIERREZ GARCIA ALMA BEATRIZ",
+          "profesor": "GUTIERREZ RODRIGUEZ ROSA MARTHA",
           "horarios": [
             {
               "dia": "MA",
@@ -3218,7 +3218,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "CARRILLO CASTREJON NAPOLEON",
+          "profesor": "SOLIS SOLIS MARIA DE JESUS",
           "horarios": [
             {
               "dia": "VI",
@@ -3244,7 +3244,7 @@
         },
         {
           "grupo": "1703",
-          "profesor": "GUTIERREZ GARCIA ALMA BEATRIZ",
+          "profesor": "CRUZ RAMOS LAURA",
           "horarios": [
             {
               "dia": "VI",
@@ -3440,7 +3440,7 @@
         },
         {
           "grupo": "1751",
-          "profesor": "GUTIERREZ GARCIA ALMA BEATRIZ",
+          "profesor": "PEREZ MORALES CONSUELO ELIZABETH",
           "horarios": [
             {
               "dia": "LU",
@@ -3567,7 +3567,7 @@
         },
         {
           "grupo": "1505",
-          "profesor": "Profesor No Asignado",
+          "profesor": "SAUCEDO ALVAREZ ANDREA",
           "horarios": [
             {
               "dia": "MI",
@@ -3612,7 +3612,7 @@
       "grupos": [
         {
           "grupo": "1501",
-          "profesor": "Profesor No Asignado",
+          "profesor": "BARCENAS ALEMAN SANDRA",
           "horarios": [
             {
               "dia": "MI",
@@ -3650,7 +3650,7 @@
       "grupos": [
         {
           "grupo": "1501",
-          "profesor": "VIVAR MARTINEZ GABRIELA",
+          "profesor": "PALOMAR MORALES MARIA EVANGELINA",
           "horarios": [
             {
               "dia": "MA",
@@ -3663,7 +3663,7 @@
         },
         {
           "grupo": "1502",
-          "profesor": "GONZALEZ JARAMILLO MA. DE LUZ GRACIELA",
+          "profesor": "VIVAR MARTINEZ GABRIELA",
           "horarios": [
             {
               "dia": "MA",
@@ -3727,7 +3727,7 @@
       "grupos": [
         {
           "grupo": "1501",
-          "profesor": "GUTIERREZ GARCIA ALMA BEATRIZ",
+          "profesor": "LEMUS MENDEZ LAURA",
           "horarios": [
             {
               "dia": "MA",
@@ -3861,7 +3861,7 @@
         },
         {
           "grupo": "1702",
-          "profesor": "GUTIERREZ GARCIA ALMA BEATRIZ",
+          "profesor": "PALOMAR MORALES MARIA EVANGELINA",
           "horarios": [
             {
               "dia": "VI",

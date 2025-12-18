@@ -1,7 +1,7 @@
 {
   "codigo": "20226",
   "nombre": "Diseño Gráfico",
-  "fecha_consulta": "2025-08-20T01:55:30.180Z",
+  "fecha_consulta": "2025-12-18T07:35:05.159Z",
   "materias": {
     "2000": {
       "nombre": "HABILIDADES INTERPERSONALES",
@@ -99,7 +99,7 @@
       "grupos": [
         {
           "grupo": "1501",
-          "profesor": "VAZQUEZ MARTINEZ BLANCA EDITH",
+          "profesor": "ESTRADA ZARAZUA ANABELL",
           "horarios": [
             {
               "dia": "VI",
@@ -112,7 +112,7 @@
         },
         {
           "grupo": "1503",
-          "profesor": "VAZQUEZ MARTINEZ BLANCA EDITH",
+          "profesor": "ESTRADA ZARAZUA ANABELL",
           "horarios": [
             {
               "dia": "VI",
@@ -125,7 +125,7 @@
         },
         {
           "grupo": "1551",
-          "profesor": "ROMERO RAMIREZ MARIA GUADALUPE",
+          "profesor": "VAZQUEZ GONZALEZ OSCAR",
           "horarios": [
             {
               "dia": "LU",
@@ -389,7 +389,7 @@
       "grupos": [
         {
           "grupo": "1702",
-          "profesor": "VAZQUEZ MARTINEZ BLANCA EDITH",
+          "profesor": "BONIFACIO GUZMAN KENYA GUADALUPE",
           "horarios": [
             {
               "dia": "JU",
@@ -402,7 +402,7 @@
         },
         {
           "grupo": "1703",
-          "profesor": "VAZQUEZ MARTINEZ BLANCA EDITH",
+          "profesor": "MORENO HERNANDEZ MAURICIO",
           "horarios": [
             {
               "dia": "MA",
@@ -428,7 +428,7 @@
         },
         {
           "grupo": "1751",
-          "profesor": "ROMERO RAMIREZ MARIA GUADALUPE",
+          "profesor": "BONIFACIO GUZMAN KENYA GUADALUPE",
           "horarios": [
             {
               "dia": "MA",
@@ -473,7 +473,7 @@
       "grupos": [
         {
           "grupo": "1703",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GONZALEZ GARCIA IVAN ULISES",
           "horarios": [
             {
               "dia": "LU",
@@ -1922,7 +1922,7 @@
         },
         {
           "grupo": "1103",
-          "profesor": "ARREOLA LOEZA JUDITH",
+          "profesor": "CARDENAS VARGAS ANA MARIA",
           "horarios": [
             {
               "dia": "MI",
@@ -2068,6 +2068,19 @@
             }
           ],
           "salon": "A-324"
+        },
+        {
+          "grupo": "1306",
+          "profesor": "ESTRADA ZARAZUA ANABELL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-1524"
         },
         {
           "grupo": "1351",
@@ -2933,7 +2946,7 @@
       "grupos": [
         {
           "grupo": "1301",
-          "profesor": "ARREOLA LOEZA JUDITH",
+          "profesor": "CARDENAS VARGAS ANA MARIA",
           "horarios": [
             {
               "dia": "MI",
@@ -2998,7 +3011,7 @@
         },
         {
           "grupo": "1351",
-          "profesor": "ARREOLA LOEZA JUDITH",
+          "profesor": "CARDENAS VARGAS ANA MARIA",
           "horarios": [
             {
               "dia": "JU",
