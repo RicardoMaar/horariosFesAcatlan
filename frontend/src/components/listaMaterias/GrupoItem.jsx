@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { startTransition } from 'react';
 import { ANIMATION_CONFIG } from '../../constants/listaMaterias';
 
 const GrupoItem = React.memo(({
@@ -26,7 +26,9 @@ const GrupoItem = React.memo(({
         horarios: grupo.horarios,
         semestre: materia.semestre
       };
-      onClickDetalle(materiaConGrupo);
+      startTransition(() => {
+        onClickDetalle(materiaConGrupo);
+      });
     }
   };
 
@@ -37,7 +39,7 @@ const GrupoItem = React.memo(({
   return (
     <div
       className={`
-        grupo-item px-3 py-2 text-xs border-t border-gray-100 transition-all duration-200 cursor-pointer
+        grupo-item px-3 py-2 text-xs border-t border-gray-100 transition-opacity transition-transform transition-colors duration-200 cursor-pointer
         ${seleccionada ? 'bg-primary-50' : 'hover:bg-white'}
         ${tieneTraslape ? 'bg-red-50' : ''}
         ${expandido 

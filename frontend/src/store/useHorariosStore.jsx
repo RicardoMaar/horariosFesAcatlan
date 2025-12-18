@@ -168,10 +168,18 @@ const useHorariosStore = create(
         }));
       },
       
-      abrirModal: (materiaConGrupo) => set({ 
-        modalAbierto: true, 
-        materiaEnModal: materiaConGrupo,
-        bloqueModalActivo: materiaConGrupo
+      abrirModal: (materiaConGrupo) => set((state) => {
+        const actual = state.materiaEnModal;
+        const mismoId = actual?.id && materiaConGrupo?.id && actual.id === materiaConGrupo.id;
+        const mismoGrupo = actual?.grupo && materiaConGrupo?.grupo && actual.grupo === materiaConGrupo.grupo;
+        if (state.modalAbierto && mismoId && (mismoGrupo || !materiaConGrupo?.grupo)) {
+          return {};
+        }
+        return {
+          modalAbierto: true,
+          materiaEnModal: materiaConGrupo,
+          bloqueModalActivo: materiaConGrupo
+        };
       }),
       
       cerrarModal: () => set({ 
