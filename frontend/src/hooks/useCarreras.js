@@ -1,10 +1,8 @@
 import { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
-import { useIndexedDB } from './useIndexedDB';
 import useHorariosStore from '../store/useHorariosStore';
 import toast from 'react-hot-toast';
-
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000/api';
+import { API_BASE } from '../constants/api';
 
 export function useCarreras() {
   const [carreras, setCarreras] = useState(null);

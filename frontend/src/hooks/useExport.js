@@ -92,7 +92,7 @@ export function useExport() {
       hours.push(`${h.toString().padStart(2, '0')}:00`);
     }
 
-    return hours.map((hora, index) => `
+    return hours.map((hora) => `
       <div style="
         background-color: #f9fafb; 
         height: 36.4px; 
@@ -129,7 +129,7 @@ export function useExport() {
         materia.horarios && materia.horarios.some(horario => horario.dia === dia)
       );
 
-      const slotsHTML = hoursSlots.map((_, index) => `
+      const slotsHTML = hoursSlots.map(() => `
         <div style="
           border-top: 1px solid #e5e7eb;
           border-right: 1px solid #e5e7eb;
