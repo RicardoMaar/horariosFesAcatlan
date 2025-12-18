@@ -1,0 +1,75 @@
+{
+  "fecha_actualizacion": "2025-08-20T01:54:53.422Z",
+  "total_carreras": 17,
+  "total_cambios": 17,
+  "carreras": [
+    {
+      "codigo": "20121",
+      "nombre": "Arquitectura"
+    },
+    {
+      "codigo": "20226",
+      "nombre": "Diseño Gráfico"
+    },
+    {
+      "codigo": "20321",
+      "nombre": "Actuaría"
+    },
+    {
+      "codigo": "20421",
+      "nombre": "Relaciones Internacionales"
+    },
+    {
+      "codigo": "20422",
+      "nombre": "Ciencias Políticas y Admon. Pública"
+    },
+    {
+      "codigo": "20423",
+      "nombre": "Sociología"
+    },
+    {
+      "codigo": "20424",
+      "nombre": "Periodismo y Comunicación Colectiva"
+    },
+    {
+      "codigo": "20425",
+      "nombre": "Comunicación"
+    },
+    {
+      "codigo": "20721",
+      "nombre": "Derecho"
+    },
+    {
+      "codigo": "20821",
+      "nombre": "Economía"
+    },
+    {
+      "codigo": "21011",
+      "nombre": "Filosofía"
+    },
+    {
+      "codigo": "21013",
+      "nombre": "Lengua y Literatura Hispánicas"
+    },
+    {
+      "codigo": "21021",
+      "nombre": "Historia"
+    },
+    {
+      "codigo": "21025",
+      "nombre": "Pedagogía"
+    },
+    {
+      "codigo": "21121",
+      "nombre": "Ingeniería Civil"
+    },
+    {
+      "codigo": "24022",
+      "nombre": "Matemáticas. Apl. y Comp."
+    },
+    {
+      "codigo": "24121",
+      "nombre": "Enseñanza de Inglés"
+    }
+  ]
+}

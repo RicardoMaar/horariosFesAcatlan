@@ -1,0 +1,3412 @@
+{
+  "codigo": "20821",
+  "nombre": "Economía",
+  "fecha_consulta": "2025-08-20T01:55:36.652Z",
+  "materias": {
+    "2113": {
+      "nombre": "CONTABILIDAD GENERAL Y DE COSTOS",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "Q101",
+          "profesor": "CASTELLANOS RAMIREZ EDITH",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "10:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "10:30"
+            }
+          ],
+          "salon": "A-521"
+        }
+      ]
+    },
+    "2115": {
+      "nombre": "INTRODUCCION A LA ECONOMIA",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "Q101",
+          "profesor": "ISAAC EGURROLA JORGE EDUARDO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "08:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "08:30"
+            }
+          ],
+          "salon": "A-521"
+        }
+      ]
+    },
+    "2116": {
+      "nombre": "MATEMATICAS I",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "Q101",
+          "profesor": "RODRIGUEZ MENDEZ SERGIO TRINIDAD",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "A-521"
+        }
+      ]
+    },
+    "2120": {
+      "nombre": "ALGEBRA LINEAL",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "RODRIGUEZ MENDEZ SERGIO TRINIDAD",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "A-521"
+        },
+        {
+          "grupo": "1102",
+          "profesor": "LOPEZ DIAZ ZAIRA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "A-522"
+        },
+        {
+          "grupo": "1103",
+          "profesor": "LINARES SANCHEZ NELLY ESMERALDA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "A-523"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "LOPEZ CASTRO ANA LILIA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:00",
+              "fin": "17:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "17:00"
+            }
+          ],
+          "salon": "A-521"
+        },
+        {
+          "grupo": "1152",
+          "profesor": "VIVEROS JIMENEZ ANA LAURA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:00",
+              "fin": "17:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "17:00"
+            }
+          ],
+          "salon": "A-522"
+        }
+      ]
+    },
+    "2121": {
+      "nombre": "CONTABILIDAD GENERAL Y DE COSTOS",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "CASTELLANOS RAMIREZ EDITH",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "10:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "10:30"
+            }
+          ],
+          "salon": "A-521"
+        },
+        {
+          "grupo": "1102",
+          "profesor": "PEREZ PEREZ GUSTAVO ALBERTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "10:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "10:30"
+            }
+          ],
+          "salon": "A-522"
+        },
+        {
+          "grupo": "1103",
+          "profesor": "SANCHEZ DE LABRA JORGE ALFONSO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "10:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "10:30"
+            }
+          ],
+          "salon": "A-523"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "MADRAZO GRANADOS JESUS ADRIAN",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:30",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:30",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-521"
+        },
+        {
+          "grupo": "1152",
+          "profesor": "RODRIGUEZ SERRANO RICARDO ISAAC",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:30",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:30",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-522"
+        }
+      ]
+    },
+    "2122": {
+      "nombre": "GEOGRAFIA ECONOMICA",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "HERNANDEZ ESQUIVEL JUAN CARLOS",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "09:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-521"
+        },
+        {
+          "grupo": "1102",
+          "profesor": "ROMERO MERCADO JUDITH",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "09:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-522"
+        },
+        {
+          "grupo": "1103",
+          "profesor": "TOLENTINO MARTINEZ JESSICA MARIELA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "09:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-523"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "ARRENDONDO VAZQUEZ ALEJANDRA VIANEY",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-521"
+        },
+        {
+          "grupo": "1152",
+          "profesor": "ROMERO MERCADO JUDITH",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-522"
+        }
+      ]
+    },
+    "2123": {
+      "nombre": "HIST. ECONOMICA Y SOCIAL MUND I",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "GARCIA MANZANO JESUS JAVIER",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "09:00",
+              "fin": "10:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "10:30"
+            }
+          ],
+          "salon": "A-521"
+        },
+        {
+          "grupo": "1102",
+          "profesor": "MARTINEZ NORIEGA HERI",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "09:00",
+              "fin": "10:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "10:30"
+            }
+          ],
+          "salon": "A-522"
+        },
+        {
+          "grupo": "1103",
+          "profesor": "RUEDAS BAÑUELOS EDUARDO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "09:00",
+              "fin": "10:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "10:30"
+            }
+          ],
+          "salon": "A-523"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "SOLANO SANCHEZ MIRIAM",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "17:00",
+              "fin": "18:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "17:00",
+              "fin": "18:30"
+            }
+          ],
+          "salon": "A-522"
+        },
+        {
+          "grupo": "1152",
+          "profesor": "MARIN ALVAREZ RAUL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "17:00",
+              "fin": "18:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "17:00",
+              "fin": "18:30"
+            }
+          ],
+          "salon": "A-521"
+        }
+      ]
+    },
+    "2124": {
+      "nombre": "INTRODUCCION A LA ECONOMIA",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "ISAAC EGURROLA JORGE EDUARDO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "08:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "08:30"
+            }
+          ],
+          "salon": "A-521"
+        },
+        {
+          "grupo": "1102",
+          "profesor": "MADRAZO GRANADOS FRANCISCO EDUARDO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "08:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "08:30"
+            }
+          ],
+          "salon": "A-522"
+        },
+        {
+          "grupo": "1103",
+          "profesor": "MELO CEPEDA PAOLA ANDREA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "08:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "08:30"
+            }
+          ],
+          "salon": "A-523"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "COLLA FREGONESE NORBERTO DANIEL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "16:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "16:30"
+            }
+          ],
+          "salon": "A-521"
+        },
+        {
+          "grupo": "1152",
+          "profesor": "VILLALOBOS SOSA AIDA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "16:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "16:30"
+            }
+          ],
+          "salon": "A-522"
+        }
+      ]
+    },
+    "2125": {
+      "nombre": "SOCIEDAD Y POLITICA I",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "HURTADO JACINTO BERTHA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "12:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "12:30"
+            }
+          ],
+          "salon": "A-521"
+        },
+        {
+          "grupo": "1102",
+          "profesor": "GONZALEZ LOPEZ CARLOS GABRIEL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "12:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "12:30"
+            }
+          ],
+          "salon": "A-522"
+        },
+        {
+          "grupo": "1103",
+          "profesor": "MARTINEZ CHAVEZ LUIS GONZALO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "12:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "12:30"
+            }
+          ],
+          "salon": "A-523"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "MARIN ALVAREZ RAUL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:30",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:30",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-521"
+        },
+        {
+          "grupo": "1152",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:30",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:30",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-522"
+        }
+      ]
+    },
+    "2300": {
+      "nombre": "CUENTAS NACIONALES",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "Q303",
+          "profesor": "HERNANDEZ RAMOS ULISES",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-1522"
+        }
+      ]
+    },
+    "2302": {
+      "nombre": "ECONOMIA POLITICA II",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "Q301",
+          "profesor": "CANDELARIA WEBSTER PABLO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "10:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "10:30"
+            }
+          ],
+          "salon": "A-514"
+        }
+      ]
+    },
+    "2303": {
+      "nombre": "MICROECONOMIA II",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "Q301",
+          "profesor": "REYES MEJIA INOCENTE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "08:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "08:30"
+            }
+          ],
+          "salon": "A-514"
+        }
+      ]
+    },
+    "2304": {
+      "nombre": "MICROECONOMIA KEYNESIANA",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "Q501",
+          "profesor": "RIOS ALVAREZ ESPERANZA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "08:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "08:30"
+            }
+          ],
+          "salon": "A-1123"
+        }
+      ]
+    },
+    "2305": {
+      "nombre": "MATEMATICAS III",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "Q301",
+          "profesor": "REYES DE LA ROSA JOSE ALBERTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "A-516"
+        }
+      ]
+    },
+    "2320": {
+      "nombre": "CALCULO INTEGRAL",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "REYES DE LA ROSA JOSE ALBERTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "A-516"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "VITE MARTINEZ DOMINGO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "A-515"
+        },
+        {
+          "grupo": "1303",
+          "profesor": "JIMENEZ NORIEGA LETICIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "A-514"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "LOPEZ CASTRO ANA LILIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "17:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "17:00"
+            }
+          ],
+          "salon": "A-515"
+        },
+        {
+          "grupo": "1352",
+          "profesor": "BORRAYO LOPEZ RAFAEL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "17:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "17:00"
+            }
+          ],
+          "salon": "A-514"
+        }
+      ]
+    },
+    "2321": {
+      "nombre": "CONTABILIDAD SOCIAL Y CTAS.NALES",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "HUITRON MENDOZA JOSE ANTONIO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-524"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "CORDOVA AQUINO RAMON HUMBERTO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-1123"
+        },
+        {
+          "grupo": "1303",
+          "profesor": "HERNANDEZ RAMOS ULISES",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-1522"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "RASGADO SANTIAGO FELIPE",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-523"
+        },
+        {
+          "grupo": "1352",
+          "profesor": "TORRES CORONA MARIA TERESA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-524"
+        }
+      ]
+    },
+    "2322": {
+      "nombre": "ESTRUCTURA DE MERCADOS",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "REYES MEJIA INOCENTE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "08:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "08:30"
+            }
+          ],
+          "salon": "A-514"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "PEREZ DE LA TORRE JOSE FRANCISCO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "08:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "08:30"
+            }
+          ],
+          "salon": "A-516"
+        },
+        {
+          "grupo": "1303",
+          "profesor": "AGUILAR SANCHEZ JOSE ALFREDO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "08:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "08:30"
+            }
+          ],
+          "salon": "A-516-A"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "VIVEROS JIMENEZ ANA LAURA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "19:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "19:30"
+            }
+          ],
+          "salon": "A-523"
+        },
+        {
+          "grupo": "1352",
+          "profesor": "ROBLES CONTRERAS GABRIEL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "19:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "19:30"
+            }
+          ],
+          "salon": "A-514"
+        }
+      ]
+    },
+    "2324": {
+      "nombre": "HISTORIA ECONOMICA-SOCIAL MEXICO",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "BRAVO CARRILLO MARCOS ZAID",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-514"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "MARTINEZ CHAVEZ LUIS GONZALO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-1123"
+        },
+        {
+          "grupo": "1303",
+          "profesor": "DEGANTE CASTAÑEDA ARMANDO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-1522"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "MARIN ALVAREZ RAUL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:30",
+              "fin": "20:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:30",
+              "fin": "20:30"
+            }
+          ],
+          "salon": "A-523"
+        },
+        {
+          "grupo": "1352",
+          "profesor": "SOLANO SANCHEZ MIRIAM",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:30",
+              "fin": "20:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:30",
+              "fin": "20:30"
+            }
+          ],
+          "salon": "A-524"
+        }
+      ]
+    },
+    "2325": {
+      "nombre": "HISTORIA ECONOMICA-SOCIAL AMER.L",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "NEGRETE TORRES ISRAEL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "12:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "12:30"
+            }
+          ],
+          "salon": "A-523"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "DEGANTE CASTAÑEDA ARMANDO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "12:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "12:30"
+            }
+          ],
+          "salon": "A-526"
+        },
+        {
+          "grupo": "1303",
+          "profesor": "GARCIA OSORIO DIEGO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "12:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "12:30"
+            }
+          ],
+          "salon": "A-524-A"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "ARRENDONDO VAZQUEZ ALEJANDRA VIANEY",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:30",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:30",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-523"
+        },
+        {
+          "grupo": "1352",
+          "profesor": "DEGANTE CASTAÑEDA ARMANDO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:30",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:30",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-524"
+        }
+      ]
+    },
+    "2326": {
+      "nombre": "MACROECONOMIA KEYNESIANA I",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "12:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "12:30"
+            }
+          ],
+          "salon": "A-524"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "12:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "12:30"
+            }
+          ],
+          "salon": "A-1123"
+        },
+        {
+          "grupo": "1303",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "12:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "12:30"
+            }
+          ],
+          "salon": "A-1522"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "GOMEZ OCHOA JOSE GABRIEL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:00",
+              "fin": "16:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "16:30"
+            }
+          ],
+          "salon": "A-523"
+        },
+        {
+          "grupo": "1352",
+          "profesor": "GARCIA GREEN FERNANDO MARTIN",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:00",
+              "fin": "16:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "16:30"
+            }
+          ],
+          "salon": "A-524"
+        }
+      ]
+    },
+    "2327": {
+      "nombre": "TEOR.GRAL.PROD.CAPITAL.REPROD.CR",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "CANDELARIA WEBSTER PABLO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "10:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "10:30"
+            }
+          ],
+          "salon": "A-514"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "ORTIZ GARCIA ALEJANDRA SARAHI",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "10:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "10:30"
+            }
+          ],
+          "salon": "A-515"
+        },
+        {
+          "grupo": "1303",
+          "profesor": "CHAVEZ LEON SOL MARIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "10:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "10:30"
+            }
+          ],
+          "salon": "A-516"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "HERNANDEZ SANTILLAN BRUNO SERGIO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "17:00",
+              "fin": "18:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "17:00",
+              "fin": "18:30"
+            }
+          ],
+          "salon": "A-524"
+        },
+        {
+          "grupo": "1352",
+          "profesor": "ORTIZ PALACIOS LUIS ANGEL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "17:00",
+              "fin": "18:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "17:00",
+              "fin": "18:30"
+            }
+          ],
+          "salon": "A-515"
+        }
+      ]
+    },
+    "2404": {
+      "nombre": "MACROECONOMIA KEYNESIANA I",
+      "semestre": "04",
+      "grupos": [
+        {
+          "grupo": "Q301",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "12:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "12:30"
+            }
+          ],
+          "salon": "A-524"
+        }
+      ]
+    },
+    "2520": {
+      "nombre": "FINANZAS PUBLICAS",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "BASILIO MORALES EUFEMIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "10:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "10:30"
+            }
+          ],
+          "salon": "A-514-A"
+        },
+        {
+          "grupo": "1502",
+          "profesor": "GAMA CARDENAS JORGE IVAN",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "10:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "10:30"
+            }
+          ],
+          "salon": "A-515-A"
+        },
+        {
+          "grupo": "1503",
+          "profesor": "TORRES CORONA MARIA TERESA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "10:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "10:30"
+            }
+          ],
+          "salon": "A-1123"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "DIAZ HERNANDEZ ROSA ELENA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "17:00",
+              "fin": "18:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "17:00",
+              "fin": "18:30"
+            }
+          ],
+          "salon": "A-523"
+        },
+        {
+          "grupo": "1552",
+          "profesor": "CRUZ DIAZ FELIPE",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "17:00",
+              "fin": "18:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "17:00",
+              "fin": "18:30"
+            }
+          ],
+          "salon": "A-1123"
+        }
+      ]
+    },
+    "2521": {
+      "nombre": "MICROECONOMIA HETERODOXA",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "RIOS ALVAREZ ESPERANZA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "08:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "08:30"
+            }
+          ],
+          "salon": "A-1123"
+        },
+        {
+          "grupo": "1502",
+          "profesor": "MARTINEZ GUERRERO LUIS FERNANDO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "08:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "08:30"
+            }
+          ],
+          "salon": "A-526"
+        },
+        {
+          "grupo": "1503",
+          "profesor": "RUIZ GARCIA JOSE MARIA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "08:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "08:30"
+            }
+          ],
+          "salon": "A-515-A"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "CORDOVA AQUINO RAMON HUMBERTO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "19:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "19:30"
+            }
+          ],
+          "salon": "A-524"
+        },
+        {
+          "grupo": "1552",
+          "profesor": "ROSAS CERVANTES DAVID AARON DEREK",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "19:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "19:30"
+            }
+          ],
+          "salon": "A-1123"
+        }
+      ]
+    },
+    "2522": {
+      "nombre": "MONOPOLIO, IMPERIALISMO Y MACROE",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "ROJAS SILVA OSCAR DAVID",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:30",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:30",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-521"
+        },
+        {
+          "grupo": "1502",
+          "profesor": "CANDELARIA WEBSTER PABLO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:30",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:30",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-522"
+        },
+        {
+          "grupo": "1503",
+          "profesor": "CAÑEDO BARRERA YURIDIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:30",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:30",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-523"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "ORTIZ GARCIA ALEJANDRA SARAHI",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "20:00",
+              "fin": "21:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "20:00",
+              "fin": "21:30"
+            }
+          ],
+          "salon": "A-514"
+        },
+        {
+          "grupo": "1552",
+          "profesor": "ORTIZ PALACIOS LUIS ANGEL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "20:00",
+              "fin": "21:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "20:00",
+              "fin": "21:30"
+            }
+          ],
+          "salon": "A-515"
+        }
+      ]
+    },
+    "2523": {
+      "nombre": "POLITICA MONETARIA I",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "GAMA CARDENAS JORGE IVAN",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "12:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "12:30"
+            }
+          ],
+          "salon": "A-521"
+        },
+        {
+          "grupo": "1502",
+          "profesor": "GARCIA CRUZ KENYA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "12:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "12:30"
+            }
+          ],
+          "salon": "A-522"
+        },
+        {
+          "grupo": "1503",
+          "profesor": "FEREGRINO FEREGRINO JORGE",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "12:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "12:30"
+            }
+          ],
+          "salon": "A-514"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "SANCHEZ GAYTAN LORNA ELVIA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "19:30",
+              "fin": "21:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "19:30",
+              "fin": "21:00"
+            }
+          ],
+          "salon": "A-523"
+        },
+        {
+          "grupo": "1552",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "19:30",
+              "fin": "21:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "19:30",
+              "fin": "21:00"
+            }
+          ],
+          "salon": "A-1123"
+        }
+      ]
+    },
+    "2524": {
+      "nombre": "PROBABILIDAD Y APLICACIONES",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "PEREZ AVILA HECTOR",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "A-514-A"
+        },
+        {
+          "grupo": "1502",
+          "profesor": "AYALA FERRUSCA KENIA EDITH",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "A-1123"
+        },
+        {
+          "grupo": "1503",
+          "profesor": "SANCHEZ CRUZ ARNULFO TOLENTINO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "A-515-A"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "MENDOZA RANGEL EDUARDO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "17:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "17:00"
+            }
+          ],
+          "salon": "A-523"
+        },
+        {
+          "grupo": "1552",
+          "profesor": "MEDINA MORALES MARIANA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "17:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "17:00"
+            }
+          ],
+          "salon": "A-1123"
+        }
+      ]
+    },
+    "2525": {
+      "nombre": "SINTESIS NEOCLASICA",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "LIBREROS ANGEL CATALINA VANESSA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "09:00",
+              "fin": "10:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "10:30"
+            }
+          ],
+          "salon": "A-514-A"
+        },
+        {
+          "grupo": "1502",
+          "profesor": "RIOS ALVAREZ ESPERANZA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "09:00",
+              "fin": "10:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "10:30"
+            }
+          ],
+          "salon": "A-515"
+        },
+        {
+          "grupo": "1503",
+          "profesor": "HERNANDEZ MONCAYO MONICA PATRICIA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "09:00",
+              "fin": "10:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "10:30"
+            }
+          ],
+          "salon": "A-516"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "HERNANDEZ SANTILLAN BRUNO SERGIO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:30",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:30",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-514"
+        },
+        {
+          "grupo": "1552",
+          "profesor": "MIMBRERA DELGADO MONICA CRISTINA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:30",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:30",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-515"
+        }
+      ]
+    },
+    "2526": {
+      "nombre": "TALLER ECON.MEXICANA EL SECTOR P",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "GRANADOS SANCHEZ MARIA DEL ROSARIO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "14:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "14:30"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A524A,A524A"
+        },
+        {
+          "grupo": "1502",
+          "profesor": "REYNOSO CRUZ ANGEL RODOLFO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "14:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "14:30"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-525,A-525"
+        },
+        {
+          "grupo": "1503",
+          "profesor": "RODRIGUEZ MENDEZ SERGIO TRINIDAD",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "14:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "14:30"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A525A,A525A"
+        },
+        {
+          "grupo": "1504",
+          "profesor": "NANDAYAPA HERNANDEZ CARLOS",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "14:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "14:30"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-516-A,A-5"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "MEDINA MORALES MARIANA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A516A,A516A"
+        },
+        {
+          "grupo": "1552",
+          "profesor": "SANCHEZ DE LABRA JORGE ALFONSO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A1123"
+        },
+        {
+          "grupo": "1553",
+          "profesor": "LOPEZ MARTINEZ JORGE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-516,A-516"
+        },
+        {
+          "grupo": "1554",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-515-A"
+        }
+      ]
+    },
+    "2720": {
+      "nombre": "CICLO, CRISIS-TEND.LARGO PLAZO D",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "ALONSO VIZZUETT ADAN RENE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "08:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "08:30"
+            }
+          ],
+          "salon": "A-524"
+        },
+        {
+          "grupo": "1702",
+          "profesor": "CAÑEDO BARRERA YURIDIA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "08:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "08:30"
+            }
+          ],
+          "salon": "A-1522"
+        },
+        {
+          "grupo": "1751",
+          "profesor": "ROJAS SILVA OSCAR DAVID",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "16:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "16:30"
+            }
+          ],
+          "salon": "A-514-A"
+        },
+        {
+          "grupo": "1752",
+          "profesor": "SANCHEZ MUÑOZ MAXIMINO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "16:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "16:30"
+            }
+          ],
+          "salon": "A-1522"
+        }
+      ]
+    },
+    "2721": {
+      "nombre": "COMERCIO INTERNACIONAL",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "VAZQUEZ CRUZ ERNESTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "12:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "12:30"
+            }
+          ],
+          "salon": "A-524"
+        },
+        {
+          "grupo": "1702",
+          "profesor": "VALDEZ SANCHEZ ISELA CLAUDIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "12:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "12:30"
+            }
+          ],
+          "salon": "A-1522"
+        },
+        {
+          "grupo": "1751",
+          "profesor": "VERAZA LOPEZ ALONSO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "19:30",
+              "fin": "21:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "19:30",
+              "fin": "21:00"
+            }
+          ],
+          "salon": "A-1522"
+        },
+        {
+          "grupo": "1752",
+          "profesor": "MENESES GUZMAN JOSE GUSTAVO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "19:30",
+              "fin": "21:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "19:30",
+              "fin": "21:00"
+            }
+          ],
+          "salon": "A-524"
+        }
+      ]
+    },
+    "2722": {
+      "nombre": "CRECIMIENTO Y DESARROLLO",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "VALDEZ SANCHEZ ISELA CLAUDIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "08:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "08:30"
+            }
+          ],
+          "salon": "A-1522"
+        },
+        {
+          "grupo": "1702",
+          "profesor": "LOZANO OROZCO ERIKA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "08:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "08:30"
+            }
+          ],
+          "salon": "A-524"
+        },
+        {
+          "grupo": "1751",
+          "profesor": "ROSAS CERVANTES DAVID AARON DEREK",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:30",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:30",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-514-A"
+        },
+        {
+          "grupo": "1752",
+          "profesor": "MIMBRERA DELGADO MONICA CRISTINA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:30",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:30",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1522"
+        }
+      ]
+    },
+    "2723": {
+      "nombre": "ECONOMETRIA II",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "GALAN FIGUEROA JAVIER",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-515-A"
+        },
+        {
+          "grupo": "1702",
+          "profesor": "SANCHEZ ALDANA ALBERTO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-524"
+        },
+        {
+          "grupo": "1751",
+          "profesor": "VIVEROS JIMENEZ ANA LAURA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-1522"
+        },
+        {
+          "grupo": "1752",
+          "profesor": "AVILA CRUZ JUAN PABLO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-516"
+        }
+      ]
+    },
+    "2724": {
+      "nombre": "ORGANIZACION INDUSTRIAL Y EMPRES",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "JUAREZ GARCIA JULIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "10:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "10:30"
+            }
+          ],
+          "salon": "A-1522"
+        },
+        {
+          "grupo": "1702",
+          "profesor": "PEÑA PEREZ JOSE ANTONIO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "10:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "10:30"
+            }
+          ],
+          "salon": "A-524"
+        },
+        {
+          "grupo": "1751",
+          "profesor": "AVILA CRUZ JUAN PABLO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "19:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "19:30"
+            }
+          ],
+          "salon": "A-1522"
+        },
+        {
+          "grupo": "1752",
+          "profesor": "LOPEZ ROMAN PAOLA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "19:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "19:30"
+            }
+          ],
+          "salon": "A-514-A"
+        }
+      ]
+    },
+    "2725": {
+      "nombre": "TALLER ECON.MEXICANA MARCO INSTI",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "AGUILAR SANCHEZ JOSE ALFREDO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "14:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "14:30"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-514,A-514"
+        },
+        {
+          "grupo": "1702",
+          "profesor": "GARCIA GREEN FERNANDO MARTIN",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "14:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "14:30"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-515-A"
+        },
+        {
+          "grupo": "1703",
+          "profesor": "VENEGAS GARCIA MARIA DEL ROSARIO SELENE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "14:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "14:30"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-514-A"
+        },
+        {
+          "grupo": "1704",
+          "profesor": "MENDOZA RANGEL EDUARDO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "14:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "14:30"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-515,A-515"
+        },
+        {
+          "grupo": "1751",
+          "profesor": "MARTINEZ GUERRERO LUIS FERNANDO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-514-A"
+        },
+        {
+          "grupo": "1752",
+          "profesor": "PADILLA ARANA CARLOS ALBERTO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-514,A-514"
+        },
+        {
+          "grupo": "1753",
+          "profesor": "SILVA PEREZ PONCIANO GREGORIO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-515,A-515"
+        },
+        {
+          "grupo": "1754",
+          "profesor": "ALONSO VIZZUETT ADAN RENE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-1522,A-15"
+        }
+      ]
+    },
+    "2904": {
+      "nombre": "SEM.INVEST.PROCESO INVESTIGAC.II",
+      "semestre": "09",
+      "grupos": [
+        {
+          "grupo": "2901",
+          "profesor": "FEREGRINO FEREGRINO JORGE",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-524-A"
+        },
+        {
+          "grupo": "2902",
+          "profesor": "ARRENDONDO VAZQUEZ ALEJANDRA VIANEY",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-525"
+        },
+        {
+          "grupo": "2903",
+          "profesor": "VAZQUEZ CRUZ ERNESTO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "A-526"
+        },
+        {
+          "grupo": "2904",
+          "profesor": "QUINTANA ROMERO LUIS",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-525-A"
+        },
+        {
+          "grupo": "2905",
+          "profesor": "PEÑA RAMIREZ JAIME",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "A-908"
+        },
+        {
+          "grupo": "2951",
+          "profesor": "TORRES HERNANDEZ DAVID",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-524-A"
+        },
+        {
+          "grupo": "2952",
+          "profesor": "MARIN BLANCAS JESUS ADRIAN",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-525"
+        },
+        {
+          "grupo": "2953",
+          "profesor": "GALAN FIGUEROA JAVIER",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-525-A"
+        },
+        {
+          "grupo": "2954",
+          "profesor": "MENDEZ CASTREJON EDHI ILANA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-526"
+        }
+      ]
+    },
+    "2905": {
+      "nombre": "SEM.INVEST.PROFUNDIZAC.TEORICA I",
+      "semestre": "09",
+      "grupos": [
+        {
+          "grupo": "2901",
+          "profesor": "FEREGRINO FEREGRINO JORGE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-524-A"
+        },
+        {
+          "grupo": "2902",
+          "profesor": "ARRENDONDO VAZQUEZ ALEJANDRA VIANEY",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-525"
+        },
+        {
+          "grupo": "2903",
+          "profesor": "VAZQUEZ CRUZ ERNESTO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-526"
+        },
+        {
+          "grupo": "2904",
+          "profesor": "QUINTANA ROMERO LUIS",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-525-A"
+        },
+        {
+          "grupo": "2905",
+          "profesor": "PEÑA RAMIREZ JAIME",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-908"
+        },
+        {
+          "grupo": "2951",
+          "profesor": "TORRES HERNANDEZ DAVID",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "19:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-524-A"
+        },
+        {
+          "grupo": "2952",
+          "profesor": "MARIN BLANCAS JESUS ADRIAN",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "19:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-525"
+        },
+        {
+          "grupo": "2953",
+          "profesor": "GALAN FIGUEROA JAVIER",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "19:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-525-A"
+        },
+        {
+          "grupo": "2954",
+          "profesor": "MENDEZ CASTREJON EDHI ILANA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "19:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-526"
+        }
+      ]
+    },
+    "0010": {
+      "nombre": "COMERCIO EXTERIOR MEXICANO",
+      "semestre": "09",
+      "grupos": [
+        {
+          "grupo": "2901",
+          "profesor": "CASTRO HERNANDEZ FERNANDO",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-524-A"
+        },
+        {
+          "grupo": "2951",
+          "profesor": "NANDAYAPA HERNANDEZ CARLOS",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-524-A"
+        }
+      ]
+    },
+    "0011": {
+      "nombre": "ECONOMETRIA ESPACIAL",
+      "semestre": "09",
+      "grupos": [
+        {
+          "grupo": "2901",
+          "profesor": "ISAAC EGURROLA JORGE EDUARDO",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-525"
+        },
+        {
+          "grupo": "2902",
+          "profesor": "ROLDAN MENDOZA IVAN ALEXIS",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-526"
+        },
+        {
+          "grupo": "2951",
+          "profesor": "CORZO TELLEZ JAVIER ALEJANDRO",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-525"
+        }
+      ]
+    },
+    "0012": {
+      "nombre": "ECONOMIA DE INNOVACION",
+      "semestre": "09",
+      "grupos": [
+        {
+          "grupo": "2901",
+          "profesor": "JIMENEZ BAUTISTA RAUL CARMELO",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-525-A"
+        },
+        {
+          "grupo": "2951",
+          "profesor": "AYALA FERRUSCA KENIA EDITH",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-525-A"
+        }
+      ]
+    },
+    "0013": {
+      "nombre": "MICROFINANZAS",
+      "semestre": "09",
+      "grupos": [
+        {
+          "grupo": "2901",
+          "profesor": "MADRAZO GRANADOS JESUS ADRIAN",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-525-A"
+        },
+        {
+          "grupo": "2951",
+          "profesor": "VAZQUEZ RAMIREZ ADRIAN RICARDO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-525"
+        }
+      ]
+    },
+    "0014": {
+      "nombre": "MODELOS BASADOS EN AGENTES",
+      "semestre": "09",
+      "grupos": [
+        {
+          "grupo": "2901",
+          "profesor": "HUITRON MENDOZA JOSE ANTONIO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-525"
+        },
+        {
+          "grupo": "2951",
+          "profesor": "URIBE CERON RICARDO DE JESUS",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-525-A"
+        }
+      ]
+    },
+    "0015": {
+      "nombre": "TEMAS SELECTOS DE ECONOMIA FINAN",
+      "semestre": "09",
+      "grupos": [
+        {
+          "grupo": "2901",
+          "profesor": "MADRAZO GRANADOS FRANCISCO EDUARDO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-516-A"
+        },
+        {
+          "grupo": "2951",
+          "profesor": "ACOSTA AMBRIZ TOMAS",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-515-A"
+        }
+      ]
+    }
+  }
+}

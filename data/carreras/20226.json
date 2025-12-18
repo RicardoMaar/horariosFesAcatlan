@@ -1,0 +1,4452 @@
+{
+  "codigo": "20226",
+  "nombre": "Diseño Gráfico",
+  "fecha_consulta": "2025-08-20T01:55:30.180Z",
+  "materias": {
+    "2000": {
+      "nombre": "HABILIDADES INTERPERSONALES",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1504",
+          "profesor": "BUENAVISTA FLORES VERONICA GLADYS",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Dibujo 1"
+        },
+        {
+          "grupo": "1505",
+          "profesor": "RIVERA BAÑUELOS LESLY GIOCONDA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-325"
+        },
+        {
+          "grupo": "1553",
+          "profesor": "ARTEAGA ORTIZ DALIA CONSUELO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1525"
+        },
+        {
+          "grupo": "1555",
+          "profesor": "MARTINEZ HERNANDEZ BRENDA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1508"
+        }
+      ]
+    },
+    "2001": {
+      "nombre": "SOCIOLOGIA Y MEDIOS IMPRESOS",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1502",
+          "profesor": "VAZQUEZ GONZALEZ OSCAR",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "A-1508"
+        },
+        {
+          "grupo": "1554",
+          "profesor": "SANTOS MONTER MIRIAM VERONICA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "INF.EN JEFA"
+        }
+      ]
+    },
+    "2002": {
+      "nombre": "SOCIOLOGIA Y MEDIOS AUDIOVISUALE",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "VAZQUEZ MARTINEZ BLANCA EDITH",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-1515"
+        },
+        {
+          "grupo": "1503",
+          "profesor": "VAZQUEZ MARTINEZ BLANCA EDITH",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "A-1515"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "ROMERO RAMIREZ MARIA GUADALUPE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-325"
+        },
+        {
+          "grupo": "1552",
+          "profesor": "ROMERO CAPISTRAN MARGARITA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1524"
+        }
+      ]
+    },
+    "2007": {
+      "nombre": "AEROGRAFIA",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "GONZALEZ CORTES BEATRIZ",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Aerografía"
+        },
+        {
+          "grupo": "1702",
+          "profesor": "FRIAS SALAZAR VICTOR MANUEL",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Aerografía"
+        },
+        {
+          "grupo": "1751",
+          "profesor": "GONZALEZ CORTES BEATRIZ",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "Aerografía"
+        },
+        {
+          "grupo": "1754",
+          "profesor": "RAMIREZ AVENDAÑO MARIANO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "Aerografía"
+        }
+      ]
+    },
+    "2008": {
+      "nombre": "DESARROLLO ESCENOGRAFICO",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "LARA CATAÑO CARLOS ALBERTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Dibujo 1"
+        },
+        {
+          "grupo": "1702",
+          "profesor": "LUNA GONZALEZ ARMANDO",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Dibujo 1"
+        },
+        {
+          "grupo": "1704",
+          "profesor": "LOPEZ VELASCO CARLOS MAURICIO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Dibujo 3"
+        },
+        {
+          "grupo": "1751",
+          "profesor": "LOPEZ VELASCO CARLOS MAURICIO",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "Dibujo 1"
+        },
+        {
+          "grupo": "1753",
+          "profesor": "VAZQUEZ GONZALEZ OSCAR",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Dibujo 4"
+        }
+      ]
+    },
+    "2009": {
+      "nombre": "GENEROS TELEVISIVOS",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "CERVANTES ARIAS JESUS",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Televisión2"
+        },
+        {
+          "grupo": "1703",
+          "profesor": "MARQUEZ CESEÑA GUADALUPE DEL CARMEN",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Televisión2"
+        },
+        {
+          "grupo": "1754",
+          "profesor": "NAVARRO FIGUEROA ENRIQUE PEDRO",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Televisión2"
+        }
+      ]
+    },
+    "2010": {
+      "nombre": "MODELADO Y ANIMACION 3D",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1702",
+          "profesor": "CARAPIA ARIZMENDI MARIA DEL ROCIO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Multimedia1"
+        },
+        {
+          "grupo": "1703",
+          "profesor": "OSORIO BARRERA JUAN CARLOS ARIEL",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-322-1"
+        },
+        {
+          "grupo": "1752",
+          "profesor": "PIÑA PEREZ ESTEBAN",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "Multimedia1"
+        },
+        {
+          "grupo": "1753",
+          "profesor": "CERVANTES RETANA MIGUEL ANGEL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "A-322-1"
+        }
+      ]
+    },
+    "2011": {
+      "nombre": "PRODUCC.VIDEOCLIP Y CORTO CINEMA",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1702",
+          "profesor": "VAZQUEZ MARTINEZ BLANCA EDITH",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Televisión3"
+        },
+        {
+          "grupo": "1703",
+          "profesor": "VAZQUEZ MARTINEZ BLANCA EDITH",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Televisión3"
+        },
+        {
+          "grupo": "1704",
+          "profesor": "MARQUEZ CESEÑA GUADALUPE DEL CARMEN",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Televisión3"
+        },
+        {
+          "grupo": "1751",
+          "profesor": "ROMERO RAMIREZ MARIA GUADALUPE",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "Televisión3"
+        },
+        {
+          "grupo": "1752",
+          "profesor": "PIÑA PEREZ ESTEBAN",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "Televisión2"
+        },
+        {
+          "grupo": "1754",
+          "profesor": "MORENO HERNANDEZ MAURICIO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Televisión2"
+        }
+      ]
+    },
+    "2012": {
+      "nombre": "SERIGRAFIA",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1703",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "Serigrafía"
+        },
+        {
+          "grupo": "1704",
+          "profesor": "FRIAS SALAZAR VICTOR MANUEL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "Serigrafía"
+        },
+        {
+          "grupo": "1753",
+          "profesor": "RAMIREZ MORALES ISABEL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "Serigrafía"
+        }
+      ]
+    },
+    "2013": {
+      "nombre": "TALLER DE MEDIOS EDITORIALES",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "GARCIA RUIZ HUGO ENRIQUE",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "A-322-2"
+        },
+        {
+          "grupo": "1751",
+          "profesor": "CABRERA CARDENAS EMMA CAROLINA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-322-2"
+        }
+      ]
+    },
+    "2014": {
+      "nombre": "TECNICAS ESPACIZ.MANIPULAC.DIGIT",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "TORRES CERVANTES JUAN CARLOS",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Digital A"
+        },
+        {
+          "grupo": "1702",
+          "profesor": "JUAREZ REYES JUAN MANUEL ANTONIO",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Digital A"
+        },
+        {
+          "grupo": "1703",
+          "profesor": "BUENAVISTA FLORES VERONICA GLADYS",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Digital A"
+        },
+        {
+          "grupo": "1704",
+          "profesor": "TORRES CERVANTES JUAN CARLOS",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "A-321-1"
+        },
+        {
+          "grupo": "1752",
+          "profesor": "LEYVA REUL FEDERICO",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "Digital A"
+        },
+        {
+          "grupo": "1753",
+          "profesor": "SOSA PICHARDO JUAN MARTIN",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-322-2"
+        },
+        {
+          "grupo": "1754",
+          "profesor": "MORENO HERNANDEZ MAURICIO",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Digital B"
+        }
+      ]
+    },
+    "2023": {
+      "nombre": "DISEÑO GRAFICO SUSTENTABLE",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1901",
+          "profesor": "MAYEN CAMARENA NORMA ARIANE",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Aerografía"
+        },
+        {
+          "grupo": "1902",
+          "profesor": "GUTIERREZ GUZMAN ANA FABIOLA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Serigrafía"
+        },
+        {
+          "grupo": "1953",
+          "profesor": "CELAYA IBAÑEZ ERIKA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-1507"
+        }
+      ]
+    },
+    "2024": {
+      "nombre": "DISEÑO PARA LA IMAGEN PUBLICA",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1901",
+          "profesor": "CORONA PEREZ LOURDES OLIMPIA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-1524"
+        },
+        {
+          "grupo": "1902",
+          "profesor": "PIZARRO GOMEZ JOSE LUIS",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "A-1508"
+        },
+        {
+          "grupo": "1903",
+          "profesor": "MAYEN CAMARENA NORMA ARIANE",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-324"
+        },
+        {
+          "grupo": "1904",
+          "profesor": "GUTIERREZ GUZMAN ANA FABIOLA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-321-1"
+        },
+        {
+          "grupo": "1952",
+          "profesor": "BAÑALES MUÑOZ OLIMPIA GUADALUPE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1507"
+        },
+        {
+          "grupo": "1953",
+          "profesor": "CARAPIA ARIZMENDI MARIA DEL ROCIO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-324"
+        }
+      ]
+    },
+    "2025": {
+      "nombre": "HABILIDADES DIRECTIVAS",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1902",
+          "profesor": "RODRIGUEZ ALONSO ELVIA MONICA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Tall Diseño"
+        },
+        {
+          "grupo": "1903",
+          "profesor": "FARIAS PACHECO MAGALY ANGELICA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "A-322-2"
+        },
+        {
+          "grupo": "1951",
+          "profesor": "ORTIZ CHAVEZ JAVIER FABIAN",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-1508"
+        },
+        {
+          "grupo": "1952",
+          "profesor": "PRADO MEJIA CAMERINO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "A-1515"
+        },
+        {
+          "grupo": "1954",
+          "profesor": "PATIÑO TREJO RAMON",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "A-324"
+        }
+      ]
+    },
+    "2026": {
+      "nombre": "INGENIERIA DEL ENVASE",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1902",
+          "profesor": "FARIAS PACHECO MAGALY ANGELICA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Serigrafía"
+        },
+        {
+          "grupo": "1952",
+          "profesor": "PAEZ PUENTE ANGEL OMAR",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Serigrafía"
+        }
+      ]
+    },
+    "2027": {
+      "nombre": "MATERIAL DIDACTICO",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1901",
+          "profesor": "PEDRAZA RODRIGUEZ NORMA ARELY",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "A-325"
+        },
+        {
+          "grupo": "1902",
+          "profesor": "ANDRADE SALINAS PEDRO ANTONIO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Tall Diseño"
+        },
+        {
+          "grupo": "1953",
+          "profesor": "LOPEZ ESTRADA ALFREDO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-323"
+        },
+        {
+          "grupo": "1954",
+          "profesor": "BONIFACIO GUZMAN KENYA GUADALUPE",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "Dibujo 3"
+        }
+      ]
+    },
+    "2028": {
+      "nombre": "MULTIMEDIOS",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1901",
+          "profesor": "RAMOS KURI MARIA TERESA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Audiovisual"
+        },
+        {
+          "grupo": "1902",
+          "profesor": "RAMOS KURI MARIA TERESA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Audiovisual"
+        },
+        {
+          "grupo": "1904",
+          "profesor": "SANCHEZ ADAME LUIS MARTIN",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Audiovisual"
+        },
+        {
+          "grupo": "1951",
+          "profesor": "RIVERA BAÑUELOS LESLY GIOCONDA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Audiovisual"
+        },
+        {
+          "grupo": "1953",
+          "profesor": "PIÑA PEREZ ESTEBAN",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Audiovisual"
+        }
+      ]
+    },
+    "2029": {
+      "nombre": "PROYECTO D INVESTIGACION EDITORI",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1901",
+          "profesor": "GUERRERO RIOS ADRIANA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "A-325"
+        },
+        {
+          "grupo": "1903",
+          "profesor": "PONCE DEL BOSQUE OMAR BENJAMIN",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-1507"
+        },
+        {
+          "grupo": "1952",
+          "profesor": "SANTOS MONTER MIRIAM VERONICA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Serigrafía"
+        }
+      ]
+    },
+    "2030": {
+      "nombre": "SEM.PARA LA INVESTIG.EN EL DISEÑ",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1901",
+          "profesor": "VAZQUEZ GONZALEZ OSCAR",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "INF.EN JEFA"
+        }
+      ]
+    },
+    "2110": {
+      "nombre": "ARTE Y DISEÑO",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "MARTINEZ CRUZ MARIA SANTA YOLANDA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "A-1508"
+        },
+        {
+          "grupo": "1102",
+          "profesor": "MAYEN CAMARENA NORMA ARIANE",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-1524"
+        },
+        {
+          "grupo": "1103",
+          "profesor": "MOSQUEDA GOMEZ CLAUDIA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-323"
+        },
+        {
+          "grupo": "1104",
+          "profesor": "MONTES DE OCA TLALPAN MARISELA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-1515"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "MONTES DE OCA TLALPAN MARISELA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1524"
+        },
+        {
+          "grupo": "1152",
+          "profesor": "MONTES DE OCA TLALPAN MARISELA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "17:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-1515"
+        },
+        {
+          "grupo": "1153",
+          "profesor": "CELAYA IBAÑEZ ERIKA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "INF.EN JEFA"
+        },
+        {
+          "grupo": "1154",
+          "profesor": "SOTO ABREGO MIGUEL ANGEL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-1508"
+        }
+      ]
+    },
+    "2111": {
+      "nombre": "ESTUDIO DE LA IMAGEN GRAFICA",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "HOLGUIN SARABIA GLORIA SVETLANA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-324"
+        },
+        {
+          "grupo": "1102",
+          "profesor": "CARDOZA MORALES MARIA DE LOURDES",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Dibujo 2"
+        },
+        {
+          "grupo": "1103",
+          "profesor": "HOLGUIN SARABIA GLORIA SVETLANA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "Dibujo 2"
+        },
+        {
+          "grupo": "1104",
+          "profesor": "CARDOZA MORALES MARIA DE LOURDES",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-324"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "AGUILAR ALVAREZ HECTOR",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-323"
+        },
+        {
+          "grupo": "1152",
+          "profesor": "RAMIREZ AVENDAÑO MARIANO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-323"
+        },
+        {
+          "grupo": "1153",
+          "profesor": "VALENCIA ALCANTAR GERMAN",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-325"
+        },
+        {
+          "grupo": "1154",
+          "profesor": "ROLDAN MARTINEZ ANDREA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "A-1525"
+        }
+      ]
+    },
+    "2112": {
+      "nombre": "ESTRUCTURAS BASICAS PARA EL DIBU",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "LOPEZ ESTRADA ALFREDO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-1525"
+        },
+        {
+          "grupo": "1102",
+          "profesor": "FREIRE TORRENS JUAN JOSE",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-324"
+        },
+        {
+          "grupo": "1103",
+          "profesor": "RAMIREZ AVENDAÑO MARIANO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Dibujo 2"
+        },
+        {
+          "grupo": "1104",
+          "profesor": "FARIAS PACHECO MAGALY ANGELICA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Dibujo 4"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "ORTIZ CHAVEZ JAVIER FABIAN",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "Dibujo 2"
+        },
+        {
+          "grupo": "1152",
+          "profesor": "RAMBAUD GARCIA PEDRO ANGEL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "20:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Dibujo 4"
+        },
+        {
+          "grupo": "1153",
+          "profesor": "LOPEZ ESTRADA ALFREDO",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "17:00",
+              "fin": "21:00"
+            }
+          ],
+          "salon": "A-323"
+        },
+        {
+          "grupo": "1154",
+          "profesor": "BUENAVISTA FLORES LEONOR ANEL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "A-1525"
+        }
+      ]
+    },
+    "2113": {
+      "nombre": "HABILIDADES INTEGRALES APRENDIZA",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "ESCOBAR GARCIA MARIANA GUADALUPE",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "INF.EN JEFA"
+        },
+        {
+          "grupo": "1102",
+          "profesor": "VIGUERAS VILLASEÑOR ADRIANA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Tall Diseño"
+        },
+        {
+          "grupo": "1103",
+          "profesor": "CARAPIA ARIZMENDI MARIA DEL ROCIO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Audiovisual"
+        },
+        {
+          "grupo": "1104",
+          "profesor": "PEDRAZA RODRIGUEZ NORMA ARELY",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Dibujo 3"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "LECHUGA TREJO MARIA TERESA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-324"
+        },
+        {
+          "grupo": "1152",
+          "profesor": "MARTINEZ HERNANDEZ BRENDA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1507"
+        },
+        {
+          "grupo": "1153",
+          "profesor": "GUZMAN SANTOYO MAYRA FABIOLA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "Dibujo 1"
+        },
+        {
+          "grupo": "1154",
+          "profesor": "ANDRADE SALINAS PEDRO ANTONIO",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "A-1524"
+        }
+      ]
+    },
+    "2114": {
+      "nombre": "INTERFASES Y PROCESOS INFORMATIC",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "HERRERA MORENO IRISHA XANIC",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "A-321-1"
+        },
+        {
+          "grupo": "1102",
+          "profesor": "HERRERA MORENO IRISHA XANIC",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-322-2"
+        },
+        {
+          "grupo": "1103",
+          "profesor": "SANCHEZ ADAME LUIS MARTIN",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-322-1"
+        },
+        {
+          "grupo": "1104",
+          "profesor": "HERRERA MORENO IRISHA XANIC",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-322-1"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "CARAPIA ARIZMENDI MARIA DEL ROCIO",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "A-321-1"
+        },
+        {
+          "grupo": "1152",
+          "profesor": "ROCHMAN BEER DINA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-322-1"
+        },
+        {
+          "grupo": "1153",
+          "profesor": "CERVANTES RETANA MIGUEL ANGEL",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-322-1"
+        },
+        {
+          "grupo": "1154",
+          "profesor": "CERVANTES RETANA MIGUEL ANGEL",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-322-1"
+        }
+      ]
+    },
+    "2115": {
+      "nombre": "INTEGRACION AL DISEÑO",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "RAMIREZ COLIN MARIA LEONOR",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "Dibujo 2"
+        },
+        {
+          "grupo": "1102",
+          "profesor": "RAMIREZ COLIN MARIA LEONOR",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "Tall Diseño"
+        },
+        {
+          "grupo": "1103",
+          "profesor": "CARDOZA MORALES MARIA DE LOURDES",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-324"
+        },
+        {
+          "grupo": "1104",
+          "profesor": "RAMIREZ MORALES ISABEL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "Tall Diseño"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "RAMIREZ MARTINEZ ALFONSO MARTIN",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "21:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "21:00"
+            }
+          ],
+          "salon": "A-324,Talle"
+        },
+        {
+          "grupo": "1152",
+          "profesor": "GONZALEZ AGUILAR ELISA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "21:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "21:00"
+            }
+          ],
+          "salon": "A-323"
+        },
+        {
+          "grupo": "1153",
+          "profesor": "AGUILAR CERVANTES RODRIGO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "21:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "19:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Dibujo 2"
+        },
+        {
+          "grupo": "1154",
+          "profesor": "BUENAVISTA FLORES LEONOR ANEL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1525"
+        }
+      ]
+    },
+    "2116": {
+      "nombre": "PENSAMIENTO CREATIVO",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "CARDOZA MORALES MARIA DE LOURDES",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-323"
+        },
+        {
+          "grupo": "1102",
+          "profesor": "GALICIA SALAZAR ROCIO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-1525"
+        },
+        {
+          "grupo": "1103",
+          "profesor": "CABALLERO FACIO JOSE LUIS",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Tall  c Imp"
+        },
+        {
+          "grupo": "1104",
+          "profesor": "RAMOS KURI MARIA TERESA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-1525"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "SALCEDO GARCIA VICTORIA EUGENIA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-324"
+        },
+        {
+          "grupo": "1152",
+          "profesor": "GALICIA ROMERO BLANCA ESTELA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "Dibujo 2"
+        },
+        {
+          "grupo": "1153",
+          "profesor": "CABALLERO FACIO JOSE LUIS",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Dibujo 3"
+        },
+        {
+          "grupo": "1154",
+          "profesor": "ASCENCIO VARGAS HORACIO MARCIAL",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "17:00",
+              "fin": "21:00"
+            }
+          ],
+          "salon": "Serigrafía"
+        }
+      ]
+    },
+    "2117": {
+      "nombre": "TEXTO Y DISEÑO",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "PEDRAZA RODRIGUEZ NORMA ARELY",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "Tall Diseño"
+        },
+        {
+          "grupo": "1102",
+          "profesor": "ROMERO CAPISTRAN MARGARITA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-1524"
+        },
+        {
+          "grupo": "1103",
+          "profesor": "ARREOLA LOEZA JUDITH",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "A-1507"
+        },
+        {
+          "grupo": "1104",
+          "profesor": "MONTES VAZQUEZ ANA CELIA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-1524"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "ARTEAGA ORTIZ DALIA CONSUELO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "21:00"
+            }
+          ],
+          "salon": "A-1508"
+        },
+        {
+          "grupo": "1152",
+          "profesor": "ABREGO GARCIA HUGO ADRIAN",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "19:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "A-1524"
+        },
+        {
+          "grupo": "1153",
+          "profesor": "ROMERO CAPISTRAN MARGARITA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "17:00"
+            }
+          ],
+          "salon": "A-323"
+        },
+        {
+          "grupo": "1154",
+          "profesor": "ONTIVEROS TOLEDO DAVID RICARDO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "14:00",
+              "fin": "17:00"
+            }
+          ],
+          "salon": "A-1525"
+        }
+      ]
+    },
+    "2310": {
+      "nombre": "ARTE Y DISEÑO EN LA ACTUALIDAD",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "MARTINEZ CRUZ MARIA SANTA YOLANDA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "A-1524"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "CELAYA IBAÑEZ ERIKA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-1507"
+        },
+        {
+          "grupo": "1303",
+          "profesor": "LECHUGA TREJO MARIA TERESA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-1525"
+        },
+        {
+          "grupo": "1304",
+          "profesor": "LECHUGA TREJO MARIA TERESA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "Dibujo 4"
+        },
+        {
+          "grupo": "1305",
+          "profesor": "MONTES DE OCA TLALPAN MARISELA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-324"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "SOTO ABREGO MIGUEL ANGEL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "19:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "A-324"
+        },
+        {
+          "grupo": "1352",
+          "profesor": "MONTES DE OCA TLALPAN MARISELA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "17:00"
+            }
+          ],
+          "salon": "A-1525"
+        },
+        {
+          "grupo": "1353",
+          "profesor": "MONTES DE OCA TLALPAN MARISELA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "21:00"
+            }
+          ],
+          "salon": "A-1524"
+        },
+        {
+          "grupo": "1354",
+          "profesor": "GONZALEZ AGUILAR ELISA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1515"
+        }
+      ]
+    },
+    "2311": {
+      "nombre": "COLOR Y COMPOSICION",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "CORONA LOPEZ ILIANA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-325"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "BUENAVISTA FLORES VERONICA GLADYS",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-323"
+        },
+        {
+          "grupo": "1303",
+          "profesor": "RAMIREZ COLIN MARIA LEONOR",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-1525"
+        },
+        {
+          "grupo": "1304",
+          "profesor": "ROLDAN MARTINEZ ANDREA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "Dibujo 4"
+        },
+        {
+          "grupo": "1305",
+          "profesor": "ALCANTARA MENDOZA MIRIAM",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-1515"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "HERRERA MORENO IRISHA XANIC",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "Dibujo 4"
+        },
+        {
+          "grupo": "1352",
+          "profesor": "FREIRE TORRENS JUAN JOSE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "Dibujo 3"
+        },
+        {
+          "grupo": "1353",
+          "profesor": "GUERRERO RIOS ADRIANA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "Dibujo 2"
+        },
+        {
+          "grupo": "1354",
+          "profesor": "ASCENCIO VARGAS HORACIO MARCIAL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "19:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "19:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Aerografía"
+        }
+      ]
+    },
+    "2312": {
+      "nombre": "DIBUJO DEL CUERPO HUMANO",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "ORTIZ CHAVEZ JAVIER FABIAN",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Dibujo 1"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "DE LUCAS TRON ALFONSO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Dibujo 1"
+        },
+        {
+          "grupo": "1303",
+          "profesor": "DE LUCAS TRON ALFONSO",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Dibujo 1"
+        },
+        {
+          "grupo": "1304",
+          "profesor": "LOPEZ ESTRADA ALFREDO",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "Dibujo 2"
+        },
+        {
+          "grupo": "1305",
+          "profesor": "CABRERA CARDENAS EMMA CAROLINA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Dibujo 4"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "GALICIA ROMERO BLANCA ESTELA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Dibujo 1"
+        },
+        {
+          "grupo": "1352",
+          "profesor": "RAMIREZ AVENDAÑO MARIANO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Dibujo 1"
+        },
+        {
+          "grupo": "1353",
+          "profesor": "AGUILAR CERVANTES RODRIGO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "Dibujo 1"
+        },
+        {
+          "grupo": "1354",
+          "profesor": "VALENCIA ALCANTAR GERMAN",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "Dibujo 1"
+        }
+      ]
+    },
+    "2313": {
+      "nombre": "EXPRESION CON MEDIOS SOLUBLES",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "RAMIREZ MORALES ISABEL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Aerografía"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "GALICIA ROMERO BLANCA ESTELA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Serigrafía"
+        },
+        {
+          "grupo": "1303",
+          "profesor": "GONZALEZ CORTES BEATRIZ",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "Aerografía"
+        },
+        {
+          "grupo": "1304",
+          "profesor": "SALGADO AVILA LETICIA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "13:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Dibujo 4"
+        },
+        {
+          "grupo": "1305",
+          "profesor": "GARCIA RUIZ HUGO ENRIQUE",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Dibujo 3"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "GONZALEZ CORTES BEATRIZ",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "Aerografía"
+        },
+        {
+          "grupo": "1352",
+          "profesor": "RAMIREZ MORALES ISABEL",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "Aerografía"
+        },
+        {
+          "grupo": "1353",
+          "profesor": "CABRERA CARDENAS EMMA CAROLINA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Aerografía"
+        },
+        {
+          "grupo": "1354",
+          "profesor": "GALICIA ROMERO BLANCA ESTELA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "Serigrafía"
+        }
+      ]
+    },
+    "2314": {
+      "nombre": "GEOMETRIA APLICADA",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "HOLGUIN SARABIA GLORIA SVETLANA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "A-325"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "ARTEAGA ORTIZ DALIA CONSUELO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "A-323"
+        },
+        {
+          "grupo": "1303",
+          "profesor": "HOLGUIN SARABIA GLORIA SVETLANA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Dibujo 2"
+        },
+        {
+          "grupo": "1304",
+          "profesor": "FERNANDEZ INFANTE FRANCISCO MANUEL",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-325"
+        },
+        {
+          "grupo": "1305",
+          "profesor": "FERNANDEZ INFANTE FRANCISCO MANUEL",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Dibujo 3"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "BARREDA SNYDER GABINO OCTAVIO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Tall Diseño"
+        },
+        {
+          "grupo": "1352",
+          "profesor": "PAEZ PUENTE ANGEL OMAR",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "17:00",
+              "fin": "21:00"
+            }
+          ],
+          "salon": "A-1525"
+        },
+        {
+          "grupo": "1353",
+          "profesor": "SALINAS NIETO ISRAEL ANTONIO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Dibujo 4"
+        },
+        {
+          "grupo": "1354",
+          "profesor": "SALINAS NIETO ISRAEL ANTONIO",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "Tall Diseño"
+        }
+      ]
+    },
+    "2315": {
+      "nombre": "PROCESOS DIGITALES DE LA IMAGEN",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "TERAN RAMIREZ SERGIO OMAR",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "A-321-1"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "CORONA LOPEZ ILIANA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-322-1"
+        },
+        {
+          "grupo": "1303",
+          "profesor": "CORONA LOPEZ ILIANA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "A-322-2"
+        },
+        {
+          "grupo": "1304",
+          "profesor": "CORDERO AGUAYO ROSA ARMIDA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "A-322-2"
+        },
+        {
+          "grupo": "1305",
+          "profesor": "LARA CATAÑO CARLOS ALBERTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-322-2"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "CERVANTES RETANA MIGUEL ANGEL",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "A-322-1"
+        },
+        {
+          "grupo": "1352",
+          "profesor": "SOSA PICHARDO JUAN MARTIN",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "A-322-2"
+        },
+        {
+          "grupo": "1353",
+          "profesor": "ABREGO GARCIA HUGO ADRIAN",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Multimedia1"
+        },
+        {
+          "grupo": "1354",
+          "profesor": "ROCHMAN BEER DINA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "A-322-2"
+        }
+      ]
+    },
+    "2316": {
+      "nombre": "TECNICAS DE INVESTIGAC. PARA DIS",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "MONTES VAZQUEZ ANA CELIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "Dibujo 4"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "MAYEN CAMARENA NORMA ARIANE",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-325"
+        },
+        {
+          "grupo": "1303",
+          "profesor": "AGUILAR CERVANTES RODRIGO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Dibujo 4"
+        },
+        {
+          "grupo": "1304",
+          "profesor": "BAÑALES MUÑOZ OLIMPIA GUADALUPE",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-1524"
+        },
+        {
+          "grupo": "1305",
+          "profesor": "ESCOBAR GARCIA MARIANA GUADALUPE",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "A-325"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "BAÑALES MUÑOZ OLIMPIA GUADALUPE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "A-324"
+        },
+        {
+          "grupo": "1352",
+          "profesor": "MEDINA VALDES LEILANI",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-325"
+        },
+        {
+          "grupo": "1353",
+          "profesor": "ANDRADE SALINAS PEDRO ANTONIO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1524"
+        },
+        {
+          "grupo": "1354",
+          "profesor": "SANCHEZ ADAME LUIS MARTIN",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "A-1525"
+        }
+      ]
+    },
+    "2317": {
+      "nombre": "TEORIA DE LA COMUNICACION",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "ARREOLA LOEZA JUDITH",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "13:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-1524"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "MONTES VAZQUEZ ANA CELIA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "08:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-1507"
+        },
+        {
+          "grupo": "1303",
+          "profesor": "MONTES VAZQUEZ ANA CELIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-323"
+        },
+        {
+          "grupo": "1304",
+          "profesor": "LEYVA REUL FEDERICO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "10:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "A-1508"
+        },
+        {
+          "grupo": "1305",
+          "profesor": "ESCOBAR GARCIA MARIANA GUADALUPE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "Dibujo 3"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "ARREOLA LOEZA JUDITH",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "Dibujo 4"
+        },
+        {
+          "grupo": "1352",
+          "profesor": "MEDRANO RAMIREZ ERICK EMMANUEL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "21:00"
+            }
+          ],
+          "salon": "A-1525"
+        },
+        {
+          "grupo": "1353",
+          "profesor": "ROLDAN MARTINEZ ANDREA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1508"
+        },
+        {
+          "grupo": "1354",
+          "profesor": "LEYVA REUL FEDERICO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-325"
+        }
+      ]
+    },
+    "2510": {
+      "nombre": "CREACION Y APLICACION D TIPOGRAF",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "GUERRERO RIOS ADRIANA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-323"
+        },
+        {
+          "grupo": "1502",
+          "profesor": "SALINAS NIETO ISRAEL ANTONIO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "A-1525"
+        },
+        {
+          "grupo": "1503",
+          "profesor": "GUERRERO RIOS ADRIANA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-1507"
+        },
+        {
+          "grupo": "1504",
+          "profesor": "RAMIREZ HERNANDEZ ESTHER",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "Tall Diseño"
+        },
+        {
+          "grupo": "1505",
+          "profesor": "PEREZ OLVERA ALEJANDRO",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Aerografía"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "ASCENCIO VARGAS HORACIO MARCIAL",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "Tall  c Imp"
+        },
+        {
+          "grupo": "1552",
+          "profesor": "LARA ARRIOLA ERNESTO VICENTE",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "A-324"
+        },
+        {
+          "grupo": "1553",
+          "profesor": "AGUILAR ALVAREZ HECTOR",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Tall  c Imp"
+        },
+        {
+          "grupo": "1554",
+          "profesor": "ASCENCIO VARGAS HORACIO MARCIAL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "Dibujo 4"
+        }
+      ]
+    },
+    "2511": {
+      "nombre": "COMPOSICION EDITORIAL ELECTRONIC",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "ELIZARRARAS LOPEZ CARLOS",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "A-322-1"
+        },
+        {
+          "grupo": "1502",
+          "profesor": "BUENAVISTA FLORES VERONICA GLADYS",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Multimedia1"
+        },
+        {
+          "grupo": "1503",
+          "profesor": "RAMIREZ HERNANDEZ ESTHER",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Multimedia1"
+        },
+        {
+          "grupo": "1504",
+          "profesor": "RAMIREZ HERNANDEZ ESTHER",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-321-1"
+        },
+        {
+          "grupo": "1505",
+          "profesor": "MEDINA VALDES LEILANI",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Multimedia1"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "TERAN RAMIREZ SERGIO OMAR",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "Multimedia1"
+        },
+        {
+          "grupo": "1552",
+          "profesor": "PONCE DEL BOSQUE OMAR BENJAMIN",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "Multimedia1"
+        },
+        {
+          "grupo": "1553",
+          "profesor": "SOSA PICHARDO JUAN MARTIN",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Multimedia1"
+        },
+        {
+          "grupo": "1554",
+          "profesor": "ABREGO GARCIA HUGO ADRIAN",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Multimedia1"
+        }
+      ]
+    },
+    "2512": {
+      "nombre": "DISEÑO EDITORIAL",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "SALGADO AVILA LETICIA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "Tall  c Imp"
+        },
+        {
+          "grupo": "1502",
+          "profesor": "SALGADO AVILA LETICIA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "Tall  c Imp"
+        },
+        {
+          "grupo": "1503",
+          "profesor": "PEREZ OLVERA ALEJANDRO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A323,Serig"
+        },
+        {
+          "grupo": "1504",
+          "profesor": "JUAREZ MALAGON NORMA ANGELICA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "Serigrafía"
+        },
+        {
+          "grupo": "1505",
+          "profesor": "RAMIREZ MENDEZ ALBINO MANUEL",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A321-1"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "PIÑA PEREZ ESTEBAN",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "19:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "19:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Tall  c Imp"
+        },
+        {
+          "grupo": "1552",
+          "profesor": "RAMIREZ MENDEZ ALBINO MANUEL",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "19:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "19:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Aerografía"
+        },
+        {
+          "grupo": "1553",
+          "profesor": "RAMIREZ MENDEZ ALBINO MANUEL",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "Tall  c Imp"
+        },
+        {
+          "grupo": "1554",
+          "profesor": "CABRERA CARDENAS EMMA CAROLINA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "19:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "19:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "A325,A322-2"
+        }
+      ]
+    },
+    "2513": {
+      "nombre": "HERMENEUTICA DE LA IMAGEN",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "MOSQUEDA GOMEZ CLAUDIA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-1507"
+        },
+        {
+          "grupo": "1502",
+          "profesor": "MAYEN CAMARENA NORMA ARIANE",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "INF.EN JEFA"
+        },
+        {
+          "grupo": "1503",
+          "profesor": "ROLDAN MARTINEZ ANDREA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-1508"
+        },
+        {
+          "grupo": "1504",
+          "profesor": "LOPEZ MARQUEZ CARLOS ALBERTO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-323"
+        },
+        {
+          "grupo": "1505",
+          "profesor": "AGUILAR CERVANTES RODRIGO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "Dibujo 3"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "MOSQUEDA GOMEZ CLAUDIA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1507"
+        },
+        {
+          "grupo": "1552",
+          "profesor": "SOTO ABREGO MIGUEL ANGEL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1515"
+        },
+        {
+          "grupo": "1553",
+          "profesor": "SOTO ABREGO MIGUEL ANGEL",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "21:00"
+            }
+          ],
+          "salon": "A-1508"
+        },
+        {
+          "grupo": "1554",
+          "profesor": "MONTES VAZQUEZ ANA CELIA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-325"
+        }
+      ]
+    },
+    "2514": {
+      "nombre": "MANIPULACION DIGITAL IMAGEN FOTO",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "TORRES CERVANTES JUAN CARLOS",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Multimedia1"
+        },
+        {
+          "grupo": "1502",
+          "profesor": "PEDRAZA RODRIGUEZ NORMA ARELY",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Digital A"
+        },
+        {
+          "grupo": "1503",
+          "profesor": "OLIVARES LANDIN JOSE FELIX",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "A-322-1"
+        },
+        {
+          "grupo": "1504",
+          "profesor": "TORRES CERVANTES JUAN CARLOS",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Digital A"
+        },
+        {
+          "grupo": "1505",
+          "profesor": "CARRANZA BUENO ARIEL FERNANDO",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Digital A"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "MORENO HERNANDEZ MAURICIO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "Digital A"
+        },
+        {
+          "grupo": "1552",
+          "profesor": "JUAREZ REYES JUAN MANUEL ANTONIO",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "Digital A"
+        },
+        {
+          "grupo": "1553",
+          "profesor": "NAVARRO FIGUEROA ENRIQUE PEDRO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Multimedia3"
+        },
+        {
+          "grupo": "1554",
+          "profesor": "OLIVARES LANDIN JOSE FELIX",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Digital A"
+        }
+      ]
+    },
+    "2515": {
+      "nombre": "TECNICAS DE IMPRESION",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "MEDINA VALDES LEILANI",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Tall  c Imp"
+        },
+        {
+          "grupo": "1502",
+          "profesor": "MEDINA VALDES LEILANI",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Tall  c Imp"
+        },
+        {
+          "grupo": "1503",
+          "profesor": "ONTIVEROS TOLEDO DAVID RICARDO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "Tall  c Imp"
+        },
+        {
+          "grupo": "1504",
+          "profesor": "GUTIERREZ GUZMAN ANA FABIOLA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Tall  c Imp"
+        },
+        {
+          "grupo": "1505",
+          "profesor": "CORANO JUAREZ MARIA LORENA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Tall  c Imp"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "VALENCIA ALCANTAR GERMAN",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Tall  c Imp"
+        },
+        {
+          "grupo": "1552",
+          "profesor": "AGUILAR ALVAREZ HECTOR",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Tall  c Imp"
+        },
+        {
+          "grupo": "1553",
+          "profesor": "ONTIVEROS TOLEDO DAVID RICARDO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "Tall  c Imp"
+        },
+        {
+          "grupo": "1554",
+          "profesor": "CORANO JUAREZ MARIA LORENA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "Tall  c Imp"
+        }
+      ]
+    },
+    "2729": {
+      "nombre": "ASPECTOS LEGALES",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "OLVERA VELAZQUEZ OMAR",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-1507"
+        },
+        {
+          "grupo": "1702",
+          "profesor": "GONZALEZ AGUILAR ELISA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "A-324"
+        },
+        {
+          "grupo": "1703",
+          "profesor": "ONTIVEROS TOLEDO DAVID RICARDO",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-1508"
+        },
+        {
+          "grupo": "1704",
+          "profesor": "GONZALEZ AGUILAR ELISA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "Tall Diseño"
+        },
+        {
+          "grupo": "1705",
+          "profesor": "CARDENAS VARGAS ANA MARIA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-1525"
+        },
+        {
+          "grupo": "1751",
+          "profesor": "ABURTO PAVON ROBERTO CARLOS",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1515"
+        },
+        {
+          "grupo": "1752",
+          "profesor": "GONZALEZ AGUILAR ELISA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1515"
+        },
+        {
+          "grupo": "1753",
+          "profesor": "VAZQUEZ GONZALEZ OSCAR",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "19:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "A-325"
+        },
+        {
+          "grupo": "1754",
+          "profesor": "ABURTO PAVON ROBERTO CARLOS",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "21:00"
+            }
+          ],
+          "salon": "A-1507"
+        }
+      ]
+    },
+    "2730": {
+      "nombre": "DISEÑO DE ESPACIOS AMBIENTALES",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "CELAYA IBAÑEZ ERIKA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "Dibujo 3"
+        },
+        {
+          "grupo": "1702",
+          "profesor": "FARIAS PACHECO MAGALY ANGELICA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Audiovisual"
+        },
+        {
+          "grupo": "1703",
+          "profesor": "CORONA LOPEZ ILIANA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "Serigrafía"
+        },
+        {
+          "grupo": "1704",
+          "profesor": "CELAYA IBAÑEZ ERIKA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Dibujo 3"
+        },
+        {
+          "grupo": "1705",
+          "profesor": "LEYVA REUL FEDERICO",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Audiovisual"
+        },
+        {
+          "grupo": "1751",
+          "profesor": "LOPEZ VELASCO CARLOS MAURICIO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "19:00",
+              "fin": "21:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "19:00",
+              "fin": "21:00"
+            }
+          ],
+          "salon": "Dibujo 3"
+        },
+        {
+          "grupo": "1752",
+          "profesor": "LOPEZ VELASCO CARLOS MAURICIO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "Dibujo 3"
+        },
+        {
+          "grupo": "1753",
+          "profesor": "ONTIVEROS TOLEDO DAVID RICARDO",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Tall  c Imp"
+        },
+        {
+          "grupo": "1754",
+          "profesor": "LARA CATAÑO CARLOS ALBERTO",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-323"
+        }
+      ]
+    },
+    "2731": {
+      "nombre": "SEÑALIZACION",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "VIGUERAS VILLASEÑOR ADRIANA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "Dibujo 2"
+        },
+        {
+          "grupo": "1702",
+          "profesor": "LARA CATAÑO CARLOS ALBERTO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "Serigrafía"
+        },
+        {
+          "grupo": "1703",
+          "profesor": "VIGUERAS VILLASEÑOR ADRIANA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "Aerografía"
+        },
+        {
+          "grupo": "1704",
+          "profesor": "JUAREZ MALAGON NORMA ANGELICA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A1525 322-2"
+        },
+        {
+          "grupo": "1705",
+          "profesor": "ORTIZ CHAVEZ JAVIER FABIAN",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "Dibujo 3"
+        },
+        {
+          "grupo": "1751",
+          "profesor": "CORANO JUAREZ MARIA LORENA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "19:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "19:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Tall Diseño"
+        },
+        {
+          "grupo": "1752",
+          "profesor": "BAÑALES MUÑOZ OLIMPIA GUADALUPE",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "19:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "19:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Tall Diseño"
+        },
+        {
+          "grupo": "1753",
+          "profesor": "SALINAS NIETO ISRAEL ANTONIO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A324,Diseño"
+        },
+        {
+          "grupo": "1754",
+          "profesor": "AGUILAR ALVAREZ HECTOR",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "Serigrafía"
+        }
+      ]
+    },
+    "2900": {
+      "nombre": "CAMPAÑA PUBLICITARIA",
+      "semestre": "09",
+      "grupos": [
+        {
+          "grupo": "1901",
+          "profesor": "ALCANTARA MENDOZA MIRIAM",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-1515"
+        },
+        {
+          "grupo": "1902",
+          "profesor": "ALCANTARA MENDOZA MIRIAM",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "A-1515"
+        },
+        {
+          "grupo": "1903",
+          "profesor": "JUAREZ MALAGON NORMA ANGELICA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "08:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "Audiovisual"
+        },
+        {
+          "grupo": "1904",
+          "profesor": "GUTIERREZ GUZMAN ANA FABIOLA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "Tall Diseño"
+        },
+        {
+          "grupo": "1905",
+          "profesor": "GALICIA SALAZAR ROCIO",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-1524"
+        },
+        {
+          "grupo": "1951",
+          "profesor": "RAMOS KURI MARIA TERESA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "19:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "Tall Diseño"
+        },
+        {
+          "grupo": "1952",
+          "profesor": "RODRIGUEZ ALONSO ELVIA MONICA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "Audiovisual"
+        },
+        {
+          "grupo": "1953",
+          "profesor": "NAVARRO FIGUEROA ENRIQUE PEDRO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "19:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "19:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "Dibujo 2"
+        },
+        {
+          "grupo": "1954",
+          "profesor": "RODRIGUEZ ALONSO ELVIA MONICA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "15:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "Audiovisual"
+        }
+      ]
+    }
+  }
+}
