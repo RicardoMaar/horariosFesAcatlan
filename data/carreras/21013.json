@@ -1,25 +1,25 @@
 {
   "codigo": "21013",
   "nombre": "Lengua y Literatura Hispánicas",
-  "fecha_consulta": "2025-12-18T17:01:35.271Z",
+  "fecha_consulta": "2026-01-21T00:51:28.319Z",
   "materias": {
-    "1155": {
-      "nombre": "ETIMOLOGIAS-GRECOLATINAS",
+    "1160": {
+      "nombre": "TECNICAS DE INVESTIGACION",
       "semestre": "01",
       "grupos": [
         {
-          "grupo": "Q101",
-          "profesor": "TINAJERO DIAZ MARIA DE JESUS",
+          "grupo": "Q201",
+          "profesor": "ORTEGA JIMENEZ JULIO",
           "horarios": [
             {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
+              "dia": "MA",
+              "dia_nombre": "Martes",
               "inicio": "08:00",
               "fin": "10:00"
             },
             {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
+              "dia": "JU",
+              "dia_nombre": "Jueves",
               "inicio": "08:00",
               "fin": "10:00"
             }
@@ -27,95 +27,7 @@
           "salon": "A-8204"
         },
         {
-          "grupo": "Q151",
-          "profesor": "BERDEJA GARCIA ROBERTO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "A-8204"
-        }
-      ]
-    },
-    "1156": {
-      "nombre": "INTRODUCCION A LA LINGUISTICA I",
-      "semestre": "01",
-      "grupos": [
-        {
-          "grupo": "Q101",
-          "profesor": "GONZALEZ MEJIA CHRISTIAN",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-8204"
-        },
-        {
-          "grupo": "Q151",
-          "profesor": "VERDEJO RODRIGUEZ ELIZABETH",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-8204"
-        }
-      ]
-    },
-    "1157": {
-      "nombre": "PENSAMIENTO FILOSOFICO I",
-      "semestre": "01",
-      "grupos": [
-        {
-          "grupo": "Q101",
-          "profesor": "COSME NAVA ELOINA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-8204"
-        },
-        {
-          "grupo": "Q151",
+          "grupo": "Q251",
           "profesor": "HERRERA VAZQUEZ MARINA ADRIANA",
           "horarios": [
             {
@@ -135,13 +47,13 @@
         }
       ]
     },
-    "1158": {
-      "nombre": "TALLER DE REDACCION",
-      "semestre": "01",
+    "1255": {
+      "nombre": "FONETICA Y FONOLOGIA",
+      "semestre": "02",
       "grupos": [
         {
-          "grupo": "Q301",
-          "profesor": "SALDIERNA RANGEL JOSE JULIAN",
+          "grupo": "Q201",
+          "profesor": "VERDEJO RODRIGUEZ ELIZABETH",
           "horarios": [
             {
               "dia": "LU",
@@ -156,35 +68,123 @@
               "fin": "14:00"
             }
           ],
-          "salon": "A-8201"
+          "salon": "A-8204"
         },
         {
-          "grupo": "Q351",
-          "profesor": "ORTEGA JIMENEZ JULIO",
+          "grupo": "Q251",
+          "profesor": "LOZADA MARTINEZ VERONICA",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
+              "dia": "LU",
+              "dia_nombre": "Lunes",
               "inicio": "14:00",
               "fin": "16:00"
             },
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "14:00",
               "fin": "16:00"
             }
           ],
-          "salon": "A-8201"
+          "salon": "A-8204"
         }
       ]
     },
-    "1159": {
-      "nombre": "TEORIA E HISTORIA DEL ARTE I",
-      "semestre": "01",
+    "1256": {
+      "nombre": "LITERATURA ORIENTAL Y GRECOLATIN",
+      "semestre": "02",
       "grupos": [
         {
-          "grupo": "Q101",
+          "grupo": "Q201",
+          "profesor": "RUDY HILLER DANIEL ISAAC",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8204"
+        },
+        {
+          "grupo": "Q251",
+          "profesor": "BERDEJA GARCIA ROBERTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-8204"
+        }
+      ]
+    },
+    "1257": {
+      "nombre": "LATIN I",
+      "semestre": "02",
+      "grupos": [
+        {
+          "grupo": "Q201",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8204"
+        },
+        {
+          "grupo": "Q251",
+          "profesor": "SANTILLAN PEREZ CESAR",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8204"
+        }
+      ]
+    },
+    "1260": {
+      "nombre": "TEORIA E HISTORIA DEL ARTE II",
+      "semestre": "02",
+      "grupos": [
+        {
+          "grupo": "Q201",
           "profesor": "FLORES MORENO MARCO ANTONIO",
           "horarios": [
             {
@@ -203,7 +203,7 @@
           "salon": "A-8204"
         },
         {
-          "grupo": "Q151",
+          "grupo": "Q251",
           "profesor": "MARTINEZ LIRA MIGUEL ALEJANDRO",
           "horarios": [
             {
@@ -223,515 +223,12 @@
         }
       ]
     },
-    "1258": {
-      "nombre": "PENSAMIENTO FILOSOFICO II",
-      "semestre": "02",
-      "grupos": [
-        {
-          "grupo": "Q301",
-          "profesor": "COSME NAVA ELOINA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-8201"
-        },
-        {
-          "grupo": "Q351",
-          "profesor": "MENDOZA CANTU ALINA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "A-8201"
-        }
-      ]
-    },
-    "1259": {
-      "nombre": "TEORIA DE LA CREACION LITERARIA",
-      "semestre": "02",
-      "grupos": [
-        {
-          "grupo": "Q101",
-          "profesor": "DE LA CALLEJA LOPEZ MIGUEL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-8204"
-        },
-        {
-          "grupo": "Q151",
-          "profesor": "DI BIASE CASTRO ELISA TERESINA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-8204"
-        }
-      ]
-    },
-    "1355": {
-      "nombre": "LITERATURA ESPAÑOLA MEDIEVAL",
+    "1360": {
+      "nombre": "TEORIA DE LA CRITICA LITERARIA",
       "semestre": "03",
       "grupos": [
         {
-          "grupo": "Q301",
-          "profesor": "ZEPEDA VALVERDE ELIZABETH",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-8201"
-        },
-        {
-          "grupo": "Q351",
-          "profesor": "MARTIN LOPEZ MARIA GABRIELA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-8201"
-        }
-      ]
-    },
-    "1356": {
-      "nombre": "LITERATURA EUROPEA MEDIEVAL",
-      "semestre": "03",
-      "grupos": [
-        {
-          "grupo": "Q301",
-          "profesor": "LOPEZ MARQUEZ CARLOS ALBERTO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8201"
-        },
-        {
-          "grupo": "Q351",
-          "profesor": "RUDY HILLER DANIEL ISAAC",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "A-8201"
-        }
-      ]
-    },
-    "1357": {
-      "nombre": "LATIN II",
-      "semestre": "03",
-      "grupos": [
-        {
-          "grupo": "Q301",
-          "profesor": "TINAJERO DIAZ MARIA DE JESUS",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-8202"
-        },
-        {
-          "grupo": "Q351",
-          "profesor": "BERDEJA GARCIA ROBERTO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-8201"
-        }
-      ]
-    },
-    "1358": {
-      "nombre": "LITERATURA Y SOCIEDAD",
-      "semestre": "03",
-      "grupos": [
-        {
-          "grupo": "1351",
-          "profesor": "LOPEZ MARQUEZ CARLOS ALBERTO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-8202"
-        }
-      ]
-    },
-    "1359": {
-      "nombre": "MORFOL Y SINTAXIS DE LA ORACION",
-      "semestre": "03",
-      "grupos": [
-        {
-          "grupo": "Q301",
-          "profesor": "RODRIGUEZ JIMENEZ KARINA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-8201"
-        },
-        {
-          "grupo": "Q351",
-          "profesor": "ESPINOSA CAMBRONNE CLAUDIA LEONOR",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-8201"
-        }
-      ]
-    },
-    "1555": {
-      "nombre": "FILOLOGIA HISPANICA II",
-      "semestre": "05",
-      "grupos": [
-        {
-          "grupo": "1501",
-          "profesor": "OJEDA ROSADO NIDIA DEL CARMEN",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-8201"
-        },
-        {
-          "grupo": "1551",
-          "profesor": "LOZADA MARTINEZ VERONICA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-1127"
-        }
-      ]
-    },
-    "1556": {
-      "nombre": "INTRODUCCION A LA SEMANTICA",
-      "semestre": "05",
-      "grupos": [
-        {
-          "grupo": "1501",
-          "profesor": "MONTOYA MONTELONGO VIRGINIA PENELOPE",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "10:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8202"
-        },
-        {
-          "grupo": "1551",
-          "profesor": "OYOSA ROMERO ANABEL EUGENIA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-1008"
-        }
-      ]
-    },
-    "1557": {
-      "nombre": "LITERATURA ESPAÑOLA S. ORO (S.XV",
-      "semestre": "05",
-      "grupos": [
-        {
-          "grupo": "1501",
-          "profesor": "MARTIN LOPEZ MARIA GABRIELA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-1127"
-        },
-        {
-          "grupo": "1551",
-          "profesor": "DE LA CALLEJA LOPEZ MIGUEL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-1127"
-        }
-      ]
-    },
-    "1558": {
-      "nombre": "LITERATURA COLONIAL HISPANOAMERI",
-      "semestre": "05",
-      "grupos": [
-        {
-          "grupo": "1501",
-          "profesor": "MEDINA JAIME RUBEN DARIO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8202"
-        },
-        {
-          "grupo": "1551",
-          "profesor": "MARTIN LOPEZ MARIA GABRIELA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-1127"
-        }
-      ]
-    },
-    "1559": {
-      "nombre": "LITERATURA EUROPEA MODERNA",
-      "semestre": "05",
-      "grupos": [
-        {
-          "grupo": "1501",
-          "profesor": "RUDY HILLER DANIEL ISAAC",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-1127"
-        },
-        {
-          "grupo": "1551",
-          "profesor": "ACUÑA GUTIERREZ ROBERTO JAVIER",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "A-1127"
-        }
-      ]
-    },
-    "1560": {
-      "nombre": "SEMIOTICA",
-      "semestre": "05",
-      "grupos": [
-        {
-          "grupo": "1501",
+          "grupo": "Q201",
           "profesor": "SALDIERNA RANGEL JOSE JULIAN",
           "horarios": [
             {
@@ -747,10 +244,450 @@
               "fin": "12:00"
             }
           ],
+          "salon": "A-8204"
+        },
+        {
+          "grupo": "Q251",
+          "profesor": "HERNANDEZ LANDA VALENCIA VERONICA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8204"
+        }
+      ]
+    },
+    "1455": {
+      "nombre": "FILOLOGIA HISPANICA I",
+      "semestre": "04",
+      "grupos": [
+        {
+          "grupo": "Q401",
+          "profesor": "OJEDA ROSADO NIDIA DEL CARMEN",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8201"
+        },
+        {
+          "grupo": "Q451",
+          "profesor": "LOZADA MARTINEZ VERONICA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8201"
+        }
+      ]
+    },
+    "1456": {
+      "nombre": "LITERATURA ESPAÑOLA S ORO (S XVI",
+      "semestre": "04",
+      "grupos": [
+        {
+          "grupo": "Q401",
+          "profesor": "GARCIA PEÑA ALEJANDRO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8201"
+        },
+        {
+          "grupo": "Q451",
+          "profesor": "MARTIN LOPEZ MARIA GABRIELA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8201"
+        }
+      ]
+    },
+    "1457": {
+      "nombre": "LITERATURA PREHISPANICA",
+      "semestre": "04",
+      "grupos": [
+        {
+          "grupo": "Q401",
+          "profesor": "SALDIERNA RANGEL JOSE JULIAN",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8201"
+        },
+        {
+          "grupo": "Q451",
+          "profesor": "SORIANO TRUJILLO ERNESTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8201"
+        }
+      ]
+    },
+    "1458": {
+      "nombre": "LITERATURA EUROPEA RENACENTISTA",
+      "semestre": "04",
+      "grupos": [
+        {
+          "grupo": "Q401",
+          "profesor": "RUDY HILLER DANIEL ISAAC",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8201"
+        },
+        {
+          "grupo": "Q451",
+          "profesor": "LOPEZ MARQUEZ CARLOS ALBERTO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8201,A-82"
+        }
+      ]
+    },
+    "1460": {
+      "nombre": "SINTAXIS DE LA ORACION COMPUESTA",
+      "semestre": "04",
+      "grupos": [
+        {
+          "grupo": "Q401",
+          "profesor": "RODRIGUEZ JIMENEZ KARINA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8201"
+        },
+        {
+          "grupo": "Q451",
+          "profesor": "ESPINOSA CAMBRONNE CLAUDIA LEONOR",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8201"
+        }
+      ]
+    },
+    "1655": {
+      "nombre": "LITERATURA ESPAÑOLA SIGLOS XVIII",
+      "semestre": "06",
+      "grupos": [
+        {
+          "grupo": "2601",
+          "profesor": "ZEPEDA VALVERDE ELIZABETH",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8203"
+        },
+        {
+          "grupo": "2651",
+          "profesor": "GUZMAN ZARATE EDUARDO ARI",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-1127"
+        }
+      ]
+    },
+    "1656": {
+      "nombre": "LITERATURA HISPANOAMERIC. SIGLO",
+      "semestre": "06",
+      "grupos": [
+        {
+          "grupo": "2601",
+          "profesor": "HERNANDEZ LANDA VALENCIA VERONICA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8203"
+        },
+        {
+          "grupo": "2651",
+          "profesor": "LOPEZ MARQUEZ CARLOS ALBERTO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1127,A-11"
+        }
+      ]
+    },
+    "1657": {
+      "nombre": "LITERATURA CONTEMPORANEA (SIGLO",
+      "semestre": "06",
+      "grupos": [
+        {
+          "grupo": "2601",
+          "profesor": "LOPEZ MARQUEZ CARLOS ALBERTO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
           "salon": "A-1127"
         },
         {
-          "grupo": "1551",
+          "grupo": "2651",
+          "profesor": "RUDY HILLER DANIEL ISAAC",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8202"
+        }
+      ]
+    },
+    "1658": {
+      "nombre": "TALLER DE ANALISIS LINGUIST.D TE",
+      "semestre": "06",
+      "grupos": [
+        {
+          "grupo": "2601",
+          "profesor": "MARTINEZ HERNANDEZ SERAPIO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8203"
+        },
+        {
+          "grupo": "2651",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8202"
+        }
+      ]
+    },
+    "1659": {
+      "nombre": "TALLER DE ANALISIS LITERARIO",
+      "semestre": "06",
+      "grupos": [
+        {
+          "grupo": "2601",
+          "profesor": "DE LA CALLEJA LOPEZ MIGUEL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8202"
+        },
+        {
+          "grupo": "2651",
           "profesor": "DI BIASE CASTRO ELISA TERESINA",
           "horarios": [
             {
@@ -766,288 +703,16 @@
               "fin": "20:00"
             }
           ],
-          "salon": "A-1127"
-        }
-      ]
-    },
-    "1755": {
-      "nombre": "LITERATURA ESPAÑOLA DEL SIGLO XX",
-      "semestre": "07",
-      "grupos": [
-        {
-          "grupo": "1701",
-          "profesor": "ZAVALA GONZALEZ LUIS MANUEL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-8203"
-        },
-        {
-          "grupo": "1751",
-          "profesor": "PEÑA MONTALVO EDGARD MAURICIO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
           "salon": "A-8202"
         }
       ]
     },
-    "1756": {
-      "nombre": "LITERATURA HISPANOAMERICANA SIGL",
-      "semestre": "07",
+    "1660": {
+      "nombre": "TEORIAS LINGUISTICAS I",
+      "semestre": "06",
       "grupos": [
         {
-          "grupo": "1701",
-          "profesor": "MEDINA JAIME RUBEN DARIO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-8202"
-        },
-        {
-          "grupo": "1751",
-          "profesor": "HAMUI SUTTON SILVIA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "A-8202"
-        }
-      ]
-    },
-    "1757": {
-      "nombre": "MEDIOS DE COMUNICACION",
-      "semestre": "07",
-      "grupos": [
-        {
-          "grupo": "1701",
-          "profesor": "OLVERA VAZQUEZ JORGE",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8202"
-        },
-        {
-          "grupo": "1751",
-          "profesor": "CHARRAGA PINEDA TARSICIO GUSTAVO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-8203"
-        }
-      ]
-    },
-    "1758": {
-      "nombre": "SEMINARI DE INVESTIGACION LINGUI",
-      "semestre": "07",
-      "grupos": [
-        {
-          "grupo": "1701",
-          "profesor": "ESPINOSA CAMBRONNE CLAUDIA LEONOR",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8203"
-        },
-        {
-          "grupo": "1702",
-          "profesor": "PACHECO AVILA CONCEPCION LUCERO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-1127"
-        },
-        {
-          "grupo": "1751",
-          "profesor": "OJEDA ROSADO NIDIA DEL CARMEN",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-8203"
-        },
-        {
-          "grupo": "1752",
-          "profesor": "RODRIGUEZ JIMENEZ KARINA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-8202"
-        }
-      ]
-    },
-    "1759": {
-      "nombre": "SEMINARIO DE INVESTIGACION LITER",
-      "semestre": "07",
-      "grupos": [
-        {
-          "grupo": "1701",
-          "profesor": "ACUÑA GUTIERREZ ROBERTO JAVIER",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "10:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-1127"
-        },
-        {
-          "grupo": "1702",
-          "profesor": "LOPEZ MARQUEZ CARLOS ALBERTO",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "10:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8201"
-        },
-        {
-          "grupo": "1751",
-          "profesor": "MARTIN LOPEZ MARIA GABRIELA",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "14:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-8203"
-        },
-        {
-          "grupo": "1752",
-          "profesor": "ORTEGA JIMENEZ JULIO",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "14:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-1127"
-        }
-      ]
-    },
-    "1760": {
-      "nombre": "TEORIAS LINGUISTICAS II",
-      "semestre": "07",
-      "grupos": [
-        {
-          "grupo": "1701",
+          "grupo": "2601",
           "profesor": "MAYNEZ VIDAL MA DEL PILAR ISABEL",
           "horarios": [
             {
@@ -1066,7 +731,7 @@
           "salon": "A-1002"
         },
         {
-          "grupo": "1751",
+          "grupo": "2651",
           "profesor": "ESPINOSA CAMBRONNE CLAUDIA LEONOR",
           "horarios": [
             {
@@ -1086,13 +751,13 @@
         }
       ]
     },
-    "2100": {
-      "nombre": "ETIMOLOGIAS GRECOLATINAS",
-      "semestre": "01",
+    "1855": {
+      "nombre": "LEXICOLOGIA",
+      "semestre": "08",
       "grupos": [
         {
-          "grupo": "1101",
-          "profesor": "TINAJERO DIAZ MARIA DE JESUS",
+          "grupo": "2801",
+          "profesor": "RODRIGUEZ JIMENEZ KARINA",
           "horarios": [
             {
               "dia": "LU",
@@ -1107,35 +772,418 @@
               "fin": "10:00"
             }
           ],
-          "salon": "A-8204"
+          "salon": "A-8202"
         },
         {
-          "grupo": "1151",
+          "grupo": "2851",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "14:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8102"
+        }
+      ]
+    },
+    "1856": {
+      "nombre": "DIDACTICA DE LA ESPECIALIDAD",
+      "semestre": "08",
+      "grupos": [
+        {
+          "grupo": "2801",
+          "profesor": "HERRERA VAZQUEZ MARINA ADRIANA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-1127"
+        },
+        {
+          "grupo": "2851",
+          "profesor": "LOZADA MARTINEZ VERONICA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-8202"
+        }
+      ]
+    },
+    "2047": {
+      "nombre": "TEM. SEL. EDICION CRITICA DE TEX",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "2801",
+          "profesor": "UGALDE ANDRADE IMELDA PAOLA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8202"
+        }
+      ]
+    },
+    "2052": {
+      "nombre": "TEM. SEL. GRAMATICA PEDAGOGICA",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "2851",
+          "profesor": "ESPINOSA CAMBRONNE CLAUDIA LEONOR",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8203"
+        }
+      ]
+    },
+    "2055": {
+      "nombre": "TEM. SEL. LITERATURA Y CINE",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "2801",
+          "profesor": "OLVERA VAZQUEZ JORGE",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8203"
+        }
+      ]
+    },
+    "2059": {
+      "nombre": "TEM. SEL. LITERATURA COMPARADA",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "2801",
+          "profesor": "OLIVA TELLO HEIDY JOJANA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8203"
+        }
+      ]
+    },
+    "2060": {
+      "nombre": "TEM.SEL.LETRAS NEGRAS EN AMERIC.",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "2801",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8203"
+        }
+      ]
+    },
+    "2064": {
+      "nombre": "TEM. SEL. NARRATOLOGIA",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "2851",
+          "profesor": "ORTEGA JIMENEZ JULIO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8203"
+        }
+      ]
+    },
+    "2066": {
+      "nombre": "TEM. SEL. PSICOLINGUISTICA",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "2801",
+          "profesor": "SANTAMARIA AGUIRRE MARIA DEL CONSUELO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-1127"
+        }
+      ]
+    },
+    "2067": {
+      "nombre": "TEM. SEL. PALEOGRAFIA",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "2851",
           "profesor": "BERDEJA GARCIA ROBERTO",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "18:00",
-              "fin": "20:00"
+              "inicio": "16:00",
+              "fin": "18:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "18:00",
-              "fin": "20:00"
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1127"
+        }
+      ]
+    },
+    "2068": {
+      "nombre": "TEM. SEL. PERIODISMO Y LITERATUR",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "2801",
+          "profesor": "SOTELO HERRERA NOE",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8202"
+        }
+      ]
+    },
+    "2070": {
+      "nombre": "TEM. SEL. POESIA MEXICANA ACTUAL",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "2851",
+          "profesor": "DI BIASE CASTRO ELISA TERESINA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-1127"
+        }
+      ]
+    },
+    "2071": {
+      "nombre": "TEM. SEL. SOCIOLINGUISTICA",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "2851",
+          "profesor": "RODRIGUEZ JIMENEZ KARINA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8203"
+        }
+      ]
+    },
+    "2076": {
+      "nombre": "ESCRITURA DEL GUION",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "2801",
+          "profesor": "ACUÑA GUTIERREZ ROBERTO JAVIER",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8202"
+        }
+      ]
+    },
+    "2078": {
+      "nombre": "TRABAJO EDITORIAL Y DE IMPRENTA",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "2851",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8203"
+        }
+      ]
+    },
+    "2200": {
+      "nombre": "FONETICA Y FONOLOGIA",
+      "semestre": "02",
+      "grupos": [
+        {
+          "grupo": "2201",
+          "profesor": "VERDEJO RODRIGUEZ ELIZABETH",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8204"
+        },
+        {
+          "grupo": "2251",
+          "profesor": "LOZADA MARTINEZ VERONICA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
             }
           ],
           "salon": "A-8204"
         }
       ]
     },
-    "2101": {
-      "nombre": "FUNDAMENTOS DEL ARTE",
-      "semestre": "01",
+    "2201": {
+      "nombre": "HISTORIA DEL ARTE",
+      "semestre": "02",
       "grupos": [
         {
-          "grupo": "1101",
+          "grupo": "2201",
           "profesor": "FLORES MORENO MARCO ANTONIO",
           "horarios": [
             {
@@ -1154,7 +1202,7 @@
           "salon": "A-8204"
         },
         {
-          "grupo": "1151",
+          "grupo": "2251",
           "profesor": "MARTINEZ LIRA MIGUEL ALEJANDRO",
           "horarios": [
             {
@@ -1174,57 +1222,101 @@
         }
       ]
     },
-    "2102": {
-      "nombre": "INICIACION A LA ESCRITURA",
-      "semestre": "01",
+    "2202": {
+      "nombre": "LATIN I",
+      "semestre": "02",
       "grupos": [
         {
-          "grupo": "1101",
-          "profesor": "DI BIASE CASTRO ELISA TERESINA",
+          "grupo": "2201",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "12:00",
-              "fin": "14:00"
+              "inicio": "08:00",
+              "fin": "10:00"
             },
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",
-              "inicio": "12:00",
-              "fin": "14:00"
+              "inicio": "08:00",
+              "fin": "10:00"
             }
           ],
           "salon": "A-8204"
         },
         {
-          "grupo": "1151",
+          "grupo": "2251",
+          "profesor": "SANTILLAN PEREZ CESAR",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8204"
+        }
+      ]
+    },
+    "2203": {
+      "nombre": "LITERATURA ORIENTAL Y GRECOLATIN",
+      "semestre": "02",
+      "grupos": [
+        {
+          "grupo": "2201",
           "profesor": "RUDY HILLER DANIEL ISAAC",
           "horarios": [
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
+              "inicio": "10:00",
+              "fin": "12:00"
             },
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8204"
+        },
+        {
+          "grupo": "2251",
+          "profesor": "BERDEJA GARCIA ROBERTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
             }
           ],
           "salon": "A-8204"
         }
       ]
     },
-    "2103": {
-      "nombre": "INTRODUCCION A LA LINGUISTICA",
-      "semestre": "01",
+    "2204": {
+      "nombre": "PANORAM.CRIT.LITER.SIGLO XX-XXI",
+      "semestre": "02",
       "grupos": [
         {
-          "grupo": "1101",
-          "profesor": "GONZALEZ MEJIA CHRISTIAN",
+          "grupo": "2201",
+          "profesor": "SALDIERNA RANGEL JOSE JULIAN",
           "horarios": [
             {
               "dia": "MA",
@@ -1242,8 +1334,27 @@
           "salon": "A-8204"
         },
         {
-          "grupo": "1151",
-          "profesor": "VERDEJO RODRIGUEZ ELIZABETH",
+          "grupo": "2202",
+          "profesor": "HERNANDEZ LANDA VALENCIA VERONICA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-1127"
+        },
+        {
+          "grupo": "2251",
+          "profesor": "HERNANDEZ LANDA VALENCIA VERONICA",
           "horarios": [
             {
               "dia": "MA",
@@ -1262,13 +1373,13 @@
         }
       ]
     },
-    "2104": {
-      "nombre": "INTRODUC.A LOS ESTUDIOS LITERARI",
-      "semestre": "01",
+    "2205": {
+      "nombre": "TECNICAS DE INVESTIGACION",
+      "semestre": "02",
       "grupos": [
         {
-          "grupo": "1101",
-          "profesor": "DE LA CALLEJA LOPEZ MIGUEL",
+          "grupo": "2201",
+          "profesor": "ORTEGA JIMENEZ JULIO",
           "horarios": [
             {
               "dia": "MA",
@@ -1286,51 +1397,7 @@
           "salon": "A-8204"
         },
         {
-          "grupo": "1151",
-          "profesor": "DI BIASE CASTRO ELISA TERESINA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-8204"
-        }
-      ]
-    },
-    "2105": {
-      "nombre": "ORALIDAD Y ESCRITURA",
-      "semestre": "01",
-      "grupos": [
-        {
-          "grupo": "1101",
-          "profesor": "COSME NAVA ELOINA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-8204"
-        },
-        {
-          "grupo": "1151",
+          "grupo": "2251",
           "profesor": "HERRERA VAZQUEZ MARINA ADRIANA",
           "horarios": [
             {
@@ -1350,57 +1417,13 @@
         }
       ]
     },
-    "2300": {
-      "nombre": "ESTETICA",
-      "semestre": "03",
+    "2400": {
+      "nombre": "FILOLOGIA HISPANICA I",
+      "semestre": "04",
       "grupos": [
         {
-          "grupo": "1301",
-          "profesor": "COSME NAVA ELOINA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-8201"
-        },
-        {
-          "grupo": "1351",
-          "profesor": "MENDOZA CANTU ALINA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "A-8201"
-        }
-      ]
-    },
-    "2301": {
-      "nombre": "LATIN II",
-      "semestre": "03",
-      "grupos": [
-        {
-          "grupo": "1301",
-          "profesor": "TINAJERO DIAZ MARIA DE JESUS",
+          "grupo": "2401",
+          "profesor": "OJEDA ROSADO NIDIA DEL CARMEN",
           "horarios": [
             {
               "dia": "LU",
@@ -1415,21 +1438,21 @@
               "fin": "12:00"
             }
           ],
-          "salon": "A-8202"
+          "salon": "A-8201"
         },
         {
-          "grupo": "1351",
-          "profesor": "BERDEJA GARCIA ROBERTO",
+          "grupo": "2451",
+          "profesor": "LOZADA MARTINEZ VERONICA",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
+              "dia": "LU",
+              "dia_nombre": "Lunes",
               "inicio": "16:00",
               "fin": "18:00"
             },
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "16:00",
               "fin": "18:00"
             }
@@ -1438,13 +1461,13 @@
         }
       ]
     },
-    "2302": {
-      "nombre": "LITERATURA ESPAÑOLA MEDIEVAL",
-      "semestre": "03",
+    "2401": {
+      "nombre": "LITER.ESPAÑOLA SIGLOS ORO. SIGLO",
+      "semestre": "04",
       "grupos": [
         {
-          "grupo": "1301",
-          "profesor": "ZEPEDA VALVERDE ELIZABETH",
+          "grupo": "2401",
+          "profesor": "GARCIA PEÑA ALEJANDRO",
           "horarios": [
             {
               "dia": "MA",
@@ -1462,76 +1485,120 @@
           "salon": "A-8201"
         },
         {
-          "grupo": "1351",
+          "grupo": "2451",
           "profesor": "MARTIN LOPEZ MARIA GABRIELA",
           "horarios": [
             {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
               "dia": "MI",
               "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "14:00",
+              "fin": "16:00"
             }
           ],
           "salon": "A-8201"
         }
       ]
     },
-    "2303": {
-      "nombre": "LITERATURA EUROPEA MEDIEVAL",
-      "semestre": "03",
+    "2402": {
+      "nombre": "LITERATURA EUROPEA RENACENTISTA",
+      "semestre": "04",
       "grupos": [
         {
-          "grupo": "1301",
-          "profesor": "LOPEZ MARQUEZ CARLOS ALBERTO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8201"
-        },
-        {
-          "grupo": "1351",
+          "grupo": "2401",
           "profesor": "RUDY HILLER DANIEL ISAAC",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "18:00",
-              "fin": "20:00"
+              "inicio": "12:00",
+              "fin": "14:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "18:00",
-              "fin": "20:00"
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8201"
+        },
+        {
+          "grupo": "2451",
+          "profesor": "LOPEZ MARQUEZ CARLOS ALBERTO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8201,A-82"
+        }
+      ]
+    },
+    "2403": {
+      "nombre": "LITERATURA PREHISPANICA",
+      "semestre": "04",
+      "grupos": [
+        {
+          "grupo": "2401",
+          "profesor": "SALDIERNA RANGEL JOSE JULIAN",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8201"
+        },
+        {
+          "grupo": "2451",
+          "profesor": "SORIANO TRUJILLO ERNESTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
             }
           ],
           "salon": "A-8201"
         }
       ]
     },
-    "2304": {
-      "nombre": "MORFOL.SINTAXIS DE ORACION SIMPL",
-      "semestre": "03",
+    "2404": {
+      "nombre": "SINTAXIS DE LA ORACION COMPUESTA",
+      "semestre": "04",
       "grupos": [
         {
-          "grupo": "1301",
+          "grupo": "2401",
           "profesor": "RODRIGUEZ JIMENEZ KARINA",
           "horarios": [
             {
@@ -1550,18 +1617,18 @@
           "salon": "A-8201"
         },
         {
-          "grupo": "1351",
+          "grupo": "2451",
           "profesor": "ESPINOSA CAMBRONNE CLAUDIA LEONOR",
           "horarios": [
             {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
+              "dia": "MA",
+              "dia_nombre": "Martes",
               "inicio": "14:00",
               "fin": "16:00"
             },
             {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
+              "dia": "JU",
+              "dia_nombre": "Jueves",
               "inicio": "14:00",
               "fin": "16:00"
             }
@@ -1570,13 +1637,13 @@
         }
       ]
     },
-    "2305": {
-      "nombre": "REDACCION ACADEMICA",
-      "semestre": "03",
+    "2405": {
+      "nombre": "TALLER ANALISIS TEXTOS LITERARIO",
+      "semestre": "04",
       "grupos": [
         {
-          "grupo": "1301",
-          "profesor": "SALDIERNA RANGEL JOSE JULIAN",
+          "grupo": "2401",
+          "profesor": "DI BIASE CASTRO ELISA TERESINA",
           "horarios": [
             {
               "dia": "LU",
@@ -1594,20 +1661,20 @@
           "salon": "A-8201"
         },
         {
-          "grupo": "1351",
-          "profesor": "ORTEGA JIMENEZ JULIO",
+          "grupo": "2451",
+          "profesor": "DE LA CALLEJA LOPEZ MIGUEL",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
             },
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
             }
           ],
           "salon": "A-8201"
