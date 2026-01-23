@@ -1,7 +1,7 @@
 {
   "codigo": "20821",
   "nombre": "Economía",
-  "fecha_consulta": "2026-01-21T01:18:00.930Z",
+  "fecha_consulta": "2026-01-23T09:32:51.366Z",
   "materias": {
     "2220": {
       "nombre": "CALCULO DIFERENCIAL",
@@ -388,7 +388,7 @@
         },
         {
           "grupo": "2252",
-          "profesor": "DEGANTE CASTAÑEDA ARMANDO",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "LU",
@@ -1177,7 +1177,7 @@
         },
         {
           "grupo": "2402",
-          "profesor": "DEGANTE CASTAÑEDA ARMANDO",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "MA",
@@ -1365,14 +1365,14 @@
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "12:30",
-              "fin": "14:00"
+              "inicio": "13:00",
+              "fin": "14:30"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "12:30",
-              "fin": "14:00"
+              "inicio": "13:00",
+              "fin": "14:30"
             }
           ],
           "salon": "A-521"
