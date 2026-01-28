@@ -1,7 +1,7 @@
 {
   "codigo": "20121",
   "nombre": "Arquitectura",
-  "fecha_consulta": "2026-01-21T01:17:29.924Z",
+  "fecha_consulta": "2026-01-28T22:22:48.981Z",
   "materias": {
     "1200": {
       "nombre": "MATEMATICAS II",
@@ -2025,14 +2025,14 @@
           "profesor": "HERRERA CARRILLO JUAN HECTOR HUGO",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
+              "dia": "LU",
+              "dia_nombre": "Lunes",
               "inicio": "08:30",
               "fin": "10:00"
             },
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
+              "dia": "VI",
+              "dia_nombre": "Viernes",
               "inicio": "08:30",
               "fin": "10:00"
             }
@@ -5509,6 +5509,19 @@
             }
           ],
           "salon": "A-313"
+        },
+        {
+          "grupo": "2852",
+          "profesor": "JARAMILLO DOMINGUEZ MIGUEL",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "19:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "A-301"
         }
       ]
     },

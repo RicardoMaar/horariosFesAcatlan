@@ -1,7 +1,7 @@
 {
   "codigo": "20821",
   "nombre": "Economía",
-  "fecha_consulta": "2026-01-21T01:18:00.930Z",
+  "fecha_consulta": "2026-01-28T22:23:20.004Z",
   "materias": {
     "2220": {
       "nombre": "CALCULO DIFERENCIAL",
@@ -350,7 +350,7 @@
         },
         {
           "grupo": "2203",
-          "profesor": "MARTINEZ CHAVEZ LUIS GONZALO",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "LU",
@@ -388,7 +388,7 @@
         },
         {
           "grupo": "2252",
-          "profesor": "DEGANTE CASTAÑEDA ARMANDO",
+          "profesor": "SOLANO SANCHEZ MIRIAM",
           "horarios": [
             {
               "dia": "LU",
@@ -514,7 +514,7 @@
       "grupos": [
         {
           "grupo": "2201",
-          "profesor": "MARTINEZ CHAVEZ LUIS GONZALO",
+          "profesor": "OCHOA ALVARADO RUTH STEPHANI",
           "horarios": [
             {
               "dia": "LU",
@@ -1076,7 +1076,7 @@
         },
         {
           "grupo": "2402",
-          "profesor": "Profesor No Asignado",
+          "profesor": "LUNA RIVERA ISRAEL",
           "horarios": [
             {
               "dia": "LU",
@@ -1095,7 +1095,7 @@
         },
         {
           "grupo": "2403",
-          "profesor": "CHAVEZ LEON SOL MARIA",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "LU",
@@ -1177,7 +1177,7 @@
         },
         {
           "grupo": "2402",
-          "profesor": "DEGANTE CASTAÑEDA ARMANDO",
+          "profesor": "TIRADO DE SALAZAR RODRIGO OCTAVIO",
           "horarios": [
             {
               "dia": "MA",
@@ -1278,7 +1278,7 @@
         },
         {
           "grupo": "2402",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ROSAS CERVANTES MIRIAM AURORA",
           "horarios": [
             {
               "dia": "MA",
@@ -1363,14 +1363,14 @@
           "profesor": "Profesor No Asignado",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
+              "dia": "LU",
+              "dia_nombre": "Lunes",
               "inicio": "12:30",
               "fin": "14:00"
             },
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "12:30",
               "fin": "14:00"
             }
@@ -1382,14 +1382,14 @@
           "profesor": "NEGRETE TORRES ISRAEL",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
+              "dia": "LU",
+              "dia_nombre": "Lunes",
               "inicio": "12:30",
               "fin": "14:00"
             },
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "12:30",
               "fin": "14:00"
             }
@@ -1401,14 +1401,14 @@
           "profesor": "CORTES DIAZ GUADALUPE",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
+              "dia": "LU",
+              "dia_nombre": "Lunes",
               "inicio": "12:30",
               "fin": "14:00"
             },
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "12:30",
               "fin": "14:00"
             }
@@ -1487,7 +1487,7 @@
         },
         {
           "grupo": "2603",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ROSAS CERVANTES MIRIAM AURORA",
           "horarios": [
             {
               "dia": "LU",
@@ -2011,7 +2011,7 @@
         },
         {
           "grupo": "2651",
-          "profesor": "Profesor No Asignado",
+          "profesor": "LUNA RIVERA ISRAEL",
           "horarios": [
             {
               "dia": "MA",
@@ -2261,7 +2261,7 @@
       "grupos": [
         {
           "grupo": "2801",
-          "profesor": "Profesor No Asignado",
+          "profesor": "WERNLI SABANERO VALTER YESUA",
           "horarios": [
             {
               "dia": "MA",

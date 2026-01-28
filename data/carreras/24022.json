@@ -1,7 +1,7 @@
 {
   "codigo": "24022",
   "nombre": "Matemáticas. Apl. y Comp.",
-  "fecha_consulta": "2026-01-21T01:18:37.746Z",
+  "fecha_consulta": "2026-01-28T22:23:56.815Z",
   "materias": {
     "1048": {
       "nombre": "ANALISIS DE FOURIER",
@@ -274,7 +274,7 @@
         },
         {
           "grupo": "2854",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CASTRO SANTAMARIA ADOLFO ULISES",
           "horarios": [
             {
               "dia": "MA",
@@ -2219,7 +2219,7 @@
       "grupos": [
         {
           "grupo": "2401",
-          "profesor": "SOTO CORTES MARIA DE LOURDES",
+          "profesor": "VASQUEZ DIAZ AARON",
           "horarios": [
             {
               "dia": "JU",
@@ -2619,7 +2619,7 @@
         },
         {
           "grupo": "2454",
-          "profesor": "Profesor No Asignado",
+          "profesor": "APOLINAR JOAQUIN CESAR GABRIEL",
           "horarios": [
             {
               "dia": "LU",
@@ -2906,7 +2906,7 @@
         },
         {
           "grupo": "2403",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GUTIERREZ PEREZ MELISSA ITZEL",
           "horarios": [
             {
               "dia": "MA",
@@ -3181,8 +3181,8 @@
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "inicio": "20:00",
+              "fin": "22:00"
             }
           ],
           "salon": "INF. JEFA."
@@ -3645,7 +3645,7 @@
         },
         {
           "grupo": "2602",
-          "profesor": "Profesor No Asignado",
+          "profesor": "LOPEZ LOPEZ ADALBERTO",
           "horarios": [
             {
               "dia": "MA",
@@ -3715,6 +3715,25 @@
               "dia_nombre": "Jueves",
               "inicio": "09:00",
               "fin": "11:00"
+            }
+          ],
+          "salon": "INF. JEFA."
+        },
+        {
+          "grupo": "2606",
+          "profesor": "QUIROZ ESPINOZA MONICA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "13:00"
             }
           ],
           "salon": "INF. JEFA."

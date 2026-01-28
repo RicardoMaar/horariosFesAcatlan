@@ -1,7 +1,7 @@
 {
   "codigo": "20721",
   "nombre": "Derecho",
-  "fecha_consulta": "2026-01-21T01:17:48.591Z",
+  "fecha_consulta": "2026-01-28T22:23:07.664Z",
   "materias": {
     "1105": {
       "nombre": "DERECHO ROMANO I",
@@ -3847,8 +3847,8 @@
               "fin": "11:00"
             },
             {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
+              "dia": "JU",
+              "dia_nombre": "Jueves",
               "inicio": "09:00",
               "fin": "11:00"
             },
@@ -4984,12 +4984,6 @@
           "profesor": "Profesor No Asignado",
           "horarios": [
             {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
               "dia": "MA",
               "dia_nombre": "Martes",
               "inicio": "07:00",
@@ -5000,6 +4994,12 @@
               "dia_nombre": "Jueves",
               "inicio": "07:00",
               "fin": "09:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "11:00"
             }
           ],
           "salon": "A1001,A1001"

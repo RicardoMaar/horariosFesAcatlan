@@ -1,7 +1,7 @@
 {
   "codigo": "20425",
   "nombre": "Comunicación",
-  "fecha_consulta": "2026-01-21T01:17:42.311Z",
+  "fecha_consulta": "2026-01-28T22:23:01.368Z",
   "materias": {
     "1210": {
       "nombre": "APLIC. ESTADIS. INVEST. COMU.",
@@ -611,7 +611,7 @@
         },
         {
           "grupo": "2263",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CARRAZCO LOPEZ GRACIELA",
           "horarios": [
             {
               "dia": "MI",
@@ -889,7 +889,7 @@
         },
         {
           "grupo": "2203",
-          "profesor": "Profesor No Asignado",
+          "profesor": "QUIJADA MONROY VERONICA DEL CARMEN",
           "horarios": [
             {
               "dia": "MA",
@@ -927,7 +927,7 @@
         },
         {
           "grupo": "2205",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MACIEL GONZALEZ MIGUEL ANGEL",
           "horarios": [
             {
               "dia": "MI",
@@ -984,7 +984,7 @@
         },
         {
           "grupo": "2253",
-          "profesor": "MACIEL GONZALEZ MIGUEL ANGEL",
+          "profesor": "QUIJADA MONROY VERONICA DEL CARMEN",
           "horarios": [
             {
               "dia": "MA",
@@ -1522,7 +1522,7 @@
         },
         {
           "grupo": "2452",
-          "profesor": "Profesor No Asignado",
+          "profesor": "DAVALOS LUQUE CLAUDIA EVELIA",
           "horarios": [
             {
               "dia": "MI",
@@ -1661,7 +1661,7 @@
         },
         {
           "grupo": "2403",
-          "profesor": "GONZALEZ QUINTERO SILVIA",
+          "profesor": "UGALDE PEREZ FERNANDO",
           "horarios": [
             {
               "dia": "MI",
@@ -1680,7 +1680,7 @@
         },
         {
           "grupo": "2404",
-          "profesor": "ORTIZ LEON CARLOS FRANCISCO",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "VI",
@@ -1782,7 +1782,7 @@
         },
         {
           "grupo": "2451",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MENDOZA ESTRADA J. DANIEL",
           "horarios": [
             {
               "dia": "MI",
@@ -1985,7 +1985,7 @@
         },
         {
           "grupo": "2406",
-          "profesor": "AVALOS GUZMAN PABLO",
+          "profesor": "MEDINA CASIMIRO JORGE MAURICIO",
           "horarios": [
             {
               "dia": "VI",
@@ -2891,7 +2891,7 @@
         },
         {
           "grupo": "2605",
-          "profesor": "CUAUTLE HERNANDEZ CESAR ARTURO",
+          "profesor": "GOMEZ FLORES IRIS EUNICE",
           "horarios": [
             {
               "dia": "VI",
@@ -2923,7 +2923,7 @@
         },
         {
           "grupo": "2612",
-          "profesor": "AVALOS GUZMAN PABLO",
+          "profesor": "RAFAEL MONSALVO RAQUEL",
           "horarios": [
             {
               "dia": "VI",
@@ -3107,7 +3107,7 @@
         },
         {
           "grupo": "2602",
-          "profesor": "CASTELLANOS PEDRAZA JULIANA",
+          "profesor": "CASTRO PAREDES OFELIA",
           "horarios": [
             {
               "dia": "MI",
@@ -3146,7 +3146,7 @@
         },
         {
           "grupo": "2605",
-          "profesor": "CASTRO PAREDES OFELIA",
+          "profesor": "GARCIA Y GARCIA PIÑA GERARDO",
           "horarios": [
             {
               "dia": "MA",
@@ -4029,7 +4029,7 @@
       "grupos": [
         {
           "grupo": "2801",
-          "profesor": "CASTELLANOS PEDRAZA JULIANA",
+          "profesor": "MORALES MARTINEZ MARIA LUISA",
           "horarios": [
             {
               "dia": "LU",
@@ -4068,7 +4068,7 @@
         },
         {
           "grupo": "2804",
-          "profesor": "Profesor No Asignado",
+          "profesor": "FUENTES MORALES OSCAR ANDREW",
           "horarios": [
             {
               "dia": "MI",
@@ -4081,7 +4081,7 @@
         },
         {
           "grupo": "2851",
-          "profesor": "CASTELLANOS PEDRAZA JULIANA",
+          "profesor": "HUICOCHEA FLORES YOLANDA LUCIA",
           "horarios": [
             {
               "dia": "LU",
@@ -4511,7 +4511,7 @@
       "grupos": [
         {
           "grupo": "2801",
-          "profesor": "CASTELLANOS PEDRAZA JULIANA",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "JU",
@@ -4782,7 +4782,7 @@
       "grupos": [
         {
           "grupo": "2801",
-          "profesor": "Profesor No Asignado",
+          "profesor": "SANCHEZ MARTINEZ NAHUM ABRAM",
           "horarios": [
             {
               "dia": "MA",
@@ -5165,7 +5165,7 @@
       "grupos": [
         {
           "grupo": "2801",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ECHEVERRIA RUBIO EFREN",
           "horarios": [
             {
               "dia": "VI",

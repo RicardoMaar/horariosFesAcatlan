@@ -1,7 +1,7 @@
 {
   "codigo": "24121",
   "nombre": "Enseñanza de Inglés",
-  "fecha_consulta": "2026-01-21T01:18:07.029Z",
+  "fecha_consulta": "2026-01-28T22:23:26.152Z",
   "materias": {
     "1036": {
       "nombre": "ANALISIS DEL DISCURSO",
@@ -185,13 +185,13 @@
       "grupos": [
         {
           "grupo": "2201",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CAMPOS MARES ABIGAIL",
           "horarios": [
             {
               "dia": "VI",
               "dia_nombre": "Viernes",
-              "inicio": "07:00",
-              "fin": "11:00"
+              "inicio": "08:00",
+              "fin": "12:00"
             }
           ],
           "salon": "A-716"
@@ -474,7 +474,7 @@
         },
         {
           "grupo": "2451",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CERVANTES LOPEZ JULIO CESAR",
           "horarios": [
             {
               "dia": "MI",
@@ -649,7 +649,7 @@
       "grupos": [
         {
           "grupo": "2401",
-          "profesor": "Profesor No Asignado",
+          "profesor": "DEL RIO MANJARREZ BRENDA",
           "horarios": [
             {
               "dia": "LU",
