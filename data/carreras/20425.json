@@ -1,7 +1,7 @@
 {
   "codigo": "20425",
   "nombre": "Comunicación",
-  "fecha_consulta": "2026-01-28T22:23:01.368Z",
+  "fecha_consulta": "2026-01-29T16:30:48.776Z",
   "materias": {
     "1210": {
       "nombre": "APLIC. ESTADIS. INVEST. COMU.",
@@ -398,14 +398,14 @@
           "profesor": "ZALCE DE BEATRIZ DIANA",
           "horarios": [
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
+              "dia": "LU",
+              "dia_nombre": "Lunes",
               "inicio": "07:00",
               "fin": "09:00"
             },
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "07:00",
               "fin": "09:00"
             }
@@ -2001,14 +2001,14 @@
           "profesor": "ARCE ARAIZA MARISA",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
+              "dia": "LU",
+              "dia_nombre": "Lunes",
               "inicio": "07:00",
               "fin": "09:00"
             },
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "07:00",
               "fin": "09:00"
             }

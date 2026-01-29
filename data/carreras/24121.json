@@ -1,7 +1,7 @@
 {
   "codigo": "24121",
   "nombre": "Enseñanza de Inglés",
-  "fecha_consulta": "2026-01-28T22:23:26.152Z",
+  "fecha_consulta": "2026-01-29T16:31:13.642Z",
   "materias": {
     "1036": {
       "nombre": "ANALISIS DEL DISCURSO",
@@ -1059,14 +1059,14 @@
           "profesor": "BRIONES JURADO LILIA ESTELA",
           "horarios": [
             {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "17:00",
-              "fin": "19:00"
-            },
-            {
               "dia": "LU",
               "dia_nombre": "Lunes",
+              "inicio": "19:00",
+              "fin": "21:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "19:00",
               "fin": "21:00"
             }

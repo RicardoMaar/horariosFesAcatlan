@@ -1,7 +1,7 @@
 {
   "codigo": "20821",
   "nombre": "Economía",
-  "fecha_consulta": "2026-01-28T22:23:20.004Z",
+  "fecha_consulta": "2026-01-29T16:31:07.512Z",
   "materias": {
     "2220": {
       "nombre": "CALCULO DIFERENCIAL",
@@ -1713,14 +1713,14 @@
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "20:00",
-              "fin": "21:30"
+              "inicio": "19:30",
+              "fin": "21:00"
             },
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",
-              "inicio": "20:00",
-              "fin": "21:30"
+              "inicio": "19:30",
+              "fin": "21:00"
             }
           ],
           "salon": "A-525-A"
@@ -1915,14 +1915,14 @@
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "18:30",
-              "fin": "20:00"
+              "inicio": "18:00",
+              "fin": "19:30"
             },
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",
-              "inicio": "18:30",
-              "fin": "20:00"
+              "inicio": "18:00",
+              "fin": "19:30"
             }
           ],
           "salon": "A-525-A"
@@ -2378,6 +2378,25 @@
             }
           ],
           "salon": "A-515"
+        },
+        {
+          "grupo": "2803",
+          "profesor": "DE LOS RIOS CORTES VICTOR LIVIO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "08:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "08:30"
+            }
+          ],
+          "salon": "A-1123"
         },
         {
           "grupo": "2851",
