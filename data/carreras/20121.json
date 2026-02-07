@@ -1,7 +1,7 @@
 {
   "codigo": "20121",
   "nombre": "Arquitectura",
-  "fecha_consulta": "2026-02-02T21:45:13.067Z",
+  "fecha_consulta": "2026-02-07T19:44:35.730Z",
   "materias": {
     "1200": {
       "nombre": "MATEMATICAS II",
@@ -5338,6 +5338,25 @@
             }
           ],
           "salon": "A-411"
+        },
+        {
+          "grupo": "2871",
+          "profesor": "CAMACHO ALCOCER RUTH",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "19:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "19:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "A-303"
         }
       ]
     },
