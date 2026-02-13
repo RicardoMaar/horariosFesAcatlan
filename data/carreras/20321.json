@@ -1,7 +1,7 @@
 {
   "codigo": "20321",
   "nombre": "Actuaría",
-  "fecha_consulta": "2026-02-07T19:44:29.424Z",
+  "fecha_consulta": "2026-02-13T09:45:56.433Z",
   "materias": {
     "2032": {
       "nombre": "ANALISIS DE REGRESION",
@@ -487,16 +487,10 @@
           "profesor": "MARTINEZ GARCIA CARLOS",
           "horarios": [
             {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "07:00",
-              "fin": "09:00"
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "09:00",
+              "fin": "11:00"
             }
           ],
           "salon": "A-113,A-113"
