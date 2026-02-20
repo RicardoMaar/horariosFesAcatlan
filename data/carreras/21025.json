@@ -1,7 +1,7 @@
 {
   "codigo": "21025",
   "nombre": "Pedagogía",
-  "fecha_consulta": "2026-02-07T19:45:50.057Z",
+  "fecha_consulta": "2026-02-20T09:43:45.737Z",
   "materias": {
     "1232": {
       "nombre": "FUNDAMENTOS DE EPISTEMOLOGÍA",
@@ -764,19 +764,38 @@
           "profesor": "PALOMAR MORALES MARIA EVANGELINA",
           "horarios": [
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
               "dia": "LU",
               "dia_nombre": "Lunes",
               "inicio": "18:00",
               "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
             }
           ],
           "salon": "A-912,A-912"
+        },
+        {
+          "grupo": "2253",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-915"
         }
       ]
     },
