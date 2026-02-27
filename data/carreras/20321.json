@@ -1,7 +1,7 @@
 {
   "codigo": "20321",
   "nombre": "Actuaría",
-  "fecha_consulta": "2026-02-07T19:44:29.424Z",
+  "fecha_consulta": "2026-02-27T09:42:28.826Z",
   "materias": {
     "2032": {
       "nombre": "ANALISIS DE REGRESION",
@@ -153,7 +153,7 @@
       "grupos": [
         {
           "grupo": "2852",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CAMACHO LOPEZ MARIA OSMARA",
           "horarios": [
             {
               "dia": "SA",
@@ -487,16 +487,10 @@
           "profesor": "MARTINEZ GARCIA CARLOS",
           "horarios": [
             {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "07:00",
-              "fin": "09:00"
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "09:00",
+              "fin": "11:00"
             }
           ],
           "salon": "A-113,A-113"
@@ -528,7 +522,7 @@
         },
         {
           "grupo": "2153",
-          "profesor": "Profesor No Asignado",
+          "profesor": "PALMA COCA OSWALDO",
           "horarios": [
             {
               "dia": "LU",
@@ -652,7 +646,7 @@
         },
         {
           "grupo": "2251",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RODRIGUEZ CASTRO ERICK IVAN",
           "horarios": [
             {
               "dia": "MA",
@@ -1455,7 +1449,7 @@
         },
         {
           "grupo": "2202",
-          "profesor": "Profesor No Asignado",
+          "profesor": "PEÑUELAS GALAZ EDUARDO",
           "horarios": [
             {
               "dia": "MA",
@@ -1681,7 +1675,7 @@
         },
         {
           "grupo": "2452",
-          "profesor": "JIMENZ VALERIO ERIC NOE",
+          "profesor": "PADILLA RODRIGUEZ VANESSA",
           "horarios": [
             {
               "dia": "VI",
@@ -2790,7 +2784,7 @@
         },
         {
           "grupo": "2551",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CISNEROS EASPARZA BRENDA",
           "horarios": [
             {
               "dia": "SA",
@@ -2815,7 +2809,7 @@
         },
         {
           "grupo": "2553",
-          "profesor": "Profesor No Asignado",
+          "profesor": "DEL ANGEL MARTINEZ MELINA NOHEMI",
           "horarios": [
             {
               "dia": "MA",
@@ -2971,7 +2965,7 @@
         },
         {
           "grupo": "2654",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ORTIGOZA SUAREZ ISAAC",
           "horarios": [
             {
               "dia": "SA",
@@ -3261,7 +3255,7 @@
         },
         {
           "grupo": "2602",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GOMEZ RAMIREZ LUIS ALFREDO",
           "horarios": [
             {
               "dia": "SA",
@@ -3355,7 +3349,7 @@
         },
         {
           "grupo": "2651",
-          "profesor": "Profesor No Asignado",
+          "profesor": "VICTORIA AGUILA KARINA",
           "horarios": [
             {
               "dia": "VI",
@@ -3436,7 +3430,7 @@
       "grupos": [
         {
           "grupo": "2601",
-          "profesor": "GONZALEZ GRANADO JUAN CARLOS",
+          "profesor": "PEREZ CENDEJAS ULISES",
           "horarios": [
             {
               "dia": "LU",
@@ -3564,6 +3558,31 @@
             }
           ],
           "salon": "INF.EN JEFA"
+        },
+        {
+          "grupo": "2753",
+          "profesor": "DELGADO DIAZ CESAR ADRIAN",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "20:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "INF. JEFA."
         }
       ]
     },

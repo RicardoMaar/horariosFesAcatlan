@@ -1,7 +1,7 @@
 {
   "codigo": "21013",
   "nombre": "Lengua y Literatura Hispánicas",
-  "fecha_consulta": "2026-02-07T19:45:37.645Z",
+  "fecha_consulta": "2026-02-27T09:43:45.365Z",
   "materias": {
     "1160": {
       "nombre": "TECNICAS DE INVESTIGACION",
@@ -644,7 +644,7 @@
         },
         {
           "grupo": "2651",
-          "profesor": "Profesor No Asignado",
+          "profesor": "VILLA GONZALEZ ALEJANDRO",
           "horarios": [
             {
               "dia": "MI",
@@ -776,7 +776,7 @@
         },
         {
           "grupo": "2851",
-          "profesor": "Profesor No Asignado",
+          "profesor": "LUNA PATIÑO GABRIELA",
           "horarios": [
             {
               "dia": "VI",
@@ -927,7 +927,7 @@
       "grupos": [
         {
           "grupo": "2801",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MENDOZA ARANGO CHRISTIAN",
           "horarios": [
             {
               "dia": "LU",
@@ -1121,7 +1121,7 @@
       "grupos": [
         {
           "grupo": "2851",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MARQUEZ MARDONES ANDRES ARMANDO",
           "horarios": [
             {
               "dia": "VI",
@@ -1228,7 +1228,7 @@
       "grupos": [
         {
           "grupo": "2201",
-          "profesor": "Profesor No Asignado",
+          "profesor": "TINAJERO DIAZ MARIA DE JESUS",
           "horarios": [
             {
               "dia": "LU",

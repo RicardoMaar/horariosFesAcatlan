@@ -1,7 +1,7 @@
 {
   "codigo": "20422",
   "nombre": "Ciencias Políticas y Admon. Pública",
-  "fecha_consulta": "2026-02-07T19:44:41.949Z",
+  "fecha_consulta": "2026-02-27T09:42:43.139Z",
   "materias": {
     "1064": {
       "nombre": "ESTRATEGIAS DE COMUNICACION POLI",
@@ -122,7 +122,7 @@
       "grupos": [
         {
           "grupo": "2801",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GUERRERO BRIVIESCA CUAUHTEMOC GERMAN",
           "horarios": [
             {
               "dia": "MA",
@@ -185,7 +185,7 @@
         },
         {
           "grupo": "2851",
-          "profesor": "SUAREZ MAGAÑA VICTOR ALAIN",
+          "profesor": "ROSAS OSNAYA JAIME ALONSO",
           "horarios": [
             {
               "dia": "MA",
@@ -434,6 +434,25 @@
             }
           ],
           "salon": "A-625"
+        },
+        {
+          "grupo": "2253",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "19:00",
+              "fin": "21:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "19:00",
+              "fin": "21:00"
+            }
+          ],
+          "salon": "A-214"
         }
       ]
     },
@@ -443,7 +462,7 @@
       "grupos": [
         {
           "grupo": "2201",
-          "profesor": "CERVANTES GONZALEZ ERIKA",
+          "profesor": "ALCANTARA GUTIERREZ ROSALINDA",
           "horarios": [
             {
               "dia": "LU",
@@ -481,7 +500,7 @@
         },
         {
           "grupo": "2203",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RODRIGUEZ HARRIS MIGUEL",
           "horarios": [
             {
               "dia": "MA",
@@ -866,7 +885,7 @@
         },
         {
           "grupo": "2202",
-          "profesor": "Profesor No Asignado",
+          "profesor": "OCHOA ALVARADO RUTH STEPHANI",
           "horarios": [
             {
               "dia": "MA",
@@ -948,7 +967,7 @@
       "grupos": [
         {
           "grupo": "2401",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CASTAÑEDA GARCIA SALOMON OSWALDO",
           "horarios": [
             {
               "dia": "MA",
@@ -967,7 +986,7 @@
         },
         {
           "grupo": "2402",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ANDRADE CORDEIRO PAOLA",
           "horarios": [
             {
               "dia": "MA",
@@ -1150,7 +1169,7 @@
       "grupos": [
         {
           "grupo": "2401",
-          "profesor": "JUAREZ ESQUIVEL ISMAEL ALEJANDRO",
+          "profesor": "CORONA ARMENTA GABRIEL",
           "horarios": [
             {
               "dia": "MA",
@@ -1207,7 +1226,7 @@
         },
         {
           "grupo": "2451",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MARTINEZ CASTAÑEDA FRANCISCO JAVIER",
           "horarios": [
             {
               "dia": "LU",
@@ -1226,7 +1245,7 @@
         },
         {
           "grupo": "2452",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ALVAREZ DOMINGUEZ MARCO POLO",
           "horarios": [
             {
               "dia": "LU",
@@ -1756,7 +1775,7 @@
       "grupos": [
         {
           "grupo": "2601",
-          "profesor": "CORONA ARMENTA GABRIEL",
+          "profesor": "SUAREZ MAGAÑA VICTOR ALAIN",
           "horarios": [
             {
               "dia": "LU",
@@ -1794,7 +1813,7 @@
         },
         {
           "grupo": "2603",
-          "profesor": "Profesor No Asignado",
+          "profesor": "PALAZUELOS CAMPOS KARLA VICTORIA",
           "horarios": [
             {
               "dia": "LU",
@@ -1933,7 +1952,7 @@
         },
         {
           "grupo": "2652",
-          "profesor": "Profesor No Asignado",
+          "profesor": "OCHOA ALVARADO RUTH STEPHANI",
           "horarios": [
             {
               "dia": "MA",
@@ -2203,7 +2222,7 @@
         },
         {
           "grupo": "2802",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MONTES DE OCA GATICA LILIA NATALIA",
           "horarios": [
             {
               "dia": "LU",
