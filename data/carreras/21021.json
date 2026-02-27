@@ -1,7 +1,7 @@
 {
   "codigo": "21021",
   "nombre": "Historia",
-  "fecha_consulta": "2026-02-07T19:45:25.322Z",
+  "fecha_consulta": "2026-02-27T09:43:31.791Z",
   "materias": {
     "1164": {
       "nombre": "METODS Y TECNICAS DE LA INVEST H",
@@ -1013,7 +1013,7 @@
         },
         {
           "grupo": "2807",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CORTES HERNANDEZ VALERIA SOLEDAD",
           "horarios": [
             {
               "dia": "VI",
@@ -1789,7 +1789,7 @@
         },
         {
           "grupo": "2451",
-          "profesor": "Profesor No Asignado",
+          "profesor": "TORRES MORENO CLAUDIA IVONE",
           "horarios": [
             {
               "dia": "LU",

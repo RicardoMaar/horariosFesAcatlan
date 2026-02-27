@@ -1,7 +1,7 @@
 {
   "codigo": "24022",
   "nombre": "Matemáticas. Apl. y Comp.",
-  "fecha_consulta": "2026-02-07T19:45:43.848Z",
+  "fecha_consulta": "2026-02-27T09:43:52.169Z",
   "materias": {
     "1048": {
       "nombre": "ANALISIS DE FOURIER",
@@ -2544,7 +2544,7 @@
         },
         {
           "grupo": "2451",
-          "profesor": "RAMIREZ MUÑOZ JAIME",
+          "profesor": "HERNANDEZ FAJARDO RICARDO",
           "horarios": [
             {
               "dia": "MA",
@@ -3289,7 +3289,7 @@
         },
         {
           "grupo": "2651",
-          "profesor": "GARCIA MONCADA REYES LAURENCIO",
+          "profesor": "PEREZ ANAYA CARLOS JAVIER",
           "horarios": [
             {
               "dia": "LU",
@@ -3314,7 +3314,7 @@
         },
         {
           "grupo": "2652",
-          "profesor": "RAMIREZ MUÑOZ JAIME",
+          "profesor": "GARCIA MONCADA REYES LAURENCIO",
           "horarios": [
             {
               "dia": "LU",

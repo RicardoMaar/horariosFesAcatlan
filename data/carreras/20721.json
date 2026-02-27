@@ -1,7 +1,7 @@
 {
   "codigo": "20721",
   "nombre": "Derecho",
-  "fecha_consulta": "2026-02-07T19:44:54.534Z",
+  "fecha_consulta": "2026-02-27T09:42:57.397Z",
   "materias": {
     "1105": {
       "nombre": "DERECHO ROMANO I",
@@ -849,6 +849,31 @@
             }
           ],
           "salon": "INF.EN JEFA"
+        },
+        {
+          "grupo": "2260",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "13:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "INF. JEFA"
         }
       ]
     },
@@ -1662,7 +1687,7 @@
         },
         {
           "grupo": "2256",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ESCOBAR SALINAS CELSO",
           "horarios": [
             {
               "dia": "LU",
@@ -2459,7 +2484,7 @@
         },
         {
           "grupo": "2205",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ESCOBAR SALINAS CELSO",
           "horarios": [
             {
               "dia": "MA",
@@ -2535,7 +2560,7 @@
         },
         {
           "grupo": "2209",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ESCOBAR SALINAS CELSO",
           "horarios": [
             {
               "dia": "LU",

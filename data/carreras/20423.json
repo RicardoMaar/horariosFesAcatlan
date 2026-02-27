@@ -1,7 +1,7 @@
 {
   "codigo": "20423",
   "nombre": "Sociología",
-  "fecha_consulta": "2026-02-07T19:46:08.605Z",
+  "fecha_consulta": "2026-02-27T09:44:19.554Z",
   "materias": {
     "1217": {
       "nombre": "ECONOMIA II",
@@ -47,7 +47,7 @@
         },
         {
           "grupo": "2251",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ORTIZ CANSECO LIZETH ARELY",
           "horarios": [
             {
               "dia": "LU",
@@ -1306,7 +1306,7 @@
         },
         {
           "grupo": "2602",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MARTINEZ PORTILLO MOISES",
           "horarios": [
             {
               "dia": "LU",
@@ -1541,7 +1541,7 @@
         },
         {
           "grupo": "2802",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CERVANTES QUINTANAR SERGIO ALEJANDRO",
           "horarios": [
             {
               "dia": "LU",
@@ -1692,7 +1692,7 @@
       "grupos": [
         {
           "grupo": "2801",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GONZALEZ BASILIO DAVID",
           "horarios": [
             {
               "dia": "MA",
@@ -1742,7 +1742,7 @@
       "grupos": [
         {
           "grupo": "2806",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GUTIERREZ DIAZ PAULO CESAR",
           "horarios": [
             {
               "dia": "MA",
@@ -1874,7 +1874,7 @@
       "grupos": [
         {
           "grupo": "2802",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GARCIA HERNANDEZ JUAN",
           "horarios": [
             {
               "dia": "MA",

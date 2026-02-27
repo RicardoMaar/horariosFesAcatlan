@@ -1,7 +1,7 @@
 {
   "codigo": "20121",
   "nombre": "Arquitectura",
-  "fecha_consulta": "2026-02-07T19:44:35.730Z",
+  "fecha_consulta": "2026-02-27T09:42:36.070Z",
   "materias": {
     "1200": {
       "nombre": "MATEMATICAS II",
@@ -2710,6 +2710,25 @@
           "salon": "A-315"
         },
         {
+          "grupo": "2402",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:30",
+              "fin": "12:30"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:30",
+              "fin": "12:30"
+            }
+          ],
+          "salon": "A-313"
+        },
+        {
           "grupo": "2403",
           "profesor": "CARVAJAL VILLEDA MARIA DE LOURDES",
           "horarios": [
@@ -5414,6 +5433,25 @@
             }
           ],
           "salon": "A-313"
+        },
+        {
+          "grupo": "2852",
+          "profesor": "MORENO RIVERA MARIA GABRIELA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:30",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:30",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-326-1"
         }
       ]
     },
@@ -5793,6 +5831,25 @@
             }
           ],
           "salon": "A-303"
+        },
+        {
+          "grupo": "2852",
+          "profesor": "MONTIEL PICHARDO ULISES",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "19:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-302"
         },
         {
           "grupo": "2861",

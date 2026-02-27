@@ -1,7 +1,7 @@
 {
   "codigo": "21121",
   "nombre": "Ingeniería Civil",
-  "fecha_consulta": "2026-02-07T19:45:31.495Z",
+  "fecha_consulta": "2026-02-27T09:43:38.622Z",
   "materias": {
     "1116": {
       "nombre": "ALGEBRA SUPERIOR",
@@ -410,7 +410,7 @@
       "grupos": [
         {
           "grupo": "2201",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ZAPATA PADILLA EMMANUEL ALEJANDRO",
           "horarios": [
             {
               "dia": "LU",
@@ -2496,7 +2496,7 @@
         },
         {
           "grupo": "2603",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MALDONADO ORDUÑA IVONNE",
           "horarios": [
             {
               "dia": "MA",
@@ -3150,7 +3150,7 @@
         },
         {
           "grupo": "2951",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MOLINA PADILLA JULIAN",
           "horarios": [
             {
               "dia": "MA",

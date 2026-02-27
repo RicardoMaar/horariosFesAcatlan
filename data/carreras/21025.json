@@ -1,7 +1,7 @@
 {
   "codigo": "21025",
   "nombre": "Pedagogía",
-  "fecha_consulta": "2026-02-07T19:45:50.057Z",
+  "fecha_consulta": "2026-02-27T09:43:59.118Z",
   "materias": {
     "1232": {
       "nombre": "FUNDAMENTOS DE EPISTEMOLOGÍA",
@@ -685,7 +685,7 @@
         },
         {
           "grupo": "2202",
-          "profesor": "Profesor No Asignado",
+          "profesor": "SANCHEZ PACHECO DAVID RUSLAM",
           "horarios": [
             {
               "dia": "LU",
@@ -723,7 +723,7 @@
         },
         {
           "grupo": "2204",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GARCIA CERDA POLUX ALFREDO",
           "horarios": [
             {
               "dia": "LU",
@@ -764,19 +764,38 @@
           "profesor": "PALOMAR MORALES MARIA EVANGELINA",
           "horarios": [
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
               "dia": "LU",
               "dia_nombre": "Lunes",
               "inicio": "18:00",
               "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
             }
           ],
           "salon": "A-912,A-912"
+        },
+        {
+          "grupo": "2253",
+          "profesor": "GARCIA CERDA POLUX ALFREDO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-915"
         }
       ]
     },
@@ -824,7 +843,7 @@
         },
         {
           "grupo": "2203",
-          "profesor": "DIAZ RODRIGUEZ JAVIER ALEJANDRO",
+          "profesor": "PORTILLA GONZALEZ JIMENA",
           "horarios": [
             {
               "dia": "MA",
@@ -976,7 +995,7 @@
         },
         {
           "grupo": "2251",
-          "profesor": "Profesor No Asignado",
+          "profesor": "REYNOSO JAVIER BRAULIO",
           "horarios": [
             {
               "dia": "VI",
@@ -1740,7 +1759,7 @@
       "grupos": [
         {
           "grupo": "2401",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RODRIGUEZ PONCE ANGEL IVAN",
           "horarios": [
             {
               "dia": "MA",
@@ -2138,7 +2157,7 @@
         },
         {
           "grupo": "2603",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RICAÑO HERNANDEZ ITZBETH",
           "horarios": [
             {
               "dia": "MA",
@@ -2176,7 +2195,7 @@
         },
         {
           "grupo": "2651",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GARCIA ABAN MARIA GUADALUPE",
           "horarios": [
             {
               "dia": "LU",
@@ -2541,7 +2560,7 @@
         },
         {
           "grupo": "2653",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RUEDA RAMOS ERIKA",
           "horarios": [
             {
               "dia": "VI",
@@ -3525,7 +3544,7 @@
         },
         {
           "grupo": "2802",
-          "profesor": "Profesor No Asignado",
+          "profesor": "AVALOS GUZMAN PABLO",
           "horarios": [
             {
               "dia": "VI",
@@ -3569,7 +3588,7 @@
       "grupos": [
         {
           "grupo": "2801",
-          "profesor": "GARCIA SOLANO LETICIA",
+          "profesor": "GARCIA CERDA POLUX ALFREDO",
           "horarios": [
             {
               "dia": "MA",
@@ -3802,7 +3821,7 @@
         },
         {
           "grupo": "2802",
-          "profesor": "PICAZO VILLASEÑOR NANCY",
+          "profesor": "HERNANDEZ VALDEZ ARIADNA NAYELY",
           "horarios": [
             {
               "dia": "VI",
