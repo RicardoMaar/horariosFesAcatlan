@@ -1,7 +1,7 @@
 {
   "codigo": "21121",
   "nombre": "Ingeniería Civil",
-  "fecha_consulta": "2026-02-07T19:45:31.495Z",
+  "fecha_consulta": "2026-03-13T09:41:15.907Z",
   "materias": {
     "1116": {
       "nombre": "ALGEBRA SUPERIOR",
@@ -65,7 +65,7 @@
       "grupos": [
         {
           "grupo": "2101",
-          "profesor": "MEJIA MEZA FRANCISCO",
+          "profesor": "GONZALEZ RUIZ KAREN",
           "horarios": [
             {
               "dia": "MI",
@@ -410,7 +410,7 @@
       "grupos": [
         {
           "grupo": "2201",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ZAPATA PADILLA EMMANUEL ALEJANDRO",
           "horarios": [
             {
               "dia": "LU",
@@ -1729,7 +1729,7 @@
         },
         {
           "grupo": "2402",
-          "profesor": "ALVAREZ LEON LEONARDO",
+          "profesor": "LOPEZ RIOS SAUL ESTEBAN",
           "horarios": [
             {
               "dia": "MI",
@@ -2496,7 +2496,7 @@
         },
         {
           "grupo": "2603",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MALDONADO ORDUÑA IVONNE",
           "horarios": [
             {
               "dia": "MA",
@@ -3150,7 +3150,7 @@
         },
         {
           "grupo": "2951",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MOLINA PADILLA JULIAN",
           "horarios": [
             {
               "dia": "MA",
@@ -3207,7 +3207,7 @@
         },
         {
           "grupo": "2952",
-          "profesor": "LOPEZ RIOS SAUL ESTEBAN",
+          "profesor": "ARIAS LARA DAMARIS SARAHI",
           "horarios": [
             {
               "dia": "JU",
@@ -3251,7 +3251,7 @@
         },
         {
           "grupo": "2951",
-          "profesor": "ARIAS LARA DAMARIS SARAHI",
+          "profesor": "AVILA VAZQUEZ MIGUEL ANGEL",
           "horarios": [
             {
               "dia": "LU",
