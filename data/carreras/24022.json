@@ -1,7 +1,7 @@
 {
   "codigo": "24022",
   "nombre": "Matemáticas. Apl. y Comp.",
-  "fecha_consulta": "2026-02-07T19:45:43.848Z",
+  "fecha_consulta": "2026-03-13T09:41:29.092Z",
   "materias": {
     "1048": {
       "nombre": "ANALISIS DE FOURIER",
@@ -135,7 +135,7 @@
       "grupos": [
         {
           "grupo": "2802",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ZAMORA CARRILLO MARISA IVONNE",
           "horarios": [
             {
               "dia": "MI",
@@ -2080,7 +2080,7 @@
         },
         {
           "grupo": "2402",
-          "profesor": "RODRIGUEZ CASTRO ERICK IVAN",
+          "profesor": "MUÑOZ ALTAMIRANO SANDRA",
           "horarios": [
             {
               "dia": "MA",
@@ -2544,7 +2544,7 @@
         },
         {
           "grupo": "2451",
-          "profesor": "RAMIREZ MUÑOZ JAIME",
+          "profesor": "HERNANDEZ FAJARDO RICARDO",
           "horarios": [
             {
               "dia": "MA",
@@ -3289,7 +3289,7 @@
         },
         {
           "grupo": "2651",
-          "profesor": "GARCIA MONCADA REYES LAURENCIO",
+          "profesor": "PEREZ ANAYA CARLOS JAVIER",
           "horarios": [
             {
               "dia": "LU",
@@ -3314,7 +3314,7 @@
         },
         {
           "grupo": "2652",
-          "profesor": "RAMIREZ MUÑOZ JAIME",
+          "profesor": "GARCIA MONCADA REYES LAURENCIO",
           "horarios": [
             {
               "dia": "LU",

@@ -1,7 +1,7 @@
 {
   "codigo": "21021",
   "nombre": "Historia",
-  "fecha_consulta": "2026-02-07T19:45:25.322Z",
+  "fecha_consulta": "2026-03-13T09:41:09.249Z",
   "materias": {
     "1164": {
       "nombre": "METODS Y TECNICAS DE LA INVEST H",
@@ -1013,7 +1013,7 @@
         },
         {
           "grupo": "2807",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CORTES HERNANDEZ VALERIA SOLEDAD",
           "horarios": [
             {
               "dia": "VI",
@@ -1493,7 +1493,7 @@
       "grupos": [
         {
           "grupo": "2401",
-          "profesor": "Profesor No Asignado",
+          "profesor": "VALDERRABANO ONOFRE HUGO SAMUEL",
           "horarios": [
             {
               "dia": "LU",
@@ -1531,7 +1531,7 @@
         },
         {
           "grupo": "2451",
-          "profesor": "Profesor No Asignado",
+          "profesor": "REYES RUIZ MARIA DEL CARMEN EUGENIA",
           "horarios": [
             {
               "dia": "LU",
@@ -1770,7 +1770,7 @@
         },
         {
           "grupo": "2402",
-          "profesor": "Profesor No Asignado",
+          "profesor": "NUNCIO DIAZ CLAUDIA KARINA",
           "horarios": [
             {
               "dia": "LU",
@@ -1789,7 +1789,7 @@
         },
         {
           "grupo": "2451",
-          "profesor": "Profesor No Asignado",
+          "profesor": "TORRES MORENO CLAUDIA IVONE",
           "horarios": [
             {
               "dia": "LU",
