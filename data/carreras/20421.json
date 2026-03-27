@@ -1,7 +1,7 @@
 {
   "codigo": "20421",
   "nombre": "Relaciones Internacionales",
-  "fecha_consulta": "2026-02-07T19:46:02.378Z",
+  "fecha_consulta": "2026-03-27T09:57:48.795Z",
   "materias": {
     "1077": {
       "nombre": "ANALISIS DE LA SEGURIDAD INTERNA",
@@ -53,7 +53,7 @@
       "grupos": [
         {
           "grupo": "2801",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ARANA AGUILAR DAIRA",
           "horarios": [
             {
               "dia": "MA",
@@ -938,7 +938,7 @@
         },
         {
           "grupo": "2253",
-          "profesor": "Profesor No Asignado",
+          "profesor": "DELGADO MONTIEL JULIAN",
           "horarios": [
             {
               "dia": "LU",
@@ -963,7 +963,7 @@
         },
         {
           "grupo": "2261",
-          "profesor": "Profesor No Asignado",
+          "profesor": "YEPEZ ROMERO HANNAH ALEJANDRA",
           "horarios": [
             {
               "dia": "LU",
@@ -1120,7 +1120,7 @@
         },
         {
           "grupo": "2252",
-          "profesor": "Profesor No Asignado",
+          "profesor": "VEGA VILLAGOMEZ CAROLINA CONSUELO",
           "horarios": [
             {
               "dia": "LU",
@@ -1524,7 +1524,7 @@
       "grupos": [
         {
           "grupo": "2401",
-          "profesor": "Profesor No Asignado",
+          "profesor": "DITYATKINA  ELENA",
           "horarios": [
             {
               "dia": "LU",
@@ -1889,7 +1889,7 @@
         },
         {
           "grupo": "2413",
-          "profesor": "Profesor No Asignado",
+          "profesor": "DELGADO MONTIEL JULIAN",
           "horarios": [
             {
               "dia": "LU",
@@ -1989,7 +1989,7 @@
         },
         {
           "grupo": "2461",
-          "profesor": "Profesor No Asignado",
+          "profesor": "VILLAR GOMEZ ALINA GUADALUPE",
           "horarios": [
             {
               "dia": "LU",
@@ -2700,7 +2700,7 @@
         },
         {
           "grupo": "2661",
-          "profesor": "Profesor No Asignado",
+          "profesor": "VILLAR GOMEZ ALINA GUADALUPE",
           "horarios": [
             {
               "dia": "LU",
@@ -2832,7 +2832,7 @@
         },
         {
           "grupo": "2652",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GONZALEZ VIVEROS LILIANA DEYANIRA",
           "horarios": [
             {
               "dia": "MA",
@@ -3312,7 +3312,7 @@
         },
         {
           "grupo": "2851",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MEDEL LOPEZ RACHAEL",
           "horarios": [
             {
               "dia": "MA",

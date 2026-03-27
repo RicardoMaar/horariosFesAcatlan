@@ -1,7 +1,7 @@
 {
   "codigo": "20226",
   "nombre": "Diseño Gráfico",
-  "fecha_consulta": "2026-02-07T19:45:00.758Z",
+  "fecha_consulta": "2026-03-27T09:56:40.765Z",
   "materias": {
     "2003": {
       "nombre": "ANIMACION TRADICIONAL",
@@ -466,7 +466,7 @@
       "grupos": [
         {
           "grupo": "2804",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ESTRADA ZARAZUA ANABELL",
           "horarios": [
             {
               "dia": "MI",
@@ -813,7 +813,7 @@
         },
         {
           "grupo": "2205",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ESTRADA ZARAZUA ANABELL",
           "horarios": [
             {
               "dia": "LU",
@@ -1503,7 +1503,7 @@
         },
         {
           "grupo": "2252",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ESTRADA ZARAZUA ANABELL",
           "horarios": [
             {
               "dia": "JU",
@@ -1529,7 +1529,7 @@
         },
         {
           "grupo": "2254",
-          "profesor": "Profesor No Asignado",
+          "profesor": "TIJERINO SALGADO RENE GILBERTO",
           "horarios": [
             {
               "dia": "JU",
@@ -2327,7 +2327,7 @@
         },
         {
           "grupo": "2453",
-          "profesor": "Profesor No Asignado",
+          "profesor": "TORRES HERNANDEZ ADRIAN",
           "horarios": [
             {
               "dia": "VI",
@@ -3237,7 +3237,7 @@
       "grupos": [
         {
           "grupo": "2601",
-          "profesor": "Profesor No Asignado",
+          "profesor": "HERNANDEZ RIOS IVETTE SELENE",
           "horarios": [
             {
               "dia": "VI",
@@ -3263,7 +3263,7 @@
         },
         {
           "grupo": "2603",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ESTRADA ZARAZUA ANABELL",
           "horarios": [
             {
               "dia": "JU",
