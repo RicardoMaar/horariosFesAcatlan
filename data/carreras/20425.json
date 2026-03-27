@@ -1,7 +1,7 @@
 {
   "codigo": "20425",
   "nombre": "Comunicación",
-  "fecha_consulta": "2026-02-07T19:44:48.183Z",
+  "fecha_consulta": "2026-03-27T09:56:26.710Z",
   "materias": {
     "1210": {
       "nombre": "APLIC. ESTADIS. INVEST. COMU.",
@@ -414,7 +414,7 @@
         },
         {
           "grupo": "2204",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MENDOZA ARRIAGA ALEJANDRO",
           "horarios": [
             {
               "dia": "LU",
@@ -554,7 +554,7 @@
         },
         {
           "grupo": "2254",
-          "profesor": "Profesor No Asignado",
+          "profesor": "TORRES TRUJILLO EDER DANIEL",
           "horarios": [
             {
               "dia": "MI",
@@ -1161,7 +1161,7 @@
         },
         {
           "grupo": "2214",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GUTIERREZ PEREZ MELISSA ITZEL",
           "horarios": [
             {
               "dia": "MA",
@@ -1357,7 +1357,7 @@
         },
         {
           "grupo": "2403",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CALDERON ALVARADO VALERIA IRAIS",
           "horarios": [
             {
               "dia": "JU",
@@ -1680,7 +1680,7 @@
         },
         {
           "grupo": "2404",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GOMEZ GONZALEZ HILDA SARAY",
           "horarios": [
             {
               "dia": "VI",
@@ -1715,14 +1715,14 @@
           "profesor": "ZALCE DE BEATRIZ DIANA",
           "horarios": [
             {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
+              "dia": "MA",
+              "dia_nombre": "Martes",
               "inicio": "07:00",
               "fin": "09:00"
             },
             {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
+              "dia": "JU",
+              "dia_nombre": "Jueves",
               "inicio": "07:00",
               "fin": "09:00"
             }
@@ -1750,7 +1750,7 @@
         },
         {
           "grupo": "2413",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MENDOZA ARRIAGA ALEJANDRO",
           "horarios": [
             {
               "dia": "MI",
@@ -4132,7 +4132,7 @@
         },
         {
           "grupo": "2851",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GOMEZ GUZMAN RICARDO",
           "horarios": [
             {
               "dia": "MA",
@@ -4511,7 +4511,7 @@
       "grupos": [
         {
           "grupo": "2801",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RAMIREZ GONZALEZ JUAN MANUEL",
           "horarios": [
             {
               "dia": "JU",
