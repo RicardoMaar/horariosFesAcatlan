@@ -1,330 +1,15 @@
 {
   "codigo": "24022",
   "nombre": "Matemáticas. Apl. y Comp.",
-  "fecha_consulta": "2026-02-07T19:45:43.848Z",
+  "fecha_consulta": "2026-07-06T21:53:29.929Z",
   "materias": {
-    "1048": {
-      "nombre": "ANALISIS DE FOURIER",
-      "semestre": "08",
+    "1036": {
+      "nombre": "ANALISIS DE ALGORITMOS",
+      "semestre": "07",
       "grupos": [
         {
-          "grupo": "2804",
-          "profesor": "ESPINOZA LOYOLA ENRIQUE",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "07:00",
-              "fin": "09:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        }
-      ]
-    },
-    "1050": {
-      "nombre": "BASES DE DATOS DISTRIBUIDAS",
-      "semestre": "08",
-      "grupos": [
-        {
-          "grupo": "2801",
-          "profesor": "ROSAS HERNANDEZ JAVIER",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2852",
-          "profesor": "COLIN CASTAÑEDA DIEGO ANTONIO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        }
-      ]
-    },
-    "1062": {
-      "nombre": "ADMINISTRACION DE REDES",
-      "semestre": "08",
-      "grupos": [
-        {
-          "grupo": "2805",
-          "profesor": "QUIROZ ALMARAZ SERGIO",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "07:00",
-              "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2855",
-          "profesor": "GONZALEZ TREJO FERNANDO ISRAEL",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "20:00",
-              "fin": "22:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2856",
-          "profesor": "BAUTISTA MORA JOSE ROBERTO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        }
-      ]
-    },
-    "1066": {
-      "nombre": "MINERIA DE DATOS",
-      "semestre": "08",
-      "grupos": [
-        {
-          "grupo": "2802",
-          "profesor": "Profesor No Asignado",
-          "horarios": [
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2805",
-          "profesor": "ACOSTA GONZALEZ OSCAR DANIEL",
-          "horarios": [
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2852",
-          "profesor": "ROSAS HERNANDEZ JAVIER",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2853",
-          "profesor": "ANGELES URIBE MIRIAM",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        }
-      ]
-    },
-    "1067": {
-      "nombre": "PROGRAMAC.PARALELA Y CONCURRENTE",
-      "semestre": "08",
-      "grupos": [
-        {
-          "grupo": "2801",
-          "profesor": "MENDOZA VILLAR JOSE RICARDO",
-          "horarios": [
-            {
-              "dia": "SA",
-              "dia_nombre": "Sábado",
-              "inicio": "08:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        }
-      ]
-    },
-    "1070": {
-      "nombre": "SEGURIDAD COMPUTACIONAL",
-      "semestre": "08",
-      "grupos": [
-        {
-          "grupo": "2801",
-          "profesor": "RODRIGUEZ ARANA RICARDO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "09:00",
-              "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2852",
-          "profesor": "LOZA PACHECO EDUARDO ELOY",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2854",
-          "profesor": "CASTRO SANTAMARIA ADOLFO ULISES",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "20:00",
-              "fin": "22:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        }
-      ]
-    },
-    "1092": {
-      "nombre": "CALIDAD Y CONFIABILIDAD DE SISTE",
-      "semestre": "08",
-      "grupos": [
-        {
-          "grupo": "2804",
-          "profesor": "RAMIREZ YAÑEZ DIEGO ALAN",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "07:00",
-              "fin": "09:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        }
-      ]
-    },
-    "1093": {
-      "nombre": "MODELOS ECONOMICOS",
-      "semestre": "08",
-      "grupos": [
-        {
-          "grupo": "2802",
-          "profesor": "OROZCO SANCHEZ NEMESIO",
+          "grupo": "1703",
+          "profesor": "MORENO MENDOZA MANUEL ANTONIO",
           "horarios": [
             {
               "dia": "MA",
@@ -339,104 +24,41 @@
               "fin": "15:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         }
       ]
     },
-    "1094": {
-      "nombre": "PRACTICA PROFESIONAL",
-      "semestre": "08",
+    "1044": {
+      "nombre": "SIMULACION ESTOCASTICA",
+      "semestre": "07",
       "grupos": [
         {
-          "grupo": "2805",
-          "profesor": "RENDON AGUILAR JUAN CARLOS",
+          "grupo": "1702",
+          "profesor": "MORENO BALTAZAR ANABEL",
           "horarios": [
             {
-              "dia": "SA",
-              "dia_nombre": "Sábado",
-              "inicio": "07:00",
-              "fin": "15:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        }
-      ]
-    },
-    "1095": {
-      "nombre": "PRONOSTICOS",
-      "semestre": "08",
-      "grupos": [
-        {
-          "grupo": "2803",
-          "profesor": "VERGARA PRADO JAIME",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "11:00",
-              "fin": "13:00"
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "09:00",
+              "fin": "11:00"
             },
             {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "13:00",
-              "fin": "15:00"
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "11:00"
             }
           ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2853",
-          "profesor": "HERNANDEZ HERNANDEZ NORMA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "20:00",
-              "fin": "22:00"
-            }
-          ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         }
       ]
     },
-    "1097": {
-      "nombre": "TEMAS SELECTOS DE ADMON.Y FINANZ",
-      "semestre": "08",
+    "1045": {
+      "nombre": "SISTEMAS OPERATIVOS",
+      "semestre": "07",
       "grupos": [
         {
-          "grupo": "2805",
-          "profesor": "MARTINEZ TOLENTINO ESPARTACO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "11:00",
-              "fin": "13:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "11:00",
-              "fin": "13:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        }
-      ]
-    },
-    "1098": {
-      "nombre": "TEMAS SELECTOS DE COMPUTACION II",
-      "semestre": "08",
-      "grupos": [
-        {
-          "grupo": "2805",
+          "grupo": "1702",
           "profesor": "LOZA PACHECO DULCE LOURDES",
           "horarios": [
             {
@@ -452,11 +74,11 @@
               "fin": "11:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2856",
-          "profesor": "PADILLA ALEMAN DAVID BRYAN",
+          "grupo": "1752",
+          "profesor": "GAMA CAMPILLO ANTONIO",
           "horarios": [
             {
               "dia": "LU",
@@ -471,36 +93,257 @@
               "fin": "22:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         }
       ]
     },
-    "1099": {
-      "nombre": "TEMAS SELECTOS DE MATEMATICAS II",
-      "semestre": "08",
+    "1049": {
+      "nombre": "ADMINISTRACION DE BASES DE DATOS",
+      "semestre": "07",
       "grupos": [
         {
-          "grupo": "2804",
-          "profesor": "GALINDO LOPEZ JULIO CESAR",
+          "grupo": "1702",
+          "profesor": "ROSAS HERNANDEZ JAVIER",
           "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1703",
+          "profesor": "SOTO CORTES MARIA DE LOURDES",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
               "inicio": "09:00",
               "fin": "11:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1704",
+          "profesor": "ZAMORA CARRILLO MARISA IVONNE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "09:00"
             },
             {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
+              "dia": "LU",
+              "dia_nombre": "Lunes",
               "inicio": "09:00",
               "fin": "11:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2853",
-          "profesor": "OLGUIN ROQUE JAIRO",
+          "grupo": "1753",
+          "profesor": "DOMINGUEZ ESQUERRO RICARDO",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1754",
+          "profesor": "CASTAÑEDA LANDA JOSUE",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "20:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        }
+      ]
+    },
+    "1059": {
+      "nombre": "SISTEMAS INTELIGENTES",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "MENDOZA VILLAR JOSE RICARDO",
+          "horarios": [
+            {
+              "dia": "SA",
+              "dia_nombre": "Sábado",
+              "inicio": "09:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1704",
+          "profesor": "ANGELES URIBE MIRIAM",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1754",
+          "profesor": "ROSAS HERNANDEZ JAVIER",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        }
+      ]
+    },
+    "1084": {
+      "nombre": "ANALISIS DE DECIS.Y TEORIA DE JU",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1702",
+          "profesor": "SENTIES ESCALANTE ERNESTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        }
+      ]
+    },
+    "1086": {
+      "nombre": "ELEMENTOS DE FINANZAS E INVERSIO",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1703",
+          "profesor": "OROZCO SANCHEZ NEMESIO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1754",
+          "profesor": "NAVA DELGADILLO DANIEL ENRIQUE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1755",
+          "profesor": "MARTINEZ TOLENTINO ESPARTACO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        }
+      ]
+    },
+    "1087": {
+      "nombre": "PROGRAMACION MULTIMEDIA",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1754",
+          "profesor": "ROMERO RUIZ RUBEN",
           "horarios": [
             {
               "dia": "MA",
@@ -515,17 +358,143 @@
               "fin": "20:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         }
       ]
     },
-    "1206": {
-      "nombre": "ALGEBRA LINEAL",
-      "semestre": "02",
+    "1089": {
+      "nombre": "TEMAS SELECTOS DE COMPUTACION I",
+      "semestre": "07",
       "grupos": [
         {
-          "grupo": "2201",
-          "profesor": "OLGUIN ROQUE JAIRO",
+          "grupo": "1703",
+          "profesor": "ROMERO MORA DIEGO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1704",
+          "profesor": "LOZA PACHECO EDUARDO ELOY",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "13:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1705",
+          "profesor": "ROMERO MORA DIEGO",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1751",
+          "profesor": "VASCONCELOS SANTILLAN JORGE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        }
+      ]
+    },
+    "1090": {
+      "nombre": "TEMAS SELECTOS DE ESTADISTICA",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "GUERRERO CERVANTES RITA ESMERALDA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1705",
+          "profesor": "HERRERA MALDONADO MAHIL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "13:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        }
+      ]
+    },
+    "1106": {
+      "nombre": "ALGEBRA SUPERIOR",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "LAZCANO GARCIA ALBERTO",
           "horarios": [
             {
               "dia": "LU",
@@ -546,85 +515,85 @@
               "fin": "13:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2202",
-          "profesor": "GONZALEZ RAMOS GUSTAVO",
+          "grupo": "1102",
+          "profesor": "SAAVEDRA LUIS HECTOR AXEL",
           "horarios": [
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "11:00",
-              "fin": "13:00"
+              "inicio": "09:00",
+              "fin": "11:00"
             },
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",
-              "inicio": "11:00",
-              "fin": "13:00"
+              "inicio": "09:00",
+              "fin": "11:00"
             },
             {
               "dia": "VI",
               "dia_nombre": "Viernes",
-              "inicio": "11:00",
-              "fin": "13:00"
+              "inicio": "09:00",
+              "fin": "11:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2203",
+          "grupo": "1103",
           "profesor": "DAVILA SANTOS ADRIANA",
           "horarios": [
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "09:00",
-              "fin": "11:00"
+              "inicio": "11:00",
+              "fin": "13:00"
             },
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",
-              "inicio": "09:00",
-              "fin": "11:00"
+              "inicio": "11:00",
+              "fin": "13:00"
             },
             {
               "dia": "VI",
               "dia_nombre": "Viernes",
-              "inicio": "09:00",
-              "fin": "11:00"
+              "inicio": "11:00",
+              "fin": "13:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2204",
-          "profesor": "DAVILA SANTOS ADRIANA",
+          "grupo": "1104",
+          "profesor": "CUELLAR AGUAYO ADA RUTH",
           "horarios": [
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "11:00",
-              "fin": "13:00"
+              "inicio": "09:00",
+              "fin": "11:00"
             },
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",
-              "inicio": "11:00",
-              "fin": "13:00"
+              "inicio": "09:00",
+              "fin": "11:00"
             },
             {
               "dia": "VI",
               "dia_nombre": "Viernes",
-              "inicio": "11:00",
-              "fin": "13:00"
+              "inicio": "09:00",
+              "fin": "11:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2205",
+          "grupo": "1105",
           "profesor": "REYES MONTES DE OCA CLAUDIA CRISTINA",
           "horarios": [
             {
@@ -646,135 +615,60 @@
               "fin": "09:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2251",
-          "profesor": "JAUREGUI BALLESTEROS FRANCISCO GUILLERMO",
+          "grupo": "1106",
+          "profesor": "SAAVEDRA LUIS HECTOR AXEL",
           "horarios": [
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "inicio": "11:00",
+              "fin": "13:00"
             },
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "inicio": "11:00",
+              "fin": "13:00"
             },
             {
               "dia": "VI",
               "dia_nombre": "Viernes",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "inicio": "11:00",
+              "fin": "13:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2252",
-          "profesor": "BALTAZAR MARTINEZ ERNESTO",
+          "grupo": "1107",
+          "profesor": "REYES MONTES DE OCA CLAUDIA CRISTINA",
           "horarios": [
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "20:00",
-              "fin": "22:00"
+              "inicio": "09:00",
+              "fin": "11:00"
             },
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",
-              "inicio": "20:00",
-              "fin": "22:00"
+              "inicio": "09:00",
+              "fin": "11:00"
             },
             {
               "dia": "VI",
               "dia_nombre": "Viernes",
-              "inicio": "20:00",
-              "fin": "22:00"
+              "inicio": "09:00",
+              "fin": "11:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2253",
-          "profesor": "PACHECO PAEZ JUAN CARLOS",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2254",
-          "profesor": "HARO SANCHEZ VIRGINIA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2255",
-          "profesor": "DELGADO ELIZONDO CHRISTIAN CARLOS",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2256",
+          "grupo": "1151",
           "profesor": "GALINDO CUEVAS JESUS GIL",
           "horarios": [
             {
@@ -796,16 +690,166 @@
               "fin": "18:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1152",
+          "profesor": "GONZALEZ RAMOS GUSTAVO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1153",
+          "profesor": "HARO SANCHEZ VIRGINIA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1154",
+          "profesor": "SAAVEDRA LUIS HECTOR AXEL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1155",
+          "profesor": "JAUREGUI BALLESTEROS FRANCISCO GUILLERMO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
         }
       ]
     },
-    "1207": {
-      "nombre": "CALCULO II",
-      "semestre": "02",
+    "1107": {
+      "nombre": "CALCULO I",
+      "semestre": "01",
       "grupos": [
         {
-          "grupo": "2201",
+          "grupo": "1101",
+          "profesor": "CORONEL RAMIREZ WENDY",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1102",
+          "profesor": "GONZALEZ RAMOS GUSTAVO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1103",
           "profesor": "VITE MARTINEZ DOMINGO",
           "horarios": [
             {
@@ -827,85 +871,10 @@
               "fin": "09:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2202",
-          "profesor": "CORONEL RAMIREZ WENDY",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2203",
-          "profesor": "GUZMAN FUENTES RICARDO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2204",
-          "profesor": "VALDES Y MEDINA ESPERANZA GEORGINA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2205",
+          "grupo": "1104",
           "profesor": "GARCIA PEREZ ANA KARLA",
           "horarios": [
             {
@@ -927,10 +896,135 @@
               "fin": "13:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2251",
+          "grupo": "1105",
+          "profesor": "GUZMAN FUENTES RICARDO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1107",
+          "profesor": "CORONEL RAMIREZ WENDY",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "13:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1151",
+          "profesor": "BALTAZAR MARTINEZ ERNESTO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1152",
+          "profesor": "PACHECO PAEZ JUAN CARLOS",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1153",
+          "profesor": "GALINDO CUEVAS JESUS GIL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1154",
           "profesor": "BALTAZAR MARTINEZ ERNESTO",
           "horarios": [
             {
@@ -952,36 +1046,11 @@
               "fin": "20:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2252",
-          "profesor": "GUZMAN FUENTES RICARDO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2253",
-          "profesor": "GALINDO CUEVAS JESUS GIL",
+          "grupo": "1155",
+          "profesor": "GONZALEZ RAMOS GUSTAVO",
           "horarios": [
             {
               "dia": "LU",
@@ -1002,111 +1071,17 @@
               "fin": "16:00"
             }
           ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2254",
-          "profesor": "SAAVEDRA LUIS HECTOR AXEL",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2255",
-          "profesor": "GUZMAN FUENTES RICARDO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2256",
-          "profesor": "SAAVEDRA LUIS HECTOR AXEL",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         }
       ]
     },
-    "1211": {
-      "nombre": "GEOMETRIA DEL ESPACIO",
-      "semestre": "02",
+    "1111": {
+      "nombre": "ORGANIZACION DE COMPUTADORAS",
+      "semestre": "01",
       "grupos": [
         {
-          "grupo": "2201",
-          "profesor": "GUADARRAMA GARCIA MIGUEL ANGEL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "09:00",
-              "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2202",
-          "profesor": "GUADARRAMA GARCIA MIGUEL ANGEL",
+          "grupo": "1101",
+          "profesor": "RUBIO PEREZ ALEJANDRO ROBERTO",
           "horarios": [
             {
               "dia": "MA",
@@ -1121,87 +1096,125 @@
               "fin": "09:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2203",
-          "profesor": "GARCIA PEREZ ANA KARLA",
+          "grupo": "1102",
+          "profesor": "NAVARRO FLORES MARIO",
           "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
               "inicio": "09:00",
               "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2204",
-          "profesor": "SENTIES ESCALANTE ERNESTO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "11:00",
-              "fin": "13:00"
             },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "11:00",
-              "fin": "13:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2205",
-          "profesor": "LAZCANO GARCIA ALBERTO",
-          "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
               "inicio": "09:00",
               "fin": "11:00"
-            },
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1103",
+          "profesor": "QUIROZ ALMARAZ SERGIO",
+          "horarios": [
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
               "inicio": "09:00",
               "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2251",
-          "profesor": "GARCIA PEREZ ANA KARLA",
-          "horarios": [
+            },
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "inicio": "09:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1104",
+          "profesor": "RICO CASTRO MAURICIO",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "09:00"
             },
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1151",
+          "profesor": "BAUTISTA MORA JOSE ROBERTO",
+          "horarios": [
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
               "inicio": "16:00",
               "fin": "18:00"
+            },
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2252",
-          "profesor": "FRIAS SILVER ELSA",
+          "grupo": "1152",
+          "profesor": "GONZALEZ VIDEGARAY EFREN PABLO HECTOR",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1153",
+          "profesor": "GONZALEZ VIDEGARAY EFREN PABLO HECTOR",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1154",
+          "profesor": "VASCONCELOS SANTILLAN JORGE",
           "horarios": [
             {
               "dia": "MA",
@@ -1216,335 +1229,16 @@
               "fin": "20:00"
             }
           ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2253",
-          "profesor": "VIQUEZ CANO MONICA ZAIMA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2254",
-          "profesor": "ROSALES SANCHEZ SERGIO MIGUEL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         }
       ]
     },
-    "1212": {
-      "nombre": "INGLES INTERMEDIO I",
-      "semestre": "02",
+    "1112": {
+      "nombre": "PROGRAMACION I",
+      "semestre": "01",
       "grupos": [
         {
-          "grupo": "2201",
-          "profesor": "POZAS GIL LYDBERTA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "11:00",
-              "fin": "13:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "11:00",
-              "fin": "13:00"
-            },
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "13:00",
-              "fin": "15:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2202",
-          "profesor": "VIVANCO PEREZ MARIA JIMENA",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "13:00",
-              "fin": "15:00"
-            },
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "11:00",
-              "fin": "13:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "11:00",
-              "fin": "13:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2203",
-          "profesor": "MARQUEZ MIQUEL MARIA EUGENIA",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "13:00",
-              "fin": "15:00"
-            },
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "11:00",
-              "fin": "13:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "11:00",
-              "fin": "13:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2204",
-          "profesor": "POZAS GIL LYDBERTA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "13:00",
-              "fin": "15:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "13:00",
-              "fin": "15:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "13:00",
-              "fin": "15:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2251",
-          "profesor": "BARRAGAN GARCIA NESTOR DANIEL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2252",
-          "profesor": "NUEVO GONZALEZ ISRAEL",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2253",
-          "profesor": "AVALOS GUZMAN PABLO",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            },
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        }
-      ]
-    },
-    "1213": {
-      "nombre": "PROGRAMACION II",
-      "semestre": "02",
-      "grupos": [
-        {
-          "grupo": "2201",
-          "profesor": "LOPEZ BLANCO ALMA",
-          "horarios": [
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2202",
-          "profesor": "LOPEZ BLANCO ALMA",
-          "horarios": [
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2203",
-          "profesor": "ESLAVA GARCIA GEORGINA",
-          "horarios": [
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "11:00",
-              "fin": "13:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "11:00",
-              "fin": "13:00"
-            },
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "11:00",
-              "fin": "13:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2204",
-          "profesor": "MENDIETA GONZALEZ MARTIN",
-          "horarios": [
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2205",
+          "grupo": "1101",
           "profesor": "HERNANDEZ BALDERAS ANDRES",
           "horarios": [
             {
@@ -1566,65 +1260,165 @@
               "fin": "11:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2206",
-          "profesor": "LOZA PACHECO EDUARDO ELOY",
+          "grupo": "1102",
+          "profesor": "MUÑOZ ALTAMIRANO SANDRA",
           "horarios": [
             {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "11:00",
-              "fin": "13:00"
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "09:00"
             },
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "11:00",
-              "fin": "13:00"
+              "inicio": "07:00",
+              "fin": "09:00"
             },
             {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "11:00",
-              "fin": "13:00"
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "09:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2251",
+          "grupo": "1103",
           "profesor": "ESLAVA GARCIA GEORGINA",
           "horarios": [
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "14:00",
-              "fin": "16:00"
+              "inicio": "09:00",
+              "fin": "11:00"
             },
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "09:00",
+              "fin": "11:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2252",
+          "grupo": "1104",
+          "profesor": "HERNANDEZ BALDERAS ANDRES",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1105",
+          "profesor": "LOPEZ BLANCO ALMA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1151",
+          "profesor": "BAHENA GOMEZ FEDERICO GUILLERMO",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1152",
+          "profesor": "SOLORZANO GRAMAJO ERICK SALVADOR",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1153",
           "profesor": "TAPIA AGUILAR MARIA",
           "horarios": [
             {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "16:00",
               "fin": "18:00"
             },
@@ -1635,41 +1429,16 @@
               "fin": "18:00"
             },
             {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
+              "dia": "VI",
+              "dia_nombre": "Viernes",
               "inicio": "16:00",
               "fin": "18:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2253",
-          "profesor": "CORTES BUENROSTRO JUAN JOSE",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2254",
+          "grupo": "1154",
           "profesor": "MARTINEZ TORRES RENE",
           "horarios": [
             {
@@ -1679,33 +1448,27 @@
               "fin": "16:00"
             },
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
+              "dia": "LU",
+              "dia_nombre": "Lunes",
               "inicio": "14:00",
               "fin": "16:00"
             },
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "14:00",
               "fin": "16:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2255",
-          "profesor": "NOVA JUAREZ MARITZA",
+          "grupo": "1155",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "20:00",
               "fin": "22:00"
             },
@@ -1714,38 +1477,25 @@
               "dia_nombre": "Lunes",
               "inicio": "20:00",
               "fin": "22:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "20:00",
+              "fin": "22:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         }
       ]
     },
-    "1214": {
-      "nombre": "REDES DE COMPUTO",
-      "semestre": "02",
+    "1113": {
+      "nombre": "SOLUCION ALGORITMICA DE PROBLEMA",
+      "semestre": "01",
       "grupos": [
         {
-          "grupo": "2201",
-          "profesor": "RUBIO PEREZ ALEJANDRO ROBERTO",
-          "horarios": [
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2202",
-          "profesor": "GONZALEZ VIDEGARAY EFREN PABLO HECTOR",
+          "grupo": "1101",
+          "profesor": "LOPEZ RODRIGUEZ FRANCISCO JAVIER",
           "horarios": [
             {
               "dia": "JU",
@@ -1760,10 +1510,10 @@
               "fin": "11:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2203",
+          "grupo": "1102",
           "profesor": "QUIROZ ALMARAZ SERGIO",
           "horarios": [
             {
@@ -1779,30 +1529,11 @@
               "fin": "09:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2204",
-          "profesor": "QUIROZ ALMARAZ SERGIO",
-          "horarios": [
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2205",
-          "profesor": "GONZALEZ VIDEGARAY EFREN PABLO HECTOR",
+          "grupo": "1103",
+          "profesor": "CABALLERO MARTINEZ OSCAR GABRIEL",
           "horarios": [
             {
               "dia": "JU",
@@ -1817,11 +1548,49 @@
               "fin": "09:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2251",
-          "profesor": "GONZALEZ TREJO FERNANDO ISRAEL",
+          "grupo": "1104",
+          "profesor": "DEL TORO OBLEA CELINA KATYA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1151",
+          "profesor": "FRIAS SILVER ELSA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1152",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "JU",
@@ -1836,307 +1605,29 @@
               "fin": "22:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2252",
-          "profesor": "RICO CASTRO MAURICIO",
-          "horarios": [
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2253",
-          "profesor": "SOLORZANO GRAMAJO ERICK SALVADOR",
-          "horarios": [
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2254",
-          "profesor": "BAUTISTA MORA JOSE ROBERTO",
-          "horarios": [
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        }
-      ]
-    },
-    "1308": {
-      "nombre": "METODOS NUMERICOS II",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "2401",
-          "profesor": "LOPEZ GARCIA JEANETT",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "09:00",
-              "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2402",
-          "profesor": "OLGUIN ROSAS MAYRA",
+          "grupo": "1153",
+          "profesor": "ROSALES SANCHEZ SERGIO MIGUEL",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "11:00",
-              "fin": "13:00"
+              "inicio": "18:00",
+              "fin": "20:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "11:00",
-              "fin": "13:00"
+              "inicio": "18:00",
+              "fin": "20:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2403",
-          "profesor": "CARRILLO RAMIREZ TERESA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "09:00",
-              "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2404",
-          "profesor": "CARRILLO RAMIREZ TERESA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "11:00",
-              "fin": "13:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "11:00",
-              "fin": "13:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2451",
-          "profesor": "CARRILLO RAMIREZ TERESA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2452",
-          "profesor": "CASTAÑEDA LANDA JOSUE",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "20:00",
-              "fin": "22:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2453",
-          "profesor": "LOPEZ GARCIA JEANETT",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2454",
-          "profesor": "CURIEL GARCIA CARLOS PEDRO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        }
-      ]
-    },
-    "1310": {
-      "nombre": "TEORIA DE GRAFICAS",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "2401",
-          "profesor": "MORENO BALTAZAR ANABEL",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "07:00",
-              "fin": "09:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2402",
-          "profesor": "RODRIGUEZ CASTRO ERICK IVAN",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "09:00",
-              "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2403",
-          "profesor": "RODRIGUEZ MORENO GUADALUPE DEL CARMEN",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "07:00",
-              "fin": "09:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2404",
-          "profesor": "LOPEZ GARCIA JEANETT",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "09:00",
-              "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2451",
+          "grupo": "1154",
           "profesor": "MANZANARES ALVAREZ FERNANDO",
           "horarios": [
             {
@@ -2152,504 +1643,262 @@
               "fin": "22:00"
             }
           ],
-          "salon": "INF. JEFA."
-        },
+          "salon": "INF.en JEFA."
+        }
+      ]
+    },
+    "1208": {
+      "nombre": "LOGICA MATEMATICA",
+      "semestre": "01",
+      "grupos": [
         {
-          "grupo": "2452",
-          "profesor": "VIQUEZ CANO MONICA ZAIMA",
+          "grupo": "1101",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "inicio": "11:00",
+              "fin": "13:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "inicio": "11:00",
+              "fin": "13:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2453",
+          "grupo": "1102",
+          "profesor": "LOPEZ GARCIA JEANETT",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1103",
+          "profesor": "CARRILLO RAMIREZ TERESA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1104",
+          "profesor": "LAZCANO GARCIA ALBERTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1105",
+          "profesor": "GAMA CAMPILLO ANTONIO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1151",
+          "profesor": "LOPEZ GARCIA JEANETT",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1152",
           "profesor": "ROSALES SANCHEZ SERGIO MIGUEL",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "18:00",
-              "fin": "20:00"
+              "inicio": "16:00",
+              "fin": "18:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "18:00",
-              "fin": "20:00"
+              "inicio": "16:00",
+              "fin": "18:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2454",
-          "profesor": "LOPEZ GARCIA JEANETT",
+          "grupo": "1153",
+          "profesor": "VIQUEZ CANO MONICA ZAIMA",
           "horarios": [
             {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
+              "dia": "MA",
+              "dia_nombre": "Martes",
               "inicio": "14:00",
               "fin": "16:00"
             },
             {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
+              "dia": "JU",
+              "dia_nombre": "Jueves",
               "inicio": "14:00",
               "fin": "16:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1154",
+          "profesor": "FRIAS SILVER ELSA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1155",
+          "profesor": "CABALLERO MARTINEZ OSCAR GABRIEL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "20:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
         }
       ]
     },
-    "1406": {
-      "nombre": "BASES DE DATOS",
-      "semestre": "04",
+    "1306": {
+      "nombre": "CALCULO III",
+      "semestre": "03",
       "grupos": [
         {
-          "grupo": "2401",
-          "profesor": "VASQUEZ DIAZ AARON",
+          "grupo": "1301",
+          "profesor": "VALDES Y MEDINA ESPERANZA GEORGINA",
           "horarios": [
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "07:00",
-              "fin": "10:00"
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "09:00",
+              "fin": "11:00"
             },
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "07:00",
-              "fin": "10:00"
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "09:00",
+              "fin": "11:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2402",
-          "profesor": "DOMINGUEZ ESQUERRO RICARDO",
+          "grupo": "1302",
+          "profesor": "GUZMAN FUENTES RICARDO",
           "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
             {
               "dia": "VI",
               "dia_nombre": "Viernes",
               "inicio": "07:00",
               "fin": "09:00"
-            },
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "07:00",
-              "fin": "09:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2403",
-          "profesor": "LOZA PACHECO DULCE LOURDES",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "07:00",
-              "fin": "09:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2404",
-          "profesor": "DEL TORO OBLEA CELINA KATYA",
-          "horarios": [
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2405",
-          "profesor": "GARCIA ESPINOSA ARMANDO",
-          "horarios": [
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2451",
-          "profesor": "MARRON LUNA DYANA ERIKA",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2452",
-          "profesor": "CORTES BUENROSTRO JUAN JOSE",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            },
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "20:00",
-              "fin": "22:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2453",
-          "profesor": "LAZCANO GONZALEZ ROBERTO",
-          "horarios": [
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "20:00",
-              "fin": "22:00"
-            },
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2454",
-          "profesor": "HERNANDEZ BALDERAS ANDRES",
-          "horarios": [
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        }
-      ]
-    },
-    "1410": {
-      "nombre": "PROBABILIDAD",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "2401",
-          "profesor": "REYES MONTES DE OCA CLAUDIA CRISTINA",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "11:00",
-              "fin": "13:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "11:00",
-              "fin": "13:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2402",
-          "profesor": "SUAREZ GARCIA MA. ANDREA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "11:00",
-              "fin": "13:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "11:00",
-              "fin": "13:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "11:00",
-              "fin": "13:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2403",
-          "profesor": "REYES MONTES DE OCA CLAUDIA CRISTINA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "11:00",
-              "fin": "13:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "11:00",
-              "fin": "13:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "11:00",
-              "fin": "13:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2404",
-          "profesor": "LAVIN ALANIS LUZ MARIA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "11:00",
-              "fin": "13:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "11:00",
-              "fin": "13:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "11:00",
-              "fin": "13:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2451",
-          "profesor": "RAMIREZ MUÑOZ JAIME",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "20:00",
-              "fin": "22:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2452",
-          "profesor": "DELGADO JUAREZ GABRIEL",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2453",
-          "profesor": "ORTIZ MENDOZA SANDRA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2454",
-          "profesor": "APOLINAR JOAQUIN CESAR GABRIEL",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "20:00",
-              "fin": "22:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        }
-      ]
-    },
-    "1411": {
-      "nombre": "CALCULO IV",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "2401",
+          "grupo": "1303",
           "profesor": "JIMENEZ ZAMUDIO JORGE JAVIER",
           "horarios": [
             {
@@ -2671,217 +1920,11 @@
               "fin": "13:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2402",
-          "profesor": "LAZCANO GARCIA ALBERTO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2403",
-          "profesor": "GONZALEZ RAMOS GUSTAVO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2404",
-          "profesor": "MELENDEZ PIÑA JOSE ALBERTO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2405",
-          "profesor": "CORONEL RAMIREZ WENDY",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2451",
-          "profesor": "SAAVEDRA LUIS HECTOR AXEL",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2452",
-          "profesor": "GONZALEZ RAMOS GUSTAVO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2453",
-          "profesor": "MARTINEZ JOSE SOCORRO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        }
-      ]
-    },
-    "1412": {
-      "nombre": "INGLES AVANZADO I",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "2401",
-          "profesor": "MEDINA VALENZUELA NANCY MICHELLE",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "13:00",
-              "fin": "15:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "13:00",
-              "fin": "15:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "13:00",
-              "fin": "15:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2402",
-          "profesor": "VAZQUEZ MARU GABRIELA OLIVIA",
+          "grupo": "1304",
+          "profesor": "ESPINOZA LOYOLA ENRIQUE",
           "horarios": [
             {
               "dia": "MA",
@@ -2896,203 +1939,302 @@
               "fin": "09:00"
             },
             {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "13:00",
-              "fin": "15:00"
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "09:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2403",
-          "profesor": "GUTIERREZ PEREZ MELISSA ITZEL",
+          "grupo": "1305",
+          "profesor": "OLGUIN ROQUE JAIRO",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
+              "dia": "LU",
+              "dia_nombre": "Lunes",
               "inicio": "11:00",
               "fin": "13:00"
             },
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1351",
+          "profesor": "ALEMAN ZEPEDA ETHELVINA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1352",
+          "profesor": "GUZMAN FUENTES RICARDO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1353",
+          "profesor": "OLGUIN ROQUE JAIRO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1354",
+          "profesor": "PACHECO PAEZ JUAN CARLOS",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1355",
+          "profesor": "GARCIA PEREZ ANA KARLA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        }
+      ]
+    },
+    "1309": {
+      "nombre": "PROGRAMACION ORIENTADA A OBJETOS",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "ESLAVA GARCIA GEORGINA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "11:00",
               "fin": "13:00"
             },
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "13:00",
-              "fin": "15:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2451",
-          "profesor": "GUASCO ZUÑIGA FRANCISCO JAVIER",
-          "horarios": [
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
             {
               "dia": "VI",
               "dia_nombre": "Viernes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "18:00",
-              "fin": "20:00"
+              "inicio": "11:00",
+              "fin": "13:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2452",
-          "profesor": "BARRERA GUTIERREZ JUAN PABLO",
+          "grupo": "1302",
+          "profesor": "MENDIETA GONZALEZ MARTIN",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "18:00",
-              "fin": "20:00"
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "11:00"
             },
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2453",
-          "profesor": "MEDINA VALENZUELA NANCY MICHELLE",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "inicio": "09:00",
+              "fin": "11:00"
             },
             {
               "dia": "VI",
               "dia_nombre": "Viernes",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "inicio": "09:00",
+              "fin": "11:00"
             }
           ],
-          "salon": "INF. JEFA."
-        }
-      ]
-    },
-    "1607": {
-      "nombre": "DESARROLLO WEB",
-      "semestre": "06",
-      "grupos": [
+          "salon": "INF.en JEFA."
+        },
         {
-          "grupo": "2601",
-          "profesor": "GAMA CAMPILLO ANTONIO",
+          "grupo": "1303",
+          "profesor": "GOMEZ GOMEZ CESAR",
           "horarios": [
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "07:00",
-              "fin": "09:00"
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "09:00",
+              "fin": "11:00"
             },
             {
               "dia": "MA",
               "dia_nombre": "Martes",
               "inicio": "07:00",
               "fin": "09:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "09:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2602",
+          "grupo": "1304",
           "profesor": "LOPEZ BLANCO ALMA",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "09:00",
               "fin": "11:00"
             },
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
               "inicio": "09:00",
               "fin": "11:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2603",
-          "profesor": "ROMERO MORA DIEGO",
+          "grupo": "1305",
+          "profesor": "LOZA PACHECO EDUARDO ELOY",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "07:00",
-              "fin": "09:00"
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "09:00",
+              "fin": "11:00"
             },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "07:00",
-              "fin": "09:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2651",
-          "profesor": "CORDOBA LUNA JONATHAN LUIS",
-          "horarios": [
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2652",
-          "profesor": "GAMA CAMPILLO ANTONIO",
-          "horarios": [
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1351",
+          "profesor": "CORTES BUENROSTRO JUAN JOSE",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
               "inicio": "20:00",
               "fin": "22:00"
             },
@@ -3101,19 +2243,512 @@
               "dia_nombre": "Lunes",
               "inicio": "20:00",
               "fin": "22:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "20:00",
+              "fin": "22:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1352",
+          "profesor": "MARRON LUNA DYANA ERIKA",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1353",
+          "profesor": "NOVA JUAREZ MARITZA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "20:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1354",
+          "profesor": "MARTINEZ TORRES RENE",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
         }
       ]
     },
-    "1608": {
-      "nombre": "ECUACIONES DIFERENCIALES II",
-      "semestre": "06",
+    "1311": {
+      "nombre": "ESTRUCTURAS DE DATOS",
+      "semestre": "03",
       "grupos": [
         {
-          "grupo": "2601",
-          "profesor": "SENTIES ESCALANTE ERNESTO",
+          "grupo": "1301",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1302",
+          "profesor": "CUELLAR AGUAYO ADA RUTH",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1303",
+          "profesor": "GARCIA ESPINOSA ARMANDO",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1304",
+          "profesor": "MENDIETA GONZALEZ MARTIN",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1305",
+          "profesor": "RENDON AGUILAR JUAN CARLOS",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1351",
+          "profesor": "LAZCANO GONZALEZ ROBERTO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1352",
+          "profesor": "VASQUEZ DIAZ AARON",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "20:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1353",
+          "profesor": "COLIN CASTAÑEDA DIEGO ANTONIO",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1354",
+          "profesor": "CORDOBA LUNA JONATHAN LUIS",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        }
+      ]
+    },
+    "1312": {
+      "nombre": "INGLES INTERMEDIO II",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "GUTIERREZ PEREZ MELISSA ITZEL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "13:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1302",
+          "profesor": "NUEVO GONZALEZ ISRAEL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "13:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1303",
+          "profesor": "VAZQUEZ MARU GABRIELA OLIVIA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1304",
+          "profesor": "VIVANCO PEREZ MARIA JIMENA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1351",
+          "profesor": "MEDINA VALENZUELA NANCY MICHELLE",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1352",
+          "profesor": "GUASCO ZUÑIGA FRANCISCO JAVIER",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1353",
+          "profesor": "BARRAGAN GARCIA NESTOR DANIEL",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        }
+      ]
+    },
+    "1313": {
+      "nombre": "METODOS NUMERICOS I",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "MA",
@@ -3128,29 +2763,168 @@
               "fin": "11:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2602",
-          "profesor": "CABALLERO MARTINEZ OSCAR GABRIEL",
+          "grupo": "1302",
+          "profesor": "OLGUIN ROSAS MAYRA",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "07:00",
-              "fin": "09:00"
+              "inicio": "11:00",
+              "fin": "13:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1303",
+          "profesor": "MARTINEZ JOSE SOCORRO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1304",
+          "profesor": "MORENO BALTAZAR ANABEL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "07:00",
               "fin": "09:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2603",
+          "grupo": "1305",
+          "profesor": "MUÑOZ ALTAMIRANO SANDRA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1351",
+          "profesor": "MARTINEZ JOSE SOCORRO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1352",
+          "profesor": "LAZCANO GONZALEZ ROBERTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1353",
+          "profesor": "CARRILLO RAMIREZ TERESA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1354",
+          "profesor": "CURIEL GARCIA CARLOS PEDRO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        }
+      ]
+    },
+    "1408": {
+      "nombre": "MATEMATICAS DISCRETAS",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
           "profesor": "GUADARRAMA GARCIA MIGUEL ANGEL",
           "horarios": [
             {
@@ -3166,11 +2940,106 @@
               "fin": "13:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2651",
-          "profesor": "OLGUIN ROQUE JAIRO",
+          "grupo": "1302",
+          "profesor": "DELGADO ELIZONDO CHRISTIAN CARLOS",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1303",
+          "profesor": "LAZCANO GARCIA ALBERTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1304",
+          "profesor": "SENTIES ESCALANTE ERNESTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1351",
+          "profesor": "VIQUEZ CANO MONICA ZAIMA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1352",
+          "profesor": "LOPEZ GARCIA JEANETT",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1353",
+          "profesor": "VIQUEZ CANO MONICA ZAIMA",
           "horarios": [
             {
               "dia": "MA",
@@ -3181,225 +3050,189 @@
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "20:00",
-              "fin": "22:00"
+              "inicio": "16:00",
+              "fin": "18:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2652",
+          "grupo": "1354",
+          "profesor": "LAZCANO GARCIA ALBERTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        }
+      ]
+    },
+    "1506": {
+      "nombre": "ECUACIONES DIFERENCIALES I",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "MELENDEZ PIÑA JOSE ALBERTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1502",
           "profesor": "DAVILA SANTOS ADRIANA",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
+              "inicio": "11:00",
+              "fin": "13:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
+              "inicio": "11:00",
+              "fin": "13:00"
             }
           ],
-          "salon": "INF. JEFA."
-        }
-      ]
-    },
-    "1610": {
-      "nombre": "PROCESOS ESTOCASTICOS",
-      "semestre": "06",
-      "grupos": [
-        {
-          "grupo": "2601",
-          "profesor": "GALINDO LOPEZ JULIO CESAR",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            }
-          ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2602",
-          "profesor": "CUELLAR AGUAYO ADA RUTH",
+          "grupo": "1503",
+          "profesor": "GUADARRAMA GARCIA MIGUEL ANGEL",
           "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "11:00",
-              "fin": "13:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "11:00",
-              "fin": "13:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "11:00",
-              "fin": "13:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2603",
-          "profesor": "HERRERA MALDONADO MAHIL",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "11:00",
-              "fin": "13:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "11:00",
-              "fin": "13:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "11:00",
-              "fin": "13:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2651",
-          "profesor": "GARCIA MONCADA REYES LAURENCIO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "20:00",
-              "fin": "22:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2652",
-          "profesor": "RAMIREZ MUÑOZ JAIME",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "18:00",
-              "fin": "20:00"
+              "inicio": "13:00",
+              "fin": "15:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "18:00",
-              "fin": "20:00"
+              "inicio": "13:00",
+              "fin": "15:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1551",
+          "profesor": "GUADARRAMA GARCIA MIGUEL ANGEL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1552",
+          "profesor": "DAVILA SANTOS ADRIANA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1555",
+          "profesor": "MELENDEZ PIÑA JOSE ALBERTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
         }
       ]
     },
-    "1611": {
-      "nombre": "ESTADISTICA II",
-      "semestre": "06",
+    "1511": {
+      "nombre": "ESTADISTICA I",
+      "semestre": "05",
       "grupos": [
         {
-          "grupo": "2601",
-          "profesor": "CUELLAR AGUAYO ADA RUTH",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2602",
-          "profesor": "GUERRERO CERVANTES RITA ESMERALDA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2603",
+          "grupo": "1501",
           "profesor": "SANTIAGO RESENDIZ LUIS",
           "horarios": [
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1502",
+          "profesor": "APOLINAR JOAQUIN CESAR GABRIEL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
               "inicio": "07:00",
               "fin": "09:00"
             },
@@ -3416,60 +3249,373 @@
               "fin": "09:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2651",
-          "profesor": "VERGARA PRADO JAIME",
+          "grupo": "1503",
+          "profesor": "SUAREZ GARCIA MA. ANDREA",
           "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
             {
               "dia": "VI",
               "dia_nombre": "Viernes",
-              "inicio": "15:00",
-              "fin": "18:00"
+              "inicio": "11:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1551",
+          "profesor": "ORTIZ MENDOZA SANDRA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
             },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1552",
+          "profesor": "DELGADO JUAREZ GABRIEL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1553",
+          "profesor": "GARCIA MONCADA REYES LAURENCIO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        }
+      ]
+    },
+    "1512": {
+      "nombre": "INGENIERIA DE SOFTWARE",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "RODRIGUEZ ARANA RICARDO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1502",
+          "profesor": "LOZA PACHECO DULCE LOURDES",
+          "horarios": [
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "15:00",
-              "fin": "18:00"
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "09:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2652",
-          "profesor": "ALEMAN ZEPEDA ETHELVINA",
+          "grupo": "1503",
+          "profesor": "LOPEZ BLANCO ALMA",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "20:00",
-              "fin": "22:00"
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1551",
+          "profesor": "VERGARA PRADO JAIME",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
               "inicio": "20:00",
               "fin": "22:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "20:00",
-              "fin": "22:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1552",
+          "profesor": "NOVA JUAREZ MARITZA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
         }
       ]
     },
-    "1612": {
-      "nombre": "OPTIMIZACION II",
-      "semestre": "06",
+    "1513": {
+      "nombre": "INGLES AVANZADO II",
+      "semestre": "05",
       "grupos": [
         {
-          "grupo": "2601",
+          "grupo": "1501",
+          "profesor": "VAZQUEZ MARU GABRIELA OLIVIA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "13:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1502",
+          "profesor": "MARQUEZ MIQUEL MARIA EUGENIA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "13:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1503",
+          "profesor": "VEGA RUIZ DIANA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "13:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1551",
+          "profesor": "MEDINA VALENZUELA NANCY MICHELLE",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1552",
+          "profesor": "BARRERA GUTIERREZ JUAN PABLO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        }
+      ]
+    },
+    "1514": {
+      "nombre": "OPTIMIZACION I",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "RODRIGUEZ MORENO GUADALUPE DEL CARMEN",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1502",
           "profesor": "RODRIGUEZ MORENO GUADALUPE DEL CARMEN",
           "horarios": [
             {
@@ -3491,35 +3637,10 @@
               "fin": "13:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2602",
-          "profesor": "RODRIGUEZ MORENO GUADALUPE DEL CARMEN",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "09:00",
-              "fin": "11:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "09:00",
-              "fin": "11:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2603",
+          "grupo": "1503",
           "profesor": "MELENDEZ PIÑA JOSE ALBERTO",
           "horarios": [
             {
@@ -3541,10 +3662,35 @@
               "fin": "11:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2651",
+          "grupo": "1551",
+          "profesor": "HARO SANCHEZ VIRGINIA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1552",
           "profesor": "HARO SANCHEZ VIRGINIA",
           "horarios": [
             {
@@ -3566,10 +3712,10 @@
               "fin": "20:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2652",
+          "grupo": "1553",
           "profesor": "ESQUIVEL PICHARDO MARCO ANTONIO",
           "horarios": [
             {
@@ -3591,60 +3737,73 @@
               "fin": "18:00"
             }
           ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2653",
-          "profesor": "HARO SANCHEZ VIRGINIA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         }
       ]
     },
-    "1613": {
-      "nombre": "SEM.SOBRE ETICA Y RESPONSAB.SOCI",
-      "semestre": "06",
+    "1515": {
+      "nombre": "SEMINARIO SOBRE MEXICO ACTUAL",
+      "semestre": "05",
       "grupos": [
         {
-          "grupo": "2601",
+          "grupo": "1501",
+          "profesor": "ROCHON HERRERA PAOLA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1502",
           "profesor": "RESENDIZ PIZARRO ANA MARISOL",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "11:00",
-              "fin": "13:00"
+              "inicio": "09:00",
+              "fin": "11:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "11:00",
-              "fin": "13:00"
+              "inicio": "09:00",
+              "fin": "11:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2602",
+          "grupo": "1503",
+          "profesor": "QUIROZ ESPINOZA MONICA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "11:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "11:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1504",
           "profesor": "LOPEZ LOPEZ ADALBERTO",
           "horarios": [
             {
@@ -3660,10 +3819,10 @@
               "fin": "13:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2603",
+          "grupo": "1505",
           "profesor": "CHAPA VERGARA SERGIO VICTOR",
           "horarios": [
             {
@@ -3679,29 +3838,10 @@
               "fin": "11:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2604",
-          "profesor": "ROCHON HERRERA PAOLA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "07:00",
-              "fin": "09:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "07:00",
-              "fin": "09:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2605",
+          "grupo": "1506",
           "profesor": "MARTINEZ CHAGOYA SILVIA PAULINA",
           "horarios": [
             {
@@ -3717,29 +3857,67 @@
               "fin": "11:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2606",
+          "grupo": "1551",
           "profesor": "QUIROZ ESPINOZA MONICA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1552",
+          "profesor": "MARES VELASCO GERARDO GABRIEL",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "11:00",
-              "fin": "13:00"
+              "inicio": "14:00",
+              "fin": "16:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "11:00",
-              "fin": "13:00"
+              "inicio": "14:00",
+              "fin": "16:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         },
         {
-          "grupo": "2651",
+          "grupo": "1553",
+          "profesor": "MARTINEZ CHAGOYA SILVIA PAULINA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1554",
           "profesor": "LAVIN ALANIS LUZ MARIA",
           "horarios": [
             {
@@ -3755,99 +3933,36 @@
               "fin": "18:00"
             }
           ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2652",
-          "profesor": "GONZALEZ VIDEGARAY EFREN PABLO HECTOR",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2655",
-          "profesor": "MARES VELASCO GERARDO GABRIEL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "INF. JEFA."
-        },
-        {
-          "grupo": "2656",
-          "profesor": "QUIROZ ESPINOZA MONICA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
         }
       ]
     },
     "1716": {
       "nombre": "INVEST.EN MATEM.APLICAD.Y COMPUT",
-      "semestre": "08",
+      "semestre": "07",
       "grupos": [
         {
-          "grupo": "2852",
-          "profesor": "AMADOR MOLINA ARMANDO",
+          "grupo": "1701",
+          "profesor": "LOPEZ GARCIA JEANETT",
           "horarios": [
             {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "09:00",
+              "fin": "11:00"
             },
             {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "09:00",
+              "fin": "11:00"
             }
           ],
-          "salon": "INF. JEFA."
-        }
-      ]
-    },
-    "0001": {
-      "nombre": "TEMAS SELECTOS DE OPTIMIZACION",
-      "semestre": "08",
-      "grupos": [
+          "salon": "INF.en JEFA."
+        },
         {
-          "grupo": "2803",
-          "profesor": "MELENDEZ PIÑA JOSE ALBERTO",
+          "grupo": "1703",
+          "profesor": "GONZALEZ VIDEGARAY MA. DEL CARMEN",
           "horarios": [
             {
               "dia": "MA",
@@ -3862,7 +3977,102 @@
               "fin": "13:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1704",
+          "profesor": "GONZALEZ VIDEGARAY EFREN PABLO HECTOR",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1705",
+          "profesor": "QUIROZ ALMARAZ SERGIO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1752",
+          "profesor": "CARRILLO RAMIREZ TERESA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1753",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
+        },
+        {
+          "grupo": "1755",
+          "profesor": "AMADOR MOLINA ARMANDO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "INF.en JEFA."
         }
       ]
     }

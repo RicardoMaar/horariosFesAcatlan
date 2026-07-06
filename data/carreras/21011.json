@@ -1,15 +1,15 @@
 {
   "codigo": "21011",
   "nombre": "Filosofía",
-  "fecha_consulta": "2026-02-07T19:45:19.213Z",
+  "fecha_consulta": "2026-07-06T21:53:04.741Z",
   "materias": {
-    "1270": {
-      "nombre": "ANTROPOLOGIA FILOSOFICA II",
-      "semestre": "02",
+    "1170": {
+      "nombre": "ANTROPOLOGIA FILOSOFICA I",
+      "semestre": "01",
       "grupos": [
         {
-          "grupo": "Q201",
-          "profesor": "MARTINEZ MADRID LUIS FERNANDO",
+          "grupo": "Q101",
+          "profesor": "SOTO RANGEL LAURA ALICIA",
           "horarios": [
             {
               "dia": "LU",
@@ -27,125 +27,81 @@
           "salon": "A-8101"
         },
         {
-          "grupo": "Q251",
-          "profesor": "GARCIA SALAS ANTONIO VICTOR",
+          "grupo": "Q151",
+          "profesor": "MAYA CASTRO MONICA MARCELA",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
             },
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
             }
           ],
           "salon": "A-8101"
         }
       ]
     },
-    "1271": {
-      "nombre": "ETICA II",
-      "semestre": "02",
+    "1171": {
+      "nombre": "ETICA I",
+      "semestre": "01",
       "grupos": [
         {
-          "grupo": "Q201",
+          "grupo": "Q101",
           "profesor": "VALERO CANO JOSE GERARDO",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "14:00"
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
             },
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "12:00",
-              "fin": "14:00"
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
             }
           ],
           "salon": "A-8101"
         },
         {
-          "grupo": "Q251",
+          "grupo": "Q151",
           "profesor": "CARRERA TESTA BERENICE",
           "horarios": [
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "inicio": "14:00",
+              "fin": "16:00"
             },
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "inicio": "14:00",
+              "fin": "16:00"
             }
           ],
           "salon": "A-8101"
         }
       ]
     },
-    "1272": {
-      "nombre": "FILOSOFIA HELENICA",
-      "semestre": "02",
+    "1172": {
+      "nombre": "FILOSOFIA GRIEGA",
+      "semestre": "01",
       "grupos": [
         {
-          "grupo": "Q201",
-          "profesor": "LOZA BALTAZAR ALONZO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-8101"
-        },
-        {
-          "grupo": "Q251",
+          "grupo": "Q101",
           "profesor": "CALLEJAS BUASI GUILLERMO",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-8101"
-        }
-      ]
-    },
-    "1273": {
-      "nombre": "LOGICA II",
-      "semestre": "02",
-      "grupos": [
-        {
-          "grupo": "Q201",
-          "profesor": "ALCALA CAMPOS RAUL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
               "inicio": "10:00",
               "fin": "12:00"
             },
@@ -159,32 +115,76 @@
           "salon": "A-8101"
         },
         {
-          "grupo": "Q251",
-          "profesor": "RAMOS ARGOTT ARTURO",
+          "grupo": "Q151",
+          "profesor": "PIÑA ZAMORA RAUL",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "18:00",
-              "fin": "20:00"
+              "inicio": "14:00",
+              "fin": "16:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8101"
+        }
+      ]
+    },
+    "1173": {
+      "nombre": "LOGICA I",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "Q101",
+          "profesor": "LARIOS PADILLA CLAUDIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8101"
+        },
+        {
+          "grupo": "Q151",
+          "profesor": "CALLEJAS BUASI GUILLERMO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "18:00",
               "fin": "20:00"
             }
           ],
-          "salon": "A-1128"
+          "salon": "A-8101"
         }
       ]
     },
-    "1274": {
-      "nombre": "MONOGRAFICO II (ARISTOTELES)",
-      "semestre": "02",
+    "1174": {
+      "nombre": "SEMINARIO MONOGRAFICO I (PLATON)",
+      "semestre": "01",
       "grupos": [
         {
-          "grupo": "Q201",
+          "grupo": "Q101",
           "profesor": "PIÑA ZAMORA RAUL",
           "horarios": [
             {
@@ -203,150 +203,18 @@
           "salon": "A-8101"
         },
         {
-          "grupo": "Q251",
-          "profesor": "VALERO CANO JOSE GERARDO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "A-8101"
-        }
-      ]
-    },
-    "1275": {
-      "nombre": "RETORICA Y POETICA",
-      "semestre": "02",
-      "grupos": [
-        {
-          "grupo": "Q201",
-          "profesor": "NUÑEZ LUNA ADAN",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-8101"
-        },
-        {
-          "grupo": "Q251",
-          "profesor": "MENDOZA CANTU ALINA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-8101"
-        }
-      ]
-    },
-    "1280": {
-      "nombre": "ANTROPOLOGIA FILOSOFICA II",
-      "semestre": "02",
-      "grupos": [
-        {
-          "grupo": "2201",
-          "profesor": "MARTINEZ MADRID LUIS FERNANDO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8101"
-        },
-        {
-          "grupo": "2251",
-          "profesor": "GARCIA SALAS ANTONIO VICTOR",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-8101"
-        }
-      ]
-    },
-    "1281": {
-      "nombre": "ETICA II",
-      "semestre": "02",
-      "grupos": [
-        {
-          "grupo": "2201",
+          "grupo": "Q151",
           "profesor": "VALERO CANO JOSE GERARDO",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8101"
-        },
-        {
-          "grupo": "2251",
-          "profesor": "CARRERA TESTA BERENICE",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
               "inicio": "16:00",
               "fin": "18:00"
             },
             {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
+              "dia": "JU",
+              "dia_nombre": "Jueves",
               "inicio": "16:00",
               "fin": "18:00"
             }
@@ -355,13 +223,13 @@
         }
       ]
     },
-    "1282": {
-      "nombre": "FILOSOFIA HELENISTICA Y ROMANA",
-      "semestre": "02",
+    "1175": {
+      "nombre": "TALLER DE REDACCION Y CRITICA FI",
+      "semestre": "01",
       "grupos": [
         {
-          "grupo": "2201",
-          "profesor": "LOZA BALTAZAR ALONZO",
+          "grupo": "Q101",
+          "profesor": "ALVARADO ARANDA SARA LUZ",
           "horarios": [
             {
               "dia": "LU",
@@ -379,183 +247,7 @@
           "salon": "A-8101"
         },
         {
-          "grupo": "2251",
-          "profesor": "CALLEJAS BUASI GUILLERMO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-8101"
-        }
-      ]
-    },
-    "1283": {
-      "nombre": "LOGICA II",
-      "semestre": "02",
-      "grupos": [
-        {
-          "grupo": "2201",
-          "profesor": "ALCALA CAMPOS RAUL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-8101"
-        },
-        {
-          "grupo": "2251",
-          "profesor": "RAMOS ARGOTT ARTURO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "A-1128"
-        }
-      ]
-    },
-    "1284": {
-      "nombre": "RETORICA Y POETICA",
-      "semestre": "02",
-      "grupos": [
-        {
-          "grupo": "2201",
-          "profesor": "NUÑEZ LUNA ADAN",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-8101"
-        },
-        {
-          "grupo": "2251",
-          "profesor": "MENDOZA CANTU ALINA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-8101"
-        }
-      ]
-    },
-    "1285": {
-      "nombre": "TEXTOS FILOSOFICOS II",
-      "semestre": "02",
-      "grupos": [
-        {
-          "grupo": "2201",
-          "profesor": "PIÑA ZAMORA RAUL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-8101"
-        },
-        {
-          "grupo": "2251",
-          "profesor": "VALERO CANO JOSE GERARDO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "A-8101"
-        }
-      ]
-    },
-    "1470": {
-      "nombre": "DIDACTICA FILOSOFICA",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "Q401",
-          "profesor": "SANCHEZ PACHECO DAVID RUSLAM",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-1128"
-        },
-        {
-          "grupo": "Q451",
+          "grupo": "Q151",
           "profesor": "VIVAR MARTINEZ GABRIELA",
           "horarios": [
             {
@@ -575,298 +267,34 @@
         }
       ]
     },
-    "1471": {
-      "nombre": "ESTETICA II",
-      "semestre": "04",
+    "1180": {
+      "nombre": "ANTROPOLOGIA FILOSOFICA I",
+      "semestre": "01",
       "grupos": [
         {
-          "grupo": "Q401",
-          "profesor": "GARCIA MANCILLA CARLOS DAVID",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-1128"
-        },
-        {
-          "grupo": "Q451",
-          "profesor": "MENDOZA CANTU ALINA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-1128"
-        }
-      ]
-    },
-    "1472": {
-      "nombre": "EPISTEMOLOGIA II",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "Q401",
-          "profesor": "GONZALEZ RUBIO CANSECO ERNESTO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-1128"
-        },
-        {
-          "grupo": "Q451",
-          "profesor": "MAYA CASTRO MONICA MARCELA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-1128"
-        }
-      ]
-    },
-    "1473": {
-      "nombre": "FILOSOFIA MODERNA I",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "Q401",
+          "grupo": "1101",
           "profesor": "SOTO RANGEL LAURA ALICIA",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-1128"
-        },
-        {
-          "grupo": "Q451",
-          "profesor": "BERISTAIN BERISTAIN CECILIA",
-          "horarios": [
-            {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "A-1128"
-        }
-      ]
-    },
-    "1474": {
-      "nombre": "FILOSOFIA EN MEXICO I",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "Q401",
-          "profesor": "REYES RUIZ EMILIO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-1128"
-        },
-        {
-          "grupo": "Q451",
-          "profesor": "COSME NAVA ELOINA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-1128"
-        }
-      ]
-    },
-    "1475": {
-      "nombre": "MONOGRAFICO IV (DESCARTES)",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "Q401",
-          "profesor": "ALVARADO ARANDA SARA LUZ",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
               "inicio": "12:00",
               "fin": "14:00"
             },
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "12:00",
               "fin": "14:00"
             }
           ],
-          "salon": "A-1128"
+          "salon": "A-8101"
         },
         {
-          "grupo": "Q451",
-          "profesor": "VAZQUEZ BAUTISTA VALENTE",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-1128"
-        }
-      ]
-    },
-    "1480": {
-      "nombre": "EPISTEMOLOGIA II",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "2401",
-          "profesor": "GONZALEZ RUBIO CANSECO ERNESTO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-1128"
-        },
-        {
-          "grupo": "2451",
+          "grupo": "1151",
           "profesor": "MAYA CASTRO MONICA MARCELA",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-1128"
-        }
-      ]
-    },
-    "1481": {
-      "nombre": "ESTETICA II",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "2401",
-          "profesor": "GARCIA MANCILLA CARLOS DAVID",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-1128"
-        },
-        {
-          "grupo": "2451",
-          "profesor": "MENDOZA CANTU ALINA",
-          "horarios": [
-            {
               "dia": "LU",
               "dia_nombre": "Lunes",
               "inicio": "16:00",
@@ -879,35 +307,167 @@
               "fin": "18:00"
             }
           ],
-          "salon": "A-1128"
+          "salon": "A-8101"
         }
       ]
     },
-    "1482": {
-      "nombre": "DIDACTICA DE LA FILOSOFIA",
-      "semestre": "04",
+    "1181": {
+      "nombre": "ETICA I",
+      "semestre": "01",
       "grupos": [
         {
-          "grupo": "2401",
-          "profesor": "SANCHEZ PACHECO DAVID RUSLAM",
+          "grupo": "1101",
+          "profesor": "VALERO CANO JOSE GERARDO",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
+              "dia": "LU",
+              "dia_nombre": "Lunes",
               "inicio": "08:00",
               "fin": "10:00"
             },
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "08:00",
               "fin": "10:00"
             }
           ],
-          "salon": "A-1128"
+          "salon": "A-8101"
         },
         {
-          "grupo": "2451",
+          "grupo": "1151",
+          "profesor": "CARRERA TESTA BERENICE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8101"
+        }
+      ]
+    },
+    "1182": {
+      "nombre": "FILOSOFIA GRIEGA",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "CALLEJAS BUASI GUILLERMO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8101"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "PIÑA ZAMORA RAUL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8101"
+        }
+      ]
+    },
+    "1183": {
+      "nombre": "LOGICA I",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "LARIOS PADILLA CLAUDIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8101"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "CALLEJAS BUASI GUILLERMO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-8101"
+        }
+      ]
+    },
+    "1184": {
+      "nombre": "TALLER DE REDACC.CRITICA FILOSOF",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "ALVARADO ARANDA SARA LUZ",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8101"
+        },
+        {
+          "grupo": "1151",
           "profesor": "VIVAR MARTINEZ GABRIELA",
           "horarios": [
             {
@@ -927,13 +487,57 @@
         }
       ]
     },
-    "1483": {
-      "nombre": "FILOSOFIA DEL RENACIMIENTO",
-      "semestre": "04",
+    "1185": {
+      "nombre": "TEXTOS FILOSOFICOS I",
+      "semestre": "01",
       "grupos": [
         {
-          "grupo": "2401",
-          "profesor": "SOTO RANGEL LAURA ALICIA",
+          "grupo": "1101",
+          "profesor": "PIÑA ZAMORA RAUL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8101"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "VALERO CANO JOSE GERARDO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8101"
+        }
+      ]
+    },
+    "1370": {
+      "nombre": "ESTETICA I",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "Q301",
+          "profesor": "GARCIA MANCILLA CARLOS DAVID",
           "horarios": [
             {
               "dia": "MA",
@@ -951,12 +555,100 @@
           "salon": "A-1128"
         },
         {
-          "grupo": "2451",
+          "grupo": "Q351",
+          "profesor": "MENDOZA CANTU ALINA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-1128"
+        }
+      ]
+    },
+    "1371": {
+      "nombre": "EPISTEMOLOGIA I",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "Q301",
           "profesor": "BERISTAIN BERISTAIN CECILIA",
           "horarios": [
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-1128"
+        },
+        {
+          "grupo": "Q351",
+          "profesor": "RAMOS ARGOTT ARTURO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1128"
+        }
+      ]
+    },
+    "1372": {
+      "nombre": "FILOSOFIA MEDIEVAL",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "Q301",
+          "profesor": "DE ICAZA VILLALPANDO ERNESTO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-1128"
+        },
+        {
+          "grupo": "Q351",
+          "profesor": "LOZA BALTAZAR ALONZO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
               "inicio": "18:00",
               "fin": "20:00"
             },
@@ -971,32 +663,76 @@
         }
       ]
     },
-    "1484": {
-      "nombre": "FILOSOFIA EN MEXICO I",
-      "semestre": "04",
+    "1373": {
+      "nombre": "LOGICA III",
+      "semestre": "03",
       "grupos": [
         {
-          "grupo": "2401",
-          "profesor": "REYES RUIZ EMILIO",
+          "grupo": "Q301",
+          "profesor": "AGUILAR MARTINEZ MONICA LIVIER",
           "horarios": [
             {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "10:00",
-              "fin": "12:00"
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
             },
             {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "10:00",
-              "fin": "12:00"
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
             }
           ],
           "salon": "A-1128"
         },
         {
-          "grupo": "2451",
-          "profesor": "COSME NAVA ELOINA",
+          "grupo": "Q351",
+          "profesor": "NUÑEZ HERNANDEZ NANCY ABIGAIL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-1128"
+        }
+      ]
+    },
+    "1374": {
+      "nombre": "MONOGRAFICO III (TOMAS DE AQUINO",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "Q301",
+          "profesor": "LOZA BALTAZAR ALONZO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-1128"
+        },
+        {
+          "grupo": "Q351",
+          "profesor": "SOTO RANGEL LAURA ALICIA",
           "horarios": [
             {
               "dia": "MA",
@@ -1015,147 +751,323 @@
         }
       ]
     },
-    "1485": {
-      "nombre": "TEXTOS FILOSOFICOS IV",
-      "semestre": "04",
+    "1375": {
+      "nombre": "ONTOLOGIA I",
+      "semestre": "03",
       "grupos": [
         {
-          "grupo": "2401",
+          "grupo": "Q301",
+          "profesor": "NUÑEZ HERNANDEZ NANCY ABIGAIL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-1128"
+        },
+        {
+          "grupo": "Q351",
+          "profesor": "GARCIA SALAS ANTONIO VICTOR",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1128"
+        }
+      ]
+    },
+    "1380": {
+      "nombre": "EPISTEMOLOGIA I",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "BERISTAIN BERISTAIN CECILIA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-1128"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "RAMOS ARGOTT ARTURO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1128"
+        }
+      ]
+    },
+    "1381": {
+      "nombre": "ESTETICA I",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "GARCIA MANCILLA CARLOS DAVID",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-1128"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "MENDOZA CANTU ALINA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-1128"
+        }
+      ]
+    },
+    "1382": {
+      "nombre": "FILOSOFIA MEDIEVAL",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "DE ICAZA VILLALPANDO ERNESTO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-1128"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "LOZA BALTAZAR ALONZO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-1128"
+        }
+      ]
+    },
+    "1383": {
+      "nombre": "LOGICA III",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "AGUILAR MARTINEZ MONICA LIVIER",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-1128"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "NUÑEZ HERNANDEZ NANCY ABIGAIL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-1128"
+        }
+      ]
+    },
+    "1384": {
+      "nombre": "ONTOLOGIA I",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "NUÑEZ HERNANDEZ NANCY ABIGAIL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-1128"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "GARCIA SALAS ANTONIO VICTOR",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-1128"
+        }
+      ]
+    },
+    "1385": {
+      "nombre": "TEXTOS FILOSOFICOS III",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "LOZA BALTAZAR ALONZO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-1128"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "SOTO RANGEL LAURA ALICIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-1128"
+        }
+      ]
+    },
+    "1570": {
+      "nombre": "FILOSOFIA DE LA HISTORIA",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "Q501",
           "profesor": "ALVARADO ARANDA SARA LUZ",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-1128"
-        },
-        {
-          "grupo": "2451",
-          "profesor": "VAZQUEZ BAUTISTA VALENTE",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-1128"
-        }
-      ]
-    },
-    "1670": {
-      "nombre": "FILOSOFIA DE LA CIENCIA I",
-      "semestre": "06",
-      "grupos": [
-        {
-          "grupo": "Q601",
-          "profesor": "ALCALA CAMPOS RAUL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8103"
-        },
-        {
-          "grupo": "Q651",
-          "profesor": "RIVERA JUVENAL PABLO ADRIAN",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "A-8103"
-        }
-      ]
-    },
-    "1671": {
-      "nombre": "FILOSOFIA DE LENGUAJE",
-      "semestre": "06",
-      "grupos": [
-        {
-          "grupo": "Q601",
-          "profesor": "DE ICAZA VILLALPANDO ERNESTO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8103"
-        },
-        {
-          "grupo": "Q651",
-          "profesor": "NUÑEZ HERNANDEZ NANCY ABIGAIL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "A-8103"
-        }
-      ]
-    },
-    "1672": {
-      "nombre": "FILOSOFIA MODERNA III",
-      "semestre": "06",
-      "grupos": [
-        {
-          "grupo": "Q601",
-          "profesor": "SOTO RANGEL LAURA ALICIA",
-          "horarios": [
-            {
               "dia": "LU",
               "dia_nombre": "Lunes",
               "inicio": "08:00",
@@ -1171,433 +1083,37 @@
           "salon": "A-8103"
         },
         {
-          "grupo": "Q651",
-          "profesor": "GARCIA MANCILLA CARLOS DAVID",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-8103"
-        }
-      ]
-    },
-    "1673": {
-      "nombre": "MONOGRAFICO VI (HEGEL)",
-      "semestre": "06",
-      "grupos": [
-        {
-          "grupo": "Q601",
-          "profesor": "ROCHON HERRERA PAOLA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-8103"
-        },
-        {
-          "grupo": "Q651",
-          "profesor": "VELASCO GUZMAN LUIS ANTONIO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-8103"
-        }
-      ]
-    },
-    "1674": {
-      "nombre": "ONTOLOGIA II",
-      "semestre": "06",
-      "grupos": [
-        {
-          "grupo": "Q601",
-          "profesor": "NUÑEZ HERNANDEZ NANCY ABIGAIL",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-8103"
-        },
-        {
-          "grupo": "Q651",
-          "profesor": "SOTO RANGEL LAURA ALICIA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-8103"
-        }
-      ]
-    },
-    "1680": {
-      "nombre": "FILOSOFIA DE LA CIENCIA I",
-      "semestre": "06",
-      "grupos": [
-        {
-          "grupo": "2601",
-          "profesor": "ALCALA CAMPOS RAUL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8103"
-        },
-        {
-          "grupo": "2651",
-          "profesor": "RIVERA JUVENAL PABLO ADRIAN",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "A-8103"
-        }
-      ]
-    },
-    "1681": {
-      "nombre": "FILOSOFIA DEL LENGUAJE",
-      "semestre": "06",
-      "grupos": [
-        {
-          "grupo": "2601",
-          "profesor": "DE ICAZA VILLALPANDO ERNESTO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8103"
-        },
-        {
-          "grupo": "2651",
-          "profesor": "NUÑEZ HERNANDEZ NANCY ABIGAIL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "A-8103"
-        }
-      ]
-    },
-    "1682": {
-      "nombre": "FILOSOFIA MODERNA II",
-      "semestre": "06",
-      "grupos": [
-        {
-          "grupo": "2601",
-          "profesor": "SOTO RANGEL LAURA ALICIA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-8103"
-        },
-        {
-          "grupo": "2651",
-          "profesor": "GARCIA MANCILLA CARLOS DAVID",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-8103"
-        }
-      ]
-    },
-    "1683": {
-      "nombre": "ONTOLOGIA II",
-      "semestre": "06",
-      "grupos": [
-        {
-          "grupo": "2601",
-          "profesor": "NUÑEZ HERNANDEZ NANCY ABIGAIL",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-8103"
-        },
-        {
-          "grupo": "2651",
-          "profesor": "SOTO RANGEL LAURA ALICIA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-8103"
-        }
-      ]
-    },
-    "1684": {
-      "nombre": "TEXTOS FILOSOFICOS VI",
-      "semestre": "06",
-      "grupos": [
-        {
-          "grupo": "2601",
-          "profesor": "ROCHON HERRERA PAOLA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-8103"
-        },
-        {
-          "grupo": "2651",
-          "profesor": "VELASCO GUZMAN LUIS ANTONIO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-8103"
-        }
-      ]
-    },
-    "1870": {
-      "nombre": "FILOSOFIA CONTEMPORANEA II",
-      "semestre": "08",
-      "grupos": [
-        {
-          "grupo": "2801",
-          "profesor": "GONZALEZ RUBIO CANSECO ERNESTO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-8104"
-        },
-        {
-          "grupo": "2851",
+          "grupo": "Q551",
           "profesor": "MAYA CASTRO MONICA MARCELA",
           "horarios": [
             {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
+              "dia": "MA",
+              "dia_nombre": "Martes",
               "inicio": "18:00",
               "fin": "20:00"
             },
             {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
+              "dia": "JU",
+              "dia_nombre": "Jueves",
               "inicio": "18:00",
               "fin": "20:00"
             }
           ],
-          "salon": "A-8104"
+          "salon": "A-8103"
         }
       ]
     },
-    "1871": {
-      "nombre": "MONOGRAFICO VIII (HEIDEGGER)",
-      "semestre": "08",
+    "1571": {
+      "nombre": "FILOSOFIA EN MEXICO II",
+      "semestre": "05",
       "grupos": [
         {
-          "grupo": "2801",
+          "grupo": "Q501",
           "profesor": "BARRON TOVAR JOSE FRANCISCO",
           "horarios": [
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-8104"
-        },
-        {
-          "grupo": "2851",
-          "profesor": "LOZA BALTAZAR ALONZO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "A-8104"
-        }
-      ]
-    },
-    "1872": {
-      "nombre": "TEMAS SELECTOS II EPIST. Y FIL.",
-      "semestre": "08",
-      "grupos": [
-        {
-          "grupo": "2801",
-          "profesor": "GARCIA SALAS ANTONIO VICTOR",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
               "inicio": "12:00",
               "fin": "14:00"
             },
@@ -1608,30 +1124,11 @@
               "fin": "14:00"
             }
           ],
-          "salon": "A-8104"
+          "salon": "A-8103"
         },
         {
-          "grupo": "2802",
-          "profesor": "AGUILAR MARTINEZ MONICA LIVIER",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8102"
-        },
-        {
-          "grupo": "2851",
-          "profesor": "LARIOS PADILLA CLAUDIA",
+          "grupo": "Q551",
+          "profesor": "COSME NAVA ELOINA",
           "horarios": [
             {
               "dia": "LU",
@@ -1646,54 +1143,79 @@
               "fin": "16:00"
             }
           ],
-          "salon": "A-8104"
+          "salon": "A-8103"
         }
       ]
     },
-    "1873": {
-      "nombre": "TEMAS SELECTOS III FIL. DEL HOMB",
-      "semestre": "08",
+    "1572": {
+      "nombre": "FILOSOFIA MODERNA II",
+      "semestre": "05",
       "grupos": [
         {
-          "grupo": "2801",
-          "profesor": "PIÑA ZAMORA RAUL",
+          "grupo": "Q501",
+          "profesor": "ROCHON HERRERA PAOLA",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "10:00",
-              "fin": "12:00"
+              "inicio": "12:00",
+              "fin": "14:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "10:00",
-              "fin": "12:00"
+              "inicio": "12:00",
+              "fin": "14:00"
             }
           ],
-          "salon": "A-8102"
+          "salon": "A-8103"
         },
         {
-          "grupo": "2802",
-          "profesor": "LARIOS PADILLA CLAUDIA",
+          "grupo": "Q551",
+          "profesor": "SANCHEZ PACHECO DAVID RUSLAM",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-8103"
+        }
+      ]
+    },
+    "1573": {
+      "nombre": "MONOGRAFICO V (KANT)",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "Q501",
+          "profesor": "VAZQUEZ BAUTISTA VALENTE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
               "inicio": "10:00",
               "fin": "12:00"
             },
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "10:00",
               "fin": "12:00"
             }
           ],
-          "salon": "A-8104"
+          "salon": "A-8103"
         },
         {
-          "grupo": "2851",
+          "grupo": "Q551",
           "profesor": "ROCHON HERRERA PAOLA",
           "horarios": [
             {
@@ -1709,17 +1231,237 @@
               "fin": "18:00"
             }
           ],
-          "salon": "A-8104"
+          "salon": "A-8103"
         }
       ]
     },
-    "1874": {
-      "nombre": "TEMAS SELECTOS IV FIL. EN MEXICO",
-      "semestre": "08",
+    "1574": {
+      "nombre": "TEORIAS DE LA VERDAD",
+      "semestre": "05",
       "grupos": [
         {
-          "grupo": "2801",
+          "grupo": "Q501",
+          "profesor": "AGUILAR MARTINEZ MONICA LIVIER",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8103"
+        },
+        {
+          "grupo": "Q551",
+          "profesor": "GONZALEZ RUBIO CANSECO ERNESTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8103"
+        }
+      ]
+    },
+    "1580": {
+      "nombre": "FILOSOFIA DE LA HISTORIA",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "ALVARADO ARANDA SARA LUZ",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8103"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "MAYA CASTRO MONICA MARCELA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-8103"
+        }
+      ]
+    },
+    "1581": {
+      "nombre": "FILOSOFIA EN MEXICO II",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "BARRON TOVAR JOSE FRANCISCO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8103"
+        },
+        {
+          "grupo": "1551",
           "profesor": "COSME NAVA ELOINA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8103"
+        }
+      ]
+    },
+    "1582": {
+      "nombre": "FILOSOFIA MODERNA I",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "ROCHON HERRERA PAOLA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8103"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "SANCHEZ PACHECO DAVID RUSLAM",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-8103"
+        }
+      ]
+    },
+    "1583": {
+      "nombre": "TEORIAS DE LA VERDAD",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "AGUILAR MARTINEZ MONICA LIVIER",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8103"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "GONZALEZ RUBIO CANSECO ERNESTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8103"
+        }
+      ]
+    },
+    "1584": {
+      "nombre": "TEXTOS FILOSOFICOS V",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "VAZQUEZ BAUTISTA VALENTE",
           "horarios": [
             {
               "dia": "LU",
@@ -1734,10 +1476,587 @@
               "fin": "12:00"
             }
           ],
-          "salon": "A-8102"
+          "salon": "A-8103"
         },
         {
-          "grupo": "2802",
+          "grupo": "1551",
+          "profesor": "ROCHON HERRERA PAOLA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8103"
+        }
+      ]
+    },
+    "1770": {
+      "nombre": "FILOSOFIA CONTEMPORANEA I",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "Q701",
+          "profesor": "NUÑEZ HERNANDEZ NANCY ABIGAIL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8104"
+        },
+        {
+          "grupo": "Q751",
+          "profesor": "DIAZ SOMERA MIRIAM",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8104"
+        }
+      ]
+    },
+    "1771": {
+      "nombre": "FILOSOFIA DE LA CIENCIA II",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "Q701",
+          "profesor": "ALCALA CAMPOS RAUL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8104"
+        },
+        {
+          "grupo": "Q751",
+          "profesor": "BERISTAIN BERISTAIN CECILIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-8104"
+        }
+      ]
+    },
+    "1772": {
+      "nombre": "HERMENEUTICA",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "Q701",
+          "profesor": "DE ICAZA VILLALPANDO ERNESTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8104"
+        },
+        {
+          "grupo": "Q751",
+          "profesor": "RIVERA JUVENAL PABLO ADRIAN",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8104"
+        }
+      ]
+    },
+    "1773": {
+      "nombre": "MONOGRAFICO VII (NIETZSCHE)",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "Q701",
+          "profesor": "SANCHEZ PACHECO DAVID RUSLAM",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8104"
+        },
+        {
+          "grupo": "Q751",
+          "profesor": "GARCIA MANCILLA CARLOS DAVID",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8104"
+        }
+      ]
+    },
+    "1780": {
+      "nombre": "FILOSOFIA CONTEMPORANEA I",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "NUÑEZ HERNANDEZ NANCY ABIGAIL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8104"
+        },
+        {
+          "grupo": "1751",
+          "profesor": "DIAZ SOMERA MIRIAM",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8104"
+        }
+      ]
+    },
+    "1781": {
+      "nombre": "FILOSOFIA DE LA CIENCIA II",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "ALCALA CAMPOS RAUL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8104"
+        },
+        {
+          "grupo": "1751",
+          "profesor": "BERISTAIN BERISTAIN CECILIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-8104"
+        }
+      ]
+    },
+    "1782": {
+      "nombre": "HERMENEUTICA",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "DE ICAZA VILLALPANDO ERNESTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8104"
+        },
+        {
+          "grupo": "1751",
+          "profesor": "RIVERA JUVENAL PABLO ADRIAN",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8104"
+        }
+      ]
+    },
+    "1783": {
+      "nombre": "TEXTOS FILOSOFICOS VII",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "SANCHEZ PACHECO DAVID RUSLAM",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8104"
+        },
+        {
+          "grupo": "1751",
+          "profesor": "GARCIA MANCILLA CARLOS DAVID",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8104"
+        }
+      ]
+    },
+    "1900": {
+      "nombre": "SEM.INVESTIGACION I (TEOR.FILOSO",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "SOTO RANGEL LAURA ALICIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8103"
+        }
+      ]
+    },
+    "1901": {
+      "nombre": "SEM.INVESTIGACION I (FILOS.CULTU",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "GARCIA MANCILLA CARLOS DAVID",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8102"
+        }
+      ]
+    },
+    "1902": {
+      "nombre": "SEM.INVESTIGACION I (FILOS.POLIT",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "MARINO LOPEZ ANTONIO LUIS",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "INF.EN JEFA"
+        }
+      ]
+    },
+    "1903": {
+      "nombre": "SEM.INVESTIGACION I (FILOS.CIENC",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1551",
+          "profesor": "BERISTAIN BERISTAIN CECILIA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8103"
+        }
+      ]
+    },
+    "1908": {
+      "nombre": "SEM.INVESTIGACION III (TEOR.FILO",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "MARINO LOPEZ ANTONIO LUIS",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "INF.EN JEFA"
+        }
+      ]
+    },
+    "1909": {
+      "nombre": "SEM.INVESTIGACION III (FILOS.CUL",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1751",
+          "profesor": "CALLEJAS BUASI GUILLERMO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8104"
+        }
+      ]
+    },
+    "1910": {
+      "nombre": "SEM.INVESTIGACION III (FILOS.POL",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1751",
+          "profesor": "VALERO CANO JOSE GERARDO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8102"
+        }
+      ]
+    },
+    "1911": {
+      "nombre": "SEM.INVESTIGACION III (FILOS.CIE",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1751",
+          "profesor": "BERISTAIN BERISTAIN CECILIA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8102"
+        }
+      ]
+    },
+    "0136": {
+      "nombre": "VISIBIL.FILOSOFAS HISTORIA FILOS",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
           "profesor": "DIAZ SOMERA MIRIAM",
           "horarios": [
             {
@@ -1754,181 +2073,68 @@
             }
           ],
           "salon": "A-8104"
-        },
+        }
+      ]
+    },
+    "0135": {
+      "nombre": "ESTUDIOS FILOSOFICOS DE GENERO",
+      "semestre": "07",
+      "grupos": [
         {
-          "grupo": "2851",
-          "profesor": "BERISTAIN BERISTAIN CECILIA",
+          "grupo": "1751",
+          "profesor": "CRUZ SANCHEZ PAOLA MARIA DEL CONSUELO",
           "horarios": [
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "inicio": "18:00",
+              "fin": "20:00"
             },
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "inicio": "18:00",
+              "fin": "20:00"
             }
           ],
           "salon": "A-8104"
         }
       ]
     },
-    "1904": {
-      "nombre": "SEM.INVESTIGACION II (TEOR.FILOS",
-      "semestre": "06",
+    "0137": {
+      "nombre": "ETICA Y GENERO",
+      "semestre": "07",
       "grupos": [
         {
-          "grupo": "2601",
-          "profesor": "MARINO LOPEZ ANTONIO LUIS",
+          "grupo": "1752",
+          "profesor": "ROCHON HERRERA PAOLA",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        }
-      ]
-    },
-    "1905": {
-      "nombre": "SEM.INVESTIGACION II (FILOS.CULT",
-      "semestre": "06",
-      "grupos": [
-        {
-          "grupo": "2601",
-          "profesor": "CALLEJAS BUASI GUILLERMO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        }
-      ]
-    },
-    "1906": {
-      "nombre": "SEM.INVESTIGACION II (FILOS.POLI",
-      "semestre": "06",
-      "grupos": [
-        {
-          "grupo": "2601",
-          "profesor": "VALERO CANO JOSE GERARDO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-8103"
-        }
-      ]
-    },
-    "1907": {
-      "nombre": "SEM.INVESTIGACION II (FILOS.CIEN",
-      "semestre": "06",
-      "grupos": [
-        {
-          "grupo": "2651",
-          "profesor": "BERISTAIN BERISTAIN CECILIA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
               "inicio": "14:00",
               "fin": "16:00"
             },
             {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-8103"
-        }
-      ]
-    },
-    "0096": {
-      "nombre": "SEM.INVEST. IV FILOSOF. DE LA CI",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2801",
-          "profesor": "NUÑEZ HERNANDEZ NANCY ABIGAIL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "12:00",
-              "fin": "14:00"
+              "inicio": "14:00",
+              "fin": "16:00"
             }
           ],
           "salon": "A-8102"
         }
       ]
     },
-    "0097": {
-      "nombre": "SEM.INVEST. IV FILOSOFIA DE CULT",
+    "0085": {
+      "nombre": "SEM.INVEST. I FILOSOFIA DE CULTU",
       "semestre": "40",
       "grupos": [
         {
-          "grupo": "2801",
+          "grupo": "Q501",
           "profesor": "GARCIA MANCILLA CARLOS DAVID",
           "horarios": [
             {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "10:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        }
-      ]
-    },
-    "0099": {
-      "nombre": "SEM.INVEST. IV TEORIAS FILOSOFIC",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2801",
-          "profesor": "MARINO LOPEZ ANTONIO LUIS",
-          "horarios": [
-            {
               "dia": "MA",
               "dia_nombre": "Martes",
               "inicio": "12:00",
@@ -1939,44 +2145,19 @@
               "dia_nombre": "Jueves",
               "inicio": "12:00",
               "fin": "14:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        }
-      ]
-    },
-    "0098": {
-      "nombre": "SEM.INVEST. IV FILOSOFIA POLITIC",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2851",
-          "profesor": "LOZA BALTAZAR ALONZO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
             }
           ],
           "salon": "A-8102"
         }
       ]
     },
-    "0089": {
-      "nombre": "SEM.INVEST. II FILOSOFIA DE CULT",
+    "0086": {
+      "nombre": "SEM.INVEST. I FILOSOFIA POLITICA",
       "semestre": "40",
       "grupos": [
         {
-          "grupo": "Q601",
-          "profesor": "CALLEJAS BUASI GUILLERMO",
+          "grupo": "Q501",
+          "profesor": "MARINO LOPEZ ANTONIO LUIS",
           "horarios": [
             {
               "dia": "MA",
@@ -1995,13 +2176,13 @@
         }
       ]
     },
-    "0090": {
-      "nombre": "SEM.INVEST. II FILOSOFIA POLITIC",
+    "0087": {
+      "nombre": "SEM.INVEST. I TEORIAS FILOSOFICA",
       "semestre": "40",
       "grupos": [
         {
-          "grupo": "Q601",
-          "profesor": "VALERO CANO JOSE GERARDO",
+          "grupo": "Q501",
+          "profesor": "SOTO RANGEL LAURA ALICIA",
           "horarios": [
             {
               "dia": "MA",
@@ -2020,37 +2201,62 @@
         }
       ]
     },
-    "0091": {
-      "nombre": "SEM.INVEST. II TEORIAS FILOSOFIC",
+    "0084": {
+      "nombre": "SEM.INVEST. I FILOSOF.DE LA CIEN",
       "semestre": "40",
       "grupos": [
         {
-          "grupo": "Q601",
+          "grupo": "Q551",
+          "profesor": "BERISTAIN BERISTAIN CECILIA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8103"
+        }
+      ]
+    },
+    "0095": {
+      "nombre": "SEM.INVEST. III TEORIAS FILOSOFI",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "Q701",
           "profesor": "MARINO LOPEZ ANTONIO LUIS",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
+              "inicio": "12:00",
+              "fin": "14:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "08:00",
-              "fin": "10:00"
+              "inicio": "12:00",
+              "fin": "14:00"
             }
           ],
           "salon": "INF.EN JEFA"
         }
       ]
     },
-    "0088": {
-      "nombre": "SEM.INVEST. II FILOSOF. DE LA CI",
+    "0092": {
+      "nombre": "SEM.INVEST. III FILOSOF. DE LA C",
       "semestre": "40",
       "grupos": [
         {
-          "grupo": "Q651",
+          "grupo": "Q751",
           "profesor": "BERISTAIN BERISTAIN CECILIA",
           "horarios": [
             {
@@ -2066,7 +2272,57 @@
               "fin": "16:00"
             }
           ],
-          "salon": "A-8103"
+          "salon": "A-8102"
+        }
+      ]
+    },
+    "0093": {
+      "nombre": "SEM.INVEST. III FILOSOFIA DE CUL",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "Q751",
+          "profesor": "CALLEJAS BUASI GUILLERMO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8104"
+        }
+      ]
+    },
+    "0094": {
+      "nombre": "SEM.INVEST. III FILOSOFIA POLITI",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "Q751",
+          "profesor": "VALERO CANO JOSE GERARDO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8102"
         }
       ]
     }

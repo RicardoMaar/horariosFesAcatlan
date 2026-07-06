@@ -1,15 +1,15 @@
 {
   "codigo": "21021",
   "nombre": "Historia",
-  "fecha_consulta": "2026-02-07T19:45:25.322Z",
+  "fecha_consulta": "2026-07-06T21:53:11.055Z",
   "materias": {
-    "1164": {
-      "nombre": "METODS Y TECNICAS DE LA INVEST H",
+    "1161": {
+      "nombre": "GRECIA",
       "semestre": "01",
       "grupos": [
         {
-          "grupo": "Q201",
-          "profesor": "MONTOYA RIVERO PATRICIA MARIA",
+          "grupo": "Q301",
+          "profesor": "REYES RUIZ MARIA DEL CARMEN EUGENIA",
           "horarios": [
             {
               "dia": "MA",
@@ -24,276 +24,389 @@
               "fin": "14:00"
             }
           ],
-          "salon": "A-1002"
+          "salon": "A-724"
         },
         {
-          "grupo": "Q202",
-          "profesor": "ALBATCH PEREZ CARLOS DANIEL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-8207"
-        },
-        {
-          "grupo": "Q211",
-          "profesor": "FELIX MATAMOROS ROSA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8206"
-        },
-        {
-          "grupo": "Q212",
-          "profesor": "LUNA GARCIA SANDRA NANCY",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-1129"
-        },
-        {
-          "grupo": "Q251",
-          "profesor": "HIDALGO PEGO MONICA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-8206"
-        },
-        {
-          "grupo": "Q261",
-          "profesor": "GARCIA CAPISTRAN HUGO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-1129"
-        }
-      ]
-    },
-    "1263": {
-      "nombre": "HISTORIOGRAFIA GENERAL I",
-      "semestre": "02",
-      "grupos": [
-        {
-          "grupo": "Q201",
+          "grupo": "Q302",
           "profesor": "VEGA RODRIGUEZ HECTOR ALONSO",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "10:00",
-              "fin": "12:00"
+              "inicio": "12:00",
+              "fin": "14:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-8206"
-        },
-        {
-          "grupo": "Q202",
-          "profesor": "PEREZ MORALES ENRIQUE",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-8207"
-        },
-        {
-          "grupo": "Q251",
-          "profesor": "VEGA RODRIGUEZ HECTOR ALONSO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "A-8206"
-        }
-      ]
-    },
-    "1264": {
-      "nombre": "MESOAMERICA II",
-      "semestre": "02",
-      "grupos": [
-        {
-          "grupo": "Q201",
-          "profesor": "ALBATCH PEREZ CARLOS DANIEL",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-8206"
-        },
-        {
-          "grupo": "Q202",
-          "profesor": "GARCIA CAPISTRAN HUGO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-8207"
-        },
-        {
-          "grupo": "Q251",
-          "profesor": "SOTO ABREGO MIGUEL ANGEL",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "A-8206"
-        }
-      ]
-    },
-    "1362": {
-      "nombre": "EUROPA SIGLOS V XV",
-      "semestre": "03",
-      "grupos": [
-        {
-          "grupo": "Q401",
-          "profesor": "TIRADO DE SALAZAR RODRIGO OCTAVIO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        },
-        {
-          "grupo": "Q402",
-          "profesor": "PEZZAT SANCHEZ PAULINA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "08:00",
-              "fin": "10:00"
+              "inicio": "12:00",
+              "fin": "14:00"
             }
           ],
           "salon": "A-726"
         },
         {
-          "grupo": "Q451",
+          "grupo": "Q351",
+          "profesor": "SOSA HERNANDEZ GUILLERMO ALFONSO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-724"
+        }
+      ]
+    },
+    "1163": {
+      "nombre": "MESOAMERICA I",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "Q101",
+          "profesor": "ALBATCH PEREZ CARLOS DANIEL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8206"
+        },
+        {
+          "grupo": "Q102",
+          "profesor": "CURIEL ROSAS IRMA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8209"
+        },
+        {
+          "grupo": "Q151",
+          "profesor": "CURIEL ROSAS IRMA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8206"
+        }
+      ]
+    },
+    "1165": {
+      "nombre": "PREHISTORIA Y CERCANO ORIENTE",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "Q101",
+          "profesor": "DIAZ MIRANDA LORENZA ELENA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "Aula Magna"
+        },
+        {
+          "grupo": "Q102",
+          "profesor": "LAZARE BENAVIDES ROBERTO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8207"
+        },
+        {
+          "grupo": "Q151",
+          "profesor": "TIRADO DE SALAZAR RODRIGO OCTAVIO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-8206"
+        }
+      ]
+    },
+    "1261": {
+      "nombre": "ESPAÑA",
+      "semestre": "02",
+      "grupos": [
+        {
+          "grupo": "Q101",
+          "profesor": "LUNA GARCIA SANDRA NANCY",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8206"
+        },
+        {
+          "grupo": "Q102",
+          "profesor": "DIAZ MIRANDA LORENZA ELENA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "Aula Magna"
+        },
+        {
+          "grupo": "Q151",
+          "profesor": "LAZARE BENAVIDES ROBERTO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8206"
+        }
+      ]
+    },
+    "1262": {
+      "nombre": "FOLOSOFIA DE LA HISTORIA",
+      "semestre": "02",
+      "grupos": [
+        {
+          "grupo": "Q101",
+          "profesor": "SANCHEZ ACOSTA NORMA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8206"
+        },
+        {
+          "grupo": "Q102",
+          "profesor": "PEREZ MORALES ENRIQUE",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8207"
+        },
+        {
+          "grupo": "Q151",
+          "profesor": "CRESPO REYES SOFIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8206"
+        }
+      ]
+    },
+    "1266": {
+      "nombre": "ROMA",
+      "semestre": "02",
+      "grupos": [
+        {
+          "grupo": "Q301",
+          "profesor": "REYES RUIZ MARIA DEL CARMEN EUGENIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-724"
+        },
+        {
+          "grupo": "Q302",
           "profesor": "VEGA RODRIGUEZ HECTOR ALONSO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-726"
+        },
+        {
+          "grupo": "Q351",
+          "profesor": "SOSA HERNANDEZ GUILLERMO ALFONSO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-724"
+        }
+      ]
+    },
+    "1361": {
+      "nombre": "DESCUBRIMIENTO Y CONQUISTA D AME",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "Q301",
+          "profesor": "LOPEZ POZOS SUSANA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-724"
+        },
+        {
+          "grupo": "Q351",
+          "profesor": "SANCHEZ MUÑOZ DAVID ALEJANDRO",
           "horarios": [
             {
               "dia": "MA",
@@ -312,62 +425,12 @@
         }
       ]
     },
-    "1461": {
-      "nombre": "DIDACTICA DE LA HISTORIA",
-      "semestre": "04",
+    "1363": {
+      "nombre": "HISTORIA DEL ARTE I",
+      "semestre": "03",
       "grupos": [
         {
-          "grupo": "2451",
-          "profesor": "SOTO ABREGO MIGUEL ANGEL",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-726"
-        }
-      ]
-    },
-    "1462": {
-      "nombre": "EUROPA SIGLOS XVI XVIII",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "2451",
-          "profesor": "ABASCAL SHERWELL RAULL PABLO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-8207"
-        }
-      ]
-    },
-    "1463": {
-      "nombre": "HISTORIA DEL ARTE II",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "Q201",
+          "grupo": "Q101",
           "profesor": "MUÑOZ TREJO MELISSA",
           "horarios": [
             {
@@ -386,8 +449,8 @@
           "salon": "A-8206"
         },
         {
-          "grupo": "Q202",
-          "profesor": "CAMPOS MARES ABIGAIL",
+          "grupo": "Q102",
+          "profesor": "FLORES MORENO MARCO ANTONIO",
           "horarios": [
             {
               "dia": "LU",
@@ -405,7 +468,7 @@
           "salon": "A-8207"
         },
         {
-          "grupo": "Q251",
+          "grupo": "Q151",
           "profesor": "PAULET QUEVEDO ISARY",
           "horarios": [
             {
@@ -425,12 +488,12 @@
         }
       ]
     },
-    "1464": {
-      "nombre": "HISTORIOGRAFIA GENERAL III",
-      "semestre": "04",
+    "1364": {
+      "nombre": "HISTORIOGRAFIA GENERAL II",
+      "semestre": "03",
       "grupos": [
         {
-          "grupo": "Q401",
+          "grupo": "Q301",
           "profesor": "CRESPO REYES SOFIA",
           "horarios": [
             {
@@ -446,78 +509,122 @@
               "fin": "14:00"
             }
           ],
-          "salon": "A-726"
+          "salon": "A-724"
         },
         {
-          "grupo": "Q402",
+          "grupo": "Q302",
           "profesor": "LOPEZ MORA REBECA",
           "horarios": [
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "10:00",
-              "fin": "12:00"
+              "inicio": "12:00",
+              "fin": "14:00"
             },
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-724"
-        },
-        {
-          "grupo": "Q451",
-          "profesor": "PUGA HERNANDEZ ALICIA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-8209"
-        }
-      ]
-    },
-    "1465": {
-      "nombre": "NUEVA ESPAÑA SIGLO XVIII",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "Q401",
-          "profesor": "LUNA GARCIA SANDRA NANCY",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "10:00",
-              "fin": "12:00"
+              "inicio": "12:00",
+              "fin": "14:00"
             }
           ],
           "salon": "A-726"
         },
         {
-          "grupo": "Q402",
+          "grupo": "Q351",
+          "profesor": "VEGA RODRIGUEZ HECTOR ALONSO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-724"
+        }
+      ]
+    },
+    "1365": {
+      "nombre": "NUEVA ESPAÑA SIGLOS XVI XVII",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "Q301",
+          "profesor": "LOPEZ POZOS SUSANA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-724"
+        },
+        {
+          "grupo": "Q302",
           "profesor": "CERON RUIZ MIGUEL ANGEL",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-726"
+        },
+        {
+          "grupo": "Q351",
+          "profesor": "SANCHEZ MUÑOZ DAVID ALEJANDRO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-724"
+        }
+      ]
+    },
+    "1366": {
+      "nombre": "TEORIA DE LA HISTORIA",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "Q301",
+          "profesor": "PEREZ MORALES ENRIQUE",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
               "inicio": "10:00",
               "fin": "12:00"
             },
@@ -531,95 +638,196 @@
           "salon": "A-724"
         },
         {
-          "grupo": "Q451",
-          "profesor": "SANCHEZ MUÑOZ DAVID ALEJANDRO",
+          "grupo": "Q302",
+          "profesor": "CRESPO REYES SOFIA",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
+              "inicio": "10:00",
+              "fin": "12:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
+              "inicio": "10:00",
+              "fin": "12:00"
             }
           ],
           "salon": "A-726"
-        }
-      ]
-    },
-    "1563": {
-      "nombre": "ESTADOS UNIDOS DE NORTEAMERICA",
-      "semestre": "05",
-      "grupos": [
-        {
-          "grupo": "Q201",
-          "profesor": "CERVANTES LOPEZ JULIO CESAR",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-8206"
         },
         {
-          "grupo": "Q202",
-          "profesor": "GOVANTES MORALES RICARDO",
+          "grupo": "Q351",
+          "profesor": "PEREZ MORALES ENRIQUE",
           "horarios": [
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "10:00",
-              "fin": "12:00"
+              "inicio": "18:00",
+              "fin": "20:00"
             },
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",
-              "inicio": "10:00",
-              "fin": "12:00"
+              "inicio": "18:00",
+              "fin": "20:00"
             }
           ],
           "salon": "A-8207"
+        }
+      ]
+    },
+    "1461": {
+      "nombre": "DIDACTICA DE LA HISTORIA",
+      "semestre": "04",
+      "grupos": [
+        {
+          "grupo": "Q501",
+          "profesor": "VALDERRABANO ONOFRE HUGO SAMUEL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8106"
         },
         {
-          "grupo": "Q251",
-          "profesor": "FELIX MATAMOROS ROSA",
+          "grupo": "Q502",
+          "profesor": "MANDUJANO LOPEZ FABIAN",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-1129"
+        },
+        {
+          "grupo": "Q551",
+          "profesor": "MANDUJANO LOPEZ FABIAN",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-1129"
+        }
+      ]
+    },
+    "1462": {
+      "nombre": "EUROPA SIGLOS XVI XVIII",
+      "semestre": "04",
+      "grupos": [
+        {
+          "grupo": "Q501",
+          "profesor": "PEZZAT SANCHEZ PAULINA",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
+              "inicio": "12:00",
+              "fin": "14:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8106"
+        },
+        {
+          "grupo": "Q502",
+          "profesor": "CORTES HERNANDEZ VALERIA SOLEDAD",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-1129"
+        },
+        {
+          "grupo": "Q551",
+          "profesor": "CORTES HERNANDEZ VALERIA SOLEDAD",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "14:00",
               "fin": "16:00"
             }
           ],
-          "salon": "A-8206"
+          "salon": "A-8106"
         }
       ]
     },
-    "1661": {
-      "nombre": "AMERICA LATINA SIGLO XX",
-      "semestre": "06",
+    "1561": {
+      "nombre": "AMERICA LATINA SIGLO XIX",
+      "semestre": "05",
       "grupos": [
         {
-          "grupo": "2601",
+          "grupo": "1502",
+          "profesor": "PEZZAT SANCHEZ PAULINA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8209"
+        },
+        {
+          "grupo": "Q301",
           "profesor": "PEZZAT SANCHEZ PAULINA",
           "horarios": [
             {
@@ -635,10 +843,10 @@
               "fin": "10:00"
             }
           ],
-          "salon": "A-726"
+          "salon": "A-724"
         },
         {
-          "grupo": "2602",
+          "grupo": "Q302",
           "profesor": "CERVANTES LOPEZ JULIO CESAR",
           "horarios": [
             {
@@ -654,136 +862,98 @@
               "fin": "10:00"
             }
           ],
-          "salon": "A-1002"
+          "salon": "A-726"
         },
         {
-          "grupo": "2651",
+          "grupo": "Q351",
           "profesor": "URBINA MARTINEZ GILBERTO",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "inicio": "14:00",
+              "fin": "16:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "inicio": "14:00",
+              "fin": "16:00"
             }
           ],
-          "salon": "A-8207"
+          "salon": "A-724"
         }
       ]
     },
-    "1662": {
-      "nombre": "HISTORIA MUNDIAL SIGLO XX I",
-      "semestre": "06",
+    "1562": {
+      "nombre": "EUROPA SIGLO XIX",
+      "semestre": "03",
       "grupos": [
         {
-          "grupo": "2601",
+          "grupo": "1351",
           "profesor": "GOVANTES MORALES RICARDO",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        },
-        {
-          "grupo": "2602",
-          "profesor": "TIRADO DE SALAZAR RODRIGO OCTAVIO",
-          "horarios": [
-            {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "10:00",
-              "fin": "12:00"
+              "inicio": "18:00",
+              "fin": "20:00"
             },
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",
-              "inicio": "10:00",
-              "fin": "12:00"
+              "inicio": "18:00",
+              "fin": "20:00"
             }
           ],
-          "salon": "A-8209"
-        },
-        {
-          "grupo": "2651",
-          "profesor": "CONTRERAS ROMERO VALENTE ALBERTO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-8207"
+          "salon": "A-724"
         }
       ]
     },
-    "1663": {
-      "nombre": "HISTORIOGRAFIA DE MEXICO II",
-      "semestre": "06",
+    "1564": {
+      "nombre": "HITORIOGRAFIA DE MEXICO I",
+      "semestre": "05",
       "grupos": [
         {
-          "grupo": "2601",
-          "profesor": "MONTOYA RIVERO PATRICIA MARIA",
+          "grupo": "Q501",
+          "profesor": "ALBATCH PEREZ CARLOS DANIEL",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "10:00",
-              "fin": "12:00"
+              "inicio": "08:00",
+              "fin": "10:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "10:00",
-              "fin": "12:00"
+              "inicio": "08:00",
+              "fin": "10:00"
             }
           ],
-          "salon": "A-1002"
+          "salon": "A-8107"
         },
         {
-          "grupo": "2602",
-          "profesor": "CAZAREZ MATA JOSE TRINIDAD",
+          "grupo": "Q502",
+          "profesor": "LUNA GARCIA SANDRA NANCY",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "10:00",
-              "fin": "12:00"
+              "inicio": "08:00",
+              "fin": "10:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "10:00",
-              "fin": "12:00"
+              "inicio": "08:00",
+              "fin": "10:00"
             }
           ],
-          "salon": "INF.EN JEFA"
+          "salon": "A-8206"
         },
         {
-          "grupo": "2651",
+          "grupo": "Q551",
           "profesor": "CAZAREZ MATA JOSE TRINIDAD",
           "horarios": [
             {
@@ -803,12 +973,12 @@
         }
       ]
     },
-    "1664": {
-      "nombre": "MEXICO SIGLO XIX II",
-      "semestre": "06",
+    "1565": {
+      "nombre": "MEXICO SIGLO XIX I",
+      "semestre": "05",
       "grupos": [
         {
-          "grupo": "2601",
+          "grupo": "Q501",
           "profesor": "UGALDE ANDRADE IMELDA PAOLA",
           "horarios": [
             {
@@ -827,18 +997,144 @@
           "salon": "A-8106"
         },
         {
-          "grupo": "2602",
+          "grupo": "Q502",
           "profesor": "FELIX MATAMOROS ROSA",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
+              "inicio": "10:00",
+              "fin": "12:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8207"
+        },
+        {
+          "grupo": "Q551",
+          "profesor": "TORRES MEDINA JAVIER",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8106"
+        }
+      ]
+    },
+    "1661": {
+      "nombre": "AMERICA LATINA SIGLO XX",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "Q301",
+          "profesor": "PEZZAT SANCHEZ PAULINA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-724"
+        },
+        {
+          "grupo": "Q302",
+          "profesor": "CERVANTES LOPEZ JULIO CESAR",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-726"
+        },
+        {
+          "grupo": "Q351",
+          "profesor": "URBINA MARTINEZ GILBERTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-724"
+        }
+      ]
+    },
+    "1761": {
+      "nombre": "HISTORIA MUNDIAL SIGLO XX II",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "TIRADO DE SALAZAR RODRIGO OCTAVIO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8208"
+        },
+        {
+          "grupo": "1702",
+          "profesor": "GOVANTES MORALES RICARDO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "08:00",
               "fin": "10:00"
             }
@@ -846,52 +1142,115 @@
           "salon": "A-1002"
         },
         {
-          "grupo": "2651",
-          "profesor": "TORRES MEDINA JAVIER",
+          "grupo": "1751",
+          "profesor": "CONTRERAS ROMERO VALENTE ALBERTO",
           "horarios": [
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
+              "inicio": "16:00",
+              "fin": "18:00"
             },
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-8106"
-        }
-      ]
-    },
-    "1861": {
-      "nombre": "MEXICO SIGLO XX II",
-      "semestre": "08",
-      "grupos": [
-        {
-          "grupo": "2801",
-          "profesor": "BONILLA DE LEON LAURA EDITH",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "10:00",
-              "fin": "12:00"
+              "inicio": "16:00",
+              "fin": "18:00"
             }
           ],
           "salon": "A-726"
+        }
+      ]
+    },
+    "1762": {
+      "nombre": "HISTORIOGRAFIA DE MEXICO III",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "PUGA HERNANDEZ ALICIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-1002"
         },
         {
-          "grupo": "2802",
+          "grupo": "1702",
+          "profesor": "CAMPOS MARES ABIGAIL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-1129"
+        },
+        {
+          "grupo": "1751",
           "profesor": "URBINA MARTINEZ GILBERTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-726"
+        }
+      ]
+    },
+    "1763": {
+      "nombre": "MEXICO SIGLO XX I",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "CRUZ GARCIA RICARDO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-724"
+        },
+        {
+          "grupo": "1702",
+          "profesor": "VARGAS OCAÑA CARLOS DAVID",
           "horarios": [
             {
               "dia": "LU",
@@ -909,32 +1268,32 @@
           "salon": "A-8208"
         },
         {
-          "grupo": "2851",
+          "grupo": "1751",
           "profesor": "VARGAS OCAÑA CARLOS DAVID",
           "horarios": [
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "inicio": "18:00",
+              "fin": "20:00"
             },
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
+              "inicio": "18:00",
+              "fin": "20:00"
             }
           ],
-          "salon": "A-724"
+          "salon": "A-726"
         }
       ]
     },
-    "1862": {
-      "nombre": "SEMINARIO DE TITULACION",
-      "semestre": "08",
+    "1764": {
+      "nombre": "TALLER DE INVESTIGACION",
+      "semestre": "07",
       "grupos": [
         {
-          "grupo": "2801",
+          "grupo": "1701",
           "profesor": "ALBATCH PEREZ CARLOS DANIEL",
           "horarios": [
             {
@@ -944,10 +1303,10 @@
               "fin": "14:00"
             }
           ],
-          "salon": "A-724"
+          "salon": "A-8206"
         },
         {
-          "grupo": "2802",
+          "grupo": "1702",
           "profesor": "LOPEZ MORA REBECA",
           "horarios": [
             {
@@ -960,7 +1319,7 @@
           "salon": "A-1002"
         },
         {
-          "grupo": "2803",
+          "grupo": "1703",
           "profesor": "GARCIA UGARTE MARTA EUGENIA",
           "horarios": [
             {
@@ -973,20 +1332,20 @@
           "salon": "A-904"
         },
         {
-          "grupo": "2804",
-          "profesor": "GAYTAN HERRERA GRACIELA",
+          "grupo": "1704",
+          "profesor": "CAMPOS MARES ABIGAIL",
           "horarios": [
             {
               "dia": "VI",
               "dia_nombre": "Viernes",
-              "inicio": "12:00",
-              "fin": "16:00"
+              "inicio": "10:00",
+              "fin": "14:00"
             }
           ],
-          "salon": "A-8208"
+          "salon": "A-726"
         },
         {
-          "grupo": "2805",
+          "grupo": "1705",
           "profesor": "HERNANDEZ BOLAÑOS IRMA",
           "horarios": [
             {
@@ -996,10 +1355,10 @@
               "fin": "14:00"
             }
           ],
-          "salon": "A-8105"
+          "salon": "A-8108"
         },
         {
-          "grupo": "2806",
+          "grupo": "1706",
           "profesor": "URBINA MARTINEZ GILBERTO",
           "horarios": [
             {
@@ -1009,11 +1368,24 @@
               "fin": "14:00"
             }
           ],
-          "salon": "A-8206"
+          "salon": "A-8107"
         },
         {
-          "grupo": "2807",
-          "profesor": "Profesor No Asignado",
+          "grupo": "1707",
+          "profesor": "CRESPO REYES SOFIA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8209"
+        },
+        {
+          "grupo": "1709",
+          "profesor": "CORTES HERNANDEZ VALERIA SOLEDAD",
           "horarios": [
             {
               "dia": "VI",
@@ -1025,8 +1397,21 @@
           "salon": "A-8106"
         },
         {
-          "grupo": "2809",
-          "profesor": "PEZZAT SANCHEZ PAULINA",
+          "grupo": "1719",
+          "profesor": "CONTRERAS ROMERO VALENTE ALBERTO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-8208"
+        },
+        {
+          "grupo": "Q501",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "VI",
@@ -1038,89 +1423,91 @@
           "salon": "A-8207"
         },
         {
-          "grupo": "2819",
-          "profesor": "CONTRERAS ROMERO VALENTE ALBERTO",
+          "grupo": "Q502",
+          "profesor": "ABADIA QUINTERO CAROLINA",
           "horarios": [
             {
               "dia": "VI",
               "dia_nombre": "Viernes",
-              "inicio": "16:00",
-              "fin": "20:00"
+              "inicio": "10:00",
+              "fin": "14:00"
             }
           ],
           "salon": "A-8208"
-        }
-      ]
-    },
-    "2265": {
-      "nombre": "ESTADOS UNIDOS DE AMERICA",
-      "semestre": "02",
-      "grupos": [
-        {
-          "grupo": "2201",
-          "profesor": "CERVANTES LOPEZ JULIO CESAR",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-8206"
         },
         {
-          "grupo": "2202",
-          "profesor": "GOVANTES MORALES RICARDO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-8207"
-        },
-        {
-          "grupo": "2251",
+          "grupo": "Q503",
           "profesor": "FELIX MATAMOROS ROSA",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "10:00",
+              "fin": "14:00"
             }
           ],
-          "salon": "A-8206"
+          "salon": "A-724"
+        },
+        {
+          "grupo": "Q504",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-1129"
+        },
+        {
+          "grupo": "Q505",
+          "profesor": "VEGA RODRIGUEZ HECTOR ALONSO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8202"
+        },
+        {
+          "grupo": "Q506",
+          "profesor": "PEZZAT SANCHEZ PAULINA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8203"
+        },
+        {
+          "grupo": "Q507",
+          "profesor": "GOVANTES MORALES RICARDO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8204"
         }
       ]
     },
-    "2266": {
-      "nombre": "HISTORIA Y TEORIA DEL ARTE II",
-      "semestre": "02",
+    "2165": {
+      "nombre": "HISTORIA Y TEORIA DEL ARTE I",
+      "semestre": "01",
       "grupos": [
         {
-          "grupo": "2201",
+          "grupo": "1101",
           "profesor": "MUÑOZ TREJO MELISSA",
           "horarios": [
             {
@@ -1139,8 +1526,8 @@
           "salon": "A-8206"
         },
         {
-          "grupo": "2202",
-          "profesor": "CAMPOS MARES ABIGAIL",
+          "grupo": "1102",
+          "profesor": "FLORES MORENO MARCO ANTONIO",
           "horarios": [
             {
               "dia": "LU",
@@ -1158,7 +1545,7 @@
           "salon": "A-8207"
         },
         {
-          "grupo": "2251",
+          "grupo": "1151",
           "profesor": "PAULET QUEVEDO ISARY",
           "horarios": [
             {
@@ -1178,13 +1565,13 @@
         }
       ]
     },
-    "2267": {
-      "nombre": "HISTORIOGRAFIA GENERAL I",
-      "semestre": "02",
+    "2166": {
+      "nombre": "INTRODUCCION A LA HISTORIA",
+      "semestre": "01",
       "grupos": [
         {
-          "grupo": "2201",
-          "profesor": "VEGA RODRIGUEZ HECTOR ALONSO",
+          "grupo": "1101",
+          "profesor": "SANCHEZ ACOSTA NORMA",
           "horarios": [
             {
               "dia": "MA",
@@ -1202,18 +1589,226 @@
           "salon": "A-8206"
         },
         {
-          "grupo": "2202",
+          "grupo": "1102",
           "profesor": "PEREZ MORALES ENRIQUE",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "10:00",
-              "fin": "12:00"
+              "inicio": "08:00",
+              "fin": "10:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8207"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "CRESPO REYES SOFIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8206"
+        },
+        {
+          "grupo": "1161",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "INF.EN JEFA"
+        }
+      ]
+    },
+    "2167": {
+      "nombre": "MONARQUIA HISPANICA",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "LUNA GARCIA SANDRA NANCY",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8206"
+        },
+        {
+          "grupo": "1102",
+          "profesor": "DIAZ MIRANDA LORENZA ELENA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "Aula Magna"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "LAZARE BENAVIDES ROBERTO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8206"
+        }
+      ]
+    },
+    "2168": {
+      "nombre": "PASADO INDIGENA I",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "ALBATCH PEREZ CARLOS DANIEL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8206"
+        },
+        {
+          "grupo": "1102",
+          "profesor": "CURIEL ROSAS IRMA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8209"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "CURIEL ROSAS IRMA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8206"
+        }
+      ]
+    },
+    "2169": {
+      "nombre": "SOCIEDADES ANTIGUAS ASIA AFRICA",
+      "semestre": "01",
+      "grupos": [
+        {
+          "grupo": "1101",
+          "profesor": "DIAZ MIRANDA LORENZA ELENA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "Aula Magna"
+        },
+        {
+          "grupo": "1102",
+          "profesor": "LAZARE BENAVIDES ROBERTO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "10:00",
               "fin": "12:00"
             }
@@ -1221,18 +1816,18 @@
           "salon": "A-8207"
         },
         {
-          "grupo": "2251",
-          "profesor": "VEGA RODRIGUEZ HECTOR ALONSO",
+          "grupo": "1151",
+          "profesor": "TIRADO DE SALAZAR RODRIGO OCTAVIO",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
+              "dia": "LU",
+              "dia_nombre": "Lunes",
               "inicio": "18:00",
               "fin": "20:00"
             },
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "18:00",
               "fin": "20:00"
             }
@@ -1241,13 +1836,13 @@
         }
       ]
     },
-    "2268": {
-      "nombre": "MEDITERRANEO ANTIGUO I",
-      "semestre": "02",
+    "2170": {
+      "nombre": "TALLER DE ESCRITURA ACADEMICA",
+      "semestre": "01",
       "grupos": [
         {
-          "grupo": "2201",
-          "profesor": "PEREZ MORALES ENRIQUE",
+          "grupo": "1101",
+          "profesor": "ORTEGA JIMENEZ JULIO",
           "horarios": [
             {
               "dia": "MA",
@@ -1262,10 +1857,275 @@
               "fin": "10:00"
             }
           ],
+          "salon": "A-8106"
+        },
+        {
+          "grupo": "1102",
+          "profesor": "ORTEGA JIMENEZ JULIO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8107"
+        },
+        {
+          "grupo": "1111",
+          "profesor": "GONZALEZ MEJIA CHRISTIAN",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-1129"
+        },
+        {
+          "grupo": "1112",
+          "profesor": "CRUZ GARCIA RICARDO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8208"
+        },
+        {
+          "grupo": "1151",
+          "profesor": "VERDEJO RODRIGUEZ ELIZABETH",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
           "salon": "A-8206"
         },
         {
-          "grupo": "2202",
+          "grupo": "1161",
+          "profesor": "RODRIGUEZ JIMENEZ KARINA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-8107"
+        }
+      ]
+    },
+    "2365": {
+      "nombre": "AMERICA LATINA",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "PEZZAT SANCHEZ PAULINA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-724"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "CERVANTES LOPEZ JULIO CESAR",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-726"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "URBINA MARTINEZ GILBERTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-724"
+        }
+      ]
+    },
+    "2366": {
+      "nombre": "HISTORIOGRAFIA GENERAL II",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "CRESPO REYES SOFIA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-724"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "LOPEZ MORA REBECA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-726"
+        },
+        {
+          "grupo": "1311",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "INF.EN JEFA"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "VEGA RODRIGUEZ HECTOR ALONSO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-724"
+        }
+      ]
+    },
+    "2367": {
+      "nombre": "MEDITERRANEO ANTIGUO II",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "REYES RUIZ MARIA DEL CARMEN EUGENIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-724"
+        },
+        {
+          "grupo": "1302",
           "profesor": "VEGA RODRIGUEZ HECTOR ALONSO",
           "horarios": [
             {
@@ -1281,10 +2141,10 @@
               "fin": "14:00"
             }
           ],
-          "salon": "A-8207"
+          "salon": "A-726"
         },
         {
-          "grupo": "2251",
+          "grupo": "1351",
           "profesor": "SOSA HERNANDEZ GUILLERMO ALFONSO",
           "horarios": [
             {
@@ -1300,17 +2160,225 @@
               "fin": "18:00"
             }
           ],
-          "salon": "A-8206"
+          "salon": "A-724"
         }
       ]
     },
-    "2269": {
-      "nombre": "METODOS-TECNS.INVESTIG.HISTORICA",
-      "semestre": "02",
+    "2368": {
+      "nombre": "NUEVA ESPAÑA I",
+      "semestre": "03",
       "grupos": [
         {
-          "grupo": "2201",
-          "profesor": "MONTOYA RIVERO PATRICIA MARIA",
+          "grupo": "1301",
+          "profesor": "LOPEZ POZOS SUSANA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-724"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "CERON RUIZ MIGUEL ANGEL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-726"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "SANCHEZ MUÑOZ DAVID ALEJANDRO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-724"
+        }
+      ]
+    },
+    "2369": {
+      "nombre": "PATRIMONIO CULTURAL",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "FLORES MORENO MARCO ANTONIO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8206"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "NUNCIO DIAZ CLAUDIA KARINA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-726"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "TORRES MORENO CLAUDIA IVONE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-724"
+        }
+      ]
+    },
+    "2370": {
+      "nombre": "TEORIA DE LA HISTORIA I",
+      "semestre": "03",
+      "grupos": [
+        {
+          "grupo": "1301",
+          "profesor": "PEREZ MORALES ENRIQUE",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-724"
+        },
+        {
+          "grupo": "1302",
+          "profesor": "CRESPO REYES SOFIA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-726"
+        },
+        {
+          "grupo": "1351",
+          "profesor": "PEREZ MORALES ENRIQUE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-8207"
+        }
+      ]
+    },
+    "2565": {
+      "nombre": "CULTURA MEDIATICA E HISTORIA",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "CAZAREZ MATA JOSE TRINIDAD",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8106"
+        },
+        {
+          "grupo": "1502",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "MA",
@@ -1325,10 +2393,161 @@
               "fin": "14:00"
             }
           ],
-          "salon": "A-1002"
+          "salon": "A-1129"
         },
         {
-          "grupo": "2202",
+          "grupo": "1551",
+          "profesor": "CRUZ GARCIA RICARDO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8106"
+        }
+      ]
+    },
+    "2566": {
+      "nombre": "ENSEÑANZA DE LA HISTORIA II",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "VALDERRABANO ONOFRE HUGO SAMUEL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8106"
+        },
+        {
+          "grupo": "1502",
+          "profesor": "MANDUJANO LOPEZ FABIAN",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-1129"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "MANDUJANO LOPEZ FABIAN",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-1129"
+        }
+      ]
+    },
+    "2567": {
+      "nombre": "EUROPA-SU EXPANSION S.XV AL XVII",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "PEZZAT SANCHEZ PAULINA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8106"
+        },
+        {
+          "grupo": "1502",
+          "profesor": "CORTES HERNANDEZ VALERIA SOLEDAD",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-1129"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "CORTES HERNANDEZ VALERIA SOLEDAD",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8106"
+        }
+      ]
+    },
+    "2568": {
+      "nombre": "HISTORIOGRAFIA DE MEXICO I",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
           "profesor": "ALBATCH PEREZ CARLOS DANIEL",
           "horarios": [
             {
@@ -1344,10 +2563,333 @@
               "fin": "10:00"
             }
           ],
+          "salon": "A-8107"
+        },
+        {
+          "grupo": "1502",
+          "profesor": "LUNA GARCIA SANDRA NANCY",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "08:00",
+              "fin": "10:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "08:00",
+              "fin": "10:00"
+            }
+          ],
+          "salon": "A-8206"
+        },
+        {
+          "grupo": "1551",
+          "profesor": "CAZAREZ MATA JOSE TRINIDAD",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-8106"
+        }
+      ]
+    },
+    "2569": {
+      "nombre": "MEXICO SIGLO XIX I",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "UGALDE ANDRADE IMELDA PAOLA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8106"
+        },
+        {
+          "grupo": "1502",
+          "profesor": "FELIX MATAMOROS ROSA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
           "salon": "A-8207"
         },
         {
-          "grupo": "2211",
+          "grupo": "1551",
+          "profesor": "TORRES MEDINA JAVIER",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
+            }
+          ],
+          "salon": "A-8106"
+        }
+      ]
+    },
+    "2570": {
+      "nombre": "SEMINARIO TALLER DE INVESTIGACIO",
+      "semestre": "05",
+      "grupos": [
+        {
+          "grupo": "1501",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8207"
+        },
+        {
+          "grupo": "1502",
+          "profesor": "ABADIA QUINTERO CAROLINA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8208"
+        },
+        {
+          "grupo": "1503",
+          "profesor": "FELIX MATAMOROS ROSA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-724"
+        },
+        {
+          "grupo": "1504",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-1129"
+        },
+        {
+          "grupo": "1505",
+          "profesor": "VEGA RODRIGUEZ HECTOR ALONSO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8202"
+        },
+        {
+          "grupo": "1506",
+          "profesor": "PEZZAT SANCHEZ PAULINA",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8203"
+        },
+        {
+          "grupo": "1507",
+          "profesor": "GOVANTES MORALES RICARDO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "10:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8204"
+        }
+      ]
+    },
+    "0027": {
+      "nombre": "TEM. SEL. CULTURA MAYA",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "GARCIA CAPISTRAN HUGO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8208"
+        }
+      ]
+    },
+    "0030": {
+      "nombre": "TEM. SEL. CULTURA MEXICA",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1701",
+          "profesor": "SANCHEZ MUÑOZ DAVID ALEJANDRO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8209"
+        }
+      ]
+    },
+    "0042": {
+      "nombre": "TEM.SEL.HIST.IGLESIA EN NUEVA ES",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1702",
+          "profesor": "PEREZ ITURBE MARCO ANTONIO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "12:00",
+              "fin": "14:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "A-8107"
+        }
+      ]
+    },
+    "0047": {
+      "nombre": "TEM.SEL.HISTOR.DE LA CIENC.NOVOH",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1702",
+          "profesor": "RAMIREZ ORTEGA VERONICA",
+          "horarios": [
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "12:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8107"
+        }
+      ]
+    },
+    "0053": {
+      "nombre": "TEM.SEL.HISTOR.SOCIAL D MEXICO S",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1703",
+          "profesor": "TORRES MEDINA JAVIER",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8208"
+        }
+      ]
+    },
+    "0082": {
+      "nombre": "TEM.SEL.SEGUNDO IMPERIO REPUB.RE",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1703",
           "profesor": "FELIX MATAMOROS ROSA",
           "horarios": [
             {
@@ -1363,521 +2905,36 @@
               "fin": "14:00"
             }
           ],
-          "salon": "A-8206"
-        },
-        {
-          "grupo": "2212",
-          "profesor": "LUNA GARCIA SANDRA NANCY",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-1129"
-        },
-        {
-          "grupo": "2251",
-          "profesor": "HIDALGO PEGO MONICA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-8206"
-        },
-        {
-          "grupo": "2261",
-          "profesor": "GARCIA CAPISTRAN HUGO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-1129"
+          "salon": "A-1002"
         }
       ]
     },
-    "2270": {
-      "nombre": "PASADO INDIGENA II",
-      "semestre": "02",
-      "grupos": [
-        {
-          "grupo": "2201",
-          "profesor": "ALBATCH PEREZ CARLOS DANIEL",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-8206"
-        },
-        {
-          "grupo": "2202",
-          "profesor": "GARCIA CAPISTRAN HUGO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-8207"
-        },
-        {
-          "grupo": "2251",
-          "profesor": "SOTO ABREGO MIGUEL ANGEL",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "A-8206"
-        }
-      ]
-    },
-    "2465": {
-      "nombre": "ENSEÑANZA DE LA HISTORIA I",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "2401",
-          "profesor": "Profesor No Asignado",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        },
-        {
-          "grupo": "2402",
-          "profesor": "MANDUJANO LOPEZ FABIAN",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        },
-        {
-          "grupo": "2451",
-          "profesor": "Profesor No Asignado",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        },
-        {
-          "grupo": "2551",
-          "profesor": "Profesor No Asignado",
-          "horarios": [],
-          "salon": "NULL"
-        }
-      ]
-    },
-    "2466": {
-      "nombre": "EUROPA, BIZANCIO, MDO.ISLAM.S.V-",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "2401",
-          "profesor": "TIRADO DE SALAZAR RODRIGO OCTAVIO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        },
-        {
-          "grupo": "2402",
-          "profesor": "PEZZAT SANCHEZ PAULINA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "08:00",
-              "fin": "10:00"
-            }
-          ],
-          "salon": "A-726"
-        },
-        {
-          "grupo": "2451",
-          "profesor": "VEGA RODRIGUEZ HECTOR ALONSO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-724"
-        }
-      ]
-    },
-    "2467": {
-      "nombre": "HISTORIOGRAFIA GENERAL III",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "2401",
-          "profesor": "CRESPO REYES SOFIA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-726"
-        },
-        {
-          "grupo": "2402",
-          "profesor": "LOPEZ MORA REBECA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-724"
-        },
-        {
-          "grupo": "2451",
-          "profesor": "PUGA HERNANDEZ ALICIA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "16:00",
-              "fin": "18:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "16:00",
-              "fin": "18:00"
-            }
-          ],
-          "salon": "A-8209"
-        }
-      ]
-    },
-    "2468": {
-      "nombre": "NUEVA ESPAÑA II",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "2401",
-          "profesor": "LUNA GARCIA SANDRA NANCY",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-726"
-        },
-        {
-          "grupo": "2402",
-          "profesor": "CERON RUIZ MIGUEL ANGEL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-724"
-        },
-        {
-          "grupo": "2451",
-          "profesor": "SANCHEZ MUÑOZ DAVID ALEJANDRO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-726"
-        }
-      ]
-    },
-    "2469": {
-      "nombre": "PROYECTOS DE GESTION PATRIMONIAL",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "2401",
-          "profesor": "FLORES MORENO MARCO ANTONIO",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8209"
-        },
-        {
-          "grupo": "2402",
-          "profesor": "Profesor No Asignado",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        },
-        {
-          "grupo": "2451",
-          "profesor": "Profesor No Asignado",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        }
-      ]
-    },
-    "2470": {
-      "nombre": "TEORIA DE LA HISTORIA II",
-      "semestre": "04",
-      "grupos": [
-        {
-          "grupo": "2401",
-          "profesor": "PEREZ MORALES ENRIQUE",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        },
-        {
-          "grupo": "2402",
-          "profesor": "CRESPO REYES SOFIA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        },
-        {
-          "grupo": "2451",
-          "profesor": "ORDOÑEZ AGUILAR MANUEL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "18:00",
-              "fin": "20:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "18:00",
-              "fin": "20:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        }
-      ]
-    },
-    "0061": {
-      "nombre": "TEM.SEL.ICONOGRAF.Y EPIGRAF.MESO",
+    "0051": {
+      "nombre": "TEM.SEL. HISTOR. ECONOM. MEXICO",
       "semestre": "40",
       "grupos": [
         {
-          "grupo": "2601",
-          "profesor": "GARCIA CAPISTRAN HUGO",
+          "grupo": "1704",
+          "profesor": "REYES ALVAREZ DANIEL ALEJANDRO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "12:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8107"
+        }
+      ]
+    },
+    "0081": {
+      "nombre": "TEM. SEL. REVOLUCION MEXICANA",
+      "semestre": "40",
+      "grupos": [
+        {
+          "grupo": "1704",
+          "profesor": "LOYO CAMACHO MARTHA BEATRIZ",
           "horarios": [
             {
               "dia": "LU",
@@ -1890,91 +2947,9 @@
               "dia_nombre": "Miércoles",
               "inicio": "12:00",
               "fin": "14:00"
-            }
-          ],
-          "salon": "A-8106"
-        }
-      ]
-    },
-    "0079": {
-      "nombre": "TEM. SEL. RELIGIONES MESOAMERICA",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2601",
-          "profesor": "SANCHEZ MUÑOZ DAVID ALEJANDRO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        }
-      ]
-    },
-    "0054": {
-      "nombre": "TEM.SEL.HISTOR.SOCIAL DE LA NVA.",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2602",
-          "profesor": "CERON RUIZ MIGUEL ANGEL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
             }
           ],
           "salon": "A-8208"
-        }
-      ]
-    },
-    "0066": {
-      "nombre": "TEM. SEL. INSTITUCIONES NOVOHISP",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2602",
-          "profesor": "QUIJANO VELASCO FRANCISCO",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "10:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8209"
-        },
-        {
-          "grupo": "2802",
-          "profesor": "ABADIA QUINTERO CAROLINA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
         }
       ]
     },
@@ -1983,252 +2958,8 @@
       "semestre": "40",
       "grupos": [
         {
-          "grupo": "2604",
-          "profesor": "BONILLA DE LEON LAURA EDITH",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        }
-      ]
-    },
-    "0028": {
-      "nombre": "TEM. SEL. CULTURA MEXICANA SIGLO",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2607",
+          "grupo": "1707",
           "profesor": "URBINA MARTINEZ GILBERTO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8208"
-        }
-      ]
-    },
-    "0041": {
-      "nombre": "TEM. SEL. GUERRA FRIA",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2609",
-          "profesor": "URBINA MARTINEZ GILBERTO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-1129"
-        }
-      ]
-    },
-    "0067": {
-      "nombre": "TEM. SEL. JAPON SIGLO XX",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2609",
-          "profesor": "MANDUJANO LOPEZ FABIAN",
-          "horarios": [
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "10:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-1129"
-        }
-      ]
-    },
-    "0048": {
-      "nombre": "TEM.SEL.HISTOR.ECONOMICA DE MESO",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2801",
-          "profesor": "SANCHEZ MUÑOZ DAVID ALEJANDRO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-8208"
-        }
-      ]
-    },
-    "0058": {
-      "nombre": "TEM.SEL.HISTORIOGRAFIA SOBRE MES",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2801",
-          "profesor": "ALBATCH PEREZ CARLOS DANIEL",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8106"
-        }
-      ]
-    },
-    "0068": {
-      "nombre": "TEM. SEL. LITERATURA MESOAMERICA",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2801",
-          "profesor": "SALDIERNA RANGEL JOSE JULIAN",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "A-8107"
-        }
-      ]
-    },
-    "0031": {
-      "nombre": "TEM. SEL. CULTURA NOVOHISPANA",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2802",
-          "profesor": "DIAZ MIRANDA LORENZA ELENA",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        }
-      ]
-    },
-    "0050": {
-      "nombre": "TEM.SEL.HISTOR.ECONOMICA DE NVA.",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2802",
-          "profesor": "CERVANTES LOPEZ JULIO CESAR",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        }
-      ]
-    },
-    "0045": {
-      "nombre": "TEM.SEL.HISTOR.DE CIENCIA MEXIC.",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2804",
-          "profesor": "GOVANTES MORALES RICARDO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8105"
-        }
-      ]
-    },
-    "0055": {
-      "nombre": "TEM. SEL. HISTOR. SOCIAL MEXICO",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2804",
-          "profesor": "CAMPOS MARES ABIGAIL",
           "horarios": [
             {
               "dia": "LU",
@@ -2247,113 +2978,38 @@
         }
       ]
     },
-    "0080": {
-      "nombre": "TEM.SEL.RELS. DIPLOMAT. MEXICO S",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2804",
-          "profesor": "CRUZADO CAMPOS CARLOS GABRIEL",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "A-8208"
-        }
-      ]
-    },
-    "0022": {
-      "nombre": "TEM. SEL. ARTE COLONIAL MEXICANO",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2807",
-          "profesor": "MUÑOZ TREJO MELISSA",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        }
-      ]
-    },
-    "0024": {
-      "nombre": "TEM. SEL. ARTE MESOAMERICANO",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2807",
-          "profesor": "GARCIA CAPISTRAN HUGO",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "12:00",
-              "fin": "14:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "12:00",
-              "fin": "14:00"
-            }
-          ],
-          "salon": "INF.EN JEFA"
-        }
-      ]
-    },
-    "0074": {
+    "0075": {
       "nombre": "TEM. SEL. PERIODISMO EN MEXICO S",
       "semestre": "40",
       "grupos": [
         {
-          "grupo": "2807",
+          "grupo": "1707",
           "profesor": "CRUZ GARCIA RICARDO",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "14:00",
-              "fin": "16:00"
+              "inicio": "12:00",
+              "fin": "14:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "14:00",
-              "fin": "16:00"
+              "inicio": "12:00",
+              "fin": "14:00"
             }
           ],
-          "salon": "INF.EN JEFA"
+          "salon": "A-8207"
         }
       ]
     },
-    "0020": {
-      "nombre": "TEM. SEL. AFRICA SIGLO XI",
+    "0021": {
+      "nombre": "TEM. SEL. ALEMANIA CONTEMPORANEA",
       "semestre": "40",
       "grupos": [
         {
-          "grupo": "2809",
-          "profesor": "MANDUJANO LOPEZ FABIAN",
+          "grupo": "1709",
+          "profesor": "TIRADO DE SALAZAR RODRIGO OCTAVIO",
           "horarios": [
             {
               "dia": "MA",
@@ -2368,7 +3024,7 @@
               "fin": "16:00"
             }
           ],
-          "salon": "A-724"
+          "salon": "A-726"
         }
       ]
     },
@@ -2377,48 +3033,23 @@
       "semestre": "40",
       "grupos": [
         {
-          "grupo": "2809",
+          "grupo": "1709",
           "profesor": "MANDUJANO LOPEZ FABIAN",
-          "horarios": [
-            {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "10:00",
-              "fin": "12:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "10:00",
-              "fin": "12:00"
-            }
-          ],
-          "salon": "A-1129"
-        }
-      ]
-    },
-    "0070": {
-      "nombre": "TEM. SEL. MEDIO ORIENTE SIGLO XX",
-      "semestre": "40",
-      "grupos": [
-        {
-          "grupo": "2809",
-          "profesor": "TIRADO DE SALAZAR RODRIGO OCTAVIO",
           "horarios": [
             {
               "dia": "LU",
               "dia_nombre": "Lunes",
-              "inicio": "14:00",
-              "fin": "16:00"
+              "inicio": "12:00",
+              "fin": "14:00"
             },
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",
-              "inicio": "14:00",
-              "fin": "16:00"
+              "inicio": "12:00",
+              "fin": "14:00"
             }
           ],
-          "salon": "A-724"
+          "salon": "A-1129"
         }
       ]
     }
