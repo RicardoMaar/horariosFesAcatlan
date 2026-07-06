@@ -1,5 +1,6 @@
 import React, { startTransition } from 'react';
 import { ANIMATION_CONFIG } from '../../constants/listaMaterias';
+import useHorariosStore from '../../store/useHorariosStore';
 
 const GrupoItem = React.memo(({
   grupo,
@@ -13,6 +14,13 @@ const GrupoItem = React.memo(({
   onClickDetalle
 }) => {
   const id = `${materia.clave}-${grupo.grupo}`;
+
+  // Anomalia de carga a nivel de grupo (horas del horario != plan de estudios / demas grupos)
+  const anomaliaMateria = useHorariosStore(state => state.anomaliasData?.[materia.clave]);
+  const grupoAnomalo = anomaliaMateria?.grupos_afectados?.find(g => g.grupo === grupo.grupo);
+  const mensajeAnomalia = grupoAnomalo
+    ? `Posible error. Este grupo marca ${grupoAnomalo.horas_semana} h a la semana cuando deberían ser ${anomaliaMateria.esperado_horas_semana}. Verifícalo antes de inscribirte.`
+    : null;
 
   const handleClick = (e) => {
     if (!e.target.closest('input[type="checkbox"]')) {
@@ -69,6 +77,17 @@ const GrupoItem = React.memo(({
                 Grupo {grupo.grupo}
               </span>
             </label>
+            {mensajeAnomalia && (
+              <span
+                tabIndex={0}
+                title={mensajeAnomalia}
+                aria-label={mensajeAnomalia}
+                onClick={(e) => e.stopPropagation()}
+                className="inline-flex items-center justify-center w-4 h-4 rounded-full bg-accent-50 border border-accent-300 text-accent-600 text-[10px] leading-none cursor-help select-none"
+              >
+                ⚠
+              </span>
+            )}
             {seleccionada && (
               <div 
                 className="w-3 h-3 rounded-full color-circle transition-all duration-200 hover:scale-110"

@@ -1,0 +1,19 @@
+{
+  "codigo": "20721",
+  "fecha": "2026-07-06T23:15:53.822Z",
+  "total": 1,
+  "materias": {
+    "1505": {
+      "nombre": "CONCEPTOS,SUJETOS Y ACTOS D COME",
+      "esperado_horas_semana": 6,
+      "fuente": "outlier",
+      "grupos_afectados": [
+        {
+          "grupo": "1554",
+          "horas_semana": 4
+        }
+      ],
+      "mensaje": "Posible error. Este grupo marca 4 h a la semana cuando deberían ser 6. Verifícalo antes de inscribirte."
+    }
+  }
+}

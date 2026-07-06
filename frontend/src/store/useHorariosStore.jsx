@@ -15,6 +15,7 @@ const useHorariosStore = create(
       // Estado principal
       carreraSeleccionada: null,
       materiasData: null,
+      anomaliasData: null,
       materiasSeleccionadas: [],
       busqueda: '',
       modalAbierto: false,
@@ -33,9 +34,10 @@ const useHorariosStore = create(
       // Acciones
       setCarrera: (carrera) => set(() => {
         const opcionInicial = crearOpcionInicial();
-        return { 
+        return {
           carreraSeleccionada: carrera,
           materiasData: null,
+          anomaliasData: null,
           materiasSeleccionadas: [],
           busqueda: '',
           coloresAsignados: {},
@@ -45,6 +47,8 @@ const useHorariosStore = create(
       }),
       
       setMateriasData: (data) => set({ materiasData: data }),
+
+      setAnomaliasData: (data) => set({ anomaliasData: data }),
       
       setBusqueda: (busqueda) => set({ busqueda }),
 

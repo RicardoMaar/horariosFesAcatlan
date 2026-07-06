@@ -1,0 +1,136 @@
+{
+  "codigo": "20721",
+  "nombre": "Derecho",
+  "plan": "Derecho2025",
+  "fecha_consulta": "2026-07-06T22:41:28.456Z",
+  "materias": {
+    "1109": {
+      "nombre": "Derecho de las Tecnologias",
+      "semestre": "Primero",
+      "creditos": 5,
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1110": {
+      "nombre": "Historia de la Ideas Politicas y Economicas",
+      "semestre": "Primero",
+      "creditos": 8,
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1111": {
+      "nombre": "Introduccion al Estudio del Derecho",
+      "semestre": "Primero",
+      "creditos": 8,
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1112": {
+      "nombre": "Perspectiva de Genero",
+      "semestre": "Primero",
+      "creditos": 8,
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1113": {
+      "nombre": "Sociologia y Derecho",
+      "semestre": "Primero",
+      "creditos": 8,
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1209": {
+      "nombre": "Derecho Romano",
+      "semestre": "Segundo",
+      "creditos": 10,
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1210": {
+      "nombre": "Etica Juridica",
+      "semestre": "Segundo",
+      "creditos": 8,
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1211": {
+      "nombre": "Metodos y Tecnicas de Investigacion Juridica",
+      "semestre": "Segundo",
+      "creditos": 5,
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1212": {
+      "nombre": "Teoria del Derecho",
+      "semestre": "Segundo",
+      "creditos": 8,
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1213": {
+      "nombre": "Teoria del Estado",
+      "semestre": "Segundo",
+      "creditos": 8,
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1214": {
+      "nombre": "Teoria Economica",
+      "semestre": "Segundo",
+      "creditos": 8,
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1309": {
+      "nombre": "Derecho Ambiental",
+      "semestre": "Tercero",
+      "creditos": 5,
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1310": {
+      "nombre": "Derecho Constitucional I",
+      "semestre": "Tercero",
+      "creditos": 12,
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1311": {
+      "nombre": "Derecho Penal I",
+      "semestre": "Tercero",
+      "creditos": 12,
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1314": {
+      "nombre": "Filosofia del Derecho",
+      "semestre": "Tercero",
+      "creditos": 11,
+      "horas_semana": 6,
+      "teoricas_semana": 5,
+      "practicas_semana": 1
+    },
+    "1315": {
+      "nombre": "Personas y Bienes",
+      "semestre": "Tercero",
+      "creditos": 10,
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    }
+  }
+}

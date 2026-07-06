@@ -43,31 +43,40 @@ export function useHorarios(carreraCodigo) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const setMateriasData = useHorariosStore(state => state.setMateriasData);
+  const setAnomaliasData = useHorariosStore(state => state.setAnomaliasData);
 
   const fetchHorarios = useCallback(async () => {
     if (!carreraCodigo) {
       return;
     }
-  
+
     try {
       setLoading(true);
       setError(null);
-  
+
       // ✅ SIEMPRE hacer petición al servidor
       console.log('Fetching desde API');
-      const timestamp = Date.now(); 
+      const timestamp = Date.now();
       const response = await axios.get(`${API_BASE}/horarios/${carreraCodigo}?t=${timestamp}`);
-      
+
       const data = response.data;
-      
+
       setMateriasData(data.materias);
-      
+
+      // Anomalias de carga (opcional): no debe romper el horario si falla o no existe.
+      try {
+        const anomaliasResp = await axios.get(`${API_BASE}/anomalias/${carreraCodigo}?t=${timestamp}`);
+        setAnomaliasData(anomaliasResp.data?.materias || {});
+      } catch {
+        setAnomaliasData({});
+      }
+
     } catch (err) {
       setError(err.message);
     } finally {
       setLoading(false);
     }
-  }, [carreraCodigo, setMateriasData]); // ← También quitar saveCarrera, loadCarrera de dependencies
+  }, [carreraCodigo, setMateriasData, setAnomaliasData]);
 
   useEffect(() => {
     if (carreraCodigo) {

@@ -24,10 +24,12 @@ const readJson = (filePath) => {
 const getIndex = () => readJson(path.join(dataDir, 'index.json'));
 const getMetadata = () => readJson(path.join(dataDir, 'metadata.json'));
 const getCarrera = (codigo) => readJson(path.join(dataDir, 'carreras', `${codigo}.json`));
+const getAnomalias = (codigo) => readJson(path.join(dataDir, 'anomalias', `${codigo}.json`));
 
 module.exports = {
   dataDir,
   getIndex,
   getMetadata,
-  getCarrera
+  getCarrera,
+  getAnomalias
 };
