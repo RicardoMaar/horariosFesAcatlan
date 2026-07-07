@@ -1,0 +1,458 @@
+{
+  "codigo": "20821",
+  "nombre": "Economía",
+  "plan": "dgae:2136,1145+Economia-2020",
+  "fecha_consulta": "2026-07-07T20:42:49.957Z",
+  "materias": {
+    "2113": {
+      "nombre": "CONTABILIDAD GENERAL Y DE COSTOS",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2114": {
+      "nombre": "GEOGRAFIA ECONOMICA",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2115": {
+      "nombre": "INTRODUCCION A LA ECONOMIA",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2117": {
+      "nombre": "SOCIEDAD Y POLITICA I",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2120": {
+      "nombre": "ALGEBRA LINEAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2121": {
+      "nombre": "CONTABILIDAD GENERAL Y DE COSTOS",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2122": {
+      "nombre": "GEOGRAFIA ECONOMICA",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2123": {
+      "nombre": "HISTORIA ECONOMICA Y SOCIAL MUND.I",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2124": {
+      "nombre": "INTRODUCCION A LA ECONOMIA",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2125": {
+      "nombre": "SOCIEDAD Y POLITICA I",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2204": {
+      "nombre": "SINTESIS NEOCLASICA",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2205": {
+      "nombre": "SOCIEDAD Y POLITICA II",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2220": {
+      "nombre": "CALCULO DIFERENCIAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2221": {
+      "nombre": "CONTABILIDAD SOCIAL Y CTAS.NALES.I",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2222": {
+      "nombre": "GESTION CONTABLE Y FINANCIERA",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2223": {
+      "nombre": "HISTORIA ECONOMICA Y SOCIAL MUND.II",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2224": {
+      "nombre": "SISTEMA ECON.PRODUC.MERCANT.TEOR.VAL",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2225": {
+      "nombre": "SOCIEDAD Y POLITICA II",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2226": {
+      "nombre": "TEORIA DEL CONSUMIDOR-DEL PRODUCTOR",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2320": {
+      "nombre": "CALCULO INTEGRAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2321": {
+      "nombre": "CONTABILIDAD SOCIAL Y CTAS.NALES.II",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2322": {
+      "nombre": "ESTRUCTURA DE MERCADOS",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2324": {
+      "nombre": "HISTORIA ECONOMICA-SOCIAL MEXICO I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2325": {
+      "nombre": "HISTORIA ECONOMICA-SOCIAL AMER.LAT.",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2326": {
+      "nombre": "MACROECONOMIA KEYNESIANA I",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2327": {
+      "nombre": "TEOR.GRAL.PROD.CAPITAL.REPROD.CRECIM",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2404": {
+      "nombre": "MACROECONOMIA KEYNESIANA I",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2420": {
+      "nombre": "ECUACIONES DIFERENCIALES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2421": {
+      "nombre": "EQUILIBRIO GRAL.TEORIA DEL BIENESTAR",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2422": {
+      "nombre": "ESTADISTICA DESCRIPTIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2423": {
+      "nombre": "GANANCIA Y COMPETENCIA DE CAPITALES",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2424": {
+      "nombre": "HISTORIA ECONOMICA-SOCIAL MEXICO II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2425": {
+      "nombre": "MACROECONOMIA KEYNESIANA II",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2426": {
+      "nombre": "METODOL.CIENCIAS SOCIALES E INVESTIG",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2501": {
+      "nombre": "ECONOMETRIA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2504": {
+      "nombre": "MACROECONOMIA KEYNESIANA II",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2520": {
+      "nombre": "FINANZAS PUBLICAS",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2521": {
+      "nombre": "MICROECONOMIA HETERODOXA",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2522": {
+      "nombre": "MONOPOLIO, IMPERIALISMO Y MACROECON.",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2523": {
+      "nombre": "POLITICA MONETARIA I",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2524": {
+      "nombre": "PROBABILIDAD Y APLICACIONES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2525": {
+      "nombre": "SINTESIS NEOCLASICA",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2526": {
+      "nombre": "TALLER ECON.MEXICANA EL SECTOR PROD.",
+      "horas_semana": 10,
+      "teoricas_semana": 6,
+      "practicas_semana": 4
+    },
+    "2600": {
+      "nombre": "COMERCIO INTERNACIONAL",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2601": {
+      "nombre": "ECONOMETRIA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2603": {
+      "nombre": "FINANZAS PUBLICAS",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2620": {
+      "nombre": "ECONOMETRIA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2621": {
+      "nombre": "ESTRUCTURAS OLIGOPOL.Y MACROECON.",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2622": {
+      "nombre": "FINANZAS CORPORATIVAS",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2623": {
+      "nombre": "MACROECONOMIA ABIERTA",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2624": {
+      "nombre": "POLITICA FISCAL",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2625": {
+      "nombre": "POLITICA MONETARIA II",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2626": {
+      "nombre": "TALLER ECON.MEXICAN.LA ESFERA CIRCUL",
+      "horas_semana": 10,
+      "teoricas_semana": 6,
+      "practicas_semana": 4
+    },
+    "2703": {
+      "nombre": "POLITICA FISCAL",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2720": {
+      "nombre": "CICLO, CRISIS-TEND.LARGO PLAZO DEL C",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2721": {
+      "nombre": "COMERCIO INTERNACIONAL",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2722": {
+      "nombre": "CRECIMIENTO Y DESARROLLO",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2723": {
+      "nombre": "ECONOMETRIA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2724": {
+      "nombre": "ORGANIZACION INDUSTRIAL Y EMPRESAS",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2725": {
+      "nombre": "TALLER ECON.MEXICANA MARCO INSTITUC.",
+      "horas_semana": 10,
+      "teoricas_semana": 6,
+      "practicas_semana": 4
+    },
+    "2802": {
+      "nombre": "MACROECONOMIA ABIERTA",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2820": {
+      "nombre": "EPISTEMOLOGIA Y METODO PARA INVESTIG",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2821": {
+      "nombre": "PROYECTOS DE INVERSION",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2822": {
+      "nombre": "SEM.INVESTIG.PROFUNDIZAC.TEORICA I",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "2823": {
+      "nombre": "SEM.INVESTIG.PROCESO INVESTIGAC.I",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "2904": {
+      "nombre": "SEM.INVEST.PROCESO INVESTIGAC.II",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "2905": {
+      "nombre": "SEM.INVEST.PROFUNDIZAC.TEORICA II",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "2906": {
+      "nombre": "SEM.INVEST.PROFUNDIZAC.TEORICA III",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2907": {
+      "nombre": "SEM.INVEST.PROCESO INVESTIGAC.III",
+      "horas_semana": 6,
+      "teoricas_semana": 0,
+      "practicas_semana": 6
+    },
+    "0010": {
+      "nombre": "COMERCIO EXTERIOR MEXICANO",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0011": {
+      "nombre": "ECONOMETRIA ESPACIAL",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0012": {
+      "nombre": "ECONOMIA DE INNOVACION",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0013": {
+      "nombre": "MICROFINANZAS",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0014": {
+      "nombre": "MODELOS BASADOS EN AGENTES",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0015": {
+      "nombre": "TEMAS SELECTOS DE ECONOMIA FINANCIER",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    }
+  }
+}

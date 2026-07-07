@@ -1,0 +1,715 @@
+{
+  "codigo": "20425",
+  "nombre": "Comunicación",
+  "plan": "Comunicacion",
+  "fecha_consulta": "2026-07-07T20:36:10.187Z",
+  "materias": {
+    "1111": {
+      "nombre": "Bases Teoricas de la Comunicacion",
+      "semestre": "1",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1112": {
+      "nombre": "Competencias Comunicativas",
+      "semestre": "1",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1113": {
+      "nombre": "Desarrollo del Pensamiento Critico",
+      "semestre": "1",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1114": {
+      "nombre": "Informacion en la Web y Presentaciones Multimedia",
+      "semestre": "1",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1115": {
+      "nombre": "Ingles  para Comunicadores I",
+      "semestre": "1",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1116": {
+      "nombre": "Sociedad Economia y Politica del Mexico Actual",
+      "semestre": "1",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1210": {
+      "nombre": "Aplicaciones Estadisticas para la Investigacion",
+      "semestre": "2",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1211": {
+      "nombre": "Desarrollo y Legislacion de los Medios de Comunicacion  I",
+      "semestre": "2",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1212": {
+      "nombre": "Generos Periodisticos I",
+      "semestre": "2",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1213": {
+      "nombre": "Historia Mundial Contemporanea",
+      "semestre": "2",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1214": {
+      "nombre": "Investigacion Documental",
+      "semestre": "2",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1215": {
+      "nombre": "Ingles para Comunicadores II",
+      "semestre": "2",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1310": {
+      "nombre": "Desarrollo y Legislacion de los Medios de Comunicacion II",
+      "semestre": "3",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1311": {
+      "nombre": "Generos Periodisticos II",
+      "semestre": "3",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1312": {
+      "nombre": "Ingles para Comunicadores III",
+      "semestre": "3",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1313": {
+      "nombre": "Investigacion Cuantitativa",
+      "semestre": "3",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1314": {
+      "nombre": "Mundializacion y Globalizacion",
+      "semestre": "3",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1315": {
+      "nombre": "Teoria Social",
+      "semestre": "3",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1416": {
+      "nombre": "Fotografia y Diseno Editorial por Computadora",
+      "semestre": "4",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1417": {
+      "nombre": "Generos Periodisticos III",
+      "semestre": "4",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1423": {
+      "nombre": "Ingles para Comunicadores IV",
+      "semestre": "4",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1424": {
+      "nombre": "Interaccion Comunicativa",
+      "semestre": "4",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1425": {
+      "nombre": "Investigacion Cualitativa",
+      "semestre": "4",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1426": {
+      "nombre": "Psicologia de la Comunicacion",
+      "semestre": "4",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1527": {
+      "nombre": "Edicion Digital de Audio",
+      "semestre": "5",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1528": {
+      "nombre": "Ingles para Comunicadores V",
+      "semestre": "5",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1529": {
+      "nombre": "Produccion Radiofonica",
+      "semestre": "5",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1530": {
+      "nombre": "Semiotica",
+      "semestre": "5",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1531": {
+      "nombre": "Taller de Guion I",
+      "semestre": "5",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1532": {
+      "nombre": "Teoria de la Expresion",
+      "semestre": "5",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1624": {
+      "nombre": "Estudios de Recepcion",
+      "semestre": "6",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1625": {
+      "nombre": "Ingles para Comunicadores VI",
+      "semestre": "6",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1626": {
+      "nombre": "Produccion Televisiva",
+      "semestre": "6",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1627": {
+      "nombre": "Taller de Guion II",
+      "semestre": "6",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1628": {
+      "nombre": "Teorias Contemporaneas de la Comunicacion",
+      "semestre": "6",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1629": {
+      "nombre": "Edicion Digital de Video",
+      "semestre": "6",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1734": {
+      "nombre": "Comunicacion Social y Agencias Informativas",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1735": {
+      "nombre": "Diseno y Edicion Digital de Publicaciones Periodisticas",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1736": {
+      "nombre": "Generos de Opinion I",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1737": {
+      "nombre": "Investigacion Periodistica",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1738": {
+      "nombre": "Periodismo Especializado",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1739": {
+      "nombre": "Cine y Literatura",
+      "semestre": "séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1740": {
+      "nombre": "Comunicacion Digital y Virtual",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1741": {
+      "nombre": "Guion Audiovisual Creacion y Critica",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1742": {
+      "nombre": "Produccion Multimedia",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1743": {
+      "nombre": "Radio Especializada",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1744": {
+      "nombre": "Comunicacion Politica",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1745": {
+      "nombre": "Etica y Derechos Humanos",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1746": {
+      "nombre": "Geopolitica y Economia",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1747": {
+      "nombre": "Opinion Publica",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1748": {
+      "nombre": "Sociologia de los Derechos Humanos",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1749": {
+      "nombre": "Asesoria en Comunicacion",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1750": {
+      "nombre": "Disenos Curriculares",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1751": {
+      "nombre": "Investigacion en Comunicacion y Educacion I",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1752": {
+      "nombre": "Investigacion Social Avanzada",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1753": {
+      "nombre": "Psicopedagogia",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1754": {
+      "nombre": "Auditoria en Comunicacion",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1755": {
+      "nombre": "Campanas de Comunicacion",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1756": {
+      "nombre": "Comportamiento Organizacional",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1757": {
+      "nombre": "Comunicacion e Imagen Corporativa",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1758": {
+      "nombre": "Teoria de la Comunicacion Organizacional",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1833": {
+      "nombre": "Generos de Opinion II",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1834": {
+      "nombre": "Gestion de Empresas Periodisticas",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1835": {
+      "nombre": "Periodismo en Medios Electronicos",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1836": {
+      "nombre": "Periodismo en Linea",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1837": {
+      "nombre": "Proyectos Editoriales",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1839": {
+      "nombre": "Arte y Comunicacion",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1840": {
+      "nombre": "Diseno de Proyectos en Tecnologias de la Informacion",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1841": {
+      "nombre": "Periodismo Digital",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1842": {
+      "nombre": "Periodismo y Literatura",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1843": {
+      "nombre": "Television Especializada",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1844": {
+      "nombre": "Comunicacion para el Desarrollo",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1845": {
+      "nombre": "Derechos de Grupos Vulnerables",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1846": {
+      "nombre": "Derechos Politicos y Participacion Ciudadana",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1847": {
+      "nombre": "Libertad de Expresion y Acceso a la Informacion",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1848": {
+      "nombre": "Poder Politico y Medios",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1849": {
+      "nombre": "Comunicacion Educativa",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1850": {
+      "nombre": "Comunicacion Intercultural",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1851": {
+      "nombre": "Comunicacion y Tecnologias Educativas",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1852": {
+      "nombre": "Investigacion en Comunicacion y  Educacion II",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1853": {
+      "nombre": "Procesos Didacticos",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1854": {
+      "nombre": "Estrategias de Marketing",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1855": {
+      "nombre": "Investigacion de Mercados y Audiencias",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1856": {
+      "nombre": "Mercadotecnia y Relaciones Publicas",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1857": {
+      "nombre": "Publicidad",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1858": {
+      "nombre": "Teoria de la Comunicacion Persuasiva",
+      "semestre": "Sexto",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0140": {
+      "nombre": "Nuevas Practicas Periodisticas",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "0136": {
+      "nombre": "Gestion de Politicas Publicas",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "0128": {
+      "nombre": "Correccion de Estilo",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "0131": {
+      "nombre": "Creatividad y Diseno Publicitario",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "0138": {
+      "nombre": "Liderazgo y Formacion de Equipos",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "0129": {
+      "nombre": "Consultoria en Comunicacion",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "0141": {
+      "nombre": "Posmodernidad y Literatura",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "0139": {
+      "nombre": "Narrativa Universal Contemporanea",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "0135": {
+      "nombre": "Fronteras genericas intertextos narrativos",
+      "semestre": "segundo",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "0133": {
+      "nombre": "Ecologia y Comunicacion",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "0137": {
+      "nombre": "Lenguaje y Discriminacion",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "0130": {
+      "nombre": "Comunicacion e Imagen en las Organizaciones",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "0134": {
+      "nombre": "Escenarios para la Comunicacion",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "0132": {
+      "nombre": "Diseno Instruccional",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "0127": {
+      "nombre": "Aprendizaje a Distancia",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    }
+  }
+}

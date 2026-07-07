@@ -1,0 +1,764 @@
+{
+  "codigo": "21011",
+  "nombre": "Filosofía",
+  "plan": "dgae-multigen:2255,4381,4382,4383,4384,1180+Filosofia+Filosofia-2023",
+  "fecha_consulta": "2026-07-07T20:44:44.299Z",
+  "materias": {
+    "1170": {
+      "nombre": "ANTROPOLOGIA FILOSOFICA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1171": {
+      "nombre": "ETICA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1172": {
+      "nombre": "FILOSOFIA GRIEGA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1173": {
+      "nombre": "LOGICA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1174": {
+      "nombre": "MONOGRAFICO I (PLATON)",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1175": {
+      "nombre": "TALLER REDACCION Y CRITICA FILOSOF",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1180": {
+      "nombre": "ANTROPOLOGIA FILOSOFICA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1181": {
+      "nombre": "ETICA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1182": {
+      "nombre": "FILOSOFIA GRIEGA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1183": {
+      "nombre": "LOGICA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1184": {
+      "nombre": "TALLER DE REDACC.CRITICA FILOSOFICA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1185": {
+      "nombre": "TEXTOS FILOSOFICOS I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1270": {
+      "nombre": "ANTROPOLOGIA FILOSOFICA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1271": {
+      "nombre": "ETICA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1272": {
+      "nombre": "FILOSOFIA HELENICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1273": {
+      "nombre": "LOGICA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1274": {
+      "nombre": "MONOGRAFICO II (ARISTOTELES)",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1275": {
+      "nombre": "RETORICA Y POETICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1280": {
+      "nombre": "ANTROPOLOGIA FILOSOFICA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1281": {
+      "nombre": "ETICA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1282": {
+      "nombre": "FILOSOFIA HELENISTICA Y ROMANA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1283": {
+      "nombre": "LOGICA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1284": {
+      "nombre": "RETORICA Y POETICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1285": {
+      "nombre": "TEXTOS FILOSOFICOS II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1370": {
+      "nombre": "ESTETICA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1371": {
+      "nombre": "EPISTEMOLOGIA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1372": {
+      "nombre": "FILOSOFIA MEDIEVAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1373": {
+      "nombre": "LOGICA III",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1375": {
+      "nombre": "ONTOLOGIA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1380": {
+      "nombre": "EPISTEMOLOGIA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1381": {
+      "nombre": "ESTETICA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1382": {
+      "nombre": "FILOSOFIA MEDIEVAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1383": {
+      "nombre": "LOGICA III",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1384": {
+      "nombre": "ONTOLOGIA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1385": {
+      "nombre": "TEXTOS FILOSOFICOS III",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1470": {
+      "nombre": "DIDACTICA DE LA FILOSOFIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1471": {
+      "nombre": "ESTETICA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1472": {
+      "nombre": "EPISTEMOLOGIA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1473": {
+      "nombre": "FILOSOFIA MODERNA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1474": {
+      "nombre": "FILOSOFIA EN MEXICO I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1475": {
+      "nombre": "MONOGRAFICO IV (DESCARTES)",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1480": {
+      "nombre": "EPISTEMOLOGIA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1481": {
+      "nombre": "ESTETICA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1482": {
+      "nombre": "DIDACTICA DE LA FILOSOFIA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1483": {
+      "nombre": "FILOSOFIA DEL RENACIMIENTO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1484": {
+      "nombre": "FILOSOFIA EN MEXICO I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1485": {
+      "nombre": "TEXTOS FILOSOFICOS IV",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1570": {
+      "nombre": "FILOSOFIA DE LA HISTORIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1571": {
+      "nombre": "FILOSOFIA EN MEXICO II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1572": {
+      "nombre": "FILOSOFIA MODERNA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1573": {
+      "nombre": "MONOGRAFICO V (KANT)",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1574": {
+      "nombre": "TEORIAS DE LA VERDAD",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1580": {
+      "nombre": "FILOSOFIA DE LA HISTORIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1581": {
+      "nombre": "FILOSOFIA EN MEXICO II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1582": {
+      "nombre": "FILOSOFIA MODERNA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1583": {
+      "nombre": "TEORIAS DE LA VERDAD",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1584": {
+      "nombre": "TEXTOS FILOSOFICOS V",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1670": {
+      "nombre": "FILOSOFIA DE LA CIENCIA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1671": {
+      "nombre": "FILOSOFIA DE LENGUAJE",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1672": {
+      "nombre": "FILOSOFIA MODERNA III",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1673": {
+      "nombre": "MONOGRAFICO VI (HEGEL)",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1674": {
+      "nombre": "ONTOLOGIA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1680": {
+      "nombre": "FILOSOFIA DE LA CIENCIA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1681": {
+      "nombre": "FILOSOFIA DEL LENGUAJE",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1682": {
+      "nombre": "FILOSOFIA MODERNA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1683": {
+      "nombre": "ONTOLOGIA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1684": {
+      "nombre": "TEXTOS FILOSOFICOS VI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1770": {
+      "nombre": "FILOSOFIA CONTEMPORANEA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1771": {
+      "nombre": "FILOSOFIA DE LA CIENCIA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1772": {
+      "nombre": "HERMENEUTICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1773": {
+      "nombre": "MONOGRAFICO VII (NIETZSCHE)",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1774": {
+      "nombre": "TEMAS SELECTOS I HERMENEUTICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1780": {
+      "nombre": "FILOSOFIA CONTEMPORANEA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1781": {
+      "nombre": "FILOSOFIA DE LA CIENCIA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1782": {
+      "nombre": "HERMENEUTICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1783": {
+      "nombre": "TEXTOS FILOSOFICOS VII",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1870": {
+      "nombre": "FILOSOFIA CONTEMPORANEA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1871": {
+      "nombre": "MONOGRAFICO VIII (HEIDEGGER)",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1872": {
+      "nombre": "TEMAS SELECTOS II EPIST. Y FIL.CIEN",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1873": {
+      "nombre": "TEMAS SELECTOS III FIL. DEL HOMBRE",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1874": {
+      "nombre": "TEMAS SELECTOS IV FIL. EN MEXICO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1880": {
+      "nombre": "FILOSOFIA CONTEMPORANEA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1881": {
+      "nombre": "TEXTOS FILOSOFICOS VIII",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1900": {
+      "nombre": "SEM.INVESTIGACION I (TEOR.FILOSOF)",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1901": {
+      "nombre": "SEM.INVESTIGACION I (FILOS.CULTURA)",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1902": {
+      "nombre": "SEM.INVESTIGACION I (FILOS.POLIT)",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1903": {
+      "nombre": "SEM.INVESTIGACION I (FILOS.CIENC.)",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1904": {
+      "nombre": "SEM.INVESTIGACION II (TEOR.FILOSOF)",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1905": {
+      "nombre": "SEM.INVESTIGACION II (FILOS.CULTURA)",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1906": {
+      "nombre": "SEM.INVESTIGACION II (FILOS.POLIT)",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1907": {
+      "nombre": "SEM.INVESTIGACION II (FILOS.CIENC.)",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1908": {
+      "nombre": "SEM.INVESTIGACION III (TEOR.FILOS.)",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1909": {
+      "nombre": "SEM.INVESTIGACION III (FILOS.CULTUR)",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1910": {
+      "nombre": "SEM.INVESTIGACION III (FILOS.POLIT)",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1911": {
+      "nombre": "SEM.INVESTIGACION III (FILOS.CIENC.)",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1912": {
+      "nombre": "SEM.INVESTIGACION IV (TEOR.FILOS.)",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1913": {
+      "nombre": "SEM.INVESTIGACION IV (FILOS.CULTURA)",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1914": {
+      "nombre": "SEM.INVESTIGACION IV (FILOS.POLIT)",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1915": {
+      "nombre": "SEM.INVESTIGACION IV (FILOS.CIENC.)",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0135": {
+      "nombre": "ESTUDIOS FILOSOFICOS DE GENERO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0136": {
+      "nombre": "VISIBIL.FILOSOFAS HISTORIA FILOSOFIA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0137": {
+      "nombre": "ETICA Y GENERO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0138": {
+      "nombre": "APROXIM.FILOSOF.CUERPO Y GENERO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0139": {
+      "nombre": "DECOLONIALIDAD E INTERSECCIONALIDAD",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0140": {
+      "nombre": "TEMAS SELEC.FILOSOFIA GRIEGA CLASICA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0141": {
+      "nombre": "TEMAS SELEC. FILOSOF.HELENIST.ROMANA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0142": {
+      "nombre": "TEMAS SELEC.FILOSOFIA MEDIEVAL",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0143": {
+      "nombre": "TEMAS SELEC.FILOSOFIA RENACIMIENTO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0144": {
+      "nombre": "TEMAS SELEC.DE FILOSOFIA MODERNA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0145": {
+      "nombre": "TEMAS SELEC.FILOSOFIA CONTEMPORANEA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0084": {
+      "nombre": "SEM. INVEST. I FILOSOF. DE LA CIENC",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0085": {
+      "nombre": "SEM. INVEST. I FILOSOFIA D CULTURA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0086": {
+      "nombre": "SEM. INVEST. I FILOSOFIA POLITICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0087": {
+      "nombre": "SEM.INVEST. I TEORIAS FILOSOFICAS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0088": {
+      "nombre": "SEM. INVEST.II FILOSOF. DE LA CIENC",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0089": {
+      "nombre": "SEM. INVEST. II FILOSOFIA D CULTURA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0090": {
+      "nombre": "SEM. INVEST. II FILOSOFIA POLITICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0091": {
+      "nombre": "SEM. INVEST. II TEORIAS FILOSOFICAS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0092": {
+      "nombre": "SEM. INVEST. III FILOSOF.DE LA CIENC",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0093": {
+      "nombre": "SEM. INVEST.III FILOSOFIA D CULTURA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0094": {
+      "nombre": "SEM. INVEST.III FILOSOFIA POLITICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0095": {
+      "nombre": "SEM. INVEST.III TEORIAS FILOSOFICAS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0096": {
+      "nombre": "SEM. INVEST.IV FILOSOF.DE LA CIENC",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0097": {
+      "nombre": "SEM. INVEST.IV FILOSOFIA D CULTURA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0098": {
+      "nombre": "SEM. INVEST.IV FILOSOFIA POLITICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0099": {
+      "nombre": "SEM. INVEST.IV TEORIAS FILOSOFICAS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    }
+  }
+}

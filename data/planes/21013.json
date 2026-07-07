@@ -1,0 +1,770 @@
+{
+  "codigo": "21013",
+  "nombre": "Lengua y Literatura Hispánicas",
+  "plan": "dgae-multigen:2271,4400,4401,4402,1156+Lengua_y_Literaturas_Hispanicas+Lengua_y_Literaturas_Hispanicas_2024",
+  "fecha_consulta": "2026-07-07T20:49:49.884Z",
+  "materias": {
+    "1155": {
+      "nombre": "ETIMOLOGIAS GRECOLATINAS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1156": {
+      "nombre": "INTRODUCCION A LA LINGUISTICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1157": {
+      "nombre": "PENSAMIENTO FILOSOFICO I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1158": {
+      "nombre": "TALLER DE REDACCION",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "1159": {
+      "nombre": "TEORIA E HISTORIA DEL ARTE I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1160": {
+      "nombre": "TECNICAS DE INVESTIGACION",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1255": {
+      "nombre": "FONETICA Y FONOLOGIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1256": {
+      "nombre": "LITERATURA ORIENTAL Y GRECOLATINA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1257": {
+      "nombre": "LATIN I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1258": {
+      "nombre": "PENSAMIENTO FILOSOFICO II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1259": {
+      "nombre": "TEORIA DE LA CREACION LITERARIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1260": {
+      "nombre": "TEORIA E HISTORIA DEL ARTE II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1355": {
+      "nombre": "LITERATURA ESPAÑOLA MEDIEVAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1356": {
+      "nombre": "LITERATURA EUROPEA MEDIEVAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1357": {
+      "nombre": "LATIN II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1358": {
+      "nombre": "LITERATURA Y SOCIEDAD",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1359": {
+      "nombre": "MORFOL.Y SINTAX.DE LA ORACION SIMPLE",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1360": {
+      "nombre": "TEORIA DE LA CRITICA LITERARIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1455": {
+      "nombre": "FILOLOGIA HISPANICA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1456": {
+      "nombre": "LITERATURA ESPAÑOLA S. ORO (S.XVI)",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1457": {
+      "nombre": "LITERATURA PREHISPANICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1458": {
+      "nombre": "LITERATURA EUROPEA RENACENTISTA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1459": {
+      "nombre": "RETORICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1460": {
+      "nombre": "SINTAXIS DE LA ORACION COMPUESTA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1555": {
+      "nombre": "FILOLOGIA HISPANICA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1556": {
+      "nombre": "INTRODUCCION A LA SEMANTICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1557": {
+      "nombre": "LITERATURA ESPAÑOLA S.ORO (S.XVII)",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1558": {
+      "nombre": "LITERATURA COLONIAL HISPANOAMERICANA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1559": {
+      "nombre": "LITERATURA EUROPEA MODERNA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1560": {
+      "nombre": "SEMIOTICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1655": {
+      "nombre": "LITERATURA ESPAÑOLA SIGLOS XVIII XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1656": {
+      "nombre": "LITERATURA HISPANOAMERIC.SIGLO XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1657": {
+      "nombre": "LITERATURA EUROPEA CONTEMPORAN. S.XX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1658": {
+      "nombre": "TALLER DE ANALISIS LINGUIST.D TEXTOS",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "1659": {
+      "nombre": "TALLER DE ANALISIS LITERARIO",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "1660": {
+      "nombre": "TEORIAS LINGUISTICAS I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1755": {
+      "nombre": "LITERATURA ESPAÑOLA DEL SIGLO XX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1756": {
+      "nombre": "LITERATURA HISPANOAMERICANA SIGLO XX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1757": {
+      "nombre": "MEDIOS DE COMUNICACION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1758": {
+      "nombre": "SEMINARI DE INVESTIGACION LINGUISTIC",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1759": {
+      "nombre": "SEMINARIO DE INVESTIGACION LITERARIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1760": {
+      "nombre": "TEORIAS LINGUISTICAS II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2049": {
+      "nombre": "TEM.SEL.FONETICA Y FONOLOGIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2100": {
+      "nombre": "ETIMOLOGIAS GRECOLATINAS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2101": {
+      "nombre": "FUNDAMENTOS DEL ARTE",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2102": {
+      "nombre": "INICIACION A LA ESCRITURA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2103": {
+      "nombre": "INTRODUCCION A LA LINGUISTICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2104": {
+      "nombre": "INTRODUC.A LOS ESTUDIOS LITERARIOS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2105": {
+      "nombre": "ORALIDAD Y ESCRITURA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2200": {
+      "nombre": "FONETICA Y FONOLOGIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2201": {
+      "nombre": "HISTORIA DEL ARTE",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2202": {
+      "nombre": "LATIN I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2203": {
+      "nombre": "LITERATURA ORIENTAL Y GRECOLATINA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2204": {
+      "nombre": "PANORAM.CRIT.LITER.SIGLO XX-XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2205": {
+      "nombre": "TECNICAS DE INVESTIGACION",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2300": {
+      "nombre": "ESTETICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2301": {
+      "nombre": "LATIN II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2302": {
+      "nombre": "LITERATURA ESPAÑOLA MEDIEVAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2303": {
+      "nombre": "LITERATURA EUROPEA MEDIEVAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2304": {
+      "nombre": "MORFOL.SINTAXIS DE ORACION SIMPLE",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2305": {
+      "nombre": "REDACCION ACADEMICA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2400": {
+      "nombre": "FILOLOGIA HISPANICA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2401": {
+      "nombre": "LITER.ESPAÑOLA SIGLOS ORO. SIGLO XVI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2402": {
+      "nombre": "LITERATURA EUROPEA RENACENTISTA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2403": {
+      "nombre": "LITERATURA PREHISPANICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2404": {
+      "nombre": "SINTAXIS DE LA ORACION COMPUESTA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2405": {
+      "nombre": "TALLER ANALISIS TEXTOS LITERARIOS",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2500": {
+      "nombre": "FILOLOGIA HISPANICA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2501": {
+      "nombre": "INTROD.SEMANTICA Y A LA LEXICOLOGIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2502": {
+      "nombre": "LITERATURA COLONIAL HISPANOAMERICANA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2503": {
+      "nombre": "LITER.ESPAÑOLA SIGLOS ORO. S.XVII",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2504": {
+      "nombre": "LITERATURA EUROPEA MODERNA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2505": {
+      "nombre": "RETORICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2600": {
+      "nombre": "DIDACTICA DE LA LENGUA Y LITERAT. I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2601": {
+      "nombre": "HISTORIOGRAFIA LINGUISTICA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2602": {
+      "nombre": "LITERATURA ESPAÑOLA SIGLO XVIII -XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2603": {
+      "nombre": "LITERATURA EUROPEA CONTEMPORANEA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2604": {
+      "nombre": "LITER.MEXIC.E HISPANOAMER.SIGLO XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2605": {
+      "nombre": "ESPAÑOL DE AMERICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2606": {
+      "nombre": "SEMIOTICA DEL TEXTO LITERARIO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2607": {
+      "nombre": "MEDIOS IMPRESOS Y DIGITALES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2700": {
+      "nombre": "DIDACTICA DE LA LENGUA Y LITERAT. II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2701": {
+      "nombre": "HISTORIOGRAFIA LINGUISTICA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2702": {
+      "nombre": "LITERATURA ESPAÑOLA SIGLOS XX Y XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2703": {
+      "nombre": "LITER.MEXIC.E HISPANOAMER.S.XX Y XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2704": {
+      "nombre": "SEMINARIO TITULACION I LINGUISTICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2705": {
+      "nombre": "SOCIOLINGUISTICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2706": {
+      "nombre": "SEMINARIO TITULACION I LITERATURA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2707": {
+      "nombre": "SOCIOCRITICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2708": {
+      "nombre": "EDICION DE TEXTOS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2709": {
+      "nombre": "SEMINARIO TITULACION I EDICION TEXTO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2800": {
+      "nombre": "SEMINARIO TITULACION II LINGUISTICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2801": {
+      "nombre": "TENDENCIAS MODERNAS DE LINGUISTICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2802": {
+      "nombre": "ANTROP.LINGUIST.ETNOLOG.COMUNCAC.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2803": {
+      "nombre": "ESPAÑOL DE MEXICO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2804": {
+      "nombre": "GRAMATICA PEDAGOGICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2805": {
+      "nombre": "HISTORIA DE LA LENGUA ESPAÑOLA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2806": {
+      "nombre": "LEXICOGRAFIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2807": {
+      "nombre": "LINGUISTICA  APLICADA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2808": {
+      "nombre": "LINGUISTICA COMPUTACIONAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2809": {
+      "nombre": "PLANEACION Y POLITICAS LINGUISTICAS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2810": {
+      "nombre": "PRAGMALINGUISTICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2811": {
+      "nombre": "PSICOLINGUISTICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2812": {
+      "nombre": "SEMINARIO TITULACION II LITERATURA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2813": {
+      "nombre": "LITERATURA LATINOAMERICANA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2814": {
+      "nombre": "ANALISIS Y HERMENEUTICA DE TEXTOS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2815": {
+      "nombre": "EL PERSON.FEMEN.LITER.SIGLOS XX-XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2816": {
+      "nombre": "LITERATURA COMPARADA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2817": {
+      "nombre": "LITERATURA RENACIMIENTO Y BARROCO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2818": {
+      "nombre": "LITERAT.LENGUAS INDIGENAS MEXICANAS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2819": {
+      "nombre": "LITERATURA MEDIEVAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2820": {
+      "nombre": "LITER.Y CINE DESDE PERSPEC.FEMENINA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2821": {
+      "nombre": "METRICA Y VERSIFICACION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2822": {
+      "nombre": "TALLER DE CREACION LITERARIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2823": {
+      "nombre": "TENDENCIAS MODERNAS DE LA LITERATURA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2824": {
+      "nombre": "SEMINARIO TITULACION II EDICION TEXT",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2825": {
+      "nombre": "TRABAJO EDITORIAL Y DE IMPRENTA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2826": {
+      "nombre": "CORRECCION DE ESTILO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2827": {
+      "nombre": "DIFUSION EDITORIAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2828": {
+      "nombre": "DISEÑO EDITORIAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2829": {
+      "nombre": "EDICION CRITICA DE TEXTOS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2830": {
+      "nombre": "EDICION DE TEXTOS EDUCATIVOS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2831": {
+      "nombre": "EDICION DE TEXTOS TRADUCIDOS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2832": {
+      "nombre": "EDICIONES DIGITALES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2833": {
+      "nombre": "ESCRITURA DEL GUION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2834": {
+      "nombre": "NARRATIVA MEDIATICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2835": {
+      "nombre": "PALEOGRAFIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    }
+  }
+}

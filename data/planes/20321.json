@@ -1,0 +1,582 @@
+{
+  "codigo": "20321",
+  "nombre": "Actuaría",
+  "plan": "endpoint:https://actuaria.acatlan.unam.mx",
+  "fecha_consulta": "2026-07-07T20:34:24.269Z",
+  "materias": {
+    "2031": {
+      "nombre": "ANALISIS MULTIVARIADO",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2032": {
+      "nombre": "ANALISIS DE REGRESION",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2033": {
+      "nombre": "DERIVADOS",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2034": {
+      "nombre": "ECONOMIA MATEMATICA II",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2036": {
+      "nombre": "FIANZAS",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2040": {
+      "nombre": "MATEMATICAS ACTUARIALES APLICAD",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2041": {
+      "nombre": "MUESTREO",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2042": {
+      "nombre": "MODELOS MICROECONOMETRICOS",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2045": {
+      "nombre": "ANALISIS ECONOMETRICO",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2046": {
+      "nombre": "AUDITORIA ACTUARIAL",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2049": {
+      "nombre": "EVALUACION DE PROYECTOS",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2051": {
+      "nombre": "FINANZAS INTERNACIONALES",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2052": {
+      "nombre": "MODELOS MACROECONOMETRICOS",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2053": {
+      "nombre": "PROCESOS ESTOCASTICOS II",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2056": {
+      "nombre": "SEGURO DE PERSONAS",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2057": {
+      "nombre": "ALGEBRA MODERNA",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2058": {
+      "nombre": "ANALISIS FUNCIONAL",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2059": {
+      "nombre": "ANALISIS MATEMATICO II",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2060": {
+      "nombre": "CONTABILIDAD DE SEGUROS",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2061": {
+      "nombre": "DEMOGRAFIA MATEMATICA II",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2062": {
+      "nombre": "ECONOMIA FINANCIERA",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2063": {
+      "nombre": "ESTADISTICA BAYESIANA",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2064": {
+      "nombre": "ESTADISTICA DE SEGUROS",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2065": {
+      "nombre": "FINANZAS MATEMATICAS",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2066": {
+      "nombre": "INVESTIGACION DE OPERACIONES II",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2067": {
+      "nombre": "MODELOS LINEALES GENERALIZADOS",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2068": {
+      "nombre": "REASEGURO",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2069": {
+      "nombre": "SIMULACION ESTOCASTICA",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2070": {
+      "nombre": "SISTEMAS DINAMICOS",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2071": {
+      "nombre": "TEMAS SELECTOS DE COMPUTACION",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2072": {
+      "nombre": "TEMAS SELECTOS DE FINANZAS",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2073": {
+      "nombre": "TEMAS SELECTOS DE MATEMATICAS",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2074": {
+      "nombre": "TEMAS SELECTOS DE PROBAB.Y ESTAD",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2075": {
+      "nombre": "TEMAS SELECTOS DE SEGUROS",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2076": {
+      "nombre": "TEORIA DE LA MEDIDA",
+      "semestre": "segundo",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2077": {
+      "nombre": "TEORIA DEL RIESGO II",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2078": {
+      "nombre": "VARIABLE COMPLEJA",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2111": {
+      "nombre": "CALCULO DIF. E INT. I",
+      "semestre": "1",
+      "horas_semana": 8,
+      "teoricas_semana": 8,
+      "practicas_semana": 0
+    },
+    "2115": {
+      "nombre": "ALGORITMOS Y PROGRAMACION",
+      "semestre": "1",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2116": {
+      "nombre": "GEOMETRIA ANALITICA I",
+      "semestre": "1",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "2117": {
+      "nombre": "SEGURO DE VIDA",
+      "semestre": "1",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "2118": {
+      "nombre": "ALGEBRA SUPERIOR I",
+      "semestre": "1",
+      "horas_semana": 6,
+      "teoricas_semana": 5,
+      "practicas_semana": 1
+    },
+    "2211": {
+      "nombre": "CALCULO DIF. E INT. II",
+      "semestre": "2",
+      "horas_semana": 8,
+      "teoricas_semana": 8,
+      "practicas_semana": 0
+    },
+    "2215": {
+      "nombre": "MATEMATICAS FINANCIERAS I",
+      "semestre": "3",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2217": {
+      "nombre": "ALGEBRA SUPERIOR II",
+      "semestre": "2",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "2218": {
+      "nombre": "BASES DE DATOS",
+      "semestre": "2",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2219": {
+      "nombre": "GEOMETRIA ANALITICA II",
+      "semestre": "2",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "2220": {
+      "nombre": "INGLES I",
+      "semestre": "2",
+      "horas_semana": 6,
+      "teoricas_semana": 0,
+      "practicas_semana": 6
+    },
+    "2221": {
+      "nombre": "PROBLEMAS SOCIOECON.MEXICO ACT.",
+      "semestre": "2",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "2222": {
+      "nombre": "SEGURO DE DAÑOS",
+      "semestre": "2",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "2311": {
+      "nombre": "CALCULO DIF. E INT. III",
+      "semestre": "3",
+      "horas_semana": 8,
+      "teoricas_semana": 8,
+      "practicas_semana": 0
+    },
+    "2312": {
+      "nombre": "MATEMATICAS FINANCIERAS II",
+      "semestre": "4",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2313": {
+      "nombre": "PROBABILIDAD I",
+      "semestre": "3",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2315": {
+      "nombre": "ALGEBRA LINEAL I",
+      "semestre": "3",
+      "horas_semana": 6,
+      "teoricas_semana": 5,
+      "practicas_semana": 1
+    },
+    "2316": {
+      "nombre": "CONTABILIDAD",
+      "semestre": "3",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "2317": {
+      "nombre": "INGLES II",
+      "semestre": "3",
+      "horas_semana": 6,
+      "teoricas_semana": 0,
+      "practicas_semana": 6
+    },
+    "2411": {
+      "nombre": "CALCULO DIF. E INT. IV",
+      "semestre": "4",
+      "horas_semana": 8,
+      "teoricas_semana": 8,
+      "practicas_semana": 0
+    },
+    "2412": {
+      "nombre": "ESTADISTICA I",
+      "semestre": "4",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2413": {
+      "nombre": "MATEMATICAS ACTUARIALES I",
+      "semestre": "5",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2415": {
+      "nombre": "ALGEBRA LINEAL II",
+      "semestre": "4",
+      "horas_semana": 6,
+      "teoricas_semana": 5,
+      "practicas_semana": 1
+    },
+    "2416": {
+      "nombre": "INGLES III",
+      "semestre": "Segundo",
+      "horas_semana": 6,
+      "teoricas_semana": 0,
+      "practicas_semana": 6
+    },
+    "2511": {
+      "nombre": "INVESTIGACION DE OPERACIONES I",
+      "semestre": "4",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2512": {
+      "nombre": "MATEMATICAS ACTUARIALES II",
+      "semestre": "6",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2513": {
+      "nombre": "PROBABILIDAD II",
+      "semestre": "segundo",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2515": {
+      "nombre": "ECUACIONES DIFERENCIALES",
+      "semestre": "5",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2516": {
+      "nombre": "FINANZAS CORPORATIVAS",
+      "semestre": "5",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "2517": {
+      "nombre": "INGLES IV",
+      "semestre": "5",
+      "horas_semana": 6,
+      "teoricas_semana": 0,
+      "practicas_semana": 6
+    },
+    "2612": {
+      "nombre": "ESTADISTICA II",
+      "semestre": "5",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2616": {
+      "nombre": "ANALISIS MATEMATICO I",
+      "semestre": "6",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "2617": {
+      "nombre": "APLICACION A LAS MATEMATIC.FINA",
+      "semestre": "6",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "2618": {
+      "nombre": "ECONOMIA MATEMATICA I",
+      "semestre": "6",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "2619": {
+      "nombre": "ESTADISTICA III",
+      "semestre": "6",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "2620": {
+      "nombre": "INGLES V",
+      "semestre": "Segundo",
+      "horas_semana": 6,
+      "teoricas_semana": 0,
+      "practicas_semana": 6
+    },
+    "2712": {
+      "nombre": "PROCESOS ESTOCASTICOS I",
+      "semestre": "6",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2713": {
+      "nombre": "ADMINISTRACION ACTUARIAL",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "2714": {
+      "nombre": "ANALISIS NUMERICO",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "2715": {
+      "nombre": "DEMOGRAFIA MATEMATICA I",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "2716": {
+      "nombre": "INGLES VI",
+      "semestre": "7",
+      "horas_semana": 6,
+      "teoricas_semana": 0,
+      "practicas_semana": 6
+    },
+    "2717": {
+      "nombre": "TEORIA DEL RIESGO I",
+      "semestre": "7",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2813": {
+      "nombre": "ADMINISTRACION DE RIESGOS",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "2814": {
+      "nombre": "MATEMATICAS ACTUARIALES PENSION",
+      "semestre": "8",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2815": {
+      "nombre": "SEMINARIO DE INVESTIGACION",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    }
+  }
+}

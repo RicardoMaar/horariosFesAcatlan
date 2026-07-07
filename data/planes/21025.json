@@ -1,0 +1,968 @@
+{
+  "codigo": "21025",
+  "nombre": "Pedagogía",
+  "plan": "dgae-multigen:2303,4526,4527,4528,4529,4530,4531,4532,1263,1264,1265,1266,1267,1268,1269+Pedagogia+Pedagogia2025",
+  "fecha_consulta": "2026-07-07T20:52:40.506Z",
+  "materias": {
+    "1129": {
+      "nombre": "DESARROLLO HUMANO Y PROFESIONAL REQ.",
+      "horas_semana": 2,
+      "teoricas_semana": 0,
+      "practicas_semana": 2
+    },
+    "1130": {
+      "nombre": "FUNDAMENTOS DE LA PEDAGOGIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1131": {
+      "nombre": "HISTORIA DE LA EDUCACION",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1132": {
+      "nombre": "INVESTIGACION DOCUMENTAL",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1133": {
+      "nombre": "PARADIGMAS PSICOLOGICOS Y EDUCACION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1134": {
+      "nombre": "PENSAM.POLIT.Y ECONOM.ANALIS.EDUCAC.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1135": {
+      "nombre": "DESARROLLO HUMANO Y PROFESIONAL",
+      "horas_semana": 2,
+      "teoricas_semana": 0,
+      "practicas_semana": 2
+    },
+    "1136": {
+      "nombre": "HISTORIA DE LA EDUCACION",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1137": {
+      "nombre": "INTROD.PENSAM.Y TEORIA PEDAGOGICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1138": {
+      "nombre": "INVESTIGACION DOCUMENTAL",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1139": {
+      "nombre": "PARADIGMAS PSICOLOGICOS EN EDUCACION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1140": {
+      "nombre": "PENSAM.POLIT.ECON.ANALIS.DE LA EDUC.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1141": {
+      "nombre": "PSICOPEDAGOGIA DE LA INFANCIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1232": {
+      "nombre": "FUNDAMENTOS DE EPISTEMOLOGIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1233": {
+      "nombre": "FUNDAMENTOS DE LA DIDACTICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1234": {
+      "nombre": "METODOL.CIENCIAS SOCIALES Y HUMANAS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1235": {
+      "nombre": "PENSAMIENTO PEDAGOGICO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1236": {
+      "nombre": "PSICOLOGIA DE LA INFANCIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1237": {
+      "nombre": "SOCIOLOGIA DE LA EDUCACION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1238": {
+      "nombre": "DIDACTICA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1239": {
+      "nombre": "FUNDAMENTOS DE EPISTEMOLOGIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1240": {
+      "nombre": "METODOL.CIENCIAS SOCS.Y LAS HUMANID.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1241": {
+      "nombre": "PENSAMIENTO Y TEORIA PEDAGOGICA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1242": {
+      "nombre": "PSICOPEDAGOGIA DE LA ADOLESCENCIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1243": {
+      "nombre": "SOCIOLOGIA DE LA EDUCACION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1350": {
+      "nombre": "EDUCACION EN AMERICA LATINA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1351": {
+      "nombre": "ESTADISTICA APLICADA A LA EDUCACION",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1352": {
+      "nombre": "HISTORIA DE LA EDUCACION EN MEXICO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1353": {
+      "nombre": "PENSAMIENTO PEDAGOGICO CONTEMPORANEO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1354": {
+      "nombre": "PROCESO DIDACTICO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1367": {
+      "nombre": "PSICOLOGIA DE LA ADOLESCENCIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1376": {
+      "nombre": "DIDACTICA II",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1377": {
+      "nombre": "EDUCACION EN AMERICA LATINA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1378": {
+      "nombre": "ESTADISTICA APLICAD.INVEST.EDUCATIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1379": {
+      "nombre": "HISTORIA DE LA EDUCACION EN MEXICO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1386": {
+      "nombre": "PENSAMIENTO Y TEORIA PEDAGOGICA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1387": {
+      "nombre": "PSICOPEDAGOGIA DE LAS PERSONAS ADULT",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1400": {
+      "nombre": "COMUNICACION EDUCATIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1401": {
+      "nombre": "EDUCACION PERMANENTE",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1446": {
+      "nombre": "COMUNICACION EDUCATIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1447": {
+      "nombre": "EDUCACION PERMANENTE",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1448": {
+      "nombre": "EVALUACION EDUCATIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1449": {
+      "nombre": "POLITICA EDUCATIVA DE MEXICO I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1450": {
+      "nombre": "PSICOLOGIA DEL ADULTO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1451": {
+      "nombre": "PSICOLOGIA SOCIAL Y EDUCACION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1476": {
+      "nombre": "EVALUACION EDUCATIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1477": {
+      "nombre": "FILOSOFIA DE LA EDUCACION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1478": {
+      "nombre": "PERSPECTIVA D GENERO EN LA EDUCACION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1479": {
+      "nombre": "PSICOLOGIA SOCIAL Y EDUCACION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1511": {
+      "nombre": "EDUCACION INTEGRAL DE LA SEXUALIDAD",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1512": {
+      "nombre": "GRUPOS Y PROCESOS EDUCATIVOS",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1513": {
+      "nombre": "POLITICAS EDUCATIVAS EN MEXICO I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1514": {
+      "nombre": "PSICOLOGIA EDUCATIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1515": {
+      "nombre": "TECNOLOGIA EDUCATIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1552": {
+      "nombre": "GRUPOS EN EDUCACION",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1553": {
+      "nombre": "METODOL.DE LA INVESTIGACION EDUCATIV",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1554": {
+      "nombre": "NUEVAS TECNOLOGIAS EDUCATIVAS",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1566": {
+      "nombre": "POLITICA EDUCATIVA DE MEXICO II",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1567": {
+      "nombre": "PSICOLOGIA EDUCATIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1611": {
+      "nombre": "ADMINISTRACION Y GESTION EDUCATIVAS",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1612": {
+      "nombre": "BASES PARA LA PRACTICA PROFESIONAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1613": {
+      "nombre": "EVALUACION CURRICULAR",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1614": {
+      "nombre": "METODOLOGIA DE LA INVESTIG.EDUCATIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1615": {
+      "nombre": "POLITICAS EDUCATIVAS EN MEXICO II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1653": {
+      "nombre": "ADMINISTRACION Y GESTION EDUCATIVAS",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1654": {
+      "nombre": "FILOSOFIA DE LA EDUCACION",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1665": {
+      "nombre": "FUNDAM.INTERVENC.PEDAGOGICA PROFESIO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1666": {
+      "nombre": "INVESTIGACION EDUCATIVA I",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1667": {
+      "nombre": "L CAPACITAC.EN EL CONTEXTO ADMINISTR",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1675": {
+      "nombre": "ANALISIS DE LA PRACTICA DOCENTE",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1676": {
+      "nombre": "INTRODUCCION A LA EDUCACION INCLUSIV",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1677": {
+      "nombre": "GESTION PEDAGOGICA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1678": {
+      "nombre": "PERSPECTIVAS DE LA ORIENTAC.EDUCATIV",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1679": {
+      "nombre": "PEDAGOGIA SOCIAL",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1710": {
+      "nombre": "DISEÑO CURRICULAR",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1711": {
+      "nombre": "FORTALECIMIENT.PRACT. PROFESIONAL I",
+      "horas_semana": 8,
+      "teoricas_semana": 2,
+      "practicas_semana": 6
+    },
+    "1712": {
+      "nombre": "INVESTIGACION EDUCATIVA I",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1713": {
+      "nombre": "PRACTICA PEDAGOGICA PROFESIONAL I",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "1714": {
+      "nombre": "PROBLEMAS ACTUAL.EDUCACION EN MEXICO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1748": {
+      "nombre": "FUNDAMENTOS Y PERSPECTIVAS CURRICULA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1749": {
+      "nombre": "INTERVENCION PEDAGOGICA PROFESION.I",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1750": {
+      "nombre": "INVESTIGACION EDUCATIVA II",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1751": {
+      "nombre": "PROBLEMAS ACTUALES EDUCACION MEXICO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1752": {
+      "nombre": "RECURSOS HUMANOS Y CAPACITACION",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1753": {
+      "nombre": "INVESTIGACION EN DOCENCIA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1754": {
+      "nombre": "CAPACIDADES Y NECES.EDUCAT.DIFERENTE",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1765": {
+      "nombre": "PLANEACION Y EVALUACION EDUCATIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1766": {
+      "nombre": "ORIENTACION ESCOLAR Y PROFESIONAL",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1767": {
+      "nombre": "TEMAS Y EJES DE LA PEDAGOGIA SOCIAL",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1803": {
+      "nombre": "DISEÑO AMBIENTES VIRTUALES EN EDUCAC",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1804": {
+      "nombre": "FORTALECIMIENT.PRACT. PROFESIONAL II",
+      "horas_semana": 8,
+      "teoricas_semana": 2,
+      "practicas_semana": 6
+    },
+    "1805": {
+      "nombre": "INVESTIGACION EDUCATIVA II",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1806": {
+      "nombre": "PRACTICA PEDAGOGICA PROFESIONAL II",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "1838": {
+      "nombre": "DISEÑO Y EVALUACION CURRICULAR",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1839": {
+      "nombre": "INTERVENCION PEDAGOGICA PROFESION.II",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1840": {
+      "nombre": "EVALUACION DE LA CAPACITACION",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1841": {
+      "nombre": "DISEÑO DE PROYECT.INVESTIG.Y DOCENC.",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1842": {
+      "nombre": "ESTRAT.INTERV.ATENDER.NECES.EDUC.DIF",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1843": {
+      "nombre": "DIRECC.INSTITUC.EDUC.E INNOVAC.ESCOL",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1844": {
+      "nombre": "ORIENTACION FAMILIAR",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1845": {
+      "nombre": "ALFABETIZACION PARA PARTICIP.SOCIAL",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1916": {
+      "nombre": "DETERMINANTES DE LA DOCENCIA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1917": {
+      "nombre": "CONTEXT.INSTITUC.E INSTITUY.DOCENCIA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1918": {
+      "nombre": "DESARROLLO PROYTOS.INNOVAC.DOCENC.",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1919": {
+      "nombre": "GESTION Y DESARROLLO INSTITUC.EDUCAT",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1920": {
+      "nombre": "PLANEACION Y EVALUACION EDUCATIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1921": {
+      "nombre": "DIRECCION E INNOVAC.INSTITUC.EDUCAT.",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1922": {
+      "nombre": "PARADIGM.EDUC.SOC. ESCEN.SUJET.PRACT",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1923": {
+      "nombre": "METODOL.AMBITOS PEDAGOGIA SOCIAL",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1924": {
+      "nombre": "EDUC.SOC.PARA PARTIC.DE LA CIUDADAN.",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1925": {
+      "nombre": "PERSPECTIVAS DE LA ORIENTACION EDUC.",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1926": {
+      "nombre": "ORIENT. ESCOLAR, VOCAC.Y PROFESIONAL",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1927": {
+      "nombre": "ORIENTACION FAMILIAR",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1928": {
+      "nombre": "ESTUDIOS CRITICOS DE GENERO FEMINISM",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1929": {
+      "nombre": "PEDAGOGIAS CRITICAS, GENERO-FEMINISM",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1930": {
+      "nombre": "PRACTICAS EDUCATIVAS PERSPECT.GENERO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1931": {
+      "nombre": "PSICOPEDAGOGIA Y EDUCACION INCLUSIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1932": {
+      "nombre": "LA INCLUSION DIFERENTES ESPAC.EDUCAT",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1933": {
+      "nombre": "ESTRATEG.INTERVENC.EDUCAC.INCLUSIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1934": {
+      "nombre": "LA CAPACITAC.CONTEXTO ADMINISTRACION",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1935": {
+      "nombre": "RECURSOS HUMANOS Y CAPACITACION",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1936": {
+      "nombre": "EVALUACION DE LA CAPACITACION",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0237": {
+      "nombre": "EDUCACION PARA LA COMUNICACION",
+      "horas_semana": 2,
+      "teoricas_semana": 1,
+      "practicas_semana": 1
+    },
+    "0238": {
+      "nombre": "ESTRATEGIAS DE ENSEÑANZA Y APRENDIZ.",
+      "horas_semana": 2,
+      "teoricas_semana": 1,
+      "practicas_semana": 1
+    },
+    "0239": {
+      "nombre": "GUIONES MULTIMEDIA EN EDUCACION",
+      "horas_semana": 2,
+      "teoricas_semana": 1,
+      "practicas_semana": 1
+    },
+    "0240": {
+      "nombre": "MATERIALES Y RECURSOS DIDACTICOS",
+      "horas_semana": 2,
+      "teoricas_semana": 1,
+      "practicas_semana": 1
+    },
+    "0241": {
+      "nombre": "ANTROPOLOGIA PEDAGOGICA",
+      "horas_semana": 2,
+      "teoricas_semana": 2,
+      "practicas_semana": 0
+    },
+    "0242": {
+      "nombre": "FILOSOFIA DE LA EDUCACION EN MEXICO",
+      "horas_semana": 2,
+      "teoricas_semana": 2,
+      "practicas_semana": 0
+    },
+    "0243": {
+      "nombre": "HERMENEUTICA PEDAGOGICA",
+      "horas_semana": 2,
+      "teoricas_semana": 2,
+      "practicas_semana": 0
+    },
+    "0244": {
+      "nombre": "HISTORIA DE LA EDUCACION AMERICA LAT",
+      "horas_semana": 2,
+      "teoricas_semana": 2,
+      "practicas_semana": 0
+    },
+    "0245": {
+      "nombre": "TEMAS SELECTOS DE HISTORIA D LA EDUC",
+      "horas_semana": 2,
+      "teoricas_semana": 2,
+      "practicas_semana": 0
+    },
+    "0246": {
+      "nombre": "ESTUDIO DE CASO",
+      "horas_semana": 2,
+      "teoricas_semana": 1,
+      "practicas_semana": 1
+    },
+    "0247": {
+      "nombre": "ESTUDIOS MONOGRAF.INVESTIG.EDUCATIVA",
+      "horas_semana": 2,
+      "teoricas_semana": 1,
+      "practicas_semana": 1
+    },
+    "0248": {
+      "nombre": "METODOS CUALITATIVOS INVEST.EDUCATIV",
+      "horas_semana": 2,
+      "teoricas_semana": 1,
+      "practicas_semana": 1
+    },
+    "0249": {
+      "nombre": "EVALUACION PSICOPEDAGOGICA",
+      "horas_semana": 2,
+      "teoricas_semana": 1,
+      "practicas_semana": 1
+    },
+    "0250": {
+      "nombre": "PROPUESTA PSICOPEDAGOGICAS EMERGENT",
+      "horas_semana": 2,
+      "teoricas_semana": 1,
+      "practicas_semana": 1
+    },
+    "0251": {
+      "nombre": "PSICOANALISIS EN EDUCACION",
+      "horas_semana": 2,
+      "teoricas_semana": 1,
+      "practicas_semana": 1
+    },
+    "0252": {
+      "nombre": "ECONOMIA DE LA EDUCACION",
+      "horas_semana": 2,
+      "teoricas_semana": 2,
+      "practicas_semana": 0
+    },
+    "0253": {
+      "nombre": "EDUCACION MULTICULTURAL",
+      "horas_semana": 2,
+      "teoricas_semana": 2,
+      "practicas_semana": 0
+    },
+    "0254": {
+      "nombre": "EDUCACION POPULAR Y COMUNITARIA",
+      "horas_semana": 2,
+      "teoricas_semana": 2,
+      "practicas_semana": 0
+    },
+    "0255": {
+      "nombre": "VIOLENCIAS EN ESCENARIOS ESCOLARES",
+      "horas_semana": 2,
+      "teoricas_semana": 2,
+      "practicas_semana": 0
+    },
+    "0256": {
+      "nombre": "ORIENTACION EDUCATIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0257": {
+      "nombre": "PEDAGOGIA COMPARADA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0258": {
+      "nombre": "PEDAGOGIA DE LOS VALORES",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0259": {
+      "nombre": "PLANEACION EDUCATIVA ESPACIOS INSTIT",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0260": {
+      "nombre": "TEMAS SELECTOS EMERGEN.PEDAGOG.EDUC",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0100": {
+      "nombre": "ESTUDIO DE CASO",
+      "horas_semana": 2,
+      "teoricas_semana": 1,
+      "practicas_semana": 1
+    },
+    "0105": {
+      "nombre": "DISEÑO ELABORAC.RECURSOS DIDACTICOS",
+      "horas_semana": 2,
+      "teoricas_semana": 1,
+      "practicas_semana": 1
+    },
+    "0106": {
+      "nombre": "EDUCACION PARA LA COMUNICACION",
+      "horas_semana": 2,
+      "teoricas_semana": 1,
+      "practicas_semana": 1
+    },
+    "0108": {
+      "nombre": "ANTROPOLOGIA PEDAGOGICA",
+      "horas_semana": 2,
+      "teoricas_semana": 2,
+      "practicas_semana": 0
+    },
+    "0109": {
+      "nombre": "FILOSOFIA DE LA EDUCACION EN MEXICO",
+      "horas_semana": 2,
+      "teoricas_semana": 2,
+      "practicas_semana": 0
+    },
+    "0110": {
+      "nombre": "HERMENEUTICA PEDAGOGICA",
+      "horas_semana": 2,
+      "teoricas_semana": 2,
+      "practicas_semana": 0
+    },
+    "0111": {
+      "nombre": "HISTORIA DE LA EDUCACION AMERICA LAT",
+      "horas_semana": 2,
+      "teoricas_semana": 2,
+      "practicas_semana": 0
+    },
+    "0119": {
+      "nombre": "ECONOMIA DE LA EDUCACION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0120": {
+      "nombre": "EDUCACION MULTICULTURAL",
+      "horas_semana": 2,
+      "teoricas_semana": 2,
+      "practicas_semana": 0
+    },
+    "0121": {
+      "nombre": "EDUCACION POPULAR Y COMUNITARIA",
+      "horas_semana": 2,
+      "teoricas_semana": 2,
+      "practicas_semana": 0
+    },
+    "0128": {
+      "nombre": "ORIENTACION EDUCATIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0129": {
+      "nombre": "PEDAGOGIA COMPARADA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0130": {
+      "nombre": "PEDAGOGIA CONTEMPORANEA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0131": {
+      "nombre": "PEDAGOGIA DE LOS VALORES",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    }
+  }
+}

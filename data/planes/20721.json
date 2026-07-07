@@ -1,135 +1,991 @@
 {
   "codigo": "20721",
   "nombre": "Derecho",
-  "plan": "Derecho2025",
-  "fecha_consulta": "2026-07-06T22:41:28.456Z",
+  "plan": "dgae-multigen:2301,4518,4519,4520,4521,4522,4523,4524,4525,1588+Derecho+Derecho2025",
+  "fecha_consulta": "2026-07-07T20:40:39.470Z",
   "materias": {
+    "1102": {
+      "nombre": "HIST.D.LAS IDEAS POL.Y ECO.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1105": {
+      "nombre": "DERECHO ROMANO I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1106": {
+      "nombre": "INTRODUCC.AL ESTUDIO DEL DERECHO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1107": {
+      "nombre": "SOCIOLOGIA Y DERECHO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1108": {
+      "nombre": "TIC APLICABLES AL DERECHO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
     "1109": {
-      "nombre": "Derecho de las Tecnologias",
-      "semestre": "Primero",
-      "creditos": 5,
+      "nombre": "DERECHO DE LAS TECNOLOGIAS",
       "horas_semana": 4,
       "teoricas_semana": 1,
       "practicas_semana": 3
     },
     "1110": {
-      "nombre": "Historia de la Ideas Politicas y Economicas",
-      "semestre": "Primero",
-      "creditos": 8,
+      "nombre": "HISTORIA DE LAS IDEAS POLITIC-ECONOM",
       "horas_semana": 4,
       "teoricas_semana": 4,
       "practicas_semana": 0
     },
     "1111": {
-      "nombre": "Introduccion al Estudio del Derecho",
-      "semestre": "Primero",
-      "creditos": 8,
+      "nombre": "INTRODUCCION AL ESTUDIO DEL DERECHO",
       "horas_semana": 4,
       "teoricas_semana": 4,
       "practicas_semana": 0
     },
     "1112": {
-      "nombre": "Perspectiva de Genero",
-      "semestre": "Primero",
-      "creditos": 8,
+      "nombre": "PERSPECTIVA DE GENERO",
       "horas_semana": 4,
       "teoricas_semana": 4,
       "practicas_semana": 0
     },
     "1113": {
-      "nombre": "Sociologia y Derecho",
-      "semestre": "Primero",
-      "creditos": 8,
+      "nombre": "SOCIOLOGIA Y DERECHO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1202": {
+      "nombre": "TEORIA DEL ESTADO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1203": {
+      "nombre": "TEORIA DEL DERECHO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1205": {
+      "nombre": "DERECHO ROMANO II",
+      "horas_semana": 6,
+      "teoricas_semana": 3,
+      "practicas_semana": 3
+    },
+    "1206": {
+      "nombre": "ETICA JURIDICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1207": {
+      "nombre": "PERSONAS Y BIENES",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1208": {
+      "nombre": "TEORIA ECONOMICA",
       "horas_semana": 4,
       "teoricas_semana": 4,
       "practicas_semana": 0
     },
     "1209": {
-      "nombre": "Derecho Romano",
-      "semestre": "Segundo",
-      "creditos": 10,
+      "nombre": "DERECHO ROMANO",
       "horas_semana": 6,
       "teoricas_semana": 4,
       "practicas_semana": 2
     },
     "1210": {
-      "nombre": "Etica Juridica",
-      "semestre": "Segundo",
-      "creditos": 8,
+      "nombre": "ETICA JURIDICA",
       "horas_semana": 4,
       "teoricas_semana": 4,
       "practicas_semana": 0
     },
     "1211": {
-      "nombre": "Metodos y Tecnicas de Investigacion Juridica",
-      "semestre": "Segundo",
-      "creditos": 5,
+      "nombre": "METODOS Y TECNICAS INVESTIG.JURIDICA",
       "horas_semana": 4,
       "teoricas_semana": 1,
       "practicas_semana": 3
     },
     "1212": {
-      "nombre": "Teoria del Derecho",
-      "semestre": "Segundo",
-      "creditos": 8,
+      "nombre": "TEORIA DEL DERECHO",
       "horas_semana": 4,
       "teoricas_semana": 4,
       "practicas_semana": 0
     },
     "1213": {
-      "nombre": "Teoria del Estado",
-      "semestre": "Segundo",
-      "creditos": 8,
+      "nombre": "TEORIA DEL ESTADO",
       "horas_semana": 4,
       "teoricas_semana": 4,
       "practicas_semana": 0
     },
     "1214": {
-      "nombre": "Teoria Economica",
-      "semestre": "Segundo",
-      "creditos": 8,
+      "nombre": "TEORIA ECONOMICA",
       "horas_semana": 4,
       "teoricas_semana": 4,
       "practicas_semana": 0
     },
+    "1300": {
+      "nombre": "TEORIA DEL PROCESO",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1305": {
+      "nombre": "DERECHO ECONOMICO",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1306": {
+      "nombre": "TEORIA DE LA CONSTITUCION",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1307": {
+      "nombre": "TEORIA DE LA LEY PENAL Y EL DELITO",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1308": {
+      "nombre": "TEORIA GENERAL DE LAS OBLIGACIONES",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
     "1309": {
-      "nombre": "Derecho Ambiental",
-      "semestre": "Tercero",
-      "creditos": 5,
+      "nombre": "DERECHO AMBIENTAL",
       "horas_semana": 4,
       "teoricas_semana": 1,
       "practicas_semana": 3
     },
     "1310": {
-      "nombre": "Derecho Constitucional I",
-      "semestre": "Tercero",
-      "creditos": 12,
+      "nombre": "DERECHO CONSTITUCIONAL I",
       "horas_semana": 6,
       "teoricas_semana": 6,
       "practicas_semana": 0
     },
     "1311": {
-      "nombre": "Derecho Penal I",
-      "semestre": "Tercero",
-      "creditos": 12,
+      "nombre": "DERECHO PENAL I",
       "horas_semana": 6,
       "teoricas_semana": 6,
       "practicas_semana": 0
     },
     "1314": {
-      "nombre": "Filosofia del Derecho",
-      "semestre": "Tercero",
-      "creditos": 11,
+      "nombre": "FILOSOFIA DEL DERECHO",
       "horas_semana": 6,
       "teoricas_semana": 5,
       "practicas_semana": 1
     },
     "1315": {
-      "nombre": "Personas y Bienes",
-      "semestre": "Tercero",
-      "creditos": 10,
+      "nombre": "PERSONAS Y BIENES",
       "horas_semana": 6,
       "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1405": {
+      "nombre": "ARGUMENTACION JURIDICA",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "1406": {
+      "nombre": "CONTRATOS CIVILES",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1407": {
+      "nombre": "DERECHO CONSTITUCIONAL MEXICANO",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1408": {
+      "nombre": "DELITOS EN PARTICULAR",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1409": {
+      "nombre": "DERECHO ADMINISTRATIVO I",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1410": {
+      "nombre": "DERECHO CONSTITUCIONAL II",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1411": {
+      "nombre": "DERECHO PENAL II",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1412": {
+      "nombre": "TEORIA DEL PROCESO",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1413": {
+      "nombre": "TEORIA GENERAL DE LAS OBLIGACIONES",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1503": {
+      "nombre": "DERECHO ADMINISTRATIVO I",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1505": {
+      "nombre": "CONCEPTOS, SUJETOS Y ACTOS D COMER.",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1506": {
+      "nombre": "DERECHO ADMINISTRATIVO II",
+      "horas_semana": 6,
+      "teoricas_semana": 3,
+      "practicas_semana": 3
+    },
+    "1507": {
+      "nombre": "FAMILIA Y SUCESIONES",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1508": {
+      "nombre": "PROPIEDAD INTELECTUAL",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1509": {
+      "nombre": "CONTRATOS CIVILES",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1510": {
+      "nombre": "DERECHO ADMINISTRATIVO II",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1511": {
+      "nombre": "DERECHOS HUMANOS Y SUS GARANTIAS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1512": {
+      "nombre": "DERECHO INTERNACIONAL PUBLICO",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1513": {
+      "nombre": "DERECHO PROCESAL PENAL",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1605": {
+      "nombre": "DERECHOS HUMANOS Y GARANTIAS CONST.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1606": {
+      "nombre": "DERECHO FISCAL",
+      "horas_semana": 6,
+      "teoricas_semana": 3,
+      "practicas_semana": 3
+    },
+    "1607": {
+      "nombre": "DERECHO INTERNACIONAL PRIVADO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1608": {
+      "nombre": "TITULOS Y OPERACIONES DE CREDITO",
+      "horas_semana": 6,
+      "teoricas_semana": 3,
+      "practicas_semana": 3
+    },
+    "1609": {
+      "nombre": "AMPARO",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1610": {
+      "nombre": "DERECHO INTERNACIONAL PRIVADO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1611": {
+      "nombre": "DERECHO MERCANTIL I",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1612": {
+      "nombre": "DERECHO PROCESAL ADMINISTRATIVO",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1613": {
+      "nombre": "FAMILIA Y SUCESIONES",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1705": {
+      "nombre": "AMPARO",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1706": {
+      "nombre": "CONTRATOS MERCANTILES",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1707": {
+      "nombre": "DERECHO DEL TRABAJO. PARTE SUSTANT.",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1708": {
+      "nombre": "DERECHO DE LA SEGURIDAD SOCIAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1709": {
+      "nombre": "DERECHO PROCESAL CIVIL",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1710": {
+      "nombre": "DERECHO DEL TRABAJO PARTE SUSTANTIVA",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1711": {
+      "nombre": "DERECHO ECONOMICO",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1712": {
+      "nombre": "DERECHO PROCESAL CIVIL",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1713": {
+      "nombre": "DERECHO PROCESAL DE AMPARO",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1714": {
+      "nombre": "DERECHO MERCANTIL II",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1800": {
+      "nombre": "DERECHO INTERNACIONAL PUBLICO",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1803": {
+      "nombre": "FILOSOFIA DEL DERECHO",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1805": {
+      "nombre": "DERECHO PROCESAL ADMINISTRATIVO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1806": {
+      "nombre": "DERECHO PROCESAL DE AMPARO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1807": {
+      "nombre": "DERECHO PROCESAL DEL TRABAJO",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1808": {
+      "nombre": "DERECHO PROCESAL PENAL",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1809": {
+      "nombre": "JUICIOS ESPECIALES CIVILES",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1810": {
+      "nombre": "DERECHO FISCAL",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1811": {
+      "nombre": "DERECHO PROCESAL DEL TRABAJO",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1812": {
+      "nombre": "PROPIEDAD INTELECTUAL",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1813": {
+      "nombre": "LA ADMINISTRACION PUBLICA EN MEXICO",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1814": {
+      "nombre": "LA CONTRATACION PUBLICA",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1815": {
+      "nombre": "DERECHO DE LA COMPETENCIA ECONOMICA",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1816": {
+      "nombre": "REGIMENES FISCALES PERSONAS FISICAS",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1817": {
+      "nombre": "CRIMINOLOGIA",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1819": {
+      "nombre": "DELITOS PREVISTOS LEYES ESPECIALES",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1820": {
+      "nombre": "DCHOS.HUMS.GARANTS.MATERIA FAMILIAR",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1821": {
+      "nombre": "JUICIOS ESPECIALES CIVILES",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1822": {
+      "nombre": "DERECHO NOTARIAL-CORREDURIA PUBLICA",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1823": {
+      "nombre": "SOCIEDADES MERCANTILES",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1824": {
+      "nombre": "DERECHO DE LOS TRATADOS",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1825": {
+      "nombre": "DERECHO INTERNAL.DE LOS DCHOS.HUMS.",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1826": {
+      "nombre": "DERECHO BUROCRATICO",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1827": {
+      "nombre": "DERECHO DE LA SEGURIDAD SOCIAL",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1828": {
+      "nombre": "DERECHO PARLAMENTARIO",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1829": {
+      "nombre": "DERECHO PROCESAL CONSTITUCIONAL",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1916": {
+      "nombre": "PRACTICA FORENSE CIVIL",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "1917": {
+      "nombre": "PRACTICA FORENSE FAMILIAR",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "1918": {
+      "nombre": "PRACTICA FORENSE LABORAL",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "1919": {
+      "nombre": "PRACTICA FORENSE PENAL",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "1921": {
+      "nombre": "PRACTICA FORENSE DE AMPARO",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "1922": {
+      "nombre": "PRACTICA FORENSE FISCAL Y ADMVA.",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "1923": {
+      "nombre": "PRACTICA FORENSE MERCANTIL",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "1924": {
+      "nombre": "SEMINARIO DE INVESTIGACION JURIDICA",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1925": {
+      "nombre": "DERECHO DISCIPLINARIO",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1926": {
+      "nombre": "SISTEMA DE CONTROL DE LA ADMON. PUBL",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1927": {
+      "nombre": "PRACTICA FORENSE FISCAL-ADMINISTRAT.",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1928": {
+      "nombre": "SIST.DEFENSA USUARIOS Y LOS CONSUMID",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1929": {
+      "nombre": "MEDICINA FORENSE",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1930": {
+      "nombre": "PRACTICA FORENSE PENAL",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1931": {
+      "nombre": "DERECHO PROCESAL FAMILIAR",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1932": {
+      "nombre": "PRACTICA FORENSE CIVIL",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1933": {
+      "nombre": "DERECHO CONCURSAL",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1934": {
+      "nombre": "DERECHO PROCESAL MERCANTIL",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1935": {
+      "nombre": "DERECHO DIPLOMATICO Y CONSULAR",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1936": {
+      "nombre": "DERECHO INTERNACIONAL HUMANITARIO",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1937": {
+      "nombre": "DERECHO COLECTIVO DEL TRABAJO",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1938": {
+      "nombre": "PRACTICA FORENSE LABORAL",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1939": {
+      "nombre": "DERECHO PROCESAL ELECTORAL",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1940": {
+      "nombre": "POLITICA EN EL MEXICO CONTEMPORANEO",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "0009": {
+      "nombre": "CONTRATOS MERCANTILES",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0010": {
+      "nombre": "DERECHO MARITIMO",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0019": {
+      "nombre": "DERECHO PENITENCIARIO",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0020": {
+      "nombre": "EXPRESION JURIDICA ORAL Y ESCRITA",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0029": {
+      "nombre": "FINANZAS PUBLICAS",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0030": {
+      "nombre": "PLANEAC.POLITIC.PUBLICAS MUNICIPALES",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0039": {
+      "nombre": "PRACTICA FORENSE DE AMPARO",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0040": {
+      "nombre": "REGIMEN JURIDICO DE LOS PARTIDOS POL",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0049": {
+      "nombre": "COMPLIANCE EMPRESARIAL",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0050": {
+      "nombre": "CRIMINALISTICA",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0059": {
+      "nombre": "DERECHO AGRARIO",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0060": {
+      "nombre": "DERECHO BANCARIO Y BURSATIL",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0069": {
+      "nombre": "DERECHO CORPORATIVO",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0070": {
+      "nombre": "DCHOS.HUMS.-AMPARO EN MATERIA PENAL",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0079": {
+      "nombre": "DERECHO INFORMATICO",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0152": {
+      "nombre": "DERECHO MUNICIPAL",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0189": {
+      "nombre": "LITIGIO INTERNACIONAL",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0190": {
+      "nombre": "MEDIOS ALTERNOS DE SOLUCION CONFLICT",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0191": {
+      "nombre": "MEDIOS PACIF.SOLUC.CONTROV.INTERNALS",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0192": {
+      "nombre": "OBLIGACIONES Y CONTRATOS",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0193": {
+      "nombre": "POLITICA CRIMINAL",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0194": {
+      "nombre": "PROCESO Y CAMPAÑA ELECTORAL",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0195": {
+      "nombre": "REGIMEN JURIDICO DEL COMERCIO EXTER.",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0196": {
+      "nombre": "SEGURIDAD PUBLICA",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "0098": {
+      "nombre": "CRIMINALISTICA",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "0099": {
+      "nombre": "CRIMINOLOGIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0100": {
+      "nombre": "DELITOS PREVISTOS EN LEYES ESPEC.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0101": {
+      "nombre": "DERECHO AGRARIO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0102": {
+      "nombre": "DERECHO AMBIENTAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0103": {
+      "nombre": "DERECHO BANCARIO Y BURSATIL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0104": {
+      "nombre": "DERECHO CONCURSAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0105": {
+      "nombre": "DERECHO DE LOS TRATADOS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0106": {
+      "nombre": "DERECHO ELECTORAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0107": {
+      "nombre": "DERECHO EMPRESARIAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0109": {
+      "nombre": "DERECHO INFORMATICO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0110": {
+      "nombre": "DERECHO LABORAL BUROCRATICO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0111": {
+      "nombre": "DERECHO MUNICIPAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0112": {
+      "nombre": "DERECHO NOTARIAL Y REGISTRAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0113": {
+      "nombre": "DERECHO PENITENCIARIO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0114": {
+      "nombre": "DERECHO PROCESAL ELECTORAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0117": {
+      "nombre": "MEDICINA FORENSE",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0119": {
+      "nombre": "REGIMEN JURIDICO DEL COMERCIO EXT.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0159": {
+      "nombre": "SIST.DEFENSA DSHOS.USUAR.CONSUMID.",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "0182": {
+      "nombre": "DERECHO MARITIMO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
       "practicas_semana": 2
     }
   }

@@ -15,12 +15,11 @@ const GrupoItem = React.memo(({
 }) => {
   const id = `${materia.clave}-${grupo.grupo}`;
 
-  // Anomalía de carga a nivel de grupo (horas del horario != plan de estudios / demás grupos)
+  // Anomalía de carga a nivel de grupo (horas del horario != plan de estudios / demás grupos).
+  // El mensaje viene ya armado desde el detector (backend); no se reconstruye aquí.
   const anomaliaMateria = useHorariosStore(state => state.anomaliasData?.[materia.clave]);
   const grupoAnomalo = anomaliaMateria?.grupos_afectados?.find(g => g.grupo === grupo.grupo);
-  const mensajeAnomalia = grupoAnomalo
-    ? `Posible error. Este grupo marca ${grupoAnomalo.horas_semana} h a la semana cuando deberían ser ${anomaliaMateria.esperado_horas_semana}. Verifícalo antes de inscribirte.`
-    : null;
+  const mensajeAnomalia = grupoAnomalo?.mensaje ?? null;
 
   const materiaConGrupo = {
     id,
@@ -86,12 +85,8 @@ const GrupoItem = React.memo(({
               title={mensajeAnomalia}
               aria-label={mensajeAnomalia}
               onClick={(e) => e.stopPropagation()}
-              className="inline-flex items-center justify-center w-4 h-4 rounded-full text-[10px] leading-none cursor-help select-none flex-shrink-0"
-              style={{
-                background: 'var(--danger-soft)',
-                border: '1px solid var(--danger)',
-                color: 'var(--danger-text)'
-              }}
+              className="inline-flex items-center justify-center text-xs leading-none cursor-help select-none flex-shrink-0"
+              style={{ color: 'var(--danger)' }}
             >
               ⚠
             </span>

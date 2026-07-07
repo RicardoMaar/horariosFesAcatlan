@@ -1,0 +1,812 @@
+{
+  "codigo": "20423",
+  "nombre": "Sociología",
+  "plan": "dgae-multigen:2163,4233,4234,4235,4236,1144+Sociologia+Comunicacion-Social-22",
+  "fecha_consulta": "2026-07-07T20:55:30.421Z",
+  "materias": {
+    "1117": {
+      "nombre": "ECONOMIA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1118": {
+      "nombre": "HISTORIA MUNDIAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1119": {
+      "nombre": "INTRODUCCION A LA EPISTEMOLOGIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1120": {
+      "nombre": "TALLER DE REDACC.INVEST.DOCUMENTAL",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1121": {
+      "nombre": "TEORIA POLITICA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1122": {
+      "nombre": "TEORIA SOCIAL I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1217": {
+      "nombre": "ECONOMIA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1218": {
+      "nombre": "ESTADIST.APLIC.CIENCIAS SOCIALES I",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1219": {
+      "nombre": "HISTORIA DE AMERICA LATINA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1220": {
+      "nombre": "METODOLOGIA DE LAS CIENCIAS SOCIALES",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1221": {
+      "nombre": "TEORIA POLITICA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1222": {
+      "nombre": "TEORIA SOCIAL II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1317": {
+      "nombre": "ESTADIS.APLIC.CIENCIAS SOCIALES II",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1318": {
+      "nombre": "ESTUDIOS DE GENERO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1319": {
+      "nombre": "METODOLOGIA CUANTITATIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1320": {
+      "nombre": "PSICOL.SOCIAL DE GPOS.INSTITUCIONES",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1327": {
+      "nombre": "SOCIEDAD, ECONOMIA-POLIT. MEXICO I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1328": {
+      "nombre": "TEORIA SOCIAL III",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1427": {
+      "nombre": "ELEMENT.MUESTR.APLIC.CIENCIAS SOCS.",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1428": {
+      "nombre": "METODOLOGIA CUALITATIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1429": {
+      "nombre": "SOCIEDAD, ECONOMIA-POLIT. MEXICO II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1442": {
+      "nombre": "TEORIA ANTROPOLOGICA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1443": {
+      "nombre": "TEORIA SOCIAL IV",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1544": {
+      "nombre": "ANALISIS DEL MUNDO CONTEMPORANEO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1545": {
+      "nombre": "APLICAC. MATEMATICAS A LA SOCIOLOGIA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1546": {
+      "nombre": "DERECHO E INSTITUCIONES JURIDICAS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1547": {
+      "nombre": "TEORIA ANTROPOLOGICA II",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1548": {
+      "nombre": "TEORIA SOCIAL V",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1641": {
+      "nombre": "SOCIODEMOGRAFIA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1642": {
+      "nombre": "SOCIOLOGIA AGRARIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1643": {
+      "nombre": "SOCIOLOGIA POLITICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1644": {
+      "nombre": "SOCIOLOGIA URBANA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1645": {
+      "nombre": "TEORIA SOCIAL VI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1773": {
+      "nombre": "TALLER DE INVESTIGACION",
+      "horas_semana": 3,
+      "teoricas_semana": 0,
+      "practicas_semana": 3
+    },
+    "1774": {
+      "nombre": "TEORIA SOCIAL VII",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1775": {
+      "nombre": "SOCIEDAD, VIOLENCIA-FENOM. DELICTIVO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1776": {
+      "nombre": "SOCIOANALISIS INSTITUCIONAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1777": {
+      "nombre": "ESPACIO Y CIUDAD",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1778": {
+      "nombre": "PUEBLOS ORIGINARIOS-DIVERSID.CULTUR",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1779": {
+      "nombre": "MOVIMIENTOS Y ACTORES SOCIALES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1780": {
+      "nombre": "TEORIA POLITICA CONTEMPORANEA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1781": {
+      "nombre": "FILOSOFIA DE LA CULTURA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1782": {
+      "nombre": "PSICOANALISIS Y SOCIEDAD",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1867": {
+      "nombre": "SEMINARIO DE INVESTIGACION I",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1868": {
+      "nombre": "TEORIA SOCIAL VIII",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1869": {
+      "nombre": "POLITICA CRIMINAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1870": {
+      "nombre": "TEORIA SOCIAL Y CRIMINOLOGIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1871": {
+      "nombre": "NORMATIV.TERRITOR.AGRAR-URBAN.MEXICO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1872": {
+      "nombre": "SOCIOLOGIA AMBIENTAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1873": {
+      "nombre": "PROSPECTIVA POLITICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1874": {
+      "nombre": "SISTEMAS POLITICOS CONTEMPORANEOS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1875": {
+      "nombre": "SOCIOLOGIA DE LA EDUCACION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1876": {
+      "nombre": "SOCIOLOGIA DEL ARTE",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1932": {
+      "nombre": "SEMINARIO DE INVESTIGACION II",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1933": {
+      "nombre": "TEORIA SOCIAL IX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1934": {
+      "nombre": "SISTEMA DE JUSTICIA PENAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1935": {
+      "nombre": "SOCIOLOGIA Y DERECHOS HUMANOS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1936": {
+      "nombre": "ESTUDIOS REGIONALES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1937": {
+      "nombre": "SISTEMAS URBANOS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1938": {
+      "nombre": "PARTIDOS POLIT.-PROCES.ELECT.MEXICO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1939": {
+      "nombre": "POLITICAS PUBLICAS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1940": {
+      "nombre": "SOCIOLOG.COMUNIC.Y NVAS. TECNOLOGIAS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1941": {
+      "nombre": "SOCIOLOGIA DE LA RELIGION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2042": {
+      "nombre": "ESPACIO Y CIUDAD",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2043": {
+      "nombre": "FILOSOFIA DE LA CULTURA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2044": {
+      "nombre": "MOVIMIENTOS Y ACTORES SOCIALES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2045": {
+      "nombre": "SOCIOLOGIA Y CRIMINOLOGIA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2046": {
+      "nombre": "SOCIOLOGIA DE LA COMUNICACION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2047": {
+      "nombre": "SOCIOLOGIA DEL ARTE",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2048": {
+      "nombre": "SOCIOLOGIA DE LA EDUCACION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2049": {
+      "nombre": "TEORIA POLITICA CONTEMPORANEA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2050": {
+      "nombre": "PROSPECTIVA POLITICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2051": {
+      "nombre": "SOCIOANALISIS DE LA INSTITUC PENAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2052": {
+      "nombre": "SOCIOLOGIA DEL CONOCIMIENTO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2053": {
+      "nombre": "SISTEMAS POLITICOS CONTEMPORANEOS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2054": {
+      "nombre": "SISTEMAS URBANOS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2055": {
+      "nombre": "SOCIOLOGIA Y CRIMINOLOGIA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2056": {
+      "nombre": "TEORIA LINGUISTICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2057": {
+      "nombre": "TEORIAS CRITICAS DE LA MODERNIDAD",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2058": {
+      "nombre": "ADMON. JUSTICIA Y POLIT. DE SEGURID.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2059": {
+      "nombre": "CUESTION ETNICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2060": {
+      "nombre": "ESTUDIOS DE GENERO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2061": {
+      "nombre": "PARTIDOS POLIT. Y PROCESOS ELECTORL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2062": {
+      "nombre": "PSICOANALISIS Y SOCIEDAD",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2063": {
+      "nombre": "REGIONES DE MEXICO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2064": {
+      "nombre": "SOCIOLOGIA DE LA RELIGION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2065": {
+      "nombre": "VIOLENCIA INDIVIDUO Y SOCIEDAD",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2133": {
+      "nombre": "ESTADISTICA APLIC. CIEN. SOCIALES I",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2134": {
+      "nombre": "ECONOMIA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2135": {
+      "nombre": "HISTORIA MODERNA (OCCIDENTE)",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2136": {
+      "nombre": "TEORIA SOCIAL I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2137": {
+      "nombre": "TALLER DE REDAC. INVESTIG. DOCUMENTL",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2212": {
+      "nombre": "METODOLOGIA DE LAS CIENC. SOCIALES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2213": {
+      "nombre": "ESTADISTICA APLIC.CIEN.SOCIALES II",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2214": {
+      "nombre": "ECONOMIA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2215": {
+      "nombre": "HISTORIA CONTEMPORANEA (OCCIDENT.)",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2216": {
+      "nombre": "TEORIA SOCIAL II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2217": {
+      "nombre": "TEORIA POLITICA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2311": {
+      "nombre": "HISTORIA DE AMERICA LATINA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2312": {
+      "nombre": "METODOLOGIA CUANTITATIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2313": {
+      "nombre": "ELEM. MUEST. APLI. CIENCIAS SOCIALES",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2314": {
+      "nombre": "PSICOL. SOCIAL DE GRUPOS E INSTITUC",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2315": {
+      "nombre": "TEORIA SOCIAL III",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2316": {
+      "nombre": "TEORIA POLITICA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2411": {
+      "nombre": "APLICACIONES MATEMAT. A LA SOCIOLOG",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2412": {
+      "nombre": "METODOLOGIA CUALITATIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2413": {
+      "nombre": "SOCIEDAD ECON. POLIT. DE MEXICO I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2414": {
+      "nombre": "TEORIA SOCIAL IV",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2415": {
+      "nombre": "TEORIA ANTROPOLOGICA I",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2511": {
+      "nombre": "EPISTEMOLOGIA DE LAS CIEN.SOCIALES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2512": {
+      "nombre": "SOCIODEMOGRAFIA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2513": {
+      "nombre": "SOCIEDAD ECON. POLIT. DE MEXICO II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2514": {
+      "nombre": "TEORIA SOCIAL V",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2515": {
+      "nombre": "TEORIA ANTROPOLOGICA II",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2611": {
+      "nombre": "SOCIOLOGIA POLITICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2612": {
+      "nombre": "SOCIOLOGIA URBANO INDUSTRIAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2613": {
+      "nombre": "SOCIOLOGIA AGRARIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2614": {
+      "nombre": "SOCIOLOGIA DE LA CULTURA Y D IDENT",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2615": {
+      "nombre": "TEORIA SOCIAL VI (PENS. SOC. LATINOA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2709": {
+      "nombre": "TALLER DE INVESTIGACION",
+      "horas_semana": 3,
+      "teoricas_semana": 0,
+      "practicas_semana": 3
+    },
+    "2812": {
+      "nombre": "SEMINARIO DE INVESTIGACION I",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2909": {
+      "nombre": "SEMINARIO DE INVESTIGACION II",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0006": {
+      "nombre": "ANTROPOLOGIA EDUCATIVA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0007": {
+      "nombre": "SOCIOLOGIA EDO.Y POLITICAS PUBLICAS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0008": {
+      "nombre": "SOCIOLOGIA JURIDICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0009": {
+      "nombre": "TEOR.SOCIALES PARA ESTUDIOS AMBIENT.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0010": {
+      "nombre": "DESAFIOS CONTEMP.DE LA POBLACION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0016": {
+      "nombre": "DISCURSO Y CAMBIO SOCIAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0017": {
+      "nombre": "GENERO, FEMINISMO Y MASCULINIDADES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0018": {
+      "nombre": "SOCIEDAD, GOBERNANZA Y SOSTENIBILID.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0019": {
+      "nombre": "GENERO Y MASCULINIDADES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0020": {
+      "nombre": "PENSAR-HABITAR LA CD. CONTEMPORANEA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0026": {
+      "nombre": "PLANEACION DEL DESARROLLO SOCIAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0027": {
+      "nombre": "PRAXIS ENFOQ.ADMON.PUB.MPAL.MEXICO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    }
+  }
+}

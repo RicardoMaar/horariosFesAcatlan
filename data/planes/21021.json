@@ -1,0 +1,1376 @@
+{
+  "codigo": "21021",
+  "nombre": "Historia",
+  "plan": "dgae-multigen:2275,4410,4411,4412,4413,4414,4415,4416,1158+Historia+Historia2024",
+  "fecha_consulta": "2026-07-07T20:47:44.866Z",
+  "materias": {
+    "1161": {
+      "nombre": "GRECIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1162": {
+      "nombre": "HISTORIA Y CIENCIAS SOCIALES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1163": {
+      "nombre": "MESOAMERICA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1165": {
+      "nombre": "PREHISTORIA Y CERCANO ORIENTE",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1166": {
+      "nombre": "REDACCION",
+      "horas_semana": 2,
+      "teoricas_semana": 0,
+      "practicas_semana": 2
+    },
+    "1261": {
+      "nombre": "ESPAÑA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1262": {
+      "nombre": "FILOSOFIA DE LA HISTORIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1263": {
+      "nombre": "HISTORIOGRAFIA GENERAL I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1264": {
+      "nombre": "MESOAMERICA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1265": {
+      "nombre": "PALEOGRAFIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1266": {
+      "nombre": "ROMA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1361": {
+      "nombre": "DESCUBRIMIENTO Y CONQUISTA D AMERICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1362": {
+      "nombre": "EUROPA SIGLOS V XV",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1363": {
+      "nombre": "HISTORIA DEL ARTE I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1364": {
+      "nombre": "HISTORIOGRAFIA GENERAL II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1365": {
+      "nombre": "NUEVA ESPAÑA SIGLOS XVI XVII",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1366": {
+      "nombre": "TEORIA DE LA HISTORIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1461": {
+      "nombre": "DIDACTICA DE LA HISTORIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1462": {
+      "nombre": "EUROPA SIGLOS XVI XVIII",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1463": {
+      "nombre": "HISTORIA DEL ARTE II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1464": {
+      "nombre": "HISTORIOGRAFIA GENERAL III",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1465": {
+      "nombre": "NUEVA ESPAÑA SIGLO XVIII",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1561": {
+      "nombre": "AMERICA LATINA SIGLO XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1562": {
+      "nombre": "EUROPA SIGLO XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1563": {
+      "nombre": "ESTADOS UNIDOS DE NORTEAMERICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1564": {
+      "nombre": "HISTORIOGRAFIA DE MEXICO I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1565": {
+      "nombre": "MEXICO SIGLO XIX I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1661": {
+      "nombre": "AMERICA LATINA SIGLO XX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1662": {
+      "nombre": "HISTORIA MUNDIAL SIGLO XX I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1663": {
+      "nombre": "HISTORIOGRAFIA DE MEXICO II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1664": {
+      "nombre": "MEXICO SIGLO XIX II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1761": {
+      "nombre": "HISTORIA MUNDIAL SIGLO XX II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1762": {
+      "nombre": "HISTORIOGRAFIA DE MEXICO III",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1763": {
+      "nombre": "MEXICO SIGLO XX I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1764": {
+      "nombre": "TALLER DE INVESTIGACION",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1861": {
+      "nombre": "MEXICO SIGLO XX II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2165": {
+      "nombre": "HISTORIA Y TEORIA DEL ARTE I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2166": {
+      "nombre": "INTRODUCCION A LA HISTORIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2167": {
+      "nombre": "MONARQUIA HISPANICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2168": {
+      "nombre": "PASADO INDIGENA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2169": {
+      "nombre": "SOCIEDADES ANTIGUAS ASIA AFRICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2170": {
+      "nombre": "TALLER DE ESCRITURA ACADEMICA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2265": {
+      "nombre": "ESTADOS UNIDOS DE AMERICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2266": {
+      "nombre": "HISTORIA Y TEORIA DEL ARTE II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2267": {
+      "nombre": "HISTORIOGRAFIA GENERAL I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2268": {
+      "nombre": "MEDITERRANEO ANTIGUO I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2269": {
+      "nombre": "METODOS-TECNS.INVESTIG.HISTORICA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2270": {
+      "nombre": "PASADO INDIGENA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2365": {
+      "nombre": "AMERICA LATINA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2366": {
+      "nombre": "HISTORIOGRAFIA GENERAL II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2367": {
+      "nombre": "MEDITERRANEO ANTIGUO II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2368": {
+      "nombre": "NUEVA ESPAÑA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2369": {
+      "nombre": "PATRIMONIO CULTURAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2370": {
+      "nombre": "TEORIA DE LA HISTORIA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2465": {
+      "nombre": "ENSEÑANZA DE LA HISTORIA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2466": {
+      "nombre": "EUROPA, BIZANCIO, MDO.ISLAM.S.V-XIV",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2467": {
+      "nombre": "HISTORIOGRAFIA GENERAL III",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2468": {
+      "nombre": "NUEVA ESPAÑA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2469": {
+      "nombre": "PROYECTOS DE GESTION PATRIMONIAL",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2470": {
+      "nombre": "TEORIA DE LA HISTORIA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2565": {
+      "nombre": "CULTURA MEDIATICA E HISTORIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2566": {
+      "nombre": "ENSEÑANZA DE LA HISTORIA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2567": {
+      "nombre": "EUROPA-SU EXPANSION S.XV AL XVIII",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2568": {
+      "nombre": "HISTORIOGRAFIA DE MEXICO I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2569": {
+      "nombre": "MEXICO SIGLO XIX  I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2570": {
+      "nombre": "SEMINARIO TALLER DE INVESTIGACION",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2665": {
+      "nombre": "EL MUNDO.S.XIX.REV.IND.COLON.ANTICOL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2666": {
+      "nombre": "HISTORIOGRAFIA DE MEXICO II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2667": {
+      "nombre": "MEXICO SIGLO XIX  II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2668": {
+      "nombre": "TALLER  CULTURA MEDIATICA E HISTORIA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2765": {
+      "nombre": "HIST.MUND.1914 A LA DECADA DE 1960",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2766": {
+      "nombre": "HISTORIOGRAFIA DE MEXICO III",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2767": {
+      "nombre": "MEXICO DE 1900 A LA DECADA DE 1960",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2768": {
+      "nombre": "SEMINARIO DE INVESTIGACION I",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2769": {
+      "nombre": "SEMINARIO DE INVESTIGACION I",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2770": {
+      "nombre": "SEMINARIO DE INVESTIGACION I",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2771": {
+      "nombre": "SEMINARIO DE INVESTIGACION I",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2772": {
+      "nombre": "SEMINARIO DE INVESTIGACION I",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2773": {
+      "nombre": "SEMINARIO DE INVESTIGACION I",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2774": {
+      "nombre": "SEMINARIO DE INVESTIGACION I",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2865": {
+      "nombre": "HISTORIA MUNDIAL 1970 AL PRESENTE",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2866": {
+      "nombre": "MEXICO DE 1968 AL PRESENTE",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2867": {
+      "nombre": "SEMINARIO DE INVESTIGACION II",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2868": {
+      "nombre": "SEMINARIO DE INVESTIGACION II",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2869": {
+      "nombre": "SEMINARIO DE INVESTIGACION II",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2870": {
+      "nombre": "SEMINARIO DE INVESTIGACION II",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2871": {
+      "nombre": "SEMINARIO DE INVESTIGACION II",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2872": {
+      "nombre": "SEMINARIO DE INVESTIGACION II",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2873": {
+      "nombre": "SEMINARIO DE INVESTIGACION II",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2900": {
+      "nombre": "TEORIAS ANTROPOLOGICAS",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2901": {
+      "nombre": "PALEOGRAFIA Y DIPLOMATICA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2902": {
+      "nombre": "PROB.CONTEMP.HISTORIO.S.XIX MEXICANO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2903": {
+      "nombre": "PROBL.CONTEMP.HISTOR.S.XX-XXI MEXICO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2904": {
+      "nombre": "TEORIAS CONTEMPORANEAS DE  HISTORIA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2905": {
+      "nombre": "PROBL.HISTOR.CONTEMP.ARTE Y CULTURA",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2906": {
+      "nombre": "PROBL.HISTOR.CONTEMP.HISTOR.GRAL.ACT",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0146": {
+      "nombre": "ARCHIV-ARCHIVOLOG.PARA HISTORIADORES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0147": {
+      "nombre": "ESTUDIOS DE GENERO INVEST.HISTORICAS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0148": {
+      "nombre": "GEOGRAFIA Y CARTOGRAFIA HISTORICAS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0149": {
+      "nombre": "METODOS ESTADSITICOS PARA HISTORIAD.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0150": {
+      "nombre": "PALEOGRAFIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0151": {
+      "nombre": "SEMANTICA HISTORICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0152": {
+      "nombre": "TEM.SELEC.DE ARTE MESOAMERICANO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0161": {
+      "nombre": "TEM.SELEC.DE ICONOGRAFIA MESOAMERIC.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0172": {
+      "nombre": "TEM.SELEC.DE HIST.ARTE NOVOHISPANO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0177": {
+      "nombre": "TEM.SELEC.DE ILUSTRACION NOVOHISPANA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0179": {
+      "nombre": "TEM.SELEC.DE HIST.CULTUR.MEXICO XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0181": {
+      "nombre": "TEM.SELEC.D HIST.CULT.IMP.MEXICO XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0185": {
+      "nombre": "TEM.SELEC.DE HIST.ARTE DE MEXICO XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0193": {
+      "nombre": "TEM.SELEC.DE HIST.CULT.MEXICO XX XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0201": {
+      "nombre": "TEM.SELEC.DE HIST.ARTE MEXICO XX XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0207": {
+      "nombre": "TEM.SELEC.DE HISTORIA VISUAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0213": {
+      "nombre": "TEM.SELEC.DE HISTORIA CULTURAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0219": {
+      "nombre": "TEM.SELEC.DE CINE, RADIO-TELEVISION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0220": {
+      "nombre": "TEM.SELEC.DE HISTORIA DEL ARTE CONT.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0222": {
+      "nombre": "TEM.SELEC.DE HISTORIA ANTIGUA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0223": {
+      "nombre": "TEM.SEL.D HIST.ECON.AMER.NTE.XIX-XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0224": {
+      "nombre": "TEM.SEL.HIST.ECON.A.LAT.CAR.XIX-XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0225": {
+      "nombre": "TEM.SEL.D HIST.ECON.ASIA AFR.XIX-XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0226": {
+      "nombre": "TEM.SELEC.DE HIST.ECON.EUR.S.XIX-XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0227": {
+      "nombre": "TEM.SELEC.DE HISTORIA MEDIEVAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0228": {
+      "nombre": "TEM.SELEC.DE HISTORIA MODER.XV-XVIII",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0229": {
+      "nombre": "TEM.SELEC.DE HIST.POL.A.NTE.XIX-XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0230": {
+      "nombre": "TEM.SEL.D HIST.POL.A.LAT.CAR.XIX-XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0231": {
+      "nombre": "TEM.SELEC.DE HIST.POL.A-AF.XIX-XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0232": {
+      "nombre": "TEM.SELEC.DE HIST.POL.EUROP.XIX-XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0233": {
+      "nombre": "TEM.SELEC.D HIST.SOC.C.A.NTE.XIX-XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0234": {
+      "nombre": "TEM.SELEC.DE HIST.SOC.C.AL.C-XIX-XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0235": {
+      "nombre": "TEM.SELEC.DE HIST.SOC.C.A-AF.XIX-XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0236": {
+      "nombre": "TEM.SELEC.DE HIST.SOC.C.EURO.XIX-XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0178": {
+      "nombre": "TEM.SELEC.DE HIST.AMBIENT.MEXICO XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0180": {
+      "nombre": "TEM.SELEC.DE HIST.CIENC.T.MEXICO XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0182": {
+      "nombre": "TEM.SELEC.DE HIST.EDUCAC.MEXICO XIX",
+      "horas_semana": 64,
+      "teoricas_semana": 64,
+      "practicas_semana": 0
+    },
+    "0183": {
+      "nombre": "TEM.SELEC.DE HIST.INSTIT.MEXICO XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0184": {
+      "nombre": "TEM.SELEC.DE HIST.RELS.D.MEXICO XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0186": {
+      "nombre": "TEM.SELEC.DE HIST.ECONOM.MEXICO XIX",
+      "horas_semana": 0,
+      "teoricas_semana": 0,
+      "practicas_semana": 0
+    },
+    "0187": {
+      "nombre": "TEM.SELEC.DE HIST.INTELEC.MEXICO XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0188": {
+      "nombre": "TEM.SELEC.DE HIST.POLITIC.MEXICO XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0189": {
+      "nombre": "TEM.SELEC.DE HIST.REGION.MEXICO XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0190": {
+      "nombre": "TEM.SELEC.DE HIST.SOCIAL MEXICO XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0192": {
+      "nombre": "TEM.SELEC.DE HIST.AMBIEN.MEX.XX -XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0194": {
+      "nombre": "TEM.SELEC.DE HIST.C-T.MEXICO XX XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0195": {
+      "nombre": "TEM.SELEC.DE HIST.C.I.MEXICO XX XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0196": {
+      "nombre": "TEM.SELEC.DE HIST.EDUC.MEXICO XX XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0197": {
+      "nombre": "TEM.SELEC.DE HIST.INST.MEXICO XX XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0200": {
+      "nombre": "TEM.SELEC.D HIST.RELS.DIP.MEX.XX XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0202": {
+      "nombre": "TEM.SELEC.DE HIST.ECON.MEXICO XX XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0203": {
+      "nombre": "TEM.SELEC.DE HIST.INTL.MEXICO XX XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0204": {
+      "nombre": "TEM.SELEC.DE HIST.POLT.MEXICO XX XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0205": {
+      "nombre": "TEM.SELEC.DE HIST.SOC.MEXICO XX XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0165": {
+      "nombre": "TEM.SELEC.DE ETNOHISTORIA NOVOHISPAN",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0166": {
+      "nombre": "TEM.SELEC.DE EXPANSION COLONIAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0167": {
+      "nombre": "TEM.SELEC.DE HISTOR.AMBIENT.NOVOHISP",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0168": {
+      "nombre": "TEM.SELEC.DE HISTOR.CULTURAL NOVOHIS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0169": {
+      "nombre": "TEM.SELEC.DE HIST.CIENC.TECN.NVA.ESP",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0170": {
+      "nombre": "TEM.SELEC.DE HIST.EDUC.NVA.ESPAÑA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0171": {
+      "nombre": "TEM.SELEC.DE HIST.IGLESIA NOVOHISPAN",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0173": {
+      "nombre": "TEM.SELEC.DE HIST.ECONOM.NOVOHISPANA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0174": {
+      "nombre": "TEM.SELEC.DE HIST.POLIT.NOVOHISPANA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0175": {
+      "nombre": "TEM.SELEC.DE HIST.SOCIAL NOVOHISPANA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0176": {
+      "nombre": "TEM.SELEC.DE HISTORIOGR.NOVOHISPANA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0153": {
+      "nombre": "TEM.SELEC.DE COSMOVISION MESOAMERIC.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0154": {
+      "nombre": "TEM.SELEC.DE CULTURA MAYA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0155": {
+      "nombre": "TEM.SELEC.DE CULTURA MEXICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0156": {
+      "nombre": "TEM.SELEC.DE CULTURAS DE OAXACA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0157": {
+      "nombre": "TEM.SELEC.DE EPIGRAFIA MESOAMERICANA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0158": {
+      "nombre": "TEM.SELEC.DE FUENTES S.MESOAMERICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0159": {
+      "nombre": "TEM.SELEC.DE HISTOR.ECONOM.MESOAMER.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0160": {
+      "nombre": "TEM.SELEC.DE HISTORIOG.D MESOAMERICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0162": {
+      "nombre": "TEM.SELEC.DE LA INTROD.A LA ARQUEOL.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0163": {
+      "nombre": "TEM.SELEC.DE OASISAMERIC-ARIDOAMERIC",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0164": {
+      "nombre": "TEM.SELEC.DE RELIGIONES MESOAMERICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0206": {
+      "nombre": "TEM.SELEC.DE ESCUELA HISTORICA INGL.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0208": {
+      "nombre": "TEM.SELEC.D ESTUD.HISTOR.ILUST.S.XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0209": {
+      "nombre": "TEM.SELEC.DE ESTUD.HISTORIO.S.XX-XXI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0210": {
+      "nombre": "TEM.SELEC.DE ESTUD.HISTORIOG.ANNALES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0211": {
+      "nombre": "TEM.SELEC.DE HISTORIA AMBIENTAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0212": {
+      "nombre": "TEM.SELEC.DE HISTORIA CONCEPTUAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0214": {
+      "nombre": "TEM.SELEC.DE HISTORIA ORAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0215": {
+      "nombre": "TEM.SELEC.DE HISTORIA Y POSMODERNISM",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0216": {
+      "nombre": "TEM.SELEC.DE HISTORIA Y TEOR.ECONOM.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0217": {
+      "nombre": "TEM.SELEC.DE HISTORIA Y TEORIA POLIT",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0218": {
+      "nombre": "TEM.SELEC.DE HISTORIA Y TEOR. SOCIAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0021": {
+      "nombre": "TEM.SEL.ALEMANIA CONTEMPORANEA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0022": {
+      "nombre": "TEM.SEL.ARTE COLONIAL MEXICANO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0023": {
+      "nombre": "TEM.SEL.ARTE CONTEMPORANEO MEXICANO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0024": {
+      "nombre": "TEM.SEL.ARTE MESOAMERICANO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0025": {
+      "nombre": "TEM.SEL.ARTE MODERNO MEXICANO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0027": {
+      "nombre": "TEM.SEL.CULTURA MAYA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0028": {
+      "nombre": "TEM.SEL.CULTURA MEXICANA SIGLO XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0029": {
+      "nombre": "TEM.SEL.CULTURA MEXICANA SIGLO XX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0030": {
+      "nombre": "TEM.SEL.CULTURA MEXICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0031": {
+      "nombre": "TEM.SEL.CULTURA NOVOHISPANA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0032": {
+      "nombre": "TEM.SEL.CULTURAS MESOAMERICANAS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0033": {
+      "nombre": "TEM.SEL.CINE.RADIO Y TELEVISION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0034": {
+      "nombre": "TEM.SEL.CHINA SIGLO XX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0035": {
+      "nombre": "TEM.SEL.ESPAÑA MODERNA I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0036": {
+      "nombre": "TEM.SEL.ESPAÑA MODERNA II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0038": {
+      "nombre": "TEM.SEL.EXPANSION SEPTENTRIONAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0039": {
+      "nombre": "TEM.SEL.FUENTES PARA ESTUDIO MESOAME",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0040": {
+      "nombre": "TEM.SEL.FEDERALISMO Y CENTRALISMO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0041": {
+      "nombre": "TEM.SEL.GUERRA FRIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0042": {
+      "nombre": "TEM.SEL.HIST.IGLESIA EN NUEVA ESPAÑA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0048": {
+      "nombre": "TEM.SEL.HISTOR.ECONOMICA DE MESOAMER",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0052": {
+      "nombre": "TEM.SEL.HISTOR.SOCIAL DE MESOAMERICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0053": {
+      "nombre": "TEM.SEL.HISTOR.SOCIAL D MEXICO S.XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0055": {
+      "nombre": "TEM.SEL.HISTOR.SOCIAL MEXICO S. XX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0056": {
+      "nombre": "TEM.SEL.HISTORIOGRAFIA NOVOHISPANA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0057": {
+      "nombre": "TEM.SEL.HISTORIOGRAFIA D MEXICO S.XX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0058": {
+      "nombre": "TEM.SEL.HISTORIOGRAFIA SOBRE MESOAME",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0062": {
+      "nombre": "TEM.SEL.ILUSTRACION NOVOHISPANA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0064": {
+      "nombre": "TEM.SEL.INSTITUCIONES DE MEXICO S.XX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0065": {
+      "nombre": "TEM.SEL.INSTITUCIONES MEXICO S. XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0066": {
+      "nombre": "TEM.SEL.INSTITUCIONES NOVOHISPANAS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0067": {
+      "nombre": "TEM.SEL.JAPON SIGLO XX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0068": {
+      "nombre": "TEM.SEL.LITERATURA MESOAMERICANA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0069": {
+      "nombre": "TEM.SEL.LOS PAPAS Y VATICAN.S.XIX XX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0070": {
+      "nombre": "TEM.SEL.MEDIO ORIENTE SIGLO XX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0071": {
+      "nombre": "TEM.SEL.MEXICO ESTADOS UNID. CANADA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0073": {
+      "nombre": "TEM.SEL.PALEOGRAF.Y DIPLOMAT. S.XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0074": {
+      "nombre": "TEM.SEL.PERIODISMO EN MEXICO S. XIX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0075": {
+      "nombre": "TEM.SEL.PERIODISMO EN MEXICO S.XX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0076": {
+      "nombre": "TEM.SEL.PORFIRIATO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0077": {
+      "nombre": "TEM.SEL.PROBLEMAS ACTUAL.AMER.LATINA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0078": {
+      "nombre": "TEM.SEL.RELACIONS.DIPLOM.MEXICO S.XX",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0079": {
+      "nombre": "TEM.SEL.RELIGIONES MESOAMERICANAS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0081": {
+      "nombre": "TEM.SEL.REVOLUCION MEXICANA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "0083": {
+      "nombre": "TEM.SEL.U.R.S.S.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    }
+  }
+}

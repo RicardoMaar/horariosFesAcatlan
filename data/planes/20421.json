@@ -1,0 +1,554 @@
+{
+  "codigo": "20421",
+  "nombre": "Relaciones Internacionales",
+  "plan": "dgae-multigen:2123,4186,4187,1128,1129,1130,1131+RelacionesInternacionales2019",
+  "fecha_consulta": "2026-07-07T21:38:08.754Z",
+  "materias": {
+    "1077": {
+      "nombre": "ANALISIS DE LA SEGURIDAD INTERNACION",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1078": {
+      "nombre": "COOPERACION INTERNACIONAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1079": {
+      "nombre": "DESARROLLO SUSTENTABLE",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1080": {
+      "nombre": "DIPLOMACIA PUBLICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1081": {
+      "nombre": "GEOPOLITICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1082": {
+      "nombre": "MIGRACION INTERNACIONAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1083": {
+      "nombre": "POLITICA EXTERIOR COMPARADA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1084": {
+      "nombre": "DCHO.MARITIMO-PRACT.NAVIER.INTERNAL.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1086": {
+      "nombre": "ECONOMIA MUNDIAL CONTEMPORANEA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1087": {
+      "nombre": "REGLAMENT.JUDCA.COMER.EXTER.REG.ADUA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1088": {
+      "nombre": "SEGURIDAD ENERGETICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1089": {
+      "nombre": "ACCION EXTERIOR DE GOBIERNOS LOCALES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1090": {
+      "nombre": "CIENCIA Y TECNOL.RELACIONES INTERNAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1091": {
+      "nombre": "DERECHOS HUMANOS Y ASISTENC.HUMANITA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1092": {
+      "nombre": "IDENTIDAD CULTURAL, MULTICUL.-TRANSC",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1094": {
+      "nombre": "TENDENC.ACTUAL.RELS.INTERNACIONALES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1095": {
+      "nombre": "COMERCIO EXTERIOR Y DESPACHO ADUANER",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1096": {
+      "nombre": "MERCADOS FINANCIEROS INTERNACIONALES",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1097": {
+      "nombre": "PROCESOS INTEGRAC.BLOQUES ECONOMICO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1098": {
+      "nombre": "TENDEN.ACTUAL.RELS.ECON.INTERNALES.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1099": {
+      "nombre": "TRAFICO Y LOGISTICA INTERNACIONAL",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1136": {
+      "nombre": "DERECHO CONSTITUCIONAL MEXICANO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1137": {
+      "nombre": "ESTADISTICA DESCRIPTIVA",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1138": {
+      "nombre": "FILOSOFIA POLITIC.FORMAS DE GOBIERNO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1139": {
+      "nombre": "INGLES I",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1140": {
+      "nombre": "INTRODUCION A LOS ESTUDIOS REGIONALS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1141": {
+      "nombre": "INTRODUC.ESTUDIO RELACIONES INTERNAC",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1236": {
+      "nombre": "DERECHO INTERNACIONAL PUBLICO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1237": {
+      "nombre": "ESTADISTICA INFERENCIAL",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1238": {
+      "nombre": "INGLES II",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1239": {
+      "nombre": "INTRODUCCION A LA TEORIA ECONOMICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1240": {
+      "nombre": "POLITICA MUNDIAL I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1241": {
+      "nombre": "TEORIA Y METODO EN LA CIENCIAS SOC.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1336": {
+      "nombre": "AMERICA LATINA Y EL CARIBE",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1337": {
+      "nombre": "INGLES III",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1338": {
+      "nombre": "MACROECONOMIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1339": {
+      "nombre": "ORGANISMOS INTERNACIONALES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1340": {
+      "nombre": "POLITICA MUNDIAL II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1341": {
+      "nombre": "TEORIA DE LA DECISION INTERNACIONAL",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1436": {
+      "nombre": "COMERCIO INTERNACIONAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1437": {
+      "nombre": "DERECHO DIPLOMATICO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1438": {
+      "nombre": "ESTADOS UNIDOS Y CANADA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1439": {
+      "nombre": "INGLES IV",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1440": {
+      "nombre": "POLITICA EXTERIOR DE MEXICO I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1441": {
+      "nombre": "POLITICA ECONOMIA-SOCIEDAD MEXICO I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1538": {
+      "nombre": "DERECHO INTERNACIONAL PRIVADO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1539": {
+      "nombre": "EPISTEMOLOGIA DE LS CIENCIAS SOCIALS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1540": {
+      "nombre": "EUROPA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1541": {
+      "nombre": "INGLES V",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1542": {
+      "nombre": "POLITICA EXTERIOR DE MEXICO II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1543": {
+      "nombre": "POLITICA,ECONOMIA-SOCIEDAD MEXICO II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1635": {
+      "nombre": "ASIA Y EL PACIFICO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1636": {
+      "nombre": "FINANZAS INTERNACIONALES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1637": {
+      "nombre": "INGLES VI",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1638": {
+      "nombre": "SISTEMAS POLITICOS COMPARADOS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1639": {
+      "nombre": "TENDEN. ACTUALES DCHO.INTERNAC.PUBLI",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1640": {
+      "nombre": "TEORIA DE LS RELS.INTENACIONALES I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1768": {
+      "nombre": "ANALIS.SECTOR EXTERN.ECON.MEXICANA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1769": {
+      "nombre": "MEDIO ORIENTE Y AFRICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1770": {
+      "nombre": "NEGOCIACION INTERNACIONAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1771": {
+      "nombre": "POLITICA EXTERIOR CONTEMP.DE MEXICO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1772": {
+      "nombre": "TEORIA DE LS RELS INTERNACIONALES II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1863": {
+      "nombre": "DISEÑO DE INVESTIGACION",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1865": {
+      "nombre": "DERECHO Y PRACTICA CONSULAR",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1866": {
+      "nombre": "NEGOC.FORMUL.PYTOS.COMERC.INTERNAL.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1931": {
+      "nombre": "INVESTIGACION APLICADA",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "2018": {
+      "nombre": "DESARROLLO SUSTENTABLE",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2023": {
+      "nombre": "NUEVA GEOPOLITICA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2116": {
+      "nombre": "ESTADISTICA DESCRIPTIVA",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2118": {
+      "nombre": "INTRODUC.AL ESTUD.RELAC.INTERNALES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2201": {
+      "nombre": "DERECHO CONSTITUCIONAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2202": {
+      "nombre": "ESTADISTICA INFERENCIAL",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2203": {
+      "nombre": "INTRODUCCION A LA ECONOMIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2204": {
+      "nombre": "POLITICA MUNDIAL I",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2302": {
+      "nombre": "DERECHO INTERNACIONAL PUBLICO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2303": {
+      "nombre": "MACROECONOMIA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2304": {
+      "nombre": "POLITICA MUNDIAL II",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2305": {
+      "nombre": "TEORIA DE LA DECISION INTERNAL.",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "2401": {
+      "nombre": "DERECHO INTERNACIONAL PRIVADO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2501": {
+      "nombre": "COMERCIO INTERNACIONAL",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2502": {
+      "nombre": "DERECHO DIPLOMATICO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2504": {
+      "nombre": "ORGANISMOS INTERNACIONALES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2505": {
+      "nombre": "SISTEMAS POLITICOS COMPARADOS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2602": {
+      "nombre": "FINANZAS INTERNACIONALES",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2703": {
+      "nombre": "SEM.ANAL.SECTOR EXTERNO ECON.MEXIC.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2737": {
+      "nombre": "EPISTEMOLOG. DE LAS CIENCIAS SOCIALS",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2801": {
+      "nombre": "DERECHO CONSULAR",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2803": {
+      "nombre": "RELACIONES ECONOMICAS INTERNACIONA",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2805": {
+      "nombre": "TALLER DE DISEÑO DE INVESTIGACION",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "2807": {
+      "nombre": "TENDENCIAS ACTUALES RELAC. INTERNAL.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "2903": {
+      "nombre": "TALLER DE NEGOCIACION INTERNAL.",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    }
+  }
+}

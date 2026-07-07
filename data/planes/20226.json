@@ -1,0 +1,568 @@
+{
+  "codigo": "20226",
+  "nombre": "Diseño Gráfico",
+  "plan": "DisenoGrafico",
+  "fecha_consulta": "2026-07-07T20:40:39.644Z",
+  "materias": {
+    "2000": {
+      "nombre": "Habilidades Interpersonales",
+      "semestre": "Quinto",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "2001": {
+      "nombre": "Sociologia y Medios Impresos",
+      "semestre": "Quinto",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "2002": {
+      "nombre": "Sociologia y Medios Audiovisuales",
+      "semestre": "Quinto",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "2003": {
+      "nombre": "Animacion Tradicional",
+      "semestre": "Sexto",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2004": {
+      "nombre": "Escritura y Caligrafia",
+      "semestre": "Sexto",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2005": {
+      "nombre": "Produccion Televisiva",
+      "semestre": "Sexto",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2006": {
+      "nombre": "Tecnicas de Iluminacion Fotografica",
+      "semestre": "Sexto",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2007": {
+      "nombre": "Aerografia",
+      "semestre": "Séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2008": {
+      "nombre": "Desarrollo Escenografico",
+      "semestre": "Séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2009": {
+      "nombre": "Generos Televisivos",
+      "semestre": "Séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2010": {
+      "nombre": "Modelado y Animacion 3D",
+      "semestre": "Séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2011": {
+      "nombre": "Produccion de Videoclip y Corto Cinematografico",
+      "semestre": "Séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2012": {
+      "nombre": "Serigrafia",
+      "semestre": "Séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2013": {
+      "nombre": "Taller de Medios Editoriales",
+      "semestre": "Séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2014": {
+      "nombre": "Tecnicas Especializadas para la Manipulacion Digital",
+      "semestre": "Séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2015": {
+      "nombre": "Desarrollo Museografico",
+      "semestre": "Octavo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2016": {
+      "nombre": "Embalaje",
+      "semestre": "Octavo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2017": {
+      "nombre": "Experimentacion Volumetrica",
+      "semestre": "Octavo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2018": {
+      "nombre": "Generos Fotograficos",
+      "semestre": "Octavo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2019": {
+      "nombre": "Hipermedia",
+      "semestre": "Octavo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2020": {
+      "nombre": "Metodologia Didactica",
+      "semestre": "Octavo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2021": {
+      "nombre": "Produccion de Anuncios Televisivos",
+      "semestre": "Octavo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2022": {
+      "nombre": "Taller de Ilustracion Experimental",
+      "semestre": "Octavo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2023": {
+      "nombre": "Diseno Grafico Sustentable",
+      "semestre": "Noveno",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2024": {
+      "nombre": "Diseno para la Imagen Publica",
+      "semestre": "Noveno",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2025": {
+      "nombre": "Habilidades Directivas",
+      "semestre": "Noveno",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2026": {
+      "nombre": "Ingenieria del envase",
+      "semestre": "Noveno",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2027": {
+      "nombre": "Material Didactico",
+      "semestre": "Noveno",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2028": {
+      "nombre": "Multimedios",
+      "semestre": "Noveno",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2029": {
+      "nombre": "Proyecto de Investigacion Editorial",
+      "semestre": "Noveno",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2030": {
+      "nombre": "Seminario para la Investigacion en el Diseno",
+      "semestre": "Noveno",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2110": {
+      "nombre": "Arte y Diseno",
+      "semestre": "Primero",
+      "horas_semana": 3,
+      "teoricas_semana": 2,
+      "practicas_semana": 1
+    },
+    "2111": {
+      "nombre": "Estudio de la Imagen Grafica",
+      "semestre": "Primero",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2112": {
+      "nombre": "Estructuras Basicas para el Dibujo",
+      "semestre": "Primero",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2113": {
+      "nombre": "Habilidades Integrales para el Aprendizaje",
+      "semestre": "Primero",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2114": {
+      "nombre": "Interfaces y Procesos Informaticos",
+      "semestre": "Primero",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2115": {
+      "nombre": "Integracion al Diseno",
+      "semestre": "Primero",
+      "horas_semana": 6,
+      "teoricas_semana": 3,
+      "practicas_semana": 3
+    },
+    "2116": {
+      "nombre": "Pensamiento Creativo",
+      "semestre": "Primero",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "2117": {
+      "nombre": "Texto y Diseno",
+      "semestre": "Primero",
+      "horas_semana": 3,
+      "teoricas_semana": 1,
+      "practicas_semana": 2
+    },
+    "2210": {
+      "nombre": "Expresion con Medios Secos",
+      "semestre": "Segundo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2211": {
+      "nombre": "Forma y Diseno",
+      "semestre": "Segundo",
+      "horas_semana": 6,
+      "teoricas_semana": 3,
+      "practicas_semana": 3
+    },
+    "2213": {
+      "nombre": "Historia de las Teorias del Arte  y del Diseno",
+      "semestre": "Segundo",
+      "horas_semana": 3,
+      "teoricas_semana": 2,
+      "practicas_semana": 1
+    },
+    "2214": {
+      "nombre": "Metodos de Investigacion para el Diseno",
+      "semestre": "Segundo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2215": {
+      "nombre": "Modelado y Trazo Bidimensional Digital",
+      "semestre": "Segundo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2216": {
+      "nombre": "Construccion de Mensajes Escritos",
+      "semestre": "Segundo",
+      "horas_semana": 3,
+      "teoricas_semana": 1,
+      "practicas_semana": 2
+    },
+    "2217": {
+      "nombre": "Volumen en el dibujo",
+      "semestre": "Segundo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2310": {
+      "nombre": "Arte y Diseno en la Actualidad",
+      "semestre": "Tercero",
+      "horas_semana": 3,
+      "teoricas_semana": 2,
+      "practicas_semana": 1
+    },
+    "2311": {
+      "nombre": "Color y Composicion",
+      "semestre": "Tercero",
+      "horas_semana": 6,
+      "teoricas_semana": 3,
+      "practicas_semana": 3
+    },
+    "2312": {
+      "nombre": "Dibujo del Cuerpo Humano",
+      "semestre": "Tercero",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2313": {
+      "nombre": "Expresion con Medios Solubles",
+      "semestre": "Tercero",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2314": {
+      "nombre": "Geometria Aplicada",
+      "semestre": "Tercero",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2315": {
+      "nombre": "Procesos Digitales de la Imagen",
+      "semestre": "Tercero",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2316": {
+      "nombre": "Tecnicas de Investigacion para el Diseno",
+      "semestre": "Tercero",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2317": {
+      "nombre": "Teoria de la comunicacion",
+      "semestre": "Tercero",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2410": {
+      "nombre": "Animacion 2D y Audio Digital",
+      "semestre": "Cuarto",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2411": {
+      "nombre": "Dibujo Avanzado del Cuerpo Humano",
+      "semestre": "Cuarto",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2412": {
+      "nombre": "Diseno de Cartel",
+      "semestre": "Cuarto",
+      "horas_semana": 6,
+      "teoricas_semana": 3,
+      "practicas_semana": 3
+    },
+    "2413": {
+      "nombre": "Expresion con Medios Alternativos",
+      "semestre": "Cuarto",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2414": {
+      "nombre": "Iniciacion a la Fotografia",
+      "semestre": "Cuarto",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2415": {
+      "nombre": "Procesos del Arte y el Diseno",
+      "semestre": "Cuarto",
+      "horas_semana": 3,
+      "teoricas_semana": 2,
+      "practicas_semana": 1
+    },
+    "2416": {
+      "nombre": "Semiotica",
+      "semestre": "Cuarto",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2417": {
+      "nombre": "Tipografia",
+      "semestre": "Cuarto",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2510": {
+      "nombre": "Creacion y aplicacion de tipografia",
+      "semestre": "Quinto",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2511": {
+      "nombre": "Composicion Editorial Electronica",
+      "semestre": "Quinto",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2512": {
+      "nombre": "Diseno Editorial",
+      "semestre": "Quinto",
+      "horas_semana": 6,
+      "teoricas_semana": 3,
+      "practicas_semana": 3
+    },
+    "2513": {
+      "nombre": "Hermeneutica de la Imagen",
+      "semestre": "Quinto",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2514": {
+      "nombre": "Manipulacion Digital de la Imagen Fotografica",
+      "semestre": "Quinto",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2515": {
+      "nombre": "Tecnicas de Impresion",
+      "semestre": "Quinto",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2610": {
+      "nombre": "Comunicacion Audiovisual",
+      "semestre": "Sexto",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "2611": {
+      "nombre": "Diseno y Administracion Web",
+      "semestre": "Sexto",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2612": {
+      "nombre": "Imagen Corporativa",
+      "semestre": "Sexto",
+      "horas_semana": 6,
+      "teoricas_semana": 3,
+      "practicas_semana": 3
+    },
+    "2613": {
+      "nombre": "Lenguaje Cinematografico",
+      "semestre": "Sexto",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "2614": {
+      "nombre": "Metodos de Reproduccion Grafica",
+      "semestre": "Sexto",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2729": {
+      "nombre": "Aspectos Legales",
+      "semestre": "Séptimo",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2730": {
+      "nombre": "Diseno de espacios ambientales",
+      "semestre": "Séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "2731": {
+      "nombre": "Señalizacion",
+      "semestre": "Séptimo",
+      "horas_semana": 6,
+      "teoricas_semana": 3,
+      "practicas_semana": 3
+    },
+    "2831": {
+      "nombre": "Envase",
+      "semestre": "Octavo",
+      "horas_semana": 6,
+      "teoricas_semana": 3,
+      "practicas_semana": 3
+    },
+    "2832": {
+      "nombre": "Gestion del Diseno Grafico",
+      "semestre": "Octavo",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2833": {
+      "nombre": "Mercadotecnia",
+      "semestre": "Octavo",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "2900": {
+      "nombre": "Campana Publicitaria",
+      "semestre": "Noveno",
+      "horas_semana": 6,
+      "teoricas_semana": 3,
+      "practicas_semana": 3
+    }
+  }
+}

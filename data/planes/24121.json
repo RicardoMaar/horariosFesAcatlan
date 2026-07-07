@@ -1,0 +1,407 @@
+{
+  "codigo": "24121",
+  "nombre": "Enseñanza de Inglés",
+  "plan": "Ensenanza_Ingles",
+  "fecha_consulta": "2026-07-07T20:42:50.150Z",
+  "materias": {
+    "1036": {
+      "nombre": "Analisis del Discurso",
+      "semestre": "4",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1037": {
+      "nombre": "Gramatica Espanola",
+      "semestre": "4",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1038": {
+      "nombre": "Historia del Ingles",
+      "semestre": "4",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1039": {
+      "nombre": "Expresiones Artisticas de los Paises Anglosajones",
+      "semestre": "5",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1040": {
+      "nombre": "Gestion Educativa",
+      "semestre": "5",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1041": {
+      "nombre": "Lexicologia",
+      "semestre": "5",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1045": {
+      "nombre": "Metodologia de la Ensenanza de Lectura",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1046": {
+      "nombre": "Literatura Comparada",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1047": {
+      "nombre": "Adquisicion de una Segunda Lengua",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1112": {
+      "nombre": "Cultura y Civilizacion I",
+      "semestre": "1",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1113": {
+      "nombre": "Estructura del Espanol I",
+      "semestre": "1",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1114": {
+      "nombre": "Ingles I",
+      "semestre": "1",
+      "horas_semana": 8,
+      "teoricas_semana": 0,
+      "practicas_semana": 8
+    },
+    "1115": {
+      "nombre": "Investigacion Documental",
+      "semestre": "1",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1116": {
+      "nombre": "Linguistica General I",
+      "semestre": "1",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1117": {
+      "nombre": "Psicologia Evolutiva",
+      "semestre": "1",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1212": {
+      "nombre": "Cultura y Civilizacion II",
+      "semestre": "2",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1213": {
+      "nombre": "Estructura del Espanol II",
+      "semestre": "2",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1214": {
+      "nombre": "Ingles II",
+      "semestre": "Primero",
+      "horas_semana": 8,
+      "teoricas_semana": 0,
+      "practicas_semana": 8
+    },
+    "1215": {
+      "nombre": "Linguistica General II",
+      "semestre": "cuarto",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1216": {
+      "nombre": "Literatura Hispanoamericana Moderna",
+      "semestre": "2",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1217": {
+      "nombre": "Psicologia Educativa",
+      "semestre": "2",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1312": {
+      "nombre": "Cultura y Civilizacion III",
+      "semestre": "3",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1313": {
+      "nombre": "Expresion en Espanol",
+      "semestre": "3",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1314": {
+      "nombre": "Fonetica y Fonologia del Ingles",
+      "semestre": "3",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1315": {
+      "nombre": "Ingles III",
+      "semestre": "3",
+      "horas_semana": 8,
+      "teoricas_semana": 0,
+      "practicas_semana": 8
+    },
+    "1316": {
+      "nombre": "Linguistica Aplicada I",
+      "semestre": "3",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1317": {
+      "nombre": "Literatura Hispanoamericana Contemporanea",
+      "semestre": "3",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1412": {
+      "nombre": "Cultura y Civilizacion IV",
+      "semestre": "4",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1413": {
+      "nombre": "Didactica",
+      "semestre": "4",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "1414": {
+      "nombre": "Ingles IV",
+      "semestre": "4",
+      "horas_semana": 8,
+      "teoricas_semana": 0,
+      "practicas_semana": 8
+    },
+    "1415": {
+      "nombre": "Morfosintaxis del Ingles",
+      "semestre": "4",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1416": {
+      "nombre": "Taller para la Investigacion",
+      "semestre": "4",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1512": {
+      "nombre": "Ingles V",
+      "semestre": "5",
+      "horas_semana": 8,
+      "teoricas_semana": 0,
+      "practicas_semana": 8
+    },
+    "1513": {
+      "nombre": "Linguistica Aplicada II",
+      "semestre": "5",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1514": {
+      "nombre": "Literatura en Lengua Inglesa I",
+      "semestre": "5",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1515": {
+      "nombre": "Redaccion en Ingles",
+      "semestre": "5",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1516": {
+      "nombre": "Semantica",
+      "semestre": "5",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1612": {
+      "nombre": "Ingles VI",
+      "semestre": "Segundo",
+      "horas_semana": 8,
+      "teoricas_semana": 0,
+      "practicas_semana": 8
+    },
+    "1613": {
+      "nombre": "Literatura en Lengua Inglesa II",
+      "semestre": "6",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1614": {
+      "nombre": "Metodologia de la Ensenanza de Ingles como Lengua Extranjera",
+      "semestre": "6",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1615": {
+      "nombre": "Psicolinguistica",
+      "semestre": "6",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1616": {
+      "nombre": "Traduccion",
+      "semestre": "6",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1712": {
+      "nombre": "Diseno Curricular",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1713": {
+      "nombre": "Evaluacion Linguistica",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1714": {
+      "nombre": "Ingles VII",
+      "semestre": "7",
+      "horas_semana": 8,
+      "teoricas_semana": 0,
+      "practicas_semana": 8
+    },
+    "1715": {
+      "nombre": "Literatura en Lengua Inglesa III",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1716": {
+      "nombre": "Sociolinguistica",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1812": {
+      "nombre": "Ingles VIII",
+      "semestre": "8",
+      "horas_semana": 8,
+      "teoricas_semana": 0,
+      "practicas_semana": 8
+    },
+    "1813": {
+      "nombre": "Interculturalidad",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1814": {
+      "nombre": "Investigacion en Linguistica Aplicada",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1815": {
+      "nombre": "Linguistica Comparada y Analisis de Errores",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1816": {
+      "nombre": "Practica Profesional I",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1817": {
+      "nombre": "Seminario de Investigacion I",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1912": {
+      "nombre": "Ingles IX",
+      "semestre": "9",
+      "horas_semana": 8,
+      "teoricas_semana": 0,
+      "practicas_semana": 8
+    },
+    "1913": {
+      "nombre": "Seminario de Investigacion II",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1914": {
+      "nombre": "Pragmatica",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1915": {
+      "nombre": "Practica Profesional II",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    }
+  }
+}

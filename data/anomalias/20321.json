@@ -1,0 +1,31 @@
+{
+  "codigo": "20321",
+  "fecha": "2026-07-07T22:11:43.880Z",
+  "total": 2,
+  "materias": {
+    "2118": {
+      "nombre": "ALGEBRA SUPERIOR I",
+      "esperado_horas_semana": 6,
+      "fuente": "plan",
+      "grupos_afectados": [
+        {
+          "grupo": "1102",
+          "horas_semana": 4,
+          "mensaje": "Posible error. Este grupo marca 4 h a la semana cuando deberían ser 6. Verifícalo antes de inscribirte."
+        }
+      ]
+    },
+    "2215": {
+      "nombre": "MATEMATICAS FINANCIERAS I",
+      "esperado_horas_semana": 6,
+      "fuente": "plan",
+      "grupos_afectados": [
+        {
+          "grupo": "1301",
+          "horas_semana": 4,
+          "mensaje": "Posible error. Este grupo marca 4 h a la semana cuando deberían ser 6. Verifícalo antes de inscribirte."
+        }
+      ]
+    }
+  }
+}

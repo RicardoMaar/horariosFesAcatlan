@@ -1,0 +1,533 @@
+{
+  "codigo": "24022",
+  "nombre": "Matemáticas. Apl. y Comp.",
+  "plan": "endpoint:https://mac.acatlan.unam.mx",
+  "fecha_consulta": "2026-07-07T20:50:01.500Z",
+  "materias": {
+    "1": {
+      "nombre": "TEMAS SELECTOS DE OPTIMIZACION",
+      "semestre": "OCTAVO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1036": {
+      "nombre": "ANALISIS DE ALGORITMOS",
+      "semestre": "SÉPTIMO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1041": {
+      "nombre": "METODOS NUMERIC.PARA ECUAC.DIFER",
+      "semestre": "OCTAVO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1042": {
+      "nombre": "METODOS VARIACIONALES",
+      "semestre": "SÉPTIMO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1044": {
+      "nombre": "SIMULACION ESTOCASTICA",
+      "semestre": "SÉPTIMO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1045": {
+      "nombre": "SISTEMAS OPERATIVOS",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1046": {
+      "nombre": "TEORIA DE LA COMPUTACION",
+      "semestre": "OCTAVO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1048": {
+      "nombre": "ANALISIS DE FOURIER",
+      "semestre": "OCTAVO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1049": {
+      "nombre": "ADMINISTRACION DE BASE DE DATOS",
+      "semestre": "SÉPTIMO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1050": {
+      "nombre": "BASE DE DATOS DISTRIBUIDA",
+      "semestre": "OCTAVO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1055": {
+      "nombre": "GRAFICACION POR COMPUTADORA",
+      "semestre": "SÉPTIMO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1059": {
+      "nombre": "SISTEMAS INTELIGENTES",
+      "semestre": "SEPTIMO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1062": {
+      "nombre": "ADMINISTRACION DE REDES",
+      "semestre": "OCTAVO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1066": {
+      "nombre": "MINERIA DE DATOS",
+      "semestre": "OCTAVO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1067": {
+      "nombre": "PROGRAMAC. PARALELA Y CONCURRENT",
+      "semestre": "OCTAVO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1070": {
+      "nombre": "SEGURIDAD COMPUTACIONAL",
+      "semestre": "OCTAVO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1084": {
+      "nombre": "ANALISIS D DECIS.Y TEORIA D JUEG",
+      "semestre": "SÉPTIMO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1085": {
+      "nombre": "ADMINISTR.Y SISTEMAS D CONTABILI",
+      "semestre": "SÉPTIMO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1086": {
+      "nombre": "ELEMENTOS D FINANZAS E INVERSION",
+      "semestre": "SÉPTIMO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1087": {
+      "nombre": "PROGRAMACION MULTIMEDIA",
+      "semestre": "SÉPTIMO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1088": {
+      "nombre": "SISTEMAS DINAMICOS",
+      "semestre": "SÉPTIMO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1089": {
+      "nombre": "TEMAS SELECTOS DE COMPUTACION I",
+      "semestre": "SÉPTIMO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1090": {
+      "nombre": "TEMAS SELECTOS DE ESTADISTICA",
+      "semestre": "SÉPTIMO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1091": {
+      "nombre": "TEMAS SELECTOS DE MATEMATICAS I",
+      "semestre": "SÉPTIMO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1092": {
+      "nombre": "CALIDAD Y CONFIABILIDAD D SISTEM",
+      "semestre": "OCTAVO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1093": {
+      "nombre": "MODELOS ECONOMICOS",
+      "semestre": "OCTAVO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1094": {
+      "nombre": "PRACTICA PROFESIONAL",
+      "semestre": "OCTAVO",
+      "horas_semana": 8,
+      "teoricas_semana": 8,
+      "practicas_semana": 0
+    },
+    "1095": {
+      "nombre": "PRONOSTICOS",
+      "semestre": "OCTAVO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1096": {
+      "nombre": "PROYECTOS D TECNOLOGIA D INFORMA",
+      "semestre": "OCTAVO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1097": {
+      "nombre": "TEMAS SELECTOS D ADMON.Y FINANZA",
+      "semestre": "OCTAVO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1098": {
+      "nombre": "TEMAS SELECTOS DE COMPUTACION II",
+      "semestre": "OCTAVO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1099": {
+      "nombre": "TEMAS SELECTOS DE MATEMATICAS II",
+      "semestre": "OCTAVO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1106": {
+      "nombre": "ALGEBRA SUPERIOR",
+      "semestre": "PRIMERO",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1107": {
+      "nombre": "CALCULO I",
+      "semestre": "PRIMERO",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1111": {
+      "nombre": "ORGANIZACION DE COMPUTADORAS",
+      "semestre": "PRIMERO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1112": {
+      "nombre": "PROGRAMACION I",
+      "semestre": "PRIMERO",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1113": {
+      "nombre": "SOLUCION ALGORITMICA DE PROBLEMA",
+      "semestre": "PRIMERO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1206": {
+      "nombre": "ALGEBRA LINEAL",
+      "semestre": "SEGUNDO",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1207": {
+      "nombre": "CALCULO II",
+      "semestre": "SEGUNDO",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1208": {
+      "nombre": "LOGICA MATEMATICA",
+      "semestre": "PRIMERO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1211": {
+      "nombre": "GEOMETRIA DEL ESPACIO",
+      "semestre": "SEGUNDO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1212": {
+      "nombre": "INGLES INTERMEDIO I",
+      "semestre": "SEGUNDO",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1213": {
+      "nombre": "PROGRAMACION II",
+      "semestre": "SEGUNDO",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1214": {
+      "nombre": "REDES DE COMPUTO",
+      "semestre": "SEGUNDO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1306": {
+      "nombre": "CALCULO III",
+      "semestre": "TERCERO",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1308": {
+      "nombre": "METODOS NUMERICOS II",
+      "semestre": "CUARTO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1309": {
+      "nombre": "PROGRAMACION ORIENTADA A OBJETOS",
+      "semestre": "TERCERO",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1310": {
+      "nombre": "TEORIA DE GRAFICAS",
+      "semestre": "CUARTO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1311": {
+      "nombre": "ESTRUCTURAS DE DATOS",
+      "semestre": "TERCERO",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1312": {
+      "nombre": "INGLES INTERMEDIO II",
+      "semestre": "TERCERO",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1313": {
+      "nombre": "METODOS NUMERICOS I",
+      "semestre": "TERCERO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1406": {
+      "nombre": "BASE DE DATOS",
+      "semestre": "CUARTO",
+      "horas_semana": 6,
+      "teoricas_semana": 4,
+      "practicas_semana": 2
+    },
+    "1408": {
+      "nombre": "MATEMATICAS DISCRETAS",
+      "semestre": "TERCERO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1410": {
+      "nombre": "PROBABILIDAD",
+      "semestre": "CUARTO",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1411": {
+      "nombre": "CALCULO IV",
+      "semestre": "CUARTO",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1412": {
+      "nombre": "INGLES AVANZADO I",
+      "semestre": "CUARTO",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1506": {
+      "nombre": "ECUACIONES DIFERENCIALES I",
+      "semestre": "QUINTO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1511": {
+      "nombre": "ESTADISTICA I",
+      "semestre": "QUINTO",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1512": {
+      "nombre": "INGENIERIA DE SOFTWARE",
+      "semestre": "QUINTO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1513": {
+      "nombre": "INGLES AVANZADO II",
+      "semestre": "QUINTO",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1514": {
+      "nombre": "OPTIMIZACION I",
+      "semestre": "QUINTO",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1515": {
+      "nombre": "SEMINARIO SOBRE MEXICO ACTUAL",
+      "semestre": "QUINTO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1516": {
+      "nombre": "TALLER DE MANTENIMIENTO Y SOPORTE TÉCNICO",
+      "semestre": "CUARTO",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1517": {
+      "nombre": "TALLER DE ESTADISTICA I",
+      "semestre": "QUINTO",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1518": {
+      "nombre": "TALLER DE MODELOS DE OPTIMIZACION I",
+      "semestre": "QUINTO",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1607": {
+      "nombre": "DESARROLLO WEB",
+      "semestre": "SEXTO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1608": {
+      "nombre": "ECUACIONES DIFERENCIALES II",
+      "semestre": "SEXTO",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1610": {
+      "nombre": "PROCESOS ESTOCASTICOS",
+      "semestre": "SEXTO",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1611": {
+      "nombre": "ESTADISTICA II",
+      "semestre": "SEXTO",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1612": {
+      "nombre": "OPTIMIZACION II",
+      "semestre": "SEXTO",
+      "horas_semana": 6,
+      "teoricas_semana": 6,
+      "practicas_semana": 0
+    },
+    "1613": {
+      "nombre": "SEM.SOBRE ETICA Y RESPONSAB.SOCI",
+      "semestre": "SEXTO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1614": {
+      "nombre": "TALLER DE DESARROLLO DE SISTEMAS",
+      "semestre": "QUINTO",
+      "horas_semana": 8,
+      "teoricas_semana": 0,
+      "practicas_semana": 8
+    },
+    "1615": {
+      "nombre": "TALLER DE ESTADISTICA II",
+      "semestre": "SEXTO",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1716": {
+      "nombre": "INVEST.EN MATEM.APLICAD.Y COMPUT",
+      "semestre": "SÉPTIMO",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1717": {
+      "nombre": "DESARROLLO DE PROYECTO",
+      "semestre": "SEXTO",
+      "horas_semana": 8,
+      "teoricas_semana": 0,
+      "practicas_semana": 8
+    }
+  }
+}

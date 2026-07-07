@@ -1,0 +1,610 @@
+{
+  "codigo": "21121",
+  "nombre": "Ingeniería Civil",
+  "plan": "Ingenieria_Civil",
+  "fecha_consulta": "2026-07-07T20:47:45.001Z",
+  "materias": {
+    "1115": {
+      "nombre": "Ingenieria Civil y Sociedad",
+      "semestre": "1",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1116": {
+      "nombre": "Algebra Superior",
+      "semestre": "1",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1117": {
+      "nombre": "Calculo Diferencial e Integral",
+      "semestre": "1",
+      "horas_semana": 6,
+      "teoricas_semana": 3,
+      "practicas_semana": 3
+    },
+    "1118": {
+      "nombre": "Dibujo Asistido por Computadora e Interpretacion de Planos",
+      "semestre": "1",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1119": {
+      "nombre": "Fisica General",
+      "semestre": "1",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1120": {
+      "nombre": "Geometria Analitica",
+      "semestre": "1",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1216": {
+      "nombre": "Algebra Lineal",
+      "semestre": "2",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1217": {
+      "nombre": "Calculo Vectorial",
+      "semestre": "segundo",
+      "horas_semana": 6,
+      "teoricas_semana": 3,
+      "practicas_semana": 3
+    },
+    "1218": {
+      "nombre": "Estatica",
+      "semestre": "segundo",
+      "horas_semana": 6,
+      "teoricas_semana": 3,
+      "practicas_semana": 3
+    },
+    "1219": {
+      "nombre": "Materiales, Mano de Obra y Equipo",
+      "semestre": "2",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1220": {
+      "nombre": "Quimica para Ingenieria Civil",
+      "semestre": "2",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1221": {
+      "nombre": "Topografia",
+      "semestre": "2",
+      "horas_semana": 7,
+      "teoricas_semana": 3,
+      "practicas_semana": 4
+    },
+    "1316": {
+      "nombre": "Computacion y Metodos Numericos",
+      "semestre": "3",
+      "horas_semana": 6,
+      "teoricas_semana": 3,
+      "practicas_semana": 3
+    },
+    "1317": {
+      "nombre": "Cinematica y Dinamica",
+      "semestre": "3",
+      "horas_semana": 6,
+      "teoricas_semana": 3,
+      "practicas_semana": 3
+    },
+    "1318": {
+      "nombre": "Ecuaciones Diferenciales",
+      "semestre": "segundo",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1319": {
+      "nombre": "Estructuras Isostaticas",
+      "semestre": "3",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1320": {
+      "nombre": "Ingles l",
+      "semestre": "3",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1322": {
+      "nombre": "Probabilidad y Estadistica",
+      "semestre": "3",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1414": {
+      "nombre": "Recursos y Necesidades del Mexico Contemporaneo",
+      "semestre": "4",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "1416": {
+      "nombre": "Hidraulica de Tuberias",
+      "semestre": "4",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1417": {
+      "nombre": "Ingenieria Ambiental",
+      "semestre": "4",
+      "horas_semana": 4,
+      "teoricas_semana": 3,
+      "practicas_semana": 1
+    },
+    "1418": {
+      "nombre": "Ingles ll",
+      "semestre": "4",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1419": {
+      "nombre": "Metodos Constructivos",
+      "semestre": "4",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1420": {
+      "nombre": "Metodos Deterministicos de Optimizacion",
+      "semestre": "4",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1421": {
+      "nombre": "Mecanica de Materiales",
+      "semestre": "4",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1516": {
+      "nombre": "Costos en la Construccion",
+      "semestre": "5",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1517": {
+      "nombre": "Diseno de Elementos Estructurales",
+      "semestre": "5",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1518": {
+      "nombre": "Geologia Aplicada a la Ingenieria Civil",
+      "semestre": "5",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1519": {
+      "nombre": "Hidraulica de Canales",
+      "semestre": "5",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1520": {
+      "nombre": "Ingles lll",
+      "semestre": "Segundo",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1521": {
+      "nombre": "Metodos Probabilisticos de Optimizacion",
+      "semestre": "5",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1616": {
+      "nombre": "Abasteciemiento de Agua Potable",
+      "semestre": "6",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1617": {
+      "nombre": "Analisis de Estructuras",
+      "semestre": "6",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1618": {
+      "nombre": "Comportamiento de Suelos",
+      "semestre": "6",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1619": {
+      "nombre": "Hidrologia Superficial",
+      "semestre": "6",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1620": {
+      "nombre": "Ingenieria de Sistemas y Planeacion",
+      "semestre": "6",
+      "horas_semana": 6,
+      "teoricas_semana": 3,
+      "practicas_semana": 3
+    },
+    "1621": {
+      "nombre": "Ingles lV",
+      "semestre": "6",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1622": {
+      "nombre": "Maquinaria y Construccion Pesada",
+      "semestre": "6",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1716": {
+      "nombre": "Administracion de Obras",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1717": {
+      "nombre": "Alcantarillado",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1718": {
+      "nombre": "Analisis de Solicitaciones de Diseno",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1719": {
+      "nombre": "Aspectos Legales de la Ingenieria Civil",
+      "semestre": "quinto",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1720": {
+      "nombre": "Ingles V",
+      "semestre": "Segundo",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1721": {
+      "nombre": "Instalaciones II",
+      "semestre": "7",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1722": {
+      "nombre": "Mecanica de Suelos Teorica",
+      "semestre": "7",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1816": {
+      "nombre": "Cimentaciones",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1817": {
+      "nombre": "Diseno de Estructuras de Concreto",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1818": {
+      "nombre": "Obras Hidraulicas",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1819": {
+      "nombre": "Sistemas de Transporte",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1820": {
+      "nombre": "Tratamiento de Aguas Residuales",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1901": {
+      "nombre": "Evaluacion de Proyectos de Ingenieria",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1902": {
+      "nombre": "Proyecto de Investigacion",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1903": {
+      "nombre": "Taller de Proyecto Integrador",
+      "semestre": "9",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1910": {
+      "nombre": "Etica y Sociedad",
+      "semestre": "5",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0001": {
+      "nombre": "Administracion y Control de Proyectos",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0002": {
+      "nombre": "Aeropuertos",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0003": {
+      "nombre": "Analisis Avanzado de Estructuras",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0004": {
+      "nombre": "Aplicacion de las Matematicas a la Ingenieria Civil",
+      "semestre": "segundo",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0006": {
+      "nombre": "Carreteras",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0007": {
+      "nombre": "Concretro Preforzado",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0009": {
+      "nombre": "Dinamica de Suelos",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0010": {
+      "nombre": "Economia Administrativa de las Organizaciones",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0011": {
+      "nombre": "Estructuras de Mamposteria",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0012": {
+      "nombre": "Estructuras Metalicas",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0013": {
+      "nombre": "Ferrocarriles",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0005": {
+      "nombre": "Aprovechamiento de Aguas Subterraneas",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0014": {
+      "nombre": "Hidrodinamica y Maquinas Hidraulicas",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0015": {
+      "nombre": "Impacto Ambiental",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0016": {
+      "nombre": "Ingenieria de Rios y Costas",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0017": {
+      "nombre": "Ingenieria de Servicios",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0018": {
+      "nombre": "Ingenieria Sismica",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0019": {
+      "nombre": "Irrigacion y Drenaje",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0020": {
+      "nombre": "Matematicas Aplicadas a Finanzas",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0021": {
+      "nombre": "Mecanica de Rocas",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0022": {
+      "nombre": "Mecanica de Suelos Aplicada",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0023": {
+      "nombre": "Modelos de Ingenieria Ambiental",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0024": {
+      "nombre": "Pavimentos",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0025": {
+      "nombre": "Presas de Tierra y Enrocamiento",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0026": {
+      "nombre": "Programacion Dinamica",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0027": {
+      "nombre": "Puentes",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0028": {
+      "nombre": "Puertos",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0029": {
+      "nombre": "Residuos Solidos Municipales",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0030": {
+      "nombre": "Simulacion de Sistemas por Computadora",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0031": {
+      "nombre": "Sistemas Urbanos",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0033": {
+      "nombre": "Temas Selectos de Ingenieria Civil",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0035": {
+      "nombre": "Tuneles",
+      "semestre": "8",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    }
+  }
+}

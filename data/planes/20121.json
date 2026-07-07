@@ -1,0 +1,806 @@
+{
+  "codigo": "20121",
+  "nombre": "Arquitectura",
+  "plan": "Arquitectura",
+  "fecha_consulta": "2026-07-07T21:27:30.509Z",
+  "materias": {
+    "1100": {
+      "nombre": "Arte y arquitectura",
+      "semestre": "Primero",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "1101": {
+      "nombre": "El hombre y su medio ambiente",
+      "semestre": "Primero",
+      "horas_semana": 3,
+      "teoricas_semana": 2,
+      "practicas_semana": 1
+    },
+    "1102": {
+      "nombre": "Formacion profesional",
+      "semestre": "Primero",
+      "horas_semana": 2,
+      "teoricas_semana": 2,
+      "practicas_semana": 0
+    },
+    "1103": {
+      "nombre": "Geometria descriptiva",
+      "semestre": "Primero",
+      "horas_semana": 5,
+      "teoricas_semana": 2,
+      "practicas_semana": 3
+    },
+    "1104": {
+      "nombre": "Matematicas I",
+      "semestre": "Primero",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1105": {
+      "nombre": "Metodos y tecnicas de dibujo",
+      "semestre": "Primero",
+      "horas_semana": 6,
+      "teoricas_semana": 0,
+      "practicas_semana": 6
+    },
+    "1106": {
+      "nombre": "Proyectos arquitectonicos I",
+      "semestre": "Primero",
+      "horas_semana": 6,
+      "teoricas_semana": 1,
+      "practicas_semana": 5
+    },
+    "1108": {
+      "nombre": "CULTURA, ARTE Y ARQUITECTURA",
+      "semestre": "Primero",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "1109": {
+      "nombre": "DIBUJO TECNICO ARQUITECTONICO",
+      "semestre": "Primero",
+      "horas_semana": 6,
+      "teoricas_semana": 0,
+      "practicas_semana": 6
+    },
+    "1111": {
+      "nombre": "GEOMETRIA DESCRIPTIVA",
+      "semestre": "Primero",
+      "horas_semana": 5,
+      "teoricas_semana": 2,
+      "practicas_semana": 3
+    },
+    "1113": {
+      "nombre": "PROYECTO ARQUITECTONICO BASICO I",
+      "semestre": "Primero",
+      "horas_semana": 6,
+      "teoricas_semana": 1,
+      "practicas_semana": 5
+    },
+    "1200": {
+      "nombre": "Matematicas ll",
+      "semestre": "Segundo",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1201": {
+      "nombre": "Metodos y Tecnicas del Dibujo ll",
+      "semestre": "Segundo",
+      "horas_semana": 6,
+      "teoricas_semana": 0,
+      "practicas_semana": 6
+    },
+    "1202": {
+      "nombre": "Modelos Volumetricos",
+      "semestre": "Segundo",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "1203": {
+      "nombre": "Proyectos Arquitectonicos ll",
+      "semestre": "Segundo",
+      "horas_semana": 6,
+      "teoricas_semana": 1,
+      "practicas_semana": 5
+    },
+    "1204": {
+      "nombre": "Representacion Arquitectonica l",
+      "semestre": "Segundo",
+      "horas_semana": 5,
+      "teoricas_semana": 0,
+      "practicas_semana": 5
+    },
+    "1205": {
+      "nombre": "Superficies Geometricas Arquitectonicas",
+      "semestre": "Segundo",
+      "horas_semana": 5,
+      "teoricas_semana": 2,
+      "practicas_semana": 3
+    },
+    "1206": {
+      "nombre": "Teoria de la Arquitectura",
+      "semestre": "Segundo",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "1300": {
+      "nombre": "Analisis de Edificios",
+      "semestre": "Tercero",
+      "horas_semana": 3,
+      "teoricas_semana": 1,
+      "practicas_semana": 2
+    },
+    "1301": {
+      "nombre": "Elementos de Topografia",
+      "semestre": "Tercero",
+      "horas_semana": 4,
+      "teoricas_semana": 0,
+      "practicas_semana": 4
+    },
+    "1302": {
+      "nombre": "Estatica",
+      "semestre": "Tercero",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1303": {
+      "nombre": "Materiales y Construccion I",
+      "semestre": "Tercero",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1304": {
+      "nombre": "Mexico y su Habitat",
+      "semestre": "Tercero",
+      "horas_semana": 3,
+      "teoricas_semana": 2,
+      "practicas_semana": 1
+    },
+    "1305": {
+      "nombre": "Proyectos Arquitectonicos lll",
+      "semestre": "Tercero",
+      "horas_semana": 8,
+      "teoricas_semana": 1,
+      "practicas_semana": 7
+    },
+    "1306": {
+      "nombre": "Representacion Arquitectonica ll",
+      "semestre": "Tercero",
+      "horas_semana": 5,
+      "teoricas_semana": 0,
+      "practicas_semana": 5
+    },
+    "1307": {
+      "nombre": "Teorias Actuales de la Arquitectura",
+      "semestre": "Tercero",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "1400": {
+      "nombre": "Geometria del Espacio Edificado I",
+      "semestre": "Cuarto",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1401": {
+      "nombre": "Historia de la Arquitectura Siglos XIX XX XXI",
+      "semestre": "Cuarto",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "1402": {
+      "nombre": "Instalaciones Hidrosanitaria y Gas",
+      "semestre": "Cuarto",
+      "horas_semana": 3,
+      "teoricas_semana": 1,
+      "practicas_semana": 2
+    },
+    "1403": {
+      "nombre": "Metodologia de Investigacion",
+      "semestre": "Cuarto",
+      "horas_semana": 3,
+      "teoricas_semana": 1,
+      "practicas_semana": 2
+    },
+    "1404": {
+      "nombre": "Materiales y Construccion II",
+      "semestre": "Cuarto",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1405": {
+      "nombre": "Presentacion de Proyectos Arquitectonicos I",
+      "semestre": "Cuarto",
+      "horas_semana": 5,
+      "teoricas_semana": 0,
+      "practicas_semana": 5
+    },
+    "1406": {
+      "nombre": "Proyectos Arquitectonicos IV",
+      "semestre": "Cuarto",
+      "horas_semana": 8,
+      "teoricas_semana": 1,
+      "practicas_semana": 7
+    },
+    "1407": {
+      "nombre": "Resistencia de Materiales",
+      "semestre": "Cuarto",
+      "horas_semana": 5,
+      "teoricas_semana": 2,
+      "practicas_semana": 3
+    },
+    "1500": {
+      "nombre": "Estructuras I",
+      "semestre": "Quinto",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1501": {
+      "nombre": "Fundamentos de Economia",
+      "semestre": "Quinto",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1502": {
+      "nombre": "Geometria del Espacio Edificado II",
+      "semestre": "Quinto",
+      "horas_semana": 4,
+      "teoricas_semana": 1,
+      "practicas_semana": 3
+    },
+    "1503": {
+      "nombre": "Historia de la Arquitectura Edad Media al Barroco",
+      "semestre": "Quinto",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "1504": {
+      "nombre": "Instalaciones Electrica e Iluminacion",
+      "semestre": "Quinto",
+      "horas_semana": 3,
+      "teoricas_semana": 1,
+      "practicas_semana": 2
+    },
+    "1505": {
+      "nombre": "Presentacion de Proyectos Arquitectonicos II",
+      "semestre": "Quinto",
+      "horas_semana": 5,
+      "teoricas_semana": 0,
+      "practicas_semana": 5
+    },
+    "1506": {
+      "nombre": "Procedimientos de Construccion I",
+      "semestre": "Quinto",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1507": {
+      "nombre": "Proyectos Arquitectonicos V",
+      "semestre": "Quinto",
+      "horas_semana": 8,
+      "teoricas_semana": 1,
+      "practicas_semana": 7
+    },
+    "1600": {
+      "nombre": "Arquitectura Bioclimatica",
+      "semestre": "Sexto",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1601": {
+      "nombre": "Estructuras II",
+      "semestre": "Sexto",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1602": {
+      "nombre": "Historia de la Arquitectura del Origen al Imperio Bizantino",
+      "semestre": "Sexto",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "1603": {
+      "nombre": "Instalaciones Avanzadas",
+      "semestre": "Sexto",
+      "horas_semana": 3,
+      "teoricas_semana": 1,
+      "practicas_semana": 2
+    },
+    "1604": {
+      "nombre": "Formacion Empresarial",
+      "semestre": "Sexto",
+      "horas_semana": 3,
+      "teoricas_semana": 2,
+      "practicas_semana": 1
+    },
+    "1605": {
+      "nombre": "Procedimientos de Construccion II",
+      "semestre": "Sexto",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1606": {
+      "nombre": "Proyectos Arquitectonicos VI",
+      "semestre": "Sexto",
+      "horas_semana": 8,
+      "teoricas_semana": 1,
+      "practicas_semana": 7
+    },
+    "1700": {
+      "nombre": "Estructuras III",
+      "semestre": "Séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1701": {
+      "nombre": "Financiamiento y Rentabilidad",
+      "semestre": "Séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "1702": {
+      "nombre": "Historia de la Arquitectura en Mexico Siglos XIX, XX, XXI",
+      "semestre": "Séptimo",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "1703": {
+      "nombre": "Instalaciones Especiales",
+      "semestre": "Séptimo",
+      "horas_semana": 3,
+      "teoricas_semana": 1,
+      "practicas_semana": 2
+    },
+    "1704": {
+      "nombre": "Organizacion de Proyectos y Obras I",
+      "semestre": "Séptimo",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "1705": {
+      "nombre": "Proyectos Arquitectonicos VII",
+      "semestre": "Séptimo",
+      "horas_semana": 6,
+      "teoricas_semana": 1,
+      "practicas_semana": 5
+    },
+    "1706": {
+      "nombre": "Urbanismo",
+      "semestre": "Séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 4,
+      "practicas_semana": 0
+    },
+    "1707": {
+      "nombre": "Procedimientos de Construccion III",
+      "semestre": "Séptimo",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1800": {
+      "nombre": "Diseno Urbano y Ambiental I",
+      "semestre": "Octavo",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1801": {
+      "nombre": "Historia de la Arquitectura en Mexico Epocas Prehispanica y Virreinal",
+      "semestre": "Octavo",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "1802": {
+      "nombre": "Mercadotecnia",
+      "semestre": "Octavo",
+      "horas_semana": 3,
+      "teoricas_semana": 1,
+      "practicas_semana": 2
+    },
+    "1803": {
+      "nombre": "Organizacion de Proyectos y Obras II",
+      "semestre": "Octavo",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "1804": {
+      "nombre": "Procedimientos de Construccion IV",
+      "semestre": "Octavo",
+      "horas_semana": 6,
+      "teoricas_semana": 2,
+      "practicas_semana": 4
+    },
+    "1805": {
+      "nombre": "Proyectos Integrales 1a Etapa",
+      "semestre": "Octavo",
+      "horas_semana": 6,
+      "teoricas_semana": 0,
+      "practicas_semana": 6
+    },
+    "1900": {
+      "nombre": "Analisis y Evaluacion Financiera de Proyectos de Inversion",
+      "semestre": "Noveno",
+      "horas_semana": 3,
+      "teoricas_semana": 2,
+      "practicas_semana": 1
+    },
+    "1901": {
+      "nombre": "Diseno Urbano y Ambiental II",
+      "semestre": "Noveno",
+      "horas_semana": 6,
+      "teoricas_semana": 0,
+      "practicas_semana": 6
+    },
+    "1902": {
+      "nombre": "Proyectos Integrales 2a Etapa",
+      "semestre": "Noveno",
+      "horas_semana": 6,
+      "teoricas_semana": 0,
+      "practicas_semana": 6
+    },
+    "1903": {
+      "nombre": "Organizacion de Proyectos y Obras lll",
+      "semestre": "Noveno",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "1904": {
+      "nombre": "Taller Terminal",
+      "semestre": "Décimo",
+      "horas_semana": 6,
+      "teoricas_semana": 0,
+      "practicas_semana": 6
+    },
+    "0006": {
+      "nombre": "Diseno Aplicado",
+      "semestre": "Sexto",
+      "horas_semana": 6,
+      "teoricas_semana": 0,
+      "practicas_semana": 6
+    },
+    "0009": {
+      "nombre": "Interiorismo I",
+      "semestre": "Séptimo",
+      "horas_semana": 5,
+      "teoricas_semana": 1,
+      "practicas_semana": 4
+    },
+    "0013": {
+      "nombre": "Tipologias de Edificios Comerciales",
+      "semestre": "Sexto",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0011": {
+      "nombre": "Proyectos por Computadora",
+      "semestre": "Sexto",
+      "horas_semana": 6,
+      "teoricas_semana": 0,
+      "practicas_semana": 6
+    },
+    "0002": {
+      "nombre": "Arquitectura del Paisaje",
+      "semestre": "Sexto",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0008": {
+      "nombre": "Estereotomia",
+      "semestre": "Sexto",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0014": {
+      "nombre": "Temas Selectos de Geometria",
+      "semestre": "Sexto",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0004": {
+      "nombre": "Dibujo de la Figura Humana",
+      "semestre": "Sexto",
+      "horas_semana": 5,
+      "teoricas_semana": 1,
+      "practicas_semana": 4
+    },
+    "0005": {
+      "nombre": "Dibujo de Estructuras",
+      "semestre": "Sexto",
+      "horas_semana": 5,
+      "teoricas_semana": 1,
+      "practicas_semana": 4
+    },
+    "0007": {
+      "nombre": "Elementos del Diseno Arquitectonico",
+      "semestre": "Sexto",
+      "horas_semana": 5,
+      "teoricas_semana": 1,
+      "practicas_semana": 4
+    },
+    "0003": {
+      "nombre": "Arquitectura y Desarrollo Sustentable",
+      "semestre": "Sexto",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0010": {
+      "nombre": "Normatividad",
+      "semestre": "Sexto",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0012": {
+      "nombre": "Renovacion y Remodelacion",
+      "semestre": "Sexto",
+      "horas_semana": 5,
+      "teoricas_semana": 1,
+      "practicas_semana": 4
+    },
+    "0015": {
+      "nombre": "Interiorismo II",
+      "semestre": "Séptimo",
+      "horas_semana": 5,
+      "teoricas_semana": 1,
+      "practicas_semana": 4
+    },
+    "0018": {
+      "nombre": "Tipologias de Edificios y Areas Abiertas Recreativas, Culturales y de Vivienda",
+      "semestre": "Séptimo",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0019": {
+      "nombre": "Tipologias de Edificios de Educacion",
+      "semestre": "Séptimo",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0016": {
+      "nombre": "Introduccion a la Geometria Fractal",
+      "semestre": "Séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0020": {
+      "nombre": "Tecnicas de Representacion",
+      "semestre": "Séptimo",
+      "horas_semana": 5,
+      "teoricas_semana": 1,
+      "practicas_semana": 4
+    },
+    "0017": {
+      "nombre": "Impacto Ambiental",
+      "semestre": "Séptimo",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0021": {
+      "nombre": "Control del Medio Ambiente y Contaminacion",
+      "semestre": "Séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0025": {
+      "nombre": "Tipologia Historico Arquitectonica",
+      "semestre": "Sexto",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0023": {
+      "nombre": "El Espacio Arquitectonico y Urbano en el Periodo Prehispanico",
+      "semestre": "Sexto",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0024": {
+      "nombre": "El Espacio Arquitectonico y Urbano del Mexico Independiente",
+      "semestre": "Sexto",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0022": {
+      "nombre": "Arquitectura y Arte Popular Mexicano",
+      "semestre": "Sexto",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0028": {
+      "nombre": "Teoria Superior de la Arquitectura",
+      "semestre": "Séptimo",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0027": {
+      "nombre": "El Espacio Arquitectonico y Urbano en la epoca virreynal",
+      "semestre": "Séptimo",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0026": {
+      "nombre": "Arquitectura Contemporanea y Prospectiva",
+      "semestre": "Séptimo",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0029": {
+      "nombre": "Arquielectronica",
+      "semestre": "Sexto",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0034": {
+      "nombre": "Geometria Estructural",
+      "semestre": "Sexto",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0030": {
+      "nombre": "Cimentaciones I",
+      "semestre": "Sexto",
+      "horas_semana": 5,
+      "teoricas_semana": 1,
+      "practicas_semana": 4
+    },
+    "0032": {
+      "nombre": "Cimentaciones II",
+      "semestre": "Sexto",
+      "horas_semana": 5,
+      "teoricas_semana": 1,
+      "practicas_semana": 4
+    },
+    "0036": {
+      "nombre": "Prefabricados",
+      "semestre": "Sexto",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0035": {
+      "nombre": "Metodos de Construccion y Restauracion",
+      "semestre": "Sexto",
+      "horas_semana": 5,
+      "teoricas_semana": 1,
+      "practicas_semana": 4
+    },
+    "0033": {
+      "nombre": "Complementos Matematicos",
+      "semestre": "Sexto",
+      "horas_semana": 5,
+      "teoricas_semana": 1,
+      "practicas_semana": 4
+    },
+    "0037": {
+      "nombre": "Arquimecanica",
+      "semestre": "Séptimo",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0040": {
+      "nombre": "Edificios Automatizados",
+      "semestre": "Séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0042": {
+      "nombre": "Evaluacion Estructural",
+      "semestre": "Séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0038": {
+      "nombre": "Ciberconfiguracion Estructural",
+      "semestre": "Séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0039": {
+      "nombre": "Diseno Sismico",
+      "semestre": "Séptimo",
+      "horas_semana": 5,
+      "teoricas_semana": 1,
+      "practicas_semana": 4
+    },
+    "0041": {
+      "nombre": "Elementos Prefabricados",
+      "semestre": "Séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0043": {
+      "nombre": "Computacion y Programacion de Proyectos y Obras",
+      "semestre": "Sexto",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0045": {
+      "nombre": "Organizacion de Obras",
+      "semestre": "Sexto",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0044": {
+      "nombre": "Legislacion Nacional, Internacional y Certificacion",
+      "semestre": "Sexto",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0047": {
+      "nombre": "Organizacion de Empresas",
+      "semestre": "Séptimo",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    },
+    "0048": {
+      "nombre": "Valuacion Inmobiliaria",
+      "semestre": "Séptimo",
+      "horas_semana": 4,
+      "teoricas_semana": 2,
+      "practicas_semana": 2
+    },
+    "0046": {
+      "nombre": "Arquitectura y Economia Sustentable",
+      "semestre": "Séptimo",
+      "horas_semana": 3,
+      "teoricas_semana": 3,
+      "practicas_semana": 0
+    }
+  }
+}
