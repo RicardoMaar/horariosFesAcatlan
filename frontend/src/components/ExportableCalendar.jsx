@@ -1,22 +1,28 @@
-
 import React from 'react';
+import { getVariante } from '../utils/colores';
+import { organizarBloquesPorColumnas } from '../utils/calendario';
+
+// Componente que se renderiza fuera de pantalla y se captura con html2canvas.
+// Usa colores concretos (tema claro, imprimible): html2canvas no resuelve
+// variables CSS ni degradados, por eso todo va en hex y con líneas explícitas.
 
 const DIAS = ['LU', 'MA', 'MI', 'JU', 'VI', 'SA'];
 const DIAS_NOMBRES = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
 const HORA_INICIO = 7;
 const HORA_FIN = 23;
+const PX = 48; // px por hora
 
 const horaAMinutos = (hora) => {
   const [horas, minutos] = hora.split(':').map(Number);
   return horas * 60 + minutos;
 };
 
-// Usamos `forwardRef` para poder asignarle una ref desde el padre
+const TOTAL = (HORA_FIN - HORA_INICIO) * PX;
+
 const ExportableCalendar = React.forwardRef(({ materias, coloresAsignados, carrera }, ref) => {
-  
   const horas = [];
-  for (let h = HORA_INICIO; h < HORA_FIN; h++) {
-    horas.push(`${h.toString().padStart(2, '0')}:00`);
+  for (let h = HORA_INICIO; h <= HORA_FIN; h++) {
+    horas.push(h);
   }
 
   return (
@@ -24,78 +30,116 @@ const ExportableCalendar = React.forwardRef(({ materias, coloresAsignados, carre
       ref={ref}
       style={{
         position: 'absolute',
-        left: '-9999px', // Lo mandamos fuera de la pantalla
+        left: '-9999px',
         top: '-9999px',
-        width: '1200px',
-        backgroundColor: '#ffffff',
-        padding: '20px',
+        width: '1120px',
+        background: '#F6F4F1',
+        padding: '28px',
         fontFamily: 'Figtree, system-ui, sans-serif',
-        boxSizing: 'border-box',
+        boxSizing: 'border-box'
       }}
     >
-      <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-        <h1 style={{ fontSize: '24px', fontWeight: '600', color: '#1f2937' }}>Horario</h1>
-        <p style={{ fontSize: '14px', color: '#6b7280', margin: '4px 0 0' }}>{carrera || 'Mi Horario'}</p>
-      </div>
+      <div style={{ background: '#FFFFFF', border: '1px solid #EBE6E0', borderRadius: '18px', padding: '22px 24px' }}>
+        {/* Encabezado */}
+        <div style={{ marginBottom: '18px' }}>
+          <h1 style={{ margin: 0, fontFamily: '"Bricolage Grotesque", sans-serif', fontWeight: 700, fontSize: '22px', color: '#26232B', letterSpacing: '-.01em' }}>
+            Horario
+          </h1>
+          <p style={{ margin: '4px 0 0', fontSize: '13px', color: '#726C79' }}>
+            {carrera ? `Carrera ${carrera}` : 'Mi horario'}
+          </p>
+        </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '60px repeat(6, 1fr)', border: '1px solid #e5e7eb' }}>
-        {/* Header */}
-        <div style={{ backgroundColor: '#f9fafb' }}></div>
-        {DIAS_NOMBRES.map(dia => (
-          <div key={dia} style={{ padding: '8px', textAlign: 'center', fontWeight: '500', fontSize: '14px', borderLeft: '1px solid #e5e7eb' }}>
-            {dia}
-          </div>
-        ))}
-        
-        {/* Fila de horas */}
-        <div style={{ gridColumn: '1 / 2', borderTop: '1px solid #e5e7eb' }}>
-          {horas.map(hora => (
-            <div key={hora} style={{ height: '36px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '12px', color: '#6b7280', borderTop: '1px solid #f3f4f6' }}>
-              {hora}
+        {/* Cabecera de días */}
+        <div style={{ display: 'grid', gridTemplateColumns: '56px repeat(6, 1fr)', marginBottom: '4px' }}>
+          <div></div>
+          {DIAS_NOMBRES.map(dia => (
+            <div key={dia} style={{ textAlign: 'center', fontSize: '12px', fontWeight: 600, color: '#726C79', paddingBottom: '8px' }}>
+              {dia}
             </div>
           ))}
         </div>
-        
-        {/* Celdas para materias */}
-        {DIAS.map(dia => (
-          <div key={dia} style={{ gridColumnStart: DIAS.indexOf(dia) + 2, gridRowStart: '2', position: 'relative', borderLeft: '1px solid #e5e7eb', borderTop: '1px solid #e5e7eb' }}>
-            {horas.map(hora => <div key={hora} style={{ height: '36px', borderTop: '1px solid #f3f4f6' }}></div>)}
-            
-            {materias
-              .filter(m => m.horarios.some(h => h.dia === dia))
-              .map(materia => {
-                const horario = materia.horarios.find(h => h.dia === dia);
-                const inicioMins = horaAMinutos(horario.inicio) - (HORA_INICIO * 60);
-                const finMins = horaAMinutos(horario.fin) - (HORA_INICIO * 60);
 
-                const top = (inicioMins / 60) * 36; // 36px por hora
-                const height = ((finMins - inicioMins) / 60) * 36;
-
-                return (
-                  <div key={materia.id} style={{
-                    position: 'absolute',
-                    top: `${top}px`,
-                    height: `${height - 2}px`, // -2px para un pequeño margen
-                    left: '2px',
-                    right: '2px',
-                    backgroundColor: coloresAsignados[materia.id] || '#3B82F6',
-                    color: 'white',
-                    borderRadius: '4px',
-                    padding: '4px',
-                    fontSize: '11px',
-                    overflow: 'hidden',
-                  }}>
-                    <div style={{ fontWeight: '600', lineHeight: '1.2' }}>{materia.nombre}</div>
-                    <div style={{ opacity: '0.9', fontSize: '10px' }}>Gpo: {materia.grupo}</div>
-                  </div>
-                );
-              })
-            }
+        {/* Rejilla */}
+        <div style={{ display: 'grid', gridTemplateColumns: '56px repeat(6, 1fr)' }}>
+          {/* Columna de horas: etiquetas centradas sobre cada línea */}
+          <div style={{ position: 'relative', height: `${TOTAL}px` }}>
+            {horas.map((h, i) => (
+              <div
+                key={h}
+                style={{ position: 'absolute', top: `${i * PX - 7}px`, right: '8px', fontSize: '11px', color: '#726C79' }}
+              >
+                {String(h).padStart(2, '0')}:00
+              </div>
+            ))}
           </div>
-        ))}
+
+          {/* Columnas de días */}
+          {DIAS.map(dia => {
+            const bloques = [];
+            materias.forEach(m => (m.horarios || []).forEach(h => {
+              if (h.dia === dia) bloques.push({ materia: m, horario: h });
+            }));
+            // Reparte en columnas los bloques que se traslapan (igual que en pantalla).
+            organizarBloquesPorColumnas(bloques);
+
+            return (
+              <div key={dia} style={{ position: 'relative', height: `${TOTAL}px`, borderLeft: '1px solid #EBE6E0' }}>
+                {/* Líneas fuertes (hora en punto) */}
+                {horas.slice(0, -1).map((h, i) => (
+                  <div key={`s-${h}`} style={{ position: 'absolute', left: 0, right: 0, top: `${i * PX}px`, borderTop: '1px solid #EBE6E0' }} />
+                ))}
+                {/* Líneas tenues (media hora) */}
+                {horas.slice(0, -1).map((h, i) => (
+                  <div key={`f-${h}`} style={{ position: 'absolute', left: 0, right: 0, top: `${i * PX + PX / 2}px`, borderTop: '1px solid #F4F0EB' }} />
+                ))}
+
+                {/* Bloques */}
+                {bloques.map((bloque, idx) => {
+                  const { materia, horario } = bloque;
+                  const ini = horaAMinutos(horario.inicio) - HORA_INICIO * 60;
+                  const fin = horaAMinutos(horario.fin) - HORA_INICIO * 60;
+                  const top = (ini / 60) * PX;
+                  const height = ((fin - ini) / 60) * PX - 2;
+                  const v = getVariante(coloresAsignados[materia.id], false);
+                  const cols = bloque.totalColumnas || 1;
+                  const w = 100 / cols;
+                  const left = (bloque.columna || 0) * w;
+
+                  return (
+                    <div
+                      key={`${materia.id}-${idx}`}
+                      style={{
+                        position: 'absolute',
+                        top: `${top}px`,
+                        height: `${height}px`,
+                        left: `calc(${left}% + 3px)`,
+                        width: `calc(${w}% - 6px)`,
+                        background: v.fill,
+                        color: v.text,
+                        borderLeft: `3px solid ${v.bar}`,
+                        borderRadius: '6px',
+                        padding: '4px 7px',
+                        overflow: 'hidden',
+                        boxSizing: 'border-box'
+                      }}
+                    >
+                      <div style={{ fontWeight: 600, fontSize: '11px', lineHeight: 1.15 }}>{materia.nombre}</div>
+                      <div style={{ fontSize: '9.5px', opacity: 0.85, marginTop: '2px' }}>
+                        {horario.inicio}–{horario.fin} · {materia.salon}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
 });
+
+ExportableCalendar.displayName = 'ExportableCalendar';
 
 export default ExportableCalendar;
