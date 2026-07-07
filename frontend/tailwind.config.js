@@ -7,8 +7,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'handwritten': ['Caveat', 'cursive'], 
-        'sans': ['Poppins', 'system-ui', 'sans-serif'], 
+        // Bricolage Grotesque para wordmark y títulos de sección
+        'display': ['"Bricolage Grotesque"', 'system-ui', 'sans-serif'],
+        // Figtree para toda la UI y el cuerpo
+        'sans': ['Figtree', 'system-ui', 'sans-serif'],
+      },
+      borderRadius: {
+        '2xl': '18px',
       },
       colors: {
         // Paleta inspirada en Notion Calendar

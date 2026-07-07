@@ -1,23 +1,33 @@
 import React from 'react';
 import { CALENDARIO_CONFIG } from '../../constants/calendario';
-import { generarHoras } from '../../utils/calendario';
+import { generarHorasEnPunto, alturaHora, alturaTotal } from '../../utils/calendario';
 
 const ColumnaHoras = React.memo(({ isMobile = false }) => {
-  const horas = generarHoras();
-  const slotHeight = isMobile 
-    ? CALENDARIO_CONFIG.SLOT_HEIGHT * CALENDARIO_CONFIG.MOBILE_SCALE_FACTOR 
-    : CALENDARIO_CONFIG.SLOT_HEIGHT;
+  const horas = generarHorasEnPunto();
+  const scaleFactor = isMobile ? CALENDARIO_CONFIG.MOBILE_SCALE_FACTOR : 1;
+  const hora = alturaHora(scaleFactor);
+  const total = alturaTotal(scaleFactor);
 
   return (
-    <div>
-      {horas.map((hora, index) => (
-        <div 
-          key={hora} 
-          className={`bg-gray-50 flex items-center justify-center ${isMobile ? 'text-xs' : 'text-xs'} text-gray-600`}
-          style={{ height: `${slotHeight}rem` }}
+    <div
+      className="relative"
+      style={{ height: `${total}px`, background: 'var(--surface)' }}
+    >
+      {horas.map((label, index) => (
+        <span
+          key={label}
+          className="absolute font-sans tabular-nums"
+          style={{
+            top: `${index * hora}px`,
+            right: isMobile ? '6px' : '9px',
+            transform: 'translateY(-50%)',
+            fontSize: isMobile ? '10px' : '11px',
+            color: 'var(--muted)',
+            fontVariantNumeric: 'tabular-nums'
+          }}
         >
-          {index % 2 === 0 && hora}
-        </div>
+          {label}
+        </span>
       ))}
     </div>
   );

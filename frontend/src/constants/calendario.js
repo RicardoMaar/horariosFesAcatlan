@@ -3,7 +3,8 @@ export const CALENDARIO_CONFIG = {
     DIAS_NOMBRES: ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
     HORA_INICIO: 7,
     HORA_FIN: 23,
-    SLOT_HEIGHT: 1.1375, // rem por cada 30 minutos
+    // Altura de cada hora en px (una línea fuerte por hora, una tenue en la media).
+    PX_POR_HORA: 54,
     MOBILE_SCALE_FACTOR: 0.875,
     MOBILE_BREAKPOINT: 768,
     SWIPE_THRESHOLD: 50,
@@ -13,7 +14,7 @@ export const CALENDARIO_CONFIG = {
       RENDER_DOM: 200
     }
   };
-  
+
   export const CLASES_ANIMACION = {
     BASE: 'calendario-bloque-hover',
     ENTRADA: 'calendario-bloque',

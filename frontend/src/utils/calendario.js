@@ -2,29 +2,46 @@ import { horaAMinutos } from './traslapes';
 import { CALENDARIO_CONFIG } from '../constants/calendario';
 
 export const calcularPosicionBloque = (horario, scaleFactor = 1) => {
-  const { HORA_INICIO, SLOT_HEIGHT } = CALENDARIO_CONFIG;
-  
+  const { HORA_INICIO, PX_POR_HORA } = CALENDARIO_CONFIG;
+
   const [horaInicio, minInicio] = horario.inicio.split(':').map(Number);
   const [horaFin, minFin] = horario.fin.split(':').map(Number);
-  
+
   const minutosInicio = (horaInicio - HORA_INICIO) * 60 + minInicio;
   const minutosFin = (horaFin - HORA_INICIO) * 60 + minFin;
-  
-  const top = (minutosInicio / 30) * SLOT_HEIGHT * 16 * scaleFactor;
-  const height = ((minutosFin - minutosInicio) / 30) * SLOT_HEIGHT * 16 * scaleFactor;
-  
+
+  const top = (minutosInicio / 60) * PX_POR_HORA * scaleFactor;
+  const height = ((minutosFin - minutosInicio) / 60) * PX_POR_HORA * scaleFactor;
+
   return { top, height };
+};
+
+// Altura de cada hora en px (ya escalada para mobile).
+export const alturaHora = (scaleFactor = 1) => CALENDARIO_CONFIG.PX_POR_HORA * scaleFactor;
+
+// Altura total de la rejilla (desde HORA_INICIO hasta HORA_FIN).
+export const alturaTotal = (scaleFactor = 1) =>
+  (CALENDARIO_CONFIG.HORA_FIN - CALENDARIO_CONFIG.HORA_INICIO) * alturaHora(scaleFactor);
+
+// Etiquetas de horas en punto: ['07:00', '08:00', ...].
+export const generarHorasEnPunto = () => {
+  const { HORA_INICIO, HORA_FIN } = CALENDARIO_CONFIG;
+  const result = [];
+  for (let h = HORA_INICIO; h <= HORA_FIN; h++) {
+    result.push(`${h.toString().padStart(2, '0')}:00`);
+  }
+  return result;
 };
 
 export const generarHoras = () => {
   const { HORA_INICIO, HORA_FIN } = CALENDARIO_CONFIG;
   const result = [];
-  
+
   for (let h = HORA_INICIO; h < HORA_FIN; h++) {
     result.push(`${h.toString().padStart(2, '0')}:00`);
     result.push(`${h.toString().padStart(2, '0')}:30`);
   }
-  
+
   return result;
 };
 

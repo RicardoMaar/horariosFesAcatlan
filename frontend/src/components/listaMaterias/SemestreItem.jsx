@@ -16,28 +16,49 @@ const SemestreItem = React.memo(({
   traslapes
 }) => {
   return (
-    <div className="border border-gray-200 rounded-md overflow-hidden">
+    <div
+      className="overflow-hidden"
+      style={{
+        border: '1px solid var(--border)',
+        borderRadius: '13px',
+        background: 'var(--surface)'
+      }}
+    >
       <button
         onClick={() => onToggleSemestre(semestre)}
-        className="w-full px-3 py-2 flex items-center justify-between hover:bg-gray-50 transition-colors duration-200"
+        className="w-full flex items-center justify-between px-3.5 py-2.5 transition-colors"
+        style={{ background: 'var(--surface2)' }}
       >
-        <span className="font-semibold text-sm text-gray-700">
-          {getSemestreLabel(semestre)}
-        </span>
-        <div className="flex items-center gap-2">
-          <svg 
-            className={`w-4 h-4 arrow-icon ${expandido ? 'rotated' : ''} transition-transform duration-300 ease-in-out`}
-            fill="none" 
-            stroke="currentColor" 
+        <span className="flex items-center gap-2.5">
+          <svg
+            className={`w-3.5 h-3.5 arrow-icon ${expandido ? 'rotated' : ''} transition-transform duration-300`}
+            style={{ color: 'var(--muted-2)' }}
+            fill="none"
+            stroke="currentColor"
             viewBox="0 0 24 24"
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
           </svg>
-        </div>
+          <span className="font-semibold text-[13.5px] text-[var(--text)]">
+            {getSemestreLabel(semestre)}
+          </span>
+        </span>
+        <span
+          className="text-[10.5px]"
+          style={{
+            color: 'var(--muted)',
+            background: 'var(--surface)',
+            border: '1px solid var(--border)',
+            padding: '2px 8px',
+            borderRadius: '20px'
+          }}
+        >
+          {materias.length} materias
+        </span>
       </button>
 
       <div className={`semestre-expand ${expandido ? 'semestre-expanded' : 'semestre-collapsed'} transition-all duration-300 ease-in-out overflow-hidden`}>
-        <div className="border-t border-gray-100">
+        <div style={{ borderTop: '1px solid var(--border)' }}>
           {materias.map((materia, index) => (
             <MateriaItem
               key={materia.clave}

@@ -8,25 +8,25 @@ import ModalDetalles from './components/ModalDetalles';
 import ExportMenu from './components/ExportMenu';
 import LimpiarHorarioButton from './components/LimpiarHorarioButton';
 import useHorariosStore from './store/useHorariosStore';
+import useTheme from './store/useTheme';
 import ExportableCalendar from './components/ExportableCalendar';
 import { useStatus } from './hooks/useStatus';
 import ScheduleSheets from './components/ScheduleSheets';
+import { getMateriasConTraslapes, horaAMinutos } from './utils/traslapes';
 
 function App() {
   const carreraSeleccionada = useHorariosStore(state => state.carreraSeleccionada);
   const materiasSeleccionadas = useHorariosStore(state => state.materiasSeleccionadas);
   const coloresAsignados = useHorariosStore(state => state.coloresAsignados);
+  const dark = useTheme(state => state.dark);
+  const toggleDark = useTheme(state => state.toggle);
   const exportableCalendarRef = useRef(null);
   const { fechaActualizacion, loading: statusLoading } = useStatus();
 
   const fechaActualizacionTexto = useMemo(() => {
-    if (!fechaActualizacion) {
-      return null;
-    }
+    if (!fechaActualizacion) return null;
     const date = new Date(fechaActualizacion);
-    if (Number.isNaN(date.getTime())) {
-      return null;
-    }
+    if (Number.isNaN(date.getTime())) return null;
     return new Intl.DateTimeFormat('es-MX', {
       dateStyle: 'medium',
       timeStyle: 'short',
@@ -38,92 +38,158 @@ function App() {
     ? `Actualizado: ${fechaActualizacionTexto} (CDMX)`
     : statusLoading
       ? 'Actualizando...'
-      : 'Actualizacion no disponible';
+      : 'Actualización no disponible';
+
+  // Chips del encabezado del calendario: traslapes y carga horaria.
+  const traslapeCount = useMemo(
+    () => getMateriasConTraslapes(materiasSeleccionadas).size,
+    [materiasSeleccionadas]
+  );
+
+  const horasSemana = useMemo(() => {
+    const min = materiasSeleccionadas.reduce((acc, m) => (
+      acc + (m.horarios || []).reduce((s, h) => s + (horaAMinutos(h.fin) - horaAMinutos(h.inicio)), 0)
+    ), 0);
+    return Math.round(min / 60);
+  }, [materiasSeleccionadas]);
+
+  const selCount = materiasSeleccionadas.length;
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Toaster 
+    <div className="min-h-screen">
+      <Toaster
         position="top-right"
-        toastOptions={{
-          style: {
-            background: '#333',
-            color: '#fff',
-          },
-        }}
+        toastOptions={{ style: { background: '#26232B', color: '#fff' } }}
       />
-      
+
       {/* Header */}
-      <header className="bg-white border-b border-gray-200 sticky top-0 z-40">
-        <div className="max-w-7xl mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
+      <header
+        className="sticky top-0 z-40"
+        style={{ background: 'var(--surface)', borderBottom: '1px solid var(--border)' }}
+      >
+        <div className="mx-auto max-w-[1340px] px-6 py-[13px] flex items-center justify-between gap-4">
+          <div className="flex items-center gap-3">
+            <img
+              src="/apple-touch-icon.png"
+              alt="Logo Horarios FES Acatlán"
+              className="w-[38px] h-[38px] rounded-xl object-cover"
+              style={{ boxShadow: '0 3px 10px var(--primary-glow)' }}
+            />
             <div>
-              <h1 className="text-3xl font-handwritten text-primary-700">
-                Horarios FES Acatlán
+              <h1
+                className="font-display font-bold leading-none"
+                style={{ fontSize: '21px', letterSpacing: '-.02em', color: 'var(--text)' }}
+              >
+                Horarios <span style={{ color: 'var(--primary)' }}>FES Acatlán</span>
               </h1>
-              <p className="text-xs text-gray-500 mt-1">
+              <p className="mt-[3px] flex items-center gap-1.5" style={{ fontSize: '11.5px', color: 'var(--muted)' }}>
+                <span className="w-1.5 h-1.5 rounded-full inline-block" style={{ background: 'var(--success)' }} />
                 {statusLabel}
               </p>
             </div>
-            {/* Mostrar botones siempre, pero condicionar funcionalidad */}
-            <div className="flex items-center gap-3">
-              <LimpiarHorarioButton />
-              <ExportMenu exportableRef={exportableCalendarRef} />
-            </div>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <button
+              onClick={toggleDark}
+              className="inline-flex items-center gap-2 text-[13px] font-medium transition-colors"
+              style={{ padding: '8px 13px', borderRadius: '10px', border: '1px solid var(--border)', background: 'var(--surface2)', color: 'var(--text)' }}
+              aria-label={dark ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
+            >
+              <span
+                className="inline-block w-3.5 h-3.5 rounded-full"
+                style={dark
+                  ? { background: '#FBBF24', boxShadow: 'inset -4px -3px 0 var(--surface2)' }
+                  : { background: 'linear-gradient(135deg,#FBBF24,#F59E0B)' }}
+              />
+              {dark ? 'Claro' : 'Oscuro'}
+            </button>
+            <LimpiarHorarioButton />
+            <ExportMenu exportableRef={exportableCalendarRef} />
           </div>
         </div>
       </header>
 
-      {/* Contenido principal */}
-      <main className="max-w-7xl mx-auto px-4 py-6">
-        <div className="mb-6 space-y-4">
-          <ScheduleSheets />
-          <div className="flex">
-            <div className="w-full lg:w-1/3 xl:w-1/4">
-              <CarreraSelector />
-            </div>
-          </div>
-        </div>
+      {/* Toolbar: carrera + hojas de horario */}
+      <div className="mx-auto max-w-[1340px] px-6 pt-[18px] flex items-center gap-3 flex-wrap">
+        <CarreraSelector />
+        <ScheduleSheets />
+      </div>
 
-        {/* Mostrar siempre la vista del calendario */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-          {/* Panel izquierdo - Lista de materias */}
-          <div className="lg:col-span-4 xl:col-span-3">
-            <div className="bg-white rounded-lg shadow-sm p-4 h-full lg:h-[calc(100vh-180px)] flex flex-col">
-              <h2 className="text-2xl mb-4 font-handwritten">
+      {/* Contenido principal */}
+      <main className="mx-auto max-w-[1340px] px-6 pt-4 pb-7 grid grid-cols-1 lg:grid-cols-[362px_1fr] gap-[18px] items-start">
+        {/* Panel izquierdo - Lista de materias */}
+        <section
+          className="flex flex-col overflow-hidden lg:h-[calc(100vh-176px)] min-h-[520px]"
+          style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: '18px', boxShadow: '0 1px 3px rgba(0,0,0,.04)' }}
+        >
+          <div className="px-[18px] pt-[17px] pb-[13px]" style={{ borderBottom: '1px solid var(--border)' }}>
+            <div className="flex items-center justify-between mb-3">
+              <h2 className="font-display font-semibold" style={{ fontSize: '17px', color: 'var(--text)', letterSpacing: '-.01em' }}>
                 Materias disponibles
               </h2>
-              {carreraSeleccionada ? (
-                <>
-                  <BuscadorMaterias />
-                  <div className="mt-4 flex-1 overflow-y-auto custom-scrollbar scrollbar-gutter-stable">
-                    <ListaMaterias />
-                  </div>
-                </>
-              ) : (
-                <div className="flex-1 flex items-center justify-center text-gray-500">
-                  <div className="text-center">
-                    <svg className="w-12 h-12 mx-auto mb-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                    </svg>
-                    <p className="text-sm">Selecciona una carrera para ver las materias disponibles</p>
-                  </div>
-                </div>
+              {carreraSeleccionada && (
+                <span
+                  className="text-[11px] font-semibold"
+                  style={{ color: 'var(--primary-text)', background: 'var(--primary-soft)', padding: '3px 9px', borderRadius: '20px' }}
+                >
+                  {selCount} elegidas
+                </span>
               )}
             </div>
+            {carreraSeleccionada && <BuscadorMaterias />}
           </div>
 
-          {/* Panel derecho - Calendario */}
-          <div className="lg:col-span-8 xl:col-span-9">
-            <div className="bg-white rounded-lg shadow-sm p-4 flex flex-col h-full lg:h-[calc(100vh-180px)]">
-              <h2 className="text-2xl mb-4 font-handwritten">
+          <div className="flex-1 overflow-y-auto custom-scrollbar scrollbar-gutter-stable p-3">
+            {carreraSeleccionada ? (
+              <ListaMaterias />
+            ) : (
+              <div className="h-full min-h-[340px] flex flex-col items-center justify-center text-center px-6" style={{ color: 'var(--muted)' }}>
+                <div
+                  className="flex items-center justify-center mb-3.5"
+                  style={{ width: '54px', height: '54px', borderRadius: '16px', background: 'var(--surface2)', border: '1px solid var(--border)', fontSize: '24px' }}
+                >
+                  ✦
+                </div>
+                <p className="text-[13px] max-w-[220px] leading-relaxed">
+                  Selecciona una carrera para ver las materias disponibles.
+                </p>
+              </div>
+            )}
+          </div>
+        </section>
+
+        {/* Panel derecho - Calendario */}
+        <section
+          className="flex flex-col overflow-hidden lg:h-[calc(100vh-176px)] min-h-[520px]"
+          style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: '18px', boxShadow: '0 1px 3px rgba(0,0,0,.04)' }}
+        >
+          <div className="px-[18px] py-[15px] flex items-center justify-between gap-3 flex-wrap" style={{ borderBottom: '1px solid var(--border)' }}>
+            <div className="flex items-center gap-3">
+              <h2 className="font-display font-semibold" style={{ fontSize: '17px', color: 'var(--text)', letterSpacing: '-.01em' }}>
                 Horario
               </h2>
-              <div className="flex-1 min-h-0">
-                <CalendarioSemanal />
-              </div>
+              {traslapeCount > 0 && (
+                <span
+                  className="inline-flex items-center gap-1.5 text-[11.5px] font-semibold"
+                  style={{ color: 'var(--danger-text)', background: 'var(--danger-soft)', padding: '4px 10px', borderRadius: '20px' }}
+                >
+                  <span className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--danger)' }} />
+                  {traslapeCount === 1 ? '1 traslape' : `${traslapeCount} traslapes`}
+                </span>
+              )}
             </div>
+            {selCount > 0 && (
+              <span className="text-[11.5px]" style={{ color: 'var(--muted)' }}>
+                {selCount} {selCount === 1 ? 'grupo' : 'grupos'} · {horasSemana} h/sem
+              </span>
+            )}
           </div>
-        </div>
+
+          <div className="flex-1 min-h-0 overflow-auto px-1.5 pb-2">
+            <CalendarioSemanal />
+          </div>
+        </section>
       </main>
 
       <ExportableCalendar
@@ -133,7 +199,6 @@ function App() {
         carrera={carreraSeleccionada}
       />
 
-      {/* Modal de detalles */}
       <ModalDetalles />
     </div>
   );

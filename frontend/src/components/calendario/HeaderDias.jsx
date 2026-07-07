@@ -3,10 +3,19 @@ import React from 'react';
 const HeaderDias = React.memo(({ dias, isMobile = false }) => {
   return (
     <>
-      <div className="bg-gray-50 p-1"></div>
+      <div></div>
       {dias.map((dia) => (
-        <div key={dia} className="bg-gray-50 p-1 text-center">
-          <div className={`font-medium ${isMobile ? 'text-xs' : 'text-sm'}`}>{dia}</div>
+        <div
+          key={dia}
+          className="text-center font-semibold"
+          style={{
+            padding: isMobile ? '2px 0 8px' : '4px 0 10px',
+            fontSize: isMobile ? '11px' : '12px',
+            color: 'var(--muted)',
+            letterSpacing: '.02em'
+          }}
+        >
+          {dia}
         </div>
       ))}
     </>

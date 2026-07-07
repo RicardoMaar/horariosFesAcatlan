@@ -28,12 +28,12 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: #d1d5db;
+    background-color: var(--border);
     transition: background-color 0.3s ease;
   }
-  
+
   .calendar-dot.active {
-    background-color: #3b82f6;
+    background-color: var(--primary);
   }
   
   /* Animaciones para bloques */

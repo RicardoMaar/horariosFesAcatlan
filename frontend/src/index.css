@@ -1,249 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Figtree:wght@400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {  
+/* ==========================================================================
+   Tokens de tema (variables CSS) — tono Notion cálido y estudiantil.
+   El toggle claro/oscuro escribe data-theme en <html> (ver store/useTheme.js).
+   ========================================================================== */
+@layer base {
+  :root,
+  :root[data-theme='light'] {
+    --bg: #F6F4F1;
+    --surface: #FFFFFF;
+    --surface2: #FBF9F6;
+    --text: #26232B;
+    --muted: #726C79;
+    --muted-2: #A29CAB;
+    --border: #EBE6E0;
+    --border-faint: #F3EFEA;
+    --cal-strong: #EBE6E0;
+    --cal-faint: #F4F0EB;
+    --danger: #DC2626;
+    --danger-soft: #FBE7E5;
+    --danger-text: #B91C1C;
+    --primary: #7C3AED;
+    --primary-soft: #F1ECFE;
+    --primary-text: #5B21B6;
+    --primary-glow: rgba(124, 58, 237, 0.4);
+    --success: #16A34A;
+  }
+
+  :root[data-theme='dark'] {
+    --bg: #151319;
+    --surface: #1E1B24;
+    --surface2: #26222E;
+    --text: #ECE8F1;
+    --muted: #A49DAD;
+    --muted-2: #7E7789;
+    --border: #322D3B;
+    --border-faint: #2A2633;
+    --cal-strong: #302B39;
+    --cal-faint: #242031;
+    --danger: #F87171;
+    --danger-soft: #3A1D1F;
+    --danger-text: #FCA5A5;
+    --primary: #A78BFA;
+    --primary-soft: #2C2440;
+    --primary-text: #C4B5FD;
+    --primary-glow: rgba(167, 139, 250, 0.25);
+    --success: #4ADE80;
+  }
+
   body {
-    @apply font-sans text-gray-900 bg-gray-50;
+    @apply font-sans;
+    background: var(--bg);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+    transition: background 0.25s ease, color 0.25s ease;
   }
-  
-  .handwritten {
-    @apply font-handwritten;
+
+  ::selection {
+    background: rgba(124, 58, 237, 0.22);
   }
-  
-  /* Scrollbar personalizada */
+
+  input::placeholder,
+  textarea::placeholder {
+    color: var(--muted-2);
+    opacity: 1;
+  }
+
+  /* Scrollbar general */
   ::-webkit-scrollbar {
     @apply w-2 h-2;
   }
-  
   ::-webkit-scrollbar-track {
-    @apply bg-gray-100 rounded-full;
+    background: transparent;
   }
-  
   ::-webkit-scrollbar-thumb {
-    @apply bg-gray-400 rounded-full hover:bg-gray-500;
+    background: var(--border);
+    border-radius: 20px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
   }
-  
-  /* Animación de hover para cards */
-  .card-hover {
-    @apply transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5;
-  }
-  
-  /* Grid del calendario - Desktop por defecto */
-  .calendar-grid {
-    display: grid;
-    grid-template-columns: 80px repeat(6, 1fr);
-    grid-template-rows: 40px repeat(30, 40px);
-    gap: 1px;
-    @apply bg-gray-200;
-  }
-  
-  /* Slots de tiempo */
-  .time-slot {
-    @apply bg-white p-1 text-xs relative overflow-hidden;
-  }
-  
-  /* Clases de materia en el calendario */
-  .materia-block {
-    @apply absolute inset-0 p-2 rounded-md shadow-sm overflow-hidden;
-    @apply flex flex-col justify-center text-white text-xs font-medium;
-    @apply transition-all duration-200 hover:shadow-md hover:scale-105;
-    @apply cursor-pointer;
-  }
-  
-  /* Contenedor para swipe en mobile */
-  /* .calendar-swipe-container {
-    @apply relative overflow-hidden;
-  }
-  
-
-  .calendar-views-wrapper {
-    @apply flex transition-transform duration-300 ease-in-out;
-  }
-  
- 
-  .calendar-view {
-    @apply w-full flex-shrink-0;
-  } */
-  
-  /* Indicadores de página */
-  .calendar-dots {
-    @apply flex justify-center gap-2 mt-4;
-  }
-  
-  .calendar-dot {
-    @apply w-2 h-2 rounded-full bg-gray-300 transition-colors duration-300;
-  }
-  
-  .calendar-dot.active {
-    @apply bg-blue-500;
-  }
-  
-  /* Modo tablet */
-  @media (min-width: 769px) and (max-width: 1023px) {
-    .calendar-grid {
-      grid-template-columns: 70px repeat(5, 1fr);
-      grid-template-rows: 38px repeat(30, 38px);
-    }
-  }
-  
-  /* Modo mobile - SOLO 3 días visibles */
-  @media (max-width: 768px) {
-    /* Ocultar el grid normal en mobile */
-    .calendar-grid.desktop-only {
-      display: none;
-    }
-    
-    /* Grid mobile con 3 columnas */
-    .calendar-grid-mobile {
-      display: grid;
-      grid-template-columns: 50px repeat(3, 1fr);
-      grid-template-rows: 35px repeat(30, 35px);
-      gap: 1px;
-      @apply bg-gray-200;
-    }
-    
-    /* Ajustes para elementos en mobile */
-    .time-slot {
-      @apply p-0.5 text-xs;
-    }
-    
-    .materia-block {
-      @apply p-1 text-xs;
-      @apply hover:scale-100; /* Desactivar scale en móvil */
-    }
-    
-    /* Navegación táctil */
-    .swipe-hint {
-      @apply absolute right-2 top-1/2 transform -translate-y-1/2;
-      @apply text-gray-400 animate-pulse;
-    }
-  }
-  
-  /* Mobile muy pequeño */
-  @media (max-width: 480px) {
-    .calendar-grid-mobile {
-      grid-template-columns: 45px repeat(3, 1fr);
-      grid-template-rows: 32px repeat(30, 32px);
-    }
-    
-    .time-slot {
-      @apply text-xs p-0;
-    }
-    
-    .materia-block {
-      @apply text-xs p-0.5;
-    }
-  }
-  
-  /* Landscape mobile */
-  @media (max-width: 768px) and (orientation: landscape) {
-    .calendar-grid-mobile {
-      grid-template-rows: 30px repeat(30, 30px);
-    }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--muted-2);
+    background-clip: padding-box;
   }
 }
 
-/* Personalización de scrollbar para Lista de Materias */
+/* Scrollbar de la lista de materias */
 .custom-scrollbar {
   scrollbar-width: thin;
-  scrollbar-color: #e5e7eb #f9fafb;
+  scrollbar-color: var(--border) transparent;
 }
-
 .custom-scrollbar::-webkit-scrollbar {
   width: 8px;
 }
-
 .custom-scrollbar::-webkit-scrollbar-track {
-  background: #f9fafb;
-  border-radius: 4px;
+  background: transparent;
 }
-
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: #e5e7eb;
-  border-radius: 4px;
+  background: var(--border);
+  border-radius: 8px;
 }
-
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #d1d5db;
-}
-
-@layer components {
-  .stable-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  
-  @media (min-width: 1024px) {
-    .stable-grid {
-      grid-template-columns: repeat(12, 1fr);
-    }
-  }
-  
-  .stable-grid-item {
-    min-width: 0;
-    width: 100%;
-  }
+  background: var(--muted-2);
 }
 
 .scrollbar-gutter-stable {
   scrollbar-gutter: stable;
 }
 
-/* Animación de deslizamiento */
-@keyframes swipe-hint {
-  0%, 100% {
-    transform: translateX(0) translateY(-50%);
-  }
-  50% {
-    transform: translateX(-5px) translateY(-50%);
-  }
-}
-
-.swipe-hint {
-  animation: swipe-hint 2s ease-in-out infinite;
-}
-
-/* Asegurar consistencia de alturas en diferentes viewports */
-@layer utilities {
-  /* Altura consistente para paneles */
-  .panel-height {
-    height: calc(100vh - 180px);
-  }
-  
-  @media (max-width: 1023px) {
-    .panel-height {
-      height: auto;
-      max-height: calc(100vh - 200px);
-    }
-  }
-  
-  /* Anchos consistentes para inputs/selects */
-  .input-width {
-    @apply w-full max-w-sm lg:max-w-md;
-  }
-}
-
-/* Ajustar el grid del calendario en móvil para prevenir overflow */
-@media (max-width: 640px) {
-  .calendar-grid,
-  .calendar-grid-mobile {
-    font-size: 0.75rem; /* Reducir tamaño de fuente */
-  }
-}
-
-/* Asegurar que flex funcione correctamente en todos los navegadores */
 @layer utilities {
   .min-h-0 {
     min-height: 0;
-  }
-  
-  /* Para contenedores flex que necesitan scroll */
-  .flex-scroll-container {
-    @apply flex-1 min-h-0 overflow-y-auto;
   }
 }

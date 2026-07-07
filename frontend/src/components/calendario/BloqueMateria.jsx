@@ -1,5 +1,7 @@
 import React from 'react';
 import { CLASES_ANIMACION } from '../../constants/calendario';
+import { getVariante } from '../../utils/colores';
+import useTheme from '../../store/useTheme';
 
 const BloqueMateria = React.memo(({
   bloque,
@@ -11,32 +13,34 @@ const BloqueMateria = React.memo(({
   onBloqueClick,
   onRemove
 }) => {
-  const width = bloque.totalColumnas > 1 
-    ? `${100 / bloque.totalColumnas}%` 
-    : '100%';
-  
-  const left = bloque.totalColumnas > 1 
-    ? `${(100 / bloque.totalColumnas) * bloque.columna}%` 
-    : '0';
+  const dark = useTheme(state => state.dark);
+  const variante = getVariante(bloque.color, dark);
+
+  const width = bloque.totalColumnas > 1
+    ? `calc(${100 / bloque.totalColumnas}% - 4px)`
+    : 'calc(100% - 4px)';
+
+  const left = bloque.totalColumnas > 1
+    ? `calc(${(100 / bloque.totalColumnas) * bloque.columna}% + 2px)`
+    : '2px';
+
+  const top = bloque.top * scaleFactor;
+  const height = Math.max(bloque.height * scaleFactor - 3, 16);
 
   const handleRemove = (event) => {
     event.stopPropagation();
     onRemove(bloque);
   };
 
-  // Calcular opacidad
-  let opacidadFinal;
+  // Opacidad: se atenúa solo el bloque activo del modal (para resaltar la selección).
+  let opacidadFinal = 1;
   if (seEstaQuitando) {
     opacidadFinal = 0;
   } else if (esBloqueDelModal) {
-    opacidadFinal = 0.3;
-  } else if (bloque.tieneTraslape) {
-    opacidadFinal = 0.5;
-  } else {
-    opacidadFinal = 1;
+    opacidadFinal = 0.35;
   }
 
-  // Construir clases de animación
+  // Clases de animación (se conservan intactas).
   let claseAnimacion = CLASES_ANIMACION.BASE;
   if (esNuevo) {
     claseAnimacion += ` ${CLASES_ANIMACION.ENTRADA}`;
@@ -51,25 +55,33 @@ const BloqueMateria = React.memo(({
     claseAnimacion += ` ${CLASES_ANIMACION.TRASLAPE}`;
   }
 
+  // Anillo rojo cuando hay traslape; sombra suave normal.
+  const boxShadow = bloque.tieneTraslape && !seEstaQuitando
+    ? '0 0 0 1.5px var(--danger), 0 1px 3px rgba(0,0,0,.12)'
+    : '0 1px 3px rgba(0,0,0,.08)';
+
   const handleClick = () => {
     if (!esBloqueDelModal && !seEstaQuitando) {
       onBloqueClick(bloque);
     }
   };
 
+  const mostrarSub = height >= 42 && !isMobile;
+
   return (
     <div
-      className={`
-        group absolute ${isMobile ? 'p-0.5' : 'p-1'} rounded cursor-pointer
-        ${claseAnimacion}
-        ${bloque.tieneTraslape && !seEstaQuitando ? 'ring-2 ring-red-500 ring-opacity-10' : ''}
-      `}
+      className={`group absolute overflow-hidden cursor-pointer ${claseAnimacion}`}
       style={{
-        top: `${(bloque.top * scaleFactor) / 16}rem`,
-        height: `${((bloque.height - 2) * scaleFactor) / 16}rem`,
-        backgroundColor: bloque.color,
+        top: `${top}px`,
+        height: `${height}px`,
         left,
         width,
+        background: variante.fill,
+        color: variante.text,
+        borderLeft: `3px solid ${variante.bar}`,
+        borderRadius: '8px',
+        padding: isMobile ? '4px 6px' : '5px 8px',
+        boxShadow,
         opacity: opacidadFinal,
         zIndex: esBloqueDelModal ? 5 : (esNuevo ? 15 : 'auto'),
         pointerEvents: seEstaQuitando ? 'none' : 'auto'
@@ -80,31 +92,37 @@ const BloqueMateria = React.memo(({
         <button
           type="button"
           onClick={handleRemove}
-          className="absolute top-1 right-1 h-4 w-4 rounded-full bg-white/90 text-gray-600 text-xs opacity-0 group-hover:opacity-100 transition-opacity"
+          className="absolute top-[3px] right-[3px] h-4 w-4 rounded-full flex items-center justify-center text-xs leading-none opacity-0 group-hover:opacity-100 transition-opacity"
+          style={{
+            background: dark ? 'rgba(0,0,0,.35)' : 'rgba(255,255,255,.85)',
+            color: variante.text
+          }}
           aria-label={`Quitar ${bloque.nombre}`}
         >
           ×
         </button>
       )}
-      <div className="text-white h-full flex flex-col justify-center px-1 overflow-hidden"> 
-        <div 
-          className={`${isMobile ? 'text-xs' : 'text-xs'} font-semibold leading-tight`}
-          style={{
-            display: '-webkit-box',
-            WebkitLineClamp: 2,
-            WebkitBoxOrient: 'vertical',
-            overflow: 'hidden',
-            textOverflow: 'ellipsis'
-          }}
-        >
-          {bloque.nombre}
-        </div>
-        {bloque.height > 60 && !isMobile && (
-          <div className="text-[10px] opacity-80 truncate mt-1">
-            {bloque.profesor}
-          </div>
-        )}
+      <div
+        className="font-semibold leading-tight"
+        style={{
+          fontSize: isMobile ? '10.5px' : '11.5px',
+          display: '-webkit-box',
+          WebkitLineClamp: 2,
+          WebkitBoxOrient: 'vertical',
+          overflow: 'hidden',
+          textOverflow: 'ellipsis'
+        }}
+      >
+        {bloque.nombre}
       </div>
+      {mostrarSub && (
+        <div
+          className="truncate"
+          style={{ fontSize: '10px', opacity: 0.82, marginTop: '3px' }}
+        >
+          {bloque.horario.inicio}–{bloque.horario.fin} · {bloque.salon}
+        </div>
+      )}
     </div>
   );
 });

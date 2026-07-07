@@ -26,7 +26,14 @@ function ListaMaterias() {
   } = useExpansionStates(busqueda, materiasFiltradas);
 
   if (Object.keys(materiasPorSemestre).length === 0) {
-    return <EmptyState />;
+    // Distinguir "sin resultados de búsqueda" de "datos aún no cargados".
+    if (busqueda) {
+      return <EmptyState mensaje="No hay materias que coincidan con tu búsqueda." />;
+    }
+    if (!materiasData) {
+      return <EmptyState mensaje="Cargando materias…" />;
+    }
+    return <EmptyState mensaje="Esta carrera no tiene materias disponibles." />;
   }
 
   return (

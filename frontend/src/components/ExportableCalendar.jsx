@@ -29,7 +29,7 @@ const ExportableCalendar = React.forwardRef(({ materias, coloresAsignados, carre
         width: '1200px',
         backgroundColor: '#ffffff',
         padding: '20px',
-        fontFamily: 'Poppins, system-ui, sans-serif',
+        fontFamily: 'Figtree, system-ui, sans-serif',
         boxSizing: 'border-box',
       }}
     >

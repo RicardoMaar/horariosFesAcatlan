@@ -15,99 +15,116 @@ const GrupoItem = React.memo(({
 }) => {
   const id = `${materia.clave}-${grupo.grupo}`;
 
-  // Anomalia de carga a nivel de grupo (horas del horario != plan de estudios / demas grupos)
+  // Anomalía de carga a nivel de grupo (horas del horario != plan de estudios / demás grupos)
   const anomaliaMateria = useHorariosStore(state => state.anomaliasData?.[materia.clave]);
   const grupoAnomalo = anomaliaMateria?.grupos_afectados?.find(g => g.grupo === grupo.grupo);
   const mensajeAnomalia = grupoAnomalo
     ? `Posible error. Este grupo marca ${grupoAnomalo.horas_semana} h a la semana cuando deberían ser ${anomaliaMateria.esperado_horas_semana}. Verifícalo antes de inscribirte.`
     : null;
 
-  const handleClick = (e) => {
-    if (!e.target.closest('input[type="checkbox"]')) {
-      const materiaConGrupo = {
-        id,
-        clave: materia.clave,
-        nombre: materia.nombre,
-        grupo: grupo.grupo,
-        profesor: grupo.profesor,
-        salon: grupo.salon,
-        horarios: grupo.horarios,
-        semestre: materia.semestre
-      };
-      startTransition(() => {
-        onClickDetalle(materiaConGrupo);
-      });
-    }
+  const materiaConGrupo = {
+    id,
+    clave: materia.clave,
+    nombre: materia.nombre,
+    grupo: grupo.grupo,
+    profesor: grupo.profesor,
+    salon: grupo.salon,
+    horarios: grupo.horarios,
+    semestre: materia.semestre
   };
 
-  const handleCheckboxClick = (e) => {
+  // Clic directo en la fila => agrega/quita el grupo del horario.
+  const handleToggle = () => {
+    startTransition(() => {
+      onToggle(materia.clave, grupo);
+    });
+  };
+
+  // Botón "Detalles" => abre el modal del grupo (sin togglear).
+  const handleDetalle = (e) => {
     e.stopPropagation();
+    startTransition(() => {
+      onClickDetalle(materiaConGrupo);
+    });
   };
 
   return (
     <div
-      className={`
-        grupo-item px-3 py-2 text-xs border-t border-gray-100 transition-opacity transition-transform transition-colors duration-200 cursor-pointer
-        ${seleccionada ? 'bg-primary-50' : 'hover:bg-white'}
-        ${tieneTraslape ? 'bg-red-50' : ''}
-        ${expandido 
-          ? 'translate-y-0 opacity-100' 
-          : 'translate-y-1 opacity-0'
+      role="button"
+      tabIndex={0}
+      onClick={handleToggle}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          handleToggle();
         }
-      `}
-      style={{ 
-        transitionDelay: expandido ? `${index * ANIMATION_CONFIG.GRUPO_DELAY}ms` : '0ms' 
       }}
-      onClick={handleClick}
+      className={`grupo-item flex items-center gap-2.5 px-3.5 py-2.5 cursor-pointer transition-transform transition-opacity duration-200 ${
+        expandido ? 'translate-y-0 opacity-100' : 'translate-y-1 opacity-0'
+      }`}
+      style={{
+        borderTop: '1px solid var(--border-faint)',
+        borderLeft: `3px solid ${seleccionada ? color : 'transparent'}`,
+        background: seleccionada ? 'var(--primary-soft)' : 'transparent',
+        transitionDelay: expandido ? `${index * ANIMATION_CONFIG.GRUPO_DELAY}ms` : '0ms'
+      }}
     >
-      <div className="flex items-center justify-between">
-        <div className="flex-1">
-          <div className="flex items-center gap-2">
-            <label 
-              className="flex items-center cursor-pointer"
-              onClick={handleCheckboxClick}
+      <div className="flex-1 min-w-0">
+        <div className="flex items-center gap-2">
+          <span className="font-semibold text-xs text-[var(--text)]">
+            Grupo {grupo.grupo}
+          </span>
+          {seleccionada && (
+            <span
+              className="w-2 h-2 rounded-full color-circle flex-shrink-0"
+              style={{ background: color }}
+            />
+          )}
+          {mensajeAnomalia && (
+            <span
+              tabIndex={0}
+              title={mensajeAnomalia}
+              aria-label={mensajeAnomalia}
+              onClick={(e) => e.stopPropagation()}
+              className="inline-flex items-center justify-center w-4 h-4 rounded-full text-[10px] leading-none cursor-help select-none flex-shrink-0"
+              style={{
+                background: 'var(--danger-soft)',
+                border: '1px solid var(--danger)',
+                color: 'var(--danger-text)'
+              }}
             >
-              <input
-                type="checkbox"
-                checked={seleccionada}
-                onChange={() => onToggle(materia.clave, grupo)}
-                className="mr-2 rounded border-gray-300 text-primary-600 focus:ring-primary-500 transition-colors duration-200"
-              />
-              <span className="font-medium">
-                Grupo {grupo.grupo}
-              </span>
-            </label>
-            {mensajeAnomalia && (
-              <span
-                tabIndex={0}
-                title={mensajeAnomalia}
-                aria-label={mensajeAnomalia}
-                onClick={(e) => e.stopPropagation()}
-                className="inline-flex items-center justify-center w-4 h-4 rounded-full bg-accent-50 border border-accent-300 text-accent-600 text-[10px] leading-none cursor-help select-none"
-              >
-                ⚠
-              </span>
-            )}
-            {seleccionada && (
-              <div 
-                className="w-3 h-3 rounded-full color-circle transition-all duration-200 hover:scale-110"
-                style={{ backgroundColor: color }}
-              />
-            )}
-            {tieneTraslape && (
-              <span className="text-red-600 text-xs animate-pulse">
-                ⚠️ Traslape
-              </span>
-            )}
-          </div>
-          <div className="mt-1 text-gray-600 ml-6">
-            {grupo.profesor}
-          </div>
-          <div className="mt-1 text-gray-500 ml-6">
-            {grupo.horarios.map(h => `${h.dia} ${h.inicio}-${h.fin}`).join(', ')}
-          </div>
+              ⚠
+            </span>
+          )}
+          {tieneTraslape && (
+            <span
+              className="text-[10px] font-semibold px-1.5 py-px rounded flex-shrink-0"
+              style={{ background: 'var(--danger-soft)', color: 'var(--danger-text)' }}
+            >
+              traslape
+            </span>
+          )}
+        </div>
+        <div className="mt-1 text-[11px] text-[var(--muted)] leading-snug truncate">
+          {grupo.profesor}
+        </div>
+        <div className="mt-0.5 text-[11px] text-[var(--muted-2)] truncate">
+          {grupo.horarios.map(h => `${h.dia} ${h.inicio}-${h.fin}`).join(', ')}
         </div>
       </div>
+
+      <button
+        type="button"
+        onClick={handleDetalle}
+        className="flex-shrink-0 self-center px-2.5 py-1.5 rounded-lg text-[11px] font-semibold transition-colors"
+        style={{
+          border: '1px solid var(--border)',
+          background: 'var(--surface)',
+          color: 'var(--muted)'
+        }}
+      >
+        Detalles
+      </button>
     </div>
   );
 });

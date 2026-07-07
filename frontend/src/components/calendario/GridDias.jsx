@@ -1,22 +1,31 @@
 import React from 'react';
 import BloqueMateria from './BloqueMateria';
-import { generarHoras } from '../../utils/calendario';
 import { CALENDARIO_CONFIG } from '../../constants/calendario';
+import { alturaHora, alturaTotal } from '../../utils/calendario';
 import useHorariosStore from '../../store/useHorariosStore';
 
-const GridDias = React.memo(({ 
-  diasParaMostrar, 
-  bloquesPorDia, 
+const construirGradiente = (hora) => {
+  const media = hora / 2;
+  return [
+    // Línea fuerte en la hora en punto.
+    `repeating-linear-gradient(to bottom, var(--cal-strong) 0, var(--cal-strong) 1px, transparent 1px, transparent ${hora}px)`,
+    // Línea tenue en la media hora.
+    `repeating-linear-gradient(to bottom, transparent 0, transparent ${media}px, var(--cal-faint) ${media}px, var(--cal-faint) ${media + 1}px, transparent ${media + 1}px, transparent ${hora}px)`
+  ].join(',');
+};
+
+const GridDias = React.memo(({
+  diasParaMostrar,
+  bloquesPorDia,
   isMobile = false,
   bloquesAnimando,
   bloquesParaQuitar
 }) => {
-  const horas = generarHoras();
-  const slotHeight = isMobile 
-    ? CALENDARIO_CONFIG.SLOT_HEIGHT * CALENDARIO_CONFIG.MOBILE_SCALE_FACTOR 
-    : CALENDARIO_CONFIG.SLOT_HEIGHT;
   const scaleFactor = isMobile ? CALENDARIO_CONFIG.MOBILE_SCALE_FACTOR : 1;
-  
+  const hora = alturaHora(scaleFactor);
+  const total = alturaTotal(scaleFactor);
+  const backgroundImage = construirGradiente(hora);
+
   const modalAbierto = useHorariosStore(state => state.modalAbierto);
   const bloqueModalActivo = useHorariosStore(state => state.bloqueModalActivo);
   const abrirModal = useHorariosStore(state => state.abrirModal);
@@ -29,24 +38,23 @@ const GridDias = React.memo(({
   return (
     <>
       {diasParaMostrar.map(dia => (
-        <div key={dia} className="relative bg-white">
-          {/* Líneas de fondo para las horas */}
-          {horas.map((_, index) => (
-            <div 
-              key={index}
-              className={`border-t ${index % 2 === 0 ? 'border-gray-200' : 'border-gray-100'}`}
-              style={{ height: `${slotHeight}rem` }}
-            />
-          ))}
-
-          {/* Bloques de materias */}
+        <div
+          key={dia}
+          className="relative"
+          style={{
+            height: `${total}px`,
+            background: 'var(--surface)',
+            backgroundImage,
+            borderLeft: '1px solid var(--border)'
+          }}
+        >
           {bloquesPorDia[dia].map((bloque, index) => {
             const bloqueKey = `${bloque.id}-${index}`;
             const esNuevo = bloquesAnimando.has(bloqueKey);
             const seEstaQuitando = bloquesParaQuitar.has(bloqueKey) || bloque.esFantasma;
-            
-            const esBloqueDelModal = modalAbierto && 
-              bloqueModalActivo?.id === bloque.id && 
+
+            const esBloqueDelModal = modalAbierto &&
+              bloqueModalActivo?.id === bloque.id &&
               bloqueModalActivo?.horario?.dia === bloque.horario.dia &&
               bloqueModalActivo?.horario?.inicio === bloque.horario.inicio;
 
