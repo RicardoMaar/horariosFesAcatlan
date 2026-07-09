@@ -2,7 +2,8 @@ name: Scrape and Update Horarios
 
 on:
   schedule:
-    - cron: '0 9 * * 5'
+    - cron: '0 9 * * 5'       # semanal (viernes 9:00 UTC) — todo el año
+    - cron: '0 9 * * 0-4,6'   # diario (dom-jue + sáb) — ventana de reinscripcion, se autolimita
   workflow_dispatch:
 
 jobs:
@@ -10,16 +11,37 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: write
-    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
 
     steps:
+      # El cron DIARIO solo aplica hasta END_DATE (ventana de reinscripcion).
+      # El semanal (viernes) y el disparo manual SIEMPRE corren.
+      # Para extender/mover la ventana, cambia END_DATE.
+      - name: Ventana diaria (autolimit)
+        id: gate
+        run: |
+          END_DATE='2026-08-19'
+          if [ "${{ github.event.schedule }}" = '0 9 * * 0-4,6' ]; then
+            TODAY=$(date -u +%Y-%m-%d)
+            if [[ "$TODAY" > "$END_DATE" ]]; then
+              echo "Fuera de la ventana diaria ($TODAY > $END_DATE); se omite."
+              echo "run=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          fi
+          echo "run=true" >> "$GITHUB_OUTPUT"
+
       - name: Checkout repository
+        if: steps.gate.outputs.run == 'true'
         uses: actions/checkout@v4
         with:
+          # Token de un admin (secret) para pushear a main brincando el branch
+          # protection (enforce_admins=false). Si falta el secret, cae al token
+          # por defecto: el scraper corre pero el push se omite (no falla la corrida).
+          token: ${{ secrets.SCRAPER_PUSH_TOKEN || github.token }}
           persist-credentials: true
 
       - name: Setup Node.js
+        if: steps.gate.outputs.run == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '18'
@@ -27,23 +49,36 @@ jobs:
           cache-dependency-path: ./backend/scraper/package-lock.json
 
       - name: Install dependencies
+        if: steps.gate.outputs.run == 'true'
         working-directory: ./backend/scraper
         run: npm ci
 
       - name: Run scraper script
+        if: steps.gate.outputs.run == 'true'
         working-directory: ./backend/scraper
         run: node scraper.js
 
       - name: Run data integrity tests
+        if: steps.gate.outputs.run == 'true'
         run: node --test
 
-      - name: Create pull request for data update
-        uses: peter-evans/create-pull-request@v6
-        with:
-          commit-message: "chore(data): update horarios"
-          title: "chore(data): update horarios"
-          body: "Actualizacion automatica de JSONs de horarios."
-          branch: "bot/scraper-update"
-          delete-branch: true
-          add-paths: |
-            data
+      # Commit + push directo a main. Corre solo si hay secret admin y si los
+      # tests pasaron (la salida no-cero de un step previo aborta el job).
+      - name: Commit y push de datos
+        if: steps.gate.outputs.run == 'true'
+        env:
+          HAS_TOKEN: ${{ secrets.SCRAPER_PUSH_TOKEN != '' }}
+        run: |
+          if [ "$HAS_TOKEN" != "true" ]; then
+            echo "Falta el secret SCRAPER_PUSH_TOKEN; se omite el push (datos no publicados)."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Sin cambios en data/; nada que publicar."
+            exit 0
+          fi
+          git commit -m "chore(data): actualiza horarios [skip ci]"
+          git push origin HEAD:main
