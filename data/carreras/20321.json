@@ -1,7 +1,7 @@
 {
   "codigo": "20321",
   "nombre": "Actuaría",
-  "fecha_consulta": "2026-07-15T18:21:52.175Z",
+  "fecha_consulta": "2026-07-28T21:31:04.273Z",
   "materias": {
     "2032": {
       "nombre": "ANALISIS DE REGRESION",
@@ -1032,6 +1032,12 @@
           "profesor": "BAUTISTA MENDOZA GAMALIEL",
           "horarios": [
             {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
               "dia": "MA",
               "dia_nombre": "Martes",
               "inicio": "09:00",
@@ -1249,6 +1255,12 @@
           "grupo": "1301",
           "profesor": "HERRERA MALDONADO BENJAMIN ALEJANDRO",
           "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
             {
               "dia": "MI",
               "dia_nombre": "Miércoles",

@@ -1,7 +1,7 @@
 {
   "codigo": "21025",
   "nombre": "Pedagogía",
-  "fecha_consulta": "2026-07-15T18:23:13.908Z",
+  "fecha_consulta": "2026-07-28T21:32:25.824Z",
   "materias": {
     "1129": {
       "nombre": "DESARROLLO HUMANO Y PROFESIONAL",
@@ -2855,16 +2855,16 @@
           "profesor": "ALMAZAN VELAZQUEZ RICARDO",
           "horarios": [
             {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "18:00",
-              "fin": "20:00"
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "18:00"
             },
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
-              "inicio": "20:00",
-              "fin": "22:00"
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "16:00",
+              "fin": "18:00"
             }
           ],
           "salon": "A-913,A-913"
