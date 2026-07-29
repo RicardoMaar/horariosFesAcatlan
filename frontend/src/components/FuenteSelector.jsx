@@ -17,6 +17,7 @@ function FuenteSelector() {
   const fuenteActivaId = useHorariosStore((state) => state.fuenteActivaId);
   const fuentesInicializadas = useHorariosStore((state) => state.fuentesInicializadas);
   const agregarFuente = useHorariosStore((state) => state.agregarFuente);
+  const actualizarFuente = useHorariosStore((state) => state.actualizarFuente);
   const setFuenteActiva = useHorariosStore((state) => state.setFuenteActiva);
   const quitarFuente = useHorariosStore((state) => state.quitarFuente);
   const [open, setOpen] = useState(false);
@@ -26,6 +27,20 @@ function FuenteSelector() {
   const fuenteActiva = fuentes.find((fuente) => fuente.id === fuenteActivaId);
   const carreraCount = contarFuentes(fuentes, 'carrera');
   const idiomaCount = contarFuentes(fuentes, 'idioma');
+
+  useEffect(() => {
+    if (catalogoLoading || !carreras || !idiomas) return;
+
+    fuentes.forEach((fuente) => {
+      const catalogo = fuente.tipo === 'carrera' ? carreras[fuente.codigo] : idiomas[fuente.codigo];
+      if (!catalogo || catalogo.nombre === fuente.nombre) return;
+      actualizarFuente({
+        id: fuente.id,
+        nombre: catalogo.nombre,
+        etiqueta: fuente.tipo === 'carrera' ? 'Carrera' : 'Idioma'
+      });
+    });
+  }, [actualizarFuente, carreras, catalogoLoading, fuentes, idiomas]);
 
   useEffect(() => {
     if (catalogoLoading || fuentes.length > 0 || fuentesInicializadas || !carreras) return;

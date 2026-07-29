@@ -12,7 +12,7 @@ module.exports = (req, res) => {
     return sendJson(res, 503, { error: 'Datos no disponibles' });
   }
 
-  return sendJson(res, 200, index.carreras || {}, {
+  return sendJson(res, 200, { carreras: index.carreras || {} }, {
     'Cache-Control': 'public, max-age=60'
   });
 };

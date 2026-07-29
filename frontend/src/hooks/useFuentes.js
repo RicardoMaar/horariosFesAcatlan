@@ -18,8 +18,9 @@ export function useFuentesCatalogo() {
         axios.get(`${API_BASE}/carreras`),
         axios.get(`${API_BASE}/idiomas`)
       ]);
-      setCarreras(carrerasResponse.data?.carreras || {});
-      setIdiomas(idiomasResponse.data?.idiomas || {});
+      // Acepta ambos formatos para tolerar despliegues/API antiguos durante la transición.
+      setCarreras(carrerasResponse.data?.carreras || carrerasResponse.data || {});
+      setIdiomas(idiomasResponse.data?.idiomas || idiomasResponse.data || {});
       setError(null);
     } catch (err) {
       setError(err.message || 'Error cargando fuentes');
