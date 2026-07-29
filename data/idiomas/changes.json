@@ -1,12 +1,6 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-07-29T18:20:23.046Z",
-  "total_cambios": 1,
-  "idiomas": [
-    {
-      "codigo": "2",
-      "slug": "arabe",
-      "nombre": "ÁRABE"
-    }
-  ]
+  "fecha_actualizacion": "2026-07-29T19:06:35.508Z",
+  "total_cambios": 0,
+  "idiomas": []
 }
