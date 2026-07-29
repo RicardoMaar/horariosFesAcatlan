@@ -1,0 +1,1206 @@
+{
+  "codigo": "1",
+  "slug": "aleman",
+  "nombre": "ALEMÁN",
+  "periodo": "2027-1",
+  "fecha_consulta": "2026-07-29T09:22:22.351Z",
+  "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
+  "grupos": [
+    {
+      "grupo": "CL01_13AP01",
+      "clave": "CL01_13AP01",
+      "profesor": "CARLOS GERARDO CABRERA LERMA",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "1",
+      "tipo_curso": "CL",
+      "nivel_codigo": "231198",
+      "nivel": "CL01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL01_13BP01",
+      "clave": "CL01_13BP01",
+      "profesor": "MARCO ANTONIO LAGUNAS CANO",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "1",
+      "tipo_curso": "CL",
+      "nivel_codigo": "231198",
+      "nivel": "CL01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL01_19BR01",
+      "clave": "CL01_19BR01",
+      "profesor": "MARCO ANTONIO LAGUNAS CANO",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "19:00",
+          "fin": "21:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "19:00",
+          "fin": "21:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "1",
+      "tipo_curso": "CL",
+      "nivel_codigo": "231198",
+      "nivel": "CL01",
+      "modalidad_codigo": "2",
+      "modalidad": "Remoto"
+    },
+    {
+      "grupo": "CL02_13AP01",
+      "clave": "CL02_13AP01",
+      "profesor": "MARTÍN MANUEL APFALTRER VALERO",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "1",
+      "tipo_curso": "CL",
+      "nivel_codigo": "231199",
+      "nivel": "CL02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL02_19BR01",
+      "clave": "CL02_19BR01",
+      "profesor": "SANDRA CRISTINA CATZÍN KUHLMANN",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "19:00",
+          "fin": "21:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "19:00",
+          "fin": "21:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "1",
+      "tipo_curso": "CL",
+      "nivel_codigo": "231199",
+      "nivel": "CL02",
+      "modalidad_codigo": "2",
+      "modalidad": "Remoto"
+    },
+    {
+      "grupo": "CL03_13BP01",
+      "clave": "CL03_13BP01",
+      "profesor": "SANDRA CRISTINA CATZÍN KUHLMANN",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "1",
+      "tipo_curso": "CL",
+      "nivel_codigo": "231200",
+      "nivel": "CL03",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL03_19BR01",
+      "clave": "CL03_19BR01",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "19:00",
+          "fin": "21:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "19:00",
+          "fin": "21:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "1",
+      "tipo_curso": "CL",
+      "nivel_codigo": "231200",
+      "nivel": "CL03",
+      "modalidad_codigo": "2",
+      "modalidad": "Remoto"
+    },
+    {
+      "grupo": "PG01_09AP01",
+      "clave": "PG01_09AP01",
+      "profesor": "MARTÍN MANUEL APFALTRER VALERO",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "09:00",
+          "fin": "11:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "09:00",
+          "fin": "11:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231255",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_09BP01",
+      "clave": "PG01_09BP01",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "09:00",
+          "fin": "11:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "09:00",
+          "fin": "11:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231255",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_11AP01",
+      "clave": "PG01_11AP01",
+      "profesor": "MARTÍN MANUEL APFALTRER VALERO",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231255",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_11AP02",
+      "clave": "PG01_11AP02",
+      "profesor": "CARLOS GERARDO CABRERA LERMA",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231255",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_11BP01",
+      "clave": "PG01_11BP01",
+      "profesor": "CARLOS GERARDO CABRERA LERMA",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231255",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_11BP02",
+      "clave": "PG01_11BP02",
+      "profesor": "DANIELA ASMUS KAHNERT",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231255",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_11BP03",
+      "clave": "PG01_11BP03",
+      "profesor": "ELISABETH ALBINE MAGER HOIS",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231255",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_13AP01",
+      "clave": "PG01_13AP01",
+      "profesor": "ELIZABETH TORRES PÉREZ",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231255",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_13AP02",
+      "clave": "PG01_13AP02",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231255",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_13BP01",
+      "clave": "PG01_13BP01",
+      "profesor": "FRANCISCO HERNÁNDEZ ROMERO",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231255",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_13BP02",
+      "clave": "PG01_13BP02",
+      "profesor": "DANIELA ASMUS KAHNERT",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231255",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_15AP01",
+      "clave": "PG01_15AP01",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "15:00",
+          "fin": "17:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "15:00",
+          "fin": "17:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231255",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_17AP01",
+      "clave": "PG01_17AP01",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "17:00",
+          "fin": "19:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "17:00",
+          "fin": "19:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231255",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_17BP01",
+      "clave": "PG01_17BP01",
+      "profesor": "MARCO ANTONIO LAGUNAS CANO",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "17:00",
+          "fin": "19:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "17:00",
+          "fin": "19:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231255",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_19AR01",
+      "clave": "PG01_19AR01",
+      "profesor": "SANDRA CRISTINA CATZÍN KUHLMANN",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "19:00",
+          "fin": "21:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "19:00",
+          "fin": "21:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231255",
+      "nivel": "PG01",
+      "modalidad_codigo": "2",
+      "modalidad": "Remoto"
+    },
+    {
+      "grupo": "PG02_07AP01",
+      "clave": "PG02_07AP01",
+      "profesor": "MARTÍN MANUEL APFALTRER VALERO",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "07:00",
+          "fin": "09:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "07:00",
+          "fin": "09:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231256",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_09AP01",
+      "clave": "PG02_09AP01",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "09:00",
+          "fin": "11:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "09:00",
+          "fin": "11:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231256",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_11AP01",
+      "clave": "PG02_11AP01",
+      "profesor": "DANIELA ASMUS KAHNERT",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231256",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_11BP01",
+      "clave": "PG02_11BP01",
+      "profesor": "SANDRA CRISTINA CATZÍN KUHLMANN",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231256",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_13AP01",
+      "clave": "PG02_13AP01",
+      "profesor": "DANIELA ASMUS KAHNERT",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231256",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_15AP01",
+      "clave": "PG02_15AP01",
+      "profesor": "ALEXANDRA TREDER",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "15:00",
+          "fin": "17:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "15:00",
+          "fin": "17:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231256",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_15BP01",
+      "clave": "PG02_15BP01",
+      "profesor": "MARCO ANTONIO LAGUNAS CANO",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "15:00",
+          "fin": "17:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "15:00",
+          "fin": "17:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231256",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG03_13AP01",
+      "clave": "PG03_13AP01",
+      "profesor": "RICARDO ESNAURRIZAR JURADO",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231257",
+      "nivel": "PG03",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG03_13BP01",
+      "clave": "PG03_13BP01",
+      "profesor": "CARLOS GERARDO CABRERA LERMA",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231257",
+      "nivel": "PG03",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG03_15AP01",
+      "clave": "PG03_15AP01",
+      "profesor": "ELIZABETH TORRES PÉREZ",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "15:00",
+          "fin": "17:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "15:00",
+          "fin": "17:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231257",
+      "nivel": "PG03",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG04_11AP01",
+      "clave": "PG04_11AP01",
+      "profesor": "ELIZABETH TORRES PÉREZ",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231258",
+      "nivel": "PG04",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG05_13BP01",
+      "clave": "PG05_13BP01",
+      "profesor": "RICARDO ESNAURRIZAR JURADO",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231259",
+      "nivel": "PG05",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG05_17AP01",
+      "clave": "PG05_17AP01",
+      "profesor": "ELIZABETH TORRES PÉREZ",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "17:00",
+          "fin": "19:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "17:00",
+          "fin": "19:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231259",
+      "nivel": "PG05",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG06_13BP01",
+      "clave": "PG06_13BP01",
+      "profesor": "KLAUS THEODOR MULLER UHLENBROCK",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231260",
+      "nivel": "PG06",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG07_13BP01",
+      "clave": "PG07_13BP01",
+      "profesor": "ELISABETH ALBINE MAGER HOIS",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "4",
+      "tipo_curso": "AVANZADO",
+      "nivel_codigo": "231315",
+      "nivel": "PG07",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    }
+  ],
+  "combinaciones": [
+    {
+      "tipo_curso": "CL",
+      "nivel": "CL01",
+      "modalidad": "Presencial",
+      "grupos": 2
+    },
+    {
+      "tipo_curso": "CL",
+      "nivel": "CL01",
+      "modalidad": "Remoto",
+      "grupos": 1
+    },
+    {
+      "tipo_curso": "CL",
+      "nivel": "CL02",
+      "modalidad": "Presencial",
+      "grupos": 1
+    },
+    {
+      "tipo_curso": "CL",
+      "nivel": "CL02",
+      "modalidad": "Remoto",
+      "grupos": 1
+    },
+    {
+      "tipo_curso": "CL",
+      "nivel": "CL03",
+      "modalidad": "Presencial",
+      "grupos": 1
+    },
+    {
+      "tipo_curso": "CL",
+      "nivel": "CL03",
+      "modalidad": "Remoto",
+      "grupos": 1
+    },
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG01",
+      "modalidad": "Presencial",
+      "grupos": 14
+    },
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG01",
+      "modalidad": "Remoto",
+      "grupos": 1
+    },
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG02",
+      "modalidad": "Presencial",
+      "grupos": 7
+    },
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG03",
+      "modalidad": "Presencial",
+      "grupos": 3
+    },
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG04",
+      "modalidad": "Presencial",
+      "grupos": 1
+    },
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG05",
+      "modalidad": "Presencial",
+      "grupos": 2
+    },
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG06",
+      "modalidad": "Presencial",
+      "grupos": 1
+    },
+    {
+      "tipo_curso": "AVANZADO",
+      "nivel": "PG07",
+      "modalidad": "Presencial",
+      "grupos": 1
+    }
+  ]
+}

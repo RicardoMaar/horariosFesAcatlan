@@ -12,6 +12,7 @@
   "rewrites": [
     { "source": "/api/horarios/:codigo", "destination": "/api/horarios.js?codigo=:codigo" },
     { "source": "/api/anomalias/:codigo", "destination": "/api/anomalias.js?codigo=:codigo" },
+    { "source": "/api/idiomas/:slug", "destination": "/api/idiomas.js?slug=:slug" },
     { "source": "/api/:path*", "destination": "/api/:path*" },
     { "source": "/:path((?!.*\\.).*)", "destination": "/index.html" }
   ]

@@ -1,0 +1,252 @@
+{
+  "codigo": "11",
+  "slug": "latin",
+  "nombre": "LATÍN",
+  "periodo": "2027-1",
+  "fecha_consulta": "2026-07-29T09:22:52.371Z",
+  "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
+  "grupos": [
+    {
+      "grupo": "CL01_13VP01",
+      "clave": "CL01_13VP01",
+      "profesor": "CÉSAR SANTILLÁN PÉREZ",
+      "horarios": [
+        {
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "13:00",
+          "fin": "17:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "11",
+      "idioma": "LATÍN",
+      "tipo_curso_codigo": "1",
+      "tipo_curso": "CL",
+      "nivel_codigo": "231218",
+      "nivel": "CL01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL01_14AP01",
+      "clave": "CL01_14AP01",
+      "profesor": "GILARY ORTIZ MIRAMONTES",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "14:00",
+          "fin": "16:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "14:00",
+          "fin": "16:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "11",
+      "idioma": "LATÍN",
+      "tipo_curso_codigo": "1",
+      "tipo_curso": "CL",
+      "nivel_codigo": "231218",
+      "nivel": "CL01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL01_14BP01",
+      "clave": "CL01_14BP01",
+      "profesor": "GILARY ORTIZ MIRAMONTES",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "14:00",
+          "fin": "16:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "14:00",
+          "fin": "16:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "11",
+      "idioma": "LATÍN",
+      "tipo_curso_codigo": "1",
+      "tipo_curso": "CL",
+      "nivel_codigo": "231218",
+      "nivel": "CL01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL02_09VP01",
+      "clave": "CL02_09VP01",
+      "profesor": "CÉSAR SANTILLÁN PÉREZ",
+      "horarios": [
+        {
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "09:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "11",
+      "idioma": "LATÍN",
+      "tipo_curso_codigo": "1",
+      "tipo_curso": "CL",
+      "nivel_codigo": "231219",
+      "nivel": "CL02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL02_14AP01",
+      "clave": "CL02_14AP01",
+      "profesor": "CÉSAR SANTILLÁN PÉREZ",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "14:00",
+          "fin": "16:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "14:00",
+          "fin": "16:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "11",
+      "idioma": "LATÍN",
+      "tipo_curso_codigo": "1",
+      "tipo_curso": "CL",
+      "nivel_codigo": "231219",
+      "nivel": "CL02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL03_10VP01",
+      "clave": "CL03_10VP01",
+      "profesor": "GILARY ORTIZ MIRAMONTES",
+      "horarios": [
+        {
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "10:00",
+          "fin": "14:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "11",
+      "idioma": "LATÍN",
+      "tipo_curso_codigo": "1",
+      "tipo_curso": "CL",
+      "nivel_codigo": "231224",
+      "nivel": "CL03",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL03_12BP01",
+      "clave": "CL03_12BP01",
+      "profesor": "GILARY ORTIZ MIRAMONTES",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "12:00",
+          "fin": "14:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "12:00",
+          "fin": "14:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "11",
+      "idioma": "LATÍN",
+      "tipo_curso_codigo": "1",
+      "tipo_curso": "CL",
+      "nivel_codigo": "231224",
+      "nivel": "CL03",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "ESTUDIO DE LA MITOLOGÍA GRECO-ROMANA_14VP01",
+      "clave": "ESTUDIO DE LA MITOLOGÍA GRECO-ROMANA_14VP01",
+      "profesor": "GILARY ORTIZ MIRAMONTES",
+      "horarios": [
+        {
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "14:00",
+          "fin": "16:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "11",
+      "idioma": "LATÍN",
+      "tipo_curso_codigo": "5",
+      "tipo_curso": "TALLERES",
+      "nivel_codigo": "231375",
+      "nivel": "ESTUDIO DE LA MITOLOGÍA GRECO-ROMANA",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    }
+  ],
+  "combinaciones": [
+    {
+      "tipo_curso": "CL",
+      "nivel": "CL01",
+      "modalidad": "Presencial",
+      "grupos": 3
+    },
+    {
+      "tipo_curso": "CL",
+      "nivel": "CL02",
+      "modalidad": "Presencial",
+      "grupos": 2
+    },
+    {
+      "tipo_curso": "CL",
+      "nivel": "CL03",
+      "modalidad": "Presencial",
+      "grupos": 2
+    },
+    {
+      "tipo_curso": "TALLERES",
+      "nivel": "ESTUDIO DE LA MITOLOGÍA GRECO-ROMANA",
+      "modalidad": "Presencial",
+      "grupos": 1
+    }
+  ]
+}

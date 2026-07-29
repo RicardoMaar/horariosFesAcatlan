@@ -47,8 +47,13 @@ export const normalizarTexto = (texto) => {
   
     return Object.keys(agrupadas)
       .sort((a, b) => {
+        if (a === 'IDIOMA') return 1;
+        if (b === 'IDIOMA') return -1;
         if (a === '40') return 1;
         if (b === '40') return -1;
+        if (Number.isNaN(parseInt(a)) && Number.isNaN(parseInt(b))) return a.localeCompare(b);
+        if (Number.isNaN(parseInt(a))) return 1;
+        if (Number.isNaN(parseInt(b))) return -1;
         return parseInt(a) - parseInt(b);
       })
       .reduce((acc, key) => {

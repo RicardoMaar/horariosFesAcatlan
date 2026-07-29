@@ -1,0 +1,1590 @@
+{
+  "codigo": "9",
+  "slug": "italiano",
+  "nombre": "ITALIANO",
+  "periodo": "2027-1",
+  "fecha_consulta": "2026-07-29T09:22:47.787Z",
+  "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
+  "grupos": [
+    {
+      "grupo": "PG01_07AP01",
+      "clave": "PG01_07AP01",
+      "profesor": "EDOARDO MORA",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "07:00",
+          "fin": "09:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "07:00",
+          "fin": "09:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231233",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_07BP01",
+      "clave": "PG01_07BP01",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "07:00",
+          "fin": "09:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "07:00",
+          "fin": "09:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231233",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_08VP01",
+      "clave": "PG01_08VP01",
+      "profesor": "EDOARDO MORA",
+      "horarios": [
+        {
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "08:00",
+          "fin": "12:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231233",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_09VP01",
+      "clave": "PG01_09VP01",
+      "profesor": "DIEGO XHAIL TENORIO GUTIÉRREZ",
+      "horarios": [
+        {
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "09:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231233",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_10VP01",
+      "clave": "PG01_10VP01",
+      "profesor": "ENRIQUE PATRICIO GARCÍA TOPETE",
+      "horarios": [
+        {
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "10:00",
+          "fin": "14:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231233",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_11AP01",
+      "clave": "PG01_11AP01",
+      "profesor": "VIVIANA MARITZA PÁEZ ARANCIBIA",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231233",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_11AP02",
+      "clave": "PG01_11AP02",
+      "profesor": "MARÍA ELENA CAMPOS PÉREZ",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231233",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_11BP01",
+      "clave": "PG01_11BP01",
+      "profesor": "FABIO MARRUCCELLI FAVA",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231233",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_11BP02",
+      "clave": "PG01_11BP02",
+      "profesor": "LUCA PANOZZO",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231233",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_13AP01",
+      "clave": "PG01_13AP01",
+      "profesor": "VICENTE GABRIEL ZEPEDA BARRIOS",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231233",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_13AP02",
+      "clave": "PG01_13AP02",
+      "profesor": "LEONETTA BERTOLDI",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231233",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_13AP03",
+      "clave": "PG01_13AP03",
+      "profesor": "LUCA PANOZZO",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231233",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_13BP01",
+      "clave": "PG01_13BP01",
+      "profesor": "GLORIA BEATRIZ DE LA GARZA SOLÍS",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231233",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_13BP02",
+      "clave": "PG01_13BP02",
+      "profesor": "LUISA GUADALUPE ARELLANO CARRASCO",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231233",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_15AP01",
+      "clave": "PG01_15AP01",
+      "profesor": "ANDREA FAIDO",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "15:00",
+          "fin": "17:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "15:00",
+          "fin": "17:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231233",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_15BP01",
+      "clave": "PG01_15BP01",
+      "profesor": "ANDREA FAIDO",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "15:00",
+          "fin": "17:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "15:00",
+          "fin": "17:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231233",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_17AP01",
+      "clave": "PG01_17AP01",
+      "profesor": "OLIVIA SANTIAGO RINCÓN",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "17:00",
+          "fin": "19:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "17:00",
+          "fin": "19:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231233",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_11AP01",
+      "clave": "PG02_11AP01",
+      "profesor": "LUCA PANOZZO",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231234",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_11AP02",
+      "clave": "PG02_11AP02",
+      "profesor": "DIEGO XHAIL TENORIO GUTIÉRREZ",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231234",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_11BP01",
+      "clave": "PG02_11BP01",
+      "profesor": "MARÍA ELENA CAMPOS PÉREZ",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231234",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_11BP02",
+      "clave": "PG02_11BP02",
+      "profesor": "LUISA GUADALUPE ARELLANO CARRASCO",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231234",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_13AP01",
+      "clave": "PG02_13AP01",
+      "profesor": "FABIO MARRUCCELLI FAVA",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231234",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_13AP02",
+      "clave": "PG02_13AP02",
+      "profesor": "GLORIA BEATRIZ DE LA GARZA SOLÍS",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231234",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_13BP01",
+      "clave": "PG02_13BP01",
+      "profesor": "ANDREA FAIDO",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231234",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_13BP02",
+      "clave": "PG02_13BP02",
+      "profesor": "ENRIQUE PATRICIO GARCÍA TOPETE",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231234",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_15AP01",
+      "clave": "PG02_15AP01",
+      "profesor": "JOSÉ ANTONIO BELMONTE TRUJANO",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "15:00",
+          "fin": "17:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "15:00",
+          "fin": "17:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231234",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_19AP01",
+      "clave": "PG02_19AP01",
+      "profesor": "OLIVIA SANTIAGO RINCÓN",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "19:00",
+          "fin": "21:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "19:00",
+          "fin": "21:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231234",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG03_10VP01",
+      "clave": "PG03_10VP01",
+      "profesor": "ANDREA ALI",
+      "horarios": [
+        {
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "10:00",
+          "fin": "14:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231235",
+      "nivel": "PG03",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG03_11AP01",
+      "clave": "PG03_11AP01",
+      "profesor": "LEONETTA BERTOLDI",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231235",
+      "nivel": "PG03",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG03_11BP01",
+      "clave": "PG03_11BP01",
+      "profesor": "JOSÉ ANTONIO BELMONTE TRUJANO",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231235",
+      "nivel": "PG03",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG03_13AP01",
+      "clave": "PG03_13AP01",
+      "profesor": "DIEGO XHAIL TENORIO GUTIÉRREZ",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231235",
+      "nivel": "PG03",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG03_13BP01",
+      "clave": "PG03_13BP01",
+      "profesor": "LUCA PANOZZO",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231235",
+      "nivel": "PG03",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG03_13BP02",
+      "clave": "PG03_13BP02",
+      "profesor": "FABIO MARRUCCELLI FAVA",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231235",
+      "nivel": "PG03",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG03_15BP01",
+      "clave": "PG03_15BP01",
+      "profesor": "ENRIQUE PATRICIO GARCÍA TOPETE",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "15:00",
+          "fin": "17:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "15:00",
+          "fin": "17:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231235",
+      "nivel": "PG03",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG04_09VP01",
+      "clave": "PG04_09VP01",
+      "profesor": "ANDREA FAIDO",
+      "horarios": [
+        {
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "09:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231236",
+      "nivel": "PG04",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG04_11AP01",
+      "clave": "PG04_11AP01",
+      "profesor": "LUISA GUADALUPE ARELLANO CARRASCO",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231236",
+      "nivel": "PG04",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG04_13AP01",
+      "clave": "PG04_13AP01",
+      "profesor": "JOSÉ ANTONIO BELMONTE TRUJANO",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231236",
+      "nivel": "PG04",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG04_13BP01",
+      "clave": "PG04_13BP01",
+      "profesor": "MARÍA ELENA CAMPOS PÉREZ",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231236",
+      "nivel": "PG04",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG05_09VP01",
+      "clave": "PG05_09VP01",
+      "profesor": "MARÍA SOLEDAD CAMPOS LÓPEZ",
+      "horarios": [
+        {
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "09:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231237",
+      "nivel": "PG05",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG05_11BP01",
+      "clave": "PG05_11BP01",
+      "profesor": "ANDREA ALI",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231237",
+      "nivel": "PG05",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG05_15AP01",
+      "clave": "PG05_15AP01",
+      "profesor": "LEONETTA BERTOLDI",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "15:00",
+          "fin": "17:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "15:00",
+          "fin": "17:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231237",
+      "nivel": "PG05",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG06_13BP01",
+      "clave": "PG06_13BP01",
+      "profesor": "DAVID REY ÁVILA",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231275",
+      "nivel": "PG06",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CERTIFICACIÓN CILS (PREPARACIÓN)_13BP01",
+      "clave": "CERTIFICACIÓN CILS (PREPARACIÓN)_13BP01",
+      "profesor": "ANDREA ALI",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "5",
+      "tipo_curso": "TALLERES",
+      "nivel_codigo": "231350",
+      "nivel": "CERTIFICACIÓN CILS (PREPARACIÓN)",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL01_SEMI-INTENSIVO_10AP01",
+      "clave": "CL01_SEMI-INTENSIVO_10AP01",
+      "profesor": "VICENTE GABRIEL ZEPEDA BARRIOS",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "10:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "10:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231384",
+      "nivel": "CL01_SEMI-INTENSIVO",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL01_SEMI-INTENSIVO_11CP01",
+      "clave": "CL01_SEMI-INTENSIVO_11CP01",
+      "profesor": "FABIO MARRUCCELLI FAVA",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231384",
+      "nivel": "CL01_SEMI-INTENSIVO",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL01_SEMI-INTENSIVO_13NP01",
+      "clave": "CL01_SEMI-INTENSIVO_13NP01",
+      "profesor": "VIVIANA MARITZA PÁEZ ARANCIBIA",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231384",
+      "nivel": "CL01_SEMI-INTENSIVO",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL01_SEMI-INTENSIVO_19BR01",
+      "clave": "CL01_SEMI-INTENSIVO_19BR01",
+      "profesor": "LUISA GUADALUPE ARELLANO CARRASCO",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "19:00",
+          "fin": "22:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "19:00",
+          "fin": "22:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231384",
+      "nivel": "CL01_SEMI-INTENSIVO",
+      "modalidad_codigo": "2",
+      "modalidad": "Remoto"
+    },
+    {
+      "grupo": "CL02_SEMI-INTENSIVO_10BP01",
+      "clave": "CL02_SEMI-INTENSIVO_10BP01",
+      "profesor": "ENRIQUE PATRICIO GARCÍA TOPETE",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "10:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "10:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231386",
+      "nivel": "CL02_SEMI-INTENSIVO",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL02_SEMI-INTENSIVO_13BP01",
+      "clave": "CL02_SEMI-INTENSIVO_13BP01",
+      "profesor": "JOSÉ ANTONIO BELMONTE TRUJANO",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "16:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "16:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231386",
+      "nivel": "CL02_SEMI-INTENSIVO",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL02_SEMI-INTENSIVO_13CP01",
+      "clave": "CL02_SEMI-INTENSIVO_13CP01",
+      "profesor": "MARÍA ELENA CAMPOS PÉREZ",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231386",
+      "nivel": "CL02_SEMI-INTENSIVO",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL02_SEMI-INTENSIVO_19BR01",
+      "clave": "CL02_SEMI-INTENSIVO_19BR01",
+      "profesor": "OLIVIA SANTIAGO RINCÓN",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "19:00",
+          "fin": "22:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "19:00",
+          "fin": "22:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231386",
+      "nivel": "CL02_SEMI-INTENSIVO",
+      "modalidad_codigo": "2",
+      "modalidad": "Remoto"
+    }
+  ],
+  "combinaciones": [
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG01",
+      "modalidad": "Presencial",
+      "grupos": 17
+    },
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG02",
+      "modalidad": "Presencial",
+      "grupos": 10
+    },
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG03",
+      "modalidad": "Presencial",
+      "grupos": 7
+    },
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG04",
+      "modalidad": "Presencial",
+      "grupos": 4
+    },
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG05",
+      "modalidad": "Presencial",
+      "grupos": 3
+    },
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG06",
+      "modalidad": "Presencial",
+      "grupos": 1
+    },
+    {
+      "tipo_curso": "TALLERES",
+      "nivel": "CERTIFICACIÓN CILS (PREPARACIÓN)",
+      "modalidad": "Presencial",
+      "grupos": 1
+    },
+    {
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel": "CL01_SEMI-INTENSIVO",
+      "modalidad": "Presencial",
+      "grupos": 3
+    },
+    {
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel": "CL01_SEMI-INTENSIVO",
+      "modalidad": "Remoto",
+      "grupos": 1
+    },
+    {
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel": "CL02_SEMI-INTENSIVO",
+      "modalidad": "Presencial",
+      "grupos": 3
+    },
+    {
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel": "CL02_SEMI-INTENSIVO",
+      "modalidad": "Remoto",
+      "grupos": 1
+    }
+  ]
+}

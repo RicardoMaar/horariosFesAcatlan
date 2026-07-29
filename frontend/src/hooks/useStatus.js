@@ -4,6 +4,9 @@ import { API_BASE } from '../constants/api';
 
 export function useStatus() {
   const [fechaActualizacion, setFechaActualizacion] = useState(null);
+  const [fechaCarreras, setFechaCarreras] = useState(null);
+  const [fechaIdiomas, setFechaIdiomas] = useState(null);
+  const [periodoIdiomas, setPeriodoIdiomas] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -16,7 +19,15 @@ export function useStatus() {
           'Pragma': 'no-cache'
         }
       });
-      setFechaActualizacion(response.data?.fecha_actualizacion || null);
+      const fechaCarrerasResponse = response.data?.fecha_actualizacion || null;
+      const fechaIdiomasResponse = response.data?.fecha_idiomas || null;
+      const fechas = [fechaCarrerasResponse, fechaIdiomasResponse]
+        .filter(Boolean)
+        .sort((a, b) => new Date(b).getTime() - new Date(a).getTime());
+      setFechaCarreras(fechaCarrerasResponse);
+      setFechaIdiomas(fechaIdiomasResponse);
+      setPeriodoIdiomas(response.data?.periodo_idiomas || null);
+      setFechaActualizacion(fechas[0] || null);
       setError(null);
     } catch (err) {
       setError(err.message || 'Error cargando status');
@@ -31,6 +42,9 @@ export function useStatus() {
 
   return {
     fechaActualizacion,
+    fechaCarreras,
+    fechaIdiomas,
+    periodoIdiomas,
     loading,
     error,
     refetch: fetchStatus

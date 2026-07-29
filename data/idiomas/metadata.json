@@ -1,0 +1,57 @@
+{
+  "periodo": "2027-1",
+  "fecha_actualizacion": "2026-07-29T09:22:10.744Z",
+  "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
+  "total_idiomas": 7,
+  "idiomas": {
+    "1": {
+      "codigo": "1",
+      "slug": "aleman",
+      "nombre": "ALEMÁN",
+      "hash": "da28bcc9bcd0f83d5e2e2020548ee2878ebfaab74a98cb7d4afb927cea78d252",
+      "last_changed": "2026-07-29T01:35:53.288Z"
+    },
+    "6": {
+      "codigo": "6",
+      "slug": "griego-clasico",
+      "nombre": "GRIEGO CLÁSICO",
+      "hash": "d3efe671b9729b0849286f996042fb339f1065c5a29333a20e233ed7171e4a75",
+      "last_changed": "2026-07-29T01:35:53.288Z"
+    },
+    "8": {
+      "codigo": "8",
+      "slug": "ingles",
+      "nombre": "INGLÉS",
+      "hash": "186ef935de6697f7160205028b1287d086ae385308464bf8dbe4aef637034b46",
+      "last_changed": "2026-07-29T09:22:10.744Z"
+    },
+    "9": {
+      "codigo": "9",
+      "slug": "italiano",
+      "nombre": "ITALIANO",
+      "hash": "7413a5afc9d3ee682b13d5f867e3e2a24989a4c5f419eba00340db3469681075",
+      "last_changed": "2026-07-29T01:35:53.288Z"
+    },
+    "11": {
+      "codigo": "11",
+      "slug": "latin",
+      "nombre": "LATÍN",
+      "hash": "1212f40c86def9c949f615fb59af45454ee61674fdad989279bf30b6c9a45a7f",
+      "last_changed": "2026-07-29T01:35:53.288Z"
+    },
+    "14": {
+      "codigo": "14",
+      "slug": "portugues",
+      "nombre": "PORTUGUÉS",
+      "hash": "bad1c9a766d39f1bc8015960d742557d8adee5338ce59a0e0590450aa1a425c7",
+      "last_changed": "2026-07-29T01:35:53.288Z"
+    },
+    "16": {
+      "codigo": "16",
+      "slug": "ruso",
+      "nombre": "RUSO",
+      "hash": "ae8380733ff2a1d6b90a301142355f3df233f48637ae207ed2e4b6bb2b7c564e",
+      "last_changed": "2026-07-29T01:35:53.288Z"
+    }
+  }
+}

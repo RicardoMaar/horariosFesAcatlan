@@ -25,11 +25,17 @@ const getIndex = () => readJson(path.join(dataDir, 'index.json'));
 const getMetadata = () => readJson(path.join(dataDir, 'metadata.json'));
 const getCarrera = (codigo) => readJson(path.join(dataDir, 'carreras', `${codigo}.json`));
 const getAnomalias = (codigo) => readJson(path.join(dataDir, 'anomalias', `${codigo}.json`));
+const getIdiomasIndex = () => readJson(path.join(dataDir, 'idiomas', 'index.json'));
+const getIdiomasMetadata = () => readJson(path.join(dataDir, 'idiomas', 'metadata.json'));
+const getIdioma = (slug) => readJson(path.join(dataDir, 'idiomas', `${slug}.json`));
 
 module.exports = {
   dataDir,
   getIndex,
   getMetadata,
   getCarrera,
-  getAnomalias
+  getAnomalias,
+  getIdiomasIndex,
+  getIdiomasMetadata,
+  getIdioma
 };

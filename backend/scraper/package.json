@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon scraper.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "scrape:idiomas": "node scraper-idiomas.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.52.0",

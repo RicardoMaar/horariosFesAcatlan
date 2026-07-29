@@ -1,6 +1,7 @@
 export const SEMESTRE_LABELS = {
     '40': 'Optativas',
-    '00': 'Sin semestre'
+    '00': 'Sin semestre',
+    IDIOMA: 'Idiomas'
   };
   
   export const ANIMATION_CONFIG = {

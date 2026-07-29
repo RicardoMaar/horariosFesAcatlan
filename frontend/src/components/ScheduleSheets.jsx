@@ -13,7 +13,7 @@ function ScheduleSheets() {
   const eliminarOpcion = useHorariosStore(state => state.eliminarOpcion);
 
   return (
-    <div className="flex items-center gap-[7px] ml-auto overflow-x-auto">
+    <div className="flex w-full min-w-0 flex-wrap items-center gap-[7px] pb-0.5 sm:ml-auto sm:w-auto sm:justify-end">
       <span className="text-[11px] font-medium mr-0.5 flex-shrink-0" style={{ color: 'var(--muted)' }}>
         Mis horarios
       </span>
@@ -38,9 +38,10 @@ function ScheduleSheets() {
                 style={{
                   padding: '7px 14px',
                   borderRadius: '10px',
-                  border: `1px solid ${activa ? 'var(--primary)' : 'var(--border)'}`,
-                  background: activa ? 'var(--primary-soft)' : 'var(--surface)',
-                  color: activa ? 'var(--primary-text)' : 'var(--muted)',
+                  border: '1px solid var(--border)',
+                  background: activa ? 'var(--surface2)' : 'var(--surface)',
+                  color: activa ? 'var(--text)' : 'var(--muted)',
+                  boxShadow: activa ? 'inset 0 -2px 0 var(--muted)' : 'none',
                   fontWeight: activa ? 600 : 500
                 }}
               >

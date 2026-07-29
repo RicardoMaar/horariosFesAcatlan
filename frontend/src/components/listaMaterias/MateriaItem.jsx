@@ -1,6 +1,7 @@
 import React from 'react';
 import GrupoItem from './GrupoItem';
 import { ANIMATION_CONFIG } from '../../constants/listaMaterias';
+import { getSelectionId } from '../../utils/fuentes';
 
 const MateriaItem = React.memo(({
   materia,
@@ -16,7 +17,7 @@ const MateriaItem = React.memo(({
   traslapes
 }) => {
   const anySelected = materia.grupos.some(g =>
-    materiasSeleccionadas.some(m => m.id === `${materia.clave}-${g.grupo}`)
+    materiasSeleccionadas.some(m => m.id === getSelectionId(materia, g))
   );
 
   return (
@@ -63,7 +64,7 @@ const MateriaItem = React.memo(({
         style={{ background: 'var(--surface2)' }}
       >
         {materia.grupos.map((grupo, grupoIndex) => {
-          const id = `${materia.clave}-${grupo.grupo}`;
+          const id = getSelectionId(materia, grupo);
           const seleccionada = materiasSeleccionadas.some(m => m.id === id);
           const tieneTraslape = seleccionada && traslapes.has(id);
           const color = coloresAsignados[id];

@@ -1,6 +1,7 @@
 import React, { startTransition } from 'react';
 import { ANIMATION_CONFIG } from '../../constants/listaMaterias';
 import useHorariosStore from '../../store/useHorariosStore';
+import { getSelectionId } from '../../utils/fuentes';
 
 const GrupoItem = React.memo(({
   grupo,
@@ -13,7 +14,7 @@ const GrupoItem = React.memo(({
   onToggle,
   onClickDetalle
 }) => {
-  const id = `${materia.clave}-${grupo.grupo}`;
+  const id = getSelectionId(materia, grupo);
 
   // Anomalía de carga a nivel de grupo (horas del horario != plan de estudios / demás grupos).
   // El mensaje viene ya armado desde el detector (backend); no se reconstruye aquí.
@@ -29,7 +30,10 @@ const GrupoItem = React.memo(({
     profesor: grupo.profesor,
     salon: grupo.salon,
     horarios: grupo.horarios,
-    semestre: materia.semestre
+    semestre: materia.semestre,
+    fuenteId: grupo.fuenteId || materia.fuenteId,
+    fuenteTipo: grupo.fuenteTipo || materia.fuenteTipo,
+    fuenteNombre: grupo.fuenteNombre || materia.fuenteNombre
   };
 
   // Clic directo en la fila => agrega/quita el grupo del horario.

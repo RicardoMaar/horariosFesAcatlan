@@ -1,0 +1,50 @@
+{
+  "periodo": "2027-1",
+  "fecha_actualizacion": "2026-07-29T09:22:10.744Z",
+  "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
+  "total_idiomas": 7,
+  "idiomas": {
+    "1": {
+      "codigo": "1",
+      "slug": "aleman",
+      "nombre": "ALEMÁN",
+      "total_grupos": 37
+    },
+    "6": {
+      "codigo": "6",
+      "slug": "griego-clasico",
+      "nombre": "GRIEGO CLÁSICO",
+      "total_grupos": 3
+    },
+    "8": {
+      "codigo": "8",
+      "slug": "ingles",
+      "nombre": "INGLÉS",
+      "total_grupos": 57
+    },
+    "9": {
+      "codigo": "9",
+      "slug": "italiano",
+      "nombre": "ITALIANO",
+      "total_grupos": 51
+    },
+    "11": {
+      "codigo": "11",
+      "slug": "latin",
+      "nombre": "LATÍN",
+      "total_grupos": 8
+    },
+    "14": {
+      "codigo": "14",
+      "slug": "portugues",
+      "nombre": "PORTUGUÉS",
+      "total_grupos": 40
+    },
+    "16": {
+      "codigo": "16",
+      "slug": "ruso",
+      "nombre": "RUSO",
+      "total_grupos": 6
+    }
+  }
+}

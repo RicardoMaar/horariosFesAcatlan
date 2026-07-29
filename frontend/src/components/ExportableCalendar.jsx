@@ -19,7 +19,7 @@ const horaAMinutos = (hora) => {
 
 const TOTAL = (HORA_FIN - HORA_INICIO) * PX;
 
-const ExportableCalendar = React.forwardRef(({ materias, coloresAsignados, carrera }, ref) => {
+const ExportableCalendar = React.forwardRef(({ materias, coloresAsignados, carrera, fuentes = [] }, ref) => {
   const horas = [];
   for (let h = HORA_INICIO; h <= HORA_FIN; h++) {
     horas.push(h);
@@ -46,7 +46,7 @@ const ExportableCalendar = React.forwardRef(({ materias, coloresAsignados, carre
             Horario
           </h1>
           <p style={{ margin: '4px 0 0', fontSize: '13px', color: '#726C79' }}>
-            {carrera ? `Carrera ${carrera}` : 'Mi horario'}
+            {fuentes.length > 0 ? fuentes.map((fuente) => fuente.nombre).join(' · ') : carrera ? `Carrera ${carrera}` : 'Mi horario'}
           </p>
         </div>
 

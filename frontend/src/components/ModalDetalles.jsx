@@ -28,14 +28,14 @@ function ModalDetalles() {
   const { id, clave, nombre, grupo, profesor, salon, horarios, semestre } = materiaEnModal;
   const estaSeleccionada = materiasSeleccionadas.some(m => m.id === id);
   const color = coloresAsignados[id];
-  const semestreLabel = semestre === '40' ? 'Optativa' : `${semestre}°`;
+  const semestreLabel = semestre === '40' ? 'Optativa' : semestre === 'IDIOMA' ? 'Idioma' : `${semestre}°`;
 
   const handleToggle = () => {
     startTransition(() => {
       if (estaSeleccionada) {
-        toggleMateria(clave, { grupo });
+        toggleMateria(clave, { grupo, fuenteId: materiaEnModal.fuenteId, fuenteTipo: materiaEnModal.fuenteTipo, fuenteNombre: materiaEnModal.fuenteNombre });
       } else {
-        toggleMateria(clave, { grupo, profesor, salon, horarios });
+        toggleMateria(clave, { grupo, profesor, salon, horarios, fuenteId: materiaEnModal.fuenteId, fuenteTipo: materiaEnModal.fuenteTipo, fuenteNombre: materiaEnModal.fuenteNombre });
       }
     });
   };
