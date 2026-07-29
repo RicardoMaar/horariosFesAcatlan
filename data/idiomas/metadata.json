@@ -1,8 +1,8 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-07-29T09:22:10.744Z",
+  "fecha_actualizacion": "2026-07-29T18:20:23.046Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
-  "total_idiomas": 7,
+  "total_idiomas": 8,
   "idiomas": {
     "1": {
       "codigo": "1",
@@ -10,6 +10,13 @@
       "nombre": "ALEMÁN",
       "hash": "da28bcc9bcd0f83d5e2e2020548ee2878ebfaab74a98cb7d4afb927cea78d252",
       "last_changed": "2026-07-29T01:35:53.288Z"
+    },
+    "2": {
+      "codigo": "2",
+      "slug": "arabe",
+      "nombre": "ÁRABE",
+      "hash": "9ad3bd69c8b0b4381508eab42a64de225485ae6af0b77ac13274dc8c46bcd188",
+      "last_changed": "2026-07-29T18:20:23.046Z"
     },
     "6": {
       "codigo": "6",

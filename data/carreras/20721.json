@@ -1,7 +1,7 @@
 {
   "codigo": "20721",
   "nombre": "Derecho",
-  "fecha_consulta": "2026-07-28T21:31:29.317Z",
+  "fecha_consulta": "2026-07-29T18:50:36.258Z",
   "materias": {
     "1102": {
       "nombre": "HIST.D.LAS IDEAS POL.Y ECO.",
@@ -6744,33 +6744,8 @@
     },
     "1705": {
       "nombre": "AMPARO",
-      "semestre": "01",
+      "semestre": "07",
       "grupos": [
-        {
-          "grupo": "1158",
-          "profesor": "RIVERA CRESPO JUAN JOSE",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "20:00",
-              "fin": "22:00"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "20:00",
-              "fin": "22:00"
-            },
-            {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
-              "inicio": "20:00",
-              "fin": "22:00"
-            }
-          ],
-          "salon": "A-1126"
-        },
         {
           "grupo": "1701",
           "profesor": "ROSELLON DIAZ HECTOR ANTONIO",

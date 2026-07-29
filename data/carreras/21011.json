@@ -1,7 +1,7 @@
 {
   "codigo": "21011",
   "nombre": "Filosofía",
-  "fecha_consulta": "2026-07-28T21:31:54.310Z",
+  "fecha_consulta": "2026-07-29T18:51:01.134Z",
   "materias": {
     "1170": {
       "nombre": "ANTROPOLOGIA FILOSOFICA I",
@@ -2012,14 +2012,14 @@
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "08:00",
-              "fin": "10:00"
+              "inicio": "12:00",
+              "fin": "14:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "08:00",
-              "fin": "10:00"
+              "inicio": "12:00",
+              "fin": "14:00"
             }
           ],
           "salon": "A-8102"
