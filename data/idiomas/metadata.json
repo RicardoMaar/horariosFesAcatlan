@@ -1,8 +1,8 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-07-29T19:06:35.508Z",
+  "fecha_actualizacion": "2026-07-30T17:01:51.987Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
-  "total_idiomas": 8,
+  "total_idiomas": 14,
   "idiomas": {
     "1": {
       "codigo": "1",
@@ -18,6 +18,27 @@
       "hash": "9ad3bd69c8b0b4381508eab42a64de225485ae6af0b77ac13274dc8c46bcd188",
       "last_changed": "2026-07-29T18:20:23.046Z"
     },
+    "3": {
+      "codigo": "3",
+      "slug": "chino",
+      "nombre": "CHINO",
+      "hash": "723bad6c97527f15d9e8fde851b185ad26e2e2414452dcdc1105b54d17f06bd1",
+      "last_changed": "2026-07-30T17:01:51.987Z"
+    },
+    "4": {
+      "codigo": "4",
+      "slug": "espanol",
+      "nombre": "ESPAÑOL",
+      "hash": "cfecc848105066eee56011dffb286057ee7d41877ffc8230561170040d7097ac",
+      "last_changed": "2026-07-30T17:01:51.987Z"
+    },
+    "5": {
+      "codigo": "5",
+      "slug": "frances",
+      "nombre": "FRANCÉS",
+      "hash": "5dce12de2a0505b960d4190c4e068d24a66f0b3573f7db2ef61e5cab30b3b8b8",
+      "last_changed": "2026-07-30T17:01:51.987Z"
+    },
     "6": {
       "codigo": "6",
       "slug": "griego-clasico",
@@ -29,8 +50,8 @@
       "codigo": "8",
       "slug": "ingles",
       "nombre": "INGLÉS",
-      "hash": "186ef935de6697f7160205028b1287d086ae385308464bf8dbe4aef637034b46",
-      "last_changed": "2026-07-29T09:22:10.744Z"
+      "hash": "bc8f731b6523e2c58e514bf95f7499210af220c1815e7ec227cacbebb72e245a",
+      "last_changed": "2026-07-30T17:01:51.987Z"
     },
     "9": {
       "codigo": "9",
@@ -39,12 +60,33 @@
       "hash": "7413a5afc9d3ee682b13d5f867e3e2a24989a4c5f419eba00340db3469681075",
       "last_changed": "2026-07-29T01:35:53.288Z"
     },
+    "10": {
+      "codigo": "10",
+      "slug": "japones",
+      "nombre": "JAPONÉS",
+      "hash": "92104fd40c736ea0df17d04a526e462bb7ecd34c2041a6676a39a8d87f29dcee",
+      "last_changed": "2026-07-30T17:01:51.987Z"
+    },
     "11": {
       "codigo": "11",
       "slug": "latin",
       "nombre": "LATÍN",
       "hash": "1212f40c86def9c949f615fb59af45454ee61674fdad989279bf30b6c9a45a7f",
       "last_changed": "2026-07-29T01:35:53.288Z"
+    },
+    "12": {
+      "codigo": "12",
+      "slug": "nahuatl",
+      "nombre": "NÁHUATL",
+      "hash": "13b814c8a3333d452b6ee25ee13f466bf8b728493b6d26770c46b1531a94dd6f",
+      "last_changed": "2026-07-30T17:01:51.987Z"
+    },
+    "13": {
+      "codigo": "13",
+      "slug": "hnahnu-otomi",
+      "nombre": "HÑÄHÑU (OTOMÍ)",
+      "hash": "74867917ce5a3b1e2796f8067bf52fa29ca31cd33839dbbf6a54cb22e38578d7",
+      "last_changed": "2026-07-30T17:01:51.987Z"
     },
     "14": {
       "codigo": "14",

@@ -1,6 +1,42 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-07-29T19:06:35.508Z",
-  "total_cambios": 0,
-  "idiomas": []
+  "fecha_actualizacion": "2026-07-30T17:01:51.987Z",
+  "total_cambios": 7,
+  "idiomas": [
+    {
+      "codigo": "3",
+      "slug": "chino",
+      "nombre": "CHINO"
+    },
+    {
+      "codigo": "4",
+      "slug": "espanol",
+      "nombre": "ESPAÑOL"
+    },
+    {
+      "codigo": "5",
+      "slug": "frances",
+      "nombre": "FRANCÉS"
+    },
+    {
+      "codigo": "8",
+      "slug": "ingles",
+      "nombre": "INGLÉS"
+    },
+    {
+      "codigo": "10",
+      "slug": "japones",
+      "nombre": "JAPONÉS"
+    },
+    {
+      "codigo": "12",
+      "slug": "nahuatl",
+      "nombre": "NÁHUATL"
+    },
+    {
+      "codigo": "13",
+      "slug": "hnahnu-otomi",
+      "nombre": "HÑÄHÑU (OTOMÍ)"
+    }
+  ]
 }

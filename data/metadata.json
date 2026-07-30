@@ -1,108 +1,108 @@
 {
-  "fecha_actualizacion": "2026-07-29T19:04:46.730Z",
+  "fecha_actualizacion": "2026-07-30T17:00:03.738Z",
   "total_carreras": 17,
   "carreras": {
     "20121": {
       "codigo": "20121",
       "nombre": "Arquitectura",
-      "hash": "09f7bb90e6ecef6a1f564e1d0e49603826db0260639d3f931bdf13fed6e276e5",
-      "last_changed": "2026-07-29T19:04:46.730Z"
+      "hash": "ef5e29ddbf7c69a76ff5b7d1fb79addd0857bc2c9a3840c091d27347b2b461e9",
+      "last_changed": "2026-07-30T17:00:03.738Z"
     },
     "20226": {
       "codigo": "20226",
       "nombre": "Diseño Gráfico",
-      "hash": "0aaea028aa2a993cb42f3f5175e71b72eb98a904b894684591337e4dc641ad4a",
-      "last_changed": "2026-07-29T19:04:46.730Z"
+      "hash": "1a26986d6e30e76bab92b12387ad6d6f720f8c2811b67553917d7becc8cbf027",
+      "last_changed": "2026-07-30T17:00:03.738Z"
     },
     "20321": {
       "codigo": "20321",
       "nombre": "Actuaría",
-      "hash": "ce4776b697602c9c601227529e1e8dbcaca26df0c6557761b425760e3e5c87d3",
-      "last_changed": "2026-07-29T19:04:46.730Z"
+      "hash": "12fa15cba7d03cc5ea903ce6053f412c6356c9e4b77bb05005e8d5ddee16f29c",
+      "last_changed": "2026-07-30T17:00:03.738Z"
     },
     "20421": {
       "codigo": "20421",
       "nombre": "Relaciones Internacionales",
-      "hash": "2dd63dfcba5d7b61ad08bf2c5d3ee1a5878bfe5a061e4ee3fd2d22c9fe75b829",
-      "last_changed": "2026-07-29T19:04:46.730Z"
+      "hash": "26ed9219cefadaeb426e7966605395e75acb0e398dbb2ed21c90e42de6461bdc",
+      "last_changed": "2026-07-30T17:00:03.738Z"
     },
     "20422": {
       "codigo": "20422",
       "nombre": "Ciencias Políticas y Admon. Pública",
-      "hash": "21318a51af6f16dfcf041e10c18c092a2ecf66a78e68da28974e273c2335ac2e",
-      "last_changed": "2026-07-29T19:04:46.730Z"
+      "hash": "51df9daace89a06271c5b277b72044c267a94ffb3c528f2b7bbaec5c07c4a71d",
+      "last_changed": "2026-07-30T17:00:03.738Z"
     },
     "20423": {
       "codigo": "20423",
       "nombre": "Sociología",
-      "hash": "4a48488e55afb4b2eff93d574812570d1876c113233e1071ad7e24da5b041023",
-      "last_changed": "2026-07-29T19:04:46.730Z"
+      "hash": "39ae7a7c521644c8c03de0034b80654abb8531e4cef7448bfe9acff7bcb7a826",
+      "last_changed": "2026-07-30T17:00:03.738Z"
     },
     "20424": {
       "codigo": "20424",
       "nombre": "Periodismo y Comunicación Colectiva",
-      "hash": "adcf0e4cb8c5942a2b74d63184ccfa0503338adae8f23cffd2e43847274ca0eb",
-      "last_changed": "2026-07-29T19:04:46.730Z"
+      "hash": "b1c2d5008f8a63d3cfc1e356905186e10781285f341316ac0d5fc01f7f9323c9",
+      "last_changed": "2026-07-30T17:00:03.738Z"
     },
     "20425": {
       "codigo": "20425",
       "nombre": "Comunicación",
-      "hash": "160f5ea8a4930531e926e501314ce6f42ea715f397c3feceb33aa736cd2aa924",
-      "last_changed": "2026-07-29T19:04:46.730Z"
+      "hash": "275c6ceeee719f255500a92a4e487867814c67beae1a547a466710d0e617f797",
+      "last_changed": "2026-07-30T17:00:03.738Z"
     },
     "20721": {
       "codigo": "20721",
       "nombre": "Derecho",
-      "hash": "45cd143093faad712e156211237d3e4f6742baf55de7d7ac276bc953dfe2cbd4",
-      "last_changed": "2026-07-29T19:04:46.730Z"
+      "hash": "eda023768f5f0c049387682ab1ff95be4efa7633afff73906e7327b732b6ab84",
+      "last_changed": "2026-07-30T17:00:03.738Z"
     },
     "20821": {
       "codigo": "20821",
       "nombre": "Economía",
-      "hash": "33e82a2b6dacbd4af2717c94fcff3289b42b876a43472c0c5b67e88254c12476",
-      "last_changed": "2026-07-29T19:04:46.730Z"
+      "hash": "262947d485125c4d2f8596eff303e3bca73ac50a9bed3101d6ddf0a7ba367e6c",
+      "last_changed": "2026-07-30T17:00:03.738Z"
     },
     "21011": {
       "codigo": "21011",
       "nombre": "Filosofía",
-      "hash": "5943afa739f99f89591d2f66ada36e49eba09ca4760dfe720b610f2904997b68",
-      "last_changed": "2026-07-29T19:04:46.730Z"
+      "hash": "69d668b7652418a83af21ef0bdc957b145c8b194ef07ed36fb9858bdded4ed7d",
+      "last_changed": "2026-07-30T17:00:03.738Z"
     },
     "21013": {
       "codigo": "21013",
       "nombre": "Lengua y Literatura Hispánicas",
-      "hash": "20969bbc9118effa186def7855f94d5e4cc7f8d750ae0507d0cd2830eeefe622",
-      "last_changed": "2026-07-29T19:04:46.730Z"
+      "hash": "cb9402af7d554f7e770768f5357c27faaeb652347303d5c16d3a3a11a40bbea3",
+      "last_changed": "2026-07-30T17:00:03.738Z"
     },
     "21021": {
       "codigo": "21021",
       "nombre": "Historia",
-      "hash": "e4c4101a4aa7048931d6d9a899866e833b1f938a2a57c08922ace41c8d5b7be6",
-      "last_changed": "2026-07-29T19:04:46.730Z"
+      "hash": "1f7bfef50eb592a2abba96a527d191540c12561f57d9825c59ecbf4118a0fb45",
+      "last_changed": "2026-07-30T17:00:03.738Z"
     },
     "21025": {
       "codigo": "21025",
       "nombre": "Pedagogía",
-      "hash": "983fa136a9bb60d209a3a42cccc3144861148b56b33a25cd6c03def681bb5d68",
-      "last_changed": "2026-07-29T19:04:46.730Z"
+      "hash": "892ba2816a96e8c12009f2eb1e9f90442bfeb536a22a72e32e6384fddbdf6863",
+      "last_changed": "2026-07-30T17:00:03.738Z"
     },
     "21121": {
       "codigo": "21121",
       "nombre": "Ingeniería Civil",
-      "hash": "7d2c5dd9e2ed936c0a5574ac00d45a144180a35336f0da47b26a643b646ae04a",
-      "last_changed": "2026-07-29T19:04:46.730Z"
+      "hash": "972bdb855d9a83505ee942260d02d50e4eb812d0840159b15afb3deea68f54f3",
+      "last_changed": "2026-07-30T17:00:03.738Z"
     },
     "24022": {
       "codigo": "24022",
       "nombre": "Matemáticas. Apl. y Comp.",
-      "hash": "04635ca92c27eba7724c4091123c29ab7a8b9c5e41594c49ce595cea8565693f",
-      "last_changed": "2026-07-29T19:04:46.730Z"
+      "hash": "856c536e646a64652710c3eba7d83208286f56d59135bdbc56947b142dbe3ac0",
+      "last_changed": "2026-07-30T17:00:03.738Z"
     },
     "24121": {
       "codigo": "24121",
       "nombre": "Enseñanza de Inglés",
-      "hash": "464d53b0b3e1574eaff4d1fbd4e941b5f9f43f598dbe4b390082a764750e1d4a",
-      "last_changed": "2026-07-29T19:04:46.730Z"
+      "hash": "37e1859f752eb8f2b6f16958207e45bdd949203104911a9124ffe102cbd20f82",
+      "last_changed": "2026-07-30T17:00:03.738Z"
     }
   },
   "carreras_faltantes": []

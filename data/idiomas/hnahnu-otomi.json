@@ -1,0 +1,84 @@
+{
+  "codigo": "13",
+  "slug": "hnahnu-otomi",
+  "nombre": "HÑÄHÑU (OTOMÍ)",
+  "periodo": "2027-1",
+  "fecha_consulta": "2026-07-30T17:03:21.095Z",
+  "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
+  "grupos": [
+    {
+      "grupo": "PG03 BASICO_10BP01",
+      "clave": "PG03 BASICO_10BP01",
+      "profesor": "RAYMUNDO ISIDRO ALAVEZ",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "10:00",
+          "fin": "12:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "10:00",
+          "fin": "12:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "13",
+      "idioma": "HÑÄHÑU (OTOMÍ)",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231276",
+      "nivel": "PG03 BASICO",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG06 AVANZADO_12BP01",
+      "clave": "PG06 AVANZADO_12BP01",
+      "profesor": "RAYMUNDO ISIDRO ALAVEZ",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "12:00",
+          "fin": "14:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "12:00",
+          "fin": "14:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "13",
+      "idioma": "HÑÄHÑU (OTOMÍ)",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231277",
+      "nivel": "PG06 AVANZADO",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    }
+  ],
+  "combinaciones": [
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG03 BASICO",
+      "modalidad": "Presencial",
+      "grupos": 1
+    },
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG06 AVANZADO",
+      "modalidad": "Presencial",
+      "grupos": 1
+    }
+  ]
+}

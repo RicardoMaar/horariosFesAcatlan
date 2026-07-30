@@ -1,8 +1,8 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-07-29T19:06:35.508Z",
+  "fecha_actualizacion": "2026-07-30T17:01:51.987Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
-  "total_idiomas": 8,
+  "total_idiomas": 14,
   "idiomas": {
     "1": {
       "codigo": "1",
@@ -16,6 +16,24 @@
       "nombre": "ÁRABE",
       "total_grupos": 2
     },
+    "3": {
+      "codigo": "3",
+      "slug": "chino",
+      "nombre": "CHINO",
+      "total_grupos": 7
+    },
+    "4": {
+      "codigo": "4",
+      "slug": "espanol",
+      "nombre": "ESPAÑOL",
+      "total_grupos": 1
+    },
+    "5": {
+      "codigo": "5",
+      "slug": "frances",
+      "nombre": "FRANCÉS",
+      "total_grupos": 63
+    },
     "6": {
       "codigo": "6",
       "slug": "griego-clasico",
@@ -26,7 +44,7 @@
       "codigo": "8",
       "slug": "ingles",
       "nombre": "INGLÉS",
-      "total_grupos": 57
+      "total_grupos": 138
     },
     "9": {
       "codigo": "9",
@@ -34,11 +52,29 @@
       "nombre": "ITALIANO",
       "total_grupos": 51
     },
+    "10": {
+      "codigo": "10",
+      "slug": "japones",
+      "nombre": "JAPONÉS",
+      "total_grupos": 12
+    },
     "11": {
       "codigo": "11",
       "slug": "latin",
       "nombre": "LATÍN",
       "total_grupos": 8
+    },
+    "12": {
+      "codigo": "12",
+      "slug": "nahuatl",
+      "nombre": "NÁHUATL",
+      "total_grupos": 4
+    },
+    "13": {
+      "codigo": "13",
+      "slug": "hnahnu-otomi",
+      "nombre": "HÑÄHÑU (OTOMÍ)",
+      "total_grupos": 2
     },
     "14": {
       "codigo": "14",

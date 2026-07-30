@@ -1,0 +1,156 @@
+{
+  "codigo": "12",
+  "slug": "nahuatl",
+  "nombre": "NÁHUATL",
+  "periodo": "2027-1",
+  "fecha_consulta": "2026-07-30T17:03:18.255Z",
+  "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
+  "grupos": [
+    {
+      "grupo": "PG01_10AP01",
+      "clave": "PG01_10AP01",
+      "profesor": "FELIPE BRIGIDO CONCEPCIÓN",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "10:00",
+          "fin": "12:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "10:00",
+          "fin": "12:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "12",
+      "idioma": "NÁHUATL",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231284",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG03_16AP01",
+      "clave": "PG03_16AP01",
+      "profesor": "FELIPE BRIGIDO CONCEPCIÓN",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "16:00",
+          "fin": "18:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "16:00",
+          "fin": "18:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "12",
+      "idioma": "NÁHUATL",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231286",
+      "nivel": "PG03",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG04_14AP01",
+      "clave": "PG04_14AP01",
+      "profesor": "FELIPE BRIGIDO CONCEPCIÓN",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "14:00",
+          "fin": "16:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "14:00",
+          "fin": "16:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "12",
+      "idioma": "NÁHUATL",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231287",
+      "nivel": "PG04",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG06_12AP01",
+      "clave": "PG06_12AP01",
+      "profesor": "FELIPE BRIGIDO CONCEPCIÓN",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "12:00",
+          "fin": "14:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "12:00",
+          "fin": "14:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "12",
+      "idioma": "NÁHUATL",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231289",
+      "nivel": "PG06",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    }
+  ],
+  "combinaciones": [
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG01",
+      "modalidad": "Presencial",
+      "grupos": 1
+    },
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG03",
+      "modalidad": "Presencial",
+      "grupos": 1
+    },
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG04",
+      "modalidad": "Presencial",
+      "grupos": 1
+    },
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG06",
+      "modalidad": "Presencial",
+      "grupos": 1
+    }
+  ]
+}
