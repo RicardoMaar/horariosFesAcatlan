@@ -3,7 +3,7 @@
   "slug": "ruso",
   "nombre": "RUSO",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-07-30T17:03:38.167Z",
+  "fecha_consulta": "2026-07-31T17:03:37.240Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -171,19 +171,19 @@
           "dia": "MA",
           "dia_nombre": "Martes",
           "inicio": "11:00",
-          "fin": "14:00"
+          "fin": "13:00"
         },
         {
           "dia": "MI",
           "dia_nombre": "Miércoles",
           "inicio": "11:00",
-          "fin": "14:00"
+          "fin": "13:00"
         },
         {
           "dia": "JU",
           "dia_nombre": "Jueves",
           "inicio": "11:00",
-          "fin": "14:00"
+          "fin": "13:00"
         }
       ],
       "salon": "",

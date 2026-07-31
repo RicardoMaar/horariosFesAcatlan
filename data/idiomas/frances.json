@@ -3,7 +3,7 @@
   "slug": "frances",
   "nombre": "FRANCÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-07-30T17:02:32.123Z",
+  "fecha_consulta": "2026-07-31T17:02:31.475Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -93,7 +93,7 @@
     {
       "grupo": "CL01_13BP01",
       "clave": "CL01_13BP01",
-      "profesor": "MARÍA DEL SOCORRO FLORES ESPERÓN",
+      "profesor": "KARENIN MARIA TERESA GUERRA MARTINEZ",
       "horarios": [
         {
           "dia": "MA",
@@ -213,7 +213,7 @@
     {
       "grupo": "CL02_13BP01",
       "clave": "CL02_13BP01",
-      "profesor": "KARENIN MARIA TERESA GUERRA MARTINEZ",
+      "profesor": "MARÍA DEL SOCORRO FLORES ESPERÓN",
       "horarios": [
         {
           "dia": "MA",

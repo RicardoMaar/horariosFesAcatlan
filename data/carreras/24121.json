@@ -1,7 +1,7 @@
 {
   "codigo": "24121",
   "nombre": "Enseñanza de Inglés",
-  "fecha_consulta": "2026-07-30T17:00:51.161Z",
+  "fecha_consulta": "2026-07-31T17:00:50.857Z",
   "materias": {
     "1039": {
       "nombre": "EXPRE. ARTIS. PAISES ANGLOSAJ.",
@@ -317,7 +317,7 @@
       "grupos": [
         {
           "grupo": "1101",
-          "profesor": "Profesor No Asignado",
+          "profesor": "DEL RIO MANJARREZ BRENDA",
           "horarios": [
             {
               "dia": "LU",
@@ -638,7 +638,7 @@
         },
         {
           "grupo": "1351",
-          "profesor": "Profesor No Asignado",
+          "profesor": "HERNANDEZ GARCIA DANIEL",
           "horarios": [
             {
               "dia": "MA",
