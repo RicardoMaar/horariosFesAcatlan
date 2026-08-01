@@ -3,19 +3,19 @@
   "slug": "frances",
   "nombre": "FRANCÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-07-31T17:02:31.475Z",
+  "fecha_consulta": "2026-08-01T17:02:35.215Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
-      "grupo": "CL01_10VP01",
-      "clave": "CL01_10VP01",
+      "grupo": "CL01_09VP01",
+      "clave": "CL01_09VP01",
       "profesor": "",
       "horarios": [
         {
           "dia": "VI",
           "dia_nombre": "Viernes",
-          "inicio": "10:00",
-          "fin": "14:00"
+          "inicio": "09:00",
+          "fin": "13:00"
         }
       ],
       "salon": "",
@@ -183,7 +183,7 @@
     {
       "grupo": "CL01_19AR01",
       "clave": "CL01_19AR01",
-      "profesor": "",
+      "profesor": "ZULMA YANIRA VELÁZQUEZ CRUZ",
       "horarios": [
         {
           "dia": "LU",
@@ -393,7 +393,7 @@
     {
       "grupo": "PG01_07BP01",
       "clave": "PG01_07BP01",
-      "profesor": "",
+      "profesor": "TLAHUILI NAVA SARABIA",
       "horarios": [
         {
           "dia": "MA",
@@ -891,7 +891,7 @@
     {
       "grupo": "PG01_17BP01",
       "clave": "PG01_17BP01",
-      "profesor": "",
+      "profesor": "CÉSAR AUGUSTO PAZ LUCIO",
       "horarios": [
         {
           "dia": "MA",
@@ -1239,7 +1239,7 @@
     {
       "grupo": "PG02_15BP01",
       "clave": "PG02_15BP01",
-      "profesor": "",
+      "profesor": "ANA CAROLINA LUNA CHAIRES",
       "horarios": [
         {
           "dia": "MA",
@@ -1561,6 +1561,36 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "PG04_15BP01",
+      "clave": "PG04_15BP01",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "15:00",
+          "fin": "17:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "15:00",
+          "fin": "17:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "5",
+      "idioma": "FRANCÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231252",
+      "nivel": "PG04",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "PG05_11BP01",
       "clave": "PG05_11BP01",
       "profesor": "EDGAR ANTONIO CRUZ MARTÍNEZ",
@@ -1735,6 +1765,30 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "ESCRITURA 1_09VP01",
+      "clave": "ESCRITURA 1_09VP01",
+      "profesor": "FRANCISCO JAVIER CERÓN LUNA",
+      "horarios": [
+        {
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "09:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "Este grupo está recomendado a partir de PG3.",
+      "idioma_codigo": "5",
+      "idioma": "FRANCÉS",
+      "tipo_curso_codigo": "5",
+      "tipo_curso": "TALLERES",
+      "nivel_codigo": "231357",
+      "nivel": "ESCRITURA 1",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "FONETICA_09JP01",
       "clave": "FONETICA_09JP01",
       "profesor": "LETICIA RIZO MARÉCHAL",
@@ -1890,7 +1944,7 @@
       "tipo_curso": "PG",
       "nivel": "PG04",
       "modalidad": "Presencial",
-      "grupos": 3
+      "grupos": 4
     },
     {
       "tipo_curso": "PG",
@@ -1919,6 +1973,12 @@
     {
       "tipo_curso": "TALLERES",
       "nivel": "COMPRENSIÓN AUDITIVA",
+      "modalidad": "Presencial",
+      "grupos": 1
+    },
+    {
+      "tipo_curso": "TALLERES",
+      "nivel": "ESCRITURA 1",
       "modalidad": "Presencial",
       "grupos": 1
     },

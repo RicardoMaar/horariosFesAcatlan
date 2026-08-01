@@ -3,7 +3,7 @@
   "slug": "ingles",
   "nombre": "INGLÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-07-31T17:02:52.182Z",
+  "fecha_consulta": "2026-08-01T17:02:57.229Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -991,20 +991,14 @@
       "modalidad": "Presencial"
     },
     {
-      "grupo": "PG01_09AP01",
-      "clave": "PG01_09AP01",
-      "profesor": "ERIKA CLAUDIA BADILLO SOLÍS",
+      "grupo": "PG01_07VP01",
+      "clave": "PG01_07VP01",
+      "profesor": "MIRIAM GUERRA PAREDES",
       "horarios": [
         {
-          "dia": "LU",
-          "dia_nombre": "Lunes",
-          "inicio": "09:00",
-          "fin": "11:00"
-        },
-        {
-          "dia": "MI",
-          "dia_nombre": "Miércoles",
-          "inicio": "09:00",
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "07:00",
           "fin": "11:00"
         }
       ],
@@ -1021,9 +1015,9 @@
       "modalidad": "Presencial"
     },
     {
-      "grupo": "PG01_09AP02",
-      "clave": "PG01_09AP02",
-      "profesor": "GUSTAVO FLORES GARCÍA",
+      "grupo": "PG01_09AP01",
+      "clave": "PG01_09AP01",
+      "profesor": "ERIKA CLAUDIA BADILLO SOLÍS",
       "horarios": [
         {
           "dia": "LU",
@@ -1138,6 +1132,36 @@
       "grupo": "PG01_11AP01",
       "clave": "PG01_11AP01",
       "profesor": "ERIKA CLAUDIA BADILLO SOLÍS",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231227",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_11AP02",
+      "clave": "PG01_11AP02",
+      "profesor": "GUADALUPE ARIADNA HERNÁNDEZ MELO",
       "horarios": [
         {
           "dia": "LU",
@@ -1285,6 +1309,96 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "PG01_13AP01",
+      "clave": "PG01_13AP01",
+      "profesor": "CLAUDIA GONZÁLEZ ESPINOSA",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231227",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_13AP02",
+      "clave": "PG01_13AP02",
+      "profesor": "GUADALUPE ARIADNA HERNÁNDEZ MELO",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231227",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_13BP01",
+      "clave": "PG01_13BP01",
+      "profesor": "ITZEL VIRIDIANA HERNÁNDEZ VENEGAS",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231227",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "PG01_14AP01",
       "clave": "PG01_14AP01",
       "profesor": "JUAN RAÚL ACEVEDO JUÁREZ",
@@ -1375,6 +1489,36 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "PG01_17AP01",
+      "clave": "PG01_17AP01",
+      "profesor": "JOSÉ ÁNGEL REYES SALINAS",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "17:00",
+          "fin": "19:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "17:00",
+          "fin": "19:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231227",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "PG01_17BP01",
       "clave": "PG01_17BP01",
       "profesor": "JOSE LUIS CEDILLO MARIN",
@@ -1390,6 +1534,66 @@
           "dia_nombre": "Jueves",
           "inicio": "17:00",
           "fin": "19:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231227",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_19AP02",
+      "clave": "PG01_19AP02",
+      "profesor": "JOSÉ ÁNGEL REYES SALINAS",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "19:00",
+          "fin": "21:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "19:00",
+          "fin": "21:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231227",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_19BP01",
+      "clave": "PG01_19BP01",
+      "profesor": "HÉCTOR FLORES FUENTES",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "19:00",
+          "fin": "21:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "19:00",
+          "fin": "21:00"
         }
       ],
       "salon": "",
@@ -1549,9 +1753,69 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "PG02_09AP01",
+      "clave": "PG02_09AP01",
+      "profesor": "AARÓN ADRIÁN RIVAS RAMÍREZ",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "09:00",
+          "fin": "11:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "09:00",
+          "fin": "11:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231228",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "PG02_09BP01",
       "clave": "PG02_09BP01",
       "profesor": "SOFÍA DOMÍNGUEZ ALDANA",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "09:00",
+          "fin": "11:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "09:00",
+          "fin": "11:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231228",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_09BP02",
+      "clave": "PG02_09BP02",
+      "profesor": "CINTYA VIRGINIA GUZMÁN CAMACHO",
       "horarios": [
         {
           "dia": "MA",
@@ -1616,6 +1880,96 @@
         {
           "dia": "MI",
           "dia_nombre": "Miércoles",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231228",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_11AP02",
+      "clave": "PG02_11AP02",
+      "profesor": "ANTONIO MARIO SERVÍN MEDINA",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231228",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_11BP01",
+      "clave": "PG02_11BP01",
+      "profesor": "ANTONIO MARIO SERVÍN MEDINA",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231228",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_11BP02",
+      "clave": "PG02_11BP02",
+      "profesor": "CINTYA VIRGINIA GUZMÁN CAMACHO",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
           "inicio": "11:00",
           "fin": "13:00"
         }
@@ -1873,6 +2227,36 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "PG02_19AP02",
+      "clave": "PG02_19AP02",
+      "profesor": "HÉCTOR FLORES FUENTES",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "19:00",
+          "fin": "21:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "19:00",
+          "fin": "21:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231228",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "PG02_19BP01",
       "clave": "PG02_19BP01",
       "profesor": "MARCO CALDERÓN OLIVARES",
@@ -2053,6 +2437,66 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "PG03_11AP02",
+      "clave": "PG03_11AP02",
+      "profesor": "JOSÉ GUILLÉN ANGUIANO",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231229",
+      "nivel": "PG03",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG03_11BP01",
+      "clave": "PG03_11BP01",
+      "profesor": "ISRAEL REBATTÚ NÚÑEZ",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231229",
+      "nivel": "PG03",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "PG03_11VP01",
       "clave": "PG03_11VP01",
       "profesor": "LUIS MANUEL TAPIA RIVERA",
@@ -2107,6 +2551,66 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "PG03_13BP01",
+      "clave": "PG03_13BP01",
+      "profesor": "JOSÉ GUILLÉN ANGUIANO",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231229",
+      "nivel": "PG03",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG03_14AP01",
+      "clave": "PG03_14AP01",
+      "profesor": "HÉCTOR LEAL QUIROZ",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "14:00",
+          "fin": "16:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "14:00",
+          "fin": "16:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231229",
+      "nivel": "PG03",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "PG03_15AP01",
       "clave": "PG03_15AP01",
       "profesor": "GILDA TERÁN RAMÍREZ",
@@ -2137,21 +2641,51 @@
       "modalidad": "Presencial"
     },
     {
-      "grupo": "PG03_15BP01",
-      "clave": "PG03_15BP01",
-      "profesor": "KARINA VICTORIA ÁGUILA",
+      "grupo": "PG03_17AP01",
+      "clave": "PG03_17AP01",
+      "profesor": "MIGUEL ÁNGEL MURILLO GALVÁN",
       "horarios": [
         {
-          "dia": "MA",
-          "dia_nombre": "Martes",
-          "inicio": "15:00",
-          "fin": "17:00"
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "17:00",
+          "fin": "19:00"
         },
         {
-          "dia": "JU",
-          "dia_nombre": "Jueves",
-          "inicio": "15:00",
-          "fin": "17:00"
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "17:00",
+          "fin": "19:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231229",
+      "nivel": "PG03",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG03_19AP02",
+      "clave": "PG03_19AP02",
+      "profesor": "MIGUEL ÁNGEL MURILLO GALVÁN",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "19:00",
+          "fin": "21:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "19:00",
+          "fin": "21:00"
         }
       ],
       "salon": "",
@@ -2485,6 +3019,36 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "PG04_15AP01",
+      "clave": "PG04_15AP01",
+      "profesor": "MIRIAM GUERRA PAREDES",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "15:00",
+          "fin": "17:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "15:00",
+          "fin": "17:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231230",
+      "nivel": "PG04",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "PG04_15BP01",
       "clave": "PG04_15BP01",
       "profesor": "JAFRETH ESPINOSA RAMÍREZ",
@@ -2530,36 +3094,6 @@
           "dia_nombre": "Jueves",
           "inicio": "15:00",
           "fin": "17:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "8",
-      "idioma": "INGLÉS",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231230",
-      "nivel": "PG04",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
-      "grupo": "PG04_17AP01",
-      "clave": "PG04_17AP01",
-      "profesor": "MELISSA MORENO MEDEROS",
-      "horarios": [
-        {
-          "dia": "LU",
-          "dia_nombre": "Lunes",
-          "inicio": "17:00",
-          "fin": "19:00"
-        },
-        {
-          "dia": "MI",
-          "dia_nombre": "Miércoles",
-          "inicio": "17:00",
-          "fin": "19:00"
         }
       ],
       "salon": "",
@@ -2635,6 +3169,66 @@
       "modalidad": "Remoto"
     },
     {
+      "grupo": "PG05_09AP01",
+      "clave": "PG05_09AP01",
+      "profesor": "JOSÉ GUILLÉN ANGUIANO",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "09:00",
+          "fin": "11:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "09:00",
+          "fin": "11:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231231",
+      "nivel": "PG05",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG05_09BP01",
+      "clave": "PG05_09BP01",
+      "profesor": "ANTONIO MARIO SERVÍN MEDINA",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "09:00",
+          "fin": "11:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "09:00",
+          "fin": "11:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231231",
+      "nivel": "PG05",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "PG05_11AP01",
       "clave": "PG05_11AP01",
       "profesor": "FERNANDO PÉREZ MARTÍNEZ",
@@ -2695,6 +3289,66 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "PG05_13AP01",
+      "clave": "PG05_13AP01",
+      "profesor": "JOSÉ GUILLÉN ANGUIANO",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231231",
+      "nivel": "PG05",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG05_13BP01",
+      "clave": "PG05_13BP01",
+      "profesor": "HÉCTOR LEAL QUIROZ",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231231",
+      "nivel": "PG05",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "PG05_15AP01",
       "clave": "PG05_15AP01",
       "profesor": "GABRIELA BAÑUELOS GUTIÉRREZ",
@@ -2723,6 +3377,96 @@
       "nivel": "PG05",
       "modalidad_codigo": "1",
       "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG05_15BP01",
+      "clave": "PG05_15BP01",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "15:00",
+          "fin": "17:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "15:00",
+          "fin": "17:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231231",
+      "nivel": "PG05",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG05_07AR01",
+      "clave": "PG05_07AR01",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "07:00",
+          "fin": "09:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "07:00",
+          "fin": "09:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231231",
+      "nivel": "PG05",
+      "modalidad_codigo": "2",
+      "modalidad": "Remoto"
+    },
+    {
+      "grupo": "PG05_19AR01",
+      "clave": "PG05_19AR01",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "19:00",
+          "fin": "21:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "19:00",
+          "fin": "21:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231231",
+      "nivel": "PG05",
+      "modalidad_codigo": "2",
+      "modalidad": "Remoto"
     },
     {
       "grupo": "PG06_09AP01",
@@ -2935,6 +3679,36 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "PG06_15AP01",
+      "clave": "PG06_15AP01",
+      "profesor": "MIGUEL ÁNGEL MURILLO GALVÁN",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "15:00",
+          "fin": "17:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "15:00",
+          "fin": "17:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231232",
+      "nivel": "PG06",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "PG06_15BP01",
       "clave": "PG06_15BP01",
       "profesor": "GABRIELA BAÑUELOS GUTIÉRREZ",
@@ -3055,8 +3829,38 @@
       "modalidad": "Presencial"
     },
     {
-      "grupo": "PG07_11AP03",
-      "clave": "PG07_11AP03",
+      "grupo": "PG07_13BP01",
+      "clave": "PG07_13BP01",
+      "profesor": "DORA LUZ GARCÍA TORRES",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231296",
+      "nivel": "PG07",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG08_11AP03",
+      "clave": "PG08_11AP03",
       "profesor": "CLAUDIA GUTIÉRREZ REDONDO",
       "horarios": [
         {
@@ -3079,8 +3883,8 @@
       "idioma": "INGLÉS",
       "tipo_curso_codigo": "3",
       "tipo_curso": "PG",
-      "nivel_codigo": "231296",
-      "nivel": "PG07",
+      "nivel_codigo": "231297",
+      "nivel": "PG08",
       "modalidad_codigo": "1",
       "modalidad": "Presencial"
     },
@@ -3205,6 +4009,36 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "FIRST CERT. 2_13BP01",
+      "clave": "FIRST CERT. 2_13BP01",
+      "profesor": "CLAUDIA GONZÁLEZ ESPINOSA",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "4",
+      "tipo_curso": "AVANZADO",
+      "nivel_codigo": "231325",
+      "nivel": "FIRST CERT. 2",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "TOEFL_13AP01",
       "clave": "TOEFL_13AP01",
       "profesor": "DULCE ANGÉLICA CHÁVEZ JUÁREZ",
@@ -3259,6 +4093,36 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "CL01_SEMI-INTENSIVO_11AP01",
+      "clave": "CL01_SEMI-INTENSIVO_11AP01",
+      "profesor": "HÉCTOR LEAL QUIROZ",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "11:00",
+          "fin": "14:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "11:00",
+          "fin": "14:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231382",
+      "nivel": "CL01_SEMI-INTENSIVO",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "CL01_SEMI-INTENSIVO_11BP01",
       "clave": "CL01_SEMI-INTENSIVO_11BP01",
       "profesor": "DAVID ALEXANDER PINO NAVARRO",
@@ -3274,6 +4138,30 @@
           "dia_nombre": "Jueves",
           "inicio": "11:00",
           "fin": "14:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231382",
+      "nivel": "CL01_SEMI-INTENSIVO",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL01_SEMI-INTENSIVO_12VP01",
+      "clave": "CL01_SEMI-INTENSIVO_12VP01",
+      "profesor": "MARÍA GUADALUPE HERNÁNDEZ ARGUETA",
+      "horarios": [
+        {
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "12:00",
+          "fin": "18:00"
         }
       ],
       "salon": "",
@@ -3901,6 +4789,42 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "CL01_SEMI-INTENSIVO_15GP01",
+      "clave": "CL01_SEMI-INTENSIVO_15GP01",
+      "profesor": "CLAUDIA GONZÁLEZ ESPINOSA",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "15:00",
+          "fin": "17:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "15:00",
+          "fin": "17:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "15:00",
+          "fin": "17:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231382",
+      "nivel": "CL01_SEMI-INTENSIVO",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "CL01_SEMI-INTENSIVO_15VP01",
       "clave": "CL01_SEMI-INTENSIVO_15VP01",
       "profesor": "DIANA CASTAÑÓN LÓPEZ",
@@ -4015,6 +4939,96 @@
       "modalidad": "Remoto"
     },
     {
+      "grupo": "CL02_SEMI-INTENSIVO_09VP01",
+      "clave": "CL02_SEMI-INTENSIVO_09VP01",
+      "profesor": "GUADALUPE ARIADNA HERNÁNDEZ MELO",
+      "horarios": [
+        {
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "09:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231385",
+      "nivel": "CL02_SEMI-INTENSIVO",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL02_SEMI-INTENSIVO_12BP01",
+      "clave": "CL02_SEMI-INTENSIVO_12BP01",
+      "profesor": "AARÓN ADRIÁN RIVAS RAMÍREZ",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "12:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "12:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231385",
+      "nivel": "CL02_SEMI-INTENSIVO",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL02_SEMI-INTENSIVO_12GP01",
+      "clave": "CL02_SEMI-INTENSIVO_12GP01",
+      "profesor": "MARÍA GUADALUPE HERNÁNDEZ ARGUETA",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "12:00",
+          "fin": "14:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "12:00",
+          "fin": "14:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "12:00",
+          "fin": "14:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231385",
+      "nivel": "CL02_SEMI-INTENSIVO",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "CL02_SEMI-INTENSIVO_14ABP01",
       "clave": "CL02_SEMI-INTENSIVO_14ABP01",
       "profesor": "OLIVIA MIRAVETE CHASSIN",
@@ -4111,6 +5125,36 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "CL02_SEMI-INTENSIVO_15BP01",
+      "clave": "CL02_SEMI-INTENSIVO_15BP01",
+      "profesor": "MIGUEL ÁNGEL MURILLO GALVÁN",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "15:00",
+          "fin": "18:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "15:00",
+          "fin": "18:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231385",
+      "nivel": "CL02_SEMI-INTENSIVO",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "CL02_SEMI-INTENSIVO_15GP01",
       "clave": "CL02_SEMI-INTENSIVO_15GP01",
       "profesor": "LUIS ERNESTO GONZÁLEZ PINEDA",
@@ -4177,6 +5221,36 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "CL02_SEMI-INTENSIVO_07AR01",
+      "clave": "CL02_SEMI-INTENSIVO_07AR01",
+      "profesor": "MIRIAM GUERRA PAREDES",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "07:00",
+          "fin": "10:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "07:00",
+          "fin": "10:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231385",
+      "nivel": "CL02_SEMI-INTENSIVO",
+      "modalidad_codigo": "2",
+      "modalidad": "Remoto"
+    },
+    {
       "grupo": "CL02_SEMI-INTENSIVO_19AR01",
       "clave": "CL02_SEMI-INTENSIVO_19AR01",
       "profesor": "ENRIQUE ZARZA HERNÁNDEZ",
@@ -4224,7 +5298,7 @@
       "tipo_curso": "PG",
       "nivel": "PG01",
       "modalidad": "Presencial",
-      "grupos": 15
+      "grupos": 22
     },
     {
       "tipo_curso": "PG",
@@ -4236,7 +5310,7 @@
       "tipo_curso": "PG",
       "nivel": "PG02",
       "modalidad": "Presencial",
-      "grupos": 15
+      "grupos": 21
     },
     {
       "tipo_curso": "PG",
@@ -4248,7 +5322,7 @@
       "tipo_curso": "PG",
       "nivel": "PG03",
       "modalidad": "Presencial",
-      "grupos": 8
+      "grupos": 13
     },
     {
       "tipo_curso": "PG",
@@ -4272,13 +5346,19 @@
       "tipo_curso": "PG",
       "nivel": "PG05",
       "modalidad": "Presencial",
-      "grupos": 3
+      "grupos": 8
+    },
+    {
+      "tipo_curso": "PG",
+      "nivel": "PG05",
+      "modalidad": "Remoto",
+      "grupos": 2
     },
     {
       "tipo_curso": "PG",
       "nivel": "PG06",
       "modalidad": "Presencial",
-      "grupos": 8
+      "grupos": 9
     },
     {
       "tipo_curso": "PG",
@@ -4296,7 +5376,7 @@
       "tipo_curso": "PG",
       "nivel": "PG08",
       "modalidad": "Presencial",
-      "grupos": 1
+      "grupos": 2
     },
     {
       "tipo_curso": "PG",
@@ -4312,6 +5392,12 @@
     },
     {
       "tipo_curso": "AVANZADO",
+      "nivel": "FIRST CERT. 2",
+      "modalidad": "Presencial",
+      "grupos": 1
+    },
+    {
+      "tipo_curso": "AVANZADO",
       "nivel": "TOEFL",
       "modalidad": "Presencial",
       "grupos": 1
@@ -4320,7 +5406,7 @@
       "tipo_curso": "SEMI-INTENSIVOS",
       "nivel": "CL01_SEMI-INTENSIVO",
       "modalidad": "Presencial",
-      "grupos": 21
+      "grupos": 24
     },
     {
       "tipo_curso": "SEMI-INTENSIVOS",
@@ -4332,13 +5418,13 @@
       "tipo_curso": "SEMI-INTENSIVOS",
       "nivel": "CL02_SEMI-INTENSIVO",
       "modalidad": "Presencial",
-      "grupos": 5
+      "grupos": 9
     },
     {
       "tipo_curso": "SEMI-INTENSIVOS",
       "nivel": "CL02_SEMI-INTENSIVO",
       "modalidad": "Remoto",
-      "grupos": 1
+      "grupos": 2
     }
   ]
 }
