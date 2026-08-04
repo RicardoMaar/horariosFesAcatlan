@@ -1,6 +1,6 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-08-03T17:01:54.432Z",
+  "fecha_actualizacion": "2026-08-04T17:01:49.705Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "total_idiomas": 14,
   "idiomas": {
@@ -50,8 +50,8 @@
       "codigo": "8",
       "slug": "ingles",
       "nombre": "INGLÉS",
-      "hash": "012a88fde39b7fb67a8d08a5dfb4913aa4357a3c220a44fda28bb69d2bda092a",
-      "last_changed": "2026-08-01T17:01:54.091Z"
+      "hash": "08edc587b32888f17f0cdbdd7d0ded52740f7049f2e7071ebcfd35a24701ff0c",
+      "last_changed": "2026-08-04T17:01:49.705Z"
     },
     "9": {
       "codigo": "9",

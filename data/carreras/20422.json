@@ -1,7 +1,7 @@
 {
   "codigo": "20422",
   "nombre": "Ciencias Políticas y Admon. Pública",
-  "fecha_consulta": "2026-08-03T17:00:22.684Z",
+  "fecha_consulta": "2026-08-04T17:00:17.994Z",
   "materias": {
     "1059": {
       "nombre": "ADMINISTRACION AMBIENTAL MUNICIP",
@@ -1413,7 +1413,7 @@
         },
         {
           "grupo": "1302",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ARIAS LOPEZ PALMIRA",
           "horarios": [
             {
               "dia": "MA",
@@ -1571,7 +1571,7 @@
         },
         {
           "grupo": "1352",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GUADARRAMA CRUZ CARLOS",
           "horarios": [
             {
               "dia": "LU",
@@ -1817,7 +1817,7 @@
         },
         {
           "grupo": "1502",
-          "profesor": "Profesor No Asignado",
+          "profesor": "PALAZUELOS CAMPOS KARLA VICTORIA",
           "horarios": [
             {
               "dia": "LU",
@@ -1836,7 +1836,7 @@
         },
         {
           "grupo": "1503",
-          "profesor": "Profesor No Asignado",
+          "profesor": "JIMENEZ SANDOVAL ADRIAN",
           "horarios": [
             {
               "dia": "LU",
@@ -2145,7 +2145,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "Profesor No Asignado",
+          "profesor": "JIMENEZ SANDOVAL ADRIAN",
           "horarios": [
             {
               "dia": "LU",
@@ -2208,7 +2208,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GUADARRAMA CRUZ CARLOS",
           "horarios": [
             {
               "dia": "LU",
@@ -2252,7 +2252,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ORDUÑA REYES FRANCISCO",
           "horarios": [
             {
               "dia": "LU",
