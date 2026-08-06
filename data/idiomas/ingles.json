@@ -3,7 +3,7 @@
   "slug": "ingles",
   "nombre": "INGLÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-05T17:02:57.775Z",
+  "fecha_consulta": "2026-08-06T17:02:55.282Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -2377,6 +2377,36 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "PG02_07AR01",
+      "clave": "PG02_07AR01",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "07:00",
+          "fin": "09:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "07:00",
+          "fin": "09:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "GRUPO RESERVADO PARA LA COMUNIDAD DE SUAyED",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231228",
+      "nivel": "PG02",
+      "modalidad_codigo": "2",
+      "modalidad": "Remoto"
+    },
+    {
       "grupo": "PG02_19AR01",
       "clave": "PG02_19AR01",
       "profesor": "JOSE LUIS CEDILLO MARIN",
@@ -2943,13 +2973,13 @@
     {
       "grupo": "PG04_09VP01",
       "clave": "PG04_09VP01",
-      "profesor": "ROSA IRAIS CRUZ MENDOZA",
+      "profesor": "",
       "horarios": [
         {
           "dia": "VI",
           "dia_nombre": "Viernes",
           "inicio": "09:00",
-          "fin": "15:00"
+          "fin": "13:00"
         }
       ],
       "salon": "",
@@ -3471,7 +3501,7 @@
     {
       "grupo": "PG05_15BP01",
       "clave": "PG05_15BP01",
-      "profesor": "",
+      "profesor": "ANA GABRIELA ROJAS HERNÁNDEZ",
       "horarios": [
         {
           "dia": "MA",
@@ -3531,7 +3561,7 @@
     {
       "grupo": "PG05_19AR01",
       "clave": "PG05_19AR01",
-      "profesor": "",
+      "profesor": "ROSA IRAIS CRUZ MENDOZA",
       "horarios": [
         {
           "dia": "LU",
@@ -5029,6 +5059,36 @@
       "modalidad": "Remoto"
     },
     {
+      "grupo": "CL01_SEMI-INTENSIVO_19AR02",
+      "clave": "CL01_SEMI-INTENSIVO_19AR02",
+      "profesor": "JONATHAN CARPIO MIMILA",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "19:00",
+          "fin": "22:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "19:00",
+          "fin": "22:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "GRUPO RESERVADO PARA LA COMUNIDAD DE SOCIOLOGÍA",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231382",
+      "nivel": "CL01_SEMI-INTENSIVO",
+      "modalidad_codigo": "2",
+      "modalidad": "Remoto"
+    },
+    {
       "grupo": "CL02_SEMI-INTENSIVO_09VP01",
       "clave": "CL02_SEMI-INTENSIVO_09VP01",
       "profesor": "GUADALUPE ARIADNA HERNÁNDEZ MELO",
@@ -5406,7 +5466,7 @@
       "tipo_curso": "PG",
       "nivel": "PG02",
       "modalidad": "Remoto",
-      "grupos": 1
+      "grupos": 2
     },
     {
       "tipo_curso": "PG",
@@ -5502,7 +5562,7 @@
       "tipo_curso": "SEMI-INTENSIVOS",
       "nivel": "CL01_SEMI-INTENSIVO",
       "modalidad": "Remoto",
-      "grupos": 2
+      "grupos": 3
     },
     {
       "tipo_curso": "SEMI-INTENSIVOS",

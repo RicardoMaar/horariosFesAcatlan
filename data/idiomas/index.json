@@ -1,8 +1,8 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-08-05T17:01:54.981Z",
+  "fecha_actualizacion": "2026-08-06T17:01:51.196Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
-  "total_idiomas": 14,
+  "total_idiomas": 15,
   "idiomas": {
     "1": {
       "codigo": "1",
@@ -44,7 +44,7 @@
       "codigo": "8",
       "slug": "ingles",
       "nombre": "INGLÉS",
-      "total_grupos": 177
+      "total_grupos": 179
     },
     "9": {
       "codigo": "9",
@@ -87,6 +87,12 @@
       "slug": "ruso",
       "nombre": "RUSO",
       "total_grupos": 6
+    },
+    "20": {
+      "codigo": "20",
+      "slug": "turco",
+      "nombre": "TURCO",
+      "total_grupos": 3
     }
   }
 }
