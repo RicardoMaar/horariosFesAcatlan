@@ -3,7 +3,7 @@
   "slug": "ingles",
   "nombre": "INGLÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-06T17:02:55.282Z",
+  "fecha_consulta": "2026-08-07T17:02:55.771Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -2823,7 +2823,7 @@
     {
       "grupo": "PG03_07AR01",
       "clave": "PG03_07AR01",
-      "profesor": "ELIZABETH TORRES PÉREZ",
+      "profesor": "ELIZABETH TORRES RANGEL",
       "horarios": [
         {
           "dia": "LU",

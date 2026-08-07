@@ -3,7 +3,7 @@
   "slug": "ruso",
   "nombre": "RUSO",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-06T17:03:41.512Z",
+  "fecha_consulta": "2026-08-07T17:03:41.530Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -58,6 +58,36 @@
           "dia_nombre": "Viernes",
           "inicio": "11:00",
           "fin": "14:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "16",
+      "idioma": "RUSO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231278",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_14BP01",
+      "clave": "PG01_14BP01",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "14:00",
+          "fin": "17:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "14:00",
+          "fin": "17:00"
         }
       ],
       "salon": "",
@@ -204,7 +234,7 @@
       "tipo_curso": "PG",
       "nivel": "PG01",
       "modalidad": "Presencial",
-      "grupos": 2
+      "grupos": 3
     },
     {
       "tipo_curso": "PG",

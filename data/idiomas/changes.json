@@ -1,6 +1,6 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-08-06T17:01:51.196Z",
+  "fecha_actualizacion": "2026-08-07T17:01:52.323Z",
   "total_cambios": 2,
   "idiomas": [
     {
@@ -9,9 +9,9 @@
       "nombre": "INGLÉS"
     },
     {
-      "codigo": "20",
-      "slug": "turco",
-      "nombre": "TURCO"
+      "codigo": "16",
+      "slug": "ruso",
+      "nombre": "RUSO"
     }
   ]
 }

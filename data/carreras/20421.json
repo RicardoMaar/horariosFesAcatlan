@@ -1,7 +1,7 @@
 {
   "codigo": "20421",
   "nombre": "Relaciones Internacionales",
-  "fecha_consulta": "2026-08-06T17:01:41.192Z",
+  "fecha_consulta": "2026-08-07T17:01:42.308Z",
   "materias": {
     "1089": {
       "nombre": "ACCION EXTERIOR DE GOBIERNOS LOC",
@@ -925,7 +925,7 @@
         },
         {
           "grupo": "1152",
-          "profesor": "Profesor No Asignado",
+          "profesor": "PEÑA LLANES JOSE JOEL",
           "horarios": [
             {
               "dia": "LU",
@@ -1866,7 +1866,7 @@
       "grupos": [
         {
           "grupo": "1301",
-          "profesor": "Profesor No Asignado",
+          "profesor": "SANDOVAL CERVERA SERGIO ALBERTO",
           "horarios": [
             {
               "dia": "LU",
@@ -2043,7 +2043,7 @@
         },
         {
           "grupo": "1351",
-          "profesor": "Profesor No Asignado",
+          "profesor": "SOLIS MINOR MARTHA PATRICIA",
           "horarios": [
             {
               "dia": "LU",
@@ -3251,7 +3251,7 @@
         },
         {
           "grupo": "1703",
-          "profesor": "Profesor No Asignado",
+          "profesor": "TREJO DIAZ MINERVA ANALI",
           "horarios": [
             {
               "dia": "MI",
@@ -3270,7 +3270,7 @@
         },
         {
           "grupo": "1751",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ROSAS CERVANTES MIRIAM AURORA",
           "horarios": [
             {
               "dia": "LU",
