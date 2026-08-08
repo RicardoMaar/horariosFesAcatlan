@@ -3,7 +3,7 @@
   "slug": "ingles",
   "nombre": "INGLÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-07T17:02:55.771Z",
+  "fecha_consulta": "2026-08-08T17:02:55.923Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -1447,7 +1447,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -2095,7 +2095,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -2155,7 +2155,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -2956,30 +2956,6 @@
           "dia_nombre": "Jueves",
           "inicio": "09:00",
           "fin": "11:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "8",
-      "idioma": "INGLÉS",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231230",
-      "nivel": "PG04",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
-      "grupo": "PG04_09VP01",
-      "clave": "PG04_09VP01",
-      "profesor": "",
-      "horarios": [
-        {
-          "dia": "VI",
-          "dia_nombre": "Viernes",
-          "inicio": "09:00",
-          "fin": "13:00"
         }
       ],
       "salon": "",
@@ -4934,7 +4910,7 @@
       ],
       "salon": "",
       "disponibilidad": "",
-      "observaciones": "",
+      "observaciones": "GRUPO RESERVADO PARA LA COMUNIDAD DE DERECHO",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
       "tipo_curso_codigo": "6",
@@ -5484,7 +5460,7 @@
       "tipo_curso": "PG",
       "nivel": "PG04",
       "modalidad": "Presencial",
-      "grupos": 12
+      "grupos": 11
     },
     {
       "tipo_curso": "PG",

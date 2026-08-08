@@ -3,7 +3,7 @@
   "slug": "portugues",
   "nombre": "PORTUGUÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-07T17:03:36.888Z",
+  "fecha_consulta": "2026-08-08T17:03:36.639Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -417,7 +417,7 @@
     {
       "grupo": "PG02_09VP01",
       "clave": "PG02_09VP01",
-      "profesor": "",
+      "profesor": "JARED ORDOÑEZ PÉREZ",
       "horarios": [
         {
           "dia": "VI",
@@ -441,7 +441,7 @@
     {
       "grupo": "PG02_11AP01",
       "clave": "PG02_11AP01",
-      "profesor": "",
+      "profesor": "EDUARDO IVÁN VIVEROS MORALES",
       "horarios": [
         {
           "dia": "LU",
@@ -471,7 +471,7 @@
     {
       "grupo": "PG02_13AP01",
       "clave": "PG02_13AP01",
-      "profesor": "",
+      "profesor": "EDUARDO IVÁN VIVEROS MORALES",
       "horarios": [
         {
           "dia": "LU",
@@ -501,7 +501,7 @@
     {
       "grupo": "PG02_13BP01",
       "clave": "PG02_13BP01",
-      "profesor": "",
+      "profesor": "THIAGO AMORIM GRANDE",
       "horarios": [
         {
           "dia": "MA",
@@ -531,7 +531,7 @@
     {
       "grupo": "PG03_09VP01",
       "clave": "PG03_09VP01",
-      "profesor": "",
+      "profesor": "OMAR EZEQUIEL VILLANUEVA LÓPEZ",
       "horarios": [
         {
           "dia": "VI",
@@ -555,7 +555,7 @@
     {
       "grupo": "PG03_11BP01",
       "clave": "PG03_11BP01",
-      "profesor": "",
+      "profesor": "THIAGO AMORIM GRANDE",
       "horarios": [
         {
           "dia": "MA",
@@ -585,7 +585,7 @@
     {
       "grupo": "PG03_13AP01",
       "clave": "PG03_13AP01",
-      "profesor": "",
+      "profesor": "CHRISTOPHER MORALES CASTRO",
       "horarios": [
         {
           "dia": "LU",
@@ -615,7 +615,7 @@
     {
       "grupo": "PG04_13AP01",
       "clave": "PG04_13AP01",
-      "profesor": "",
+      "profesor": "THIAGO AMORIM GRANDE",
       "horarios": [
         {
           "dia": "LU",
@@ -645,7 +645,7 @@
     {
       "grupo": "PG04_15BP01",
       "clave": "PG04_15BP01",
-      "profesor": "",
+      "profesor": "THIAGO AMORIM GRANDE",
       "horarios": [
         {
           "dia": "MA",
@@ -675,7 +675,7 @@
     {
       "grupo": "PG05_11AP01",
       "clave": "PG05_11AP01",
-      "profesor": "",
+      "profesor": "CHRISTOPHER MORALES CASTRO",
       "horarios": [
         {
           "dia": "LU",
@@ -705,7 +705,7 @@
     {
       "grupo": "PG06_11BP01",
       "clave": "PG06_11BP01",
-      "profesor": "",
+      "profesor": "CHRISTOPHER MORALES CASTRO",
       "horarios": [
         {
           "dia": "MA",
@@ -752,7 +752,7 @@
       ],
       "salon": "",
       "disponibilidad": "",
-      "observaciones": "",
+      "observaciones": "CURSO DE PREPARACIÓN PARA LA CERTIFICACIÓN INTERNACIONAL DE PORTUGUÉS COMO LENGUA EXTRANJERA. CAPLE - LISBOA.",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
       "tipo_curso_codigo": "5",
@@ -765,7 +765,7 @@
     {
       "grupo": "GRAMÁTICA Y REDACCIÓN_11WP01",
       "clave": "GRAMÁTICA Y REDACCIÓN_11WP01",
-      "profesor": "",
+      "profesor": "THIAGO AMORIM GRANDE",
       "horarios": [
         {
           "dia": "MI",
@@ -776,7 +776,7 @@
       ],
       "salon": "",
       "disponibilidad": "",
-      "observaciones": "",
+      "observaciones": "GRAMATICA Y REDACCIÓN: FONÉTICA DEL PORTUGUÉS BRASILEÑO",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
       "tipo_curso_codigo": "5",
@@ -789,7 +789,7 @@
     {
       "grupo": "TEATRO_13JP01",
       "clave": "TEATRO_13JP01",
-      "profesor": "",
+      "profesor": "EDNA CRISTINA GUTIÉRREZ LÓPEZ",
       "horarios": [
         {
           "dia": "JU",
@@ -800,7 +800,7 @@
       ],
       "salon": "",
       "disponibilidad": "",
-      "observaciones": "",
+      "observaciones": "MONTAJE DE OBRA Y REPRESENTACIÓN EN DIFERENTES ESPACIOS.",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
       "tipo_curso_codigo": "5",
@@ -843,7 +843,7 @@
     {
       "grupo": "CL01_SEMI-INTENSIVO_09VP01",
       "clave": "CL01_SEMI-INTENSIVO_09VP01",
-      "profesor": "",
+      "profesor": "MERCEDES TRUJILLO MOLINA",
       "horarios": [
         {
           "dia": "VI",
@@ -921,7 +921,7 @@
     {
       "grupo": "CL01_SEMI-INTENSIVO_11BP01",
       "clave": "CL01_SEMI-INTENSIVO_11BP01",
-      "profesor": "",
+      "profesor": "MERCEDES TRUJILLO MOLINA",
       "horarios": [
         {
           "dia": "MA",
@@ -951,7 +951,7 @@
     {
       "grupo": "CL01_SEMI-INTENSIVO_13AP01",
       "clave": "CL01_SEMI-INTENSIVO_13AP01",
-      "profesor": "",
+      "profesor": "JOSÉ ANTONIO MONDRAGÓN SOSA",
       "horarios": [
         {
           "dia": "LU",
@@ -1011,7 +1011,7 @@
     {
       "grupo": "CL01_SEMI-INTENSIVO_14ABP01",
       "clave": "CL01_SEMI-INTENSIVO_14ABP01",
-      "profesor": "",
+      "profesor": "OMAR EZEQUIEL VILLANUEVA LÓPEZ",
       "horarios": [
         {
           "dia": "LU",
@@ -1047,7 +1047,7 @@
     {
       "grupo": "CL01_SEMI-INTENSIVO_14BP01",
       "clave": "CL01_SEMI-INTENSIVO_14BP01",
-      "profesor": "",
+      "profesor": "DIMAS DANILO TRINCAS FRAGOSO",
       "horarios": [
         {
           "dia": "MA",
@@ -1075,9 +1075,39 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "CL01_SEMI-INTENSIVO_07BR01",
+      "clave": "CL01_SEMI-INTENSIVO_07BR01",
+      "profesor": "MERCEDES TRUJILLO MOLINA",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "07:00",
+          "fin": "10:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "07:00",
+          "fin": "10:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "GRUPO ESPECIAL SOCIOLOGIA.",
+      "idioma_codigo": "14",
+      "idioma": "PORTUGUÉS",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231383",
+      "nivel": "CL01_SEMI-INTENSIVO",
+      "modalidad_codigo": "2",
+      "modalidad": "Remoto"
+    },
+    {
       "grupo": "CL01_SEMI-INTENSIVO_19BR01",
       "clave": "CL01_SEMI-INTENSIVO_19BR01",
-      "profesor": "",
+      "profesor": "DIMAS DANILO TRINCAS FRAGOSO",
       "horarios": [
         {
           "dia": "MA",
@@ -1107,7 +1137,7 @@
     {
       "grupo": "CL02_SEMI-INTENSIVO_09VP01",
       "clave": "CL02_SEMI-INTENSIVO_09VP01",
-      "profesor": "",
+      "profesor": "MARTHA MARÍA DE GUADALUPE PALACIOS HERNÁNDEZ",
       "horarios": [
         {
           "dia": "VI",
@@ -1131,7 +1161,7 @@
     {
       "grupo": "CL02_SEMI-INTENSIVO_19BR01",
       "clave": "CL02_SEMI-INTENSIVO_19BR01",
-      "profesor": "",
+      "profesor": "EDUARDO IVÁN VIVEROS MORALES",
       "horarios": [
         {
           "dia": "MA",
@@ -1224,7 +1254,7 @@
       "tipo_curso": "SEMI-INTENSIVOS",
       "nivel": "CL01_SEMI-INTENSIVO",
       "modalidad": "Remoto",
-      "grupos": 1
+      "grupos": 2
     },
     {
       "tipo_curso": "SEMI-INTENSIVOS",

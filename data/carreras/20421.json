@@ -1,7 +1,7 @@
 {
   "codigo": "20421",
   "nombre": "Relaciones Internacionales",
-  "fecha_consulta": "2026-08-07T17:01:42.308Z",
+  "fecha_consulta": "2026-08-08T17:01:41.449Z",
   "materias": {
     "1089": {
       "nombre": "ACCION EXTERIOR DE GOBIERNOS LOC",
@@ -166,7 +166,7 @@
       "grupos": [
         {
           "grupo": "1901",
-          "profesor": "Profesor No Asignado",
+          "profesor": "PAZ ARROYO JUAN CARLOS",
           "horarios": [
             {
               "dia": "MA",
@@ -292,7 +292,7 @@
         },
         {
           "grupo": "1951",
-          "profesor": "Profesor No Asignado",
+          "profesor": "LARA HERNANDEZ NANCY",
           "horarios": [
             {
               "dia": "MA",
