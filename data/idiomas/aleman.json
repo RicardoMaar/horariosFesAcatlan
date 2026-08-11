@@ -3,7 +3,7 @@
   "slug": "aleman",
   "nombre": "ALEMÁN",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-10T17:02:08.519Z",
+  "fecha_consulta": "2026-08-11T17:02:38.787Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -817,6 +817,36 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "PG02_13BP01",
+      "clave": "PG02_13BP01",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231256",
+      "nivel": "PG02",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "PG02_15AP01",
       "clave": "PG02_15AP01",
       "profesor": "ALEXANDRA TREDER",
@@ -1194,7 +1224,7 @@
       "tipo_curso": "PG",
       "nivel": "PG02",
       "modalidad": "Presencial",
-      "grupos": 7
+      "grupos": 8
     },
     {
       "tipo_curso": "PG",

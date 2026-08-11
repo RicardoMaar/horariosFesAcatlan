@@ -1,7 +1,7 @@
 {
   "codigo": "20422",
   "nombre": "Ciencias Políticas y Admon. Pública",
-  "fecha_consulta": "2026-08-10T17:00:23.949Z",
+  "fecha_consulta": "2026-08-11T17:00:42.497Z",
   "materias": {
     "1059": {
       "nombre": "ADMINISTRACION AMBIENTAL MUNICIP",
@@ -34,7 +34,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "DE LA CRUZ MAGAÑA NORMA IRENE",
+          "profesor": "SANCHEZ PALACIOS BENIGNO ROBERTO",
           "horarios": [
             {
               "dia": "MA",
@@ -84,7 +84,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "Profesor No Asignado",
+          "profesor": "PEÑA LLANES JOSE JOEL",
           "horarios": [
             {
               "dia": "MA",
@@ -172,7 +172,7 @@
         },
         {
           "grupo": "1751",
-          "profesor": "LIBREROS ANGEL CATALINA VANESSA",
+          "profesor": "ESCOBAR FRIAS FILEMON DANIEL",
           "horarios": [
             {
               "dia": "MA",
@@ -575,7 +575,7 @@
         },
         {
           "grupo": "1102",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MAQUEDA SILVA MITL",
           "horarios": [
             {
               "dia": "MA",
@@ -1312,7 +1312,7 @@
         },
         {
           "grupo": "1302",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RAMOS VELAZQUEZ EMMANUEL ISAAC",
           "horarios": [
             {
               "dia": "MA",
@@ -1432,7 +1432,7 @@
         },
         {
           "grupo": "1303",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RODRIGUEZ GALLARDO GERSSON",
           "horarios": [
             {
               "dia": "MA",
@@ -1533,7 +1533,7 @@
         },
         {
           "grupo": "1303",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MORENO HERNANDEZ LUIS ALEJANDRO",
           "horarios": [
             {
               "dia": "LU",
@@ -2120,7 +2120,7 @@
         },
         {
           "grupo": "1751",
-          "profesor": "PALAZUELOS CAMPOS KARLA VICTORIA",
+          "profesor": "ALVAREZ MANZO ROBERTO",
           "horarios": [
             {
               "dia": "LU",
@@ -2183,7 +2183,7 @@
         },
         {
           "grupo": "1751",
-          "profesor": "RAMIREZ CHAVEZ MARIO",
+          "profesor": "MORENO TREJO ERIKA ALEJANDRA",
           "horarios": [
             {
               "dia": "LU",
@@ -2371,7 +2371,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ESQUIVIAS RODRIGUEZ ROGELIO ALEJANDRO",
           "horarios": [
             {
               "dia": "LU",
@@ -2390,7 +2390,7 @@
         },
         {
           "grupo": "1751",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CASTILLO CAMPORRO ANA SAGRARIO",
           "horarios": [
             {
               "dia": "LU",
