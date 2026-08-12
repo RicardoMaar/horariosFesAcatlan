@@ -1,6 +1,6 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-08-11T17:02:24.746Z",
+  "fecha_actualizacion": "2026-08-12T17:02:40.840Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "total_idiomas": 15,
   "idiomas": {
@@ -44,7 +44,7 @@
       "codigo": "8",
       "slug": "ingles",
       "nombre": "INGLÉS",
-      "total_grupos": 178
+      "total_grupos": 180
     },
     "9": {
       "codigo": "9",

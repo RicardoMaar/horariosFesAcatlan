@@ -3,7 +3,7 @@
   "slug": "ingles",
   "nombre": "INGLÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-11T17:03:33.039Z",
+  "fecha_consulta": "2026-08-12T17:03:51.004Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -619,7 +619,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -854,6 +854,66 @@
         {
           "dia": "MI",
           "dia_nombre": "Miércoles",
+          "inicio": "17:00",
+          "fin": "19:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "2",
+      "tipo_curso": "INICIAL",
+      "nivel_codigo": "231226",
+      "nivel": "BASIC",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "BASIC_17AP02",
+      "clave": "BASIC_17AP02",
+      "profesor": "HÉCTOR FLORES FUENTES",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "17:00",
+          "fin": "19:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "17:00",
+          "fin": "19:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "2",
+      "tipo_curso": "INICIAL",
+      "nivel_codigo": "231226",
+      "nivel": "BASIC",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "BASIC_17BP01",
+      "clave": "BASIC_17BP01",
+      "profesor": "HÉCTOR FLORES FUENTES",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "17:00",
+          "fin": "19:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
           "inicio": "17:00",
           "fin": "19:00"
         }
@@ -5412,7 +5472,7 @@
       "tipo_curso": "INICIAL",
       "nivel": "BASIC",
       "modalidad": "Presencial",
-      "grupos": 33
+      "grupos": 35
     },
     {
       "tipo_curso": "INICIAL",

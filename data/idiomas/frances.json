@@ -3,7 +3,7 @@
   "slug": "frances",
   "nombre": "FRANCÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-11T17:03:09.391Z",
+  "fecha_consulta": "2026-08-12T17:03:27.642Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -1293,7 +1293,7 @@
     {
       "grupo": "PG03_11AP01",
       "clave": "PG03_11AP01",
-      "profesor": "LETICIA RIZO MARÉCHAL",
+      "profesor": "MARÍA DE LOURDES RANGEL ANGULO",
       "horarios": [
         {
           "dia": "LU",
