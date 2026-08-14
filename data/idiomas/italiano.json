@@ -3,7 +3,7 @@
   "slug": "italiano",
   "nombre": "ITALIANO",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-13T17:03:09.125Z",
+  "fecha_consulta": "2026-08-14T17:03:08.927Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -495,6 +495,30 @@
       "tipo_curso": "PG",
       "nivel_codigo": "231233",
       "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_09VP01",
+      "clave": "PG02_09VP01",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "09:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231234",
+      "nivel": "PG02",
       "modalidad_codigo": "1",
       "modalidad": "Presencial"
     },
@@ -1261,6 +1285,36 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "MÚSICA DE ITALIA_15AP01",
+      "clave": "MÚSICA DE ITALIA_15AP01",
+      "profesor": "OLIVIA SANTIAGO RINCÓN",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "15:00",
+          "fin": "17:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "15:00",
+          "fin": "17:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "5",
+      "tipo_curso": "TALLERES",
+      "nivel_codigo": "231374",
+      "nivel": "MÚSICA DE ITALIA",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "CL01_SEMI-INTENSIVO_10AP01",
       "clave": "CL01_SEMI-INTENSIVO_10AP01",
       "profesor": "VICENTE GABRIEL ZEPEDA BARRIOS",
@@ -1530,7 +1584,7 @@
       "tipo_curso": "PG",
       "nivel": "PG02",
       "modalidad": "Presencial",
-      "grupos": 10
+      "grupos": 11
     },
     {
       "tipo_curso": "PG",
@@ -1559,6 +1613,12 @@
     {
       "tipo_curso": "TALLERES",
       "nivel": "CERTIFICACIÓN CILS (PREPARACIÓN)",
+      "modalidad": "Presencial",
+      "grupos": 1
+    },
+    {
+      "tipo_curso": "TALLERES",
+      "nivel": "MÚSICA DE ITALIA",
       "modalidad": "Presencial",
       "grupos": 1
     },
