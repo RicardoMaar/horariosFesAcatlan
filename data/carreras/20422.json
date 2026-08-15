@@ -1,7 +1,7 @@
 {
   "codigo": "20422",
   "nombre": "Ciencias Políticas y Admon. Pública",
-  "fecha_consulta": "2026-08-14T17:00:22.004Z",
+  "fecha_consulta": "2026-08-15T17:00:21.764Z",
   "materias": {
     "1059": {
       "nombre": "ADMINISTRACION AMBIENTAL MUNICIP",
@@ -1046,6 +1046,25 @@
           "salon": "A-616"
         },
         {
+          "grupo": "1304",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "INF. JEFA."
+        },
+        {
           "grupo": "1351",
           "profesor": "CARBALLO HERNANDEZ MARIA TERESA",
           "horarios": [
@@ -1248,6 +1267,25 @@
           "salon": "A-212"
         },
         {
+          "grupo": "1304",
+          "profesor": "LOPEZ DIAZ ZAIRA",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "13:00",
+              "fin": "15:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "13:00",
+              "fin": "15:00"
+            }
+          ],
+          "salon": "ADI"
+        },
+        {
           "grupo": "1351",
           "profesor": "JUNCO REY MARIA ELENA",
           "horarios": [
@@ -1413,7 +1451,7 @@
         },
         {
           "grupo": "1302",
-          "profesor": "ARIAS LOPEZ PALMIRA",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "MA",
@@ -1448,6 +1486,25 @@
             }
           ],
           "salon": "A-216"
+        },
+        {
+          "grupo": "1304",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "11:00",
+              "fin": "13:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "11:00",
+              "fin": "13:00"
+            }
+          ],
+          "salon": "A-1122"
         },
         {
           "grupo": "1351",
@@ -1486,6 +1543,25 @@
             }
           ],
           "salon": "A-212"
+        },
+        {
+          "grupo": "1353",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "ADI"
         }
       ]
     },

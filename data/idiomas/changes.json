@@ -1,17 +1,12 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-08-14T17:01:53.731Z",
-  "total_cambios": 3,
+  "fecha_actualizacion": "2026-08-15T17:01:53.463Z",
+  "total_cambios": 2,
   "idiomas": [
     {
       "codigo": "8",
       "slug": "ingles",
       "nombre": "INGLÉS"
-    },
-    {
-      "codigo": "9",
-      "slug": "italiano",
-      "nombre": "ITALIANO"
     },
     {
       "codigo": "14",

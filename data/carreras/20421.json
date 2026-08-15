@@ -1,7 +1,7 @@
 {
   "codigo": "20421",
   "nombre": "Relaciones Internacionales",
-  "fecha_consulta": "2026-08-14T17:01:43.781Z",
+  "fecha_consulta": "2026-08-15T17:01:43.586Z",
   "materias": {
     "1089": {
       "nombre": "ACCION EXTERIOR DE GOBIERNOS LOC",
@@ -3147,6 +3147,25 @@
             }
           ],
           "salon": "A-1521"
+        },
+        {
+          "grupo": "1504",
+          "profesor": "CONTRERAS VAZQUEZ JAVIER AUGUSTO DE JESUS",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "A-219"
         },
         {
           "grupo": "1551",
