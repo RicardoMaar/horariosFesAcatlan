@@ -1,6 +1,6 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-08-16T17:01:54.217Z",
+  "fecha_actualizacion": "2026-08-17T17:01:53.857Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "total_idiomas": 15,
   "idiomas": {
@@ -50,22 +50,22 @@
       "codigo": "8",
       "slug": "ingles",
       "nombre": "INGLÉS",
-      "hash": "8eec510b36fad8719e9284ae96fca28972dc43c7f125ee3a6113130fd1ca46d3",
-      "last_changed": "2026-08-15T17:01:53.463Z"
+      "hash": "44087dc33b8c6c34257bfeb4b72c1368c70f4a2d4655ba908eb415f91a1acf2e",
+      "last_changed": "2026-08-17T17:01:53.857Z"
     },
     "9": {
       "codigo": "9",
       "slug": "italiano",
       "nombre": "ITALIANO",
-      "hash": "da8e8222fac8375fd61fbe404c840729030890dd5200e464e39e42599ce31205",
-      "last_changed": "2026-08-14T17:01:53.731Z"
+      "hash": "43bc4f954c0306fdc849d09502115d5d81d5ebd012f28fbcf30ddc76f05446a0",
+      "last_changed": "2026-08-17T17:01:53.857Z"
     },
     "10": {
       "codigo": "10",
       "slug": "japones",
       "nombre": "JAPONÉS",
-      "hash": "92104fd40c736ea0df17d04a526e462bb7ecd34c2041a6676a39a8d87f29dcee",
-      "last_changed": "2026-07-30T17:01:51.987Z"
+      "hash": "3d863b5953738333876356a12fdf318593e7e23cb6c042b867cb87f59cfbdcb2",
+      "last_changed": "2026-08-17T17:01:53.857Z"
     },
     "11": {
       "codigo": "11",

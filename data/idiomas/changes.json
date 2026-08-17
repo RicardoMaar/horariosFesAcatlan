@@ -1,6 +1,22 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-08-16T17:01:54.217Z",
-  "total_cambios": 0,
-  "idiomas": []
+  "fecha_actualizacion": "2026-08-17T17:01:53.857Z",
+  "total_cambios": 3,
+  "idiomas": [
+    {
+      "codigo": "8",
+      "slug": "ingles",
+      "nombre": "INGLÉS"
+    },
+    {
+      "codigo": "9",
+      "slug": "italiano",
+      "nombre": "ITALIANO"
+    },
+    {
+      "codigo": "10",
+      "slug": "japones",
+      "nombre": "JAPONÉS"
+    }
+  ]
 }

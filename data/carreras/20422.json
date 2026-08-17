@@ -1,7 +1,7 @@
 {
   "codigo": "20422",
   "nombre": "Ciencias Políticas y Admon. Pública",
-  "fecha_consulta": "2026-08-16T17:00:22.461Z",
+  "fecha_consulta": "2026-08-17T17:00:22.135Z",
   "materias": {
     "1059": {
       "nombre": "ADMINISTRACION AMBIENTAL MUNICIP",
@@ -1264,7 +1264,7 @@
               "fin": "11:00"
             }
           ],
-          "salon": "A-212"
+          "salon": "A-1211"
         },
         {
           "grupo": "1304",
@@ -1551,14 +1551,14 @@
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "07:00",
-              "fin": "09:00"
+              "inicio": "19:00",
+              "fin": "21:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "07:00",
-              "fin": "09:00"
+              "inicio": "19:00",
+              "fin": "21:00"
             }
           ],
           "salon": "ADI"
