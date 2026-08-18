@@ -1,6 +1,6 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-08-17T17:01:53.857Z",
+  "fecha_actualizacion": "2026-08-18T17:01:54.145Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "total_idiomas": 15,
   "idiomas": {
@@ -20,7 +20,7 @@
       "codigo": "3",
       "slug": "chino",
       "nombre": "CHINO",
-      "total_grupos": 7
+      "total_grupos": 6
     },
     "4": {
       "codigo": "4",
@@ -32,7 +32,7 @@
       "codigo": "5",
       "slug": "frances",
       "nombre": "FRANCÉS",
-      "total_grupos": 65
+      "total_grupos": 66
     },
     "6": {
       "codigo": "6",
@@ -50,7 +50,7 @@
       "codigo": "9",
       "slug": "italiano",
       "nombre": "ITALIANO",
-      "total_grupos": 53
+      "total_grupos": 55
     },
     "10": {
       "codigo": "10",

@@ -3,7 +3,7 @@
   "slug": "chino",
   "nombre": "CHINO",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-17T17:02:15.568Z",
+  "fecha_consulta": "2026-08-18T17:02:17.147Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -25,7 +25,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "3",
       "idioma": "CHINO",
@@ -69,7 +69,7 @@
     {
       "grupo": "PG02_13BP01",
       "clave": "PG02_13BP01",
-      "profesor": "ARTURO JORDI GRANADOS RÍOS",
+      "profesor": "MÓNICA LEONOR CABALLERO LEVY",
       "horarios": [
         {
           "dia": "MA",
@@ -95,36 +95,6 @@
       "nivel": "PG02",
       "modalidad_codigo": "1",
       "modalidad": "Presencial"
-    },
-    {
-      "grupo": "PG03_07BR01",
-      "clave": "PG03_07BR01",
-      "profesor": "MÓNICA LEONOR CABALLERO LEVY",
-      "horarios": [
-        {
-          "dia": "MA",
-          "dia_nombre": "Martes",
-          "inicio": "07:00",
-          "fin": "10:00"
-        },
-        {
-          "dia": "JU",
-          "dia_nombre": "Jueves",
-          "inicio": "07:00",
-          "fin": "10:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "Este grupo está reservado para la comunidad SUAyED. A partir del 3 de agosto podrán inscribirse todas las comunidades.",
-      "idioma_codigo": "3",
-      "idioma": "CHINO",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231269",
-      "nivel": "PG03",
-      "modalidad_codigo": "2",
-      "modalidad": "Remoto"
     },
     {
       "grupo": "PG04_14AH01",
@@ -252,7 +222,7 @@
       "tipo_curso": "PG",
       "nivel": "PG03",
       "modalidad": "Remoto",
-      "grupos": 1
+      "grupos": 0
     },
     {
       "tipo_curso": "PG",

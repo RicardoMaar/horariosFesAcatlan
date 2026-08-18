@@ -3,7 +3,7 @@
   "slug": "portugues",
   "nombre": "PORTUGUÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-17T17:03:37.872Z",
+  "fecha_consulta": "2026-08-18T17:03:38.040Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -253,7 +253,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",

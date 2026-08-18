@@ -1,8 +1,18 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-08-17T17:01:53.857Z",
-  "total_cambios": 3,
+  "fecha_actualizacion": "2026-08-18T17:01:54.145Z",
+  "total_cambios": 5,
   "idiomas": [
+    {
+      "codigo": "3",
+      "slug": "chino",
+      "nombre": "CHINO"
+    },
+    {
+      "codigo": "5",
+      "slug": "frances",
+      "nombre": "FRANCÉS"
+    },
     {
       "codigo": "8",
       "slug": "ingles",
@@ -14,9 +24,9 @@
       "nombre": "ITALIANO"
     },
     {
-      "codigo": "10",
-      "slug": "japones",
-      "nombre": "JAPONÉS"
+      "codigo": "14",
+      "slug": "portugues",
+      "nombre": "PORTUGUÉS"
     }
   ]
 }

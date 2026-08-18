@@ -3,7 +3,7 @@
   "slug": "frances",
   "nombre": "FRANCÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-17T17:02:34.404Z",
+  "fecha_consulta": "2026-08-18T17:02:36.120Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -106,6 +106,36 @@
           "dia_nombre": "Jueves",
           "inicio": "13:00",
           "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "5",
+      "idioma": "FRANCÉS",
+      "tipo_curso_codigo": "1",
+      "tipo_curso": "CL",
+      "nivel_codigo": "231201",
+      "nivel": "CL01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CL01_14AP01",
+      "clave": "CL01_14AP01",
+      "profesor": "FRANCISCO JAVIER CERÓN LUNA",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "14:00",
+          "fin": "16:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "14:00",
+          "fin": "16:00"
         }
       ],
       "salon": "",
@@ -1165,7 +1195,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
@@ -1399,7 +1429,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
@@ -1519,7 +1549,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
@@ -1890,7 +1920,7 @@
       "tipo_curso": "CL",
       "nivel": "CL01",
       "modalidad": "Presencial",
-      "grupos": 5
+      "grupos": 6
     },
     {
       "tipo_curso": "CL",

@@ -1,7 +1,7 @@
 {
   "codigo": "20721",
   "nombre": "Derecho",
-  "fecha_consulta": "2026-08-17T17:00:34.819Z",
+  "fecha_consulta": "2026-08-18T17:00:34.976Z",
   "materias": {
     "1102": {
       "nombre": "HIST.D.LAS IDEAS POL.Y ECO.",
@@ -5434,6 +5434,12 @@
           "grupo": "1554",
           "profesor": "SIFUENTES SOLIS JAVIER",
           "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
             {
               "dia": "MA",
               "dia_nombre": "Martes",
