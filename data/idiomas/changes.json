@@ -1,8 +1,13 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-08-18T17:01:54.145Z",
-  "total_cambios": 5,
+  "fecha_actualizacion": "2026-08-19T17:01:52.451Z",
+  "total_cambios": 7,
   "idiomas": [
+    {
+      "codigo": "1",
+      "slug": "aleman",
+      "nombre": "ALEMÁN"
+    },
     {
       "codigo": "3",
       "slug": "chino",
@@ -22,6 +27,11 @@
       "codigo": "9",
       "slug": "italiano",
       "nombre": "ITALIANO"
+    },
+    {
+      "codigo": "10",
+      "slug": "japones",
+      "nombre": "JAPONÉS"
     },
     {
       "codigo": "14",

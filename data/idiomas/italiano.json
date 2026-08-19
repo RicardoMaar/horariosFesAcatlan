@@ -3,7 +3,7 @@
   "slug": "italiano",
   "nombre": "ITALIANO",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-18T17:03:08.944Z",
+  "fecha_consulta": "2026-08-19T17:03:17.558Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -565,7 +565,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -1123,7 +1123,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -1309,21 +1309,21 @@
       "modalidad": "Presencial"
     },
     {
-      "grupo": "MÚSICA DE ITALIA_15AP01",
-      "clave": "MÚSICA DE ITALIA_15AP01",
-      "profesor": "OLIVIA SANTIAGO RINCÓN",
+      "grupo": "CONVERSACIÓN_13BP01",
+      "clave": "CONVERSACIÓN_13BP01",
+      "profesor": "PAOLO PALMARINI",
       "horarios": [
         {
-          "dia": "LU",
-          "dia_nombre": "Lunes",
-          "inicio": "15:00",
-          "fin": "17:00"
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
         },
         {
-          "dia": "MI",
-          "dia_nombre": "Miércoles",
-          "inicio": "15:00",
-          "fin": "17:00"
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
         }
       ],
       "salon": "",
@@ -1333,8 +1333,32 @@
       "idioma": "ITALIANO",
       "tipo_curso_codigo": "5",
       "tipo_curso": "TALLERES",
-      "nivel_codigo": "231374",
-      "nivel": "MÚSICA DE ITALIA",
+      "nivel_codigo": "231353",
+      "nivel": "CONVERSACIÓN",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "ITALIANO CON LA MÚSICA_09VP01",
+      "clave": "ITALIANO CON LA MÚSICA_09VP01",
+      "profesor": "OLIVIA SANTIAGO RINCÓN",
+      "horarios": [
+        {
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "09:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "5",
+      "tipo_curso": "TALLERES",
+      "nivel_codigo": "231786",
+      "nivel": "ITALIANO CON LA MÚSICA",
       "modalidad_codigo": "1",
       "modalidad": "Presencial"
     },
@@ -1489,7 +1513,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -1672,7 +1696,13 @@
     },
     {
       "tipo_curso": "TALLERES",
-      "nivel": "MÚSICA DE ITALIA",
+      "nivel": "CONVERSACIÓN",
+      "modalidad": "Presencial",
+      "grupos": 1
+    },
+    {
+      "tipo_curso": "TALLERES",
+      "nivel": "ITALIANO CON LA MÚSICA",
       "modalidad": "Presencial",
       "grupos": 1
     },

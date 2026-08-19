@@ -1,7 +1,7 @@
 {
   "codigo": "24022",
   "nombre": "Matemáticas. Apl. y Comp.",
-  "fecha_consulta": "2026-08-18T17:01:25.123Z",
+  "fecha_consulta": "2026-08-19T17:01:23.165Z",
   "materias": {
     "1036": {
       "nombre": "ANALISIS DE ALGORITMOS",
@@ -1590,7 +1590,7 @@
         },
         {
           "grupo": "1152",
-          "profesor": "Profesor No Asignado",
+          "profesor": "DIAZ URIBE LUIS FELIPE",
           "horarios": [
             {
               "dia": "JU",
@@ -1653,7 +1653,7 @@
       "grupos": [
         {
           "grupo": "1101",
-          "profesor": "Profesor No Asignado",
+          "profesor": "SERRATOS MARTINEZ CAMILO",
           "horarios": [
             {
               "dia": "MA",
@@ -2336,7 +2336,7 @@
       "grupos": [
         {
           "grupo": "1301",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MENDOZA RUIZ ENRIQUE ALBERTO",
           "horarios": [
             {
               "dia": "MI",
@@ -2748,7 +2748,7 @@
       "grupos": [
         {
           "grupo": "1301",
-          "profesor": "Profesor No Asignado",
+          "profesor": "BERZUNZA RODRIGUEZ ALONDRA VANIANINETL",
           "horarios": [
             {
               "dia": "MA",
@@ -3485,7 +3485,7 @@
         },
         {
           "grupo": "1502",
-          "profesor": "MARQUEZ MIQUEL MARIA EUGENIA",
+          "profesor": "CAMARGO BADILLO MARISOL",
           "horarios": [
             {
               "dia": "LU",
@@ -4038,7 +4038,7 @@
         },
         {
           "grupo": "1753",
-          "profesor": "Profesor No Asignado",
+          "profesor": "TAPIA REYES JESICA EDITH",
           "horarios": [
             {
               "dia": "MA",

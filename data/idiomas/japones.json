@@ -3,7 +3,7 @@
   "slug": "japones",
   "nombre": "JAPONÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-18T17:03:14.620Z",
+  "fecha_consulta": "2026-08-19T17:03:23.732Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -31,7 +31,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "10",
       "idioma": "JAPONÉS",
@@ -103,7 +103,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "10",
       "idioma": "JAPONÉS",
@@ -139,7 +139,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "10",
       "idioma": "JAPONÉS",
@@ -169,7 +169,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "Este grupo está reservado para la comunidad SUAyED. A partir del 3 de agosto podrán inscribirse todas las comunidades.",
       "idioma_codigo": "10",
       "idioma": "JAPONÉS",
@@ -241,7 +241,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "10",
       "idioma": "JAPONÉS",
