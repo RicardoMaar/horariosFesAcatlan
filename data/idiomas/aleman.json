@@ -3,7 +3,7 @@
   "slug": "aleman",
   "nombre": "ALEMÁN",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-19T17:02:07.231Z",
+  "fecha_consulta": "2026-08-20T17:02:07.238Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -187,36 +187,6 @@
       "modalidad": "Presencial"
     },
     {
-      "grupo": "CL03_19BR01",
-      "clave": "CL03_19BR01",
-      "profesor": "",
-      "horarios": [
-        {
-          "dia": "MA",
-          "dia_nombre": "Martes",
-          "inicio": "19:00",
-          "fin": "21:00"
-        },
-        {
-          "dia": "JU",
-          "dia_nombre": "Jueves",
-          "inicio": "19:00",
-          "fin": "21:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "1",
-      "idioma": "ALEMÁN",
-      "tipo_curso_codigo": "1",
-      "tipo_curso": "CL",
-      "nivel_codigo": "231200",
-      "nivel": "CL03",
-      "modalidad_codigo": "2",
-      "modalidad": "Remoto"
-    },
-    {
       "grupo": "PG01_09AP01",
       "clave": "PG01_09AP01",
       "profesor": "MARTÍN MANUEL APFALTRER VALERO",
@@ -230,36 +200,6 @@
         {
           "dia": "MI",
           "dia_nombre": "Miércoles",
-          "inicio": "09:00",
-          "fin": "11:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "1",
-      "idioma": "ALEMÁN",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231255",
-      "nivel": "PG01",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
-      "grupo": "PG01_09BP01",
-      "clave": "PG01_09BP01",
-      "profesor": "",
-      "horarios": [
-        {
-          "dia": "MA",
-          "dia_nombre": "Martes",
-          "inicio": "09:00",
-          "fin": "11:00"
-        },
-        {
-          "dia": "JU",
-          "dia_nombre": "Jueves",
           "inicio": "09:00",
           "fin": "11:00"
         }
@@ -481,36 +421,6 @@
       "modalidad": "Presencial"
     },
     {
-      "grupo": "PG01_13AP02",
-      "clave": "PG01_13AP02",
-      "profesor": "",
-      "horarios": [
-        {
-          "dia": "LU",
-          "dia_nombre": "Lunes",
-          "inicio": "13:00",
-          "fin": "15:00"
-        },
-        {
-          "dia": "MI",
-          "dia_nombre": "Miércoles",
-          "inicio": "13:00",
-          "fin": "15:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "1",
-      "idioma": "ALEMÁN",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231255",
-      "nivel": "PG01",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
       "grupo": "PG01_13BP01",
       "clave": "PG01_13BP01",
       "profesor": "FRANCISCO HERNÁNDEZ ROMERO",
@@ -584,6 +494,36 @@
         {
           "dia": "MI",
           "dia_nombre": "Miércoles",
+          "inicio": "15:00",
+          "fin": "17:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "1",
+      "idioma": "ALEMÁN",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231255",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_15BP01",
+      "clave": "PG01_15BP01",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "15:00",
+          "fin": "17:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
           "inicio": "15:00",
           "fin": "17:00"
         }
@@ -679,7 +619,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "1",
       "idioma": "ALEMÁN",
@@ -706,36 +646,6 @@
           "dia_nombre": "Miércoles",
           "inicio": "07:00",
           "fin": "09:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "1",
-      "idioma": "ALEMÁN",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231256",
-      "nivel": "PG02",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
-      "grupo": "PG02_09AP01",
-      "clave": "PG02_09AP01",
-      "profesor": "",
-      "horarios": [
-        {
-          "dia": "LU",
-          "dia_nombre": "Lunes",
-          "inicio": "09:00",
-          "fin": "11:00"
-        },
-        {
-          "dia": "MI",
-          "dia_nombre": "Miércoles",
-          "inicio": "09:00",
-          "fin": "11:00"
         }
       ],
       "salon": "",
@@ -1230,13 +1140,13 @@
       "tipo_curso": "CL",
       "nivel": "CL03",
       "modalidad": "Remoto",
-      "grupos": 1
+      "grupos": 0
     },
     {
       "tipo_curso": "PG",
       "nivel": "PG01",
       "modalidad": "Presencial",
-      "grupos": 15
+      "grupos": 14
     },
     {
       "tipo_curso": "PG",
@@ -1248,7 +1158,7 @@
       "tipo_curso": "PG",
       "nivel": "PG02",
       "modalidad": "Presencial",
-      "grupos": 8
+      "grupos": 7
     },
     {
       "tipo_curso": "PG",

@@ -1,7 +1,7 @@
 {
   "codigo": "20321",
   "nombre": "Actuaría",
-  "fecha_consulta": "2026-08-19T17:00:06.158Z",
+  "fecha_consulta": "2026-08-20T17:00:10.060Z",
   "materias": {
     "2032": {
       "nombre": "ANALISIS DE REGRESION",
@@ -3628,7 +3628,7 @@
       "grupos": [
         {
           "grupo": "1851",
-          "profesor": "CASTELAN VITE JESUS NOEL",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "MI",
@@ -3663,6 +3663,25 @@
             }
           ],
           "salon": "INF.EN JEFA"
+        },
+        {
+          "grupo": "1853",
+          "profesor": "CASTELAN VITE JESUS NOEL",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "20:00",
+              "fin": "22:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "20:00",
+              "fin": "22:00"
+            }
+          ],
+          "salon": "INF, JEFA"
         }
       ]
     },

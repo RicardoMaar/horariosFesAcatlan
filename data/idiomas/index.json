@@ -1,6 +1,6 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-08-19T17:01:52.451Z",
+  "fecha_actualizacion": "2026-08-20T17:01:54.242Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "total_idiomas": 15,
   "idiomas": {
@@ -8,7 +8,7 @@
       "codigo": "1",
       "slug": "aleman",
       "nombre": "ALEMÁN",
-      "total_grupos": 40
+      "total_grupos": 37
     },
     "2": {
       "codigo": "2",
@@ -32,7 +32,7 @@
       "codigo": "5",
       "slug": "frances",
       "nombre": "FRANCÉS",
-      "total_grupos": 66
+      "total_grupos": 68
     },
     "6": {
       "codigo": "6",

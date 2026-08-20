@@ -3,7 +3,7 @@
   "slug": "ingles",
   "nombre": "INGLÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-19T17:03:04.553Z",
+  "fecha_consulta": "2026-08-20T17:02:55.760Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -55,7 +55,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -265,7 +265,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -355,7 +355,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -469,7 +469,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -589,7 +589,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -619,7 +619,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -649,7 +649,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -709,7 +709,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -1507,7 +1507,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -1567,7 +1567,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -1597,7 +1597,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -1807,7 +1807,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -2185,7 +2185,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -2499,7 +2499,7 @@
     {
       "grupo": "PG03_07AP02",
       "clave": "PG03_07AP02",
-      "profesor": "NORMA ANGÉLICA VILLALVAZO PRECIADO",
+      "profesor": "MIRIAM VILLALVAZO PRECIADO",
       "horarios": [
         {
           "dia": "LU",
@@ -2749,7 +2749,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -2809,7 +2809,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -3049,7 +3049,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -3079,7 +3079,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -3109,7 +3109,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -4003,7 +4003,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -4357,7 +4357,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -4861,7 +4861,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -5053,7 +5053,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -5083,7 +5083,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -5239,7 +5239,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -5455,7 +5455,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
