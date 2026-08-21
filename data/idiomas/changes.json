@@ -1,13 +1,8 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-08-20T17:01:54.242Z",
-  "total_cambios": 6,
+  "fecha_actualizacion": "2026-08-21T17:01:54.434Z",
+  "total_cambios": 5,
   "idiomas": [
-    {
-      "codigo": "1",
-      "slug": "aleman",
-      "nombre": "ALEMÁN"
-    },
     {
       "codigo": "5",
       "slug": "frances",

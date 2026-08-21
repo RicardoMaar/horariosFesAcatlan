@@ -3,13 +3,13 @@
   "slug": "italiano",
   "nombre": "ITALIANO",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-20T17:03:08.178Z",
+  "fecha_consulta": "2026-08-21T17:03:08.673Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
       "grupo": "PG01_07AP01",
       "clave": "PG01_07AP01",
-      "profesor": "EDOARDO MORA",
+      "profesor": "VICENTE GABRIEL ZEPEDA BARRIOS",
       "horarios": [
         {
           "dia": "LU",
@@ -25,7 +25,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -39,7 +39,7 @@
     {
       "grupo": "PG01_07BP01",
       "clave": "PG01_07BP01",
-      "profesor": "",
+      "profesor": "EDOARDO MORA",
       "horarios": [
         {
           "dia": "MA",
@@ -285,7 +285,7 @@
     {
       "grupo": "PG01_13AP01",
       "clave": "PG01_13AP01",
-      "profesor": "VICENTE GABRIEL ZEPEDA BARRIOS",
+      "profesor": "GLORIA BEATRIZ DE LA GARZA SOLÍS",
       "horarios": [
         {
           "dia": "LU",
@@ -331,7 +331,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -451,7 +451,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -565,7 +565,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -775,7 +775,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -889,7 +889,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -1123,7 +1123,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -1237,7 +1237,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -1417,7 +1417,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
