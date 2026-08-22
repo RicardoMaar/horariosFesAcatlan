@@ -3,7 +3,7 @@
   "slug": "portugues",
   "nombre": "PORTUGUÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-21T17:03:37.948Z",
+  "fecha_consulta": "2026-08-22T17:04:33.816Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -103,7 +103,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -283,7 +283,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -343,7 +343,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -427,7 +427,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -541,7 +541,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -1094,7 +1094,7 @@
       ],
       "salon": "",
       "disponibilidad": "",
-      "observaciones": "GRUPO ESPECIAL SOCIOLOGIA.",
+      "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
       "tipo_curso_codigo": "6",
@@ -1124,7 +1124,7 @@
       ],
       "salon": "",
       "disponibilidad": "",
-      "observaciones": "Grupo especial SUAyEd. La comunidad que no pertenezca a SUAyEd podrá inscribirse a este grupo una vez que la comunidad SUAyEd haya realizado su inscripción. Para más información, acude al Departamento de Portugués.",
+      "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
       "tipo_curso_codigo": "6",
@@ -1144,36 +1144,6 @@
           "dia_nombre": "Viernes",
           "inicio": "09:00",
           "fin": "15:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "14",
-      "idioma": "PORTUGUÉS",
-      "tipo_curso_codigo": "6",
-      "tipo_curso": "SEMI-INTENSIVOS",
-      "nivel_codigo": "231387",
-      "nivel": "CL02_SEMI-INTENSIVO",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
-      "grupo": "CL02_SEMI-INTENSIVO_11AP01",
-      "clave": "CL02_SEMI-INTENSIVO_11AP01",
-      "profesor": "MARTHA MARÍA DE GUADALUPE PALACIOS HERNÁNDEZ",
-      "horarios": [
-        {
-          "dia": "LU",
-          "dia_nombre": "Lunes",
-          "inicio": "11:00",
-          "fin": "14:00"
-        },
-        {
-          "dia": "MI",
-          "dia_nombre": "Miércoles",
-          "inicio": "11:00",
-          "fin": "14:00"
         }
       ],
       "salon": "",
@@ -1238,7 +1208,7 @@
       ],
       "salon": "",
       "disponibilidad": "",
-      "observaciones": "Grupo especial SUAyEd. La comunidad que no pertenezca a SUAyEd podrá inscribirse a este grupo una vez que la comunidad SUAyEd haya realizado su inscripción. Para más información, acude al Departamento de Portugués.",
+      "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
       "tipo_curso_codigo": "6",
@@ -1320,7 +1290,7 @@
       "tipo_curso": "SEMI-INTENSIVOS",
       "nivel": "CL02_SEMI-INTENSIVO",
       "modalidad": "Presencial",
-      "grupos": 3
+      "grupos": 2
     },
     {
       "tipo_curso": "SEMI-INTENSIVOS",

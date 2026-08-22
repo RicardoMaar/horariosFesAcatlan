@@ -3,7 +3,7 @@
   "slug": "ingles",
   "nombre": "INGLÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-21T17:02:55.820Z",
+  "fecha_consulta": "2026-08-22T17:03:29.348Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -145,7 +145,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -709,7 +709,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -1069,7 +1069,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -1699,36 +1699,6 @@
       "modalidad": "Presencial"
     },
     {
-      "grupo": "PG01_19AP02",
-      "clave": "PG01_19AP02",
-      "profesor": "JOSÉ ÁNGEL REYES SALINAS",
-      "horarios": [
-        {
-          "dia": "LU",
-          "dia_nombre": "Lunes",
-          "inicio": "19:00",
-          "fin": "21:00"
-        },
-        {
-          "dia": "MI",
-          "dia_nombre": "Miércoles",
-          "inicio": "19:00",
-          "fin": "21:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "8",
-      "idioma": "INGLÉS",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231227",
-      "nivel": "PG01",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
       "grupo": "PG01_19BP01",
       "clave": "PG01_19BP01",
       "profesor": "HÉCTOR FLORES FUENTES",
@@ -1807,7 +1777,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -2047,36 +2017,6 @@
       "modalidad": "Presencial"
     },
     {
-      "grupo": "PG02_11AP02",
-      "clave": "PG02_11AP02",
-      "profesor": "ANTONIO MARIO SERVÍN MEDINA",
-      "horarios": [
-        {
-          "dia": "LU",
-          "dia_nombre": "Lunes",
-          "inicio": "11:00",
-          "fin": "13:00"
-        },
-        {
-          "dia": "MI",
-          "dia_nombre": "Miércoles",
-          "inicio": "11:00",
-          "fin": "13:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "8",
-      "idioma": "INGLÉS",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231228",
-      "nivel": "PG02",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
       "grupo": "PG02_11BP01",
       "clave": "PG02_11BP01",
       "profesor": "ANTONIO MARIO SERVÍN MEDINA",
@@ -2155,7 +2095,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -2185,7 +2125,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -2439,7 +2379,7 @@
     {
       "grupo": "PG02_07AR01",
       "clave": "PG02_07AR01",
-      "profesor": "",
+      "profesor": "ANTONIO MARIO SERVÍN MEDINA",
       "horarios": [
         {
           "dia": "LU",
@@ -3163,7 +3103,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -3523,7 +3463,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -3567,7 +3507,7 @@
     {
       "grupo": "PG05_07AR01",
       "clave": "PG05_07AR01",
-      "profesor": "",
+      "profesor": "JOSÉ ÁNGEL REYES SALINAS",
       "horarios": [
         {
           "dia": "LU",
@@ -3985,6 +3925,36 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "PG07_13AP01",
+      "clave": "PG07_13AP01",
+      "profesor": "DULCE ANGÉLICA CHÁVEZ JUÁREZ",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231296",
+      "nivel": "PG07",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "PG07_13BP01",
       "clave": "PG07_13BP01",
       "profesor": "DORA LUZ GARCÍA TORRES",
@@ -4195,36 +4165,6 @@
       "modalidad": "Presencial"
     },
     {
-      "grupo": "TOEFL_13AP01",
-      "clave": "TOEFL_13AP01",
-      "profesor": "DULCE ANGÉLICA CHÁVEZ JUÁREZ",
-      "horarios": [
-        {
-          "dia": "LU",
-          "dia_nombre": "Lunes",
-          "inicio": "13:00",
-          "fin": "15:00"
-        },
-        {
-          "dia": "MI",
-          "dia_nombre": "Miércoles",
-          "inicio": "13:00",
-          "fin": "15:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "8",
-      "idioma": "INGLÉS",
-      "tipo_curso_codigo": "4",
-      "tipo_curso": "AVANZADO",
-      "nivel_codigo": "231327",
-      "nivel": "TOEFL",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
       "grupo": "CL01_SEMI-INTENSIVO_07VP01",
       "clave": "CL01_SEMI-INTENSIVO_07VP01",
       "profesor": "ERIKA CLAUDIA BADILLO SOLÍS",
@@ -4297,7 +4237,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -4681,7 +4621,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -5299,7 +5239,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -5484,7 +5424,7 @@
       "tipo_curso": "PG",
       "nivel": "PG01",
       "modalidad": "Presencial",
-      "grupos": 22
+      "grupos": 21
     },
     {
       "tipo_curso": "PG",
@@ -5496,7 +5436,7 @@
       "tipo_curso": "PG",
       "nivel": "PG02",
       "modalidad": "Presencial",
-      "grupos": 21
+      "grupos": 20
     },
     {
       "tipo_curso": "PG",
@@ -5556,7 +5496,7 @@
       "tipo_curso": "PG",
       "nivel": "PG07",
       "modalidad": "Presencial",
-      "grupos": 2
+      "grupos": 3
     },
     {
       "tipo_curso": "PG",
@@ -5586,7 +5526,7 @@
       "tipo_curso": "AVANZADO",
       "nivel": "TOEFL",
       "modalidad": "Presencial",
-      "grupos": 1
+      "grupos": 0
     },
     {
       "tipo_curso": "SEMI-INTENSIVOS",
