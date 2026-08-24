@@ -1,6 +1,6 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-08-23T17:02:04.460Z",
+  "fecha_actualizacion": "2026-08-24T17:02:10.379Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "total_idiomas": 15,
   "idiomas": {
@@ -36,8 +36,8 @@
       "codigo": "5",
       "slug": "frances",
       "nombre": "FRANCÉS",
-      "hash": "86203a357bdcdbf89eabe8b052af5c3d04ccb1e030aecaa60182e255ffadbeee",
-      "last_changed": "2026-08-23T17:02:04.460Z"
+      "hash": "0a6d769a19f967233d932f706357947aee954062ca8ebc11ee2f66f51ffb93fa",
+      "last_changed": "2026-08-24T17:02:10.379Z"
     },
     "6": {
       "codigo": "6",
@@ -50,15 +50,15 @@
       "codigo": "8",
       "slug": "ingles",
       "nombre": "INGLÉS",
-      "hash": "dc945f819bce709a5ba13d0aba2ffa4626ef333c9b05e745b05ca0d03278694e",
-      "last_changed": "2026-08-23T17:02:04.460Z"
+      "hash": "154bfaa6ebc413085f6dda54321f340d76fde6ac86df38d4e6b0b33138a86342",
+      "last_changed": "2026-08-24T17:02:10.379Z"
     },
     "9": {
       "codigo": "9",
       "slug": "italiano",
       "nombre": "ITALIANO",
-      "hash": "5816cdc415d7a9bafdd83fa08be74c27f3dcfd95b386c9c9faa7625871d22bc2",
-      "last_changed": "2026-08-23T17:02:04.460Z"
+      "hash": "69c69f63c68025aafc3d0a258b92fd8226e5da229a36e6cc473f9d39b5c07f32",
+      "last_changed": "2026-08-24T17:02:10.379Z"
     },
     "10": {
       "codigo": "10",
@@ -92,8 +92,8 @@
       "codigo": "14",
       "slug": "portugues",
       "nombre": "PORTUGUÉS",
-      "hash": "4abf8180713ea7fedd34e9587e609d36def53ae30733263585eb28dbda24d613",
-      "last_changed": "2026-08-23T17:02:04.460Z"
+      "hash": "903c443a4155109b5bc2abc23280ee2e0efc1a80321b8a46bc5af94b3f7490a6",
+      "last_changed": "2026-08-24T17:02:10.379Z"
     },
     "16": {
       "codigo": "16",
