@@ -1,7 +1,7 @@
 {
   "codigo": "20422",
   "nombre": "Ciencias Políticas y Admon. Pública",
-  "fecha_consulta": "2026-08-24T17:00:26.673Z",
+  "fecha_consulta": "2026-08-25T17:01:02.747Z",
   "materias": {
     "1059": {
       "nombre": "ADMINISTRACION AMBIENTAL MUNICIP",
@@ -1047,7 +1047,7 @@
         },
         {
           "grupo": "1304",
-          "profesor": "Profesor No Asignado",
+          "profesor": "HURTADO GOMEZ ELIAS",
           "horarios": [
             {
               "dia": "MA",
@@ -1546,7 +1546,7 @@
         },
         {
           "grupo": "1353",
-          "profesor": "Profesor No Asignado",
+          "profesor": "SANDOVAL JIMENEZ",
           "horarios": [
             {
               "dia": "MA",

@@ -1,7 +1,7 @@
 {
   "codigo": "24022",
   "nombre": "Matemáticas. Apl. y Comp.",
-  "fecha_consulta": "2026-08-24T17:01:40.788Z",
+  "fecha_consulta": "2026-08-25T17:02:56.099Z",
   "materias": {
     "1036": {
       "nombre": "ANALISIS DE ALGORITMOS",
@@ -1464,7 +1464,7 @@
         },
         {
           "grupo": "1155",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CAMARGO BADILLO LUIS MAURICIO",
           "horarios": [
             {
               "dia": "MI",
