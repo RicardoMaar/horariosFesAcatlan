@@ -3,7 +3,7 @@
   "slug": "frances",
   "nombre": "FRANCÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-25T17:04:50.298Z",
+  "fecha_consulta": "2026-08-26T17:02:35.666Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -199,7 +199,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
@@ -553,6 +553,30 @@
         }
       ],
       "salon": "",
+      "disponibilidad": "SATURADO",
+      "observaciones": "",
+      "idioma_codigo": "5",
+      "idioma": "FRANCÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231249",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG01_09VP02",
+      "clave": "PG01_09VP02",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "09:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
       "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "5",
@@ -697,7 +721,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
@@ -1249,7 +1273,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
@@ -1765,36 +1789,6 @@
       "modalidad": "Presencial"
     },
     {
-      "grupo": "PG09_13BP01",
-      "clave": "PG09_13BP01",
-      "profesor": "FRANCISCO JAVIER CERÓN LUNA",
-      "horarios": [
-        {
-          "dia": "MA",
-          "dia_nombre": "Martes",
-          "inicio": "13:00",
-          "fin": "15:00"
-        },
-        {
-          "dia": "JU",
-          "dia_nombre": "Jueves",
-          "inicio": "13:00",
-          "fin": "15:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "5",
-      "idioma": "FRANCÉS",
-      "tipo_curso_codigo": "4",
-      "tipo_curso": "AVANZADO",
-      "nivel_codigo": "231321",
-      "nivel": "PG09",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
       "grupo": "COMPRENSIÓN AUDITIVA_09MP01",
       "clave": "COMPRENSIÓN AUDITIVA_09MP01",
       "profesor": "SUSANA JACQUELINA COHEN CALVO Y AVRAMOW",
@@ -1980,7 +1974,7 @@
       "tipo_curso": "PG",
       "nivel": "PG01",
       "modalidad": "Presencial",
-      "grupos": 22
+      "grupos": 23
     },
     {
       "tipo_curso": "PG",
@@ -2022,7 +2016,7 @@
       "tipo_curso": "AVANZADO",
       "nivel": "PG09",
       "modalidad": "Presencial",
-      "grupos": 1
+      "grupos": 0
     },
     {
       "tipo_curso": "TALLERES",

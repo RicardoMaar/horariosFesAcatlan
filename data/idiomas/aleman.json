@@ -3,7 +3,7 @@
   "slug": "aleman",
   "nombre": "ALEMÁN",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-25T17:03:47.542Z",
+  "fecha_consulta": "2026-08-26T17:02:06.821Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -781,36 +781,6 @@
       "modalidad": "Presencial"
     },
     {
-      "grupo": "PG02_15BP01",
-      "clave": "PG02_15BP01",
-      "profesor": "MARCO ANTONIO LAGUNAS CANO",
-      "horarios": [
-        {
-          "dia": "MA",
-          "dia_nombre": "Martes",
-          "inicio": "15:00",
-          "fin": "17:00"
-        },
-        {
-          "dia": "JU",
-          "dia_nombre": "Jueves",
-          "inicio": "15:00",
-          "fin": "17:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "1",
-      "idioma": "ALEMÁN",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231256",
-      "nivel": "PG02",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
       "grupo": "PG03_13AP01",
       "clave": "PG03_13AP01",
       "profesor": "RICARDO ESNAURRIZAR JURADO",
@@ -1128,7 +1098,7 @@
       "tipo_curso": "PG",
       "nivel": "PG02",
       "modalidad": "Presencial",
-      "grupos": 6
+      "grupos": 5
     },
     {
       "tipo_curso": "PG",

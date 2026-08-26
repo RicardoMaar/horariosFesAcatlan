@@ -1,7 +1,7 @@
 {
   "codigo": "21011",
   "nombre": "Filosofía",
-  "fecha_consulta": "2026-08-25T17:02:22.272Z",
+  "fecha_consulta": "2026-08-26T17:00:59.554Z",
   "materias": {
     "1170": {
       "nombre": "ANTROPOLOGIA FILOSOFICA I",
@@ -1672,6 +1672,69 @@
             }
           ],
           "salon": "A-8104"
+        }
+      ]
+    },
+    "1774": {
+      "nombre": "TEMAS SELECTOS I HERMENEUTICA",
+      "semestre": "07",
+      "grupos": [
+        {
+          "grupo": "Q701",
+          "profesor": "DIAZ SOMERA MIRIAM",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:00",
+              "fin": "12:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "10:00",
+              "fin": "12:00"
+            }
+          ],
+          "salon": "A-8104"
+        },
+        {
+          "grupo": "Q751",
+          "profesor": "CRUZ SANCHEZ PAOLA MARIA DEL CONSUELO",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-8104"
+        },
+        {
+          "grupo": "Q752",
+          "profesor": "ROCHON HERRERA PAOLA",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "A-8102"
         }
       ]
     },
