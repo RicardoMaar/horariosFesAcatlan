@@ -3,7 +3,7 @@
   "slug": "aleman",
   "nombre": "ALEMÁN",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-26T17:02:06.821Z",
+  "fecha_consulta": "2026-08-27T17:02:07.144Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -483,7 +483,7 @@
     {
       "grupo": "PG01_15AP01",
       "clave": "PG01_15AP01",
-      "profesor": "",
+      "profesor": "ELIZABETH TORRES PÉREZ",
       "horarios": [
         {
           "dia": "LU",
@@ -631,21 +631,21 @@
       "modalidad": "Remoto"
     },
     {
-      "grupo": "PG02_07AP01",
-      "clave": "PG02_07AP01",
+      "grupo": "PG01_19AR02",
+      "clave": "PG01_19AR02",
       "profesor": "MARTÍN MANUEL APFALTRER VALERO",
       "horarios": [
         {
           "dia": "LU",
           "dia_nombre": "Lunes",
-          "inicio": "07:00",
-          "fin": "09:00"
+          "inicio": "19:00",
+          "fin": "21:00"
         },
         {
           "dia": "MI",
           "dia_nombre": "Miércoles",
-          "inicio": "07:00",
-          "fin": "09:00"
+          "inicio": "19:00",
+          "fin": "21:00"
         }
       ],
       "salon": "",
@@ -655,10 +655,10 @@
       "idioma": "ALEMÁN",
       "tipo_curso_codigo": "3",
       "tipo_curso": "PG",
-      "nivel_codigo": "231256",
-      "nivel": "PG02",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
+      "nivel_codigo": "231255",
+      "nivel": "PG01",
+      "modalidad_codigo": "2",
+      "modalidad": "Remoto"
     },
     {
       "grupo": "PG02_11AP01",
@@ -826,36 +826,6 @@
           "dia_nombre": "Jueves",
           "inicio": "13:00",
           "fin": "15:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "1",
-      "idioma": "ALEMÁN",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231257",
-      "nivel": "PG03",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
-      "grupo": "PG03_15AP01",
-      "clave": "PG03_15AP01",
-      "profesor": "ELIZABETH TORRES PÉREZ",
-      "horarios": [
-        {
-          "dia": "LU",
-          "dia_nombre": "Lunes",
-          "inicio": "15:00",
-          "fin": "17:00"
-        },
-        {
-          "dia": "MI",
-          "dia_nombre": "Miércoles",
-          "inicio": "15:00",
-          "fin": "17:00"
         }
       ],
       "salon": "",
@@ -1092,19 +1062,19 @@
       "tipo_curso": "PG",
       "nivel": "PG01",
       "modalidad": "Remoto",
-      "grupos": 1
+      "grupos": 2
     },
     {
       "tipo_curso": "PG",
       "nivel": "PG02",
       "modalidad": "Presencial",
-      "grupos": 5
+      "grupos": 4
     },
     {
       "tipo_curso": "PG",
       "nivel": "PG03",
       "modalidad": "Presencial",
-      "grupos": 3
+      "grupos": 2
     },
     {
       "tipo_curso": "PG",

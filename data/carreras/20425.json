@@ -1,7 +1,7 @@
 {
   "codigo": "20425",
   "nombre": "Comunicación",
-  "fecha_consulta": "2026-08-26T17:00:28.246Z",
+  "fecha_consulta": "2026-08-27T17:00:28.863Z",
   "materias": {
     "1111": {
       "nombre": "BASES TEO. DE LA COMUNICACIÓN",
@@ -5046,14 +5046,14 @@
           "profesor": "GONZALEZ MORALES LAURA",
           "horarios": [
             {
-              "dia": "MA",
-              "dia_nombre": "Martes",
+              "dia": "LU",
+              "dia_nombre": "Lunes",
               "inicio": "09:00",
               "fin": "11:00"
             },
             {
-              "dia": "JU",
-              "dia_nombre": "Jueves",
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
               "inicio": "09:00",
               "fin": "11:00"
             }
