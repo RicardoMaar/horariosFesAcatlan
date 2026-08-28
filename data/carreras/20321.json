@@ -1,7 +1,7 @@
 {
   "codigo": "20321",
   "nombre": "Actuaría",
-  "fecha_consulta": "2026-08-27T17:00:09.939Z",
+  "fecha_consulta": "2026-08-28T17:00:08.123Z",
   "materias": {
     "2032": {
       "nombre": "ANALISIS DE REGRESION",
@@ -50,6 +50,25 @@
             }
           ],
           "salon": "INF.EN JEFA"
+        },
+        {
+          "grupo": "1756",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "INF. JEFA"
         }
       ]
     },
@@ -3713,6 +3732,31 @@
             }
           ],
           "salon": "INF.EN JEFA"
+        },
+        {
+          "grupo": "1852",
+          "profesor": "PERALTA BETANCOURT JAVIER",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "14:00",
+              "fin": "16:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "14:00",
+              "fin": "16:00"
+            }
+          ],
+          "salon": "INF. JEFA."
         }
       ]
     }

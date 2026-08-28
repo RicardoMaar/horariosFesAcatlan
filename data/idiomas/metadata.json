@@ -1,6 +1,6 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-08-27T17:01:54.263Z",
+  "fecha_actualizacion": "2026-08-28T17:01:52.911Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "total_idiomas": 15,
   "idiomas": {
@@ -22,8 +22,8 @@
       "codigo": "3",
       "slug": "chino",
       "nombre": "CHINO",
-      "hash": "367897896276a55f8c3a8efb71852a55d8a8ea8c78b11b6c2386fafc34ef21f9",
-      "last_changed": "2026-08-25T17:03:32.804Z"
+      "hash": "7bb484b422d0ed095f8601f3a2aa902cd91332ab0ea6090de41945f15eba2422",
+      "last_changed": "2026-08-28T17:01:52.911Z"
     },
     "4": {
       "codigo": "4",
@@ -36,8 +36,8 @@
       "codigo": "5",
       "slug": "frances",
       "nombre": "FRANCÉS",
-      "hash": "841c7ab4f03123c745e2d4521fa4d63f92492c61d291f281ecf40531eea64f76",
-      "last_changed": "2026-08-27T17:01:54.263Z"
+      "hash": "478ece959edb3d20a1db5d84289e63e6a2159db1d35c1560b594d6d464bfd5d7",
+      "last_changed": "2026-08-28T17:01:52.911Z"
     },
     "6": {
       "codigo": "6",
@@ -50,15 +50,15 @@
       "codigo": "8",
       "slug": "ingles",
       "nombre": "INGLÉS",
-      "hash": "c66b6a5458ebb092aae017113718dd302d3858ac3b09615c9d1088c72d142e06",
-      "last_changed": "2026-08-27T17:01:54.263Z"
+      "hash": "200ca6a10693a3f85ac97d35c71325dd3ee6310707da6d81e634c7f5da30c679",
+      "last_changed": "2026-08-28T17:01:52.911Z"
     },
     "9": {
       "codigo": "9",
       "slug": "italiano",
       "nombre": "ITALIANO",
-      "hash": "ba961c633df214b6cc9c278f6138cb578bd0fd59f3ea3110f9b9b2a73232df7d",
-      "last_changed": "2026-08-27T17:01:54.263Z"
+      "hash": "f95ee78d97ea3d57a4ce1ddb42a5d5f34e7733e437f1d8711bfbc1382d745d7d",
+      "last_changed": "2026-08-28T17:01:52.911Z"
     },
     "10": {
       "codigo": "10",
@@ -92,8 +92,8 @@
       "codigo": "14",
       "slug": "portugues",
       "nombre": "PORTUGUÉS",
-      "hash": "6213db9077f2dad1232a2edc40f1b87a8725dc626ef10290ebbc1e0a3bb4e75a",
-      "last_changed": "2026-08-27T17:01:54.263Z"
+      "hash": "a01bc6d257b065ff0f1283fc37bd56d0d6c46d951ab3c1edac2a6ada7829d4e5",
+      "last_changed": "2026-08-28T17:01:52.911Z"
     },
     "16": {
       "codigo": "16",
