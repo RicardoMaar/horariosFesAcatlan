@@ -3,7 +3,7 @@
   "slug": "frances",
   "nombre": "FRANCÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-28T17:02:34.248Z",
+  "fecha_consulta": "2026-08-29T17:02:34.187Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -169,7 +169,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
@@ -199,7 +199,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
@@ -523,7 +523,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",

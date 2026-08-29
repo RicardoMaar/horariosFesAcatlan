@@ -3,7 +3,7 @@
   "slug": "portugues",
   "nombre": "PORTUGUÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-28T17:03:41.857Z",
+  "fecha_consulta": "2026-08-29T17:03:36.405Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -343,7 +343,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -427,7 +427,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -517,7 +517,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -601,7 +601,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",

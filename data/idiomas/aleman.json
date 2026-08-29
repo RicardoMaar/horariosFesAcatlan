@@ -3,7 +3,7 @@
   "slug": "aleman",
   "nombre": "ALEMÁN",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-28T17:02:05.897Z",
+  "fecha_consulta": "2026-08-29T17:02:06.153Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -494,36 +494,6 @@
         {
           "dia": "MI",
           "dia_nombre": "Miércoles",
-          "inicio": "15:00",
-          "fin": "17:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "1",
-      "idioma": "ALEMÁN",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231255",
-      "nivel": "PG01",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
-      "grupo": "PG01_15BP01",
-      "clave": "PG01_15BP01",
-      "profesor": "",
-      "horarios": [
-        {
-          "dia": "MA",
-          "dia_nombre": "Martes",
-          "inicio": "15:00",
-          "fin": "17:00"
-        },
-        {
-          "dia": "JU",
-          "dia_nombre": "Jueves",
           "inicio": "15:00",
           "fin": "17:00"
         }
@@ -1056,7 +1026,7 @@
       "tipo_curso": "PG",
       "nivel": "PG01",
       "modalidad": "Presencial",
-      "grupos": 14
+      "grupos": 13
     },
     {
       "tipo_curso": "PG",

@@ -1,6 +1,6 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-08-28T17:01:52.911Z",
+  "fecha_actualizacion": "2026-08-29T17:01:53.361Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "total_idiomas": 15,
   "idiomas": {
@@ -8,8 +8,8 @@
       "codigo": "1",
       "slug": "aleman",
       "nombre": "ALEMÁN",
-      "hash": "2ad4709c9390657e640fb0f66430f93b802eb7a34ecab8c8c7af5e09b0c0bdf3",
-      "last_changed": "2026-08-27T17:01:54.263Z"
+      "hash": "a4df4ceb42fa61a5db28ee60b28dd481bfa571490e25113e32ced50978f03374",
+      "last_changed": "2026-08-29T17:01:53.361Z"
     },
     "2": {
       "codigo": "2",
@@ -36,8 +36,8 @@
       "codigo": "5",
       "slug": "frances",
       "nombre": "FRANCÉS",
-      "hash": "478ece959edb3d20a1db5d84289e63e6a2159db1d35c1560b594d6d464bfd5d7",
-      "last_changed": "2026-08-28T17:01:52.911Z"
+      "hash": "809ffe694fe88d426ff2fa83ac8e15266d1b4b37fd9db6c19e5550a29e6f52d8",
+      "last_changed": "2026-08-29T17:01:53.361Z"
     },
     "6": {
       "codigo": "6",
@@ -50,22 +50,22 @@
       "codigo": "8",
       "slug": "ingles",
       "nombre": "INGLÉS",
-      "hash": "200ca6a10693a3f85ac97d35c71325dd3ee6310707da6d81e634c7f5da30c679",
-      "last_changed": "2026-08-28T17:01:52.911Z"
+      "hash": "a3cd48e4cb5126d7b476eec02da33c1cfd8f58e1d829b851c1d9bf99953a330e",
+      "last_changed": "2026-08-29T17:01:53.361Z"
     },
     "9": {
       "codigo": "9",
       "slug": "italiano",
       "nombre": "ITALIANO",
-      "hash": "f95ee78d97ea3d57a4ce1ddb42a5d5f34e7733e437f1d8711bfbc1382d745d7d",
-      "last_changed": "2026-08-28T17:01:52.911Z"
+      "hash": "c9a7515de642bd1c3a16610135a173259764190c32700cb2f3fc6787100630cf",
+      "last_changed": "2026-08-29T17:01:53.361Z"
     },
     "10": {
       "codigo": "10",
       "slug": "japones",
       "nombre": "JAPONÉS",
-      "hash": "a70888981c09f22f2855451672cb685a0a087ea4fb6c192cfe903599f85b803d",
-      "last_changed": "2026-08-26T17:01:53.653Z"
+      "hash": "e9cf49d6499bd4df273584220a0e6e7c0034fb70aec27540081d4605e40433e2",
+      "last_changed": "2026-08-29T17:01:53.361Z"
     },
     "11": {
       "codigo": "11",
@@ -92,8 +92,8 @@
       "codigo": "14",
       "slug": "portugues",
       "nombre": "PORTUGUÉS",
-      "hash": "a01bc6d257b065ff0f1283fc37bd56d0d6c46d951ab3c1edac2a6ada7829d4e5",
-      "last_changed": "2026-08-28T17:01:52.911Z"
+      "hash": "887f220db14c1fa82cba343189cc663e9582bb4d8af2f7054cfdc1f1d81348d5",
+      "last_changed": "2026-08-29T17:01:53.361Z"
     },
     "16": {
       "codigo": "16",
