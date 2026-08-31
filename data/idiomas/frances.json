@@ -3,7 +3,7 @@
   "slug": "frances",
   "nombre": "FRANCÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-30T17:02:31.793Z",
+  "fecha_consulta": "2026-08-31T17:02:33.319Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -553,7 +553,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
@@ -567,7 +567,7 @@
     {
       "grupo": "PG01_11AP02",
       "clave": "PG01_11AP02",
-      "profesor": "",
+      "profesor": "FRANCISCO JAVIER CERÓN LUNA",
       "horarios": [
         {
           "dia": "LU",
@@ -613,7 +613,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
@@ -871,7 +871,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
