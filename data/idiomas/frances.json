@@ -3,7 +3,7 @@
   "slug": "frances",
   "nombre": "FRANCÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-31T17:02:33.319Z",
+  "fecha_consulta": "2026-09-01T17:02:30.489Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -106,36 +106,6 @@
           "dia_nombre": "Jueves",
           "inicio": "13:00",
           "fin": "15:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "5",
-      "idioma": "FRANCÉS",
-      "tipo_curso_codigo": "1",
-      "tipo_curso": "CL",
-      "nivel_codigo": "231201",
-      "nivel": "CL01",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
-      "grupo": "CL01_15AP01",
-      "clave": "CL01_15AP01",
-      "profesor": "",
-      "horarios": [
-        {
-          "dia": "LU",
-          "dia_nombre": "Lunes",
-          "inicio": "15:00",
-          "fin": "17:00"
-        },
-        {
-          "dia": "MI",
-          "dia_nombre": "Miércoles",
-          "inicio": "15:00",
-          "fin": "17:00"
         }
       ],
       "salon": "",
@@ -613,7 +583,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
@@ -1393,7 +1363,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
@@ -1824,7 +1794,7 @@
       "tipo_curso": "CL",
       "nivel": "CL01",
       "modalidad": "Presencial",
-      "grupos": 5
+      "grupos": 4
     },
     {
       "tipo_curso": "CL",

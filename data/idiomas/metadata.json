@@ -1,6 +1,6 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-08-31T17:01:51.636Z",
+  "fecha_actualizacion": "2026-09-01T17:01:50.263Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "total_idiomas": 15,
   "idiomas": {
@@ -8,8 +8,8 @@
       "codigo": "1",
       "slug": "aleman",
       "nombre": "ALEMÁN",
-      "hash": "a4df4ceb42fa61a5db28ee60b28dd481bfa571490e25113e32ced50978f03374",
-      "last_changed": "2026-08-29T17:01:53.361Z"
+      "hash": "00e0725fa1537ac82c8d658226df9aee3bc249f89d62053ab77abb018ccb2f8a",
+      "last_changed": "2026-09-01T17:01:50.263Z"
     },
     "2": {
       "codigo": "2",
@@ -36,8 +36,8 @@
       "codigo": "5",
       "slug": "frances",
       "nombre": "FRANCÉS",
-      "hash": "51a02261a9c4c57d3085cc295139b7997f70563e24d8cc02b0b27425f0ac3b05",
-      "last_changed": "2026-08-31T17:01:51.636Z"
+      "hash": "5d6e56a96e00963f7845f0149dc830db21c911159575ffe15f53afc5cecfc6aa",
+      "last_changed": "2026-09-01T17:01:50.263Z"
     },
     "6": {
       "codigo": "6",
@@ -50,22 +50,22 @@
       "codigo": "8",
       "slug": "ingles",
       "nombre": "INGLÉS",
-      "hash": "2266a4a87de8f9c620ec4c67d672c7d7753609fa2a0fd65fa73a1847a446766c",
-      "last_changed": "2026-08-31T17:01:51.636Z"
+      "hash": "a322821775aa9e72c5d5d162b15dceafeeee6a727a4601c7f92b0afc673a9199",
+      "last_changed": "2026-09-01T17:01:50.263Z"
     },
     "9": {
       "codigo": "9",
       "slug": "italiano",
       "nombre": "ITALIANO",
-      "hash": "ff42acab9086a0737f5b81871a9baa08eff51067d6039b9ee9d0dc85ea8a5e70",
-      "last_changed": "2026-08-31T17:01:51.636Z"
+      "hash": "16ff17f1107eb8f63a0907fed1913e5afd679bc5c4754fb5d024ca23d828f3d5",
+      "last_changed": "2026-09-01T17:01:50.263Z"
     },
     "10": {
       "codigo": "10",
       "slug": "japones",
       "nombre": "JAPONÉS",
-      "hash": "e9cf49d6499bd4df273584220a0e6e7c0034fb70aec27540081d4605e40433e2",
-      "last_changed": "2026-08-29T17:01:53.361Z"
+      "hash": "999c44370440c46183c3d680097181cf6d0c2cab876ca4c919d473705088a55b",
+      "last_changed": "2026-09-01T17:01:50.263Z"
     },
     "11": {
       "codigo": "11",
@@ -85,15 +85,15 @@
       "codigo": "13",
       "slug": "hnahnu-otomi",
       "nombre": "HÑÄHÑU (OTOMÍ)",
-      "hash": "c74222bfa819c065ef98eb79aa640d1408cfb6b7d40b2868061d6cc6f5cad8f3",
-      "last_changed": "2026-08-27T17:01:54.263Z"
+      "hash": "74867917ce5a3b1e2796f8067bf52fa29ca31cd33839dbbf6a54cb22e38578d7",
+      "last_changed": "2026-09-01T17:01:50.263Z"
     },
     "14": {
       "codigo": "14",
       "slug": "portugues",
       "nombre": "PORTUGUÉS",
-      "hash": "9bad8ddbd4717f8d1fb805b3cca4010dbec68f3612ee16ae48c89daaf155a324",
-      "last_changed": "2026-08-31T17:01:51.636Z"
+      "hash": "2a407ba942d399d052894d99f2fa84d3f087a66831f23981c46a308073f592a0",
+      "last_changed": "2026-09-01T17:01:50.263Z"
     },
     "16": {
       "codigo": "16",

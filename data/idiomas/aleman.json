@@ -3,7 +3,7 @@
   "slug": "aleman",
   "nombre": "ALEMÁN",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-31T17:02:04.662Z",
+  "fecha_consulta": "2026-09-01T17:02:03.079Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -219,7 +219,7 @@
     {
       "grupo": "PG01_09VP01",
       "clave": "PG01_09VP01",
-      "profesor": "",
+      "profesor": "MARCO ANTONIO LAGUNAS CANO",
       "horarios": [
         {
           "dia": "VI",
@@ -873,7 +873,7 @@
     {
       "grupo": "PG05_17AP01",
       "clave": "PG05_17AP01",
-      "profesor": "ELIZABETH TORRES PÉREZ",
+      "profesor": "",
       "horarios": [
         {
           "dia": "LU",

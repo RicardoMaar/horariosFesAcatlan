@@ -3,7 +3,7 @@
   "slug": "hnahnu-otomi",
   "nombre": "HÑÄHÑU (OTOMÍ)",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-08-31T17:03:24.693Z",
+  "fecha_consulta": "2026-09-01T17:03:21.866Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -25,7 +25,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "13",
       "idioma": "HÑÄHÑU (OTOMÍ)",
