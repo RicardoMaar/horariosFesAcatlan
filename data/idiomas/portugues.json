@@ -3,7 +3,7 @@
   "slug": "portugues",
   "nombre": "PORTUGUÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-01T17:03:34.230Z",
+  "fecha_consulta": "2026-09-02T17:03:35.391Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -223,7 +223,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -253,7 +253,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -427,7 +427,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -487,7 +487,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -541,7 +541,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -705,7 +705,7 @@
     {
       "grupo": "PG06_11BP01",
       "clave": "PG06_11BP01",
-      "profesor": "CHRISTOPHER MORALES CASTRO",
+      "profesor": "",
       "horarios": [
         {
           "dia": "MA",
@@ -729,6 +729,36 @@
       "tipo_curso": "AVANZADO",
       "nivel_codigo": "231323",
       "nivel": "PG06",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "CAPLE_11BP01",
+      "clave": "CAPLE_11BP01",
+      "profesor": "CHRISTOPHER MORALES CASTRO",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "11:00",
+          "fin": "13:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "11:00",
+          "fin": "13:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "14",
+      "idioma": "PORTUGUÉS",
+      "tipo_curso_codigo": "5",
+      "tipo_curso": "TALLERES",
+      "nivel_codigo": "231344",
+      "nivel": "CAPLE",
       "modalidad_codigo": "1",
       "modalidad": "Presencial"
     },
@@ -943,7 +973,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -1206,7 +1236,7 @@
       "tipo_curso": "TALLERES",
       "nivel": "CAPLE",
       "modalidad": "Presencial",
-      "grupos": 1
+      "grupos": 2
     },
     {
       "tipo_curso": "TALLERES",

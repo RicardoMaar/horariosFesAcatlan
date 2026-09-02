@@ -1,13 +1,8 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-09-01T17:01:50.263Z",
-  "total_cambios": 7,
+  "fecha_actualizacion": "2026-09-02T17:01:52.438Z",
+  "total_cambios": 5,
   "idiomas": [
-    {
-      "codigo": "1",
-      "slug": "aleman",
-      "nombre": "ALEMÁN"
-    },
     {
       "codigo": "5",
       "slug": "frances",
@@ -27,11 +22,6 @@
       "codigo": "10",
       "slug": "japones",
       "nombre": "JAPONÉS"
-    },
-    {
-      "codigo": "13",
-      "slug": "hnahnu-otomi",
-      "nombre": "HÑÄHÑU (OTOMÍ)"
     },
     {
       "codigo": "14",

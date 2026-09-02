@@ -3,7 +3,7 @@
   "slug": "italiano",
   "nombre": "ITALIANO",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-01T17:03:04.566Z",
+  "fecha_consulta": "2026-09-02T17:03:06.092Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -25,7 +25,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -361,7 +361,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -451,7 +451,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -481,7 +481,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -571,7 +571,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -745,7 +745,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -805,7 +805,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -889,7 +889,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -919,7 +919,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -934,36 +934,6 @@
       "grupo": "PG03_13AP01",
       "clave": "PG03_13AP01",
       "profesor": "DIEGO XHAIL TENORIO GUTIÉRREZ",
-      "horarios": [
-        {
-          "dia": "LU",
-          "dia_nombre": "Lunes",
-          "inicio": "13:00",
-          "fin": "15:00"
-        },
-        {
-          "dia": "MI",
-          "dia_nombre": "Miércoles",
-          "inicio": "13:00",
-          "fin": "15:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "9",
-      "idioma": "ITALIANO",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231235",
-      "nivel": "PG03",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
-      "grupo": "PG03_13AP02",
-      "clave": "PG03_13AP02",
-      "profesor": "",
       "horarios": [
         {
           "dia": "LU",
@@ -1267,7 +1237,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -1297,7 +1267,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -1339,21 +1309,21 @@
       "modalidad": "Presencial"
     },
     {
-      "grupo": "CONVERSACIÓN_13BP01",
-      "clave": "CONVERSACIÓN_13BP01",
+      "grupo": "CONVERSACIÓN_17BP01",
+      "clave": "CONVERSACIÓN_17BP01",
       "profesor": "PAOLO PALMARINI",
       "horarios": [
         {
           "dia": "MA",
           "dia_nombre": "Martes",
-          "inicio": "13:00",
-          "fin": "15:00"
+          "inicio": "17:00",
+          "fin": "19:00"
         },
         {
           "dia": "JU",
           "dia_nombre": "Jueves",
-          "inicio": "13:00",
-          "fin": "15:00"
+          "inicio": "17:00",
+          "fin": "19:00"
         }
       ],
       "salon": "",
@@ -1411,7 +1381,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -1543,7 +1513,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -1698,7 +1668,7 @@
       "tipo_curso": "PG",
       "nivel": "PG03",
       "modalidad": "Presencial",
-      "grupos": 7
+      "grupos": 6
     },
     {
       "tipo_curso": "PG",
