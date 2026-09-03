@@ -3,7 +3,7 @@
   "slug": "portugues",
   "nombre": "PORTUGUÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-02T17:03:35.391Z",
+  "fecha_consulta": "2026-09-03T17:03:35.454Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -117,7 +117,7 @@
     {
       "grupo": "PG01_11AP01",
       "clave": "PG01_11AP01",
-      "profesor": "JOSÉ ANTONIO MONDRAGÓN SOSA",
+      "profesor": "OMAR EZEQUIEL VILLANUEVA LÓPEZ",
       "horarios": [
         {
           "dia": "LU",
@@ -148,36 +148,6 @@
       "grupo": "PG01_11BP01",
       "clave": "PG01_11BP01",
       "profesor": "HÉCTOR LEAL QUIROZ",
-      "horarios": [
-        {
-          "dia": "MA",
-          "dia_nombre": "Martes",
-          "inicio": "11:00",
-          "fin": "13:00"
-        },
-        {
-          "dia": "JU",
-          "dia_nombre": "Jueves",
-          "inicio": "11:00",
-          "fin": "13:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "SATURADO",
-      "observaciones": "",
-      "idioma_codigo": "14",
-      "idioma": "PORTUGUÉS",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231238",
-      "nivel": "PG01",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
-      "grupo": "PG01_11BP02",
-      "clave": "PG01_11BP02",
-      "profesor": "OMAR EZEQUIEL VILLANUEVA LÓPEZ",
       "horarios": [
         {
           "dia": "MA",
@@ -297,7 +267,7 @@
     {
       "grupo": "PG01_13BP02",
       "clave": "PG01_13BP02",
-      "profesor": "",
+      "profesor": "CHRISTOPHER MORALES CASTRO",
       "horarios": [
         {
           "dia": "MA",
@@ -310,36 +280,6 @@
           "dia_nombre": "Jueves",
           "inicio": "13:00",
           "fin": "15:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "SATURADO",
-      "observaciones": "",
-      "idioma_codigo": "14",
-      "idioma": "PORTUGUÉS",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231238",
-      "nivel": "PG01",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
-      "grupo": "PG01_15BP01",
-      "clave": "PG01_15BP01",
-      "profesor": "",
-      "horarios": [
-        {
-          "dia": "MA",
-          "dia_nombre": "Martes",
-          "inicio": "15:00",
-          "fin": "17:00"
-        },
-        {
-          "dia": "JU",
-          "dia_nombre": "Jueves",
-          "inicio": "15:00",
-          "fin": "17:00"
         }
       ],
       "salon": "",
@@ -355,21 +295,21 @@
       "modalidad": "Presencial"
     },
     {
-      "grupo": "PG01_16BP01",
-      "clave": "PG01_16BP01",
-      "profesor": "",
+      "grupo": "PG01_15BP01",
+      "clave": "PG01_15BP01",
+      "profesor": "JOSÉ ANTONIO MONDRAGÓN SOSA",
       "horarios": [
         {
           "dia": "MA",
           "dia_nombre": "Martes",
-          "inicio": "16:00",
-          "fin": "18:00"
+          "inicio": "15:00",
+          "fin": "17:00"
         },
         {
           "dia": "JU",
           "dia_nombre": "Jueves",
-          "inicio": "16:00",
-          "fin": "18:00"
+          "inicio": "15:00",
+          "fin": "17:00"
         }
       ],
       "salon": "",
@@ -457,7 +397,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -631,7 +571,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -661,7 +601,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -1010,7 +950,7 @@
       ],
       "salon": "",
       "disponibilidad": "",
-      "observaciones": "GRUPO ESPECIAL PEDAGOGÍA",
+      "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
       "tipo_curso_codigo": "6",
@@ -1099,7 +1039,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -1120,36 +1060,6 @@
           "dia_nombre": "Viernes",
           "inicio": "09:00",
           "fin": "15:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "14",
-      "idioma": "PORTUGUÉS",
-      "tipo_curso_codigo": "6",
-      "tipo_curso": "SEMI-INTENSIVOS",
-      "nivel_codigo": "231387",
-      "nivel": "CL02_SEMI-INTENSIVO",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
-      "grupo": "CL02_SEMI-INTENSIVO_11BP01",
-      "clave": "CL02_SEMI-INTENSIVO_11BP01",
-      "profesor": "",
-      "horarios": [
-        {
-          "dia": "MA",
-          "dia_nombre": "Martes",
-          "inicio": "11:00",
-          "fin": "14:00"
-        },
-        {
-          "dia": "JU",
-          "dia_nombre": "Jueves",
-          "inicio": "11:00",
-          "fin": "14:00"
         }
       ],
       "salon": "",
@@ -1200,7 +1110,7 @@
       "tipo_curso": "PG",
       "nivel": "PG01",
       "modalidad": "Presencial",
-      "grupos": 13
+      "grupos": 11
     },
     {
       "tipo_curso": "PG",
@@ -1266,7 +1176,7 @@
       "tipo_curso": "SEMI-INTENSIVOS",
       "nivel": "CL02_SEMI-INTENSIVO",
       "modalidad": "Presencial",
-      "grupos": 2
+      "grupos": 1
     },
     {
       "tipo_curso": "SEMI-INTENSIVOS",
