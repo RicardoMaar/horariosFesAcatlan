@@ -1,7 +1,7 @@
 {
   "codigo": "24022",
   "nombre": "Matemáticas. Apl. y Comp.",
-  "fecha_consulta": "2026-09-03T17:01:23.225Z",
+  "fecha_consulta": "2026-09-04T17:01:23.889Z",
   "materias": {
     "1036": {
       "nombre": "ANALISIS DE ALGORITMOS",
@@ -2717,7 +2717,7 @@
         },
         {
           "grupo": "1353",
-          "profesor": "BARRAGAN GARCIA NESTOR DANIEL",
+          "profesor": "CARRILLO MORENO MIRELLE ATENAS",
           "horarios": [
             {
               "dia": "VI",

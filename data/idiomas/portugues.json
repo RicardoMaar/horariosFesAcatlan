@@ -3,7 +3,7 @@
   "slug": "portugues",
   "nombre": "PORTUGUÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-03T17:03:35.454Z",
+  "fecha_consulta": "2026-09-04T17:03:37.702Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -163,7 +163,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -321,36 +321,6 @@
       "tipo_curso": "PG",
       "nivel_codigo": "231238",
       "nivel": "PG01",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
-      "grupo": "PG02_09AP01",
-      "clave": "PG02_09AP01",
-      "profesor": "",
-      "horarios": [
-        {
-          "dia": "LU",
-          "dia_nombre": "Lunes",
-          "inicio": "09:00",
-          "fin": "11:00"
-        },
-        {
-          "dia": "MI",
-          "dia_nombre": "Miércoles",
-          "inicio": "09:00",
-          "fin": "11:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "14",
-      "idioma": "PORTUGUÉS",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231239",
-      "nivel": "PG02",
       "modalidad_codigo": "1",
       "modalidad": "Presencial"
     },
@@ -1116,7 +1086,7 @@
       "tipo_curso": "PG",
       "nivel": "PG02",
       "modalidad": "Presencial",
-      "grupos": 5
+      "grupos": 4
     },
     {
       "tipo_curso": "PG",
