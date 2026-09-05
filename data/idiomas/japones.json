@@ -3,7 +3,7 @@
   "slug": "japones",
   "nombre": "JAPONÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-04T17:03:13.761Z",
+  "fecha_consulta": "2026-09-05T17:03:13.480Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -103,7 +103,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "10",
       "idioma": "JAPONÉS",

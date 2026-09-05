@@ -3,7 +3,7 @@
   "slug": "chino",
   "nombre": "CHINO",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-04T17:02:15.058Z",
+  "fecha_consulta": "2026-09-05T17:02:15.909Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -25,7 +25,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "3",
       "idioma": "CHINO",

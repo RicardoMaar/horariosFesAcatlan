@@ -3,7 +3,7 @@
   "slug": "aleman",
   "nombre": "ALEMÁN",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-04T17:02:05.786Z",
+  "fecha_consulta": "2026-09-05T17:02:06.913Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -409,7 +409,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "1",
       "idioma": "ALEMÁN",

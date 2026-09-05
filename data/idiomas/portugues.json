@@ -3,7 +3,7 @@
   "slug": "portugues",
   "nombre": "PORTUGUÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-04T17:03:37.702Z",
+  "fecha_consulta": "2026-09-05T17:03:36.052Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -69,7 +69,7 @@
     {
       "grupo": "PG01_09VP01",
       "clave": "PG01_09VP01",
-      "profesor": "",
+      "profesor": "JOSÉ ANTONIO MONDRAGÓN SOSA",
       "horarios": [
         {
           "dia": "VI",
@@ -177,7 +177,7 @@
     {
       "grupo": "PG01_13AP01",
       "clave": "PG01_13AP01",
-      "profesor": "",
+      "profesor": "EDNA CRISTINA GUTIÉRREZ LÓPEZ",
       "horarios": [
         {
           "dia": "LU",
@@ -223,7 +223,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -397,7 +397,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -613,36 +613,6 @@
       "modalidad": "Presencial"
     },
     {
-      "grupo": "PG06_11BP01",
-      "clave": "PG06_11BP01",
-      "profesor": "",
-      "horarios": [
-        {
-          "dia": "MA",
-          "dia_nombre": "Martes",
-          "inicio": "11:00",
-          "fin": "13:00"
-        },
-        {
-          "dia": "JU",
-          "dia_nombre": "Jueves",
-          "inicio": "11:00",
-          "fin": "13:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "14",
-      "idioma": "PORTUGUÉS",
-      "tipo_curso_codigo": "4",
-      "tipo_curso": "AVANZADO",
-      "nivel_codigo": "231323",
-      "nivel": "PG06",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
       "grupo": "CAPLE_11BP01",
       "clave": "CAPLE_11BP01",
       "profesor": "CHRISTOPHER MORALES CASTRO",
@@ -663,36 +633,6 @@
       "salon": "",
       "disponibilidad": "",
       "observaciones": "",
-      "idioma_codigo": "14",
-      "idioma": "PORTUGUÉS",
-      "tipo_curso_codigo": "5",
-      "tipo_curso": "TALLERES",
-      "nivel_codigo": "231344",
-      "nivel": "CAPLE",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
-      "grupo": "CAPLE_13BP01",
-      "clave": "CAPLE_13BP01",
-      "profesor": "",
-      "horarios": [
-        {
-          "dia": "MA",
-          "dia_nombre": "Martes",
-          "inicio": "13:00",
-          "fin": "15:00"
-        },
-        {
-          "dia": "JU",
-          "dia_nombre": "Jueves",
-          "inicio": "13:00",
-          "fin": "15:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "CURSO DE PREPARACIÓN PARA LA CERTIFICACIÓN INTERNACIONAL DE PORTUGUÉS COMO LENGUA EXTRANJERA. CAPLE - LISBOA.",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
       "tipo_curso_codigo": "5",
@@ -1107,16 +1047,10 @@
       "grupos": 1
     },
     {
-      "tipo_curso": "AVANZADO",
-      "nivel": "PG06",
-      "modalidad": "Presencial",
-      "grupos": 1
-    },
-    {
       "tipo_curso": "TALLERES",
       "nivel": "CAPLE",
       "modalidad": "Presencial",
-      "grupos": 2
+      "grupos": 1
     },
     {
       "tipo_curso": "TALLERES",

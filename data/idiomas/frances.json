@@ -3,7 +3,7 @@
   "slug": "frances",
   "nombre": "FRANCÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-04T17:02:33.813Z",
+  "fecha_consulta": "2026-09-05T17:02:34.414Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -109,7 +109,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
@@ -463,7 +463,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
@@ -493,7 +493,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
@@ -523,7 +523,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
@@ -553,7 +553,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
@@ -631,7 +631,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
@@ -841,7 +841,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
@@ -1423,7 +1423,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",

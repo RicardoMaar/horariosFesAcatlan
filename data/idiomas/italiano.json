@@ -3,7 +3,7 @@
   "slug": "italiano",
   "nombre": "ITALIANO",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-04T17:03:08.041Z",
+  "fecha_consulta": "2026-09-05T17:03:07.980Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -187,7 +187,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -391,7 +391,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -421,7 +421,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -511,7 +511,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -549,30 +549,6 @@
       "tipo_curso": "PG",
       "nivel_codigo": "231233",
       "nivel": "PG01",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
-      "grupo": "PG02_07VP01",
-      "clave": "PG02_07VP01",
-      "profesor": "MARIANA MURIEL MARTÍNEZ HERRERA",
-      "horarios": [
-        {
-          "dia": "VI",
-          "dia_nombre": "Viernes",
-          "inicio": "07:00",
-          "fin": "11:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "9",
-      "idioma": "ITALIANO",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231234",
-      "nivel": "PG02",
       "modalidad_codigo": "1",
       "modalidad": "Presencial"
     },
@@ -889,7 +865,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -1291,7 +1267,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -1549,7 +1525,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -1572,7 +1548,7 @@
       "tipo_curso": "PG",
       "nivel": "PG02",
       "modalidad": "Presencial",
-      "grupos": 8
+      "grupos": 7
     },
     {
       "tipo_curso": "PG",
