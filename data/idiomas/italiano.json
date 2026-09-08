@@ -3,7 +3,7 @@
   "slug": "italiano",
   "nombre": "ITALIANO",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-07T17:03:06.813Z",
+  "fecha_consulta": "2026-09-08T17:03:09.887Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -25,7 +25,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -79,7 +79,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -127,7 +127,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -187,7 +187,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -291,7 +291,7 @@
     {
       "grupo": "PG01_12VP01",
       "clave": "PG01_12VP01",
-      "profesor": "",
+      "profesor": "JOSÉ ANTONIO BELMONTE TRUJANO",
       "horarios": [
         {
           "dia": "VI",
@@ -331,7 +331,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -361,7 +361,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -391,7 +391,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -421,7 +421,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -451,7 +451,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -511,7 +511,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -1399,7 +1399,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -1525,7 +1525,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",

@@ -1,6 +1,6 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-09-07T17:01:53.447Z",
+  "fecha_actualizacion": "2026-09-08T17:01:53.260Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "total_idiomas": 15,
   "idiomas": {
@@ -8,8 +8,8 @@
       "codigo": "1",
       "slug": "aleman",
       "nombre": "ALEMÁN",
-      "hash": "1f0979f67c6f581c8f87103f167cfc26a1c6988365dcaa14447c92a48362ae18",
-      "last_changed": "2026-09-07T17:01:53.447Z"
+      "hash": "d2621d5bb429c35249fde90bc54b4c215a877f45eb61576221913d2b00ca4e0b",
+      "last_changed": "2026-09-08T17:01:53.260Z"
     },
     "2": {
       "codigo": "2",
@@ -50,22 +50,22 @@
       "codigo": "8",
       "slug": "ingles",
       "nombre": "INGLÉS",
-      "hash": "079289bbc5a1e75b72a2cd0f4827174c5e6cb08e849c630157355db99f4d890d",
-      "last_changed": "2026-09-07T17:01:53.447Z"
+      "hash": "74b7c974ede4fa26cd297bdddcaed3278aa2dcd65be0cb17f2f9e08e22074628",
+      "last_changed": "2026-09-08T17:01:53.260Z"
     },
     "9": {
       "codigo": "9",
       "slug": "italiano",
       "nombre": "ITALIANO",
-      "hash": "5b88174dc6e7fe397a883543c1ba615cd32f06c53621d9197b54fef2801853f5",
-      "last_changed": "2026-09-07T17:01:53.447Z"
+      "hash": "78e3011e8527fd1a79e000214a0293259751df1efd93078cfba6b9e4005925b3",
+      "last_changed": "2026-09-08T17:01:53.260Z"
     },
     "10": {
       "codigo": "10",
       "slug": "japones",
       "nombre": "JAPONÉS",
-      "hash": "46d490ff2573ce12009f2924b3db70eb1eb927b5849a13f28aa3e8d4de26e320",
-      "last_changed": "2026-09-06T17:01:52.092Z"
+      "hash": "2e7418ebc1a3113d3f21ceab04393366e02a50428d3966662a2c1063230dcc31",
+      "last_changed": "2026-09-08T17:01:53.260Z"
     },
     "11": {
       "codigo": "11",
@@ -92,8 +92,8 @@
       "codigo": "14",
       "slug": "portugues",
       "nombre": "PORTUGUÉS",
-      "hash": "7044179a6ef03ca8f5054a891d515a2aba3d5db78a4e28d5cb1b1d87e5bbff92",
-      "last_changed": "2026-09-07T17:01:53.447Z"
+      "hash": "f0fde134a200d4c252e0054b05f18d78062bdcb2912431896cbf9edd1d0d3cdf",
+      "last_changed": "2026-09-08T17:01:53.260Z"
     },
     "16": {
       "codigo": "16",

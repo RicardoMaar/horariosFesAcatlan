@@ -3,7 +3,7 @@
   "slug": "portugues",
   "nombre": "PORTUGUÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-07T17:03:35.236Z",
+  "fecha_consulta": "2026-09-08T17:03:38.826Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -103,7 +103,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -193,7 +193,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -283,7 +283,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -325,6 +325,36 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "PG01_16AP01",
+      "clave": "PG01_16AP01",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "16:00",
+          "fin": "18:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "16:00",
+          "fin": "18:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "14",
+      "idioma": "PORTUGUÉS",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231238",
+      "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "PG02_09VP01",
       "clave": "PG02_09VP01",
       "profesor": "JARED ORDOÑEZ PÉREZ",
@@ -337,7 +367,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "14",
       "idioma": "PORTUGUÉS",
@@ -1020,7 +1050,7 @@
       "tipo_curso": "PG",
       "nivel": "PG01",
       "modalidad": "Presencial",
-      "grupos": 11
+      "grupos": 12
     },
     {
       "tipo_curso": "PG",
