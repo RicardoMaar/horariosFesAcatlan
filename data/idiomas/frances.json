@@ -3,7 +3,7 @@
   "slug": "frances",
   "nombre": "FRANCÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-08T17:02:34.939Z",
+  "fecha_consulta": "2026-09-09T17:02:36.089Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -507,7 +507,7 @@
     {
       "grupo": "PG01_11AP02",
       "clave": "PG01_11AP02",
-      "profesor": "FRANCISCO JAVIER CERÓN LUNA",
+      "profesor": "ANA CAROLINA LUNA CHAIRES",
       "horarios": [
         {
           "dia": "LU",
