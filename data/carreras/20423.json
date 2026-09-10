@@ -1,7 +1,7 @@
 {
   "codigo": "20423",
   "nombre": "Sociología",
-  "fecha_consulta": "2026-09-09T17:01:50.892Z",
+  "fecha_consulta": "2026-09-10T17:01:48.939Z",
   "materias": {
     "1117": {
       "nombre": "ECONOMIA I",
@@ -192,7 +192,7 @@
         },
         {
           "grupo": "1102",
-          "profesor": "NUÑEZ CRUZ MARIBEL",
+          "profesor": "NO EXISTE PROFESOR",
           "horarios": [
             {
               "dia": "MA",
@@ -462,7 +462,7 @@
         },
         {
           "grupo": "1102",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MARTINEZ PORTILLO MOISES",
           "horarios": [
             {
               "dia": "MA",
@@ -833,7 +833,7 @@
         },
         {
           "grupo": "1351",
-          "profesor": "RECINAS LOPEZ SAUL",
+          "profesor": "NO EXISTE PROFESOR",
           "horarios": [
             {
               "dia": "MA",
@@ -959,7 +959,7 @@
       "grupos": [
         {
           "grupo": "1301",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RUIZ ORTEGA CHRISTIAN ALEJANDRO",
           "horarios": [
             {
               "dia": "LU",
@@ -1205,7 +1205,7 @@
       "grupos": [
         {
           "grupo": "1501",
-          "profesor": "Profesor No Asignado",
+          "profesor": "FLORES CUEVAS EDNA CATALINA",
           "horarios": [
             {
               "dia": "MA",
@@ -1325,7 +1325,7 @@
         },
         {
           "grupo": "1551",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CADENA PEDRAZA YUTZIL TANIA",
           "horarios": [
             {
               "dia": "LU",
@@ -1451,7 +1451,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MORENO TREJO ERIKA ALEJANDRA",
           "horarios": [
             {
               "dia": "MI",
@@ -1503,7 +1503,7 @@
         },
         {
           "grupo": "1705",
-          "profesor": "MORENO TREJO ERIKA ALEJANDRA",
+          "profesor": "LOPEZ GOYZUETA NELLIE JOANNINA",
           "horarios": [
             {
               "dia": "VI",
@@ -1516,7 +1516,7 @@
         },
         {
           "grupo": "1751",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RESTREPO YEPES LUIS FERNANDO",
           "horarios": [
             {
               "dia": "LU",
@@ -1529,7 +1529,7 @@
         },
         {
           "grupo": "1752",
-          "profesor": "RECINAS LOPEZ SAUL",
+          "profesor": "NO EXISTE PROFESOR",
           "horarios": [
             {
               "dia": "MI",
@@ -1555,7 +1555,7 @@
         },
         {
           "grupo": "1754",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GRANADA CARDONA JUAN SEBASTIAN",
           "horarios": [
             {
               "dia": "MI",
@@ -1794,7 +1794,7 @@
       "grupos": [
         {
           "grupo": "1705",
-          "profesor": "Profesor No Asignado",
+          "profesor": "NUÑEZ CRUZ MARIBEL",
           "horarios": [
             {
               "dia": "MA",
@@ -2104,7 +2104,7 @@
         },
         {
           "grupo": "1902",
-          "profesor": "Profesor No Asignado",
+          "profesor": "FERIA PULIDO FERMIN",
           "horarios": [
             {
               "dia": "LU",
@@ -2167,7 +2167,7 @@
       "grupos": [
         {
           "grupo": "1905",
-          "profesor": "HERNANDEZ HERNANDEZ MONICA LIZBETH",
+          "profesor": "NO EXISTE PROFESOR",
           "horarios": [
             {
               "dia": "MA",
@@ -2324,7 +2324,7 @@
         },
         {
           "grupo": "1957",
-          "profesor": "GUTIERREZ DIAZ PAULO CESAR",
+          "profesor": "NO EXISTE PROFESOR",
           "horarios": [
             {
               "dia": "MA",
@@ -2368,7 +2368,7 @@
         },
         {
           "grupo": "1956",
-          "profesor": "Profesor No Asignado",
+          "profesor": "SANDOVAL FRANCO LUIS GUALBERTO",
           "horarios": [
             {
               "dia": "MA",
@@ -2437,7 +2437,7 @@
       "grupos": [
         {
           "grupo": "1902",
-          "profesor": "Profesor No Asignado",
+          "profesor": "PEDRAZA ROSALES HECTOR MANUEL",
           "horarios": [
             {
               "dia": "MA",
@@ -4699,7 +4699,7 @@
       "grupos": [
         {
           "grupo": "1901",
-          "profesor": "PEDRAZA ROSALES HECTOR MANUEL",
+          "profesor": "CASTELLO REBOLLAR CLAUDIA",
           "horarios": [
             {
               "dia": "LU",
@@ -4749,7 +4749,7 @@
       "grupos": [
         {
           "grupo": "1951",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RUIZ ESPINOZA GABRIELA",
           "horarios": [
             {
               "dia": "MA",

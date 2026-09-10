@@ -3,7 +3,7 @@
   "slug": "italiano",
   "nombre": "ITALIANO",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-09T17:03:10.333Z",
+  "fecha_consulta": "2026-09-10T17:03:07.091Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -549,6 +549,30 @@
       "tipo_curso": "PG",
       "nivel_codigo": "231233",
       "nivel": "PG01",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "PG02_07VP01",
+      "clave": "PG02_07VP01",
+      "profesor": "MARIANA MURIEL MARTÍNEZ HERRERA",
+      "horarios": [
+        {
+          "dia": "VI",
+          "dia_nombre": "Viernes",
+          "inicio": "07:00",
+          "fin": "11:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "3",
+      "tipo_curso": "PG",
+      "nivel_codigo": "231234",
+      "nivel": "PG02",
       "modalidad_codigo": "1",
       "modalidad": "Presencial"
     },
@@ -1399,7 +1423,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "9",
       "idioma": "ITALIANO",
@@ -1548,7 +1572,7 @@
       "tipo_curso": "PG",
       "nivel": "PG02",
       "modalidad": "Presencial",
-      "grupos": 7
+      "grupos": 8
     },
     {
       "tipo_curso": "PG",

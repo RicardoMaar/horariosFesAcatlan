@@ -3,7 +3,7 @@
   "slug": "ingles",
   "nombre": "INGLÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-09T17:02:57.912Z",
+  "fecha_consulta": "2026-09-10T17:02:54.926Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -25,7 +25,37 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "2",
+      "tipo_curso": "INICIAL",
+      "nivel_codigo": "231226",
+      "nivel": "BASIC",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "BASIC_07AP03",
+      "clave": "BASIC_07AP03",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "07:00",
+          "fin": "09:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "07:00",
+          "fin": "09:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -295,7 +325,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -325,7 +355,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -445,7 +475,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -559,7 +589,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -691,6 +721,36 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "BASIC_13AP03",
+      "clave": "BASIC_13AP03",
+      "profesor": "MIGUEL ÁNGEL MURILLO GALVÁN",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "2",
+      "tipo_curso": "INICIAL",
+      "nivel_codigo": "231226",
+      "nivel": "BASIC",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "BASIC_13BP01",
       "clave": "BASIC_13BP01",
       "profesor": "LORENA ISABEL NÚÑEZ RAMOS",
@@ -739,7 +799,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -770,6 +830,36 @@
       ],
       "salon": "",
       "disponibilidad": "SATURADO",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "2",
+      "tipo_curso": "INICIAL",
+      "nivel_codigo": "231226",
+      "nivel": "BASIC",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
+      "grupo": "BASIC_13BP04",
+      "clave": "BASIC_13BP04",
+      "profesor": "MIGUEL ÁNGEL MURILLO GALVÁN",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "13:00",
+          "fin": "15:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "13:00",
+          "fin": "15:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -871,6 +961,36 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "BASIC_15BP03",
+      "clave": "BASIC_15BP03",
+      "profesor": "HÉCTOR FLORES FUENTES",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "15:00",
+          "fin": "17:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "15:00",
+          "fin": "17:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "2",
+      "tipo_curso": "INICIAL",
+      "nivel_codigo": "231226",
+      "nivel": "BASIC",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "BASIC_16AP01",
       "clave": "BASIC_16AP01",
       "profesor": "OLIVIA MIRAVETE CHASSIN",
@@ -889,7 +1009,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -919,7 +1039,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -979,7 +1099,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -1009,7 +1129,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -1189,7 +1309,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -1219,7 +1339,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -1477,7 +1597,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -1657,7 +1777,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -1851,7 +1971,7 @@
     {
       "grupo": "PG01_19BP01",
       "clave": "PG01_19BP01",
-      "profesor": "HÉCTOR FLORES FUENTES",
+      "profesor": "",
       "horarios": [
         {
           "dia": "MA",
@@ -1867,7 +1987,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -2779,7 +2899,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -2989,7 +3109,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -3373,7 +3493,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -4957,7 +5077,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -5203,7 +5323,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -5406,7 +5526,7 @@
       "tipo_curso": "INICIAL",
       "nivel": "BASIC",
       "modalidad": "Presencial",
-      "grupos": 39
+      "grupos": 43
     },
     {
       "tipo_curso": "INICIAL",
