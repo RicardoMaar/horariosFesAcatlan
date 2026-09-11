@@ -3,7 +3,7 @@
   "slug": "aleman",
   "nombre": "ALEMÁN",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-10T17:02:05.423Z",
+  "fecha_consulta": "2026-09-11T17:02:07.145Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -781,36 +781,6 @@
       "modalidad": "Presencial"
     },
     {
-      "grupo": "PG03_15AP01",
-      "clave": "PG03_15AP01",
-      "profesor": "",
-      "horarios": [
-        {
-          "dia": "LU",
-          "dia_nombre": "Lunes",
-          "inicio": "15:00",
-          "fin": "17:00"
-        },
-        {
-          "dia": "MI",
-          "dia_nombre": "Miércoles",
-          "inicio": "15:00",
-          "fin": "17:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "1",
-      "idioma": "ALEMÁN",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231257",
-      "nivel": "PG03",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
       "grupo": "PG04_11AP01",
       "clave": "PG04_11AP01",
       "profesor": "ELIZABETH TORRES PÉREZ",
@@ -1044,7 +1014,7 @@
       "tipo_curso": "PG",
       "nivel": "PG03",
       "modalidad": "Presencial",
-      "grupos": 3
+      "grupos": 2
     },
     {
       "tipo_curso": "PG",

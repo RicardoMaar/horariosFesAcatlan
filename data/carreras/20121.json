@@ -1,7 +1,7 @@
 {
   "codigo": "20121",
   "nombre": "Arquitectura",
-  "fecha_consulta": "2026-09-10T17:00:14.948Z",
+  "fecha_consulta": "2026-09-11T17:00:16.196Z",
   "materias": {
     "1100": {
       "nombre": "ARTE Y ARQUITECTURA",
@@ -4988,6 +4988,31 @@
           "salon": "Materiales"
         },
         {
+          "grupo": "1304",
+          "profesor": "ALVAREZ PICHARDO MARCELA OSSIRIS",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "10:30",
+              "fin": "13:30"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "10:30",
+              "fin": "13:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "12:00",
+              "fin": "14:00"
+            }
+          ],
+          "salon": "INF. JEFA."
+        },
+        {
           "grupo": "1311",
           "profesor": "HURTADO GARCIA SAYDA SELENE",
           "horarios": [
@@ -5336,6 +5361,31 @@
             }
           ],
           "salon": "A-416,A-416"
+        },
+        {
+          "grupo": "1553",
+          "profesor": "OCHOA TOLENTINO MIGUEL ANGEL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "17:30",
+              "fin": "20:30"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "17:30",
+              "fin": "20:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "17:30",
+              "fin": "19:30"
+            }
+          ],
+          "salon": "INF. JEFA."
         }
       ]
     },
@@ -6076,6 +6126,25 @@
             }
           ],
           "salon": "A-317"
+        },
+        {
+          "grupo": "1553",
+          "profesor": "FERNANDEZ CONTRERAS RAYMUNDO ANGEL",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "16:00",
+              "fin": "17:30"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "16:00",
+              "fin": "17:30"
+            }
+          ],
+          "salon": "INF. JEFA."
         }
       ]
     },

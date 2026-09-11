@@ -1,7 +1,7 @@
 {
   "codigo": "21121",
   "nombre": "Ingeniería Civil",
-  "fecha_consulta": "2026-09-10T17:01:11.403Z",
+  "fecha_consulta": "2026-09-11T17:01:12.719Z",
   "materias": {
     "1115": {
       "nombre": "INGENIERIA CIVIL Y SOCIEDAD",
@@ -699,6 +699,31 @@
       "nombre": "ESTATICA",
       "semestre": "02",
       "grupos": [
+        {
+          "grupo": "1202",
+          "profesor": "GAMEZ CABELLO KARLA SELENE",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "07:00",
+              "fin": "09:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "07:00",
+              "fin": "09:00"
+            }
+          ],
+          "salon": "A-228"
+        },
         {
           "grupo": "1251",
           "profesor": "RODRIGUEZ ASABAY AMADO JAVIER",
@@ -1960,6 +1985,25 @@
             }
           ],
           "salon": "A-222"
+        },
+        {
+          "grupo": "1553",
+          "profesor": "Profesor No Asignado",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "18:00",
+              "fin": "20:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "18:00",
+              "fin": "20:00"
+            }
+          ],
+          "salon": "A-222"
         }
       ]
     },
@@ -2401,6 +2445,25 @@
             }
           ],
           "salon": "A-112,A-226"
+        },
+        {
+          "grupo": "1603",
+          "profesor": "MOLINA PADILLA JULIAN",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "15:30",
+              "fin": "19:30"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "15:30",
+              "fin": "19:30"
+            }
+          ],
+          "salon": "A-225 A-112"
         },
         {
           "grupo": "1651",

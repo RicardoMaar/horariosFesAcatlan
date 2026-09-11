@@ -3,7 +3,7 @@
   "slug": "ingles",
   "nombre": "INGLÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-10T17:02:54.926Z",
+  "fecha_consulta": "2026-09-11T17:02:57.612Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -25,7 +25,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -799,7 +799,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -1349,36 +1349,6 @@
       "nivel": "BASIC",
       "modalidad_codigo": "2",
       "modalidad": "Remoto"
-    },
-    {
-      "grupo": "PG01_07AP02",
-      "clave": "PG01_07AP02",
-      "profesor": "",
-      "horarios": [
-        {
-          "dia": "LU",
-          "dia_nombre": "Lunes",
-          "inicio": "07:00",
-          "fin": "09:00"
-        },
-        {
-          "dia": "MI",
-          "dia_nombre": "Miércoles",
-          "inicio": "07:00",
-          "fin": "09:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "8",
-      "idioma": "INGLÉS",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231227",
-      "nivel": "PG01",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
     },
     {
       "grupo": "PG01_07BP01",
@@ -1958,36 +1928,6 @@
       ],
       "salon": "",
       "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "8",
-      "idioma": "INGLÉS",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231227",
-      "nivel": "PG01",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
-      "grupo": "PG01_19BP01",
-      "clave": "PG01_19BP01",
-      "profesor": "",
-      "horarios": [
-        {
-          "dia": "MA",
-          "dia_nombre": "Martes",
-          "inicio": "19:00",
-          "fin": "21:00"
-        },
-        {
-          "dia": "JU",
-          "dia_nombre": "Jueves",
-          "inicio": "19:00",
-          "fin": "21:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -4387,7 +4327,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -4411,7 +4351,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -5538,7 +5478,7 @@
       "tipo_curso": "PG",
       "nivel": "PG01",
       "modalidad": "Presencial",
-      "grupos": 22
+      "grupos": 20
     },
     {
       "tipo_curso": "PG",
