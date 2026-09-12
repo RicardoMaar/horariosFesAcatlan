@@ -3,7 +3,7 @@
   "slug": "ingles",
   "nombre": "INGLÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-11T17:02:57.612Z",
+  "fecha_consulta": "2026-09-12T17:02:57.085Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -26,36 +26,6 @@
       ],
       "salon": "",
       "disponibilidad": "SATURADO",
-      "observaciones": "",
-      "idioma_codigo": "8",
-      "idioma": "INGLÉS",
-      "tipo_curso_codigo": "2",
-      "tipo_curso": "INICIAL",
-      "nivel_codigo": "231226",
-      "nivel": "BASIC",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
-      "grupo": "BASIC_07AP03",
-      "clave": "BASIC_07AP03",
-      "profesor": "",
-      "horarios": [
-        {
-          "dia": "LU",
-          "dia_nombre": "Lunes",
-          "inicio": "07:00",
-          "fin": "09:00"
-        },
-        {
-          "dia": "MI",
-          "dia_nombre": "Miércoles",
-          "inicio": "07:00",
-          "fin": "09:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -385,7 +355,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -415,7 +385,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -1039,7 +1009,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -1099,7 +1069,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -1129,7 +1099,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -1465,36 +1435,6 @@
       "modalidad": "Presencial"
     },
     {
-      "grupo": "PG01_09BP02",
-      "clave": "PG01_09BP02",
-      "profesor": "RAQUEL RAFAEL MONSALVO",
-      "horarios": [
-        {
-          "dia": "MA",
-          "dia_nombre": "Martes",
-          "inicio": "09:00",
-          "fin": "11:00"
-        },
-        {
-          "dia": "JU",
-          "dia_nombre": "Jueves",
-          "inicio": "09:00",
-          "fin": "11:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "8",
-      "idioma": "INGLÉS",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231227",
-      "nivel": "PG01",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
       "grupo": "PG01_09VP01",
       "clave": "PG01_09VP01",
       "profesor": "ABRIL ARRAZOLA CARDENAS",
@@ -1507,7 +1447,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -2941,66 +2881,6 @@
       "modalidad": "Presencial"
     },
     {
-      "grupo": "PG03_17AP01",
-      "clave": "PG03_17AP01",
-      "profesor": "MIGUEL ÁNGEL MURILLO GALVÁN",
-      "horarios": [
-        {
-          "dia": "LU",
-          "dia_nombre": "Lunes",
-          "inicio": "17:00",
-          "fin": "19:00"
-        },
-        {
-          "dia": "MI",
-          "dia_nombre": "Miércoles",
-          "inicio": "17:00",
-          "fin": "19:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "8",
-      "idioma": "INGLÉS",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231229",
-      "nivel": "PG03",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
-      "grupo": "PG03_19AP02",
-      "clave": "PG03_19AP02",
-      "profesor": "MIGUEL ÁNGEL MURILLO GALVÁN",
-      "horarios": [
-        {
-          "dia": "LU",
-          "dia_nombre": "Lunes",
-          "inicio": "19:00",
-          "fin": "21:00"
-        },
-        {
-          "dia": "MI",
-          "dia_nombre": "Miércoles",
-          "inicio": "19:00",
-          "fin": "21:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "8",
-      "idioma": "INGLÉS",
-      "tipo_curso_codigo": "3",
-      "tipo_curso": "PG",
-      "nivel_codigo": "231229",
-      "nivel": "PG03",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
       "grupo": "PG03_07AR01",
       "clave": "PG03_07AR01",
       "profesor": "ELIZABETH TORRES RANGEL",
@@ -3229,7 +3109,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -4795,42 +4675,6 @@
       "modalidad": "Presencial"
     },
     {
-      "grupo": "CL01_SEMI-INTENSIVO_14GP04",
-      "clave": "CL01_SEMI-INTENSIVO_14GP04",
-      "profesor": "ANTONIO MARIO SERVÍN MEDINA",
-      "horarios": [
-        {
-          "dia": "MA",
-          "dia_nombre": "Martes",
-          "inicio": "14:00",
-          "fin": "16:00"
-        },
-        {
-          "dia": "MI",
-          "dia_nombre": "Miércoles",
-          "inicio": "14:00",
-          "fin": "16:00"
-        },
-        {
-          "dia": "JU",
-          "dia_nombre": "Jueves",
-          "inicio": "14:00",
-          "fin": "16:00"
-        }
-      ],
-      "salon": "",
-      "disponibilidad": "",
-      "observaciones": "",
-      "idioma_codigo": "8",
-      "idioma": "INGLÉS",
-      "tipo_curso_codigo": "6",
-      "tipo_curso": "SEMI-INTENSIVOS",
-      "nivel_codigo": "231382",
-      "nivel": "CL01_SEMI-INTENSIVO",
-      "modalidad_codigo": "1",
-      "modalidad": "Presencial"
-    },
-    {
       "grupo": "CL01_SEMI-INTENSIVO_14GP05",
       "clave": "CL01_SEMI-INTENSIVO_14GP05",
       "profesor": "ELIZABETH TORRES RANGEL",
@@ -5466,7 +5310,7 @@
       "tipo_curso": "INICIAL",
       "nivel": "BASIC",
       "modalidad": "Presencial",
-      "grupos": 43
+      "grupos": 42
     },
     {
       "tipo_curso": "INICIAL",
@@ -5478,7 +5322,7 @@
       "tipo_curso": "PG",
       "nivel": "PG01",
       "modalidad": "Presencial",
-      "grupos": 20
+      "grupos": 19
     },
     {
       "tipo_curso": "PG",
@@ -5502,7 +5346,7 @@
       "tipo_curso": "PG",
       "nivel": "PG03",
       "modalidad": "Presencial",
-      "grupos": 12
+      "grupos": 10
     },
     {
       "tipo_curso": "PG",
@@ -5586,7 +5430,7 @@
       "tipo_curso": "SEMI-INTENSIVOS",
       "nivel": "CL01_SEMI-INTENSIVO",
       "modalidad": "Presencial",
-      "grupos": 23
+      "grupos": 22
     },
     {
       "tipo_curso": "SEMI-INTENSIVOS",
