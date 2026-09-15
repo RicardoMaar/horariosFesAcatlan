@@ -3,7 +3,7 @@
   "slug": "frances",
   "nombre": "FRANCÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-14T17:02:34.981Z",
+  "fecha_consulta": "2026-09-15T17:04:19.570Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -583,7 +583,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "5",
       "idioma": "FRANCÉS",
