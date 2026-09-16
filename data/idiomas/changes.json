@@ -1,22 +1,6 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-09-15T17:03:15.637Z",
-  "total_cambios": 3,
-  "idiomas": [
-    {
-      "codigo": "5",
-      "slug": "frances",
-      "nombre": "FRANCÉS"
-    },
-    {
-      "codigo": "8",
-      "slug": "ingles",
-      "nombre": "INGLÉS"
-    },
-    {
-      "codigo": "14",
-      "slug": "portugues",
-      "nombre": "PORTUGUÉS"
-    }
-  ]
+  "fecha_actualizacion": "2026-09-16T17:01:54.313Z",
+  "total_cambios": 0,
+  "idiomas": []
 }
