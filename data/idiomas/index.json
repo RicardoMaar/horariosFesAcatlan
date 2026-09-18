@@ -1,6 +1,6 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-09-17T17:01:50.978Z",
+  "fecha_actualizacion": "2026-09-18T17:01:50.034Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "total_idiomas": 15,
   "idiomas": {
@@ -50,7 +50,7 @@
       "codigo": "9",
       "slug": "italiano",
       "nombre": "ITALIANO",
-      "total_grupos": 51
+      "total_grupos": 52
     },
     "10": {
       "codigo": "10",

@@ -3,7 +3,7 @@
   "slug": "italiano",
   "nombre": "ITALIANO",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-17T17:03:09.901Z",
+  "fecha_consulta": "2026-09-18T17:03:05.820Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -1351,6 +1351,36 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "CL01_SEMI-INTENSIVO_15BP01",
+      "clave": "CL01_SEMI-INTENSIVO_15BP01",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "15:00",
+          "fin": "18:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "15:00",
+          "fin": "18:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "9",
+      "idioma": "ITALIANO",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231384",
+      "nivel": "CL01_SEMI-INTENSIVO",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "CL01_SEMI-INTENSIVO_19BR01",
       "clave": "CL01_SEMI-INTENSIVO_19BR01",
       "profesor": "LUISA GUADALUPE ARELLANO CARRASCO",
@@ -1566,7 +1596,7 @@
       "tipo_curso": "SEMI-INTENSIVOS",
       "nivel": "CL01_SEMI-INTENSIVO",
       "modalidad": "Presencial",
-      "grupos": 3
+      "grupos": 4
     },
     {
       "tipo_curso": "SEMI-INTENSIVOS",

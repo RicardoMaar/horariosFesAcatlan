@@ -3,7 +3,7 @@
   "slug": "ingles",
   "nombre": "INGLÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-17T17:02:57.497Z",
+  "fecha_consulta": "2026-09-18T17:02:53.082Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -1927,7 +1927,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "",
+      "disponibilidad": "SATURADO",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
@@ -3613,7 +3613,7 @@
         }
       ],
       "salon": "",
-      "disponibilidad": "SATURADO",
+      "disponibilidad": "",
       "observaciones": "",
       "idioma_codigo": "8",
       "idioma": "INGLÉS",
