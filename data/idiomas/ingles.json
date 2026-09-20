@@ -3,7 +3,7 @@
   "slug": "ingles",
   "nombre": "INGLÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-19T17:02:54.218Z",
+  "fecha_consulta": "2026-09-20T17:02:53.129Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -4135,6 +4135,84 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "TALLER Y LAB_15LR01",
+      "clave": "TALLER Y LAB_15LR01",
+      "profesor": "EMMA NAVARRETE HERNÁNDEZ",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "15:00",
+          "fin": "19:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "5",
+      "tipo_curso": "TALLERES",
+      "nivel_codigo": "231368",
+      "nivel": "TALLER Y LAB",
+      "modalidad_codigo": "2",
+      "modalidad": "Remoto"
+    },
+    {
+      "grupo": "TALLER Y LAB_15MR01",
+      "clave": "TALLER Y LAB_15MR01",
+      "profesor": "EMMA NAVARRETE HERNÁNDEZ",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "15:00",
+          "fin": "19:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "5",
+      "tipo_curso": "TALLERES",
+      "nivel_codigo": "231368",
+      "nivel": "TALLER Y LAB",
+      "modalidad_codigo": "2",
+      "modalidad": "Remoto"
+    },
+    {
+      "grupo": "TALLER Y LAB_19AIR01",
+      "clave": "TALLER Y LAB_19AIR01",
+      "profesor": "EMMA NAVARRETE HERNÁNDEZ",
+      "horarios": [
+        {
+          "dia": "LU",
+          "dia_nombre": "Lunes",
+          "inicio": "19:00",
+          "fin": "21:00"
+        },
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "19:00",
+          "fin": "21:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "5",
+      "tipo_curso": "TALLERES",
+      "nivel_codigo": "231368",
+      "nivel": "TALLER Y LAB",
+      "modalidad_codigo": "2",
+      "modalidad": "Remoto"
+    },
+    {
       "grupo": "CL01_SEMI-INTENSIVO_07VP01",
       "clave": "CL01_SEMI-INTENSIVO_07VP01",
       "profesor": "ERIKA CLAUDIA BADILLO SOLÍS",
@@ -5425,6 +5503,12 @@
       "nivel": "TOEFL",
       "modalidad": "Presencial",
       "grupos": 0
+    },
+    {
+      "tipo_curso": "TALLERES",
+      "nivel": "TALLER Y LAB",
+      "modalidad": "Remoto",
+      "grupos": 3
     },
     {
       "tipo_curso": "SEMI-INTENSIVOS",
