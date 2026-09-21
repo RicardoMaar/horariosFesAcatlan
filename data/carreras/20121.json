@@ -1,7 +1,7 @@
 {
   "codigo": "20121",
   "nombre": "Arquitectura",
-  "fecha_consulta": "2026-09-20T17:00:11.940Z",
+  "fecha_consulta": "2026-09-21T17:00:14.899Z",
   "materias": {
     "1100": {
       "nombre": "ARTE Y ARQUITECTURA",
@@ -4914,7 +4914,7 @@
       "grupos": [
         {
           "grupo": "1301",
-          "profesor": "ZETINA CASTILLO CARLOS BORROMEO",
+          "profesor": "ROSAS MIGUEL MARIA ELENA ABIGAIL",
           "horarios": [
             {
               "dia": "MI",
@@ -5604,7 +5604,7 @@
         },
         {
           "grupo": "1363",
-          "profesor": "DIAZ NAJAR MARIA LA O. PALOMA",
+          "profesor": "NO EXISTE PROFESOR",
           "horarios": [
             {
               "dia": "LU",
@@ -5901,7 +5901,7 @@
       "grupos": [
         {
           "grupo": "1501",
-          "profesor": "ALVARADO VELAZQUEZ MARIA TERESA",
+          "profesor": "NO EXISTE PROFESOR",
           "horarios": [
             {
               "dia": "MA",
@@ -6015,7 +6015,7 @@
         },
         {
           "grupo": "1561",
-          "profesor": "ALVARADO VELAZQUEZ MARIA TERESA",
+          "profesor": "MIRANDA URIBE RAFAEL",
           "horarios": [
             {
               "dia": "LU",
@@ -6940,7 +6940,7 @@
         },
         {
           "grupo": "1651",
-          "profesor": "ALVARADO VELAZQUEZ MARIA TERESA",
+          "profesor": "NO EXISTE PROFESOR",
           "horarios": [
             {
               "dia": "LU",
@@ -7261,7 +7261,7 @@
         },
         {
           "grupo": "1611",
-          "profesor": "CRUZ JUAREZ CLAUDIA HAYDEE",
+          "profesor": "NUÑEZ CABRERA ALBERTO",
           "horarios": [
             {
               "dia": "MI",
@@ -7564,7 +7564,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "ALVARADO VELAZQUEZ MARIA TERESA",
+          "profesor": "MIRANDA URIBE RAFAEL",
           "horarios": [
             {
               "dia": "LU",
@@ -7583,7 +7583,7 @@
         },
         {
           "grupo": "1702",
-          "profesor": "BLESSING GOMEZ EDGAR OSCAR DE JESUS",
+          "profesor": "ALVAREZ VICTORIA MARIO",
           "horarios": [
             {
               "dia": "MA",
@@ -7666,7 +7666,7 @@
         },
         {
           "grupo": "1761",
-          "profesor": "ALVARADO VELAZQUEZ MARIA TERESA",
+          "profesor": "NO EXISTE PROFESOR",
           "horarios": [
             {
               "dia": "MI",
@@ -7679,7 +7679,7 @@
         },
         {
           "grupo": "1762",
-          "profesor": "ALVAREZ VICTORIA MARIO",
+          "profesor": "ELIZARRAGA RIVERA RUBEN",
           "horarios": [
             {
               "dia": "MI",
@@ -7711,7 +7711,7 @@
         },
         {
           "grupo": "1702",
-          "profesor": "BERMUDEZ ALEJO JOSE LUIS",
+          "profesor": "ALVAREZ PICHARDO MARCELA OSSIRIS",
           "horarios": [
             {
               "dia": "LU",
@@ -7958,7 +7958,7 @@
         },
         {
           "grupo": "1771",
-          "profesor": "RODRIGUEZ LOPEZ JOSE CARLOS FRANCISCO",
+          "profesor": "FUENTES VILLAR MANUEL GERARDO",
           "horarios": [
             {
               "dia": "MA",
