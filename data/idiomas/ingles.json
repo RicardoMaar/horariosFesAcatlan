@@ -3,7 +3,7 @@
   "slug": "ingles",
   "nombre": "INGLÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-22T17:02:57.341Z",
+  "fecha_consulta": "2026-09-23T17:03:01.801Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -4753,6 +4753,42 @@
       "modalidad": "Presencial"
     },
     {
+      "grupo": "CL01_SEMI-INTENSIVO_14GP04",
+      "clave": "CL01_SEMI-INTENSIVO_14GP04",
+      "profesor": "",
+      "horarios": [
+        {
+          "dia": "MA",
+          "dia_nombre": "Martes",
+          "inicio": "14:00",
+          "fin": "16:00"
+        },
+        {
+          "dia": "MI",
+          "dia_nombre": "Miércoles",
+          "inicio": "14:00",
+          "fin": "16:00"
+        },
+        {
+          "dia": "JU",
+          "dia_nombre": "Jueves",
+          "inicio": "14:00",
+          "fin": "16:00"
+        }
+      ],
+      "salon": "",
+      "disponibilidad": "",
+      "observaciones": "",
+      "idioma_codigo": "8",
+      "idioma": "INGLÉS",
+      "tipo_curso_codigo": "6",
+      "tipo_curso": "SEMI-INTENSIVOS",
+      "nivel_codigo": "231382",
+      "nivel": "CL01_SEMI-INTENSIVO",
+      "modalidad_codigo": "1",
+      "modalidad": "Presencial"
+    },
+    {
       "grupo": "CL01_SEMI-INTENSIVO_14GP05",
       "clave": "CL01_SEMI-INTENSIVO_14GP05",
       "profesor": "ELIZABETH TORRES RANGEL",
@@ -5514,7 +5550,7 @@
       "tipo_curso": "SEMI-INTENSIVOS",
       "nivel": "CL01_SEMI-INTENSIVO",
       "modalidad": "Presencial",
-      "grupos": 22
+      "grupos": 23
     },
     {
       "tipo_curso": "SEMI-INTENSIVOS",

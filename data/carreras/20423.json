@@ -1,7 +1,7 @@
 {
   "codigo": "20423",
   "nombre": "Sociología",
-  "fecha_consulta": "2026-09-22T17:01:50.395Z",
+  "fecha_consulta": "2026-09-23T17:01:51.333Z",
   "materias": {
     "1117": {
       "nombre": "ECONOMIA I",
@@ -192,19 +192,19 @@
         },
         {
           "grupo": "1102",
-          "profesor": "NO EXISTE PROFESOR",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "MA",
               "dia_nombre": "Martes",
-              "inicio": "11:00",
-              "fin": "13:00"
+              "inicio": "09:00",
+              "fin": "11:00"
             },
             {
               "dia": "JU",
               "dia_nombre": "Jueves",
-              "inicio": "11:00",
-              "fin": "13:00"
+              "inicio": "09:00",
+              "fin": "11:00"
             }
           ],
           "salon": "A-613"

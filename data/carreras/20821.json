@@ -1,7 +1,7 @@
 {
   "codigo": "20821",
   "nombre": "Economía",
-  "fecha_consulta": "2026-09-22T17:00:47.427Z",
+  "fecha_consulta": "2026-09-23T17:00:48.256Z",
   "materias": {
     "2120": {
       "nombre": "ALGEBRA LINEAL",
@@ -167,7 +167,7 @@
         },
         {
           "grupo": "1151",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ORDUÑA REYES FRANCISCO",
           "horarios": [
             {
               "dia": "MA",
@@ -623,7 +623,7 @@
         },
         {
           "grupo": "1303",
-          "profesor": "Profesor No Asignado",
+          "profesor": "URIBE CERON RICARDO DE JESUS",
           "horarios": [
             {
               "dia": "MA",
@@ -699,7 +699,7 @@
         },
         {
           "grupo": "1302",
-          "profesor": "CORDOVA AQUINO RAMON HUMBERTO",
+          "profesor": "GUERRERO CHAVEZ GUILLERMO GABRIEL",
           "horarios": [
             {
               "dia": "VI",
@@ -1420,7 +1420,7 @@
         },
         {
           "grupo": "1551",
-          "profesor": "CORDOVA AQUINO RAMON HUMBERTO",
+          "profesor": "BUSTAMANTE TORRES JORGE ALONSO",
           "horarios": [
             {
               "dia": "LU",
@@ -1868,7 +1868,7 @@
       "grupos": [
         {
           "grupo": "1501",
-          "profesor": "VAZQUEZ CRUZ ERNESTO",
+          "profesor": "GUTIERREZ SORIA FEDERICO DE JESUS",
           "horarios": [
             {
               "dia": "VI",
@@ -1943,7 +1943,7 @@
         },
         {
           "grupo": "1504",
-          "profesor": "MADRAZO GRANADOS FRANCISCO EDUARDO",
+          "profesor": "ZAPATA GORDILLO MARIA MONSERRAT",
           "horarios": [
             {
               "dia": "VI",
@@ -2358,7 +2358,7 @@
         },
         {
           "grupo": "1751",
-          "profesor": "ZAPATA GORDILLO MARIA MONSERRAT",
+          "profesor": "NO EXISTE PROFESOR",
           "horarios": [
             {
               "dia": "MA",
@@ -2729,7 +2729,7 @@
         },
         {
           "grupo": "2904",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MADRAZO GRANADOS FRANCISCO EDUARDO",
           "horarios": [
             {
               "dia": "VI",
@@ -2870,7 +2870,7 @@
         },
         {
           "grupo": "2904",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MADRAZO GRANADOS FRANCISCO EDUARDO",
           "horarios": [
             {
               "dia": "LU",
@@ -3176,7 +3176,7 @@
       "grupos": [
         {
           "grupo": "2901",
-          "profesor": "HERNANDEZ DELGADO MOISES",
+          "profesor": "MEMBRILLO ZARCO VICTOR",
           "horarios": [
             {
               "dia": "MA",
@@ -3189,7 +3189,7 @@
         },
         {
           "grupo": "2951",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GALAN FIGUEROA JAVIER",
           "horarios": [
             {
               "dia": "MA",

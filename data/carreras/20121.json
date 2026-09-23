@@ -1,7 +1,7 @@
 {
   "codigo": "20121",
   "nombre": "Arquitectura",
-  "fecha_consulta": "2026-09-22T17:00:16.121Z",
+  "fecha_consulta": "2026-09-23T17:00:15.325Z",
   "materias": {
     "1100": {
       "nombre": "ARTE Y ARQUITECTURA",
@@ -5604,7 +5604,7 @@
         },
         {
           "grupo": "1363",
-          "profesor": "NO EXISTE PROFESOR",
+          "profesor": "GARCIA SOTO FATIMA",
           "horarios": [
             {
               "dia": "LU",
@@ -5901,7 +5901,7 @@
       "grupos": [
         {
           "grupo": "1501",
-          "profesor": "NO EXISTE PROFESOR",
+          "profesor": "CASTRO GARCIA VERONICA GUADALUPE",
           "horarios": [
             {
               "dia": "MA",
@@ -6451,7 +6451,7 @@
         },
         {
           "grupo": "1562",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RANGEL CORDERO RAFAEL",
           "horarios": [
             {
               "dia": "MI",
@@ -6940,7 +6940,7 @@
         },
         {
           "grupo": "1651",
-          "profesor": "NO EXISTE PROFESOR",
+          "profesor": "FUENTES FREIXANET VICTOR ARMANDO",
           "horarios": [
             {
               "dia": "LU",
@@ -7666,7 +7666,7 @@
         },
         {
           "grupo": "1761",
-          "profesor": "NO EXISTE PROFESOR",
+          "profesor": "AVILA MARTINEZ MIGUEL ANGEL",
           "horarios": [
             {
               "dia": "MI",
@@ -9287,7 +9287,7 @@
       "grupos": [
         {
           "grupo": "1901",
-          "profesor": "Profesor No Asignado",
+          "profesor": "VELASCO MALDONADO PAULO CESAR",
           "horarios": [
             {
               "dia": "MI",
