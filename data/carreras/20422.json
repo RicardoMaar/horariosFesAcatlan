@@ -1,11 +1,11 @@
 {
   "codigo": "20422",
   "nombre": "Ciencias Políticas y Admon. Pública",
-  "fecha_consulta": "2026-09-23T17:00:21.726Z",
+  "fecha_consulta": "2026-09-24T17:00:23.211Z",
   "materias": {
     "1059": {
       "nombre": "ADMINISTRACION AMBIENTAL MUNICIP",
-      "semestre": "07",
+      "semestre": "40",
       "grupos": [
         {
           "grupo": "1701",
@@ -30,7 +30,7 @@
     },
     "1060": {
       "nombre": "ADMINISTRACION DE PROCESOS ELECT",
-      "semestre": "07",
+      "semestre": "40",
       "grupos": [
         {
           "grupo": "1701",
@@ -55,7 +55,7 @@
     },
     "1061": {
       "nombre": "CONTROL GESTION-EVAL.DEL DESEMPE",
-      "semestre": "07",
+      "semestre": "40",
       "grupos": [
         {
           "grupo": "1701",
@@ -80,7 +80,7 @@
     },
     "1062": {
       "nombre": "CULTURA POL.OPINION PUB.CONST.CI",
-      "semestre": "07",
+      "semestre": "40",
       "grupos": [
         {
           "grupo": "1701",
@@ -124,7 +124,7 @@
     },
     "1063": {
       "nombre": "DERECHO ELECTORAL MEXICANO",
-      "semestre": "07",
+      "semestre": "40",
       "grupos": [
         {
           "grupo": "1751",
@@ -149,7 +149,7 @@
     },
     "1067": {
       "nombre": "HDA.PUB.FED. ESTATAL.MUNIC.MEXIC",
-      "semestre": "07",
+      "semestre": "40",
       "grupos": [
         {
           "grupo": "1701",
@@ -193,7 +193,7 @@
     },
     "1068": {
       "nombre": "INSTRUMENTOS FINACIAM.PARA DESAR",
-      "semestre": "07",
+      "semestre": "40",
       "grupos": [
         {
           "grupo": "1701",
@@ -218,7 +218,7 @@
     },
     "1073": {
       "nombre": "SEGURIDAD CIUDADANA",
-      "semestre": "07",
+      "semestre": "40",
       "grupos": [
         {
           "grupo": "1701",
@@ -243,7 +243,7 @@
     },
     "1074": {
       "nombre": "SERVICIOS PUBLICOS Y GESTION DE",
-      "semestre": "07",
+      "semestre": "40",
       "grupos": [
         {
           "grupo": "1701",
@@ -262,7 +262,7 @@
               "fin": "11:00"
             }
           ],
-          "salon": "A-212"
+          "salon": "A-1213"
         },
         {
           "grupo": "1751",
@@ -287,7 +287,7 @@
     },
     "1076": {
       "nombre": "TRANSPARENCIA Y RENDICION DE CUE",
-      "semestre": "07",
+      "semestre": "40",
       "grupos": [
         {
           "grupo": "1701",
@@ -445,7 +445,7 @@
               "fin": "15:00"
             }
           ],
-          "salon": "INF.EN JEFA"
+          "salon": "A DISTANCIA"
         }
       ]
     },
@@ -647,7 +647,7 @@
               "fin": "21:00"
             }
           ],
-          "salon": "A-625"
+          "salon": "A-626"
         }
       ]
     },
@@ -1062,7 +1062,7 @@
               "fin": "09:00"
             }
           ],
-          "salon": "INF. JEFA."
+          "salon": "A-8102"
         },
         {
           "grupo": "1351",
@@ -1706,7 +1706,7 @@
               "fin": "11:00"
             }
           ],
-          "salon": "INF.EN JEFA"
+          "salon": "A-1225"
         },
         {
           "grupo": "1503",
@@ -2110,7 +2110,7 @@
               "fin": "11:00"
             }
           ],
-          "salon": "INF.EN JEFA"
+          "salon": "A-212"
         },
         {
           "grupo": "1503",
@@ -2129,7 +2129,7 @@
               "fin": "11:00"
             }
           ],
-          "salon": "INF.EN JEFA"
+          "salon": "A-212"
         },
         {
           "grupo": "1551",
@@ -2255,7 +2255,7 @@
               "fin": "11:00"
             }
           ],
-          "salon": "INF.EN JEFA"
+          "salon": "A-214"
         },
         {
           "grupo": "1751",
@@ -2368,7 +2368,7 @@
               "fin": "11:00"
             }
           ],
-          "salon": "INF.EN JEFA"
+          "salon": "A-1227"
         }
       ]
     },
@@ -2481,7 +2481,7 @@
               "fin": "17:00"
             }
           ],
-          "salon": "INF.EN JEFA"
+          "salon": "A-1521"
         }
       ]
     },
@@ -2525,7 +2525,7 @@
               "fin": "21:00"
             }
           ],
-          "salon": "A-622"
+          "salon": "A-625"
         }
       ]
     },

@@ -1,7 +1,7 @@
 {
   "codigo": "20421",
   "nombre": "Relaciones Internacionales",
-  "fecha_consulta": "2026-09-23T17:01:44.913Z",
+  "fecha_consulta": "2026-09-24T17:01:44.857Z",
   "materias": {
     "1089": {
       "nombre": "ACCION EXTERIOR DE GOBIERNOS LOC",
@@ -1448,7 +1448,7 @@
               "fin": "13:00"
             }
           ],
-          "salon": "A-623"
+          "salon": "A-725"
         },
         {
           "grupo": "1151",
@@ -2001,7 +2001,7 @@
               "fin": "13:00"
             }
           ],
-          "salon": "A-612"
+          "salon": "A-623"
         },
         {
           "grupo": "1302",
@@ -2517,7 +2517,7 @@
               "fin": "13:00"
             }
           ],
-          "salon": "A-725"
+          "salon": "A-1224"
         },
         {
           "grupo": "1502",
@@ -3866,7 +3866,7 @@
               "fin": "11:00"
             }
           ],
-          "salon": "A-1512"
+          "salon": "A-219"
         },
         {
           "grupo": "1903",
@@ -4262,6 +4262,25 @@
             }
           ],
           "salon": "A-1511"
+        },
+        {
+          "grupo": "Q552",
+          "profesor": "ALONSO QUINTANA MARIA GUADALUPE",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "15:00",
+              "fin": "17:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "15:00",
+              "fin": "17:00"
+            }
+          ],
+          "salon": "A-1521"
         }
       ]
     },
@@ -4381,6 +4400,25 @@
             }
           ],
           "salon": "A-612"
+        },
+        {
+          "grupo": "Q353",
+          "profesor": "RENTERIA MARTINEZ CARLOS AUGUSTO",
+          "horarios": [
+            {
+              "dia": "MA",
+              "dia_nombre": "Martes",
+              "inicio": "17:00",
+              "fin": "19:00"
+            },
+            {
+              "dia": "JU",
+              "dia_nombre": "Jueves",
+              "inicio": "17:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-615"
         }
       ]
     },
@@ -4431,6 +4469,25 @@
             }
           ],
           "salon": "A-612"
+        },
+        {
+          "grupo": "Q753",
+          "profesor": "PAZ ARROYO JUAN CARLOS",
+          "horarios": [
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "17:00",
+              "fin": "19:00"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "17:00",
+              "fin": "19:00"
+            }
+          ],
+          "salon": "A-614"
         }
       ]
     },
@@ -4506,6 +4563,25 @@
             }
           ],
           "salon": "A-1521,A-15"
+        },
+        {
+          "grupo": "Q952",
+          "profesor": "MONJARAZ DOMINGUEZ JORGE ALFONSO",
+          "horarios": [
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "17:00",
+              "fin": "19:00"
+            },
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "17:00",
+              "fin": "21:00"
+            }
+          ],
+          "salon": "A-215,A-215"
         },
         {
           "grupo": "Q953",

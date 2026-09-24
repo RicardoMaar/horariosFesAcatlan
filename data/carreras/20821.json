@@ -1,7 +1,7 @@
 {
   "codigo": "20821",
   "nombre": "Economía",
-  "fecha_consulta": "2026-09-23T17:00:48.256Z",
+  "fecha_consulta": "2026-09-24T17:00:48.294Z",
   "materias": {
     "2120": {
       "nombre": "ALGEBRA LINEAL",
@@ -2358,7 +2358,7 @@
         },
         {
           "grupo": "1751",
-          "profesor": "NO EXISTE PROFESOR",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "MA",
@@ -2986,7 +2986,7 @@
     },
     "0010": {
       "nombre": "COMERCIO EXTERIOR MEXICANO",
-      "semestre": "09",
+      "semestre": "40",
       "grupos": [
         {
           "grupo": "2901",
@@ -3018,7 +3018,7 @@
     },
     "0011": {
       "nombre": "ECONOMETRIA ESPACIAL",
-      "semestre": "09",
+      "semestre": "40",
       "grupos": [
         {
           "grupo": "2901",
@@ -3050,7 +3050,7 @@
     },
     "0012": {
       "nombre": "ECONOMIA DE INNOVACION",
-      "semestre": "09",
+      "semestre": "40",
       "grupos": [
         {
           "grupo": "2901",
@@ -3095,7 +3095,7 @@
     },
     "0013": {
       "nombre": "MICROFINANZAS",
-      "semestre": "09",
+      "semestre": "40",
       "grupos": [
         {
           "grupo": "2901",
@@ -3127,7 +3127,7 @@
     },
     "0014": {
       "nombre": "MODELOS BASADOS EN AGENTES",
-      "semestre": "09",
+      "semestre": "40",
       "grupos": [
         {
           "grupo": "2901",
@@ -3172,7 +3172,7 @@
     },
     "0015": {
       "nombre": "TEMAS SELECTOS DE ECONOMIA FINAN",
-      "semestre": "09",
+      "semestre": "40",
       "grupos": [
         {
           "grupo": "2901",

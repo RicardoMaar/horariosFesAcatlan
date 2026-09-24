@@ -1,7 +1,7 @@
 {
   "codigo": "20423",
   "nombre": "Sociología",
-  "fecha_consulta": "2026-09-23T17:01:51.333Z",
+  "fecha_consulta": "2026-09-24T17:01:51.164Z",
   "materias": {
     "1117": {
       "nombre": "ECONOMIA I",
@@ -192,7 +192,7 @@
         },
         {
           "grupo": "1102",
-          "profesor": "Profesor No Asignado",
+          "profesor": "NUÑEZ CRUZ MARIBEL",
           "horarios": [
             {
               "dia": "MA",
@@ -833,7 +833,7 @@
         },
         {
           "grupo": "1351",
-          "profesor": "NO EXISTE PROFESOR",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "MA",
@@ -1529,7 +1529,7 @@
         },
         {
           "grupo": "1752",
-          "profesor": "NO EXISTE PROFESOR",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "MI",
@@ -2167,7 +2167,7 @@
       "grupos": [
         {
           "grupo": "1905",
-          "profesor": "NO EXISTE PROFESOR",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "MA",
@@ -2324,7 +2324,7 @@
         },
         {
           "grupo": "1957",
-          "profesor": "NO EXISTE PROFESOR",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "MA",
@@ -2732,7 +2732,7 @@
       "grupos": [
         {
           "grupo": "Q905",
-          "profesor": "HERNANDEZ HERNANDEZ MONICA LIZBETH",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "MA",
@@ -2902,7 +2902,7 @@
         },
         {
           "grupo": "Q957",
-          "profesor": "GUTIERREZ DIAZ PAULO CESAR",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "MA",
@@ -3204,7 +3204,7 @@
         },
         {
           "grupo": "Q102",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MARTINEZ PORTILLO MOISES",
           "horarios": [
             {
               "dia": "MA",
@@ -3744,7 +3744,7 @@
         },
         {
           "grupo": "Q351",
-          "profesor": "RECINAS LOPEZ SAUL",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "MA",
@@ -3788,7 +3788,7 @@
       "grupos": [
         {
           "grupo": "Q301",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RUIZ ORTEGA CHRISTIAN ALEJANDRO",
           "horarios": [
             {
               "dia": "LU",
@@ -4053,7 +4053,7 @@
         },
         {
           "grupo": "Q102",
-          "profesor": "NUÑEZ CRUZ MARIBEL",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "MA",
@@ -4324,7 +4324,7 @@
       "grupos": [
         {
           "grupo": "Q701",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MORENO TREJO ERIKA ALEJANDRA",
           "horarios": [
             {
               "dia": "MI",
@@ -4376,7 +4376,7 @@
         },
         {
           "grupo": "Q705",
-          "profesor": "MORENO TREJO ERIKA ALEJANDRA",
+          "profesor": "LOPEZ GOYZUETA NELLIE JOANNINA",
           "horarios": [
             {
               "dia": "VI",
@@ -4389,7 +4389,7 @@
         },
         {
           "grupo": "Q752",
-          "profesor": "RECINAS LOPEZ SAUL",
+          "profesor": "Profesor No Asignado",
           "horarios": [
             {
               "dia": "MI",

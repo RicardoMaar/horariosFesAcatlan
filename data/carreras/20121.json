@@ -1,7 +1,7 @@
 {
   "codigo": "20121",
   "nombre": "Arquitectura",
-  "fecha_consulta": "2026-09-23T17:00:15.325Z",
+  "fecha_consulta": "2026-09-24T17:00:17.006Z",
   "materias": {
     "1100": {
       "nombre": "ARTE Y ARQUITECTURA",
@@ -2059,7 +2059,7 @@
         },
         {
           "grupo": "1102",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CERON RODRIGUEZ ADRIANA GISELLE",
           "horarios": [
             {
               "dia": "MA",
@@ -2134,7 +2134,7 @@
         },
         {
           "grupo": "1105",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CERVANTES SANCHEZ CLAUDIA ROCIO",
           "horarios": [
             {
               "dia": "LU",
@@ -2159,7 +2159,7 @@
         },
         {
           "grupo": "1111",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CASTRO GARCIA VERONICA GUADALUPE",
           "horarios": [
             {
               "dia": "LU",
@@ -2209,7 +2209,7 @@
         },
         {
           "grupo": "1113",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GARCIA SOTO FATIMA",
           "horarios": [
             {
               "dia": "LU",
@@ -2284,7 +2284,7 @@
         },
         {
           "grupo": "1151",
-          "profesor": "Profesor No Asignado",
+          "profesor": "LUCAS MARTINEZ ALMA LESLIE",
           "horarios": [
             {
               "dia": "MA",
@@ -2384,7 +2384,7 @@
         },
         {
           "grupo": "1161",
-          "profesor": "Profesor No Asignado",
+          "profesor": "VALDEZ MONTES DE OCA KAREN",
           "horarios": [
             {
               "dia": "MA",
@@ -3490,7 +3490,7 @@
         },
         {
           "grupo": "1102",
-          "profesor": "Profesor No Asignado",
+          "profesor": "VELASCO MALDONADO PAULO CESAR",
           "horarios": [
             {
               "dia": "LU",
@@ -5313,6 +5313,31 @@
           "salon": "Materiales"
         },
         {
+          "grupo": "1364",
+          "profesor": "VELASCO MALDONADO PAULO CESAR",
+          "horarios": [
+            {
+              "dia": "LU",
+              "dia_nombre": "Lunes",
+              "inicio": "17:30",
+              "fin": "20:30"
+            },
+            {
+              "dia": "VI",
+              "dia_nombre": "Viernes",
+              "inicio": "17:30",
+              "fin": "20:30"
+            },
+            {
+              "dia": "MI",
+              "dia_nombre": "Miércoles",
+              "inicio": "17:30",
+              "fin": "19:30"
+            }
+          ],
+          "salon": "INF. JEFA."
+        },
+        {
           "grupo": "1371",
           "profesor": "DE FUENTES REYES JOSE ANTONIO",
           "horarios": [
@@ -5361,31 +5386,6 @@
             }
           ],
           "salon": "A-416,A-416"
-        },
-        {
-          "grupo": "1553",
-          "profesor": "OCHOA TOLENTINO MIGUEL ANGEL",
-          "horarios": [
-            {
-              "dia": "LU",
-              "dia_nombre": "Lunes",
-              "inicio": "17:30",
-              "fin": "20:30"
-            },
-            {
-              "dia": "VI",
-              "dia_nombre": "Viernes",
-              "inicio": "17:30",
-              "fin": "20:30"
-            },
-            {
-              "dia": "MI",
-              "dia_nombre": "Miércoles",
-              "inicio": "17:30",
-              "fin": "19:30"
-            }
-          ],
-          "salon": "INF. JEFA."
         }
       ]
     },

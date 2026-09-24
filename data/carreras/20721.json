@@ -1,7 +1,7 @@
 {
   "codigo": "20721",
   "nombre": "Derecho",
-  "fecha_consulta": "2026-09-23T17:00:34.947Z",
+  "fecha_consulta": "2026-09-24T17:00:35.819Z",
   "materias": {
     "1102": {
       "nombre": "HIST.D.LAS IDEAS POL.Y ECO.",
@@ -1913,7 +1913,7 @@
         },
         {
           "grupo": "1159",
-          "profesor": "MERCADO ALCATARA JUANA",
+          "profesor": "MERCADO ALCANTARA JUANA",
           "horarios": [
             {
               "dia": "MA",
@@ -3429,7 +3429,7 @@
               "fin": "11:00"
             }
           ],
-          "salon": "A-1007"
+          "salon": "A-1024"
         },
         {
           "grupo": "1302",
@@ -4797,7 +4797,7 @@
               "fin": "11:00"
             }
           ],
-          "salon": "A-1024"
+          "salon": "A-1007"
         },
         {
           "grupo": "1305",
@@ -9573,7 +9573,7 @@
               "fin": "09:00"
             }
           ],
-          "salon": "A-1014"
+          "salon": "A1003-1005"
         },
         {
           "grupo": "1902",
