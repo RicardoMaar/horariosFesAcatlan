@@ -1,7 +1,7 @@
 {
   "codigo": "20423",
   "nombre": "Sociología",
-  "fecha_consulta": "2026-09-24T17:01:51.164Z",
+  "fecha_consulta": "2026-09-25T17:01:50.588Z",
   "materias": {
     "1117": {
       "nombre": "ECONOMIA I",
@@ -833,7 +833,7 @@
         },
         {
           "grupo": "1351",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RECINAS LOPEZ SAUL",
           "horarios": [
             {
               "dia": "MA",
@@ -1529,7 +1529,7 @@
         },
         {
           "grupo": "1752",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RECINAS LOPEZ SAUL",
           "horarios": [
             {
               "dia": "MI",
@@ -2167,7 +2167,7 @@
       "grupos": [
         {
           "grupo": "1905",
-          "profesor": "Profesor No Asignado",
+          "profesor": "HERNANDEZ HERNANDEZ MONICA LIZBETH",
           "horarios": [
             {
               "dia": "MA",
@@ -2324,7 +2324,7 @@
         },
         {
           "grupo": "1957",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GUTIERREZ DIAZ PAULO CESAR",
           "horarios": [
             {
               "dia": "MA",
