@@ -3,7 +3,7 @@
   "slug": "portugues",
   "nombre": "PORTUGUÉS",
   "periodo": "2027-1",
-  "fecha_consulta": "2026-09-30T17:03:34.167Z",
+  "fecha_consulta": "2026-10-01T17:03:41.331Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "grupos": [
     {
@@ -93,7 +93,7 @@
     {
       "grupo": "PG01_09VP02",
       "clave": "PG01_09VP02",
-      "profesor": "",
+      "profesor": "MARIA EDUARDA MELO VIEIRA DE MAGALHAES",
       "horarios": [
         {
           "dia": "VI",
@@ -207,7 +207,7 @@
     {
       "grupo": "PG01_13AP02",
       "clave": "PG01_13AP02",
-      "profesor": "",
+      "profesor": "CHRISTOPHER MORALES CASTRO",
       "horarios": [
         {
           "dia": "LU",
@@ -495,7 +495,7 @@
     {
       "grupo": "PG03_13AP01",
       "clave": "PG03_13AP01",
-      "profesor": "CHRISTOPHER MORALES CASTRO",
+      "profesor": "MARIA EDUARDA MELO VIEIRA DE MAGALHAES",
       "horarios": [
         {
           "dia": "LU",
