@@ -1,6 +1,6 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-10-07T17:01:57.457Z",
+  "fecha_actualizacion": "2026-10-08T17:01:58.500Z",
   "fuente": "https://sistemas.acatlan.unam.mx/babel/GruposAbiertos.aspx",
   "total_idiomas": 15,
   "idiomas": {
@@ -36,8 +36,8 @@
       "codigo": "5",
       "slug": "frances",
       "nombre": "FRANCÉS",
-      "hash": "16514df53c6dcb1ccd66d6030ab0550449f8e0f975544e23cdf21eb24fe17cc9",
-      "last_changed": "2026-09-23T17:01:55.044Z"
+      "hash": "2fb9b34dec99a519539604c47948375cf0ba27af3aa8183d7c11ff61f465add4",
+      "last_changed": "2026-10-08T17:01:58.500Z"
     },
     "6": {
       "codigo": "6",
