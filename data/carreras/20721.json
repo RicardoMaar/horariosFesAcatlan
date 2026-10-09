@@ -1,7 +1,7 @@
 {
   "codigo": "20721",
   "nombre": "Derecho",
-  "fecha_consulta": "2026-10-08T17:00:39.402Z",
+  "fecha_consulta": "2026-10-09T17:00:38.659Z",
   "materias": {
     "1102": {
       "nombre": "HIST.D.LAS IDEAS POL.Y ECO.",
@@ -5182,7 +5182,7 @@
         },
         {
           "grupo": "1503",
-          "profesor": "GOYENECHEA OBESO GERARDO ANGEL",
+          "profesor": "VAZQUEZ RAMIREZ JOSE LUIS",
           "horarios": [
             {
               "dia": "MA",
@@ -5332,7 +5332,7 @@
         },
         {
           "grupo": "1509",
-          "profesor": "GOYENECHEA OBESO GERARDO ANGEL",
+          "profesor": "ESPINOSA QUINTERO CECILIA",
           "horarios": [
             {
               "dia": "LU",
@@ -6463,7 +6463,7 @@
         },
         {
           "grupo": "1503",
-          "profesor": "RAMIREZ CHELALA HERNANDEZ YESIN JULIETA",
+          "profesor": "VILCHIIS ACEVEDO ARACELI",
           "horarios": [
             {
               "dia": "MA",
@@ -7179,7 +7179,7 @@
         },
         {
           "grupo": "1702",
-          "profesor": "GOYENECHEA OBESO GERARDO ANGEL",
+          "profesor": "CHAVEZ ENRIQUEZ JORGE ARMANDO",
           "horarios": [
             {
               "dia": "JU",

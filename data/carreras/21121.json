@@ -1,7 +1,7 @@
 {
   "codigo": "21121",
   "nombre": "Ingeniería Civil",
-  "fecha_consulta": "2026-10-08T17:01:16.988Z",
+  "fecha_consulta": "2026-10-09T17:01:16.229Z",
   "materias": {
     "1115": {
       "nombre": "INGENIERIA CIVIL Y SOCIEDAD",
@@ -129,7 +129,7 @@
         },
         {
           "grupo": "1102",
-          "profesor": "Profesor No Asignado",
+          "profesor": "QUIROZ RICAUD CLAUDIA",
           "horarios": [
             {
               "dia": "LU",
@@ -2152,7 +2152,7 @@
         },
         {
           "grupo": "1552",
-          "profesor": "Profesor No Asignado",
+          "profesor": "PADILLA LOPEZ LEONARDO DANIEL",
           "horarios": [
             {
               "dia": "LU",
@@ -3033,7 +3033,7 @@
         },
         {
           "grupo": "1751",
-          "profesor": "Profesor No Asignado",
+          "profesor": "PADILLA LOPEZ LEONARDO DANIEL",
           "horarios": [
             {
               "dia": "LU",

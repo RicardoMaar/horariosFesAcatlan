@@ -1,7 +1,7 @@
 {
   "codigo": "20321",
   "nombre": "Actuaría",
-  "fecha_consulta": "2026-10-08T17:00:14.294Z",
+  "fecha_consulta": "2026-10-09T17:00:13.373Z",
   "materias": {
     "2032": {
       "nombre": "ANALISIS DE REGRESION",
@@ -821,7 +821,7 @@
         },
         {
           "grupo": "1151",
-          "profesor": "Profesor No Asignado",
+          "profesor": "VELAZQUEZ SANCHEZ JUAN JOSE",
           "horarios": [
             {
               "dia": "VI",
@@ -1758,7 +1758,7 @@
       "grupos": [
         {
           "grupo": "1301",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ENCISO MOLINA JULIO EDUARDO",
           "horarios": [
             {
               "dia": "SA",
@@ -1783,7 +1783,7 @@
         },
         {
           "grupo": "1302",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GONZALEZ CORTES KUAUHTEMOK",
           "horarios": [
             {
               "dia": "LU",
@@ -3647,7 +3647,7 @@
       "grupos": [
         {
           "grupo": "1851",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CISNEROS LOPEZ LUIS ANGEL",
           "horarios": [
             {
               "dia": "MI",
