@@ -1,7 +1,7 @@
 {
   "codigo": "20423",
   "nombre": "Sociología",
-  "fecha_consulta": "2026-10-09T17:01:54.027Z",
+  "fecha_consulta": "2026-10-10T17:01:50.116Z",
   "materias": {
     "1117": {
       "nombre": "ECONOMIA I",
@@ -280,7 +280,7 @@
         },
         {
           "grupo": "1102",
-          "profesor": "STEZANO PEREZ FEDERICO ANDRES",
+          "profesor": "SANCHEZ MARTINEZ NAHUM ABRAM",
           "horarios": [
             {
               "dia": "LU",
@@ -2028,7 +2028,7 @@
         },
         {
           "grupo": "1953",
-          "profesor": "STEZANO PEREZ FEDERICO ANDRES",
+          "profesor": "ROMERO MAGALLAN MARISOL",
           "horarios": [
             {
               "dia": "LU",
@@ -2142,7 +2142,7 @@
         },
         {
           "grupo": "1952",
-          "profesor": "STEZANO PEREZ FEDERICO ANDRES",
+          "profesor": "RUIZ NUÑEZ ALFONSO",
           "horarios": [
             {
               "dia": "LU",
@@ -2280,7 +2280,7 @@
       "grupos": [
         {
           "grupo": "1901",
-          "profesor": "ROMERO MAGALLAN MARISOL",
+          "profesor": "GONZALEZ BASILIO DAVID",
           "horarios": [
             {
               "dia": "MA",
@@ -2732,7 +2732,7 @@
       "grupos": [
         {
           "grupo": "Q905",
-          "profesor": "Profesor No Asignado",
+          "profesor": "HERNANDEZ HERNANDEZ MONICA LIZBETH",
           "horarios": [
             {
               "dia": "MA",
@@ -2902,7 +2902,7 @@
         },
         {
           "grupo": "Q957",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GUTIERREZ DIAZ PAULO CESAR",
           "horarios": [
             {
               "dia": "MA",
@@ -3744,7 +3744,7 @@
         },
         {
           "grupo": "Q351",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RECINAS LOPEZ SAUL",
           "horarios": [
             {
               "dia": "MA",
@@ -4053,7 +4053,7 @@
         },
         {
           "grupo": "Q102",
-          "profesor": "Profesor No Asignado",
+          "profesor": "NUÑEZ CRUZ MARIBEL",
           "horarios": [
             {
               "dia": "MA",
@@ -4389,7 +4389,7 @@
         },
         {
           "grupo": "Q752",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RECINAS LOPEZ SAUL",
           "horarios": [
             {
               "dia": "MI",

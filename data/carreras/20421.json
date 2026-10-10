@@ -1,7 +1,7 @@
 {
   "codigo": "20421",
   "nombre": "Relaciones Internacionales",
-  "fecha_consulta": "2026-10-09T17:01:47.703Z",
+  "fecha_consulta": "2026-10-10T17:01:43.758Z",
   "materias": {
     "1089": {
       "nombre": "ACCION EXTERIOR DE GOBIERNOS LOC",
@@ -210,7 +210,7 @@
       "grupos": [
         {
           "grupo": "1901",
-          "profesor": "PORTILLA GOMEZ JUAN MANUEL",
+          "profesor": "SAGAHON MONDRAGON JAZMIN RUBI",
           "horarios": [
             {
               "dia": "MA",
@@ -1119,7 +1119,7 @@
         },
         {
           "grupo": "1151",
-          "profesor": "Profesor No Asignado",
+          "profesor": "BUSTOS VAZQUEZ DIANA",
           "horarios": [
             {
               "dia": "LU",
@@ -1219,7 +1219,7 @@
         },
         {
           "grupo": "1162",
-          "profesor": "Profesor No Asignado",
+          "profesor": "LANDA MURGA OSCAR GIOVANNI",
           "horarios": [
             {
               "dia": "LU",
@@ -1332,7 +1332,7 @@
         },
         {
           "grupo": "1151",
-          "profesor": "MONTOYA RESENDIZ YOANI",
+          "profesor": "FUENTES ARZATE ITXEL IRAIS",
           "horarios": [
             {
               "dia": "MA",
@@ -2817,7 +2817,7 @@
         },
         {
           "grupo": "1511",
-          "profesor": "Profesor No Asignado",
+          "profesor": "BUSTOS VAZQUEZ DIANA",
           "horarios": [
             {
               "dia": "LU",
@@ -3251,7 +3251,7 @@
         },
         {
           "grupo": "1702",
-          "profesor": "VAZQUEZ CRUZ ERNESTO",
+          "profesor": "TREJO DIAZ MINERVA ANALI",
           "horarios": [
             {
               "dia": "MA",
@@ -3352,7 +3352,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "PORTILLA GOMEZ JUAN MANUEL",
+          "profesor": "LAZARE BENAVIDES ROBERTO",
           "horarios": [
             {
               "dia": "MA",
@@ -4140,7 +4140,7 @@
       "grupos": [
         {
           "grupo": "Q301",
-          "profesor": "Profesor No Asignado",
+          "profesor": "SANDOVAL CERVERA SERGIO ALBERTO",
           "horarios": [
             {
               "dia": "LU",

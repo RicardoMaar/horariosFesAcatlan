@@ -1,7 +1,7 @@
 {
   "codigo": "20422",
   "nombre": "Ciencias Políticas y Admon. Pública",
-  "fecha_consulta": "2026-10-09T17:00:25.900Z",
+  "fecha_consulta": "2026-10-10T17:00:22.071Z",
   "materias": {
     "1059": {
       "nombre": "ADMINISTRACION AMBIENTAL MUNICIP",
@@ -153,7 +153,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "Profesor No Asignado",
+          "profesor": "DUARTE TOVAR ALBERTO",
           "horarios": [
             {
               "dia": "MA",
@@ -430,7 +430,7 @@
         },
         {
           "grupo": "1153",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CALDERON PEREZ JOSE MANUEL",
           "horarios": [
             {
               "dia": "MA",
@@ -908,7 +908,7 @@
         },
         {
           "grupo": "1102",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CALDERON PEREZ JOSE MANUEL",
           "horarios": [
             {
               "dia": "MA",
@@ -1249,7 +1249,7 @@
         },
         {
           "grupo": "1303",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CALDERON PEREZ JOSE MANUEL",
           "horarios": [
             {
               "dia": "LU",
@@ -1451,7 +1451,7 @@
         },
         {
           "grupo": "1302",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GARCIA MARTINEZ JENIFFER",
           "horarios": [
             {
               "dia": "MA",
@@ -2353,7 +2353,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MEJIA GUZMAN TABATHA EVELYN NICOLE",
           "horarios": [
             {
               "dia": "LU",
@@ -2378,7 +2378,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CALDERON PEREZ JOSE MANUEL",
           "horarios": [
             {
               "dia": "LU",
@@ -3533,7 +3533,7 @@
       "grupos": [
         {
           "grupo": "Q701",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ESQUIVIAS RODRIGUEZ ROGELIO ALEJANDRO",
           "horarios": [
             {
               "dia": "LU",
@@ -3558,7 +3558,7 @@
       "grupos": [
         {
           "grupo": "Q701",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ORDUÑA REYES FRANCISCO",
           "horarios": [
             {
               "dia": "LU",
