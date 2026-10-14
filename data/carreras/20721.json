@@ -1,7 +1,7 @@
 {
   "codigo": "20721",
   "nombre": "Derecho",
-  "fecha_consulta": "2026-10-13T17:00:33.517Z",
+  "fecha_consulta": "2026-10-14T17:00:32.042Z",
   "materias": {
     "1102": {
       "nombre": "HIST.D.LAS IDEAS POL.Y ECO.",
@@ -603,7 +603,7 @@
         },
         {
           "grupo": "1104",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GONZALEZ MOYA DAVID ALEJANDRO",
           "horarios": [
             {
               "dia": "VI",
@@ -3212,7 +3212,7 @@
         },
         {
           "grupo": "1308",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CRUZ SILVA ADRIAN",
           "horarios": [
             {
               "dia": "LU",
@@ -8236,7 +8236,7 @@
         },
         {
           "grupo": "1703",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CORTIÑAS BARAJAS JUAN",
           "horarios": [
             {
               "dia": "MA",
@@ -10967,7 +10967,7 @@
       "grupos": [
         {
           "grupo": "1905",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MARQUEZ ALONSO MARIANA",
           "horarios": [
             {
               "dia": "LU",
