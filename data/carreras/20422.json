@@ -1,7 +1,7 @@
 {
   "codigo": "20422",
   "nombre": "Ciencias Políticas y Admon. Pública",
-  "fecha_consulta": "2026-10-19T17:00:22.902Z",
+  "fecha_consulta": "2026-10-20T17:00:18.447Z",
   "materias": {
     "1059": {
       "nombre": "ADMINISTRACION AMBIENTAL MUNICIP",
@@ -808,7 +808,7 @@
         },
         {
           "grupo": "1103",
-          "profesor": "VEGA MONTOYA LETICIA",
+          "profesor": "ROSALES ALVARADO MIGUEL ANGEL",
           "horarios": [
             {
               "dia": "LU",
