@@ -1,7 +1,7 @@
 {
   "codigo": "20226",
   "nombre": "Diseño Gráfico",
-  "fecha_consulta": "2026-10-28T17:01:24.338Z",
+  "fecha_consulta": "2026-10-29T17:00:39.781Z",
   "materias": {
     "2000": {
       "nombre": "HABILIDADES INTERPERSONALES",
@@ -202,7 +202,7 @@
       "grupos": [
         {
           "grupo": "1701",
-          "profesor": "Profesor No Asignado",
+          "profesor": "LUNA GONZALEZ ARMANDO",
           "horarios": [
             {
               "dia": "MA",
@@ -286,7 +286,7 @@
         },
         {
           "grupo": "1703",
-          "profesor": "Profesor No Asignado",
+          "profesor": "PIÑA PEREZ ESTEBAN",
           "horarios": [
             {
               "dia": "JU",
@@ -402,7 +402,7 @@
         },
         {
           "grupo": "1704",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MONTESINOS SANTIAGO JAVIER VITALIANO",
           "horarios": [
             {
               "dia": "VI",
@@ -731,7 +731,7 @@
         },
         {
           "grupo": "1952",
-          "profesor": "Profesor No Asignado",
+          "profesor": "SANTOS MONTER MIRIAM VERONICA",
           "horarios": [
             {
               "dia": "LU",
@@ -2578,7 +2578,7 @@
         },
         {
           "grupo": "1304",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GALLAGA FLORES ADRIANA",
           "horarios": [
             {
               "dia": "JU",
@@ -2591,7 +2591,7 @@
         },
         {
           "grupo": "1305",
-          "profesor": "Profesor No Asignado",
+          "profesor": "PAEZ PUENTE ANGEL OMAR",
           "horarios": [
             {
               "dia": "VI",
@@ -2714,7 +2714,7 @@
         },
         {
           "grupo": "1305",
-          "profesor": "Profesor No Asignado",
+          "profesor": "TORRES HERNANDEZ ADRIAN",
           "horarios": [
             {
               "dia": "MA",
@@ -2824,7 +2824,7 @@
         },
         {
           "grupo": "1304",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ESPINOSA AGUILAR LAURA ELENA",
           "horarios": [
             {
               "dia": "MA",
@@ -2850,7 +2850,7 @@
         },
         {
           "grupo": "1351",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ANDRADE SALINAS PEDRO ANTONIO",
           "horarios": [
             {
               "dia": "LU",
@@ -3122,7 +3122,7 @@
         },
         {
           "grupo": "1553",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MARTINEZ VEGA ANDRES",
           "horarios": [
             {
               "dia": "LU",
@@ -3778,7 +3778,7 @@
         },
         {
           "grupo": "1552",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CARVAJAL GARCIA AIDA",
           "horarios": [
             {
               "dia": "MA",
@@ -4056,7 +4056,7 @@
         },
         {
           "grupo": "1754",
-          "profesor": "Profesor No Asignado",
+          "profesor": "LEYVA REUL FEDERICO",
           "horarios": [
             {
               "dia": "MI",
@@ -4094,7 +4094,7 @@
         },
         {
           "grupo": "1702",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ARTEAGA ORTIZ DALIA CONSUELO",
           "horarios": [
             {
               "dia": "LU",
@@ -4189,7 +4189,7 @@
         },
         {
           "grupo": "1752",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GUZMAN SANTOYO MAYRA FABIOLA",
           "horarios": [
             {
               "dia": "MA",
