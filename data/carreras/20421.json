@@ -1,7 +1,7 @@
 {
   "codigo": "20421",
   "nombre": "Relaciones Internacionales",
-  "fecha_consulta": "2026-11-02T17:01:39.401Z",
+  "fecha_consulta": "2026-11-03T17:01:39.707Z",
   "materias": {
     "1089": {
       "nombre": "ACCION EXTERIOR DE GOBIERNOS LOC",
@@ -3428,7 +3428,7 @@
         },
         {
           "grupo": "1752",
-          "profesor": "HERNANDEZ LEGORRETA CUTBERTO",
+          "profesor": "MAZA ZEPEDA RODRIGO",
           "horarios": [
             {
               "dia": "MA",
