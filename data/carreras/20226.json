@@ -1,7 +1,7 @@
 {
   "codigo": "20226",
   "nombre": "Diseño Gráfico",
-  "fecha_consulta": "2026-11-06T17:00:41.412Z",
+  "fecha_consulta": "2026-11-07T17:00:39.141Z",
   "materias": {
     "2000": {
       "nombre": "HABILIDADES INTERPERSONALES",
@@ -1382,7 +1382,7 @@
       "grupos": [
         {
           "grupo": "1101",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CABALLERO GONZALEZ MARIANA",
           "horarios": [
             {
               "dia": "MI",

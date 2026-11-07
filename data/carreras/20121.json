@@ -1,7 +1,7 @@
 {
   "codigo": "20121",
   "nombre": "Arquitectura",
-  "fecha_consulta": "2026-11-06T17:00:16.298Z",
+  "fecha_consulta": "2026-11-07T17:00:14.076Z",
   "materias": {
     "1100": {
       "nombre": "ARTE Y ARQUITECTURA",
@@ -1928,7 +1928,7 @@
         },
         {
           "grupo": "1161",
-          "profesor": "ROSAS VENEGAS DIETER BENJAMIN",
+          "profesor": "GARCIA SOTO FATIMA",
           "horarios": [
             {
               "dia": "MA",
@@ -2775,7 +2775,7 @@
         },
         {
           "grupo": "1162",
-          "profesor": "GARCIA LUNA MARTHA CELENE",
+          "profesor": "CASTRO GARCIA VERONICA GUADALUPE",
           "horarios": [
             {
               "dia": "MA",
@@ -3140,7 +3140,7 @@
         },
         {
           "grupo": "1111",
-          "profesor": "ALVAREZ PICHARDO MARCELA OSSIRIS",
+          "profesor": "LUCAS MARTINEZ ALMA LESLIE",
           "horarios": [
             {
               "dia": "LU",
@@ -4270,7 +4270,7 @@
         },
         {
           "grupo": "1312",
-          "profesor": "CONTRERAS LARA CARLA ADRIANA",
+          "profesor": "PLATA MANCILLA MARIA DE MONTSERRAT",
           "horarios": [
             {
               "dia": "MI",
@@ -4361,7 +4361,7 @@
         },
         {
           "grupo": "1363",
-          "profesor": "PLATA MANCILLA MARIA DE MONTSERRAT",
+          "profesor": "CONTRERAS LARA CARLA ADRIANA",
           "horarios": [
             {
               "dia": "MI",
@@ -6482,7 +6482,7 @@
       "grupos": [
         {
           "grupo": "1501",
-          "profesor": "COLINAS SANZ RAFAEL",
+          "profesor": "BARRAGAN PEREZ JOSUE ANTONIO",
           "horarios": [
             {
               "dia": "MA",
@@ -7939,7 +7939,7 @@
         },
         {
           "grupo": "1762",
-          "profesor": "GARCIA ESPINOSA JORGE",
+          "profesor": "CRUZ DESCHAMPS INES OTMARA",
           "horarios": [
             {
               "dia": "MA",
@@ -8179,7 +8179,7 @@
         },
         {
           "grupo": "1761",
-          "profesor": "COLINAS SANZ RAFAEL",
+          "profesor": "NIETO ENRIQUEZ ALEX",
           "horarios": [
             {
               "dia": "MA",
@@ -8204,7 +8204,7 @@
       "grupos": [
         {
           "grupo": "1801",
-          "profesor": "GARCIA ESPINOSA JORGE",
+          "profesor": "TAVARES VELASCO ALEJANDRO ATANASIO",
           "horarios": [
             {
               "dia": "MA",
@@ -8740,7 +8740,7 @@
       "grupos": [
         {
           "grupo": "1901",
-          "profesor": "GARCIA ESPINOSA JORGE",
+          "profesor": "CRUZ JUAREZ CLAUDIA HAYDEE",
           "horarios": [
             {
               "dia": "LU",
@@ -8835,7 +8835,7 @@
         },
         {
           "grupo": "1951",
-          "profesor": "COLINAS SANZ RAFAEL",
+          "profesor": "GARCIA ROMERO RODRIGO JAVIER",
           "horarios": [
             {
               "dia": "MA",
