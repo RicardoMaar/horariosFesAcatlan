@@ -1,6 +1,12 @@
 {
   "periodo": "2027-1",
-  "fecha_actualizacion": "2026-11-15T17:01:53.793Z",
-  "total_cambios": 0,
-  "idiomas": []
+  "fecha_actualizacion": "2026-11-16T17:01:54.363Z",
+  "total_cambios": 1,
+  "idiomas": [
+    {
+      "codigo": "1",
+      "slug": "aleman",
+      "nombre": "ALEMÁN"
+    }
+  ]
 }
