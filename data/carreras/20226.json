@@ -1,7 +1,7 @@
 {
   "codigo": "20226",
   "nombre": "Diseño Gráfico",
-  "fecha_consulta": "2026-11-16T17:00:39.959Z",
+  "fecha_consulta": "2026-11-17T17:00:40.466Z",
   "materias": {
     "2000": {
       "nombre": "HABILIDADES INTERPERSONALES",
@@ -3180,7 +3180,7 @@
         },
         {
           "grupo": "1503",
-          "profesor": "RAMIREZ HERNANDEZ ESTHER",
+          "profesor": "TORRES HERNANDEZ ADRIAN",
           "horarios": [
             {
               "dia": "MI",
