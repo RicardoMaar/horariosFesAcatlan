@@ -1,7 +1,7 @@
 {
   "codigo": "20321",
   "nombre": "Actuaría",
-  "fecha_consulta": "2026-11-17T17:00:08.836Z",
+  "fecha_consulta": "2026-11-18T17:00:09.076Z",
   "materias": {
     "2032": {
       "nombre": "ANALISIS DE REGRESION",
@@ -53,7 +53,7 @@
         },
         {
           "grupo": "1756",
-          "profesor": "Profesor No Asignado",
+          "profesor": "VARGAS CARRANZA ALDO MAURICIO",
           "horarios": [
             {
               "dia": "MA",
@@ -1727,7 +1727,7 @@
         },
         {
           "grupo": "1352",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CAUICH GARCIA RICARDO ALEXIS",
           "horarios": [
             {
               "dia": "JU",
