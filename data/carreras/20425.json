@@ -1,7 +1,7 @@
 {
   "codigo": "20425",
   "nombre": "Comunicación",
-  "fecha_consulta": "2026-11-19T17:00:27.826Z",
+  "fecha_consulta": "2026-11-20T17:00:28.304Z",
   "materias": {
     "1111": {
       "nombre": "BASES TEO. DE LA COMUNICACIÓN",
@@ -319,7 +319,7 @@
         },
         {
           "grupo": "1151",
-          "profesor": "Profesor No Asignado",
+          "profesor": "TOVAR MEZA MELISA",
           "horarios": [
             {
               "dia": "JU",
@@ -1274,7 +1274,7 @@
         },
         {
           "grupo": "1102",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GARCIA VAZQUEZ ERIK EDUARDO",
           "horarios": [
             {
               "dia": "MA",
@@ -2660,7 +2660,7 @@
         },
         {
           "grupo": "1351",
-          "profesor": "Profesor No Asignado",
+          "profesor": "ALDABA GUZMAN ANA GEORGINA",
           "horarios": [
             {
               "dia": "MA",
@@ -3462,7 +3462,7 @@
         },
         {
           "grupo": "1555",
-          "profesor": "GOMEZ GONZALEZ HILDA SARAY",
+          "profesor": "CORNEJO GARCIA JONATHAN",
           "horarios": [
             {
               "dia": "MA",
@@ -3772,7 +3772,7 @@
         },
         {
           "grupo": "1513",
-          "profesor": "LANDA VARGAS EVEREST ALAM",
+          "profesor": "CRUZ PAZOS RODOLFO SALVADOR",
           "horarios": [
             {
               "dia": "LU",
@@ -3930,7 +3930,7 @@
       "grupos": [
         {
           "grupo": "1501",
-          "profesor": "Profesor No Asignado",
+          "profesor": "HERNANDEZ ORTEGA JULIO CESAR",
           "horarios": [
             {
               "dia": "MA",
@@ -3968,7 +3968,7 @@
         },
         {
           "grupo": "1503",
-          "profesor": "Profesor No Asignado",
+          "profesor": "MONTOYA MONTELONGO VIRGINIA PENELOPE",
           "horarios": [
             {
               "dia": "MA",
@@ -4663,7 +4663,7 @@
       "grupos": [
         {
           "grupo": "1702",
-          "profesor": "Profesor No Asignado",
+          "profesor": "CERVANTES AYUSO DANIEL MANUEL",
           "horarios": [
             {
               "dia": "MI",
@@ -4785,7 +4785,7 @@
         },
         {
           "grupo": "1751",
-          "profesor": "Profesor No Asignado",
+          "profesor": "RUEDA FRIAS SALVADOR RIVELINO",
           "horarios": [
             {
               "dia": "MA",
@@ -4873,7 +4873,7 @@
         },
         {
           "grupo": "1751",
-          "profesor": "Profesor No Asignado",
+          "profesor": "GONZALEZ RUIZ SANDRA IVETTE",
           "horarios": [
             {
               "dia": "MA",
@@ -5137,7 +5137,7 @@
         },
         {
           "grupo": "1702",
-          "profesor": "VELAZQUEZ TRUJILLO MARIA ANGELICA",
+          "profesor": "RIVERA FLORES HECTOR",
           "horarios": [
             {
               "dia": "MA",
@@ -5390,7 +5390,7 @@
         },
         {
           "grupo": "1751",
-          "profesor": "Profesor No Asignado",
+          "profesor": "AGUILAR SANTIAGO LUIS EDUARDO",
           "horarios": [
             {
               "dia": "MA",
@@ -5803,7 +5803,7 @@
         },
         {
           "grupo": "1953",
-          "profesor": "Profesor No Asignado",
+          "profesor": "TOXTEGA GUEVARA PAOLA",
           "horarios": [
             {
               "dia": "LU",
